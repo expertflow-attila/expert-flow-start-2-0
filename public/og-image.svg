@@ -1,10 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
-  <rect width="1200" height="630" fill="#F5F5F0"/>
-  <rect x="40" y="40" width="1120" height="550" rx="20" fill="#1A1A17"/>
-  <text x="100" y="160" font-family="ui-monospace,monospace" font-size="22" letter-spacing="3" fill="#C9A77C">EXPERT FLOW START 2.0 · 12 HETES KURZUS</text>
-  <text x="100" y="290" font-family="Georgia,serif" font-weight="600" font-size="84" fill="#F5F5F0">12 hét. 12 modul.</text>
-  <text x="100" y="380" font-family="Georgia,serif" font-weight="600" font-size="84" font-style="italic" fill="#A0AEA3">12 másolható prompt.</text>
-  <text x="100" y="490" font-family="-apple-system,sans-serif" font-size="28" fill="#A0AEA3">Magyar szolgáltató szakértőknek · IDE-alapú online vállalkozás · élő AI Operációs Rendszer</text>
-  <circle cx="1080" cy="120" r="12" fill="#3B82F6"/>
-  <text x="100" y="555" font-family="ui-monospace,monospace" font-size="20" letter-spacing="2" fill="#6B7B6E">EXPERTFLOW.HU</text>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="0%" r="70%">
+      <stop offset="0%" stop-color="#b9a7e0" stop-opacity="0.18"/>
+      <stop offset="60%" stop-color="#b9a7e0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#0a0a0c"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <rect x="0" y="628" width="1200" height="2" fill="#1f1f23"/>
+  <text x="80" y="120" font-family="ui-monospace,monospace" font-size="14" letter-spacing="3.5" fill="#b9a7e0">EXPERT FLOW START · 2.0 · 12 HETES KURZUS</text>
+  <circle cx="60" cy="115" r="4" fill="#b9a7e0"/>
+  <text x="80" y="280" font-family="Georgia,serif" font-weight="400" font-size="92" fill="#fafafa">Expert Flow</text>
+  <text x="80" y="380" font-family="Georgia,serif" font-weight="400" font-size="92" font-style="italic" fill="#b9a7e0">Start</text>
+  <text x="80" y="470" font-family="-apple-system,sans-serif" font-size="22" fill="#a1a1aa">12 hét. 12 modul. 12 másolható prompt.</text>
+  <text x="80" y="500" font-family="-apple-system,sans-serif" font-size="22" fill="#a1a1aa">Magyar szolgáltató szakértőknek · IDE-alapú online vállalkozás · élő AI Operációs Rendszer</text>
+  <text x="80" y="585" font-family="ui-monospace,monospace" font-size="12" letter-spacing="3" fill="#8b8b94">EXPERTFLOW.HU</text>
 </svg>

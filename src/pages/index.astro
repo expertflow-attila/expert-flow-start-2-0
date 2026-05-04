@@ -21,28 +21,28 @@ const modules: ModuleData[] = modulesData;
 
 const phases = [
   {
-    short: "I",
+    short: "I. fázis",
     weeks: "1–3. hét",
     title: "Mit adsz el és kinek?",
     intro: "A tudásod magja, a vevőd, az ajánlatod. Ez az alap; ha ezek nincsenek tisztán, a többi 9 hét nem működik.",
     moduleIds: ["01", "02", "03"],
   },
   {
-    short: "II",
+    short: "II. fázis",
     weeks: "4–6. hét",
     title: "Hogyan találjanak meg?",
     intro: "Eszközök setup-ja (VS Code + Claude Code + Sybell + Google Workspace), weboldal Vercel-en, copy és landing.",
     moduleIds: ["04", "05", "06"],
   },
   {
-    short: "III",
+    short: "III. fázis",
     weeks: "7–9. hét",
     title: "Hogyan szólítsd meg őket?",
     intro: "Konzultációs funnel (Cal.com), ügyfél-szerzés ismerős-listáról, lead magnet és email lista.",
     moduleIds: ["07", "08", "09"],
   },
   {
-    short: "IV",
+    short: "IV. fázis",
     weeks: "10–12. hét",
     title: "Háttér és számok",
     intro: "Google Sheets CRM + Gmail/Drive struktúra, GA4 mérés, jogi és számlázási minimum.",
@@ -57,11 +57,11 @@ const faqs = [
   },
   {
     q: "Mi az a Claude Code és miért nem ChatGPT?",
-    a: "A Claude Code egy parancssorba és VS Code-ba épülő AI-asszisztens, ami a fájljaidat látja, kódot ír, fájlokat szerkeszt — nem chat-ablak. A ChatGPT erre nem alkalmas: vagy a Codex/Cursor szintű alternatíva kellene. Mi azért választottuk a Claude Code-ot, mert a leghosszabb kontextust és a legpontosabb hangtartást adja magyar projektekhez."
+    a: "A Claude Code egy parancssorba és VS Code-ba épülő AI-asszisztens, ami a fájljaidat látja, kódot ír, fájlokat szerkeszt — nem chat-ablak. A ChatGPT erre nem alkalmas: vagy a Codex/Cursor szintű alternatíva kellene. A Claude Code a leghosszabb kontextust és a legpontosabb hangtartást adja magyar projektekhez — ezért épül erre az egész 12 hét."
   },
   {
     q: "Programozni nem tudok. Akkor is működik?",
-    a: "Igen — pontosan azért építettem így. Egyetlen sor kódot sem fogsz „írni” — a Claude Code-nak elmondod magyarul, mit szeretnél, és ő generálja a HTML-t, JS-t, scripteket. A te dolgod, hogy értsd, mit akarsz (1-3. modul), és hogy ránézz az output-ra, hogy az-e."
+    a: "Igen — pontosan azért épül így. Egyetlen sor kódot sem fogsz „írni” — a Claude Code-nak elmondod magyarul, mit szeretnél, és ő generálja a HTML-t, JS-t, scripteket. A te dolgod, hogy értsd, mit akarsz (1-3. modul), és hogy ránézz az output-ra, hogy az-e."
   },
   {
     q: "Mennyi időt igényel hetente?",
@@ -69,12 +69,32 @@ const faqs = [
   },
   {
     q: "Mi az EV-AIOS és mi köze ehhez a kurzushoz?",
-    a: "Az EV-AIOS egy ingyenes, MIT-licenszelt sablon GitHub-on (linkelve a footerben), ami a Claude Code-ot a személyes AI Operációs Rendszereddé alakítja. A 12 modul végére neked is lesz egy hasonló: a saját context fájljaiddal, kapcsolatokkal, döntésnaplóval. A kurzus modulonkénti promptjai egymásra épülnek, és az output-juk az AIOS-be kerül."
+    a: "Az EV-AIOS egy ingyenes, MIT-licenszelt sablon GitHub-on, ami a Claude Code-ot a személyes AI Operációs Rendszereddé alakítja. A 12 modul végére neked is lesz egy hasonló: a saját context fájljaiddal, kapcsolatokkal, döntésnaplóval. A modulonkénti promptok egymásra épülnek, és az output-juk az AIOS-be kerül."
   },
   {
     q: "Magyar piacra szabott a tartalom?",
     a: "Igen, a 12. modul kifejezetten magyar (KATA, NAV, Számlázz.hu, ÁSZF), a 8. modul a magyar B2B-ismerős kultúrához igazítva, a 4. modul a Sybell domain-szolgáltatóval. A 38 esettanulmány nemzetközi (mert magyar nyelvű részletes elemzés alig létezik), de mindegyiket magyar piaci szemüvegen át mutatjuk be — nem másolunk, hanem adaptálunk."
   },
+];
+
+const outcomes = [
+  { t: "Egyoldalas weboldal", d: "Saját domaineden, HTTPS-szel, mobilbarát, Vercel-en hostolva" },
+  { t: "Külön landing oldal", d: "Egy konkrét szolgáltatásra, 7-elemes sales-szerkezettel" },
+  { t: "Lead magnet PDF + Kit funnel", d: "5-10 oldalas PDF + 5 emailes welcome sorozat automatikusan" },
+  { t: "Cal.com konzultációs funnel", d: "Foglalás → 4 automatikus email → no-show kezelés" },
+  { t: "Google Sheets CRM", d: "4 munkalap + Apps Script automatizációk + Gmail/Drive struktúra" },
+  { t: "GA4 mérőrendszer", d: "Öt esemény + heti dashboard a saját Sheets-edben" },
+  { t: "Jogilag rendben", d: "Vállalkozási forma, Számlázz.hu/Billingo, ÁSZF, Adatvédelem" },
+  { t: "Saját AI Operációs Rendszer", d: "GitHub-on, EV-AIOS alapra építve, a saját context-eddel" },
+];
+
+const bonusItems = [
+  { num: "17", title: "Landing page minták", desc: "5 referencia-minta a 6. modulhoz, magyarul kommentelve." },
+  { num: "18", title: "Funnel típusok", desc: "4 funnel-architektúra (Capture / Application / Webinar / Tripwire)." },
+  { num: "19", title: "AI eszköz-skillek", desc: "6 letölthető Claude Code skill ismétlődő workflow-khoz." },
+  { num: "20", title: "Az első digitális terméked", desc: "Ahogy ez a kurzus is készült — videókurzus AI-vágással." },
+  { num: "22", title: "Expert Flow tech-stack", desc: "52 szolgáltatás 11 kategóriában: mire használom, mennyibe kerül." },
+  { num: "23", title: "38 esettanulmány tár", desc: "A modulokba osztott esetek külön, részletes Drive-anyagokkal." },
 ];
 ---
 
@@ -83,47 +103,34 @@ const faqs = [
   description="Magyar szolgáltató szakértőknek: 12 hét alatt felépítesz egy működő, IDE-alapú online vállalkozást. Minden modulhoz másolható Claude Code prompt + élő AI Operációs Rendszer."
 >
 
-  <section class="hero">
-    <div class="container container--narrow">
-      <p class="eyebrow">Expert Flow Start 2.0 · 12 hetes kurzus</p>
-      <h1>
-        12 hét. 12 modul. 12 másolható <em>prompt</em>.
-      </h1>
-      <p class="hero__lede">
-        Magyar szolgáltató szakértőknek, akik mellékállásban vagy
-        újrakezdőként indulnak. A 12. hét végére van weboldalad, lead
-        magneted, konzultációs funneled, CRM-ed, méréseid — és egy
-        működő, élő AI Operációs Rendszered, amit Claude Code-dal
-        építettél fel.
-      </p>
-      <div class="hero__ctas">
-        <a href="#modulok" class="btn btn--primary">Mutasd a 12 modult</a>
-        <a href="#hogyan" class="btn btn--secondary">Hogyan működik?</a>
-      </div>
-      <div class="hero__meta">
-        <div>
-          <strong>12</strong>
-          építő modul + intro/outro
-        </div>
-        <div>
-          <strong>12</strong>
-          IDE-be másolható prompt
-        </div>
-        <div>
-          <strong>38</strong>
-          nemzetközi esettanulmány
-        </div>
-        <div>
-          <strong>1</strong>
-          élő AI Operációs Rendszer
-        </div>
-      </div>
+  <header class="hero">
+    <div class="eyebrow">12 hét · ahogy én építem fel · v2.0</div>
+    <h1>Expert Flow <em>Start</em></h1>
+    <p class="lede">
+      12 hét, 12 modul, 12 másolható prompt — magyar szolgáltató
+      szakértőknek. A 12. hét végére van weboldalad, lead magneted,
+      konzultációs funneled, CRM-ed, méréseid — és egy működő, élő AI
+      Operációs Rendszered, amit Claude Code-dal építettél fel.
+    </p>
+    <div class="stats">
+      <div class="stat"><b>12</b><span>hét</span></div>
+      <div class="stat"><b>12</b><span>prompt</span></div>
+      <div class="stat"><b>37</b><span>esettanulmány</span></div>
+      <div class="stat"><b>1</b><span>élő AIOS</span></div>
     </div>
-  </section>
+    <div class="hero-ctas">
+      <a class="hero-cta" href="#modulok">
+        <span>Mutasd a 12 modult</span>
+        <span class="arrow">→</span>
+      </a>
+      <a class="hero-cta hero-cta--ghost" href="#hogyan">Hogyan működik?</a>
+    </div>
+  </header>
 
-  <section class="litmusz" aria-labelledby="litmusz-cim">
-    <div class="container container--narrow">
-      <p class="eyebrow" style="color: var(--warm);" id="litmusz-cim">A litmusz teszt</p>
+  <section class="pull" aria-labelledby="litmusz-heading">
+    <div class="pull__inner">
+      <span class="eyebrow">A litmusz teszt</span>
+      <h2 id="litmusz-heading" class="sr-only">A litmusz teszt</h2>
       <blockquote>
         Miközben nem ülsz a géped előtt, az AIOS-od megfigyel egy valós
         eseményt és kimenetet készít, ami gyorsabb és pontosabb, mint
@@ -133,13 +140,15 @@ const faqs = [
     </div>
   </section>
 
-  <section id="hogyan" aria-labelledby="hogyan-cim">
-    <div class="container">
-      <p class="eyebrow">Hogyan működik</p>
-      <h2 id="hogyan-cim" style="max-width: 22ch;">
-        Videót nézel. Promptot másolsz. Az AIOS-od nő.
-      </h2>
-      <p style="max-width: 60ch;">
+  <section id="hogyan">
+    <div class="container container--narrow">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Hogyan működik</span>
+          <h2>Videót nézel. Promptot másolsz. <em>Az AIOS-od nő.</em></h2>
+        </div>
+      </div>
+      <p class="section-intro">
         Ez a kurzus nem PDF-letöltések gyűjteménye, és nem 8 órás videó-maraton.
         Heti 1 modul, mindegyik három lépésre szétbontva — és minden modul
         végén az IDE-d konkrétabb, mint az előtt volt.
@@ -157,158 +166,118 @@ const faqs = [
         </article>
         <article class="step">
           <span class="step__num">03 · 2–4 óra</span>
-          <h3>A heti darab kerül az AIOS-be</h3>
-          <p>A modul-output (avatár, ajánlat, weboldal-vázlat, prompt) bekerül a saját <code>context/</code> mappádba — és ez a következő modul bemenete lesz.</p>
+          <h3>A heti darab a saját AIOS-ben</h3>
+          <p>A modul-output (avatár, ajánlat, weboldal-vázlat, prompt) bekerül a saját <code>context/</code> mappádba — ez a következő modul bemenete lesz.</p>
         </article>
       </div>
     </div>
   </section>
 
-  <section id="modulok" aria-labelledby="modulok-cim">
+  <section id="modulok">
     <div class="container">
-      <p class="eyebrow">A 12 modul · 4 fázis</p>
-      <h2 id="modulok-cim" style="max-width: 22ch;">
-        Egy hét = egy modul = egy kézzelfogható darab.
-      </h2>
-      <p style="max-width: 56ch;">
-        Minden modulnál megnézheted a leckéket, az output-ot,
-        a másolható promptot, és a kapcsolódó nemzetközi esettanulmányokat.
-        Kattints rá bármelyik modulra a részletekért.
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">A 12 modul · 4 fázis</span>
+          <h2>Egy hét = egy modul = <em>egy kézzelfogható darab.</em></h2>
+        </div>
+        <span class="meta">12 héten át · saját tempóban</span>
+      </div>
+      <p class="section-intro">
+        Minden modulnál megnézheted a leckéket, az output-ot, a másolható
+        promptot, és a kapcsolódó nemzetközi esettanulmányokat. Kattints
+        rá bármelyik modulra a részletekért.
       </p>
 
-      <div class="phases">
-        {phases.map((phase) => (
-          <div class="phase">
-            <div class="phase__header">
-              <span class="phase__num">{phase.short}</span>
-              <div>
-                <h3 class="phase__title">{phase.title}</h3>
-                <span class="phase__weeks">{phase.weeks}</span>
-              </div>
-            </div>
-            <p style="max-width: 56ch; margin-bottom: 2rem;">{phase.intro}</p>
+      {phases.map((phase) => (
+        <section class="phase-section">
+          <div class="phase-header">
+            <span class="phase-num">{phase.short}</span>
+            <span class="phase-title">{phase.title}</span>
+            <span class="phase-meta">{phase.weeks}</span>
+          </div>
+          <p class="phase-intro">{phase.intro}</p>
+          <div class="grid">
             {modules
               .filter((m) => phase.moduleIds.includes(m.id))
-              .map((m) => <Module module={m} />)}
+              .map((m) => <Module module={m} kind="epito" />)}
           </div>
-        ))}
-      </div>
+        </section>
+      ))}
     </div>
   </section>
 
-  <section id="bonusz" class="bonus" aria-labelledby="bonusz-cim">
-    <div class="container">
-      <p class="eyebrow">A 12 hét után</p>
-      <h2 id="bonusz-cim" style="max-width: 22ch;">
-        Bónusz tárak — a 12 hét után, ha továbblépsz.
-      </h2>
-      <div class="bonus__grid">
-        <article class="bonus__feature">
-          <p class="eyebrow">Központi bónusz</p>
-          <h3>Claude Code haladó productivity-trükkök</h3>
-          <p>
-            Ha a 4. modul Claude Code alapjai már a kezedben vannak,
-            ez a 20 trükkös tár megmutatja, hogyan használd
-            ki a sub-agenteket, a plan mode-ot, az ultrathinket, a
-            Chrome DevTools MCP-t és a Context7 MCP-t. Három szinten
-            (alap → közép → haladó), magyarul.
-          </p>
-          <p style="color: var(--cream);">
-            <strong>Minden hallgatónak jár</strong> — nem külön fizetős add-on.
-          </p>
-        </article>
-        <div class="bonus__list">
-          <div class="bonus__item">
-            <strong>17 · Landing page minták</strong>
-            <span>5 referencia-minta a 6. modulhoz, magyarul kommentelve.</span>
-          </div>
-          <div class="bonus__item">
-            <strong>18 · Funnel típusok</strong>
-            <span>4 funnel-architektúra (Capture / Application / Webinar / Tripwire) példákkal.</span>
-          </div>
-          <div class="bonus__item">
-            <strong>19 · AI eszköz-skillek</strong>
-            <span>6 letölthető Claude Code skill ismétlődő workflow-khoz.</span>
-          </div>
-          <div class="bonus__item">
-            <strong>20 · Az első digitális terméked</strong>
-            <span>Hogy néz ki egy AI-vágott videókurzus felépítése — pont ezt csináltam ezzel a kurzussal.</span>
-          </div>
-          <div class="bonus__item">
-            <strong>22 · Expert Flow tech-stack</strong>
-            <span>52 szolgáltatás 11 kategóriában — mindegyikről 1 mondat: mire használom, mennyibe kerül.</span>
-          </div>
-          <div class="bonus__item">
-            <strong>23 · 38 esettanulmány tár</strong>
-            <span>A modulokban szétosztott esetek mind itt is külön elérhetők, részletes Drive-anyagokkal.</span>
-          </div>
+  <section class="outcome" aria-labelledby="outcome-heading">
+    <div class="outcome__inner">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">A 12. hét végén</span>
+          <h2 id="outcome-heading">Nem tananyaggal. <em>Egy működő rendszerrel.</em></h2>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section class="outcome" aria-labelledby="outcome-cim">
-    <div class="container">
-      <p class="eyebrow" style="color: var(--warm);">A 12. hét végén</p>
-      <h2 id="outcome-cim" style="max-width: 22ch;">
-        Nem tananyaggal. Egy működő rendszerrel.
-      </h2>
       <ul class="outcome__list">
-        <li>
-          <strong>Egyoldalas weboldal</strong>
-          <span>Saját domaineden, HTTPS-szel, mobilbarát, Vercel-en hostolva</span>
-        </li>
-        <li>
-          <strong>Külön landing oldal</strong>
-          <span>Egy konkrét szolgáltatásra, 7-elemes sales-szerkezettel</span>
-        </li>
-        <li>
-          <strong>Lead magnet PDF + Kit funnel</strong>
-          <span>5-10 oldalas PDF + 5 emailes welcome sorozat automatikusan</span>
-        </li>
-        <li>
-          <strong>Cal.com konzultációs funnel</strong>
-          <span>Foglalás → 4 automatikus email → no-show kezelés</span>
-        </li>
-        <li>
-          <strong>Google Sheets CRM</strong>
-          <span>4 munkalap + Apps Script automatizációk + Gmail/Drive struktúra</span>
-        </li>
-        <li>
-          <strong>GA4 mérőrendszer</strong>
-          <span>Öt esemény + heti dashboard a saját Sheets-edben</span>
-        </li>
-        <li>
-          <strong>Jogilag rendben</strong>
-          <span>Vállalkozási forma, Számlázz.hu/Billingo, ÁSZF, Adatvédelem</span>
-        </li>
-        <li>
-          <strong>Saját AI Operációs Rendszer</strong>
-          <span>GitHub-on, EV-AIOS alapra építve, a saját context-eddel</span>
-        </li>
+        {outcomes.map((o) => (
+          <li><strong>{o.t}</strong><span>{o.d}</span></li>
+        ))}
       </ul>
     </div>
   </section>
 
-  <section class="anti" aria-labelledby="anti-cim">
+  <section id="bonusz">
     <div class="container">
-      <p class="eyebrow">Mire jó és mire nem</p>
-      <h2 id="anti-cim" style="max-width: 28ch;">
-        A program nem mindenkinek való — és ezt jobb előre tisztázni.
-      </h2>
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">A 12 hét után</span>
+          <h2>Bónusz tárak — <em>amikor továbblépsz.</em></h2>
+        </div>
+      </div>
+      <div class="bonus__grid">
+        <article class="bonus__feature">
+          <span class="eyebrow">Központi bónusz</span>
+          <h3>Claude Code haladó productivity-trükkök</h3>
+          <p>
+            Ha a 4. modul Claude Code alapjai már a kezedben vannak, ez a
+            20 trükkös tár megmutatja, hogyan használd ki a sub-agenteket,
+            a plan mode-ot, az ultrathinket, a Chrome DevTools MCP-t és a
+            Context7 MCP-t. Három szinten, magyarul.
+          </p>
+          <span class="pin">
+            <span class="dot" aria-hidden="true"></span>
+            Minden hallgatónak jár — nem külön add-on
+          </span>
+        </article>
+        <div class="bonus__list">
+          {bonusItems.map((b) => (
+            <div class="bonus__item">
+              <strong><span class="num">{b.num}.</span> {b.title}</strong>
+              <span>{b.desc}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container container--narrow">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Mire jó és mire nem</span>
+          <h2>A program nem mindenkinek való — <em>és ezt jobb előre tisztázni.</em></h2>
+        </div>
+      </div>
       <div class="anti__grid">
         <div class="anti__col anti__col--yes">
-          <h3>Akkor használd, ha…</h3>
+          <h3>Akkor használd, <em>ha…</em></h3>
           <ul>
             <li>Magyar szolgáltató szakértő vagy (tanácsadó, fotós, coach, könyvelő, ügyvéd, tréner, szövegíró)</li>
             <li>Mellékállásban vagy újrakezdőként indítasz, és nincs még éles online jelenléted</li>
             <li>Hajlandó vagy IDE-ben (VS Code + Claude Code) dolgozni — nem ChatGPT-zel chat-elgetni</li>
-            <li>Heti 3-5 órát be tudsz tenni 12 héten át</li>
-            <li>Dokumentáló, technikai munkamódot keresel — nem motivációs anyagot általánosságokban</li>
+            <li>Heti 3–5 órát be tudsz tenni 12 héten át</li>
+            <li>Dokumentáló, technikai munkamódot keresel</li>
           </ul>
         </div>
         <div class="anti__col anti__col--no">
-          <h3>Ne válaszd, ha…</h3>
+          <h3>Ne válaszd, <em>ha…</em></h3>
           <ul>
             <li>Általános AI-tanfolyamot keresel (ChatGPT-prompting, n8n, Zapier-automatizáció)</li>
             <li>E-kereskedelmet, dropshippinget vagy ügynöki üzletágat akarsz indítani</li>
@@ -321,10 +290,14 @@ const faqs = [
     </div>
   </section>
 
-  <section id="gyik" class="faq" aria-labelledby="gyik-cim">
+  <section id="gyik">
     <div class="container container--narrow">
-      <p class="eyebrow">Gyakori kérdések</p>
-      <h2 id="gyik-cim">Az első 6 dolog, amit kérdezni szoktak.</h2>
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Gyakori kérdések</span>
+          <h2>Az első 6 dolog, <em>amit kérdezni szoktak.</em></h2>
+        </div>
+      </div>
       <div class="faq__list">
         {faqs.map((f) => (
           <details class="faq__item">
@@ -337,22 +310,19 @@ const faqs = [
   </section>
 
   <section class="cta-final">
-    <div class="container container--narrow">
-      <p class="eyebrow">Következő lépés</p>
-      <h2>Ha végigolvastad, valószínűleg látod, mire való és mire nem.</h2>
-      <p>
-        Az árazás és a regisztráció még nincs kész. Ha érdekel, jelezd
-        emailben — szólok, amikor elindul az első kohorsz, és addig
-        elküldöm az EV-AIOS GitHub repo linkjét, hogy közben megnézd,
-        miből épül a kurzus alapja.
-      </p>
-      <a href="mailto:hello@expertflow.hu?subject=Expert%20Flow%20Start%202.0%20érdekel" class="btn btn--primary">
-        Kérek értesítést indulásnál
-      </a>
-      <p style="margin-top: 1rem; font-size: var(--step-tiny); color: var(--sage);">
-        hello@expertflow.hu · Magyarul, dokumentáló hangon, hype nélkül.
-      </p>
-    </div>
+    <span class="eyebrow">Következő lépés</span>
+    <h2>Ha végigolvastad, valószínűleg <em>látod, mire való.</em></h2>
+    <p>
+      Az árazás és a regisztráció még nincs kész. Ha érdekel, jelezd
+      emailben — szólok, amikor elindul az első kohorsz, és addig
+      elküldöm az EV-AIOS GitHub repo linkjét, hogy közben megnézd,
+      miből épül a kurzus alapja.
+    </p>
+    <a class="hero-cta" href="mailto:hello@expertflow.hu?subject=Expert%20Flow%20Start%202.0%20érdekel">
+      <span>Kérek értesítést indulásnál</span>
+      <span class="arrow">→</span>
+    </a>
+    <p class="small">hello@expertflow.hu · Magyarul, dokumentáló hangon, hype nélkül.</p>
   </section>
 
 </Layout>

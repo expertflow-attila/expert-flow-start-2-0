@@ -18,6 +18,7 @@ const ogImage = new URL("/og-image.svg", site).toString();
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="description" content={description} />
+    <meta name="theme-color" content="#0a0a0c" />
     <meta name="generator" content={Astro.generator} />
     <link rel="canonical" href={canonical} />
 
@@ -37,7 +38,7 @@ const ogImage = new URL("/og-image.svg", site).toString();
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap"
     />
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -47,75 +48,41 @@ const ogImage = new URL("/og-image.svg", site).toString();
   <body>
     <a href="#main" class="skip-link">Ugrás a tartalomra</a>
 
-    <header class="site-header" id="site-header">
-      <div class="container site-header__inner">
-        <a href="/" class="site-header__brand">
-          Expert Flow <span>Start 2.0</span>
-        </a>
-        <nav class="site-header__nav" aria-label="Fő navigáció">
-          <a href="#hogyan">Hogyan működik</a>
-          <a href="#modulok">A 12 modul</a>
-          <a href="#bonusz">Bónuszok</a>
-          <a href="#gyik">GYIK</a>
-          <a href="mailto:hello@expertflow.hu" class="btn btn--primary btn--small">Kapcsolat</a>
-        </nav>
-      </div>
-    </header>
+    <div class="brand-bar">
+      <a href="/">
+        <span class="dot" aria-hidden="true"></span>
+        Expert Flow Start · 2.0
+      </a>
+    </div>
+
+    <nav class="top-nav" aria-label="Fő navigáció">
+      <a href="#hogyan">Hogyan</a>
+      <a href="#modulok">12 modul</a>
+      <a href="#bonusz">Bónuszok</a>
+      <a href="#gyik">GYIK</a>
+      <a href="mailto:hello@expertflow.hu" class="cta">Kapcsolat</a>
+    </nav>
 
     <main id="main" tabindex="-1">
       <slot />
     </main>
 
-    <footer class="site-footer">
-      <div class="container">
-        <div class="site-footer__grid">
-          <div class="site-footer__col">
-            <h4>Expert Flow Start 2.0</h4>
-            <p style="max-width: 36ch; color: var(--ink-2);">
-              12 hét, ahogy én építem fel a vállalkozásomat. Magyar
-              szolgáltató szakértőknek, akik IDE-alapú online jelenlétet
-              és AI-asszisztált munkamódot akarnak.
-            </p>
-          </div>
-          <div class="site-footer__col">
-            <h4>Tartalom</h4>
-            <ul>
-              <li><a href="#hogyan">Hogyan működik</a></li>
-              <li><a href="#modulok">A 12 modul</a></li>
-              <li><a href="#bonusz">Bónusz anyagok</a></li>
-              <li><a href="#gyik">GYIK</a></li>
-            </ul>
-          </div>
-          <div class="site-footer__col">
-            <h4>Kapcsolódó</h4>
-            <ul>
-              <li><a href="https://github.com/attilanagy23/EV-AIOS" rel="noopener">EV-AIOS GitHub repo</a></li>
-              <li><a href="https://ai-ready-kurzus.netlify.app/" rel="noopener">AI Ready Kurzus</a></li>
-              <li><a href="https://expertflow.hu" rel="noopener">expertflow.hu</a></li>
-              <li><a href="mailto:hello@expertflow.hu">hello@expertflow.hu</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="site-footer__bottom">
-          <span>© 2026 Expert Flow · Attila Nagy</span>
-          <span>Magyar egyéni vállalkozók AI Operációs Rendszere</span>
-        </div>
-      </div>
+    <footer>
+      <p><span class="signature">Expert Flow</span> · 2026 · hello@expertflow.hu</p>
+      <p class="links">
+        <a href="https://github.com/expertflow-attila/expert-flow-start-2-0" rel="noopener">GitHub repo (landing)</a>
+        <a href="https://github.com/attilanagy23/EV-AIOS" rel="noopener">EV-AIOS (élő OS)</a>
+        <a href="https://ai-ready-kurzus.netlify.app/" rel="noopener">AI Ready Kurzus</a>
+        <a href="https://expertflow.hu" rel="noopener">expertflow.hu</a>
+      </p>
     </footer>
 
     <script is:inline>
       (function () {
-        const header = document.getElementById('site-header');
-        if (header) {
-          const onScroll = () => {
-            header.classList.toggle('is-scrolled', window.scrollY > 8);
-          };
-          onScroll();
-          window.addEventListener('scroll', onScroll, { passive: true });
-        }
-
         document.querySelectorAll('[data-copy-target]').forEach((btn) => {
-          btn.addEventListener('click', async () => {
+          btn.addEventListener('click', async (e) => {
+            e.preventDefault();
+            e.stopPropagation();
             if (btn.dataset.copied === 'true') return;
             const sel = btn.getAttribute('data-copy-target');
             if (!sel) return;
@@ -143,7 +110,7 @@ const ogImage = new URL("/og-image.svg", site).toString();
                 btn.dataset.copied = 'false';
                 btn.textContent = original;
               }, 1800);
-            } catch (e) {
+            } catch (err) {
               btn.textContent = 'Hiba — másold kézzel';
               setTimeout(() => { btn.textContent = original; }, 2400);
             }

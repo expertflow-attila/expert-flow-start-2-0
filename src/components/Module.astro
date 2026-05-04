@@ -23,45 +23,49 @@ interface CaseStudy {
   note: string;
 }
 
-const { module } = Astro.props as { module: Module };
+const { module, kind = "epito" } = Astro.props as { module: Module; kind?: "epito" | "bonus" };
 const cases: CaseStudy[] = casesData;
 const linked = module.caseStudyIds
   .map((cid) => cases.find((c) => c.id === cid))
   .filter((c): c is CaseStudy => Boolean(c));
+
+const tagLabel = kind === "bonus" ? "Bónusz" : "Építő modul";
+const tagClass = kind === "bonus" ? "cat-tag bonus" : "cat-tag";
 ---
 
-<details class="module" id={`modul-${module.id}`}>
+<details class="card" id={`modul-${module.id}`}>
   <summary>
-    <span class="module__num">{module.id}</span>
-    <h4 class="module__title">
-      {module.title}
-      <span class="module__summary">{module.summary}</span>
-    </h4>
-    <svg class="module__chevron" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-      <path d="M5 8l5 5 5-5" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-  </summary>
-  <div class="module__body">
-    <div class="module__grid">
-      <div>
-        <h5 class="module__sub">A hét leckéi</h5>
-        <ul class="module__lessons">
-          {module.lessons.map((l) => <li>{l}</li>)}
-        </ul>
-        <div class="module__result">
-          <strong>A hét végére</strong>
-          {module.result}
-        </div>
-      </div>
-      <div>
-        <PromptBlock
-          id={`prompt-${module.id}`}
-          label={`Modul ${module.id} · Másolható prompt`}
-          intro={module.promptIntro}
-          text={module.promptText}
-        />
-      </div>
+    <span class={tagClass}>{tagLabel}</span>
+    <h3>
+      <span class="module-num">{module.id}.</span>{module.title}
+    </h3>
+    <p>{module.summary}</p>
+    <div class="meta">
+      <span>{module.phase.replace("· ", "· ").split("·")[0]?.trim()}</span>
+      <span class="reveal">
+        <span class="text">Megnyitás</span>
+        <span class="arr">→</span>
+      </span>
     </div>
+  </summary>
+
+  <div class="card__body">
+    <h4 class="sr-only">A hét leckéi</h4>
+    <ul class="card__lessons">
+      {module.lessons.map((l) => <li>{l}</li>)}
+    </ul>
+
+    <div class="card__result">
+      <span class="label">A hét végére</span>
+      {module.result}
+    </div>
+
+    <PromptBlock
+      id={`prompt-${module.id}`}
+      label={`Modul ${module.id} · Másolható prompt`}
+      intro={module.promptIntro}
+      text={module.promptText}
+    />
 
     {linked.length > 0 && (
       <div class="cases">
