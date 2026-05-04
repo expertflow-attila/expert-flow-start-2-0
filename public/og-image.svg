@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#F5F5F0"/>
+  <rect x="40" y="40" width="1120" height="550" rx="20" fill="#1A1A17"/>
+  <text x="100" y="160" font-family="ui-monospace,monospace" font-size="22" letter-spacing="3" fill="#C9A77C">EXPERT FLOW START 2.0 · 12 HETES KURZUS</text>
+  <text x="100" y="290" font-family="Georgia,serif" font-weight="600" font-size="84" fill="#F5F5F0">12 hét. 12 modul.</text>
+  <text x="100" y="380" font-family="Georgia,serif" font-weight="600" font-size="84" font-style="italic" fill="#A0AEA3">12 másolható prompt.</text>
+  <text x="100" y="490" font-family="-apple-system,sans-serif" font-size="28" fill="#A0AEA3">Magyar szolgáltató szakértőknek · IDE-alapú online vállalkozás · élő AI Operációs Rendszer</text>
+  <circle cx="1080" cy="120" r="12" fill="#3B82F6"/>
+  <text x="100" y="555" font-family="ui-monospace,monospace" font-size="20" letter-spacing="2" fill="#6B7B6E">EXPERTFLOW.HU</text>
+</svg>

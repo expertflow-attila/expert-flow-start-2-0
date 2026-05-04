@@ -1,0 +1,24 @@
+---
+interface Props {
+  id: string;
+  label: string;
+  intro: string;
+  text: string;
+}
+const { id, label, intro, text } = Astro.props;
+---
+
+<div class="prompt">
+  <div class="prompt__head">
+    <span class="prompt__label">{label}</span>
+    <button
+      type="button"
+      class="prompt__copy"
+      data-copy-target={`#${id}`}
+      data-label="Másol"
+      aria-label="Prompt másolása vágólapra"
+    >Másol</button>
+  </div>
+  <p class="prompt__intro">{intro}</p>
+  <pre id={id}>{text}</pre>
+</div>

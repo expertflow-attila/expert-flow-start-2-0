@@ -1,0 +1,80 @@
+---
+import PromptBlock from "./PromptBlock.astro";
+import casesData from "../data/case-studies.json";
+
+interface Module {
+  id: string;
+  slug: string;
+  phase: string;
+  phaseShort: string;
+  title: string;
+  summary: string;
+  result: string;
+  lessons: string[];
+  promptIntro: string;
+  promptText: string;
+  caseStudyIds: string[];
+}
+
+interface CaseStudy {
+  id: string;
+  name: string;
+  category: string;
+  note: string;
+}
+
+const { module } = Astro.props as { module: Module };
+const cases: CaseStudy[] = casesData;
+const linked = module.caseStudyIds
+  .map((cid) => cases.find((c) => c.id === cid))
+  .filter((c): c is CaseStudy => Boolean(c));
+---
+
+<details class="module" id={`modul-${module.id}`}>
+  <summary>
+    <span class="module__num">{module.id}</span>
+    <h4 class="module__title">
+      {module.title}
+      <span class="module__summary">{module.summary}</span>
+    </h4>
+    <svg class="module__chevron" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+      <path d="M5 8l5 5 5-5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </summary>
+  <div class="module__body">
+    <div class="module__grid">
+      <div>
+        <h5 class="module__sub">A hét leckéi</h5>
+        <ul class="module__lessons">
+          {module.lessons.map((l) => <li>{l}</li>)}
+        </ul>
+        <div class="module__result">
+          <strong>A hét végére</strong>
+          {module.result}
+        </div>
+      </div>
+      <div>
+        <PromptBlock
+          id={`prompt-${module.id}`}
+          label={`Modul ${module.id} · Másolható prompt`}
+          intro={module.promptIntro}
+          text={module.promptText}
+        />
+      </div>
+    </div>
+
+    {linked.length > 0 && (
+      <div class="cases">
+        <span class="cases__label">Hogyan csinálták mások</span>
+        <div class="cases__list">
+          {linked.map((c) => (
+            <div class="case-chip">
+              <strong>{c.name}</strong>
+              <span>{c.category}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+  </div>
+</details>
