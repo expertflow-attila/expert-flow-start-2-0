@@ -7,7 +7,7 @@ interface Props {
 }
 
 const { title, description } = Astro.props;
-const site = Astro.site ?? new URL("https://expert-flow-start-2.vercel.app");
+const site = Astro.site ?? new URL("https://expert-flow-start-2-0.vercel.app");
 const canonical = new URL(Astro.url.pathname, site).toString();
 const ogImage = new URL("/og-image.svg", site).toString();
 ---
