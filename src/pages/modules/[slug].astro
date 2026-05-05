@@ -1,0 +1,201 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import order from "../../data/order.json";
+import modulesData from "../../data/modules.json";
+import casesData from "../../data/case-studies.json";
+
+interface OrderItem {
+  slug: string;
+  title: string;
+  summary: string;
+  breadcrumb: string;
+  kind: "intro" | "epito" | "ref" | "bonus";
+  phaseLabel: string;
+  moduleId?: string;
+}
+
+interface ModuleData {
+  id: string;
+  slug: string;
+  promptIntro: string;
+  promptText: string;
+  caseStudyIds: string[];
+  result?: string;
+  lessons?: string[];
+}
+
+interface CaseStudy { id: string; name: string; category: string; note: string; }
+
+export async function getStaticPaths() {
+  const all = import.meta.glob("../../content/modules/*.md", { eager: true });
+  const items = order as OrderItem[];
+  return items.map((m, idx) => ({
+    params: { slug: m.slug },
+    props: {
+      meta: m,
+      idx,
+      prev: idx > 0 ? items[idx - 1] : null,
+      next: idx < items.length - 1 ? items[idx + 1] : null,
+      content: all[`../../content/modules/${m.slug}.md`],
+    },
+  }));
+}
+
+const { meta, prev, next, content } = Astro.props as {
+  meta: OrderItem;
+  prev: OrderItem | null;
+  next: OrderItem | null;
+  content: any;
+};
+
+const Content = content?.Content;
+const moduleData = meta.moduleId
+  ? (modulesData as ModuleData[]).find((m) => m.id === meta.moduleId)
+  : null;
+
+const linkedCases: CaseStudy[] = moduleData?.caseStudyIds
+  ? moduleData.caseStudyIds
+      .map((id) => (casesData as CaseStudy[]).find((c) => c.id === id))
+      .filter((c): c is CaseStudy => Boolean(c))
+  : [];
+
+const downloadBase = `/downloads/${meta.slug}`;
+
+const githubLinks = [
+  { label: "attilanagy23/EV-AIOS", url: "https://github.com/attilanagy23/EV-AIOS" },
+  { label: "anthropics/claude-code", url: "https://github.com/anthropics/claude-code" },
+  { label: "expert-flow-start-2-0", url: "https://github.com/expertflow-attila/expert-flow-start-2-0" },
+];
+---
+
+<Layout
+  title={`${meta.title} — Expert Flow Start`}
+  description={meta.summary}
+>
+
+  <header class="lesson-header">
+    <div class="container">
+      <a href="/#modulok" class="back"><span class="arr">←</span> Vissza a tematikához</a>
+      <span class="breadcrumb-tag">{meta.breadcrumb}</span>
+      <h1>{meta.title}</h1>
+      <p class="summary">{meta.summary}</p>
+    </div>
+  </header>
+
+  <div class="video-block">
+    <div class="video-cover" role="img" aria-label="Modul videó (hamarosan)">
+      <div class="play-btn" aria-hidden="true">
+        <svg width="22" height="22" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor"/></svg>
+      </div>
+      <span class="meta-tag">PLAY · hamarosan</span>
+      <span class="meta-label">{meta.phaseLabel}</span>
+    </div>
+  </div>
+
+  <article class="lesson-body">
+    {Content ? <Content /> : <p>A modul tartalma hamarosan elérhető.</p>}
+  </article>
+
+  <div class="toolkit">
+    <div class="toolkit-header">
+      <span class="toolkit-eyebrow">A modul munkaeszközei</span>
+      <h2>Eszközök, prompt és források</h2>
+    </div>
+    <div class="toolkit-grid">
+
+      <article class="toolkit-card">
+        <span class="icon" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+            <polyline points="7 10 12 15 17 10"/>
+            <line x1="12" y1="15" x2="12" y2="3"/>
+          </svg>
+        </span>
+        <h3>Sablon letöltése</h3>
+        <p class="tk-desc">A modul referencia-fájljai: <code>module.md</code>, <code>resources.md</code>{moduleData ? ", SKILL-fájlok a Claude Code-hoz" : ""}.</p>
+        <div class="tk-action">
+          <a href={`${downloadBase}/module.md`} class="btn" download>module.md →</a>
+        </div>
+      </article>
+
+      {moduleData?.promptText ? (
+        <article class="toolkit-card">
+          <span class="icon" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="16 18 22 12 16 6"/>
+              <polyline points="8 6 2 12 8 18"/>
+            </svg>
+          </span>
+          <h3>Prompt másolása</h3>
+          <p class="tk-desc">{moduleData.promptIntro}</p>
+          <pre id={`prompt-${meta.slug}`} class="prompt-text">{moduleData.promptText}</pre>
+          <div class="tk-action">
+            <button type="button" class="btn" data-copy-target={`#prompt-${meta.slug}`} data-label="Másol">Másol</button>
+          </div>
+        </article>
+      ) : (
+        <article class="toolkit-card">
+          <span class="icon" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+              <polyline points="14 2 14 8 20 8"/>
+            </svg>
+          </span>
+          <h3>Tár-anyag</h3>
+          <p class="tk-desc">{meta.kind === "ref" ? "Referencia-tár — bármikor visszanyúlhatsz hozzá, amikor új mintára van szükséged." : meta.kind === "bonus" ? "Bónusz tár — a 12 hét után érdemes megnyitni, amikor továbblépnél a skálázódás felé." : "Bevezető és záró anyag — a kurzus keretrendszere."}</p>
+          <div class="tk-action">
+            <a href="#" class="btn" onclick="event.preventDefault();">Részletek a leírásban</a>
+          </div>
+        </article>
+      )}
+
+      <article class="toolkit-card">
+        <span class="icon" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+          </svg>
+        </span>
+        <h3>Hasznos GitHub repo-k</h3>
+        <ul class="gh-list">
+          {githubLinks.map((g) => (
+            <li><a href={g.url} target="_blank" rel="noopener"><span>{g.label}</span><span class="gh-arrow">↗</span></a></li>
+          ))}
+        </ul>
+      </article>
+
+    </div>
+  </div>
+
+  {linkedCases.length > 0 && (
+    <section class="cases-section">
+      <div class="toolkit-header">
+        <span class="toolkit-eyebrow">Hogyan csinálták mások</span>
+        <h2>Kapcsolódó esettanulmányok</h2>
+      </div>
+      <div class="cases-grid">
+        {linkedCases.map((c) => (
+          <div class="case-chip" style="max-width: none; padding: 14px 16px; background: var(--card);">
+            <strong>{c.name}</strong>
+            <span>{c.category}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <nav class="pager" aria-label="Modul navigáció">
+    {prev ? (
+      <a href={`/modules/${prev.slug}`} class="prev">
+        <span class="label">← Előző</span>
+        <span class="title">{prev.title}</span>
+      </a>
+    ) : <span class="pager-spacer"></span>}
+    {next ? (
+      <a href={`/modules/${next.slug}`} class="next">
+        <span class="label">Következő →</span>
+        <span class="title">{next.title}</span>
+      </a>
+    ) : <span class="pager-spacer"></span>}
+  </nav>
+
+</Layout>

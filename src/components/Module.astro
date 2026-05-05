@@ -1,84 +1,26 @@
 ---
-import PromptBlock from "./PromptBlock.astro";
-import casesData from "../data/case-studies.json";
-
 interface Module {
   id: string;
   slug: string;
-  phase: string;
-  phaseShort: string;
   title: string;
   summary: string;
-  result: string;
-  lessons: string[];
-  promptIntro: string;
-  promptText: string;
-  caseStudyIds: string[];
+  phase: string;
 }
-
-interface CaseStudy {
-  id: string;
-  name: string;
-  category: string;
-  note: string;
-}
-
 const { module, kind = "epito" } = Astro.props as { module: Module; kind?: "epito" | "bonus" };
-const cases: CaseStudy[] = casesData;
-const linked = module.caseStudyIds
-  .map((cid) => cases.find((c) => c.id === cid))
-  .filter((c): c is CaseStudy => Boolean(c));
 
 const tagLabel = kind === "bonus" ? "Bónusz" : "Építő modul";
 const tagClass = kind === "bonus" ? "cat-tag bonus" : "cat-tag";
+const url = `/modules/${module.id}-${module.slug}`;
 ---
 
-<details class="card" id={`modul-${module.id}`}>
-  <summary>
-    <span class={tagClass}>{tagLabel}</span>
-    <h3>
-      <span class="module-num">{module.id}.</span>{module.title}
-    </h3>
-    <p>{module.summary}</p>
-    <div class="meta">
-      <span>{module.phase.replace("· ", "· ").split("·")[0]?.trim()}</span>
-      <span class="reveal">
-        <span class="text">Megnyitás</span>
-        <span class="arr">→</span>
-      </span>
-    </div>
-  </summary>
-
-  <div class="card__body">
-    <h4 class="sr-only">A hét leckéi</h4>
-    <ul class="card__lessons">
-      {module.lessons.map((l) => <li>{l}</li>)}
-    </ul>
-
-    <div class="card__result">
-      <span class="label">A hét végére</span>
-      {module.result}
-    </div>
-
-    <PromptBlock
-      id={`prompt-${module.id}`}
-      label={`Modul ${module.id} · Másolható prompt`}
-      intro={module.promptIntro}
-      text={module.promptText}
-    />
-
-    {linked.length > 0 && (
-      <div class="cases">
-        <span class="cases__label">Hogyan csinálták mások</span>
-        <div class="cases__list">
-          {linked.map((c) => (
-            <div class="case-chip">
-              <strong>{c.name}</strong>
-              <span>{c.category}</span>
-            </div>
-          ))}
-        </div>
-      </div>
-    )}
+<a class="card" href={url}>
+  <span class={tagClass}>{tagLabel}</span>
+  <h3>
+    <span class="module-num">{module.id}.</span>{module.title}
+  </h3>
+  <p>{module.summary}</p>
+  <div class="meta">
+    <span>{tagLabel}</span>
+    <span class="reveal"><span class="arr">→</span> Olvasás</span>
   </div>
-</details>
+</a>
