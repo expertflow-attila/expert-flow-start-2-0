@@ -348,26 +348,26 @@ header.hero p.lede {
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
+  text-decoration: none;
   color: var(--text);
   transition: border-color 0.2s, transform 0.2s, background 0.2s;
   display: flex;
   flex-direction: column;
+  padding: 26px 26px 24px;
   position: relative;
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.03) inset;
-  overflow: hidden;
+  height: 100%;
+  min-height: 240px;
 }
-.card:hover { border-color: var(--border-strong); background: var(--card-hover); transform: translateY(-2px); }
-
-.card > summary {
-  list-style: none;
-  cursor: pointer;
-  padding: 26px 26px 24px;
-  display: flex;
-  flex-direction: column;
+.card:hover {
+  border-color: var(--border-strong);
+  background: var(--card-hover);
+  transform: translateY(-2px);
 }
-.card > summary::-webkit-details-marker { display: none; }
-.card[open] { transform: none; background: var(--card-hover); border-color: var(--border-strong); }
-.card[open] > summary { padding-bottom: 18px; border-bottom: 1px solid var(--border); }
+.card:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
 
 .cat-tag {
   display: inline-flex;
@@ -409,7 +409,7 @@ header.hero p.lede {
   line-height: 1.55;
 }
 .card .meta {
-  margin-top: 22px;
+  margin-top: auto;
   padding-top: 18px;
   border-top: 1px solid var(--border);
   font-size: 11px;
@@ -420,62 +420,30 @@ header.hero p.lede {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   font-weight: 500;
-}
-.card .meta .reveal { display: inline-flex; align-items: center; gap: 6px; transition: color 0.18s; }
-.card .meta .reveal .arr { font-family: var(--font-serif); font-style: italic; }
-.card[open] .meta .reveal { color: var(--accent); }
-.card[open] .meta .reveal .arr { transform: rotate(90deg); display: inline-block; }
-
-/* Module body (expanded) */
-.card__body { padding: 24px 26px 28px; }
-.card__lessons {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 22px;
-}
-.card__lessons li {
-  font-size: 14px;
-  color: var(--text-muted);
-  padding: 7px 0;
-  border-bottom: 1px dashed var(--border);
-  display: flex;
   gap: 12px;
-  letter-spacing: -0.005em;
 }
-.card__lessons li:last-child { border-bottom: none; }
-.card__lessons li::before {
-  content: "0" counter(lesson);
-  counter-increment: lesson;
-  font-family: var(--font-mono);
-  font-size: 11px;
-  color: var(--text-dim);
-  letter-spacing: 0.06em;
-  flex: 0 0 auto;
+.card .meta > span:first-child {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-.card__lessons { counter-reset: lesson; }
-
-.card__result {
-  background: linear-gradient(90deg, var(--accent-soft), transparent 65%);
-  border-left: 2px solid var(--accent);
-  padding: 14px 18px;
-  border-radius: 4px;
-  margin: 0 0 22px;
-  font-size: 14.5px;
-  color: var(--text);
+.card p {
+  margin-bottom: 22px;
+}
+.card .meta .reveal {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.18s;
+  white-space: nowrap;
+}
+.card .meta .reveal .arr {
   font-family: var(--font-serif);
   font-style: italic;
-  line-height: 1.5;
+  transition: transform 0.18s;
 }
-.card__result .label {
-  display: block;
-  font-family: var(--font-mono);
-  font-size: 10px;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--accent);
-  font-style: normal;
-  margin-bottom: 4px;
-}
+.card:hover .meta .reveal { color: var(--accent); }
+.card:hover .meta .reveal .arr { transform: translateX(2px); display: inline-block; }
 
 /* Prompt block (inside the card body) */
 .prompt {

@@ -5,7 +5,7 @@
     "phase": "I. fázis · Mit adsz el és kinek?",
     "phaseShort": "I",
     "title": "A tudásod magja",
-    "summary": "Pozicionálás abból, ami már létezik — nem a szenvedélyed, hanem amiben évek óta kerestél megoldást.",
+    "summary": "Abból indulunk ki, ami már létezik — nem a szenvedélyed, hanem amiben évek óta kerestél megoldást magadnak vagy a környezetednek.",
     "result": "Egy mondat, amit pontosan értesz: kinek segítesz, miben, és miért te.",
     "lessons": ["A 4 fájdalom-kérdés", "A pivot-pont", "A történet 1 mondatban"],
     "promptIntro": "Ezt a promptot AKKOR használd, amikor a 4 kérdést már papíron végigírtad, és három jelölt-problémát is kiválasztottál. Az AI nem dönt — kérdez.",
