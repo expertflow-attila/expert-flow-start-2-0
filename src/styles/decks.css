@@ -388,7 +388,7 @@
 .decks-index .group-head { display: flex; align-items: baseline; gap: 16px; margin: 56px 0 24px; padding-bottom: 14px; border-bottom: 1px solid var(--border); }
 .decks-index .group-head h2 { font-family: var(--font-serif); font-size: 26px; font-weight: 400; margin: 0; letter-spacing: -0.015em; }
 .decks-index .group-head .meta { margin-left: auto; font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-dim); }
-.decks-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; }
+.decks-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
 .deck-link {
   background: var(--card);
   border: 1px solid var(--border);
@@ -416,4 +416,26 @@
   .slide--cover .slide__title { font-size: 38px; }
   .slide__lede { font-size: 17px; padding-left: 14px; }
   .slide__bullets li { padding-left: 30px; font-size: 16px; }
+}
+
+/* ─────────────────────────────────────────────────────────────
+   A11y / motion / mobile polish (review-feedback alapján)
+   ───────────────────────────────────────────────────────────── */
+
+@media (prefers-reduced-motion: reduce) {
+  .slide.active { animation: none !important; }
+  .deck-progress { transition: none !important; }
+  .deck-link:hover, .stat:hover, .card:hover { transform: none !important; }
+}
+
+@media (max-width: 720px) {
+  .deck-controls__hint {
+    display: inline-flex !important;
+    font-size: 9px;
+    letter-spacing: 0.08em;
+  }
+  .deck-controls__hint kbd { padding: 2px 5px; font-size: 9px; }
+  .deck-controls__hint .hide-mobile { display: none; }
+  .decks-list { grid-template-columns: 1fr; }
+  .deck-link { padding: 16px 18px; }
 }

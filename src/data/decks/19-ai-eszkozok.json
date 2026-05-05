@@ -23,7 +23,7 @@
       "eyebrow": "Mi a skill",
       "title": "Egy <em>mappa</em>, két fájl, egy parancs.",
       "lede": "Egy skill = egy `.claude/skills/skill-name/` mappa, benne SKILL.md és reference.md. Ennyi.",
-      "body": "<p>A skill-eket a <code>/skill-name</code> paranccsal aktiválod a Claude Code-ban. Mindegyik magyarul dolgozik végig, és illeszkedik az Expert Flow Start kurzus hangneméhez. Nem kell „kódolni\" — Markdown-ban van leírva, mit csináljon.</p>"
+      "body": "<p>A skill-eket a <code>/skill-name</code> paranccsal aktiválod a Claude Code-ban. Mindegyik magyarul dolgozik végig, és illeszkedik az Business Start kurzus hangneméhez. Nem kell „kódolni\" — Markdown-ban van leírva, mit csináljon.</p>"
     },
     {
       "type": "bullets",

@@ -37,7 +37,7 @@ A bemutatkozó beszélgetés az első Claude Code session-ben:
 
 ```
 Szia Claude. Most kezdek egy vállalkozást építeni az
-Expert Flow Start kurzus alapján. Én [név] vagyok, [kor],
+Business Start kurzus alapján. Én [név] vagyok, [kor],
 [foglalkozás].
 
 Még soha nem használtam IDE-t és Claude Code-ot. Kérlek:

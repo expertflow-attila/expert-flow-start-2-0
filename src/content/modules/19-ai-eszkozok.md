@@ -35,7 +35,7 @@ A 6. modul 6 darab Claude Code skill-t tartalmaz, amelyeket a saját projekt-map
 
 - Egy skill = egy `.claude/skills/skill-name/` mappa, benne `SKILL.md` és `reference.md`. Ennyi.
 - A skill-eket a `/skill-name` paranccsal aktiválod a Claude Code-ban.
-- Mindegyik skill **magyarul** dolgozik végig, és illeszkedik az Expert Flow Start kurzus hangneméhez.
+- Mindegyik skill **magyarul** dolgozik végig, és illeszkedik az Business Start kurzus hangneméhez.
 - A skill-ek kombinálhatók: pl. `/landing-generator` után `/email-iro` ugyanahhoz a kampányhoz.
 - Te magad is csinálhatsz új skill-eket — ha egy feladatot 3+szor csináltál ugyanúgy, érdemes skill-be foglalni.
 

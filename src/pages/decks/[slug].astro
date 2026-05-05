@@ -70,7 +70,7 @@ const { deck, prevSlug, nextSlug } = Astro.props as {
         <span class="dot" aria-hidden="true"></span>
         <a href="/decks">Business Start · Diasorok</a>
       </div>
-      <div class="deck-topbar__counter" id="deck-counter">
+      <div class="deck-topbar__counter" id="deck-counter" aria-live="polite" aria-atomic="true">
         01 / {deck.slides.length.toString().padStart(2, "0")}
       </div>
       <a href={`/modules/${deck.slug}`} class="deck-topbar__back">
@@ -78,9 +78,15 @@ const { deck, prevSlug, nextSlug } = Astro.props as {
       </a>
     </header>
 
-    <main class="deck-stage" id="deck-stage">
+    <main class="deck-stage" id="deck-stage" role="region" aria-roledescription="diasor" aria-label={`${deck.title} — ${deck.slides.length} slide`}>
       {deck.slides.map((s, i) => (
-        <section class={`slide slide--${s.type}${i === 0 ? " active" : ""}`} data-idx={i}>
+        <section
+          class={`slide slide--${s.type}${i === 0 ? " active" : ""}`}
+          data-idx={i}
+          aria-roledescription="slide"
+          aria-label={`${i + 1} / ${deck.slides.length}`}
+          aria-hidden={i === 0 ? "false" : "true"}
+        >
 
           {s.eyebrow && <span class="slide__eyebrow">{s.eyebrow}</span>}
 
@@ -137,7 +143,7 @@ const { deck, prevSlug, nextSlug } = Astro.props as {
 
     <footer class="deck-controls">
       <span class="deck-controls__hint">
-        <kbd>Space</kbd> vagy <kbd>→</kbd> tovább · <kbd>←</kbd> vissza · <kbd>Esc</kbd> kilépés
+        <kbd>Space</kbd> · <kbd>→</kbd> tovább <span class="hide-mobile">· <kbd>←</kbd> vissza · <kbd>Esc</kbd> kilépés · kattintással is</span>
       </span>
       <span class="deck-controls__nav">
         <button type="button" class="deck-controls__btn" id="prev-btn" aria-label="Előző">‹</button>
@@ -159,7 +165,11 @@ const { deck, prevSlug, nextSlug } = Astro.props as {
       const fmt = (n) => String(n).padStart(2, "0");
 
       function render() {
-        slides.forEach((s, i) => s.classList.toggle("active", i === idx));
+        slides.forEach((s, i) => {
+          const isActive = i === idx;
+          s.classList.toggle("active", isActive);
+          s.setAttribute("aria-hidden", isActive ? "false" : "true");
+        });
         if (counter) counter.textContent = `${fmt(idx + 1)} / ${fmt(total)}`;
         if (progress) progress.style.width = `${((idx + 1) / total) * 100}%`;
         if (prevBtn) prevBtn.disabled = idx === 0 && !prevSlug;
@@ -185,7 +195,10 @@ const { deck, prevSlug, nextSlug } = Astro.props as {
       render();
 
       document.addEventListener("keydown", (e) => {
-        if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+        const target = e.target;
+        if (target instanceof HTMLInputElement || target instanceof HTMLTextAreaElement) return;
+        // Don't intercept Space when focus is on a button (button activation)
+        if (e.key === " " && target instanceof HTMLButtonElement) return;
         if (e.key === " " || e.key === "ArrowRight" || e.key === "PageDown") { e.preventDefault(); next(); }
         else if (e.key === "ArrowLeft" || e.key === "PageUp") { e.preventDefault(); prev(); }
         else if (e.key === "Escape") { window.location.href = "/decks"; }
@@ -196,10 +209,13 @@ const { deck, prevSlug, nextSlug } = Astro.props as {
       prevBtn?.addEventListener("click", prev);
       nextBtn?.addEventListener("click", next);
 
-      // Click on stage advances (avoid links)
+      // Click on stage advances (avoid links, buttons, and active text selection)
       document.getElementById("deck-stage")?.addEventListener("click", (e) => {
         const target = e.target;
         if (target instanceof HTMLAnchorElement || target.closest("a, button")) return;
+        // Don't advance if user is selecting text
+        const selection = window.getSelection();
+        if (selection && selection.toString().length > 0) return;
         next();
       });
     })();

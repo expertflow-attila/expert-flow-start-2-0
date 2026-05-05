@@ -1,7 +1,7 @@
 ---
 ---
 
-# Expert Flow Start — Üdvözöllek
+# Üdvözöllek a Business Start kurzuson
 
 > 12 hét, ahogy én építem fel a saját vállalkozásomat. Tájékoztató kurzus magyar szolgáltató szakértőknek, akik mellékállásban vagy újrakezdőként indítanak — nem tanítok, megosztom, mit csinálok.
 

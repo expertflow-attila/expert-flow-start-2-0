@@ -5,7 +5,7 @@
   "moduleNum": "Lezárás",
   "phase": "Befejezés",
   "duration": "8-12 perc",
-  "slideCount": 11,
+  "slideCount": 12,
   "slides": [
     {
       "type": "cover",
@@ -73,6 +73,13 @@
       "eyebrow": "A bónuszokról",
       "quote": "Ne kezdd el mindezeket egyszerre — inkább 1-2-vel haladj havonta, ahogy a saját rendszered növekszik.",
       "cite": "EV-AIOS · outro · ütem"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "A 13. héttől",
+      "title": "Az első <em>30 nap</em> a 12 hét után",
+      "lede": "Ne ugorj rögtön a bónusz-tárakba. Az első 30 napban szilárdítsd a meglévőt — ez többet ér, mint új réteget rakni rá.",
+      "body": "<p><strong>13. hét:</strong> nézd át a 8. modul ismerős-listáját, küldj 5-7 új üzenetet, jegyzeteld a válaszokat a CRM-be.</p><p><strong>14. hét:</strong> futtasd le először a heti audit-rituálét (10 perc, hétfő reggel) — mit építettél, mit mértél, mi a következő prioritás.</p><p><strong>15-16. hét:</strong> ha a rendszer szilárdan áll, választhatsz egy bónusz-tárat — de csak akkor.</p>"
     },
     {
       "type": "lede",
