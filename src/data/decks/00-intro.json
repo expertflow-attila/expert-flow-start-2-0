@@ -1,0 +1,119 @@
+{
+  "slug": "00-intro",
+  "title": "Expert Flow Start — Bevezető",
+  "subtitle": "12 hét · 4 fázis · 21 modul · dokumentáló kurzus",
+  "moduleNum": "Bevezető",
+  "phase": "Áttekintés",
+  "duration": "8-12 perc",
+  "slideCount": 12,
+  "slides": [
+    {
+      "type": "cover",
+      "eyebrow": "Bevezető · Üdvözöllek",
+      "title": "12 hét, ahogy <em>én</em> építem fel.",
+      "sub": "Tájékoztató kurzus magyar szolgáltató szakértőknek, akik mellékállásban vagy újrakezdőként indítanak. Nem tanítok — megosztom, mit csinálok.",
+      "meta": [
+        { "k": "Hossz", "v": "12 hét" },
+        { "k": "Fázis", "v": "4 db" },
+        { "k": "Modul", "v": "21 db" }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Mi ez a kurzus",
+      "title": "Dokumentáló — <em>nem</em> tanácsadó.",
+      "lede": "Én is most építem fel a saját vállalkozásomat. Nincs hosszú cégtörténetem mögöttem, nincs ezerfős email-listám.",
+      "body": "<p>A technikai részekre (eszközök, weboldal, automatizáció) konkrét, működő utat adok. Az üzleti részeknél (8. modul, ügyfél-szerzés) megosztom, mit próbálok és mit tanulok közben. Ezért nem tanácsadói hangú, hanem dokumentáló.</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "Heti ritmus",
+      "title": "Hogy néz ki egy hét",
+      "bullets": [
+        { "t": "1 fő modul (videó)", "s": "3 leckével — rövid alfejezetek, egyenként 5-8 perc." },
+        { "t": "1 heti feladat", "s": "Saját kezeddel csinálod, nem nézed végig." },
+        { "t": "1 eredmény", "s": "Mi lesz a héten a kezedben — konkrét, megfogható." },
+        { "t": "Heti idő", "s": "Anyag ~1 óra, feladatok 2-4 óra. Összesen 10-12 óra a 12 hét alatt." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "I. fázis · 1-3. hét",
+      "title": "Mit adsz el és <em>kinek</em>?",
+      "lede": "A tudásod magja, a vevőd, az ajánlatod.",
+      "body": "<p>Ez az alap. Ha ezek nincsenek tisztán, a többi 9 hét nem működik. Papír és toll, 4 fájdalom-kérdés, egy konkrét ember, 10 valódi beszélgetés, 5-elemes ajánlat, 3 csomag.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "II. fázis · 4-6. hét",
+      "title": "Hogyan <em>találjanak</em> meg?",
+      "lede": "Eszközök setup-ja, weboldal, copy és landing.",
+      "body": "<p>VS Code + Claude Code + Sybell domain + Google Workspace. Vercel-en hosztolt weboldal. Hormozi-stílusú copy és landing. A hét végére van egy hivatalos online jelenléted.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "III. fázis · 7-9. hét",
+      "title": "Hogyan <em>szólítsd</em> meg őket?",
+      "lede": "Konzultációs funnel, ügyfél-szerzés, lead magnet.",
+      "body": "<p>Cal.com konzultációs funnel. Ügyfél-szerzés ismerős-listáról — a 8. modul a kurzus szíve. Lead magnet PDF, email-lista Kit-en.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "IV. fázis · 10-12. hét",
+      "title": "Háttér és <em>számok</em>.",
+      "lede": "CRM, mérés, jogi és számlázási minimum.",
+      "body": "<p>Google Sheets CRM + Gmail/Drive struktúra. GA4 mérés IP-anonimizálással. Jogi rend (ÁSZF, adatkezelési) és számlázás (Számlázz.hu vagy Billingo).</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "Mire jó / mire NEM",
+      "title": "Kinek szól ez a kurzus",
+      "bullets": [
+        { "t": "Igen — magyar szakértő vállalkozók", "s": "Tanácsadók, fotósok, tréningvezetők, könyvelők, coachok, szabadúszó szakemberek." },
+        { "t": "Igen — saját kezű építők", "s": "Akik VS Code + Claude Code előfizetéssel maguk csinálják, nem ügynökséget bíznak meg." },
+        { "t": "Nem — általános AI-tanfolyam", "s": "Nem ChatGPT/Claude API-kódolás, nem n8n/Zapier, nem ügynöki üzletág." },
+        { "t": "Nem — e-kereskedelem", "s": "Nem termékboltot indítunk. Szolgáltatás-alapú szakértői vállalkozás a fókusz." }
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "Eszközök, amik kellenek",
+      "title": "A 12 hét stackje",
+      "bullets": [
+        { "t": "VS Code + Claude Code", "s": "Ingyenes szerkesztő + ~$20/hó AI-előfizetés. A 4. modulban telepítjük." },
+        { "t": "Sybell + Google Workspace", "s": "Domain ~3000 Ft/év, Workspace ~2000 Ft/hó. Hivatalos email." },
+        { "t": "Vercel + Cal.com + Kit", "s": "Hoszting, foglaló, email-lista. Mindhárom ingyenes induláshoz." },
+        { "t": "GA4 + Sheets + számlázó", "s": "Mérés, CRM, számlázás. Számlázz.hu vagy Billingo, ~5000 Ft/év." }
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "Hogyan használd",
+      "title": "Hetente 1 modul — ne ugorj előre",
+      "bullets": [
+        { "t": "Az 1-3. modul a legfontosabb", "s": "Ha az alapokkal sietsz, a 4-12. modul fele értelmét veszti." },
+        { "t": "17-19. tár-anyagok referencia", "s": "Landing minták, funnel típusok, AI eszközök. Bármikor használhatók, nem kötelező sorrend." },
+        { "t": "20. bónusz építő-modul", "s": "Hogyan készítettem el ezt a kurzust AI-vágással. A 12. hét után, ha skálázódnál." },
+        { "t": "Visszajelzés a 12. hét végén", "s": "10 kérdéses form a BONUSZ.md-ben. Cserébe bónusz-csomag." }
+      ]
+    },
+    {
+      "type": "quote",
+      "eyebrow": "A kurzus alaptétele",
+      "quote": "Boring is beautiful. Workflows beat agents.",
+      "cite": "EV-AIOS · 3Ms keretrendszer"
+    },
+    {
+      "type": "end",
+      "eyebrow": "Kezdjük",
+      "title": "Indulás: <em>1. modul</em>.",
+      "sub": "A tudásod magja — pozicionálás, 4 fájdalom-kérdés, pivot-pont, 1 mondat. Papír és toll, nem AI.",
+      "links": [
+        { "label": "Modul · részletes szöveg", "url": "/modules/00-intro" },
+        { "label": "Letölthető anyagok", "url": "/downloads/00-intro/README.md" },
+        { "label": "Következő modul · 01", "url": "/modules/01-tudasod-magja" },
+        { "label": "Vissza a tartalomjegyzékhez", "url": "/#modulok" }
+      ]
+    }
+  ]
+}

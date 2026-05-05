@@ -1,0 +1,120 @@
+{
+  "slug": "02-vevod-ki",
+  "title": "Ki a vevőd?",
+  "subtitle": "Egy konkrét ember · este 10-kor · 10 valódi beszélgetés",
+  "moduleNum": "Modul · 02",
+  "phase": "I. fázis · 2. hét",
+  "duration": "14-20 perc",
+  "slideCount": 14,
+  "slides": [
+    {
+      "type": "cover",
+      "eyebrow": "Modul · 02 · I. fázis · 2. hét",
+      "title": "Ki a <em>vevőd</em>?",
+      "sub": "Egy konkrét ember, akiről tudod, mit csinál este 10-kor. Plusz tíz valódi beszélgetés, hogy ne képzelődj.",
+      "meta": [
+        { "k": "Hossz", "v": "14-20 perc" },
+        { "k": "Lecke", "v": "3 db" },
+        { "k": "Heti feladat", "v": "Avatár-portré + 3 beszélgetés" }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Mit nyersz a modul végére",
+      "title": "Tudod, <em>kihez</em> beszélsz a 10 modulban.",
+      "lede": "Nem kategóriához, nem szegmenshez, hanem egy konkrét emberhez, akinek a hangját már hallottad.",
+      "body": "<p>A „célközönség\" szó hazudik. Aki azt mondja, hogy „kisvállalkozók\", az még nem mondott semmit. A vevőd egy konkrét ember, névvel, kor szerint, körülményekkel, esti rutinokkal.</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "A 3 lecke",
+      "title": "Mit rakunk a helyére ezen a héten",
+      "bullets": [
+        { "t": "01. Egy konkrét ember", "s": "Név, kor, foglalkozás, lakhely. Élet, nem szegmens." },
+        { "t": "02. Mit gondol este 10-kor", "s": "A belső monológ, amit nem mond ki. Innen indul a copy." },
+        { "t": "03. Tíz valódi beszélgetés", "s": "Kilépés a fejedből — telefon vagy személyes találkozó." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "01. lecke",
+      "title": "Egy <em>konkrét</em> ember",
+      "lede": "Egyetlen ember — ismerős, ügyfél, akit elképzelsz, vagy akit régebben láttál.",
+      "body": "<p>Adj neki nevet, kort, foglalkozást, lakhelyet. Ne szegmenset rajzolj, hanem életet: hány gyereke van, mikor kel, milyen autóval jár, mit dolgozik 10-től 5-ig.</p><p>A kérdés nem az, hogy „milyen a vevőm általában\", hanem hogy „milyen Anna, aki Pesterzsébeten lakik, két gyerekes, és heti 50 órát dolgozik\".</p>"
+    },
+    {
+      "type": "code",
+      "eyebrow": "01. lecke · prompt",
+      "title": "Prompt — avatár-profil 12 kérdésben",
+      "lede": "Akkor futtasd, amikor már kiválasztottál egy embert, és a 4 alapadat a fejedben van.",
+      "code": "Mag-problémám (1. modul): [1 mondat]\n\nEgy valódi ember a környezetemből, aki illik:\n- Név: [keresztnév]\n- Kor: [szám]\n- Foglalkozás: [egy mondat]\n- Lakhely + családi állapot: [1 mondat]\n- 3 mondat, amit tudok róla: [...]\n\nTedd a következőt:\n1. Tegyél fel 12 kérdést, ami ebből vásárlási\n   avatár-profilt épít — különösen a frusztrációkról,\n   pénz-elköltési szokásokról, döntéshozatali profilról.\n2. A kérdéseket EGYESÉVEL tedd fel, ne dömpingeld.\n3. A válaszaim alapján építsd fel az 1 oldalas profilt.\n4. A végén légy őszinte: ez tényleg a vevőm,\n   vagy illúzió? Ha illúzió, mondd meg, miért."
+    },
+    {
+      "type": "lede",
+      "eyebrow": "02. lecke",
+      "title": "Mit gondol <em>este 10-kor</em>",
+      "lede": "Itt válik ki a felszínes avatár-leírás a használhatótól.",
+      "body": "<p>Mire gondol Anna, miközben a sötét konyhában áll fél tizenegykor? Min aggódik? Mi az, amit nem mer kimondani a férjének, az anyjának, magának? Milyen mondatok futnak végig a fejében — nem amit a marketing-anyagban olvasnál, hanem amit ténylegesen mond magának belül.</p><p>A copy és az ajánlat innen indul majd — nem a foglalkozásból, hanem ezekből a 10 órás mondatokból.</p>"
+    },
+    {
+      "type": "code",
+      "eyebrow": "02. lecke · prompt",
+      "title": "Prompt — belső monológ 18:00-22:00",
+      "lede": "Akkor futtasd, amikor a 01. lecke avatár-profilja kész.",
+      "code": "Avatár-profilom (2.1-ből beillesztve):\n[profil]\n\nRészletes belső monológ az avatárról\neste 18:00–22:00 között. Percbontásban\n(vagy 30-perces blokkokban):\n- Hol van fizikailag?\n- Mit csinál (vacsora, gyerek, telefon, TV)?\n- Mire gondol — NEM amit a marketing-anyag mondana,\n  hanem amit ténylegesen mond magának belül.\n- Mit görget, mire kattint, mire ér rá?\n- Milyen aggodalmak futnak végig a fejében\n  munkáról, családról, pénzről, jövőről?\n\nHangsúlyozd:\n- Mikor nyitott egy ajánlatra?\n- Mikor biztosan zárt?\n\nCsak a saját szavaival írj — semmi marketing-szöveg."
+    },
+    {
+      "type": "lede",
+      "eyebrow": "03. lecke",
+      "title": "Tíz valódi <em>beszélgetés</em>",
+      "lede": "Tíz embert megkeresel és beszélgetsz velük 20-30 percet. Telefon vagy személyes — nem kérdőív, nem online form.",
+      "body": "<p>A kérdéseid nyitottak: „Mit próbáltál már megoldani ezzel a problémával?\", „Mit fizettél eddig érte?\", „Mi volt a legrosszabb, amit kaptál?\". Ne adj el — csak hallgass és jegyzetelj.</p><p>A tíz beszélgetés végére az lesz a kezedben, ami a piac valóban érez — és ez mindig más lesz, mint amit te elképzeltél.</p>"
+    },
+    {
+      "type": "code",
+      "eyebrow": "03. lecke · prompt",
+      "title": "Prompt — beszélgetés-forgatókönyv",
+      "lede": "Mielőtt felhívod az első embert. A cél: megérteni a piacot, NEM meggyőzni.",
+      "code": "Mag-problémám: [1 mondat]\nAvatár-profilom: [1 mondat összegzés]\n\nÍrj egy 15-20 perces beszélgetés-forgatókönyvet,\namit 10 emberrel folytatok le.\n\nA forgatókönyv tartalmazza:\n- Nyitó mondat (NEM manipulatív, NEM sales-szagú,\n  őszinte: „valami újat csinálok, és tanulni szeretnék\")\n- 5 nyitott kérdés a problémáról\n- 3 kérdés a pénz-elköltési múltról\n  (mire költött az utóbbi 12 hónapban,\n  mennyit volt hajlandó kiadni)\n- 2 kérdés az ideális elvárásról\n- Záró mondat, ami nyitva hagyja a kontaktust\n\nA cél: megérteni a piacot, NEM meggyőzni."
+    },
+    {
+      "type": "code",
+      "eyebrow": "03. lecke · összegző prompt",
+      "title": "Prompt — a 10 beszélgetés után",
+      "lede": "Akkor futtasd, amikor a 10 ember mind végigment, és a jegyzeteid előtted vannak.",
+      "code": "Lefolytattam 10 beszélgetést.\n\n3 legfontosabb megfigyelés:\n[1] ... [2] ... [3] ...\n\nAmit nem vártam: ...\n\nAmit a legtöbben mondtak arra a kérdésre,\nhogy „mire költöttek már ezen a területen\": ...\n\nA piac saját szavai (idézetek):\n[3-5 konkrét mondat]\n\nFoglald össze 1 bekezdésben, amit a piac valóban akar.\nA mag-problémám illik-e a hallott valósághoz?\nHa kell, hogyan fogalmazzam át — a piac saját szavaival?\n\nLégy őszinte: ha azt látod, hogy nincs kereslet,\nmondd meg. Ez NYERESÉG, nem veszteség."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "Az alaptétel",
+      "quote": "A célközönség szó hazudik. A vevőd egy konkrét ember.",
+      "cite": "2. modul · Ki a vevőd?"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Heti feladat",
+      "title": "Mit csinálsz <em>ezen a héten</em>",
+      "lede": "Egy oldalas avatár-portré egy konkrét emberről + legalább 3 valódi beszélgetés a hét folyamán.",
+      "body": "<p>A maradék 7 beszélgetés a következő hetekben — ne álljon le a folyamat. A 3. modul (ajánlat) ezekből a beszélgetésekből épül; ha nincs meg legalább 3, a 3.1 prompt nem fog működni rendesen.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Eredmény",
+      "title": "A hét végére: <em>egy ember</em> hangja.",
+      "lede": "Nem kategória, nem szegmens — egy konkrét Anna, akinek tudod, mit görget fél tizenegykor a sötét konyhában.",
+      "body": "<p>Ha az avatár még illúziónak tűnik, ne menj a 3. modulra. Lépj vissza a 01. lecke kérdéseihez, vagy folytasd a beszélgetéseket. A tíz valódi beszélgetés súlya itt mutatkozik meg.</p>"
+    },
+    {
+      "type": "end",
+      "eyebrow": "Modul vége",
+      "title": "Eredmény: <em>egy konkrét</em> vevő.",
+      "sub": "Az avatár-profil áll. A 10 órás belső monológ leírva. A 3+ beszélgetés folyamatban. Innen az ajánlat következik.",
+      "links": [
+        { "label": "Modul · részletes szöveg", "url": "/modules/02-vevod-ki" },
+        { "label": "Letölthető anyagok", "url": "/downloads/02-vevod-ki/SKILL.md" },
+        { "label": "Következő modul · 03", "url": "/modules/03-ajanlat-csomagok" },
+        { "label": "Vissza a tartalomjegyzékhez", "url": "/#modulok" }
+      ]
+    }
+  ]
+}

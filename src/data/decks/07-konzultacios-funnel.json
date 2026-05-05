@@ -1,0 +1,117 @@
+{
+  "slug": "07-konzultacios-funnel",
+  "title": "Konzultációs funnel",
+  "subtitle": "Cal.com · 4 automatikus email · no-show kezelés",
+  "moduleNum": "Modul · 07",
+  "phase": "III. fázis · 7. hét",
+  "duration": "14-18 perc",
+  "slideCount": 13,
+  "slides": [
+    {
+      "type": "cover",
+      "eyebrow": "Modul · 07 · III. fázis · 7. hét",
+      "title": "Konzultációs <em>funnel</em>",
+      "sub": "Cal.com + négy automatikus email. A rendszer dolgozik, te beszélgetsz — ezért fontos, hogy a háttér nélküled is működjön.",
+      "meta": [
+        { "k": "Hossz", "v": "14-18 perc" },
+        { "k": "Lecke", "v": "3 db" },
+        { "k": "Heti feladat", "v": "Cal.com setup + 4 email" }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Mit nyersz a modul végére",
+      "title": "Egy működő <em>foglaló-rendszer</em>.",
+      "lede": "Ha valaki kattint a „Foglalj konzultációt\"-ra, onnan minden lépés magától halad. Te csak a beszélgetésen jelensz meg.",
+      "body": "<p>Ha valaki a „Foglalj konzultációt\" gombra kattint, onnan tíz dolog történhet — és kilenc közülük olyan, amit nem akarsz manuálisan kezelni. A funnel az a négy-öt automatikus lépés, ami a foglalás és a beszélgetés között történik.</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "A 3 lecke",
+      "title": "Mit rakunk a helyére ezen a héten",
+      "bullets": [
+        { "t": "Cal.com setup", "s": "Event type, időkeret, 2-3 előzetes szűrő-kérdés. Google Workspace-szel szinkronizálva." },
+        { "t": "Négy email automatika", "s": "Confirmation, 24h reminder, 1h reminder, follow-up — a Cal.com Workflows-ban." },
+        { "t": "No-show kezelés", "s": "5. szabály a Workflows-ban + mentális keret arra, hogy NEM személyes." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "01. lecke",
+      "title": "Cal.com <em>setup</em>",
+      "lede": "Ingyenes konzultáció-foglaló (Calendly-alternatíva), rugalmasabb, mert az emailezésekbe is bele lehet nyúlni.",
+      "body": "<p>Lépéssor: regisztráció a saját Google Workspace-fiókkal (a naptár automatikusan szinkronizálódik), event type létrehozása („30 perces ingyenes konzultáció\"), időkeret beállítás — ne nyomd túl szorosan, a felkészülésre is kell idő.</p><p>Plusz 2-3 előzetes kérdés: „Mi az a konkrét kérdés, amiben szeretnél előrelépni?\" Ezekből látsz a beszélgetés előtt, kit kapsz.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "02. lecke",
+      "title": "Négy email <em>automatika</em>",
+      "lede": "A Cal.com Workflows-ban négy email-szabályt állítasz be.",
+      "body": "<p>(1) <strong>Confirmation</strong> — azonnal a foglalás után. (2) <strong>24h reminder</strong> — egy nappal előtte, konkrét lista, mit hozzon. (3) <strong>1h reminder</strong> — egy órával előtte, Zoom-link. (4) <strong>Follow-up</strong> — pár órával a beszélgetés után, megbeszélt lépések.</p><p>Mindegyik email egyszerű, személyes, nem coach-szagú — úgy, mintha egy ismerősödnek írnál.</p>"
+    },
+    {
+      "type": "code",
+      "eyebrow": "02. lecke · email-skeleton",
+      "title": "Confirmation email — sablon",
+      "lede": "Ezt másold a Cal.com Workflows „Custom email\" mezőjébe — a {{változókat}} a Cal.com automatikusan kitölti.",
+      "code": "Tárgy: Megerősítve — {{event_type}} ({{event_date}})\n\nSzia {{attendee_first_name}},\n\nMegerősítettem a beszélgetést: {{event_date}} {{event_time}}.\nA Zoom-link itt: {{meeting_link}}\n\nMit készíts elő:\n- 1-2 mondatos összefoglaló a jelenlegi helyzetedről\n- A legnagyobb akadály, amit most érzel\n\nHa módosítani kell, itt tudod: {{reschedule_link}}\n\nKöszi, hogy időt szánsz rá — beszélünk.\n{{organizer_name}}"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "02. lecke · a 4 email célja",
+      "title": "Mit dolgozik mindegyik",
+      "bullets": [
+        { "t": "Confirmation (azonnal)", "s": "Megerősítés, mit hozzon, hogyan módosítson, rövid „köszi\"." },
+        { "t": "24h reminder", "s": "Holnap találkozunk + 1-3 pont, mit hozzon. Egy mondatos motiváció." },
+        { "t": "1h reminder", "s": "Egy óra múlva, itt a link. Rövid, mintha SMS lenne." },
+        { "t": "Follow-up (2h után)", "s": "Köszi, megbeszélt lépések 3-5 bulletben. Nem értékesítés — őszinte utánkövetés." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "03. lecke",
+      "title": "<em>No-show</em> kezelés",
+      "lede": "A no-show elkerülhetetlen, és nem személyes — a foglalás napján sok minden történhet.",
+      "body": "<p>A te dolgod nem az, hogy idegeskedj, hanem hogy a rendszered automatikusan kezelje. A follow-up email a no-show után 24 órával egy „Sajnálom, hogy elcsúszott — szabad ezt a [új linket] küldeni?\" üzenetet küld.</p><p><strong>Ne te emlékezz rá, hogy ki jelent meg és ki nem</strong> — a Cal.com naptár látja, a Workflows kezeli.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "03. lecke · no-show ráta",
+      "title": "Mikor érdemes <em>változtatni</em>",
+      "lede": "A no-show ráta a fizetős konzultációknál és a kvalifikációs kérdéseknél esik vissza.",
+      "body": "<p>Maximum 2 alkalommal küldj új linket — a 2. no-show után már nem. Ezt a 8. modulnál fogod tudni alkalmazni, ahol az első konkrét beszélgetésekre kerül sor.</p><p>Ha az ingyenes 30 perceseknél magas a no-show, érdemes átlépni egy 5-10 ezer forintos kvalifikációs díjra — onnan szinte nullára esik.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Az integráció",
+      "title": "Honnan hova <em>fut</em> az adat",
+      "lede": "Webhely CTA → Cal.com event → Google Calendar + Workflows email-ek → (10. modul) Sheets CRM.",
+      "body": "<p>A Cal.com middleware: a frontend (weboldal, landing) és a hátország (CRM, naptár, email) között dolgozik. A 10. modulban a Cal.com BOOKING_CREATED webhookkal a Google Sheets CRM-hez is be fog kötni.</p>"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "Az alaptétel",
+      "quote": "A rendszer dolgozik, te beszélgetsz",
+      "cite": "7. modul · A hét témája"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Heti feladat",
+      "title": "Mit csinálsz <em>ezen a héten</em>",
+      "lede": "Állítsd be a Cal.com event type-od az előzetes kérdésekkel, és írd meg a négy automatikus email-sablont a Workflows-ban.",
+      "body": "<p>Tesztelni kötelező: foglalj saját magadnak egy időpontot egy másik email-címről, és nézd meg, hogy mind a négy email helyesen érkezik-e. Egy idegen szemszögéből kell rendben lennie.</p>"
+    },
+    {
+      "type": "end",
+      "eyebrow": "Modul vége",
+      "title": "Eredmény: működik a <em>háttér</em>.",
+      "sub": "Foglalás, három emlékeztető, follow-up, no-show kezelés — magától. A 8. modulban már az első ismerős-listának ezt a linket küldöd.",
+      "links": [
+        { "label": "Modul · részletes szöveg", "url": "/modules/07-konzultacios-funnel" },
+        { "label": "Letölthető anyagok", "url": "/downloads/07-konzultacios-funnel/SKILL.md" },
+        { "label": "Következő modul · 08", "url": "/modules/08-elso-ugyfelek" },
+        { "label": "Vissza a tartalomjegyzékhez", "url": "/#modulok" }
+      ]
+    }
+  ]
+}

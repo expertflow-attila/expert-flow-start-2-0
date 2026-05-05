@@ -1,0 +1,118 @@
+{
+  "slug": "11-analitika-ga4",
+  "title": "Mérés — Google Analytics 4",
+  "subtitle": "gtag.js · 5 esemény · heti dashboard",
+  "moduleNum": "Modul · 11",
+  "phase": "IV. fázis · 11. hét",
+  "duration": "12-16 perc",
+  "slideCount": 13,
+  "slides": [
+    {
+      "type": "cover",
+      "eyebrow": "Modul · 11 · IV. fázis · 11. hét",
+      "title": "Mérés — <em>Google Analytics 4</em>",
+      "sub": "Öt alap esemény, egy egyszerű dashboard. A mérés ott kezdődik, ahol forgalom van — előbb beszerezzük, aztán nézzük.",
+      "meta": [
+        { "k": "Hossz", "v": "12-16 perc" },
+        { "k": "Lecke", "v": "3 db" },
+        { "k": "Heti feladat", "v": "GA4 setup + 5 esemény + dashboard" }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Mit nyersz a modul végére",
+      "title": "Adatokat — <em>nem érzéseket</em>.",
+      "lede": "A 11. modul azért van itt, és nem előbb, mert mérni csak akkor van mit, ha van forgalom.",
+      "body": "<p>A 9. modul után már működik a webhely, a lead magnet, az email lista; most jön az a réteg, hogy LÁSD, mi történik. A GA4 ingyenes, és pontosan azokra a kérdésekre válaszol, amik egy kezdő vállalkozónak fontosak.</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "A 3 lecke",
+      "title": "Mit rakunk a helyére ezen a héten",
+      "bullets": [
+        { "t": "gtag.js telepítés", "s": "GA4 mérőkód a webhely <head> szekciójába. Csak production-ön, env változóból." },
+        { "t": "Öt alap esemény", "s": "page_view, scroll_depth, cta_click, booking_click, email_signup." },
+        { "t": "Heti dashboard", "s": "3 mutató, hétfő reggel 5 perc, beírod egy Sheets-be a CRM mellé." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "01. lecke",
+      "title": "gtag.js <em>telepítés</em>",
+      "lede": "Regisztráció a analytics.google.com-on, új property a domainedhez, kapsz egy Measurement ID-t.",
+      "body": "<p>A gtag.js snippet kb. 8 sor JavaScript. Ezt a webhelyed <code>&lt;head&gt;</code> szekciójába illeszted — a Claude Code 30 másodperc alatt megcsinálja, ha odaadod a snippet-et.</p><p>24 órát várj, hogy az adatok megjelenjenek. Innen tovább a GA4 automatikusan rögzíti az alap-adatokat: oldal-megjelenítések, munkamenet-időtartam, eszközök, lokáció.</p>"
+    },
+    {
+      "type": "code",
+      "eyebrow": "01. lecke · gtag.js snippet",
+      "title": "A mérőkód",
+      "lede": "Ezt másold a webhely minden HTML fájljának <head> szekciójába. A G-XXXXXXXXXX helyére a saját Measurement ID-d kerül, ne hardkódold.",
+      "code": "<!-- Google tag (gtag.js) -->\n<script async\n  src=\"https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX\">\n</script>\n<script>\n  if (window.location.hostname !== 'localhost') {\n    window.dataLayer = window.dataLayer || [];\n    function gtag(){dataLayer.push(arguments);}\n    gtag('js', new Date());\n    gtag('config', 'G-XXXXXXXXXX');\n  }\n</script>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "02. lecke",
+      "title": "Öt alap <em>esemény</em>",
+      "lede": "Az alap-méréseken túl be lehet állítani „custom event\"-eket — a konkrét akciók, amiket a webhelyen mérni akarsz.",
+      "body": "<p>(1) <strong>page_view</strong> — alapból megy. (2) <strong>scroll_depth</strong> — milyen mélyen görgetnek (50%, 75%, 90%). (3) <strong>cta_click</strong> — fő CTA gombok. (4) <strong>booking_click</strong> — Cal.com gomb. (5) <strong>email_signup</strong> — Kit feliratkozás után.</p><p>Az utóbbi háromhoz egy kis JavaScript kell — a Claude Code megírja, és egy hét adat után már látod, melyik gomb dolgozik.</p>"
+    },
+    {
+      "type": "code",
+      "eyebrow": "02. lecke · custom event",
+      "title": "cta_click esemény",
+      "lede": "Ezt egy közös analytics.js fájlba teszed, és minden HTML oldalra betöltöd. A typeof check miatt nem törik el, ha a gtag még nem töltődött be.",
+      "code": "// CTA gombokra kattintás-mérés\ndocument.querySelectorAll('[data-cta]').forEach(btn => {\n  btn.addEventListener('click', (e) => {\n    if (typeof gtag !== 'function') return;\n    gtag('event', 'cta_click', {\n      label: btn.dataset.cta,         // pl. \"hero_primary\"\n      text: btn.textContent.trim()\n    });\n  });\n});\n\n// Cal.com foglalás-gomb\ndocument.querySelectorAll('[data-booking]').forEach(btn => {\n  btn.addEventListener('click', () => {\n    if (typeof gtag !== 'function') return;\n    gtag('event', 'booking_click', {\n      source: btn.dataset.booking      // pl. \"header\" / \"inline\"\n    });\n  });\n});"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "02. lecke · az 5 esemény",
+      "title": "Mit dolgozik mindegyik",
+      "bullets": [
+        { "t": "page_view", "s": "Alapból. Hány látogató, milyen oldalakon, mennyi időt töltenek." },
+        { "t": "scroll_depth", "s": "50% / 75% / 90%. Megáll-e az olvasó az érték-stack-nél, vagy átgördül?" },
+        { "t": "cta_click", "s": "A fő CTA gombokra kattintás. A hero-CTA működik-e, vagy a footeres erősebb?" },
+        { "t": "booking_click", "s": "A Cal.com gomb kattintásai. Hány kattintásból lesz tényleges foglalás?" },
+        { "t": "email_signup", "s": "Kit form sikeres feliratkozás. A lead magnet copy-ja meggyőző-e?" }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "03. lecke",
+      "title": "Dashboard és <em>heti riport</em>",
+      "lede": "A GA4 alapból bonyolultnak tűnik — sok adat, sok grafikon, és nem világos, mit kell nézni.",
+      "body": "<p>Egyszerű custom dashboard a Reports szekcióban: egy oldal, három mutatóval — heti látogatók száma, lead magnet feliratkozások száma, CTA-kattintások száma.</p><p>Heti egyszer (hétfő reggel) megnyitod 5 percre, leírod a számokat egy Sheets-be (a 10. modul CRM-je mellé egy „Analytics\" lap), és nyomon követed a trendet.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "03. lecke · a heti rutin",
+      "title": "Hétfő 9:00, <em>5 perc</em>",
+      "lede": "Megnyitom a GA4 dashboardot, átírom a 3-4 számot a Sheets-be.",
+      "body": "<p>Sheets oszlopok: <code>het_szama, datum, latogatok, feliratkozasok, cta_kattintasok, booking_clicks, megjegyzes</code>.</p><p>Ha történt változás (új blogposzt, új CTA, új ár), oda írom a megjegyzés oszlopba. <strong>Nem napi szintű figyelés — heti egyszer ránézel, és az alapján döntesz, mit változtass.</strong></p>"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "Az alaptétel",
+      "quote": "A mérés nem önmagában cél — a döntéseket informálja",
+      "cite": "11. modul · 03. lecke"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Heti feladat",
+      "title": "Mit csinálsz <em>ezen a héten</em>",
+      "lede": "Telepítsd a GA4 mérőkódot a webhelyre, állítsd be a négy custom eseményt, és hozz létre egy heti riport-dashboardot a fenti három mutatóval.",
+      "body": "<p>A telepítés 10 perc, az események 30 perc, a dashboard és a Sheets-lap 20 perc. Egy óra alatt készen van — és onnan magától dolgozik.</p>"
+    },
+    {
+      "type": "end",
+      "eyebrow": "Modul vége",
+      "title": "Eredmény: <em>tudod</em>, mi történik a webhelyen.",
+      "sub": "Adatokkal, nem érzéssel. Innen kezdve minden változtatást ezekre a mutatókra építesz — a copy-tól a CTA helyezéséig.",
+      "links": [
+        { "label": "Modul · részletes szöveg", "url": "/modules/11-analitika-ga4" },
+        { "label": "Letölthető anyagok", "url": "/downloads/11-analitika-ga4/SKILL.md" },
+        { "label": "Következő modul · 12", "url": "/modules/12-jogi-szamlazas" },
+        { "label": "Vissza a tartalomjegyzékhez", "url": "/#modulok" }
+      ]
+    }
+  ]
+}

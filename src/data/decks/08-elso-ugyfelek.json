@@ -1,0 +1,118 @@
+{
+  "slug": "08-elso-ugyfelek",
+  "title": "Hogyan próbálok ügyfeleket találni",
+  "subtitle": "10 ismerős · személyes üzenet · ajánláskérés",
+  "moduleNum": "Modul · 08",
+  "phase": "III. fázis · 8. hét",
+  "duration": "12-16 perc",
+  "slideCount": 13,
+  "slides": [
+    {
+      "type": "cover",
+      "eyebrow": "Modul · 08 · III. fázis · 8. hét",
+      "title": "Hogyan próbálok <em>ügyfeleket</em> találni",
+      "sub": "Nem hirdetés, nem nyomulás. Tíz ember a környezetemből, személyes üzenettel — megosztom, mit próbálok, és mit tanulok belőle közben.",
+      "meta": [
+        { "k": "Hossz", "v": "12-16 perc" },
+        { "k": "Lecke", "v": "3 db" },
+        { "k": "Heti feladat", "v": "10 név + 3 üzenet" }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Ezt a modult máshogy írom",
+      "title": "Itt nem azt mondom el „hogyan kell\" — hanem <em>mit próbálok</em>.",
+      "lede": "A többi modul technikai jellegű volt. Az ügyfél-szerzés nem ilyen.",
+      "body": "<p>Még nincs sok fizető ügyfelem — ezért a hangom itt nem tanácsadó, hanem dokumentáló: <strong>„ezt teszem én, így gondolkodom, ez a hipotézisem, ez a kockázatom\".</strong></p><p>Egy Cal.com workflow vagy egy Vercel deploy mindenkinél ugyanúgy működik. Az emberek nem.</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "A 3 lecke",
+      "title": "Mit próbálok ezen a héten",
+      "bullets": [
+        { "t": "Az ismerős-lista", "s": "Tíz ember a környezetemből, akiket szakmailag ismerek és valamilyen szinten megbíznak bennem." },
+        { "t": "A személyes üzenet", "s": "Külön üzenet mindenkinek, max 3-4 mondat. Nem tömeges email, nem hirdetés." },
+        { "t": "Ajánláskérés", "s": "Az első elégedett ügyfél után — konkrét szám, konkrét időkeret." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "01. lecke",
+      "title": "Az <em>ismerős-lista</em>",
+      "lede": "Az első tíz potenciális ügyfél nem Facebook-hirdetésből jön — hanem a saját környezetedből.",
+      "body": "<p>Volt kollégák, üzleti ismerősök, családi kapcsolatok, akik most pont egy olyan helyzetben vannak, amire neked van válaszod.</p><p><strong>Ne fókuszálj arra, hogy „passzol-e az avatárhoz\"</strong> — az most másodlagos. Az számít, hogy ismernek, és nem kell magadat bemutatni.</p><p>Tíz név. Ha nincs tíz, akkor öt — de mindenképp konkrét emberek, nem „ismerőseim általában\".</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "01. lecke · honnan jönnek",
+      "title": "Hol találod a 10 nevet",
+      "bullets": [
+        { "t": "Volt kollégák", "s": "Az utolsó 3 munkahely. Most másik céghez kerültek, vagy saját vállalkozásba mentek." },
+        { "t": "Korábbi ügyfelek", "s": "Akikkel már nem dolgozol együtt, de jó volt a viszony." },
+        { "t": "Konferenciák, eventek", "s": "Akivel egy beszélgetésre futottál össze, de azóta nem volt kontakt." },
+        { "t": "Mentorok, partnerek", "s": "Üzleti ismerősök, akik tisztelnek és követik az utadat." },
+        { "t": "Családi vagy baráti kör", "s": "Vállalkozók a környezetedben, akiknek ez a probléma valós." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "02. lecke",
+      "title": "A <em>személyes üzenet</em>",
+      "lede": "Itt jön a rész, amit a legtöbben rosszul csinálnak: tömeges email, ugyanazzal a szöveggel.",
+      "body": "<p>Amit én próbálok: minden egyes embernek külön üzenet, max 3-4 mondat. Nem azzal kezdődik, hogy „van egy új szolgáltatásom\".</p><p>Inkább: <em>„Szia X, valami újat csinálok mostanában — gondoltam, megmutatnám, mert úgy érzem, neked is hasznos lehet. Ráérsz egy 20 perces beszélgetésre a héten?\"</em></p><p><strong>Ez nem értékesítés — ez egy ajánlat egy beszélgetésre.</strong></p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "02. lecke · a beszélgetés",
+      "title": "A 20 perc <em>alatt</em>",
+      "lede": "Nem prezentálsz — kérdezel.",
+      "body": "<p>„Mostanában milyen problémád van [a saját területeden]?\" — és innen jön a folyamat. Ha valaki Y-t mond, és neked van rá válasz: javasolj egy következő beszélgetést. Ha nincs, az is rendben — köszöntél, nem nyomulsz.</p>"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "A modul hangja",
+      "quote": "Ezt én is most tanulom — minden hét új tanulság, és néha rosszul sül el",
+      "cite": "8. modul · 02. lecke"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Mit NE csinálj",
+      "title": "Amitől <em>elidegenül</em> az olvasó",
+      "lede": "Tömeges email ugyanazzal a szöveggel. „Van egy új szolgáltatásom\" nyitás. Coach-szöveg, hyped szöveg, „a magasabb verziód\".",
+      "body": "<p>Ne küldd ki, mielőtt kétszer át nem olvastad. Ha érzed, hogy „eladószag\" van rajta, írd át. <strong>Inkább kevesebb és jobb, mint több és rossz.</strong></p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "03. lecke",
+      "title": "<em>Ajánláskérés</em> — az első elégedett ügyfél után",
+      "lede": "Nem érzelmi zsarolás („tudnál ajánlani valakit?\") — hanem konkrét.",
+      "body": "<p>„Gondolkozz két emberen, aki most pont ott áll, ahol te álltál egy hónapja. Ha eszedbe jut valaki, küldj nekem üzenetet, és én felveszem vele a kapcsolatot.\"</p><p>A specifikus szám (kettő, nem „valaki\") és a konkrét időkeret (most, nem „valamikor majd\") teszi az ajánláskérést cselekvésre váltóvá.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "03. lecke · dokumentálás",
+      "title": "Amit <em>magamnak</em> rögzítek",
+      "lede": "Melyik ügyfél hányat ajánl. Milyen szövegre reagál legjobban. Mi a sikerráta.",
+      "body": "<p>Ezt a 10. modul Google Sheets CRM-jébe vezetem. Az ajánlás-rendszer szerintem ott válik értékessé, amikor az első 5 ügyfélnél kialakul egy ritmus — de hogy mennyire működik a gyakorlatban, azt majd látom és visszajelzek.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Heti feladat",
+      "title": "Mit csinálsz <em>ezen a héten</em>",
+      "lede": "Készítsd el a saját tíz-fős ismerős-listádat, és küldj el legalább 3 személyes üzenetet a héten — utána jegyzeteld le, ki válaszolt, és milyen hangnemmel.",
+      "body": "<p>A három üzenet a minimum, nem a maximum. Ha tíz nevet találsz, és tíz embernek küldesz, jobb. De ne sablonozd — ez akkor működik, ha tényleg személyes.</p>"
+    },
+    {
+      "type": "end",
+      "eyebrow": "Modul vége",
+      "title": "Eredmény: <em>visszajelzés</em> a saját piacodról.",
+      "sub": "Egy lista, három üzenet, valamiféle reakció — innen tovább már a saját adataid alapján alakítod a megközelítést, nem mások tanácsa szerint.",
+      "links": [
+        { "label": "Modul · részletes szöveg", "url": "/modules/08-elso-ugyfelek" },
+        { "label": "Letölthető anyagok", "url": "/downloads/08-elso-ugyfelek/SKILL.md" },
+        { "label": "Következő modul · 09", "url": "/modules/09-lead-magnet" },
+        { "label": "Vissza a tartalomjegyzékhez", "url": "/#modulok" }
+      ]
+    }
+  ]
+}

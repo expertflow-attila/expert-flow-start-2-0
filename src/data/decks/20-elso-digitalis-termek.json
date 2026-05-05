@@ -1,0 +1,122 @@
+{
+  "slug": "20-elso-digitalis-termek",
+  "title": "Az első digitális terméked — videókurzus AI-vágással",
+  "subtitle": "OBS · Whisper · Claude Code · DaVinci/ffmpeg · Mux/Vimeo · Stripe",
+  "moduleNum": "Bónusz · 20",
+  "phase": "Bónusz · skálázódás",
+  "duration": "16-20 perc",
+  "slideCount": 13,
+  "slides": [
+    {
+      "type": "cover",
+      "eyebrow": "Bónusz · 20 · skálázódás",
+      "title": "Az első digitális <em>terméked</em>",
+      "sub": "Videókurzus AI-vezérelt vágással — ahogy ez a kurzus is készült. 3 hét pipeline, 50-100 ezer forint eszköz-költség.",
+      "meta": [
+        { "k": "Hossz", "v": "16-20 perc" },
+        { "k": "Lecke", "v": "3 db" },
+        { "k": "Pipeline", "v": "3 hét munka" }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Mire való ez a bónusz",
+      "title": "A skálázódás első <em>igazi</em> lépése.",
+      "lede": "A saját tudásodat egyetlenegyszer felveszed, és sokszor el tudod adni. Ez egy fizetős videókurzus — ahogyan ez is készült.",
+      "body": "<p>Ez a bónusz a 12 hét után jön: amikor már van weboldalad, lead magneted, ügyfeleid és működő hátterend. A kulcs az AI-vezérelt videovágás — nem prémium szerkesztő, hanem egy működő pipeline Claude Code-dal és Whisperrel.</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "A 3 lecke",
+      "title": "A 3 hetes pipeline",
+      "bullets": [
+        { "t": "1. hét · Curriculum + felvétel", "s": "8-12 lecke a tudásod magjából, OBS Studio + USB mikrofon, 1 lecke = 1 menet." },
+        { "t": "2. hét · AI-vezérelt vágás", "s": "Whisper transzkripció + Claude Code vágási lista + DaVinci vagy ffmpeg végrehajtás." },
+        { "t": "3. hét · Hosztolás + értékesítés", "s": "Mux vagy Vimeo + Stripe Payment Link + Kit auto-belépő-email." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "01. lecke",
+      "title": "Mit rögzíts? — <em>curriculum</em> a tudásod magjából",
+      "lede": "A 12 hét lezárása után tudod, mi a tudásod magja (1. modul) — ebből lesz az első videókurzus 8-12 leckére kibontva.",
+      "body": "<p>Struktúra-opciók: tréning-stílus (4 fázis × 3 lecke), vagy egyetlen ívben: probléma → módszer → lépések → eredmény.</p><p><strong>Felvétel:</strong> OBS Studio (ingyenes) screen recording módban, USB mikrofon (Fifine vagy Samson, 15-20 ezer Ft), webkamera opcionális. <em>1 leckét EGY menetben</em> érdemes felvenni — ne 5 take-ben. Az imperfekció hitelesebb, mint a túl-csiszolt felvétel.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "02. lecke",
+      "title": "AI-vezérelt <em>videovágás</em>",
+      "lede": "A vágás az, amitől a kezdők megszaladnak — pedig a Claude Code és a Whisper együtt itt is dolgozik.",
+      "body": "<p>A folyamat: a nyers felvételt Whisperrel transzkriptálod (lokálisan MacWhisperrel vagy az OpenAI Whisper API-jával), és időbélyeges szöveget kapsz. A transzkripciót a Claude Code-nak odaadod, és megkéred, hogy javasoljon jump cut-okat: hosszú csendek, ismétlések, „öhm\"-ök, hibásan elindított mondatok.</p><p>Az AI visszaad egy konkrét vágási listát időbélyegekkel — ezt vagy DaVinci Resolve-ban (ingyenes, vizuális) követed, vagy ffmpeg parancsokkal automatikusan végrehajtod.</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "02. lecke · pipeline",
+      "title": "A vágási pipeline 5 lépése",
+      "bullets": [
+        { "t": "Whisper transzkripció", "s": "MacWhisper lokálisan vagy OpenAI API — időbélyeges szöveg." },
+        { "t": "Claude Code vágási lista", "s": "Add oda a transzkriptet, kérd a jump cut-pontokat időbélyeggel." },
+        { "t": "DaVinci Resolve VAGY ffmpeg", "s": "Vizuális ellenőrzés vagy automatikus parancs-végrehajtás." },
+        { "t": "Felirat (caption)", "s": "Whisper-transzkripcióból, opcionális szín-kiemelés a fontos szavakon." },
+        { "t": "Időkeret", "s": "10 perces nyers felvétel = 20-30 perc vágás (nem 2 óra)." }
+      ]
+    },
+    {
+      "type": "code",
+      "eyebrow": "02. lecke · ffmpeg parancs",
+      "title": "Vágási lista végrehajtása ffmpeg-gel",
+      "lede": "A Claude Code időbélyegeket ad — ezzel a parancs-mintával vágod ki a részeket egyetlen lépésben.",
+      "code": "# 1. szegmensek kivágása a vágási lista alapján\nffmpeg -i nyers.mp4 -ss 00:01:23 -to 00:02:45 -c copy reszlet1.mp4\nffmpeg -i nyers.mp4 -ss 00:03:10 -to 00:05:30 -c copy reszlet2.mp4\n\n# 2. szegmensek összefűzése\nffmpeg -f concat -safe 0 -i lista.txt -c copy kesz.mp4\n\n# lista.txt tartalma:\n# file 'reszlet1.mp4'\n# file 'reszlet2.mp4'"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "03. lecke",
+      "title": "Hosztolás és <em>értékesítés</em>",
+      "lede": "A kész videókat tárolni kell valahol, ahonnan a vásárlók megnézhetik — két logikus opció.",
+      "body": "<p><strong>Mux</strong> — fejlesztőbarát, használat-alapú árazás, 10-30 ezer Ft/hó induláskor. <strong>Vimeo Pro</strong> — kezdőbarát, fix díj ~10 ezer Ft/hó, egyszerűen embed-elhető.</p><p><strong>Értékesítés:</strong> Stripe Payment Link — egyszeri vagy előfizetéses fizetési link. Vásárlás után a Kit (9. modul) automatikusan elküldi a kurzus belépő-emailjét, benne a videók linkjével.</p><p>A landing oldalt a 6. modul mintája szerint építed — a <code>landing.html</code>-t másolod, kicseréled a tartalmat.</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "03. lecke · értékesítési stack",
+      "title": "Mire kell pénzt kiadnod a 3. héten",
+      "bullets": [
+        { "t": "Videó-hoszting", "s": "Mux (~10-30k Ft/hó) vagy Vimeo Pro (~10k Ft/hó)." },
+        { "t": "Fizetési link", "s": "Stripe Payment Link — ingyenes, csak tranzakciós díj (~1.5%+30 Ft)." },
+        { "t": "Belépő-email", "s": "Kit (a 9. modulból már megvan) auto-küldi a videó-linket." },
+        { "t": "Landing", "s": "A 6. modul sablonját másolod, kicseréled a tartalmat." }
+      ]
+    },
+    {
+      "type": "quote",
+      "eyebrow": "Az időkeret",
+      "quote": "1 hét felvétel + 1 hét vágás és feliratozás + 1 hét hosztolás és értékesítési oldal. Nem 3 hónap — 3 hét, ha napi 1-2 leckét rögzítesz.",
+      "cite": "EV-AIOS · 20. bónusz · saját tapasztalat"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Heti feladat",
+      "title": "Mit csinálsz <em>ezen a héten</em>",
+      "lede": "Készítsd el az első videókurzusod curriculum-vázlatát (8-12 lecke) a tudásod magjából, vedd fel az első leckét OBS-szel, és próbáld ki rajta a Whisper + Claude Code vágási pipeline-t.",
+      "body": "<p>Ha az első lecke vágása működik, a többi 7-11 lecke mehet. Ha valamiért elakadsz, ne menj tovább — a pipeline egyszer rendben van, utána sokszor megy.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Eredmény",
+      "title": "Egy <em>értékesíthető</em> termék a piacon.",
+      "lede": "A bónusz-modul végére van egy működő prototípus-leckéd, amit a saját Stripe-linken értékesíteni tudsz.",
+      "body": "<p>Ettől a perctől nem csak az időddel, hanem egy értékesíthető termékkel is jelen vagy. Ez a skálázódás első valódi lépése.</p>"
+    },
+    {
+      "type": "end",
+      "eyebrow": "Bónusz vége",
+      "title": "Eredmény: <em>termék</em> a piacon.",
+      "sub": "Megvan a curriculum, az első felvett lecke, a vágási pipeline, és a Stripe-link. A többi már másolás-és-iteráció.",
+      "links": [
+        { "label": "Modul · részletes szöveg", "url": "/modules/20-elso-digitalis-termek" },
+        { "label": "Letölthető anyagok", "url": "/downloads/20-elso-digitalis-termek/SKILL.md" },
+        { "label": "Következő · 21. bónusz", "url": "/modules/21-claude-code-haladok" },
+        { "label": "Vissza a tartalomjegyzékhez", "url": "/#modulok" }
+      ]
+    }
+  ]
+}

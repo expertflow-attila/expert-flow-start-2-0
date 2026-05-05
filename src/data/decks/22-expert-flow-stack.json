@@ -1,0 +1,133 @@
+{
+  "slug": "22-expert-flow-stack",
+  "title": "Az Expert Flow technológiai stack",
+  "subtitle": "52 szolgáltatás · 11 kategória · 18 hónap alatt épült",
+  "moduleNum": "Bónusz · 22",
+  "phase": "Bónusz · tár",
+  "duration": "12-16 perc",
+  "slideCount": 13,
+  "slides": [
+    {
+      "type": "cover",
+      "eyebrow": "Bónusz · 22 · tár",
+      "title": "Az Expert Flow <em>stack</em>",
+      "sub": "52 szolgáltatás 11 kategóriában — mit használok ma, és melyik mikor lép be. Referencia-tár, nem telepítési lista.",
+      "meta": [
+        { "k": "Hossz", "v": "12-16 perc" },
+        { "k": "Szolgáltatás", "v": "52 db" },
+        { "k": "Kategória", "v": "11" }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Mire való ez a tár",
+      "title": "A teljes <em>lehetőség</em>-térkép.",
+      "lede": "A 12 építő modul minimális, kezdőbarát stack-re épül — bőven elég az első 5-10 ügyfélig. Ez a tár megmutatja, hova lehet eljutni, ha tovább építkezel.",
+      "body": "<p>Az Expert Flow rendszer mögött lényegesen több szolgáltatás dolgozik — nem mert szükséges, hanem mert menet közben fokozatosan kiderült, hol mire van szükség.</p>"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "A legfontosabb intelem",
+      "quote": "Ne kezdj el most ezeket telepíteni. Az Expert Flow stack-jét 18 hónap alatt építettem fel — nem 18 nap alatt. A túl korai stack-növelés ellenség.",
+      "cite": "EV-AIOS · 22. bónusz keret"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "1. kategória · alap stack",
+      "title": "Amit a 12 hét alatt már beépítettél",
+      "bullets": [
+        { "t": "Vercel · GitHub · Sybell", "s": "Hoszting, kódtár, domain (4-5. modul)." },
+        { "t": "Google Workspace", "s": "Gmail, Drive, Sheets, Naptár, Docs (4. modul)." },
+        { "t": "Cal.com · Kit", "s": "Konzultáció-foglalás, lead magnet form, welcome-sorozat (7., 9. modul)." },
+        { "t": "Sheets CRM · GA4 · Stripe Payment Link · Számlázz.hu", "s": "CRM, mérés, fizetés, számlázás (10-12. modul, 20. bónusz)." }
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "2-3. kategória",
+      "title": "AI-modellek és lead-kutatás",
+      "bullets": [
+        { "t": "AI-modellek · multi-model routing", "s": "Anthropic Claude, OpenAI GPT, Google Gemini, OpenRouter (200+ modell egy API-n)." },
+        { "t": "Lead-kutatás · web scraping", "s": "Apify, Exa, Google CSE, Browser Use, Playwright. Scout-ügynök eszközei." },
+        { "t": "Mikor lép be?", "s": "Akkor, ha saját AI-rendszer építésébe kezdesz — nem az első ügyfeleknél." }
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "4. kategória",
+      "title": "Tartalom-generálás (kép, videó, hang)",
+      "bullets": [
+        { "t": "fal.ai · kie.ai", "s": "AI képgenerálás — Nano Banana 2 face-swap thumbnail-ekhez (~$0.08/kép), Excalidraw-stílusú vizuálok." },
+        { "t": "ElevenLabs · Gemini Flash Live", "s": "Text-to-speech, real-time hang-agent (a kurzus weboldalán is fut)." },
+        { "t": "21st.dev (Magic MCP) · ViewCreator", "s": "AI-generált React/Tailwind UI, videó-feldolgozó pipeline." }
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "5-6. kategória",
+      "title": "Email és adat-tárolás — két szint",
+      "bullets": [
+        { "t": "Kit (ConvertKit)", "s": "Marketing-email, sorozatok, automatizmusok (9. modul)." },
+        { "t": "Resend", "s": "Tranzakciós email — saját app-ból küldött 1-1 alkalmi mailek." },
+        { "t": "Google Sheets", "s": "Egyszerű CRM az első 50-100 ügyfélig (10. modul)." },
+        { "t": "Supabase", "s": "PostgreSQL felhőben — ha sok automatizmus dolgozik, vagy real-time szinkron kell." }
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "7-8. kategória",
+      "title": "Kommunikáció, közösség, projekt-menedzsment",
+      "bullets": [
+        { "t": "Skool", "s": "Közösségi platform — kurzus, posztok, beszélgetések, beépített előfizetés egy helyen." },
+        { "t": "Telegram (admin-bot)", "s": "Magamnak küldök vele üzeneteket: pipeline-státusz, foglalások, riasztások." },
+        { "t": "ClickUp", "s": "Projekt-menedzsment — Manager-ügynök 10+ aktív ügyfélnél kezeli rajta a projekteket." }
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "9-10. kategória",
+      "title": "Form-szűrés és analitika",
+      "bullets": [
+        { "t": "Typeform", "s": "Szépen tervezett szűrőkérdés-űrlapok konzultáció előtt — Cal.com kérdéseinek alternatívája." },
+        { "t": "Google Analytics 4", "s": "Kezdő-szintű webhely-mérés (11. modul). Ingyenes, elég." },
+        { "t": "PostHog", "s": "Termék-analitika: event-tracking, funnel-analízis, session-recording. Akkor jön be, ha saját webapp-od van." }
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "11-12. kategória",
+      "title": "CMS, weboldal-eszközök, külső integrációk",
+      "bullets": [
+        { "t": "Webflow", "s": "No-code CMS, vizuális szerkesztő — ügyfél-blogokhoz, marketingoldalakhoz. Expert Flow MCP-vel automatizál." },
+        { "t": "Vercel · Bitly", "s": "Fejlesztőbarát hoszting + saját webapp; link rövidítő követéssel." },
+        { "t": "YouTube Data API", "s": "Videó-feltöltés és statisztika automatizálás — saját YouTube-csatornához (20. bónusz)." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "A kategóriák egymásra épülnek",
+      "title": "Mikor melyik kategória <em>jön</em> be",
+      "lede": "1. (alap stack) → 12. hét végén kész. 2-4. → saját AI-rendszernél. 5-10. → 20-50 aktív ügyfél után. 11-12. → ügynökségi modell.",
+      "body": "<p>Minden új szolgáltatás 5-15 perc setupot, havi költséget, integrációs munkát hoz. Inkább 18 hónapig dolgozz a 7 alapszolgáltatással, mint hogy 18 napon belül 25-öt összelegózz.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Hogyan használd ezt a tárat",
+      "title": "Inspirációként, nem <em>checklistként</em>.",
+      "lede": "Ha valamelyik kategória érdekel, tudj utána olvasni — a resources.md-ben minden szolgáltatás közvetlen linkje és árazása ott van.",
+      "body": "<p>A 12 modul utáni hónapokban 1-2 új szolgáltatás havonta. Ha gyorsabb tempóban növelsz, a setup-időd elveszi azt az időt, amit az ügyfeleknek kéne adnod.</p>"
+    },
+    {
+      "type": "end",
+      "eyebrow": "Bónusz vége",
+      "title": "Eredmény: a teljes <em>térkép</em>.",
+      "sub": "52 szolgáltatás, 11 kategória — látod, hova lehet eljutni. Most még ne telepítsd; menj vissza a 12 alaphoz, és növelj akkor, amikor a fájdalom konkrét.",
+      "links": [
+        { "label": "Modul · részletes szöveg", "url": "/modules/22-expert-flow-stack" },
+        { "label": "Külső linkek", "url": "/modules/22-expert-flow-stack#linkek" },
+        { "label": "Következő · 23. bónusz", "url": "/modules/23-esettanulmanyok" },
+        { "label": "Vissza a tartalomjegyzékhez", "url": "/#modulok" }
+      ]
+    }
+  ]
+}

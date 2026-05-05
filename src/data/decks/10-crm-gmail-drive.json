@@ -1,0 +1,119 @@
+{
+  "slug": "10-crm-gmail-drive",
+  "title": "CRM és belső rendezés",
+  "subtitle": "Google Sheets · Apps Script · Gmail label · Drive struktúra",
+  "moduleNum": "Modul · 10",
+  "phase": "IV. fázis · 10. hét",
+  "duration": "14-18 perc",
+  "slideCount": 13,
+  "slides": [
+    {
+      "type": "cover",
+      "eyebrow": "Modul · 10 · IV. fázis · 10. hét",
+      "title": "CRM és belső <em>rendezés</em>",
+      "sub": "Google Sheets a CRM, Gmail label-struktúra a kommunikációra, Drive struktúra a dokumentumokra — egyetlen logikai egység, ami nélkül a 8. modul ügyfél-szerzése káoszba fullad.",
+      "meta": [
+        { "k": "Hossz", "v": "14-18 perc" },
+        { "k": "Lecke", "v": "3 db" },
+        { "k": "Heti feladat", "v": "Sheets + Gmail + Drive setup" }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Mit nyersz a modul végére",
+      "title": "Egy működő <em>nyilvántartó</em> rendszer.",
+      "lede": "Minden ügyféllel kapcsolatos információ pontosan ott van, ahol kell. Innen tovább nem fogsz elveszteni egyetlen lehetőséget sem.",
+      "body": "<p>A IV. fázis a háttér-rész — az első három fázisban (1-9. modul) elöl álltál és cselekedtél, most a hátadat fedezed.</p><p>A CRM nem „extra eszköz\" — egyszerűen az a hely, ahol nyilvántartod, kivel mikor beszéltél, mit ígértél, mit várnak tőled.</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "A 3 lecke",
+      "title": "Mit rakunk a helyére ezen a héten",
+      "bullets": [
+        { "t": "Google Sheets CRM — 4 munkalap", "s": "Prospects, Consultations, Proposals, Clients. Egy fájl, négy lap, ránézésre érthető." },
+        { "t": "Apps Script automatizáció", "s": "Cal.com webhook → Sheets új sor. Proposals → Clients sor-másolás onEdit triggerrel." },
+        { "t": "Gmail label + Drive struktúra", "s": "5 alap-label, automatikus filterek, mappa-szerkezet ügyfelenként." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "01. lecke",
+      "title": "Google Sheets CRM — <em>négy munkalap</em>",
+      "lede": "A CRM-hez nem kell drága szoftver — egy Google Sheets dokumentum tökéletes.",
+      "body": "<p>Hozz létre egy fájlt: „CRM — [év]\", és benne négy munkalapot:</p><p>(1) <strong>Prospects</strong> — a 8. modul ismerős-listája plusz minden új lehetőség. (2) <strong>Consultations</strong> — a Cal.com-on lefoglalt beszélgetések. (3) <strong>Proposals</strong> — kiküldött ajánlatok, status: pending/won/lost. (4) <strong>Clients</strong> — fizető ügyfelek.</p>"
+    },
+    {
+      "type": "code",
+      "eyebrow": "01. lecke · oszlop-fejlécek",
+      "title": "A 4 munkalap struktúrája",
+      "lede": "Ezeket az oszlopokat hozd létre — egy ránézésre érthető legyen, mi a helyzet.",
+      "code": "Prospects:\nname | email | source | last_contact | status | notes\n\nConsultations:\ndate | name | email | calcom_event_id | topic | outcome | notes\n\nProposals:\ndate | name | email | package | price | status | sent_via\n\nClients:\nstart_date | name | email | package | price | payment_status | notes\n\n# Status-értékek (data validation):\n# Prospects:  cold / warm / contacted / dead\n# Proposals:  pending / won / lost\n# Clients:    paid / pending / overdue"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "02. lecke",
+      "title": "Apps Script <em>automatizáció</em>",
+      "lede": "A Google Sheets erőssége a beépített Apps Script (JavaScript-szerű), amivel az alap-műveleteket automatizálhatod.",
+      "body": "<p><strong>Script 1:</strong> Cal.com webhook fogadás. Új konzultáció foglalásakor automatikusan új sor jön létre a Consultations lapon.</p><p><strong>Script 2:</strong> onEdit trigger. Ha a Proposals lapon a status oszlopban átállítasz egy értéket „won\"-ra, a sor automatikusan átkerül a Clients lapra, a start_date a mai dátum lesz, a payment_status pedig „pending\".</p><p>Nem kell programozónak lenned ehhez — a Claude Code 10-15 perc alatt megírja.</p>"
+    },
+    {
+      "type": "code",
+      "eyebrow": "02. lecke · Apps Script",
+      "title": "onEdit trigger — Proposals → Clients",
+      "lede": "Ezt a script-et a Sheets Extensions → Apps Script szerkesztőjébe másold. A trigger automatikusan fut, amikor a Proposals lapon a status „won\"-ra változik.",
+      "code": "function onEdit(e) {\n  try {\n    const sheet = e.range.getSheet();\n    if (sheet.getName() !== 'Proposals') return;\n    if (e.range.getColumn() !== 6) return; // status oszlop\n    if (e.value !== 'won') return;\n\n    const row = sheet.getRange(e.range.getRow(), 1, 1, 7).getValues()[0];\n    const clients = e.source.getSheetByName('Clients');\n    const today = new Date();\n\n    // start_date | name | email | package | price | payment_status | notes\n    clients.appendRow([today, row[1], row[2], row[3], row[4], 'pending', '']);\n    Logger.log('Új ügyfél áthelyezve: ' + row[1]);\n  } catch (err) {\n    Logger.log('Hiba: ' + err.message);\n  }\n}"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "03. lecke",
+      "title": "Gmail <em>label-struktúra</em>",
+      "lede": "5 alap-label, és minden bejövő email a megfelelő helyre kerül.",
+      "body": "<p><code>01-Prospects</code>, <code>02-Consultations</code>, <code>03-Proposals</code>, <code>04-Clients</code>, <code>05-Operations</code> (számla, NAV, könyvelő, banki dolgok).</p><p>Filter-szabályok: Cal.com email-ek → 02-Consultations. „[Számlázz.hu]\" prefix → 05-Operations. „NAV\" tárgy → 05-Operations.</p><p>30 másodperc, amikor megérkezik egy email — cserébe egy hónap múlva pontosan vissza tudod keresni.</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "03. lecke · Drive struktúra",
+      "title": "A mappa-szerkezet",
+      "bullets": [
+        { "t": "Vállalkozás — [év]/", "s": "A parent folder. Minden évben új." },
+        { "t": "01-Prospects/", "s": "Lehetséges ügyfelek anyagai (hidegen érkezett dokumentumok)." },
+        { "t": "02-Consultations/", "s": "Konzultációk jegyzetei, screenshot-ok." },
+        { "t": "03-Proposals/[ügyfél-név]/", "s": "Kiküldött ajánlatok, ügyfelenként külön mappa." },
+        { "t": "04-Clients/[ügyfél-név]/", "s": "szerzodes.pdf, szamlak/, delivery/, notes.md." },
+        { "t": "05-Operations/", "s": "szamlak/, nav/, szerzodesek-sablonok/." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Az integráció",
+      "title": "Egy logikai <em>egység</em>",
+      "lede": "A Sheets, a Gmail és a Drive ugyanazt a 4-5 kategóriát követi.",
+      "body": "<p>Prospects a Sheets-ben = <code>01-Prospects</code> Gmail label = <code>01-Prospects/</code> Drive mappa. Consultations a Sheets-ben = <code>02-Consultations</code> = <code>02-Consultations/</code>.</p><p>Egy ránézésre érthető — nem kell fejben tartanod, hol találsz mit.</p>"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "Az alaptétel",
+      "quote": "Egyszerű ismétlődő minták — nem kreatív megoldások",
+      "cite": "10. modul · 03. lecke"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Heti feladat",
+      "title": "Mit csinálsz <em>ezen a héten</em>",
+      "lede": "Hozd létre a Google Sheets CRM-et a négy munkalappal, állítsd be a Gmail label-eket, és hozd létre a Drive mappa-szerkezetet a fenti minta szerint.",
+      "body": "<p>Egy reggeles munka. A Sheets 30 perc, a Gmail label-ek és filterek 20 perc, a Drive struktúra 15 perc. Az Apps Script-ekre szánj plusz 30 percet, ha szeretnéd, hogy magától dolgozzon.</p>"
+    },
+    {
+      "type": "end",
+      "eyebrow": "Modul vége",
+      "title": "Eredmény: minden a <em>helyén</em>.",
+      "sub": "Sheets CRM, Gmail label-rendszer, Drive struktúra — a Cal.com webhookkal automatikusan dolgoznak együtt. Innen nem veszítesz el lehetőséget.",
+      "links": [
+        { "label": "Modul · részletes szöveg", "url": "/modules/10-crm-gmail-drive" },
+        { "label": "Letölthető anyagok", "url": "/downloads/10-crm-gmail-drive/SKILL.md" },
+        { "label": "Következő modul · 11", "url": "/modules/11-analitika-ga4" },
+        { "label": "Vissza a tartalomjegyzékhez", "url": "/#modulok" }
+      ]
+    }
+  ]
+}

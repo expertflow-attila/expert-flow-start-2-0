@@ -1,0 +1,104 @@
+{
+  "slug": "outro",
+  "title": "A következő lépés",
+  "subtitle": "A 12 hét után — három út, négy bónusz-tár",
+  "moduleNum": "Lezárás",
+  "phase": "Befejezés",
+  "duration": "8-12 perc",
+  "slideCount": 11,
+  "slides": [
+    {
+      "type": "cover",
+      "eyebrow": "Lezárás · befejezés",
+      "title": "A <em>következő</em> lépés",
+      "sub": "Ha végigmentél a 12 héten, valódi rendszered van. Innen három út áll előtted — egyik sem rossz, csak más-más szakaszhoz illik.",
+      "meta": [
+        { "k": "Hossz", "v": "8-12 perc" },
+        { "k": "Út", "v": "3 db" },
+        { "k": "Bónusz-tár", "v": "4 db" }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Mit értél el",
+      "title": "A 12. hét végén — <em>valódi</em> rendszered van.",
+      "lede": "Egy mondat, amit pontosan értesz, vevő-portré valódi beszélgetésekkel, három csomag-szint, éles weboldal a saját domaineden, landing oldal, konzultációs funnel, lead magnet email-listával, Sheets CRM, GA4, jogi rendben.",
+      "body": "<p>Ez nem kis dolog. A legtöbben a 3-4. modulnál állnak meg — te végigmentél.</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "Eredmények · checklist",
+      "title": "Ami most a kezedben van",
+      "bullets": [
+        { "t": "Mondat + vevő + ajánlat", "s": "Az 1-3. modulból: tudásod magja, vevő-portré, három csomag-szint." },
+        { "t": "Weboldal + landing + funnel", "s": "Az 5-7. modulból: éles oldal saját domaineden, külön landing, működő konzultációs funnel." },
+        { "t": "Lead magnet + email-lista + CRM", "s": "A 9-10. modulból: feliratkozó-form, welcome-sorozat, Sheets-alapú CRM." },
+        { "t": "Mérés + jogi minimum", "s": "A 11-12. modulból: GA4, vállalkozási forma, Számlázz.hu, ÁSZF, GDPR." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "1. út",
+      "title": "Saját kezűleg <em>folytatod</em>",
+      "lede": "A leggyakoribb. A rendszered megvan; az időd nagy részét most az ügyfélszerzés és a konzultációk teszik ki — a háttér heti 2-3 órás karbantartás.",
+      "body": "<p>A 17-19. tár-anyagok (landing minták, funnel típusok, AI eszközök) ekkor válnak hasznossá: amikor új termékre vagy új funnelre van szükséged, ott találsz konkrét sablont.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "2. út",
+      "title": "Asszisztenst veszel <em>fel</em>",
+      "lede": "5-10 ügyfél körül, ha heti 5-10 órát eszik a CRM, az emailek, a számlázás, az adminisztráció — egy virtuális asszisztens (havi 100-200 ezer Ft) átveszi a háttér-feladatokat.",
+      "body": "<p>Te a szakmai munkára koncentrálsz, az asszisztens a rendszereket működteti. Ez a hagyományos skálázódás — nem AI-vezérelt, hanem ember-vezérelt.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "3. út",
+      "title": "Expert Flow Agentic Flow <em>retainer</em>",
+      "lede": "Ha a vállalkozásod elérte a havi 1-2 millió Ft-ot, és az asszisztens már nem elég — itt az AI-vezérelt operáció vehet át.",
+      "body": "<p>A 6 AI ügynök (<strong>Scout, Manager, Operations, Optimizer, Finance, Orchestrator</strong>) az ügyfél-pipeline, marketing, számlázás és optimalizáció hátterét automatikusan kezeli. Te a szakmai munkára koncentrálsz. Részleteket az <code>expertflow.hu</code>-n találsz.</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "Bónusz-tárak",
+      "title": "Négy tár, ha tovább akarsz menni",
+      "bullets": [
+        { "t": "20. bónusz · Az első digitális terméked", "s": "Videókurzus AI-vágással: OBS + Whisper + Claude Code + Mux/Vimeo + Stripe, ~3 hét." },
+        { "t": "21. bónusz · Claude Code productivity", "s": "20 trükk három szinten — alap, köztes, haladó. A 4. modul kiterjesztése." },
+        { "t": "22. bónusz · Expert Flow stack", "s": "52 szolgáltatás 11 kategóriában — térkép arról, hova lehet eljutni." },
+        { "t": "23. bónusz · 38 esettanulmány", "s": "Nemzetközi szakértő landing-, email-, sales-elemzések magyarul." }
+      ]
+    },
+    {
+      "type": "quote",
+      "eyebrow": "A bónuszokról",
+      "quote": "Ne kezdd el mindezeket egyszerre — inkább 1-2-vel haladj havonta, ahogy a saját rendszered növekszik.",
+      "cite": "EV-AIOS · outro · ütem"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Visszajelzés és Bónusz-csomag",
+      "title": "Egy 10-kérdéses <em>visszajelzés</em>",
+      "lede": "Ha eljutottál idáig, kérlek, töltsd ki a BONUSZ.md-ben lévő visszajelzést. Cserébe küldök egy Bónusz-csomagot: kibővített Claude Code skill-csomag + 1 órás email-konzultáció a saját rendszeredről.",
+      "body": "<p>Két célja van: nekem segítesz a kurzus következő verziójának megírásában — látom, hol nem voltam világos, hol kellett volna több példa. Cserébe 48 órán belül küldöm a Bónusz-csomagot a <code>hello@expertflow.hu</code>-ról.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Köszönet",
+      "title": "<em>Köszönöm</em>, hogy végigmentél.",
+      "lede": "Ez egy ingyenes kurzus, és nem azért írtam, hogy eladjak rá valamit — hanem mert ez az, amit én is most csinálok, és úgy gondoltam, ha leírom és továbbadom, kettőnknek jó.",
+      "body": "<p>Te megspórolsz pár hónap kísérletezést, én visszakapok valós visszajelzést. Ha sikerült valamit elérned, fotózd le a webhelyed URL-jét, és küldd el a <code>hello@expertflow.hu</code>-ra — minden ilyen üzenetnek nagyon örülök.</p>"
+    },
+    {
+      "type": "end",
+      "eyebrow": "12 hét vége",
+      "title": "Innentől <em>nem</em> építesz alapot — innentől csinálod.",
+      "sub": "A rendszer áll. A munka most kezdődik. Sok sikert.",
+      "links": [
+        { "label": "Vissza a tartalomjegyzékhez", "url": "/#modulok" },
+        { "label": "EV-AIOS · GitHub", "url": "https://github.com/attilanagy23/EV-AIOS" },
+        { "label": "Email · hello@expertflow.hu", "url": "mailto:hello@expertflow.hu" },
+        { "label": "Diasor-tár", "url": "/decks" }
+      ]
+    }
+  ]
+}

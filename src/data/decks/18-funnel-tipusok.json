@@ -1,0 +1,118 @@
+{
+  "slug": "18-funnel-tipusok",
+  "title": "Funnel típusok",
+  "subtitle": "4 architektúra · Capture · Application · Webinar · Tripwire",
+  "moduleNum": "Tár · 18",
+  "phase": "Referencia",
+  "duration": "10-15 perc",
+  "slideCount": 13,
+  "slides": [
+    {
+      "type": "cover",
+      "eyebrow": "Tár · 18 · Referencia",
+      "title": "Funnel <em>típusok</em>",
+      "sub": "4 funnel-architektúra, mindegyikhez end-to-end leírás, email-sablonok, automatizációs lépések. Egyszerre több is futhat, különböző forgalmakra.",
+      "meta": [
+        { "k": "Funnel", "v": "4 db" },
+        { "k": "Sablon", "v": "Email + Apps Script" },
+        { "k": "Cél", "v": "referencia-tár" }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "A különbség a 17-eshez képest",
+      "title": "Az oldalak <em>összekapcsolása</em>.",
+      "lede": "A 17. modul az egyes oldalakkal foglalkozott. Ez a teljes utazással — a webhelyedtől a fizetős ügyfélig.",
+      "body": "<p>A funnel nem mágia — 3-5 lépésből álló, automatizált utazás. Minden lépés egy konkrét cselekvés a látogató részéről. Nem egymást kizáró opciók — egyszerre több funnel is futhat különböző forgalmakra.</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "A 4 funnel",
+      "title": "Mit nyersz mindegyikkel",
+      "bullets": [
+        { "t": "5.1 Konzultációs funnel", "s": "Landing → Cal.com → consult → ajánlat. Kezdetben a legtöbbet hozza." },
+        { "t": "5.2 Lead magnet funnel", "s": "Regisztráció → PDF → 5 email welcome → soft CTA. Hosszú távú lista." },
+        { "t": "5.3 Online előadás funnel", "s": "Regisztráció → emlékeztetők → előadás → utánkövetés. Élő piacon." },
+        { "t": "5.4 Discovery → ajánlat → fizetés", "s": "Discovery call → PDF → Stripe Payment Link. Magas árú szolgáltatáshoz." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "5.1 Konzultációs funnel",
+      "title": "Capture funnel — <em>foglalós</em>",
+      "lede": "Alacsony konverziós küszöb, magas érték. Ezzel kezdj.",
+      "body": "<p>A látogató a 4.1 landing-en időpontot foglal Cal.com-on. A foglalás után automata visszaigazoló email + 1 nappal előtte emlékeztető. A konzultáción te beszélgetsz vele 30 percet — kérdezel, hallgatsz, NEM adsz el.</p><p>Az ajánlatot kézzel küldöd utána (PDF + ár), vagy ha az illik, a beszélgetés végén szóban. Ez a legtöbbet hozza kezdetben — alacsony konverziós küszöb, magas érték.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "5.2 Lead magnet funnel",
+      "title": "Application funnel — <em>autoresponder</em>",
+      "lede": "Email-listát építesz, később ezekre küldesz szolgáltatás-ajánlatot.",
+      "body": "<p>A 4.2 landing-en a látogató megadja az emailjét → kap egy PDF-et + bekerül egy 5 emailes welcome-szekvenciába (Kit-en automatizálva).</p><p>Az 5 email egy hét alatt megy: 1. PDF-küldés, 2. saját történet, 3. egy konkrét kis tipp, 4. egy esettanulmány, 5. soft CTA (konzultáció vagy ajánlat). A hosszú távú email-lista innen indul — később ezekre küldesz szolgáltatás-ajánlatot.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "5.3 Online előadás funnel",
+      "title": "Webinar funnel — <em>élő esemény</em>",
+      "lede": "Regisztráció → emlékeztetők → előadás → utánkövetés. Magyar piacon ma is működik.",
+      "body": "<p>A 4.3 landing-en regisztráció → automata visszaigazoló + 1 nap előtte + 1 óra előtte emlékeztető-emailek. Az előadás után egy felvétel-link megy 24 órán át. Az utánkövető szekvencia 3 emailből áll: köszönő, esettanulmány, ajánlat.</p><p>A webinar funnel akkor erős, ha élőben tudsz építeni — magyar piacon ma is működik, és nem mindenki csinálja.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "5.4 Discovery → fizetés",
+      "title": "Tripwire — <em>magas árú</em> ügyfélnek",
+      "lede": "Discovery call → ajánlat-PDF → Stripe Payment Link. Itt kell a legtöbb bizalom.",
+      "body": "<p>Egy 60 perces discovery call (Cal.com-on, hosszabb, mint a konzultáció), aztán egy személyre szabott ajánlat-PDF (Drive-on link), és egy Stripe Payment Link a fizetésre.</p><p>Ez a már bevált, magas árú szolgáltatásokhoz. Itt nem siettetsz — a vevő néhány napot gondolkodik, kérdez, és csak utána fizet. A 8. modulban épül ki a kapcsolati tőkéből.</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "Közös elemek",
+      "title": "Mi van mind a 4-ben",
+      "bullets": [
+        { "t": "3-5 lépés", "s": "Nem több. Minden lépés egy konkrét cselekvés a látogató részéről." },
+        { "t": "Email-sablonok", "s": "Magyar nyelven, dokumentáló-hangban. Másolható szöveg." },
+        { "t": "Apps Script vagy Kit", "s": "Automatizációs lépések — Sheets-ben triggert vagy Kit-ben szekvenciát." },
+        { "t": "GA4 mérés", "s": "Conversion event minden lépésen — látod, hol esik le a forgalom." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Mikor melyiket",
+      "title": "Egy <em>döntési</em> sor",
+      "lede": "Most kezdesz = 5.1. Hosszú távú lista = 5.2. Élő közönség = 5.3. Magas árú szolgáltatás = 5.4.",
+      "body": "<p>Az 5.1 a default — a 7. modulban ezt építjük ki. Az 5.2 a 9. modul, az 5.3 opcionális, az 5.4 csak akkor, ha már van 3-5 esettanulmányod és tudsz 200-500 ezres csomagot kiállítani.</p>"
+    },
+    {
+      "type": "code",
+      "eyebrow": "Példa · 5.1 minimális stack",
+      "title": "Konzultációs funnel egy órában",
+      "lede": "A minimum, ami működik. A 7. modulban részletesen.",
+      "code": "# 1. landing oldal (4.1 minta)\nVercel · index.html · Cal.com beágyazva\n\n# 2. Cal.com beállítás\n30 perces konzultáció · ingyenes · Google Naptár sync\n\n# 3. visszaigazoló email\nCal.com automata · 1 nap előtti emlékeztető bekapcsolva\n\n# 4. discovery jegyzet\nNotion vagy Drive · 1 oldal / beszélgetés\n\n# 5. ajánlat\nGmail · PDF mellékletként vagy Drive-link"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "A funnel-elv",
+      "quote": "A funnel nem mágia — 3-5 lépés, automatizált.",
+      "cite": "Tár · 18 · Funnel típusok"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Hogyan kombináld",
+      "title": "<em>Több</em> funnel egyszerre",
+      "lede": "Egy webhelyen 5.1 + 5.2 párhuzamosan fut: az érdeklődők egy része konzultációt foglal, egy része lead magnetet kér.",
+      "body": "<p>A két út a CRM-ben (10. modul) találkozik — minden lead egy sor a Sheets-ben, függetlenül attól, melyik funnelből jött. A GA4 mutatja, melyik forrás hozza a több értékes leadet, és ennek alapján döntheted, hova invesztálsz több időt.</p>"
+    },
+    {
+      "type": "end",
+      "eyebrow": "Tár-anyag vége",
+      "title": "4 funnel, <em>kombinálható</em>.",
+      "sub": "A konzultáció + lead magnet párhuzamos futása az alapeset. Webinar és tripwire opcionális, kampány-specifikus.",
+      "links": [
+        { "label": "Modul · részletes szöveg", "url": "/modules/18-funnel-tipusok" },
+        { "label": "Letölthető anyagok", "url": "/downloads/18-funnel-tipusok" },
+        { "label": "Következő · 19 AI eszközök", "url": "/modules/19-ai-eszkozok" },
+        { "label": "Vissza a tartalomjegyzékhez", "url": "/#modulok" }
+      ]
+    }
+  ]
+}

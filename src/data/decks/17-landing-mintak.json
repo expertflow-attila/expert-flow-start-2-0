@@ -1,0 +1,119 @@
+{
+  "slug": "17-landing-mintak",
+  "title": "Landing page minták",
+  "subtitle": "5 minta · Tailwind HTML · mikor melyik",
+  "moduleNum": "Tár · 17",
+  "phase": "Referencia",
+  "duration": "10-15 perc",
+  "slideCount": 13,
+  "slides": [
+    {
+      "type": "cover",
+      "eyebrow": "Tár · 17 · Referencia",
+      "title": "Landing <em>minták</em>",
+      "sub": "5 különböző landing page minta, mindegyikhez teljes Tailwind HTML kód. Ezeket bármikor használhatod, amikor új szolgáltatást vagy kampányt indítasz.",
+      "meta": [
+        { "k": "Minta", "v": "5 db" },
+        { "k": "Stack", "v": "Tailwind CDN" },
+        { "k": "Cél", "v": "referencia-tár" }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Mit kapsz a tár-anyagból",
+      "title": "Nem építünk sorrendben — <em>referencia</em> jön.",
+      "lede": "Mindegyik mintához van letölthető HTML fájl, telepítési útmutató, és technikai dokumentáció.",
+      "body": "<p>Minden minta a 2. modul stílusában készült (sötét háttér, dokumentáló-hang), de fókuszáltabb céllal. Nem kötelező sorrendben átmenni rajtuk — bármikor visszanyúlhatsz, amikor egy konkrét feladatra konkrét sablon kell.</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "A 5 minta",
+      "title": "Mikor melyiket használd",
+      "bullets": [
+        { "t": "4.1 Konzultációs landing", "s": "Cal.com integrációval. Leggyakoribb használat — alacsony küszöb, magas érték." },
+        { "t": "4.2 Lead magnet landing", "s": "Form + PDF-küldés. Hosszú távú email-lista építés." },
+        { "t": "4.3 Online előadás landing", "s": "Webinar regisztráció, élő esemény. Ha élőben tudsz építeni." },
+        { "t": "4.4 Szolgáltatás landing", "s": "Érték-stack vizuálisan, fő szolgáltatásra. Magas árú csomagokhoz." },
+        { "t": "4.5 Coming soon landing", "s": "Waitlist, email gyűjtés terméklaunch előtt. Validációs lépés." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "4.1 Konzultációs landing",
+      "title": "Cal.com <em>integrációval</em>",
+      "lede": "A leggyakoribb használat. A látogató időpontot foglal — alacsony konverziós küszöb, magas érték.",
+      "body": "<p>Egy hős-szekció, az ajánlat-mondat, 3-4 fájdalom-pont, az érték-stack vizuálisan, és lent a Cal.com beágyazott naptár. Mobilra optimalizálva, HTTPS-kompatibilis, GA4 méréssel.</p><p>Ezzel indulj, ha most jössz a 3. modulból — a konzultáció a legalacsonyabb belépési pont.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "4.2 Lead magnet landing",
+      "title": "Form + <em>PDF-küldés</em>",
+      "lede": "Email-cím cseréje értékes PDF-re — a hosszú távú lista alapja.",
+      "body": "<p>Egy ígéret a hős-szekcióban (mit tanul a PDF-ből), 3 bullet a tartalomról, mockup a borítóról, és egy form. A form Kit-be vagy Sheets-be ír, és a PDF azonnal megérkezik az inboxba.</p><p>Később ezekre a feliratkozókra küldesz szolgáltatás-ajánlatot — a 9. modul szervezi az email-szekvenciát.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "4.3 Online előadás landing",
+      "title": "Webinar <em>regisztráció</em>",
+      "lede": "Élő esemény dátummal, idővel, regisztrációs form-mal.",
+      "body": "<p>A hős-szekcióban a dátum és az idő nagyban, az előadás 3 fő tanulási pontja, az előadó (te) bemutatása rövid bio-val, és a regisztrációs form. A regisztráció után emlékeztető-emailek mennek (-1 nap, -1 óra).</p><p>Magyar piacon a webinar funnel ma is működik, ha élőben tudsz építeni — nem mindenki tudja, és ez a te előnyöd.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "4.4 Szolgáltatás landing",
+      "title": "Érték-stack <em>vizuálisan</em>",
+      "lede": "A fő szolgáltatásra fókuszál — magas árú csomagokhoz.",
+      "body": "<p>Hosszabb oldal: hős, fájdalom-szekció, megoldás-szekció, érték-stack táblázattal (mit kap, mennyit ér Ft-ban), 3 csomag side-by-side, FAQ, garancia, és a CTA-gomb (Cal.com vagy ajánlat-form).</p><p>Itt a 3. modul érték-stack-je vizuálisan jelenik meg — az olvasó látja, hogy az összérték többszöröse az árnak.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "4.5 Coming soon landing",
+      "title": "Waitlist · <em>terméklaunch előtt</em>",
+      "lede": "Email-gyűjtés, mielőtt a termék elkészül — validációs lépés.",
+      "body": "<p>Egy ígéret a hős-szekcióban (mit építesz), pár bullet (mit kapnak az első feliratkozók — pl. korai hozzáférés, 30% kedvezmény), és egy email-form. Visszaszámláló opcionális.</p><p>Ezzel teszteled, hogy van-e érdeklődés, mielőtt heteket invesztálsz a termékbe. Ha 100 email gyűlik 2 hét alatt, érdemes építeni; ha 5 — gondold át.</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "Közös tulajdonságok",
+      "title": "Mi van mind az 5-ben",
+      "bullets": [
+        { "t": "Letölthető boilerplate.html", "s": "Egyetlen szöveges fájl, amit index.html-nek nevezel át és módosítasz." },
+        { "t": "Mobilra optimalizálva", "s": "Tailwind CDN-ről. Reszponzív breakpointok, érintő-friendly CTA-k." },
+        { "t": "GDPR-konform alap", "s": "GA4 IP-anonimizálással, opt-in form. Cookie-banner mintakód mellékelve." },
+        { "t": "Claude Code SKILL.md", "s": "Megmutatja, hogyan installálod, hogy az AI a saját adataidra szabja." }
+      ]
+    },
+    {
+      "type": "code",
+      "eyebrow": "Telepítés",
+      "title": "Egy minta installálása",
+      "lede": "A boilerplate.html-t másolod a projekt-mappádba, átnevezed index.html-re, és a Claude Code az adataidra szabja.",
+      "code": "# 1. minta letöltése\ncp 4-1-konzultacios-landing/boilerplate.html \\\n   ~/Desktop/sajat-projekt/index.html\n\n# 2. Claude Code-ban a projektmappában\ncd ~/Desktop/sajat-projekt\nclaude\n\n# 3. a session-ben\n# „Olvasd be az index.html-t és cseréld le a placeholder-eket\n# a tudasod-magja.md alapján.\""
+    },
+    {
+      "type": "quote",
+      "eyebrow": "A tár-elv",
+      "quote": "Boring is beautiful. Egy működő sablon jobb, mint öt félig kész.",
+      "cite": "Tár · 17 · Landing minták"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Mikor melyiket válaszd",
+      "title": "Egy <em>döntési</em> sor",
+      "lede": "Konzultáció = 4.1. Email-lista = 4.2. Élő esemény = 4.3. Magas árú szolgáltatás = 4.4. Termék-validáció = 4.5.",
+      "body": "<p>Ha még nem tudod — kezdj a 4.1-gyel. Ez a legtöbbet hozó forma, mert csak időt kell foglalnia a látogatónak. A többi minta opcionális, kampány-specifikus eszköz.</p>"
+    },
+    {
+      "type": "end",
+      "eyebrow": "Tár-anyag vége",
+      "title": "5 minta, <em>letölthető</em>.",
+      "sub": "Mindegyik használható azonnal. A SKILL.md megmutatja, hogyan illessze a Claude Code a saját adataidra.",
+      "links": [
+        { "label": "Modul · részletes szöveg", "url": "/modules/17-landing-mintak" },
+        { "label": "Letölthető anyagok", "url": "/downloads/17-landing-mintak" },
+        { "label": "Következő · 18 funnel típusok", "url": "/modules/18-funnel-tipusok" },
+        { "label": "Vissza a tartalomjegyzékhez", "url": "/#modulok" }
+      ]
+    }
+  ]
+}

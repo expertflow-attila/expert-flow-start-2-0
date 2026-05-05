@@ -77,8 +77,13 @@ const downloads = ((moduleDownloads as Record<string, { label: string; file: str
 
   <header class="lesson-header">
     <div class="container">
-      <a href="/#modulok" class="back"><span class="arr">←</span> Vissza a tartalomjegyzékhez</a>
-      <span class="breadcrumb-tag">{meta.breadcrumb}</span>
+      <div style="display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 16px; margin-bottom: 24px;">
+        <a href="/#modulok" class="back" style="margin-bottom: 0;"><span class="arr">←</span> Vissza a tartalomjegyzékhez</a>
+        <a href={`/decks/${meta.slug}`} class="back" style="margin-bottom: 0; border: 1px solid var(--border); padding: 6px 14px; border-radius: 999px; color: var(--accent-strong); background: var(--accent-soft);">
+          Diasor megnyitása <span class="arr">→</span>
+        </a>
+      </div>
+      <span class="breadcrumb-tag" style="margin-left: 0;">{meta.breadcrumb}</span>
       <h1>{meta.title}</h1>
       <p class="summary">{meta.summary}</p>
     </div>

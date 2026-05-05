@@ -1,0 +1,120 @@
+{
+  "slug": "19-ai-eszkozok",
+  "title": "AI eszközök · Claude Code skillek",
+  "subtitle": "6 letölthető skill · email · landing · CRM · pipeline · avatár",
+  "moduleNum": "Tár · 19",
+  "phase": "Referencia",
+  "duration": "10-15 perc",
+  "slideCount": 13,
+  "slides": [
+    {
+      "type": "cover",
+      "eyebrow": "Tár · 19 · Referencia",
+      "title": "AI <em>eszközök</em> · skillek",
+      "sub": "6 darab Claude Code skill, amelyeket a saját projekt-mappádba telepíthetsz. Mindegyik egy konkrét vállalkozási feladatot automatizál.",
+      "meta": [
+        { "k": "Skill", "v": "6 db" },
+        { "k": "Telepítés", "v": ".claude/skills/" },
+        { "k": "Cél", "v": "referencia-tár" }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Mi a skill",
+      "title": "Egy <em>mappa</em>, két fájl, egy parancs.",
+      "lede": "Egy skill = egy `.claude/skills/skill-name/` mappa, benne SKILL.md és reference.md. Ennyi.",
+      "body": "<p>A skill-eket a <code>/skill-name</code> paranccsal aktiválod a Claude Code-ban. Mindegyik magyarul dolgozik végig, és illeszkedik az Expert Flow Start kurzus hangneméhez. Nem kell „kódolni\" — Markdown-ban van leírva, mit csináljon.</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "A 6 skill",
+      "title": "Mit kapsz a tár-anyagból",
+      "bullets": [
+        { "t": "6.1 Email-író", "s": "Értékesítési + ügyfél-kommunikációs sablonok magyarul." },
+        { "t": "6.2 Landing page generátor", "s": "Tailwind boilerplate + Hormozi-stílusú copy a 17. modul alapján." },
+        { "t": "6.3 Lead magnet generátor", "s": "Markdown → PDF, pandoc-kal. PDF készen az inboxba küldhető." },
+        { "t": "6.4 CRM dashboard", "s": "Google Sheets formula-tervező — leadek, státuszok, mérőszámok." },
+        { "t": "6.5 Content pipeline", "s": "Videó → YouTube + Instagram + LinkedIn-poszt egy parancsra." },
+        { "t": "6.6 Avatár-építő", "s": "Az 1.2 modul (vevő-avatár) automatizálása újabb szegmensekhez." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "6.1 Email-író",
+      "title": "Sablonok, amik <em>nem</em> sales-szagúak",
+      "lede": "Értékesítési + ügyfél-kommunikációs sablonok magyarul, dokumentáló-hangban.",
+      "body": "<p>Ajánlat-bevezető, follow-up, ár-érzékeny lead, ajánlatkérés-válasz, esettanulmány-kérés, lemondó email — mindegyik 3-4 mondat, nem szlogen-szagú. A skill végigkérdezi, milyen helyzetben írsz, és a sablont a saját 1 mondatos ajánlatodra szabja.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "6.2 Landing page generátor",
+      "title": "Tailwind <em>boilerplate</em> + copy",
+      "lede": "A 17. modul 5 mintájából választasz, és az AI a saját adataidra szabja.",
+      "body": "<p>A skill bekéri a tudasod-magja.md, vevod.md, ajanlat.md tartalmát (1-3. modulból), és kitölti a kiválasztott boilerplate.html-t. A copy a 2. modul belső monológjából építkezik — nem általános marketing-szöveg, hanem a vevő saját szavai.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "6.3 Lead magnet generátor",
+      "title": "Markdown → <em>PDF</em>, pandoc-kal",
+      "lede": "A skill kiválaszt egy témát a tudásodból, megtervezi a 5-8 oldalas PDF struktúráját, és lefuttatja a pandoc-konverziót.",
+      "body": "<p>A kimenet egy designos PDF (saját szín-paletta, betűtípus a `references/voice.md`-ből), amit közvetlenül feltöltöd a 4.2 landing-hez. A pandoc + LaTeX template mellékelve. Egy lead magnet 30 perc alatt kész, nem 3 nap.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "6.4 CRM dashboard",
+      "title": "Google Sheets <em>formula-tervező</em>",
+      "lede": "A skill megtervezi a CRM-Sheets-edet — oszlopok, formulák, validáció, dashboard-tab.",
+      "body": "<p>Bekéri, hány lead-forrásod van, milyen státuszokat akarsz követni (új, kapcsolat, ajánlat, fizetett, lezárt), és kigeneráli a Sheets-formulákat (SUMIFS, COUNTIFS, dashboard-grafikon). A 10. modul ezt használja az alapból.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "6.5 Content pipeline",
+      "title": "Videó → <em>3 felület</em> egy parancsra",
+      "lede": "Egy videó-átirat → YouTube-leírás + Instagram-caption + LinkedIn-poszt.",
+      "body": "<p>A skill bekéri a videó transcript-jét (vagy az AI le is írja Whisper-rel), majd 3 különböző felületre formázza. A LinkedIn-poszt hosszabb, dokumentáló-hangban; az Instagram-caption rövid, 3-5 sor; a YouTube-leírás SEO-konform, fejezet-időbélyegekkel. A 23. modul építi rá az ütemezést.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "6.6 Avatár-építő",
+      "title": "Az 1.2 modul <em>automatizálva</em>",
+      "lede": "Újabb avatárokhoz, ha több vevőszegmens-jelölted is van.",
+      "body": "<p>A skill végigvezet a 2. modul kérdés-folyamatán (12 kérdés egyesével, 10 órás belső monológ), de gyorsabban — strukturáltabban. Akkor van értelme, ha már van 1 validált avatárod, és egy másikat is fel akarsz építeni (pl. más szegmens, más szolgáltatás).</p>"
+    },
+    {
+      "type": "code",
+      "eyebrow": "Telepítés",
+      "title": "Egy skill installálása",
+      "lede": "Másold a skill mappáját a projekt `.claude/skills/`-jébe, és a Claude Code automatikusan felismeri.",
+      "code": "# projekt-mappádban\ncd ~/Desktop/sajat-projekt\nmkdir -p .claude/skills\n\n# 6.1 email-író telepítése\ncp -r ~/Downloads/6-1-email-iro \\\n   .claude/skills/email-iro\n\n# Claude Code session\nclaude\n\n# a session-ben\n/email-iro"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "Hogyan kombináld",
+      "title": "A skillek <em>együtt</em> erősebbek",
+      "bullets": [
+        { "t": "Új kampány: 6.2 + 6.1", "s": "Landing-generálás, aztán email-szekvencia ugyanahhoz a kampányhoz." },
+        { "t": "Új vevőszegmens: 6.6 + 6.3", "s": "Avatár felépítése, aztán személyre szabott lead magnet." },
+        { "t": "Heti tartalom: 6.5 + 6.1", "s": "Videó → 3 felület → email a feliratkozóknak." },
+        { "t": "Számok láthatóvá: 6.4 + GA4", "s": "CRM-dashboard a Sheets-ben, GA4 conversion-ek mellé." }
+      ]
+    },
+    {
+      "type": "quote",
+      "eyebrow": "A skill-elv",
+      "quote": "Ha 3+szor csináltad ugyanúgy, érdemes skill-be foglalni.",
+      "cite": "Tár · 19 · AI eszközök"
+    },
+    {
+      "type": "end",
+      "eyebrow": "Tár-anyag vége",
+      "title": "6 skill, <em>letölthető</em>.",
+      "sub": "Mindegyik magyarul dolgozik, illeszkedik a kurzus hangneméhez. Te magad is csinálhatsz újat — a SKILL.md mintát ad.",
+      "links": [
+        { "label": "Modul · részletes szöveg", "url": "/modules/19-ai-eszkozok" },
+        { "label": "Letölthető anyagok", "url": "/downloads/19-ai-eszkozok" },
+        { "label": "Következő · 20 digitális termék", "url": "/modules/20-elso-digitalis-termek" },
+        { "label": "Vissza a tartalomjegyzékhez", "url": "/#modulok" }
+      ]
+    }
+  ]
+}

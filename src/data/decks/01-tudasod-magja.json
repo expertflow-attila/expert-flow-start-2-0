@@ -1,0 +1,120 @@
+{
+  "slug": "01-tudasod-magja",
+  "title": "A tudásod magja",
+  "subtitle": "Pozicionálás · 4 fájdalom-kérdés · pivot-pont · 1 mondat",
+  "moduleNum": "Modul · 01",
+  "phase": "I. fázis · 1. hét",
+  "duration": "12-18 perc",
+  "slideCount": 14,
+  "slides": [
+    {
+      "type": "cover",
+      "eyebrow": "Modul · 01 · I. fázis · 1. hét",
+      "title": "A tudásod <em>magja</em>",
+      "sub": "Abból indulunk ki, ami már létezik — nem a szenvedélyed, hanem amiben évek óta kerestél megoldást magadnak vagy a környezetednek.",
+      "meta": [
+        { "k": "Hossz", "v": "12-18 perc" },
+        { "k": "Lecke", "v": "3 db" },
+        { "k": "Heti feladat", "v": "1 oldalas fájdalom-térkép" }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Mit nyersz a modul végére",
+      "title": "Egy mondat, amit <em>kristálytisztán</em> értesz.",
+      "lede": "A hét végére van egy mondatod, amit pontosan értesz, és tudod, honnan jön — ez a tudásod magja, ez fog visszhangozni a következő 11 hét minden modulján.",
+      "body": "<p>A legtöbb kezdő vállalkozó ott bukik el, hogy „ötletet\" keres. Az ötlet labilis — könnyen kicserélhető, könnyen feladható. Ami nem cserélhető ki, az a fájdalom: amin évek óta gondolkodsz, amiben kerestél megoldást, amiben már megéltél valamit.</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "A 3 lecke",
+      "title": "Mit rakunk a helyére ezen a héten",
+      "bullets": [
+        { "t": "01. A 4 fájdalom-kérdés", "s": "Papír és toll — nem az AI, nem a számítógép. Lassít, és ettől tied lesz." },
+        { "t": "02. A pivot-pont", "s": "A pillanat, amikor valami működni kezdett. Itt válik a fájdalmadból tudás." },
+        { "t": "03. A történet 1 mondatban", "s": "Amit az ismerősödnek el tudsz mondani 30 másodperc alatt, és érti." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "01. lecke",
+      "title": "A <em>4 fájdalom-kérdés</em>",
+      "lede": "Papírt és tollat készíts elő — ne az AI-t, ne a számítógépet.",
+      "body": "<p>(1) Miben kérdeznek tőled tanácsot ismerőseid? (2) Mit próbálsz évek óta megoldani magadnak? (3) Milyen hibákat kerülnél el ma, ha visszamehetnél? (4) Miért fizetnél te is valaki másnak, ha most kezdenéd?</p><p>Az első válasz mindig sablonos lesz — írd le, és kérdezd meg újra magadtól, mélyebbre. A papír azért fontos, mert lassít — az AI túl gyorsan ad „okos\" választ, ami nem a tied.</p>"
+    },
+    {
+      "type": "code",
+      "eyebrow": "01. lecke · prompt",
+      "title": "Prompt — miután a papír kész",
+      "lede": "AKKOR használd, amikor a 4 kérdést már papíron végigírtad, és három jelölt-problémát kiválasztottál. Az AI nem dönt — gondolkodtató kérdésekkel segít tisztábban látni.",
+      "code": "Most végeztem a 4 fájdalom-kérdéssel papíron.\nA három jelölt-probléma, amit kiválasztottam:\n\n[1] ...\n[2] ...\n[3] ...\n\nSaját élményem mindegyikkel (1-2 mondat):\n[1] ...\n[2] ...\n[3] ...\n\nTegyél fel 5 olyan kérdést, ami segít eldönteni,\nmelyik az, amiben a legmélyebb személyes érintettségem\nvan, és amelyiknek van magyar piaci kereslete is.\nNE válassz helyettem. NE adj tanácsot. Csak kérdezz."
+    },
+    {
+      "type": "lede",
+      "eyebrow": "02. lecke",
+      "title": "A <em>pivot-pont</em>",
+      "lede": "A pillanat, amikor valami működni kezdett — egy felismerés, egy módszer, egy eszköz.",
+      "body": "<p>Nézd meg a saját utadat — hol volt az a pillanat, amikor valami a kezedbe került, és amit ma már másképp csinálsz, mint öt éve. Ez a pivot-pont — itt válik a fájdalmadból tudás. A tudásod magja nem az, hogy „sokat tanultam\", hanem hogy „itt léptem át valamit, és tudom, hogyan\".</p><p>Ezt a pillanatot írd le egy bekezdésben, a saját szavaiddal.</p>"
+    },
+    {
+      "type": "code",
+      "eyebrow": "02. lecke · prompt",
+      "title": "Prompt — saját vagy másolt?",
+      "lede": "Akkor futtasd, amikor már leírtál egy bekezdést a saját szavaiddal, és szeretnéd látni, hogy „saját\" hangú-e, vagy idegen szavakkal kerettezted.",
+      "code": "A pivot-pontom egy bekezdésben:\n\n[a saját szavaiddal írt bekezdés]\n\nOlvasd el szigorúan. Címkézd minden mondatot:\n- \"saját\" — a saját élményből, hétköznapi szavakkal\n- \"másolt\" — coach-szagú, idegen kifejezésekkel\n  (pl. „transzformáció\", „mindset\", „kibontakozás\",\n  „shortcut\", „forradalmi\", „életmódváltás\")\n\nMondd meg, mely mondatokat írjam újra,\nés kérdezz vissza, ha valami nem konkrét."
+    },
+    {
+      "type": "lede",
+      "eyebrow": "03. lecke",
+      "title": "A történet <em>1 mondatban</em>",
+      "lede": "Én a [konkrét probléma] megoldásában tudok segíteni a [konkrét embereknek], mert [a saját pivot-pontod].",
+      "body": "<p>Ez a mondat lesz az alapja minden későbbi modulnak — az ajánlatnak, a weboldalnak, a copy-nak. Ha még nem áll össze, nem baj — maradj még egy napot a 01. és 02. leckénél.</p><p>Ennek az egy mondatnak ki kell bírnia, hogy bárkinek el tudod mondani, és érti.</p>"
+    },
+    {
+      "type": "code",
+      "eyebrow": "03. lecke · prompt",
+      "title": "Prompt — érthető-e laikusnak?",
+      "lede": "Amikor már van egy nyers verziód, és szeretnéd látni, hogy érthető-e laikus számára.",
+      "code": "A jelenlegi 1 mondatos állításom:\n\n„Én a [...] megoldásában tudok segíteni a [...]-nek/-nak,\nmert [a saját pivot-pontom röviden].\"\n\nTedd a következőt:\n1. Olvasd el úgy, mintha egy ismerősöm hallaná először,\n   aki nem ismeri a szakterületemet.\n2. Mondd meg, mit nem értene egyértelműen.\n3. Adj 3 átfogalmazási variációt, amik konkrétabbak,\n   de a tartalma nem változik.\n4. Egyik se legyen szlogen-szagú —\n   mindenhol konkrét emberek, konkrét probléma."
+    },
+    {
+      "type": "quote",
+      "eyebrow": "Az alaptétel",
+      "quote": "Az ötlet labilis. A fájdalom nem cserélhető ki.",
+      "cite": "1. modul · A tudásod magja"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Mire NE csinálj",
+      "title": "Tiltott szavak a <em>pivot-pontban</em>",
+      "lede": "Transzformáció, forradalmi, mindset, shortcut, életmódváltás, kibontakozás, áttörés.",
+      "body": "<p>Ezek nem a te szavaid. Ezek átöröklött coach-marketing-szavak, amik elmossák, hogy mi történt valóban. Ha bármelyik benne van a bekezdésedben — írd újra hétköznapi szóval. „Megtanultam X-et\" helyett: „2019-ben azt csináltam, hogy Y, és kiderült, hogy Z.\"</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Heti feladat",
+      "title": "Mit csinálsz <em>ezen a héten</em>",
+      "lede": "Írj egy 1 oldalas „fájdalom-térképet\" papírra — 3 jelölt-probléma a saját élettörténetedből.",
+      "body": "<p>Válaszd ki azt, amiről 20 percet tudnál mélyen, részletesen beszélni. Ne az AI-val kezdd — papírral. Az AI-promptokat csak miután a papír már megvan.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Eredmény",
+      "title": "A hét végére: <em>egy mondat</em>.",
+      "lede": "Tudod, kihez beszélsz, miről, és miért te. Ez a 11 hét minden modulján vissza fog köszönni.",
+      "body": "<p>Ha még nincs meg — maradj. Ne menj tovább a 2. modulra, amíg az 1 mondat nem áll meg. A vevőd-leírás (2. modul) ebből indul, az ajánlat (3. modul) ebből épül.</p>"
+    },
+    {
+      "type": "end",
+      "eyebrow": "Modul vége",
+      "title": "Eredmény: <em>1 mondat</em>, ami tied.",
+      "sub": "A tudásod magja papíron van. A pivot-pont megvan. A mondat áll. Innen tovább a vevőd kirajzolása következik.",
+      "links": [
+        { "label": "Modul · részletes szöveg", "url": "/modules/01-tudasod-magja" },
+        { "label": "Letölthető anyagok", "url": "/downloads/01-tudasod-magja/SKILL.md" },
+        { "label": "Következő modul · 02", "url": "/modules/02-vevod-ki" },
+        { "label": "Vissza a tartalomjegyzékhez", "url": "/#modulok" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "slug": "06-copy-landing",
+  "title": "Értékesítési szövegírás és landing",
+  "subtitle": "Hero-headline · Garancia · FAQ · érték-stack · landing.html",
+  "moduleNum": "Modul · 06",
+  "phase": "II. fázis · 6. hét",
+  "duration": "16-20 perc",
+  "slideCount": 13,
+  "slides": [
+    {
+      "type": "cover",
+      "eyebrow": "Modul · 06 · II. fázis · 6. hét",
+      "title": "Értékesítési szövegírás és <em>landing</em>",
+      "sub": "Copy-modellek, amiket átveszek — nem tanácsadás, hanem közvetítés. Plusz egy különálló landing oldal egy konkrét szolgáltatásra.",
+      "meta": [
+        { "k": "Hossz", "v": "16-20 perc" },
+        { "k": "Lecke", "v": "4 db" },
+        { "k": "Heti feladat", "v": "Erősebb copy + landing.html" }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Mit nyersz a modul végére",
+      "title": "Egy weboldal, ami nem leírja, hanem <em>érti</em> a vevődet.",
+      "lede": "A weboldal magában nem ad el — a SZÖVEG ad el. Egy átlagos design erős copy-val több ügyfelet hoz, mint egy gyönyörű design üres marketing-szöveggel.",
+      "body": "<p>A copy-szabályokat itt nem találom ki — bevált modelleket veszek át (copyhackers, swipefile, klasszikus direct response anyagok), és átadom azt, ami nálam is segített.</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "A 4 lecke",
+      "title": "Mit rakunk a helyére ezen a héten",
+      "bullets": [
+        { "t": "Hero-headline tíz variációban", "s": "Az egyetlen sor, ami eldönti, hogy az olvasó marad-e. Tíz érzelmi keret, egy nyertes." },
+        { "t": "Garancia, FAQ, érték-stack", "s": "Ezek a szövegblokkok, amik a Hero után tartják ott az olvasót." },
+        { "t": "Szolgáltatás-specifikus landing", "s": "Külön landing.html EGY akcióra: foglalj, töltsd le, fizess elő." },
+        { "t": "A 7-elemes sales-szerkezet", "s": "Headline, vizuális, benefit, mechanizmus, történet, GYIK, garancia — magas árú csomaghoz." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "01. lecke",
+      "title": "Hero-headline <em>tíz variációban</em>",
+      "lede": "Ne azt írd, mit csinálsz — írd azt, mit kap ő, ha veled dolgozik.",
+      "body": "<p>„Webfejlesztő vagyok 10 év tapasztalattal\" rossz; „Két hét alatt élesben lesz a webhelyed, vagy ingyen visszacsinálom\" jó.</p><p>Generálj tíz variációt különböző érzelmekből — félelem, vágy, kíváncsiság, sürgősség, biztonság —, és teszteld magadon: melyiket érted azonnal, magyarázat nélkül.</p>"
+    },
+    {
+      "type": "code",
+      "eyebrow": "01. lecke · prompt",
+      "title": "A 10-headline-prompt",
+      "lede": "Másold be a Claude Code-ba, az 1-3. modul output-jait illeszd a placeholderekbe. A nyertest a webhelyre, a maradék 9-et a swipefile-ba.",
+      "code": "Az ajánlatom (3. modul, 1 mondat): [INPUT]\nAz avatárom (2. modul, 1 mondat): [INPUT]\nA pivot-pontom (1. modul, 1 mondat): [INPUT]\n\nGenerálj 10 hero-headline variációt magyarul:\n1. Eredmény-fókuszú állítás\n2. Kérdés-stílus\n3. Sürgősség\n4. Biztonság (kockázat-megfordítás)\n5. Kíváncsiság (info-gap)\n6. Félelem\n7. Vágy\n8. Kontraszt („nem X, hanem Y\")\n9. Konkrét szám\n10. Egyszerűség\n\nMaximum 12 szó. Zero emoji, zero hyped szó."
+    },
+    {
+      "type": "lede",
+      "eyebrow": "02. lecke",
+      "title": "Garancia, FAQ, <em>érték-stack</em>",
+      "lede": "A copy nemcsak a Hero-ból áll — a többi szekció is dolgozik.",
+      "body": "<p><strong>Garancia:</strong> a kockázatot fordítja meg. „Ha a hét végéig nincs az ígért output, visszafizetem.\" Az emberek 95%-ának nem azért fontos, mert visszakérik a pénzt — hanem mert látják, hogy te bízol a saját szolgáltatásodban.</p><p><strong>FAQ:</strong> nem véletlenszerű kérdéslista, hanem ellenérvek lefogása. 5-7 leggyakoribb „de mi van ha…\" kérdés, rövid őszinte válasz.</p><p><strong>Érték-stack:</strong> minden, amit a fő csomag mellé kapnak, külön bullet-pontban, külön piaci értékkel.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "03. lecke",
+      "title": "Szolgáltatás-specifikus <em>landing</em>",
+      "lede": "A weboldal a „ki vagyok\". A landing egy konkrét akcióra hajt.",
+      "body": "<p>Egy szolgáltatás = egy landing. Az egyik csomagodhoz építesz egy <code>/szolgaltatas-neve</code> URL-t (Vercel-en második fájlként, <code>landing.html</code>), ahol csak ez az egy ügylet van fókuszban.</p><p><strong>Nincs menü, nincs „rólam\", nincs „blog\".</strong> Minden, ami nem a CTA-ra hajt, leveszed.</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "03. lecke · landing struktúra",
+      "title": "A landing 6 szekciója",
+      "bullets": [
+        { "t": "Hero", "s": "Headline + 1 mondatos sub + CTA. Semmi más a hero-ban." },
+        { "t": "Mit kapsz", "s": "3-4 bullet, konkrét outcome-okkal." },
+        { "t": "Mini-bizalom", "s": "1 mondat rólad + 1 referencia VAGY egy konkrét eredmény-szám." },
+        { "t": "Garancia", "s": "1 mondat, konkrét kockázat-megfordítás." },
+        { "t": "FAQ", "s": "3-5 kérdés, csak ami a CTA-ra kattintás előtti utolsó ellenérv." },
+        { "t": "Második CTA", "s": "Ugyanaz a gomb, ugyanaz a szín, mint a hero-ban." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "04. lecke",
+      "title": "A 7-elemes <em>sales-szerkezet</em>",
+      "lede": "Amikor nem szolgáltatás-bemutatót, hanem konkrét sales-oldalt építesz — fizetős tananyagra, magas árú csomagra.",
+      "body": "<p>(1) <strong>Headline</strong> — max 6 szavas főcím, konkrét eredmény. (2) <strong>Vizuális</strong> — kép vagy grafika a headline alatt. (3) <strong>Benefit stack</strong> — milyen lesz a vevő élete utána. (4) <strong>Mechanizmus</strong> — hogyan valósul meg az eredmény. (5) <strong>Történet</strong> — személyes hiba, fordulópont, ügyfél-szituáció. (6) <strong>Kifogáskezelés</strong> — leggyakoribb GYIK. (7) <strong>Garancia</strong>.</p><p>A 3. lecke landing-jénél nem kell mindezt beletenni — ott Cal.com foglalás a cél, nem közvetlen vásárlás.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Mit NE használj",
+      "title": "Tiltott szavak a <em>copy-ban</em>",
+      "lede": "„Forradalom\", „áttörés\", „transzformáció\", „mind-blowing\", „a magasabb verziód\".",
+      "body": "<p>Ezek nem hangsúlyt adnak, hanem coach-szagot. Helyettük: konkrét számok, konkrét időkeretek, konkrét eredmények. Ha egy mondat hiteles akar lenni, akkor mérhető legyen.</p>"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "Az alaptétel",
+      "quote": "A weboldal magában nem ad el — a szöveg ad el",
+      "cite": "6. modul · A hét témája"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Heti feladat",
+      "title": "Mit csinálsz <em>ezen a héten</em>",
+      "lede": "Frissítsd a webhelyed Hero-headline-ját, garancia- és FAQ-szekcióját, és építsd meg a landing.html-t egy konkrét szolgáltatásra Vercel-en.",
+      "body": "<p>A Hero az első, ahova belenyúlsz — utána a garancia és FAQ. A landing.html egy második fájl ugyanabba a GitHub repo-ba, Vercel automatikusan deploy-olja a <code>/landing-szolgaltatas-neve</code> URL-re.</p>"
+    },
+    {
+      "type": "end",
+      "eyebrow": "Modul vége",
+      "title": "Eredmény: <em>érti</em> a vevődet a webhelyed.",
+      "sub": "Plusz egy különálló landing, amit konkrét akcióra használhatsz a következő hetekben — például a 7. modul Cal.com foglaló-rendszerével.",
+      "links": [
+        { "label": "Modul · részletes szöveg", "url": "/modules/06-copy-landing" },
+        { "label": "Letölthető anyagok", "url": "/downloads/06-copy-landing/SKILL.md" },
+        { "label": "Következő modul · 07", "url": "/modules/07-konzultacios-funnel" },
+        { "label": "Vissza a tartalomjegyzékhez", "url": "/#modulok" }
+      ]
+    }
+  ]
+}

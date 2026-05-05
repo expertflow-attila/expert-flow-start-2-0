@@ -1,0 +1,135 @@
+{
+  "slug": "23-esettanulmanyok",
+  "title": "Esettanulmányok — 38 nemzetközi szakértő",
+  "subtitle": "Landing-, email- és sales-elemzések magyarul",
+  "moduleNum": "Bónusz · 23",
+  "phase": "Bónusz · tár",
+  "duration": "12-16 perc",
+  "slideCount": 13,
+  "slides": [
+    {
+      "type": "cover",
+      "eyebrow": "Bónusz · 23 · tár",
+      "title": "38 <em>esettanulmány</em>",
+      "sub": "Magyar nyelvű részletes elemzések 38 nemzetközi kurzus-vállalkozó landing-, email- és sales-anyagairól. Egy tár, amihez minden új landing-építéskor visszanyúlhatsz.",
+      "meta": [
+        { "k": "Hossz", "v": "12-16 perc" },
+        { "k": "Esettanulmány", "v": "38 db" },
+        { "k": "Kategória", "v": "7 fő terület" }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Miért gyűjtöttem 38-at",
+      "title": "Mert a magyar piacon <em>kevés</em> a hozzáférhető elemzés.",
+      "lede": "Az elmúlt 1-2 évben raktam össze és fordítottam le, mert minden saját landing-építéskor frusztráló volt, hogy nincs egy strukturált tár, ahova vissza tudtam volna nyúlni.",
+      "body": "<p>Ezért készítettem el a sajátomat. Most te is hozzáférsz. <strong>Ez NEM kötelező végigolvasandó modul</strong> — ez egy referencia-katalógus, amihez akkor nyúlsz, amikor új landing-et, email-sorozatot vagy sales-szöveget építesz.</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "Hogyan használd",
+      "title": "5 helyzet, amikor ide nyúlsz",
+      "bullets": [
+        { "t": "Mielőtt új landing-et építesz (5-6. modul)", "s": "Nézz át 2-3 hasonló kategóriájú esettanulmányt — látod a struktúrát, a hosszúságot, a fókuszt." },
+        { "t": "Email-sorozat építéskor (9. modul)", "s": "Welcome-funnel, follow-up emailek — szakértők hogyan strukturálják." },
+        { "t": "Kurzus-launch előtt (20. bónusz)", "s": "5-10 sales-oldal — curriculum, árazás, bónuszok strukturálása." },
+        { "t": "Lead magnet építéskor", "s": "Sunny Lenarduzzi anyaga külön Capture Funnel referencia." },
+        { "t": "Garancia / FAQ / vélemény blokkok írásakor", "s": "Itt jönnek elő a leggyakoribb minták — másold át a struktúrát, ne a szöveget." }
+      ]
+    },
+    {
+      "type": "quote",
+      "eyebrow": "A legfontosabb elv",
+      "quote": "Ne másold le. Nézd meg, mire fókuszáltak — hero-headline, fő ígéret, garancia, FAQ, ár — és a saját szakmádra adaptálj. Egy fotós-coach landingjét NE használd ügyvédre 1:1-ben.",
+      "cite": "EV-AIOS · 23. bónusz · 28. szabály"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "Kategória · 1.",
+      "title": "High-ticket coaching és <em>mentorship</em> landing-ek",
+      "bullets": [
+        { "t": "Chelsea Haines (Gut Health Agency)", "s": "Egészség-coaching agency — high-ticket coaching ajánlat strukturálása." },
+        { "t": "Vinh Giang (kommunikációs tréner)", "s": "Beszéd- és kommunikációs tréner — workshop és tréning landing." },
+        { "t": "Matthew Hussey (párkapcsolati coach)", "s": "Érzelmi pozicionálás high-ticket áron." },
+        { "t": "Jeremy Miner (7th Level)", "s": "B2B sales-tréning program landing." }
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "Kategória · 2.",
+      "title": "A digitális <em>kurzusipar</em>",
+      "bullets": [
+        { "t": "Amy Porterfield", "s": "Az egyik legnagyobb név — sales-oldal struktúra, email-launch formula." },
+        { "t": "Jenna Kutcher", "s": "Story-driven kurzus-landing, Amy-iskolához közeli stílus." },
+        { "t": "Marie Forleo (B-School)", "s": "Az egyik legnagyobb női online vállalkozói brand sales-stílusa." },
+        { "t": "Gemma Bonham Carter (Amy 2.0)", "s": "Kurzus-business és launch módszertan újragondolva." }
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "Kategória · 3.",
+      "title": "Solopreneur, copywriter, creator-economy",
+      "bullets": [
+        { "t": "Justin Welsh (sales landing)", "s": "Solopreneur és One-Person Business — letisztult, dokumentáló-hangú minta." },
+        { "t": "Alex Cattoni", "s": "Copywriting kurzus — szöveg-iparág saját portfólió, copy-on-copy." },
+        { "t": "Jay Clouse · Ali Abdaal", "s": "Creator-economy member-funnel; produktivitási kurzus + newsletter funnel." },
+        { "t": "Tom Noske · Andrew Paul", "s": "Personal branding minimalista; creator-business blueprint." }
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "Kategória · 4.",
+      "title": "Lead magnet és pre-launch",
+      "bullets": [
+        { "t": "Sunny Lenarduzzi (lead magnet)", "s": "Capture Funnel referencia — a 9. modulhoz illik." },
+        { "t": "Nick Saraev (AI membership várólista)", "s": "Pre-launch / waitlist landing minta." },
+        { "t": "Nat Danie Jay (várólista)", "s": "Alacsony-elköteleződésű opt-in struktúra." }
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "Kategória · 5.",
+      "title": "Niche és magyar piaci",
+      "bullets": [
+        { "t": "Görög Ádám (tacit alapján)", "s": "Magyar piaci példa — tacit-módszertan, magyar nyelvű sales-szöveg." },
+        { "t": "Bonnie Christine · Kelly McHugh", "s": "Surface pattern design; Digital Yoga Academy — kreatív/wellness niche." },
+        { "t": "Becky Kennedy · HER · Justin Sung", "s": "Szülői workshop; filmes tanfolyam; tanulás-tudományos kurzus." }
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "Kategória · 6.",
+      "title": "Membership és komplett funnelek",
+      "bullets": [
+        { "t": "James Smith — TELJES FUNNEL", "s": "Landing + email + sales oldal együttes kibontása. Egyik legtanulságosabb az egész tárban." },
+        { "t": "Natalie Ellis (Bossbabe) · Carrie Green (FEA)", "s": "Membership és közösségi termék — recurring subscription minták." },
+        { "t": "Chris Do (Content Lab)", "s": "The Futur tagsági program landing — design-iparág community-funnel." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Tanácstalan vagy?",
+      "title": "Három <em>belépő</em>-ajánlat.",
+      "lede": "Ha most kezded és nem tudod, melyiket nézd először — ez a három a legjobb belépőpont.",
+      "body": "<p><strong>6. James Smith (teljes funnel)</strong> — komplett funnel-rendszer, landing-től email-en át sales-oldalig.</p><p><strong>21. Amy Porterfield</strong> — a women-coaching mainstream sales-stílusa, kurzus-launch formula.</p><p><strong>27. Justin Welsh</strong> — letisztult, dokumentáló-hangú solopreneur minta. Magyar piacra a legközelebb áll.</p>"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "Záró gondolat",
+      "quote": "Az amerikai piacon másképp működnek a sales-szövegek — magasabb intenzitás, több érzelem, hosszabb landing-ek. A magyar piacon mindig vissza kell fognod: kevesebb felkiáltójel, több konkrét szám, magyaros, dokumentáló hang.",
+      "cite": "EV-AIOS · 23. bónusz · záró gondolat"
+    },
+    {
+      "type": "end",
+      "eyebrow": "Bónusz vége",
+      "title": "Eredmény: egy <em>tár</em>, amit nem kell kívülről tudnod.",
+      "sub": "38 esettanulmány, 7 fő kategória. Nyúlj ide minden új landing, email-sorozat vagy sales-oldal előtt — ne másolj, hanem adaptálj. Jó böngészést.",
+      "links": [
+        { "label": "Modul · részletes szöveg", "url": "/modules/23-esettanulmanyok" },
+        { "label": "38 esettanulmány · Drive", "url": "https://drive.google.com/drive/folders/1xhaUQvDuX4jNzf8iz4fgQlvRLcL7um8E" },
+        { "label": "Lezárás · outro", "url": "/modules/outro" },
+        { "label": "Vissza a tartalomjegyzékhez", "url": "/#modulok" }
+      ]
+    }
+  ]
+}

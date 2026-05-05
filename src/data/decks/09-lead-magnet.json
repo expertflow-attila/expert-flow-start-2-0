@@ -1,0 +1,122 @@
+{
+  "slug": "09-lead-magnet",
+  "title": "Lead magnet és email lista",
+  "subtitle": "5-10 oldalas PDF · Kit form · 5 emailes welcome sorozat",
+  "moduleNum": "Modul · 09",
+  "phase": "III. fázis · 9. hét",
+  "duration": "14-18 perc",
+  "slideCount": 13,
+  "slides": [
+    {
+      "type": "cover",
+      "eyebrow": "Modul · 09 · III. fázis · 9. hét",
+      "title": "Lead magnet és <em>email lista</em>",
+      "sub": "Egy hasznos PDF, egy feliratkozó form, és öt email a feliratkozás utáni két hétben — ez az alap email-funnel, amit a Kit-tel rakunk össze.",
+      "meta": [
+        { "k": "Hossz", "v": "14-18 perc" },
+        { "k": "Lecke", "v": "3 db" },
+        { "k": "Heti feladat", "v": "PDF + form + 5 email" }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Mit nyersz a modul végére",
+      "title": "Egy működő <em>email-rendszer</em>.",
+      "lede": "Az emberek 95%-a, aki a webhelyedre érkezik, nem fog azonnal vásárolni — nem azért, mert nem érdekli, hanem mert most még nem áll készen rá.",
+      "body": "<p>Az email lista nem „hírlevél\" — hanem az a hely, ahol idővel bizalmat építesz az olvasókkal, és amikor készen állnak, te leszel az első, akire gondolnak.</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "A 3 lecke",
+      "title": "Mit rakunk a helyére ezen a héten",
+      "bullets": [
+        { "t": "Lead magnet PDF", "s": "5-10 oldalas, gyakorlati Markdown-ból Pandoc-kal vagy headless Chrome-mal." },
+        { "t": "Feliratkozó form", "s": "Kit (régen ConvertKit), 1000 feliratkozóig ingyenes. HTML beillesztés a webhelyre." },
+        { "t": "5 emailes welcome sorozat", "s": "Két hét, 5 email, mindegyik egy konkrét célt szolgál." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "01. lecke",
+      "title": "Lead magnet — <em>5-10 oldalas PDF</em>",
+      "lede": "Konkrét, hasznos dokumentum, amit cserébe adsz az email-címért.",
+      "body": "<p>Nem „kapsz heti tippeket\" — hanem „letöltheted a 7 lépéses XYZ útmutatót\".</p><p>Az 1. modulban már megtapasztaltad, mi a tudásod magja — ebből születik a lead magnet. Markdown fájlban megírod (vagy a Claude Code-dal generálod), majd Pandoc-kal vagy headless Chrome-mal PDF-fé konvertálod.</p><p><strong>Nincs szükség Canvára, InDesignra</strong> — egy egyszerű, jól tördelt Markdown-PDF a kezdőknél jobban hat, mint egy túldesignolt fájl.</p>"
+    },
+    {
+      "type": "code",
+      "eyebrow": "01. lecke · prompt",
+      "title": "PDF-vázlat generálás",
+      "lede": "Másold be a Claude Code-ba, az 1-2. modul output-jait illeszd a placeholderekbe. A végén Pandoc-kal konvertálsz PDF-fé.",
+      "code": "Készítsünk egy 5-10 oldalas lead magnet PDF-vázlatot Markdown-ban.\n\nA vállalkozás-mag (1. modulból):\n„Én a [konkrét probléma] megoldásában tudok segíteni\na [konkrét embereknek], mert [a saját pivot-pontod].\"\n\nA célcsoport (2. modulból):\n[avatár leírás 2-3 mondatban]\n\nStruktúra:\n# Cím\n## Bevezető (1 oldal): kinek szól, mit kap meg\n## 5-7 lépés / fejezet (egyenként 1 oldal): konkrét, gyakorlati\n## Záró (1 oldal): következő lépés, link a webhelyre\n\nHangnem: dokumentáló, NEM coach-szagú. Halk CTA a végén:\n„Ha kérdésed van, foglalj 20 perces beszélgetést: [Cal.com link].\""
+    },
+    {
+      "type": "lede",
+      "eyebrow": "02. lecke",
+      "title": "Feliratkozó form — <em>Kit</em>",
+      "lede": "A Kit (régen ConvertKit) email-marketing eszköz, ingyenesen indítható 1000 feliratkozóig.",
+      "body": "<p>Setup: regisztráció a saját Google Workspace-emaileddel, „Form\" létrehozása (név, email, gomb-szöveg), a form HTML-jét másolod, és a Claude Code-dal beilleszted a webhelyed lead magnet szekciójába.</p><p>Ha valaki feliratkozik, a Kit automatikusan elküldi a PDF-et, és belép a welcome-sorozatba.</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "02. lecke · form-copy",
+      "title": "Mit írj a form köré",
+      "bullets": [
+        { "t": "Form FÖLÉ", "s": "2-3 mondatos copy, ami konkrétan ígéri a PDF-et: „Töltsd le a [konkrét cím] útmutatót — 5 perc olvasás, 7 lépés.\"" },
+        { "t": "Gomb-szöveg", "s": "„Kérem a PDF-et\" — NEM „feliratkozom\". A különbség nagy." },
+        { "t": "Form ALATT", "s": "Halk sor: „Heti 1 email maximum, bármikor leiratkozhatsz.\"" },
+        { "t": "Stílus", "s": "Nincs gradient, nincs animáció, minimalisztikus — illeszkedjen a webhelyhez." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "03. lecke",
+      "title": "Öt emailes <em>welcome sorozat</em>",
+      "lede": "A feliratkozás utáni 14 napban összesen 5 email, mindegyik egy konkrét célt szolgál.",
+      "body": "<p>(1) Azonnal: PDF-link + 1 mondat rólad. (2) 2 nap múlva: a saját pivot-pontod (1. modul). (3) 4 nap múlva: a leggyakoribb tévhit a területeden. (4) 7 nap múlva: konkrét tipp, ami a PDF-ben nincs benne. (5) 10 nap múlva: meghívó konzultációra.</p><p>A hangja: beszélgetős, nem marketing-szöveg — mintha egy ismerősödnek írnál.</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "03. lecke · az 5 email célja",
+      "title": "Mit dolgozik mindegyik",
+      "bullets": [
+        { "t": "Email 1 (azonnal)", "s": "Itt a PDF-ed. 80-120 szó, 1 mondat rólad. Tárgysor max 50 karakter, nem clickbait." },
+        { "t": "Email 2 (2. nap)", "s": "A pivot-pontom története. 150-200 szó, személyes, NEM tanács." },
+        { "t": "Email 3 (4. nap)", "s": "A leggyakoribb tévhit + amit ÉN gondolok. Meglepő állítás a tárgyban." },
+        { "t": "Email 4 (7. nap)", "s": "Konkrét tipp, ami a PDF-ben nincs. 1 cselekvési lépés." },
+        { "t": "Email 5 (10. nap)", "s": "Meghívó 20 perces konzultációra. Nem nyomulós, kérdés-jellegű tárgy." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Mit NE használj",
+      "title": "Tiltott frázisok az <em>emailben</em>",
+      "lede": "„Kedves olvasó\", „kattints ide most\", „limitált lehetőség\", aláírás-blokk dizájnnal.",
+      "body": "<p>Egyszerű „Üdv, [név]\" elég. A coach-szagú formulák a 90-es évek autoresponder-iskolájához tartoznak — egy mai olvasó pillanatok alatt megérzi, és kilép a sorozatból.</p>"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "Az alaptétel",
+      "quote": "Az email lista nem hírlevél — bizalom-építés idővel",
+      "cite": "9. modul · A hét témája"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Heti feladat",
+      "title": "Mit csinálsz <em>ezen a héten</em>",
+      "lede": "Írd meg és exportáld a lead magnet PDF-et, állítsd be a Kit form-ot a webhelyen, és írd meg az 5 emailes welcome sorozatot a Kit Sequences-ben.",
+      "body": "<p>A PDF a legidőigényesebb — az AI vázlatot ad, te beszéddé alakítod. A Kit setup és a sorozat-beállítás 1-1 óra. Egy hét alatt reális.</p>"
+    },
+    {
+      "type": "end",
+      "eyebrow": "Modul vége",
+      "title": "Eredmény: passzív <em>bizalom-építés</em>.",
+      "sub": "Ha valaki feliratkozik, automatikusan megkapja a PDF-et, és a következő két hétben öt jól időzített emailt is — innen kezdődik a hosszú távú kapcsolat.",
+      "links": [
+        { "label": "Modul · részletes szöveg", "url": "/modules/09-lead-magnet" },
+        { "label": "Letölthető anyagok", "url": "/downloads/09-lead-magnet/SKILL.md" },
+        { "label": "Következő modul · 10", "url": "/modules/10-crm-gmail-drive" },
+        { "label": "Vissza a tartalomjegyzékhez", "url": "/#modulok" }
+      ]
+    }
+  ]
+}

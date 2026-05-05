@@ -1,0 +1,131 @@
+{
+  "slug": "12-jogi-szamlazas",
+  "title": "Jogi és számlázási minimum",
+  "subtitle": "KATA / EV / Kft. · Számlázz.hu + NAV · ÁSZF + GDPR",
+  "moduleNum": "Modul · 12",
+  "phase": "IV. fázis · 12. hét",
+  "duration": "18-22 perc",
+  "slideCount": 14,
+  "slides": [
+    {
+      "type": "cover",
+      "eyebrow": "Modul · 12 · IV. fázis · 12. hét",
+      "title": "Jogi és <em>számlázási</em> minimum",
+      "sub": "A magyar jogi környezet kötelező alapja — vállalkozási forma, számlázás, ÁSZF, GDPR. Ami nélkül az első fizető ügyfél nem szállítható.",
+      "meta": [
+        { "k": "Hossz", "v": "18-22 perc" },
+        { "k": "Lecke", "v": "3 db" },
+        { "k": "Heti feladat", "v": "Forma + számlázó + jogi szövegek" }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Mit nyersz a modul végére",
+      "title": "Jogilag is rendben — <em>magyar</em> piacon szállítható.",
+      "lede": "A hét végére döntöttél a vállalkozási formádról, regisztráltál a Számlázz.hu-n a NAV-bejelentéssel együtt, és kint van az ÁSZF és az Adatvédelmi nyilatkozat a webhelyeden.",
+      "body": "<p>Ez a modul nem inspiráló, és nem is annak szánom. Egyszerűen a jogi és adózási minimum, ami nélkül vállalkozni nem lehet Magyarországon. Sok kezdő ezt tolja maga előtt hónapokig, és aztán éppen az első ügyfél előtt kerül bajba.</p>"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "Mielőtt belekezdesz",
+      "quote": "Nem vagyok könyvelő. A magyar adójogi szabályok évente változnak — a friss verziót a NAV oldalán nézd meg, és egyszer ülj le 30 percre egy könyvelővel.",
+      "cite": "EV-AIOS · 12. modul keret"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "A 3 lecke",
+      "title": "Mit rakunk a helyére ezen a héten",
+      "bullets": [
+        { "t": "KATA / EV / Kft. — vállalkozási forma", "s": "A három alap-forma kezdő szakértőknek, és mikor melyik a logikus választás." },
+        { "t": "Számlázz.hu (vagy Billingo) + NAV", "s": "Digitális számlázás a kötelező Online Számla bejelentéssel, lépésről lépésre." },
+        { "t": "ÁSZF + Adatvédelmi nyilatkozat", "s": "A két kötelező jogi szöveg a webhely lábához — és miért NE generáld AI-val." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "01. lecke",
+      "title": "KATA / EV / Kft. — <em>melyik</em> forma?",
+      "lede": "Három alap-forma kezdő szolgáltató szakértőknek. A legtöbb esetben az EV + KATA a logikus első lépés.",
+      "body": "<p><strong>EV + KATA</strong> — 50 000 Ft/hó tételes adó, 18 millió Ft/év éves árbevételi plafon. A 2022 szeptemberi reform óta kifizető (cég) felé évente max. 3 millió Ft számlázható, e felett 40% különadó.</p><p><strong>EV + átalányadó</strong> — ha sok vállalati ügyfél, mert ott a KATA korlátos.</p><p><strong>Kft.</strong> — nagyobb forgalomra, vagy ha többen indítjátok közösen.</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "01. lecke · döntésfa",
+      "title": "Melyik forma jön szóba?",
+      "bullets": [
+        { "t": "Magánszemély vevők, < 18 millió Ft/év", "s": "EV + KATA. A legegyszerűbb, legolcsóbb adminisztráció." },
+        { "t": "Sok vállalati (B2B) vevő", "s": "EV + átalányadó. A KATA-s 3 milliós kifizetői plafon limitál." },
+        { "t": "10+ millió Ft várható forgalom, vagy társas indulás", "s": "Kft. Magasabb adminisztráció, de skálázhatóbb forma." },
+        { "t": "Bizonytalan vagy?", "s": "30 perc könyvelővel — 5-15 000 Ft/hó a könyvelői díj, sokszor megéri." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "02. lecke",
+      "title": "Számlázz.hu + <em>NAV</em> bejelentkezés",
+      "lede": "A magyar számlázás 2021 óta digitális — papír-számla már nem működik.",
+      "body": "<p>Két nagy szolgáltató: a <strong>Számlázz.hu</strong> (a legelterjedtebb, ingyenes alap-csomag, ~5000 Ft/év a fizetős verzió) és a <strong>Billingo</strong> (modernebb felület, hasonló árazás). Mindkettő automatikusan küldi az adatokat a NAV Online Számla rendszerébe — ami <em>kötelező</em>.</p><p>A setup része a NAV Online Számla regisztráció külön a <code>onlineszamla.nav.gov.hu</code>-n, plusz egy „technikai felhasználó\", amit a Számlázz.hu/Billingo automatikusan kezel.</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "02. lecke · setup",
+      "title": "A számlázó-rendszer beállítási lépései",
+      "bullets": [
+        { "t": "Regisztráció", "s": "Számlázz.hu vagy Billingo — fiók-létrehozás email-címmel." },
+        { "t": "Vállalkozás-adatok", "s": "Adószám, székhely, név, bankszámla — pontosan ahogy a NAV-nál." },
+        { "t": "Számla-sablon", "s": "Logo, fejléc, lábléc, fizetési módok beállítása." },
+        { "t": "NAV Online Számla", "s": "Külön regisztráció a NAV-nál, technikai felhasználó kötelező." },
+        { "t": "Teszt-számla + sztornó", "s": "Az első élő ügyfél előtt egyszer fusson le a folyamat." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "03. lecke",
+      "title": "ÁSZF + Adatvédelmi nyilatkozat <em>a webhelyre</em>",
+      "lede": "Két kötelező jogi szöveg a webhely lábához. Online szolgáltatás-értékesítésnél nincs alkudozás.",
+      "body": "<p><strong>ÁSZF (Általános Szerződési Feltételek)</strong> — mit szolgáltatsz, milyen feltételekkel, milyen árakon, mi a panaszkezelés, mi a felmondási feltétel.</p><p><strong>Adatvédelmi nyilatkozat (GDPR)</strong> — ha email-címet, nevet vagy bármilyen személyes adatot gyűjtesz (Kit feliratkozás, Cal.com foglalás), kötelező. Milyen adatokat gyűjtesz, miért, meddig tárolod, kihez kerülhet, hogyan lehet kérni a törlést.</p>"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "A legfontosabb intelem",
+      "quote": "Az ÁSZF-et és az Adatvédelmi nyilatkozatot NE generáld egyedül AI-val. Jogi dokumentumok, amiknél hibázni következményekkel jár.",
+      "cite": "EV-AIOS · 12. modul · 03. lecke"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "03. lecke · két logikus út",
+      "title": "Honnan szerezz <em>jogi</em> szöveget",
+      "bullets": [
+        { "t": "Szabályos jogi sablon vásárlása", "s": "5-10 000 Ft, pl. jogiportal.hu vagy hasonló — kitöltöd a saját adataiddal." },
+        { "t": "Online jogi tanácsadó szolgáltatás", "s": "A saját webhelyedhez szabott szöveget ad, drágább, de pontosabb." },
+        { "t": "Tedd ki a webhely lábához", "s": "PDF-ként vagy HTML-szövegként, minden oldalról elérhető link." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Heti feladat",
+      "title": "Mit csinálsz <em>ezen a héten</em>",
+      "lede": "Dönts a vállalkozási formádról (KATA-EV vagy más), regisztrálj a Számlázz.hu-n vagy Billingo-n a NAV-bejelentéssel együtt, és tedd ki az ÁSZF-et és az Adatvédelmi nyilatkozatot a webhelyedre.",
+      "body": "<p>Ha bizonytalan vagy a formánál, ne döntsd el egyedül — egy könyvelővel 30 perc alatt tisztázható. A 12. hét nem a kísérletezés helye; itt a működő minimumot rakod le.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "A 12 hét vége",
+      "title": "Eredmény: a teljes <em>alap</em> a kezedben.",
+      "lede": "Mondat, vevő, ajánlat, weboldal, lead magnet, CRM, mérés és jogi minimum. Innentől nem építesz tovább alapot — innentől csinálod.",
+      "body": "<p>Ha kíváncsi vagy, hova lehet eljutni innen, a 20-23. bónusz-tárak megmutatják: digitális termék, Claude Code haladó-trükkök, a teljes Expert Flow stack, és 38 nemzetközi landing-esettanulmány.</p>"
+    },
+    {
+      "type": "end",
+      "eyebrow": "Modul vége",
+      "title": "Eredmény: jogilag is <em>rendben</em>.",
+      "sub": "Megvan a vállalkozási formád, működik a Számlázz.hu+NAV, és kint van az ÁSZF meg a GDPR a webhelyeden. A 12 hét le van zárva.",
+      "links": [
+        { "label": "Modul · részletes szöveg", "url": "/modules/12-jogi-szamlazas" },
+        { "label": "Letölthető anyagok", "url": "/downloads/12-jogi-szamlazas/SKILL.md" },
+        { "label": "Következő · 17. tár", "url": "/modules/17-landing-mintak" },
+        { "label": "Vissza a tartalomjegyzékhez", "url": "/#modulok" }
+      ]
+    }
+  ]
+}

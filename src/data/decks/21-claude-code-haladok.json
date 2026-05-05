@@ -1,0 +1,130 @@
+{
+  "slug": "21-claude-code-haladok",
+  "title": "Claude Code productivity-trükkök magyarul",
+  "subtitle": "20 trükk három szinten — kezdő · köztes · haladó",
+  "moduleNum": "Bónusz · 21",
+  "phase": "Bónusz · tár",
+  "duration": "14-18 perc",
+  "slideCount": 13,
+  "slides": [
+    {
+      "type": "cover",
+      "eyebrow": "Bónusz · 21 · tár",
+      "title": "Claude Code <em>productivity</em>-trükkök",
+      "sub": "Húsz konkrét trükk három szinten — kezdő, köztes, haladó. A 4. modul kiterjesztése, magyarul, dokumentáló hangon.",
+      "meta": [
+        { "k": "Hossz", "v": "14-18 perc" },
+        { "k": "Trükk", "v": "20 db" },
+        { "k": "Szint", "v": "3 (8 + 7 + 5)" }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Mire való ez a tár",
+      "title": "Egy <em>referencia</em>, nem egy lineáris modul.",
+      "lede": "Ide nyúlsz, amikor gyorsabb és olcsóbb akarsz lenni — nem ülsz le végigolvasni egy menetben.",
+      "body": "<p>A 4. modul 02. leckéje végigvitt a Claude Code alapokon. A közösség angol nyelvterületen 32 productivity-fogást gyűjtött — itt a 20 leghasznosabb darab magyarul, három szintre bontva. Ami túl niche volt (Agent Teams, BigQuery, git worktrees), kihagytam.</p>"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "Az alaptétel",
+      "quote": "Boring is beautiful. Workflows beat agents.",
+      "cite": "EV-AIOS · 3Ms keretrendszer"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "A. szint · alapok (1-4)",
+      "title": "8 trükk, amit minden Claude Code-felhasználónak érdemes tudni · I.",
+      "bullets": [
+        { "t": "1. /init minden projektben", "s": "A Claude végigolvas, generál egy CLAUDE.md-t, ami minden további session-ben rendszerprompt." },
+        { "t": "2. /statusline a terminálban", "s": "Modell, kontextus-százalék, költség — látod, mikor kell /compact-ot nyomni." },
+        { "t": "3. Tartsd kicsiben a kontextust", "s": "Csak annyit adj, amennyi az adott feladathoz kell. Kevesebb zaj = jobb munka." },
+        { "t": "4. /context — token-fogyasztás röntgene", "s": "Pontosan látod, mi eszi a tokeneidet — onnan tudod, mit kell visszafogni." }
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "A. szint · alapok (5-8)",
+      "title": "8 trükk · II.",
+      "bullets": [
+        { "t": "5. /compact 60%-nál, /clear témaváltáskor", "s": "Sűrítsd, ne ürítsd — csak teljesen új feladatnál clear." },
+        { "t": "6. Mindig plan mode-ban kezdj", "s": "Shift+Tab → előbb stratégia, utána végrehajtás. 30%-kal kevesebb újrakérés." },
+        { "t": "7. Bánj vele junior fejlesztőként", "s": "Adj problémát, ne csak parancsot. Hadd magyarázza a feltételezéseit." },
+        { "t": "8. Önellenőrzés a teendő-listán", "s": "„Ne lépj a következőre, amíg nem 95%-ban biztos vagy az aktuálisban.\"" }
+      ]
+    },
+    {
+      "type": "code",
+      "eyebrow": "A. szint · gyakorlat",
+      "title": "/clear vs /compact — <em>melyiket</em> mikor",
+      "lede": "Két különböző parancs, két különböző helyzetre. Ne keverd.",
+      "code": "# Kontextus 60% körül, ugyanaz a téma:\n/compact\n# Vagy célzottan:\n/compact, de tartsd meg az API-döntéseket és a séma-leírást\n\n# Teljesen új feladat, friss lap:\n/clear\n# (a CLAUDE.md és a támogató fájlok megmaradnak)\n\n# Rossz fordulat — visszalépés:\n/rewind"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "B. szint · köztes (9-12)",
+      "title": "7 trükk, amikor már gyorsabban akarsz dolgozni · I.",
+      "bullets": [
+        { "t": "9. Sub-agentek párhuzamos munkára", "s": "Komplex feladat → 2-3 sub-agent saját kontextussal. A fő ablakod tiszta marad." },
+        { "t": "10. Custom skills a ~/.claude/skills/ mappában", "s": "Újrafelhasználható prompt-fájlok — kontextus-tisztító, kód-ellenőr, landing-generáló." },
+        { "t": "11. CLAUDE.md folyamatos frissítése", "s": "Új minta → vedd be. Vigyázz: 150-200 sor felett trim-eld." },
+        { "t": "12. Korai kilépés (Esc) és újrakérdezés", "s": "Ha rossz irányba megy — Esc, korrigálj, kérdezz újra. Ne várd meg, hogy befejezze." }
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "B. szint · köztes (13-15)",
+      "title": "7 trükk · II.",
+      "bullets": [
+        { "t": "13. Hívd ki a választ", "s": "„Dobd ki, csináld elegánsabban\" vagy „próbáld teljesen más megközelítéssel.\" A 2. próba sokszor drámaian jobb." },
+        { "t": "14. /rewind az undo-hoz", "s": "Visszalép egy korábbi pontra a beszélgetésben. Nem kell újrakezdened." },
+        { "t": "15. Screenshot self-check", "s": "A Claude lát képeket. „Csinálj screenshotot, és mondd meg, jól néz-e ki.\" 5-6. modulnál kötelező." }
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "C. szint · haladó (16-18)",
+      "title": "5 trükk, ami komoly különbséget hoz · I.",
+      "bullets": [
+        { "t": "16. Chrome DevTools MCP", "s": "Console-log, performance audit, screenshot, DOM-inspect, form-kitöltés. Az 5. modulnál kötelező." },
+        { "t": "17. ultrathink — max gondolkodási büdzsé", "s": "~32 000 tokenes thinking. Architektúra-döntésnél, komplex debug-nál — nem hibajavításra." },
+        { "t": "18. Engedélyek finomhangolása", "s": "settings.json: explicit allow biztonságos parancsoknak, deny destruktívokra. Ne --dangerously-skip-permissions." }
+      ]
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "C. szint · haladó (19-20)",
+      "title": "5 trükk · II.",
+      "bullets": [
+        { "t": "19. Context7 MCP — friss könyvtár-docs", "s": "Lekéri a verzió-specifikus dokumentációt (Tailwind, React, Next.js, MongoDB). Egy parancs telepítés." },
+        { "t": "20. Mobil távirányítás", "s": "Helyi session-t a telefonról vezérled. A kód nem hagyja el a gépet — csak a kontroll." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Mit hagytam ki",
+      "title": "12 trükk, ami <em>nem</em> került ide.",
+      "lede": "Voice input (magyar nyelv-felismerés gyenge), Haiku sub-agentek, /hooks, git worktrees, Agent Teams, BigQuery, VPS always-on.",
+      "body": "<p>Ezek vagy túl niche-ek, vagy komoly előfeltételhez kötöttek. Ha tovább akarsz menni, a Claude Code dokumentáció és a <code>claudemarketplaces.com</code> a következő állomás. Itt a 20 maradt, amivel a legtöbb embernek a legtöbb időt lehet megspórolni.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Hogyan használd",
+      "title": "Ne ugorj rá <em>idő előtt</em>.",
+      "lede": "2-3 trükk hetente. Figyeld, melyik segít a saját ritmusodban — a többit hagyd ott, amíg nem érzed a fájdalmat, amit megold.",
+      "body": "<p>Ez nem egy tananyag, amit végig kell nyomni. Egy tár, amihez akkor nyúlsz, amikor érzed: „ezt valahogy gyorsabban kéne csinálni.\" Akkor nézd meg, mi van itt.</p>"
+    },
+    {
+      "type": "end",
+      "eyebrow": "Bónusz vége",
+      "title": "Eredmény: egy <em>tár</em>, amihez vissza-vissza nyúlsz.",
+      "sub": "20 trükk három szinten. Nem mindegyiket kell egyszerre bevezetned — pont az a lényeg, hogy itt van, amikor szükséged lesz rá.",
+      "links": [
+        { "label": "Modul · részletes szöveg", "url": "/modules/21-claude-code-haladok" },
+        { "label": "Külső linkek", "url": "/modules/21-claude-code-haladok#linkek" },
+        { "label": "Következő · 22. bónusz", "url": "/modules/22-expert-flow-stack" },
+        { "label": "Vissza a tartalomjegyzékhez", "url": "/#modulok" }
+      ]
+    }
+  ]
+}
