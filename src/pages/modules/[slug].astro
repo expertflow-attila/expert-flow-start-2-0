@@ -3,6 +3,7 @@ import Layout from "../../layouts/Layout.astro";
 import order from "../../data/order.json";
 import modulesData from "../../data/modules.json";
 import casesData from "../../data/case-studies.json";
+import moduleLinks from "../../data/module-links.json";
 
 interface OrderItem {
   slug: string;
@@ -61,11 +62,9 @@ const linkedCases: CaseStudy[] = moduleData?.caseStudyIds
 
 const downloadBase = `/downloads/${meta.slug}`;
 
-const githubLinks = [
-  { label: "attilanagy23/EV-AIOS", url: "https://github.com/attilanagy23/EV-AIOS" },
-  { label: "anthropics/claude-code", url: "https://github.com/anthropics/claude-code" },
-  { label: "expert-flow-start-2-0", url: "https://github.com/expertflow-attila/expert-flow-start-2-0" },
-];
+const linksData = (moduleLinks as Record<string, { title: string; links: { label: string; url: string }[] }>)[meta.slug];
+const linksTitle = linksData?.title ?? "Hasznos linkek";
+const links = linksData?.links ?? [];
 ---
 
 <Layout
@@ -152,15 +151,22 @@ const githubLinks = [
       <article class="toolkit-card">
         <span class="icon" aria-hidden="true">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+            <path d="M10 14L21 3"/>
+            <path d="M21 3v7"/>
+            <path d="M21 3h-7"/>
+            <path d="M19 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h6"/>
           </svg>
         </span>
-        <h3>Hasznos GitHub repo-k</h3>
-        <ul class="gh-list">
-          {githubLinks.map((g) => (
-            <li><a href={g.url} target="_blank" rel="noopener"><span>{g.label}</span><span class="gh-arrow">↗</span></a></li>
-          ))}
-        </ul>
+        <h3>{linksTitle}</h3>
+        {links.length > 0 ? (
+          <ul class="gh-list">
+            {links.map((g) => (
+              <li><a href={g.url} target="_blank" rel="noopener"><span>{g.label}</span><span class="gh-arrow">↗</span></a></li>
+            ))}
+          </ul>
+        ) : (
+          <p class="tk-desc">A modulhoz külön linkek nincsenek megadva.</p>
+        )}
       </article>
 
     </div>
