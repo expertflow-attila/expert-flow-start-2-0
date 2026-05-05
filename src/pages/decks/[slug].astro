@@ -1,0 +1,208 @@
+---
+import DeckLayout from "../../layouts/DeckLayout.astro";
+import order from "../../data/order.json";
+
+interface Slide {
+  type: "cover" | "lede" | "bullets" | "code" | "quote" | "end";
+  eyebrow?: string;
+  title?: string;
+  sub?: string;
+  lede?: string;
+  body?: string;
+  bullets?: { t: string; s?: string }[];
+  code?: string;
+  quote?: string;
+  cite?: string;
+  meta?: { k: string; v: string }[];
+  links?: { label: string; url: string }[];
+}
+
+interface DeckData {
+  slug: string;
+  title: string;
+  subtitle?: string;
+  moduleNum?: string;
+  phase?: string;
+  duration?: string;
+  slideCount?: number;
+  slides: Slide[];
+}
+
+interface OrderItem {
+  slug: string;
+  title: string;
+}
+
+export async function getStaticPaths() {
+  const all = import.meta.glob<DeckData>("../../data/decks/*.json", { eager: true, import: "default" });
+  const items = order as OrderItem[];
+
+  return Object.entries(all).map(([path, data]) => {
+    const slug = path.match(/\/([^/]+)\.json$/)![1];
+    const idx = items.findIndex((m) => m.slug === slug);
+    const prev = idx > 0 ? items[idx - 1] : null;
+    const next = idx >= 0 && idx < items.length - 1 ? items[idx + 1] : null;
+    return {
+      params: { slug },
+      props: { deck: data, prevSlug: prev?.slug, nextSlug: next?.slug },
+    };
+  });
+}
+
+const { deck, prevSlug, nextSlug } = Astro.props as {
+  deck: DeckData;
+  prevSlug?: string | null;
+  nextSlug?: string | null;
+};
+---
+
+<DeckLayout
+  title={`${deck.title} · Diasor · Business Start`}
+  description={deck.subtitle ?? deck.title}
+>
+
+  <div class="deck-progress" id="deck-progress" style="width: 0%"></div>
+
+  <div class="deck-shell">
+
+    <header class="deck-topbar">
+      <div class="deck-topbar__brand">
+        <span class="dot" aria-hidden="true"></span>
+        <a href="/decks">Business Start · Diasorok</a>
+      </div>
+      <div class="deck-topbar__counter" id="deck-counter">
+        01 / {deck.slides.length.toString().padStart(2, "0")}
+      </div>
+      <a href={`/modules/${deck.slug}`} class="deck-topbar__back">
+        <span class="arr">←</span> Modul-oldal
+      </a>
+    </header>
+
+    <main class="deck-stage" id="deck-stage">
+      {deck.slides.map((s, i) => (
+        <section class={`slide slide--${s.type}${i === 0 ? " active" : ""}`} data-idx={i}>
+
+          {s.eyebrow && <span class="slide__eyebrow">{s.eyebrow}</span>}
+
+          {s.title && (
+            <h1 class="slide__title" set:html={s.title} />
+          )}
+
+          {s.lede && <p class="slide__lede">{s.lede}</p>}
+
+          {s.body && <div class="slide__body" set:html={s.body} />}
+
+          {s.bullets && (
+            <ul class="slide__bullets">
+              {s.bullets.map((b) => (
+                <li>{b.t}{b.s && <small>{b.s}</small>}</li>
+              ))}
+            </ul>
+          )}
+
+          {s.code && <pre class="slide__code">{s.code}</pre>}
+
+          {s.quote && (
+            <>
+              <blockquote class="slide__quote">{s.quote}</blockquote>
+              {s.cite && <span class="slide__quote-cite">{s.cite}</span>}
+            </>
+          )}
+
+          {s.sub && s.type === "cover" && <p class="slide__sub">{s.sub}</p>}
+          {s.sub && s.type === "end" && <p class="slide__sub">{s.sub}</p>}
+
+          {s.meta && (
+            <div class="slide__meta-row">
+              {s.meta.map((m) => (
+                <span class="slide__pill"><b>{m.v}</b><span>· {m.k}</span></span>
+              ))}
+            </div>
+          )}
+
+          {s.links && (
+            <div class="end-stack">
+              {s.links.map((l) => (
+                <a href={l.url}>
+                  <span>{l.label.includes("Következő") ? "→" : l.label.includes("Vissza") ? "←" : "•"}</span>
+                  <span>{l.label}</span>
+                </a>
+              ))}
+            </div>
+          )}
+
+        </section>
+      ))}
+    </main>
+
+    <footer class="deck-controls">
+      <span class="deck-controls__hint">
+        <kbd>Space</kbd> vagy <kbd>→</kbd> tovább · <kbd>←</kbd> vissza · <kbd>Esc</kbd> kilépés
+      </span>
+      <span class="deck-controls__nav">
+        <button type="button" class="deck-controls__btn" id="prev-btn" aria-label="Előző">‹</button>
+        <button type="button" class="deck-controls__btn" id="next-btn" aria-label="Következő">›</button>
+      </span>
+    </footer>
+
+  </div>
+
+  <script is:inline define:vars={{ prevSlug, nextSlug, slug: deck.slug, total: deck.slides.length }}>
+    (function () {
+      const slides = Array.from(document.querySelectorAll(".slide"));
+      const counter = document.getElementById("deck-counter");
+      const progress = document.getElementById("deck-progress");
+      const prevBtn = document.getElementById("prev-btn");
+      const nextBtn = document.getElementById("next-btn");
+      let idx = 0;
+
+      const fmt = (n) => String(n).padStart(2, "0");
+
+      function render() {
+        slides.forEach((s, i) => s.classList.toggle("active", i === idx));
+        if (counter) counter.textContent = `${fmt(idx + 1)} / ${fmt(total)}`;
+        if (progress) progress.style.width = `${((idx + 1) / total) * 100}%`;
+        if (prevBtn) prevBtn.disabled = idx === 0 && !prevSlug;
+        if (nextBtn) nextBtn.disabled = idx === slides.length - 1 && !nextSlug;
+        const url = new URL(window.location.href);
+        url.hash = `#${idx + 1}`;
+        history.replaceState(null, "", url.toString());
+      }
+
+      function next() {
+        if (idx < slides.length - 1) { idx++; render(); }
+        else if (nextSlug) { window.location.href = `/decks/${nextSlug}`; }
+      }
+      function prev() {
+        if (idx > 0) { idx--; render(); }
+        else if (prevSlug) { window.location.href = `/decks/${prevSlug}#last`; }
+      }
+
+      // Init from hash
+      const hashIdx = parseInt(window.location.hash.replace("#", ""), 10);
+      if (hashIdx >= 1 && hashIdx <= slides.length) idx = hashIdx - 1;
+      else if (window.location.hash === "#last") idx = slides.length - 1;
+      render();
+
+      document.addEventListener("keydown", (e) => {
+        if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+        if (e.key === " " || e.key === "ArrowRight" || e.key === "PageDown") { e.preventDefault(); next(); }
+        else if (e.key === "ArrowLeft" || e.key === "PageUp") { e.preventDefault(); prev(); }
+        else if (e.key === "Escape") { window.location.href = "/decks"; }
+        else if (e.key === "Home") { idx = 0; render(); }
+        else if (e.key === "End") { idx = slides.length - 1; render(); }
+      });
+
+      prevBtn?.addEventListener("click", prev);
+      nextBtn?.addEventListener("click", next);
+
+      // Click on stage advances (avoid links)
+      document.getElementById("deck-stage")?.addEventListener("click", (e) => {
+        const target = e.target;
+        if (target instanceof HTMLAnchorElement || target.closest("a, button")) return;
+        next();
+      });
+    })();
+  </script>
+
+</DeckLayout>

@@ -1,0 +1,178 @@
+---
+import DeckLayout from "../../layouts/DeckLayout.astro";
+import order from "../../data/order.json";
+
+interface DeckMeta {
+  slug: string;
+  title: string;
+  subtitle?: string;
+  duration?: string;
+  slideCount?: number;
+  slides: { type: string }[];
+}
+
+const allDecks = import.meta.glob<DeckMeta>("../../data/decks/*.json", { eager: true, import: "default" });
+const decksBySlug = new Map<string, DeckMeta>();
+for (const [path, data] of Object.entries(allDecks)) {
+  const slug = path.match(/\/([^/]+)\.json$/)![1];
+  decksBySlug.set(slug, data);
+}
+
+interface OrderItem {
+  slug: string;
+  title: string;
+  phaseLabel: string;
+  kind: "intro" | "epito" | "ref" | "bonus";
+}
+
+const items = (order as OrderItem[]).map((m) => ({
+  ...m,
+  deck: decksBySlug.get(m.slug),
+}));
+
+const buildingModules = items.filter((m) => m.kind === "epito");
+const refModules = items.filter((m) => m.kind === "ref");
+const bonusModules = items.filter((m) => m.kind === "bonus");
+const introOutro = items.filter((m) => m.kind === "intro");
+---
+
+<DeckLayout
+  title="Diasorok · Business Start"
+  description="A Business Start kurzus 21 modul-diasora — Cloud Code Deck stílusban, felvétel-segédnek vagy önálló nézegetéshez."
+>
+
+  <header class="deck-topbar">
+    <div class="deck-topbar__brand">
+      <span class="dot" aria-hidden="true"></span>
+      <a href="/">Business Start · Diasorok</a>
+    </div>
+    <a href="/" class="deck-topbar__back">
+      <span class="arr">←</span> Tartalomjegyzék
+    </a>
+  </header>
+
+  <main class="decks-index">
+    <h1 class="hero-line">21 modul · 21 <em>diasor</em>.</h1>
+    <p class="hero-sub">
+      Minden modulhoz tartozik egy slide-deck — ugyanolyan dokumentáló-hangon,
+      mint maga a modul. Felvétel-segédnek (Space-szel kattogasz előre),
+      vagy önálló átfutásnak. Sötét, lavender accent, magyar nyelven.
+    </p>
+
+    <section class="group">
+      <div class="group-head">
+        <h2>Bevezető és lezárás</h2>
+        <span class="meta">{introOutro.filter((m) => m.deck).length} / {introOutro.length} kész</span>
+      </div>
+      <div class="decks-list">
+        {introOutro.map((m) => (
+          m.deck ? (
+            <a class="deck-link" href={`/decks/${m.slug}`}>
+              <span class="num">{m.slug === "00-intro" ? "Intro" : m.slug === "outro" ? "Outro" : m.slug}</span>
+              <span class="title">{m.title}</span>
+              <span class="meta">{m.deck.duration ?? "–"} · {m.deck.slides.length} slide</span>
+            </a>
+          ) : (
+            <div class="deck-link" style="opacity: 0.45;">
+              <span class="num">{m.slug === "00-intro" ? "Intro" : "Outro"}</span>
+              <span class="title">{m.title}</span>
+              <span class="meta">Hamarosan</span>
+            </div>
+          )
+        ))}
+      </div>
+    </section>
+
+    <section class="group">
+      <div class="group-head">
+        <h2>12 építő modul</h2>
+        <span class="meta">{buildingModules.filter((m) => m.deck).length} / {buildingModules.length} kész</span>
+      </div>
+      <div class="decks-list">
+        {buildingModules.map((m) => (
+          m.deck ? (
+            <a class="deck-link" href={`/decks/${m.slug}`}>
+              <span class="num">Modul · {m.slug.split("-")[0]}</span>
+              <span class="title">{m.title}</span>
+              <span class="meta">{m.deck.duration ?? "–"} · {m.deck.slides.length} slide</span>
+            </a>
+          ) : (
+            <div class="deck-link" style="opacity: 0.45;">
+              <span class="num">Modul · {m.slug.split("-")[0]}</span>
+              <span class="title">{m.title}</span>
+              <span class="meta">Hamarosan</span>
+            </div>
+          )
+        ))}
+      </div>
+    </section>
+
+    <section class="group">
+      <div class="group-head">
+        <h2>Referencia-tárak</h2>
+        <span class="meta">{refModules.filter((m) => m.deck).length} / {refModules.length} kész</span>
+      </div>
+      <div class="decks-list">
+        {refModules.map((m) => (
+          m.deck ? (
+            <a class="deck-link" href={`/decks/${m.slug}`}>
+              <span class="num">Tár · {m.slug.split("-")[0]}</span>
+              <span class="title">{m.title}</span>
+              <span class="meta">{m.deck.duration ?? "–"} · {m.deck.slides.length} slide</span>
+            </a>
+          ) : (
+            <div class="deck-link" style="opacity: 0.45;">
+              <span class="num">Tár · {m.slug.split("-")[0]}</span>
+              <span class="title">{m.title}</span>
+              <span class="meta">Hamarosan</span>
+            </div>
+          )
+        ))}
+      </div>
+    </section>
+
+    <section class="group">
+      <div class="group-head">
+        <h2>Bónusz tárak</h2>
+        <span class="meta">{bonusModules.filter((m) => m.deck).length} / {bonusModules.length} kész</span>
+      </div>
+      <div class="decks-list">
+        {bonusModules.map((m) => (
+          m.deck ? (
+            <a class="deck-link" href={`/decks/${m.slug}`}>
+              <span class="num">Bónusz · {m.slug.split("-")[0]}</span>
+              <span class="title">{m.title}</span>
+              <span class="meta">{m.deck.duration ?? "–"} · {m.deck.slides.length} slide</span>
+            </a>
+          ) : (
+            <div class="deck-link" style="opacity: 0.45;">
+              <span class="num">Bónusz · {m.slug.split("-")[0]}</span>
+              <span class="title">{m.title}</span>
+              <span class="meta">Hamarosan</span>
+            </div>
+          )
+        ))}
+      </div>
+    </section>
+
+    <section class="group" style="margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--border);">
+      <p style="font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.1em; color: var(--text-dim); text-transform: uppercase;">
+        Felvétel-segéd · billentyűk
+      </p>
+      <p style="color: var(--text-muted); margin: 12px 0 0; font-size: 14px;">
+        <kbd style="background: var(--card); border: 1px solid var(--border); padding: 3px 8px; border-radius: 6px; font-family: var(--font-mono); font-size: 12px;">Space</kbd>
+        vagy
+        <kbd style="background: var(--card); border: 1px solid var(--border); padding: 3px 8px; border-radius: 6px; font-family: var(--font-mono); font-size: 12px;">→</kbd>
+        — tovább ·
+        <kbd style="background: var(--card); border: 1px solid var(--border); padding: 3px 8px; border-radius: 6px; font-family: var(--font-mono); font-size: 12px;">←</kbd>
+        — vissza ·
+        <kbd style="background: var(--card); border: 1px solid var(--border); padding: 3px 8px; border-radius: 6px; font-family: var(--font-mono); font-size: 12px;">Esc</kbd>
+        — kilépés a tartalomjegyzékhez ·
+        <kbd style="background: var(--card); border: 1px solid var(--border); padding: 3px 8px; border-radius: 6px; font-family: var(--font-mono); font-size: 12px;">Home / End</kbd>
+        — első / utolsó slide
+      </p>
+    </section>
+
+  </main>
+
+</DeckLayout>

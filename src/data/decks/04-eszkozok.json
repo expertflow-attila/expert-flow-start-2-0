@@ -1,0 +1,127 @@
+{
+  "slug": "04-eszkozok",
+  "title": "Eszközök és Claude Code alapok",
+  "subtitle": "VS Code · Claude Code · Sybell · Google Workspace",
+  "moduleNum": "Modul · 04",
+  "phase": "II. fázis · 4. hét",
+  "duration": "16-22 perc",
+  "slideCount": 14,
+  "slides": [
+    {
+      "type": "cover",
+      "eyebrow": "Modul · 04 · II. fázis · 4. hét",
+      "title": "Eszközök és Claude Code <em>alapok</em>",
+      "sub": "Egy modulban a teljes setup, ami a következő nyolc hét gerincét adja: VS Code, Claude Code, Sybell domain, Google Workspace.",
+      "meta": [
+        { "k": "Hossz", "v": "16-22 perc" },
+        { "k": "Lecke", "v": "4 db" },
+        { "k": "Heti feladat", "v": "Telepítés + setup" }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Mit nyersz a modul végére",
+      "title": "Egy működő gép — <em>nem</em> tananyag.",
+      "lede": "A hét végére dolgozik az IDE-d, magabiztosan adsz parancsot a Claude Code-nak, megvan a saját domained, és van egy hivatalos email-címed.",
+      "body": "<p>Ez a kurzus legtechnikaibb hete. Egy kicsit hosszabb, mint a többi — itt jönnek a kulcs-eszközök, amikkel a következő nyolc hétben dolgozni fogsz.</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "A 4 lecke",
+      "title": "Mit rakunk a helyére ezen a héten",
+      "bullets": [
+        { "t": "VS Code és Claude Code telepítés", "s": "A szerkesztő, amibe az AI integrálódik. Egyetlen npm-parancs." },
+        { "t": "Claude Code alapok", "s": "Parancsok, plan mode, sub-agentek, skills, MCP — mindegyik magyar magyarázattal." },
+        { "t": "Sybell domain és hivatalos email", "s": "A saját tedneved.hu — 5-10 perc, pár ezer forint évente." },
+        { "t": "Google Workspace setup", "s": "Hivatalos email a domainhez, Drive, Naptár — havi 2000 Ft." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "01. lecke",
+      "title": "VS Code és Claude Code <em>telepítés</em>",
+      "lede": "Az AI nem külön szoftverben él — a fejlesztőkörnyezetedben.",
+      "body": "<p>A Visual Studio Code egy ingyenes szövegszerkesztő. A Claude Code egy AI-asszisztens, ami a fájljaidat látja, és a parancssorba beszél vissza. Ez nem chat-ablak — ez egy fejlesztőeszköz.</p><p><strong>Telepítés:</strong> VS Code letöltés (<code>code.visualstudio.com</code>) → Node.js → <code>npm install -g @anthropic-ai/claude-code</code> → bejelentkezés.</p>"
+    },
+    {
+      "type": "code",
+      "eyebrow": "01. lecke · parancs",
+      "title": "Egyetlen sor a telepítéshez",
+      "lede": "Miután a Node.js fent van, ez a parancs telepíti a Claude Code-ot.",
+      "code": "npm install -g @anthropic-ai/claude-code\n\n# elindítás a saját mappádban\ncd ~/Desktop/sajat-projekt\nclaude"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "02. lecke",
+      "title": "Claude Code <em>alapparancsok</em>",
+      "lede": "Nem chat-ablak — egy program, aminek vannak parancsai.",
+      "body": "<p>Az alapparancsok mindössze 6 db, és 30 perc alatt begyakorolhatók. Ezek után már nem leszel elveszve a session közben.</p>"
+    },
+    {
+      "type": "bullets",
+      "eyebrow": "02. lecke · parancsok",
+      "title": "A 6 alapparancs",
+      "bullets": [
+        { "t": "claude", "s": "Új session indítása a saját mappádban — ez a default belépés." },
+        { "t": "/clear", "s": "Kontextus tisztítása ha lassul vagy elszáll." },
+        { "t": "/compact", "s": "Összesűríti a kontextust ha tele van — folytathatod tovább." },
+        { "t": "/rewind", "s": "Visszalép, ha rossz irányba mentetek. Nem destruktív." },
+        { "t": "/help", "s": "A teljes parancslista bárhonnan elérhető." },
+        { "t": "Plan mode (Shift+Tab+Tab)", "s": "Előbb tervez, aztán cselekszik. Komplex feladatnál kötelező." }
+      ]
+    },
+    {
+      "type": "lede",
+      "eyebrow": "02. lecke · gondolkodásmód",
+      "title": "Bánj vele <em>gyakornokként</em>, ne okos kollégaként.",
+      "lede": "Pontos utasítás, ellenőrzés, visszacsatolás. Az AI valódi ereje 95%-os bizonyosságú kérésnél jön ki.",
+      "body": "<p>Ha nem érted pontosan, mit akarsz, az AI kitalál valamit, ami nem jó. <strong>Mielőtt parancsot adsz, beszélgess vele 2-3 üzenetben a mit-és-miértről.</strong></p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "02. lecke · haladó",
+      "title": "Sub-agentek, skills, <em>MCP</em>",
+      "lede": "Három fogalom, ami megduplázza a Claude Code-od erejét — de NE most ugorj rá.",
+      "body": "<p><strong>Sub-agent</strong> = egy „másik Claude\", aki saját kontextust kap. A fő ablakod nem telik meg.</p><p><strong>Skill</strong> = képességbővítés (pl. obra/superpowers GitHub-ról). A Claude Code projektmappádba telepíted.</p><p><strong>MCP</strong> = Model Context Protocol. Külső eszközöket csatlakoztat: Drive, Slack, Webflow, Excalidraw.</p><p>Mindezt a 21. modul mélyebben, 20 trükkel mutatja meg. Most az alapokra fókuszálj.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "03. lecke",
+      "title": "Sybell domain és <em>hivatalos email</em>",
+      "lede": "A saját domained az online identitásod alapja.",
+      "body": "<p>A Sybell magyar domain-szolgáltató, megbízható, és a DNS-rekordokat egyszerűen lehet rajta állítani. A regisztráció 5-10 perc, pár ezer forint évente.</p><p>A <strong>te@tedneved.hu</strong> sokkal komolyabb pozíciót ad, mint egy gmailes cím. Ezt a Workspace-szel kötjük majd hozzá.</p>"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "04. lecke",
+      "title": "Google Workspace <em>setup</em>",
+      "lede": "Hivatalos email + Drive + Naptár + Sheets — havi 2000 Ft.",
+      "body": "<p>A setup részei: fiók-létrehozás → domain-igazolás (DNS-rekorddal) → MX-rekordok beállítása a Sybell oldalán → felhasználó létrehozása.</p><p>A <strong>SPF, DKIM és DMARC</strong> rekordok nélkül a kimenő emailjeid spam-be kerülhetnek — ezek beállítása kötelező lépés. A részletes lépések a <code>reference.md</code>-ben.</p>"
+    },
+    {
+      "type": "quote",
+      "eyebrow": "Az alaptétel",
+      "quote": "Boring is beautiful. Workflows beat agents.",
+      "cite": "EV-AIOS · 3Ms keretrendszer"
+    },
+    {
+      "type": "lede",
+      "eyebrow": "Heti feladat",
+      "title": "Mit csinálsz <em>ezen a héten</em>",
+      "lede": "Telepítsd a VS Code-ot és a Claude Code-ot. Gyakorold be a 6 alapparancsot egy üres mappában. Regisztráld a domaint a Sybell-en. Állítsd be a Google Workspace-fiókodat.",
+      "body": "<p>Ne menj tovább a 02-es lecke haladó részére (sub-agent, MCP), ha az alapparancsok nem ülnek. Inkább lassabban — a 4 lecke után tényleg dolgozzon az IDE-d.</p>"
+    },
+    {
+      "type": "end",
+      "eyebrow": "Modul vége",
+      "title": "Eredmény: <em>dolgozik</em> az IDE-d.",
+      "sub": "Megvan a domained, hivatalos email, és a Claude Code-nak magabiztosan adsz parancsot. Innen építhető rá a weboldal és minden további szolgáltatás.",
+      "links": [
+        { "label": "Modul · részletes szöveg", "url": "/modules/04-eszkozok" },
+        { "label": "Letölthető anyagok", "url": "/downloads/04-eszkozok/SKILL.md" },
+        { "label": "Következő modul · 05", "url": "/modules/05-weboldal" },
+        { "label": "Vissza a tartalomjegyzékhez", "url": "/#modulok" }
+      ]
+    }
+  ]
+}
