@@ -1,0 +1,90 @@
+[
+  {
+    "id": "intro",
+    "slug": "intro",
+    "title": "Üdvözöllek a kurzusban",
+    "summary": "12 hét, ahogy én építem fel a saját vállalkozásomat. Magyar szolgáltató szakértőknek, akik mellékállásban vagy újrakezdőként indulnak — nem tanítok, megosztom, mit csinálok.",
+    "tag": "Bevezető",
+    "tagKind": "intro",
+    "phaseLabel": "Bevezető"
+  },
+  {
+    "id": "17",
+    "slug": "landing-mintak",
+    "num": "17.",
+    "title": "Landing page minták — referencia-tár",
+    "summary": "Ettől a modultól már nem építünk sorrendben — referencia-tár jön. 5 különböző landing page mintát mutatok meg, mindegyikhez teljes Tailwind HTML kód, telepítési útmutató, technikai dokumentáció.",
+    "tag": "Építő modul",
+    "tagKind": "epito",
+    "phaseLabel": "Referencia-tár"
+  },
+  {
+    "id": "18",
+    "slug": "funnel-tipusok",
+    "num": "18.",
+    "title": "Funnel típusok — referencia-tár",
+    "summary": "A 4. modul az egyes oldalakkal foglalkozott. Az 5. modul az oldalak ÖSSZEKAPCSOLÁSÁVAL — a teljes utazással, amit egy érdeklődő bejár a webhelyedtől a fizetős ügyfélig.",
+    "tag": "Építő modul",
+    "tagKind": "epito",
+    "phaseLabel": "Referencia-tár"
+  },
+  {
+    "id": "19",
+    "slug": "ai-eszkozok",
+    "num": "19.",
+    "title": "AI eszközök / Skill-ek — referencia-tár",
+    "summary": "A 6. modul 6 darab Claude Code skill-t tartalmaz, amelyeket a saját projekt-mappádba telepíthetsz. Mindegyik skill egy konkrét vállalkozási feladatot automatizál.",
+    "tag": "Építő modul",
+    "tagKind": "epito",
+    "phaseLabel": "Referencia-tár"
+  },
+  {
+    "id": "20",
+    "slug": "elso-digitalis-termek",
+    "num": "20.",
+    "title": "Az első fizetős terméked — videókurzus AI-vágással",
+    "summary": "Ahogy ez a kurzus is készült. Az első digitális termék, amit egyedül és AI-vezérelt segédlettel összerakhatsz — három héten át, lépésről lépésre dokumentálva.",
+    "tag": "Bónusz",
+    "tagKind": "bonus",
+    "phaseLabel": "Bónusz építő-modul"
+  },
+  {
+    "id": "21",
+    "slug": "claude-code-haladok",
+    "num": "21.",
+    "title": "Claude Code productivity-trükkök magyarul",
+    "summary": "Húsz konkrét trükk három szinten — kezdő, köztes, haladó. A 4. modulban már megtanultad az alapokat; ez a referencia ott segít, amikor mélyebbre mennél (sub-agentek, plan mode, ultrathink, Chrome DevTools MCP, Context7).",
+    "tag": "Bónusz",
+    "tagKind": "bonus",
+    "phaseLabel": "Bónusz tár"
+  },
+  {
+    "id": "22",
+    "slug": "expert-flow-stack",
+    "num": "22.",
+    "title": "Az Expert Flow technológiai stack",
+    "summary": "Egy referencia-tár arról, milyen szolgáltatásokat használok ma az Expert Flow rendszerben. 52 szolgáltatás 11 kategóriában. Nem azt mondja, hogy ezeket Neked is használnod kell — csak megmutatja.",
+    "tag": "Bónusz",
+    "tagKind": "bonus",
+    "phaseLabel": "Bónusz tár"
+  },
+  {
+    "id": "23",
+    "slug": "esettanulmanyok",
+    "num": "23.",
+    "title": "Esettanulmányok — 38 nemzetközi szakértő landing-elemzései",
+    "summary": "Magyar nyelvű részletes elemzések 38 nemzetközi kurzus-vállalkozó landing-, email- és sales-anyagairól. Az elmúlt évek alatt összegyűjtött tár, ahonnan minden új landing-építéshez lehet inspirálódni.",
+    "tag": "Bónusz",
+    "tagKind": "bonus",
+    "phaseLabel": "Bónusz tár"
+  },
+  {
+    "id": "outro",
+    "slug": "outro",
+    "title": "A következő lépés",
+    "summary": "Ha végigmentél a 12 héten, valódi rendszered van: weboldal, lead magnet, konzultációs funnel, CRM, mérés, jogi minimum. Innen már nem alapot építesz — innentől csinálod.",
+    "tag": "Bevezető",
+    "tagKind": "intro",
+    "phaseLabel": "Lezárás"
+  }
+]

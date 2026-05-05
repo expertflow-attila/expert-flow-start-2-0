@@ -49,19 +49,9 @@ const ogImage = new URL("/og-image.svg", site).toString();
     <a href="#main" class="skip-link">Ugrás a tartalomra</a>
 
     <div class="brand-bar">
-      <a href="/">
-        <span class="dot" aria-hidden="true"></span>
-        Expert Flow Start · 2.0
-      </a>
+      <span class="dot" aria-hidden="true"></span>
+      Expert Flow Start
     </div>
-
-    <nav class="top-nav" aria-label="Fő navigáció">
-      <a href="#hogyan">Hogyan</a>
-      <a href="#modulok">12 modul</a>
-      <a href="#bonusz">Bónuszok</a>
-      <a href="#gyik">GYIK</a>
-      <a href="mailto:hello@expertflow.hu" class="cta">Kapcsolat</a>
-    </nav>
 
     <main id="main" tabindex="-1">
       <slot />
@@ -69,11 +59,8 @@ const ogImage = new URL("/og-image.svg", site).toString();
 
     <footer>
       <p><span class="signature">Expert Flow</span> · 2026 · hello@expertflow.hu</p>
-      <p class="links">
-        <a href="https://github.com/expertflow-attila/expert-flow-start-2-0" rel="noopener">GitHub repo (landing)</a>
-        <a href="https://github.com/attilanagy23/EV-AIOS" rel="noopener">EV-AIOS (élő OS)</a>
-        <a href="https://ai-ready-kurzus.netlify.app/" rel="noopener">AI Ready Kurzus</a>
-        <a href="https://expertflow.hu" rel="noopener">expertflow.hu</a>
+      <p style="margin-top:18px;font-size:12px;color:var(--text-dim);max-width:60ch;margin-left:auto;margin-right:auto;line-height:1.6;">
+        Ha tetszett a kurzus, írj egy emailt a <a href="mailto:hello@expertflow.hu" style="color:var(--accent);border-bottom:1px solid rgba(185,167,224,0.3)">hello@expertflow.hu</a>-ra a 10-kérdéses visszajelzéssel — cserébe Bónusz-csomagot küldök.
       </p>
     </footer>
 

@@ -1,0 +1,39 @@
+---
+interface Props {
+  id: string;
+  num?: string;
+  title: string;
+  summary: string;
+  tag: string;
+  tagKind: "intro" | "epito" | "bonus";
+  phaseLabel: string;
+}
+const { id, num, title, summary, tag, tagKind, phaseLabel } = Astro.props;
+
+const tagClass = tagKind === "bonus" ? "cat-tag bonus" : "cat-tag";
+---
+
+<details class="card" id={`modul-${id}`}>
+  <summary>
+    <span class={tagClass}>{tag}</span>
+    <h3>
+      {num && <span class="module-num">{num}</span>}{title}
+    </h3>
+    <p>{summary}</p>
+    <div class="meta">
+      <span>{phaseLabel}</span>
+      <span class="reveal"><span class="text">Olvasás</span><span class="arr">→</span></span>
+    </div>
+  </summary>
+  <div class="card__body">
+    <p style="font-size:14px;color:var(--text-muted);line-height:1.6;margin:0;">
+      {tagKind === "bonus"
+        ? "Bónusz tár — a 12 hét után érdemes megnyitni, amikor továbblépnél."
+        : tagKind === "intro" && id === "intro"
+        ? "A kurzus első modulja. Itt mondom el a hangot, az ütemet, és hogy mire számíts a 12 hét során."
+        : tagKind === "intro" && id === "outro"
+        ? "Záró modul. Mit jelent „kész lenni\" a 12. hét végén — és mi az első dolog, amit a 13. héten csinálj."
+        : "Referencia-tár — bármikor használd, amikor ehhez a témához visszanyúlsz."}
+    </p>
+  </div>
+</details>
