@@ -3,15 +3,15 @@
 
 # 6. modul — AI eszközök / Skill-ek
 
-## Module summary
+## Modul áttekintés
 
 A 6. modul 6 darab Claude Code skill-t tartalmaz, amelyeket a saját projekt-mappádba telepíthetsz. Mindegyik skill egy konkrét vállalkozási feladatot automatizál — email-írást, landing page generálást, lead magnet PDF-készítést, CRM dashboard generálást, content-pipeline-t, és avatár-építést. Mindegyik skill-hez letölthető `SKILL.md` és `reference.md` fájlok, telepítési útmutatóval. Ez a referencia-tár utolsó eleme — bármikor visszanyúlhatsz hozzá, amikor egy konkrét feladatra hatékonyabb eszköz kell.
 
-## Video
+## Videó
 
 [VIDEO PLACEHOLDER]
 
-## Chapters
+## Fejezetek
 
 - 0:00 — Bevezető: skill-ek mint újra-felhasználható kódrészletek
 - 1:00 — 6.1 Email-író skill
@@ -22,7 +22,7 @@ A 6. modul 6 darab Claude Code skill-t tartalmaz, amelyeket a saját projekt-map
 - 6:00 — 6.6 Avatár-építő skill
 - 7:00 — Hogyan használd kombinálva őket
 
-## Almodulok (Skool sub-lessons)
+## Almodulok
 
 1. **Email-író skill** — értékesítési + ügyfél-kommunikációs sablonok
 2. **Landing page generátor** — Tailwind boilerplate + Hormozi-copy
@@ -31,7 +31,7 @@ A 6. modul 6 darab Claude Code skill-t tartalmaz, amelyeket a saját projekt-map
 5. **Content pipeline** — videó → YouTube + Instagram + LinkedIn-poszt
 6. **Avatár-építő** — az 1.2 modul automatizálása újabb avatárokhoz
 
-## Key highlights
+## Fő pontok
 
 - Egy skill = egy `.claude/skills/skill-name/` mappa, benne `SKILL.md` és `reference.md`. Ennyi.
 - A skill-eket a `/skill-name` paranccsal aktiválod a Claude Code-ban.
@@ -39,7 +39,7 @@ A 6. modul 6 darab Claude Code skill-t tartalmaz, amelyeket a saját projekt-map
 - A skill-ek kombinálhatók: pl. `/landing-generator` után `/email-iro` ugyanahhoz a kampányhoz.
 - Te magad is csinálhatsz új skill-eket — ha egy feladatot 3+szor csináltál ugyanúgy, érdemes skill-be foglalni.
 
-## Resources
+## Források
 
 - 📁 6-1-email-iro/
 - 📁 6-2-landing-generator/

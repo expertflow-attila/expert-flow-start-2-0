@@ -1,0 +1,72 @@
+{
+  "00-intro": [],
+  "01-tudasod-magja": [
+    { "label": "Promptok (3 db)", "file": "prompts.md" },
+    { "label": "Claude Code skill", "file": "SKILL.md" }
+  ],
+  "02-vevod-ki": [
+    { "label": "Promptok (4 db)", "file": "prompts.md" },
+    { "label": "Claude Code skill", "file": "SKILL.md" }
+  ],
+  "03-ajanlat-csomagok": [
+    { "label": "Promptok (3 db)", "file": "prompts.md" },
+    { "label": "Claude Code skill", "file": "SKILL.md" }
+  ],
+  "04-eszkozok": [
+    { "label": "Promptok (4 db)", "file": "prompts.md" },
+    { "label": "Claude Code skill", "file": "SKILL.md" },
+    { "label": "Parancs-referencia", "file": "reference.md" }
+  ],
+  "05-weboldal": [
+    { "label": "Promptok (3 db)", "file": "prompts.md" },
+    { "label": "Claude Code skill", "file": "SKILL.md" },
+    { "label": "Parancs-referencia", "file": "reference.md" }
+  ],
+  "06-copy-landing": [
+    { "label": "Promptok (4 db)", "file": "prompts.md" },
+    { "label": "Claude Code skill", "file": "SKILL.md" },
+    { "label": "Parancs-referencia", "file": "reference.md" }
+  ],
+  "07-konzultacios-funnel": [
+    { "label": "Promptok (3 db)", "file": "prompts.md" },
+    { "label": "Claude Code skill", "file": "SKILL.md" },
+    { "label": "Parancs-referencia", "file": "reference.md" }
+  ],
+  "08-elso-ugyfelek": [
+    { "label": "Promptok (3 db)", "file": "prompts.md" },
+    { "label": "Claude Code skill", "file": "SKILL.md" },
+    { "label": "Parancs-referencia", "file": "reference.md" }
+  ],
+  "09-lead-magnet": [
+    { "label": "Promptok (3 db)", "file": "prompts.md" },
+    { "label": "Claude Code skill", "file": "SKILL.md" },
+    { "label": "Parancs-referencia", "file": "reference.md" }
+  ],
+  "10-crm-gmail-drive": [
+    { "label": "Promptok (3 db)", "file": "prompts.md" },
+    { "label": "Claude Code skill", "file": "SKILL.md" },
+    { "label": "Parancs-referencia", "file": "reference.md" }
+  ],
+  "11-analitika-ga4": [
+    { "label": "Promptok (3 db)", "file": "prompts.md" },
+    { "label": "Claude Code skill", "file": "SKILL.md" },
+    { "label": "Parancs-referencia", "file": "reference.md" }
+  ],
+  "12-jogi-szamlazas": [
+    { "label": "Promptok (3 db)", "file": "prompts.md" },
+    { "label": "Claude Code skill", "file": "SKILL.md" },
+    { "label": "Parancs-referencia", "file": "reference.md" }
+  ],
+  "17-landing-mintak": [],
+  "18-funnel-tipusok": [],
+  "19-ai-eszkozok": [],
+  "20-elso-digitalis-termek": [
+    { "label": "Promptok (3 db)", "file": "prompts.md" },
+    { "label": "Claude Code skill", "file": "SKILL.md" },
+    { "label": "Parancs-referencia", "file": "reference.md" }
+  ],
+  "21-claude-code-haladok": [],
+  "22-expert-flow-stack": [],
+  "23-esettanulmanyok": [],
+  "outro": []
+}

@@ -1,12 +1,15 @@
 {
   "00-intro": {
-    "title": "Hasznos linkek",
+    "title": "A teljes stack — gyors linkek",
     "links": [
       { "label": "VS Code · letöltés", "url": "https://code.visualstudio.com" },
       { "label": "Claude Code · Anthropic", "url": "https://www.anthropic.com/claude-code" },
-      { "label": "Sybell · domain regisztráció", "url": "https://sybell.hu" },
+      { "label": "Sybell · domain", "url": "https://sybell.hu" },
       { "label": "Google Workspace", "url": "https://workspace.google.com" },
-      { "label": "Vercel · ingyenes hoszting", "url": "https://vercel.com" }
+      { "label": "Vercel · ingyenes hoszting", "url": "https://vercel.com" },
+      { "label": "Cal.com · konzultáció", "url": "https://cal.com" },
+      { "label": "Kit · email lista", "url": "https://kit.com" },
+      { "label": "Google Analytics 4", "url": "https://analytics.google.com" }
     ]
   },
   "01-tudasod-magja": {
@@ -15,7 +18,8 @@
       { "label": "Paul Graham · Do Things That Don't Scale", "url": "http://paulgraham.com/ds.html" },
       { "label": "The Almanack of Naval Ravikant", "url": "https://www.navalmanack.com" },
       { "label": "Indie Hackers közösség", "url": "https://indiehackers.com" },
-      { "label": "r/Vallalkozas (magyar)", "url": "https://www.reddit.com/r/Vallalkozas" }
+      { "label": "r/Vallalkozas (magyar)", "url": "https://www.reddit.com/r/Vallalkozas" },
+      { "label": "KSH · magyar piaci adatok", "url": "https://www.ksh.hu" }
     ]
   },
   "02-vevod-ki": {
@@ -24,7 +28,9 @@
       { "label": "The Mom Test (Rob Fitzpatrick)", "url": "https://www.momtestbook.com" },
       { "label": "Jobs to Be Done framework", "url": "https://jtbd.info" },
       { "label": "Obviously Awesome — April Dunford", "url": "https://www.aprildunford.com/obviously-awesome" },
-      { "label": "Google Trends · Magyarország", "url": "https://trends.google.com/trends/?geo=HU" }
+      { "label": "Google Trends · Magyarország", "url": "https://trends.google.com/trends/?geo=HU" },
+      { "label": "KSH · piaci validáció", "url": "https://www.ksh.hu" },
+      { "label": "Indie Hackers · Customer Development", "url": "https://www.indiehackers.com/start" }
     ]
   },
   "03-ajanlat-csomagok": {
@@ -33,7 +39,9 @@
       { "label": "Copyhackers", "url": "https://copyhackers.com" },
       { "label": "Swipefile", "url": "https://swipefile.com" },
       { "label": "Sales Pitch — April Dunford", "url": "https://www.aprildunford.com/sales-pitch" },
-      { "label": "Stripe pricing reference", "url": "https://stripe.com/pricing" }
+      { "label": "Stripe pricing reference", "url": "https://stripe.com/pricing" },
+      { "label": "MiniCRM · magyar SaaS pricing", "url": "https://www.minicrm.hu/arak" },
+      { "label": "Linear pricing · modern struktúra", "url": "https://linear.app/pricing" }
     ]
   },
   "04-eszkozok": {
@@ -42,9 +50,11 @@
       { "label": "VS Code · letöltés", "url": "https://code.visualstudio.com" },
       { "label": "Node.js · LTS", "url": "https://nodejs.org" },
       { "label": "Claude Code · dokumentáció", "url": "https://docs.claude.com/en/docs/claude-code/overview" },
-      { "label": "Sybell admin · DNS", "url": "https://admin.sybell.hu" },
-      { "label": "Google Workspace · setup", "url": "https://workspace.google.com" },
-      { "label": "MX Toolbox · DNS check", "url": "https://mxtoolbox.com" }
+      { "label": "Sybell admin · DNS panel", "url": "https://admin.sybell.hu" },
+      { "label": "Google Workspace · setup útmutató", "url": "https://support.google.com/a/answer/9319378" },
+      { "label": "DNS Checker · propagáció", "url": "https://dnschecker.org" },
+      { "label": "Mail-Tester · email pontszám", "url": "https://www.mail-tester.com" },
+      { "label": "MX Toolbox · DNS / MX", "url": "https://mxtoolbox.com" }
     ]
   },
   "05-weboldal": {
@@ -53,6 +63,8 @@
       { "label": "Vercel · deploy", "url": "https://vercel.com" },
       { "label": "GitHub", "url": "https://github.com" },
       { "label": "Tailwind CSS dokumentáció", "url": "https://tailwindcss.com" },
+      { "label": "shadcn/ui · komponens-rendszer", "url": "https://ui.shadcn.com" },
+      { "label": "Heroicons · Tailwind ikonok", "url": "https://heroicons.com" },
       { "label": "Land-book · landing minták", "url": "https://land-book.com" },
       { "label": "OnePageLove · egyoldalas inspiráció", "url": "https://onepagelove.com" }
     ]
@@ -63,6 +75,7 @@
       { "label": "Copyhackers · long-form copy", "url": "https://copyhackers.com" },
       { "label": "Marketing Examples", "url": "https://marketingexamples.com" },
       { "label": "Really Good Emails", "url": "https://reallygoodemails.com" },
+      { "label": "Good Sales Emails", "url": "https://goodsalesemails.com" },
       { "label": "Swipefile", "url": "https://swipefile.com" }
     ]
   },
@@ -70,14 +83,15 @@
     "title": "Hasznos linkek",
     "links": [
       { "label": "Cal.com", "url": "https://cal.com" },
+      { "label": "Cal.com · Event Types docs", "url": "https://cal.com/docs/core-features/event-types" },
       { "label": "Cal.com Workflows · docs", "url": "https://cal.com/docs/core-features/workflows" },
-      { "label": "Cal.com Routing Forms", "url": "https://cal.com/docs/core-features/routing-forms" },
-      { "label": "Zoom", "url": "https://zoom.us" }
+      { "label": "Cal.com Routing Forms", "url": "https://cal.com/docs/core-features/routing-forms" }
     ]
   },
   "08-elso-ugyfelek": {
     "title": "Hasznos linkek",
     "links": [
+      { "label": "Számlázz.hu blog · magyar B2B kontextus", "url": "https://blog.szamlazz.hu" },
       { "label": "Double Your Freelancing", "url": "https://doubleyourfreelancing.com" },
       { "label": "Stacking the Bricks (Amy Hoy)", "url": "https://stackingthebricks.com" },
       { "label": "Ramen Profitable (Patrick McKenzie)", "url": "https://www.kalzumeus.com/2012/09/21/ramen-profitable-freelancing/" },
@@ -90,6 +104,8 @@
       { "label": "Kit (ConvertKit) · email lista", "url": "https://kit.com" },
       { "label": "Pandoc · MD → PDF konverzió", "url": "https://pandoc.org" },
       { "label": "Kit Sequences · útmutató", "url": "https://help.kit.com/en/articles/4076146-creating-a-sequence" },
+      { "label": "NMHH · magyar email-marketing szabályok", "url": "https://nmhh.hu" },
+      { "label": "Stripe Press · minimal PDF design", "url": "https://press.stripe.com" },
       { "label": "Justin Welsh · solopreneur newsletter", "url": "https://www.justinwelsh.me" }
     ]
   },
@@ -99,7 +115,8 @@
       { "label": "Google Sheets", "url": "https://sheets.google.com" },
       { "label": "Google Apps Script · IDE", "url": "https://script.google.com" },
       { "label": "Apps Script dokumentáció", "url": "https://developers.google.com/apps-script/overview" },
-      { "label": "Apps Script Web Apps", "url": "https://developers.google.com/apps-script/guides/web" }
+      { "label": "Apps Script · hivatalos minták", "url": "https://github.com/googleworkspace/apps-script-samples" },
+      { "label": "NAIH · GDPR ügyféladatra", "url": "https://naih.hu" }
     ]
   },
   "11-analitika-ga4": {
@@ -109,6 +126,8 @@
       { "label": "GA4 Academy (ingyenes kurzus)", "url": "https://analytics.google.com/analytics/academy/" },
       { "label": "gtag.js · Google docs", "url": "https://developers.google.com/tag-platform/gtagjs" },
       { "label": "Tag Assistant · debugger", "url": "https://tagassistant.google.com" },
+      { "label": "Simo Ahava · haladó GA4", "url": "https://www.simoahava.com" },
+      { "label": "NAIH · GA4 GDPR-iránymutatás", "url": "https://naih.hu" },
       { "label": "MeasureSchool · YouTube", "url": "https://www.youtube.com/@measureschool" }
     ]
   },
@@ -118,7 +137,9 @@
       { "label": "NAV · adózási szabályok", "url": "https://nav.gov.hu" },
       { "label": "Online Számla · NAV", "url": "https://onlineszamla.nav.gov.hu" },
       { "label": "Számlázz.hu", "url": "https://szamlazz.hu" },
+      { "label": "Billingo · alternatíva", "url": "https://billingo.hu" },
       { "label": "Számlázz.hu · tudásbázis", "url": "https://tudasbazis.szamlazz.hu" },
+      { "label": "MKOE · könyvelő-kereső", "url": "https://mkoe.hu" },
       { "label": "NAIH · adatvédelem", "url": "https://naih.hu" }
     ]
   },
@@ -128,16 +149,16 @@
       { "label": "Land-book", "url": "https://land-book.com" },
       { "label": "OnePageLove", "url": "https://onepagelove.com" },
       { "label": "Lapa Ninja", "url": "https://www.lapa.ninja" },
-      { "label": "Pages.xyz", "url": "https://pages.xyz" }
+      { "label": "Landingfolio", "url": "https://landingfolio.com" }
     ]
   },
   "18-funnel-tipusok": {
     "title": "Hasznos linkek",
     "links": [
+      { "label": "Cal.com Workflows · funnel példák", "url": "https://cal.com/docs/core-features/workflows" },
       { "label": "Marketing Examples", "url": "https://marketingexamples.com" },
       { "label": "Really Good Emails", "url": "https://reallygoodemails.com" },
-      { "label": "Justin Welsh · funnel patterns", "url": "https://www.justinwelsh.me" },
-      { "label": "Stripe Atlas Guides", "url": "https://stripe.com/atlas/guides" }
+      { "label": "Justin Welsh · funnel patterns", "url": "https://www.justinwelsh.me" }
     ]
   },
   "19-ai-eszkozok": {
@@ -154,9 +175,11 @@
     "title": "Hasznos linkek",
     "links": [
       { "label": "OBS Studio · képernyőfelvétel", "url": "https://obsproject.com" },
-      { "label": "MacWhisper · helyi átirat", "url": "https://goodsnooze.gumroad.com/l/macwhisper" },
+      { "label": "MacWhisper · helyi átirat (Mac)", "url": "https://goodsnooze.gumroad.com/l/macwhisper" },
+      { "label": "whisper.cpp · ingyenes alternatíva (Win/Linux)", "url": "https://github.com/ggerganov/whisper.cpp" },
       { "label": "DaVinci Resolve · vágás", "url": "https://www.blackmagicdesign.com/products/davinciresolve" },
       { "label": "ffmpeg · automatizált video", "url": "https://ffmpeg.org" },
+      { "label": "Stripe Payment Links · fizetés", "url": "https://stripe.com/docs/payments/payment-links" },
       { "label": "Mux · videó hoszting", "url": "https://mux.com" }
     ]
   },
@@ -166,6 +189,7 @@
       { "label": "Claude Code · sub-agents", "url": "https://docs.claude.com/en/docs/claude-code/sub-agents" },
       { "label": "Claude Code · slash-commands", "url": "https://docs.claude.com/en/docs/claude-code/slash-commands" },
       { "label": "Claude Code · hooks", "url": "https://docs.claude.com/en/docs/claude-code/hooks" },
+      { "label": "Claude Code · settings.json", "url": "https://docs.claude.com/en/docs/claude-code/settings" },
       { "label": "ChromeDevTools/chrome-devtools-mcp", "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp" },
       { "label": "upstash/context7 · MCP", "url": "https://github.com/upstash/context7" },
       { "label": "modelcontextprotocol/servers", "url": "https://github.com/modelcontextprotocol/servers" },
@@ -197,10 +221,11 @@
   "outro": {
     "title": "Hova tovább",
     "links": [
+      { "label": "Expert Flow · hello@expertflow.hu", "url": "mailto:hello@expertflow.hu" },
+      { "label": "expertflow.hu", "url": "https://expertflow.hu" },
       { "label": "EV-AIOS · GitHub repo", "url": "https://github.com/attilanagy23/EV-AIOS" },
       { "label": "Claude Marketplaces", "url": "https://claudemarketplaces.com" },
-      { "label": "obra/superpowers · skill repo", "url": "https://github.com/obra/superpowers" },
-      { "label": "Anthropic Claude Code", "url": "https://www.anthropic.com/claude-code" }
+      { "label": "obra/superpowers · skill repo", "url": "https://github.com/obra/superpowers" }
     ]
   }
 }
