@@ -7,7 +7,7 @@
 
 ## A hét témája
 
-Amit megtanultam: az ajánlat nem szlogen — ajánlat akkor jó, ha az olvasó azt érzi, nem mondhat rá nemet anélkül, hogy hülyének nézné magát. Ezen a héten az 1-2. modul nyersanyagát (a tudásod magja és a vevőd hangja) átfordítjuk konkrét ígéretté: egy mondatba az ajánlat, három szintbe a csomagok. A cél: a hét végére van valamid, amit az ismerősödnek el tudsz mondani 30 másodperc alatt, és mindenki érti.
+Amit megtanultam: az ajánlat nem szlogen — ajánlat akkor jó, ha az olvasó azt érzi, nem mondhat rá nemet anélkül, hogy hülyének nézné magát. Ezen a héten az 1-2. modul nyersanyagát (a tudásod alapja és a vevőd hangja) átfordítjuk konkrét ígéretté: egy mondatba az ajánlat, három szintbe a csomagok. A cél: a hét végére van valamid, amit az ismerősödnek el tudsz mondani 30 másodperc alatt, és mindenki érti.
 
 ## 01. Az 5-elemes ajánlat-modell
 

@@ -3,7 +3,7 @@ name: tudasod-magja
 description: Segít kiválasztani a vállalkozás-magját 3 jelölt-probléma közül, és megfogalmazni az 1 mondatos állítást. Akkor használd, amikor a 4 fájdalom-kérdést már papíron végigírtad.
 ---
 
-# Tudásod magja — Skill
+# Tudásod alapja — Skill
 
 ## Mire való?
 

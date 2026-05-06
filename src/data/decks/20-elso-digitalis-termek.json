@@ -30,7 +30,7 @@
       "eyebrow": "A 3 lecke",
       "title": "A 3 hetes pipeline",
       "bullets": [
-        { "t": "1. hét · Curriculum + felvétel", "s": "8-12 lecke a tudásod magjából, OBS Studio + USB mikrofon, 1 lecke = 1 menet." },
+        { "t": "1. hét · Curriculum + felvétel", "s": "8-12 lecke a tudásod alapjából, OBS Studio + USB mikrofon, 1 lecke = 1 menet." },
         { "t": "2. hét · AI-vezérelt vágás", "s": "Whisper transzkripció + Claude Code vágási lista + DaVinci vagy ffmpeg végrehajtás." },
         { "t": "3. hét · Hosztolás + értékesítés", "s": "Mux vagy Vimeo + Stripe Payment Link + Kit auto-belépő-email." }
       ]
@@ -38,8 +38,8 @@
     {
       "type": "lede",
       "eyebrow": "01. lecke",
-      "title": "Mit rögzíts? — <em>curriculum</em> a tudásod magjából",
-      "lede": "A 12 hét lezárása után tudod, mi a tudásod magja (1. modul) — ebből lesz az első videókurzus 8-12 leckére kibontva.",
+      "title": "Mit rögzíts? — <em>curriculum</em> a tudásod alapjából",
+      "lede": "A 12 hét lezárása után tudod, mi a tudásod alapja (1. modul) — ebből lesz az első videókurzus 8-12 leckére kibontva.",
       "body": "<p>Struktúra-opciók: tréning-stílus (4 fázis × 3 lecke), vagy egyetlen ívben: probléma → módszer → lépések → eredmény.</p><p><strong>Felvétel:</strong> OBS Studio (ingyenes) screen recording módban, USB mikrofon (Fifine vagy Samson, 15-20 ezer Ft), webkamera opcionális. <em>1 leckét EGY menetben</em> érdemes felvenni — ne 5 take-ben. Az imperfekció hitelesebb, mint a túl-csiszolt felvétel.</p>"
     },
     {
@@ -96,7 +96,7 @@
       "type": "lede",
       "eyebrow": "Heti feladat",
       "title": "Mit csinálsz <em>ezen a héten</em>",
-      "lede": "Készítsd el az első videókurzusod curriculum-vázlatát (8-12 lecke) a tudásod magjából, vedd fel az első leckét OBS-szel, és próbáld ki rajta a Whisper + Claude Code vágási pipeline-t.",
+      "lede": "Készítsd el az első videókurzusod curriculum-vázlatát (8-12 lecke) a tudásod alapjából, vedd fel az első leckét OBS-szel, és próbáld ki rajta a Whisper + Claude Code vágási pipeline-t.",
       "body": "<p>Ha az első lecke vágása működik, a többi 7-11 lecke mehet. Ha valamiért elakadsz, ne menj tovább — a pipeline egyszer rendben van, utána sokszor megy.</p>"
     },
     {

@@ -2,7 +2,7 @@
 
 ## 9.1 — Prompt a 01. leckéhez (Lead magnet — 5-10 oldalas PDF Markdown-ból)
 
-A Claude Code-dal egy 5-10 oldalas, gyakorlati PDF-vázlatot készítünk Markdown-ban a tudásod magjából. Az AI ne találjon ki — a saját pivot-pontodból építsen.
+A Claude Code-dal egy 5-10 oldalas, gyakorlati PDF-vázlatot készítünk Markdown-ban a tudásod alapjából. Az AI ne találjon ki — a saját pivot-pontodból építsen.
 
 ```
 Készítsünk egy 5-10 oldalas lead magnet PDF-vázlatot Markdown-ban.

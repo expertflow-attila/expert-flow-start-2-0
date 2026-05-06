@@ -1,6 +1,6 @@
 # Bónusz — Promptok
 
-## 1.1 — Curriculum-tervezés a tudásod magjából
+## 1.1 — Curriculum-tervezés a tudásod alapjából
 
 Akkor használd, amikor az 1. modulból van egy érett 1 mondatos állításod, és ezt szeretnéd 8-12 leckés videókurzussá kibontani. A cél nem az, hogy az AI találja ki a kurzust — hanem hogy a saját állításodból következő logikus íveket javasoljon, és Te válaszd ki, melyik mentén tanítasz.
 

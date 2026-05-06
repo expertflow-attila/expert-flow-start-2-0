@@ -4,7 +4,7 @@
     "slug": "tudasod-magja",
     "phase": "I. fázis · Mit adsz el és kinek?",
     "phaseShort": "I",
-    "title": "A tudásod magja",
+    "title": "A tudásod alapja",
     "summary": "Abból indulunk ki, ami már létezik — nem a szenvedélyed, hanem amiben évek óta kerestél megoldást magadnak vagy a környezetednek.",
     "result": "Egy mondat, amit pontosan értesz: kinek segítesz, miben, és miért te.",
     "lessons": ["A 4 fájdalom-kérdés", "A pivot-pont", "A történet 1 mondatban"],
@@ -112,7 +112,7 @@
     "summary": "Egy hasznos PDF, egy feliratkozó form, és öt email a feliratkozás utáni két hétben — Kit-tel összerakva.",
     "result": "Működő email-rendszer: feliratkozás → PDF → 5 emailes welcome-sorozat automatikusan.",
     "lessons": ["Lead magnet — 5-10 oldalas PDF Markdown-ból", "Feliratkozó form — Kit (ConvertKit)", "Öt emailes welcome sorozat"],
-    "promptIntro": "5-10 oldalas, gyakorlati PDF-vázlat Markdown-ban a tudásod magjából. Az AI ne találjon ki — a saját pivot-pontodból építsen.",
+    "promptIntro": "5-10 oldalas, gyakorlati PDF-vázlat Markdown-ban a tudásod alapjából. Az AI ne találjon ki — a saját pivot-pontodból építsen.",
     "promptText": "Készítsünk egy 5-10 oldalas lead magnet PDF-vázlatot Markdown-ban.\n\nA vállalkozás-mag (1. modulból):\n\"Én a [konkrét probléma] megoldásában tudok segíteni a [konkrét embereknek],\nmert [a saját pivot-pontod].\"\n\nA célcsoport (2. modulból):\n[avatár leírás 2-3 mondatban]\n\nA lead magnet címe:\n\"[A 7 lépéses XYZ útmutató]\" — vagy konkrét, ígéretes cím javaslat 3 verzióban.\n\nStruktúra (Markdown-ban):\n# Cím\n## Bevezető (1 oldal): kinek szól, mit kap meg\n## 5-7 lépés / fejezet (egyenként 1 oldal): konkrét, gyakorlati lépés\n## Záró (1 oldal): következő lépés, link a webhelyre\n\nHangnem: dokumentáló, NEM coach-szagú. NE használj \"transzformáció\",\n\"forradalom\", \"shortcut\" típusú szavakat. Hétköznapi, konkrét magyar nyelv.\nAz utolsó oldalon legyen egy halk CTA: \"Ha kérdésed van, foglalj 20 perces\nbeszélgetést: [Cal.com link].\"\n\nAdj egy 5-10 oldalas Markdown-vázlatot, amit Pandoc-kal PDF-fé tudok konvertálni.",
     "caseStudyIds": ["34", "30", "36"]
   },

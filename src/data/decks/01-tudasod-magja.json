@@ -1,6 +1,6 @@
 {
   "slug": "01-tudasod-magja",
-  "title": "A tudásod magja",
+  "title": "A tudásod alapja",
   "subtitle": "Pozicionálás · 4 fájdalom-kérdés · pivot-pont · 1 mondat",
   "moduleNum": "Modul · 01",
   "phase": "I. fázis · 1. hét",
@@ -22,7 +22,7 @@
       "type": "lede",
       "eyebrow": "Mit nyersz a modul végére",
       "title": "Egy mondat, amit <em>kristálytisztán</em> értesz.",
-      "lede": "A hét végére van egy mondatod, amit pontosan értesz, és tudod, honnan jön — ez a tudásod magja, ez fog visszhangozni a következő 11 hét minden modulján.",
+      "lede": "A hét végére van egy mondatod, amit pontosan értesz, és tudod, honnan jön — ez a tudásod alapja, ez fog visszhangozni a következő 11 hét minden modulján.",
       "body": "<p>A legtöbb kezdő vállalkozó ott bukik el, hogy „ötletet\" keres. Az ötlet labilis — könnyen kicserélhető, könnyen feladható. Ami nem cserélhető ki, az a fájdalom: amin évek óta gondolkodsz, amiben kerestél megoldást, amiben már megéltél valamit.</p>"
     },
     {
@@ -54,7 +54,7 @@
       "eyebrow": "02. lecke",
       "title": "A <em>pivot-pont</em>",
       "lede": "A pillanat, amikor valami működni kezdett — egy felismerés, egy módszer, egy eszköz.",
-      "body": "<p>Nézd meg a saját utadat — hol volt az a pillanat, amikor valami a kezedbe került, és amit ma már másképp csinálsz, mint öt éve. Ez a pivot-pont — itt válik a fájdalmadból tudás. A tudásod magja nem az, hogy „sokat tanultam\", hanem hogy „itt léptem át valamit, és tudom, hogyan\".</p><p>Ezt a pillanatot írd le egy bekezdésben, a saját szavaiddal.</p>"
+      "body": "<p>Nézd meg a saját utadat — hol volt az a pillanat, amikor valami a kezedbe került, és amit ma már másképp csinálsz, mint öt éve. Ez a pivot-pont — itt válik a fájdalmadból tudás. A tudásod alapja nem az, hogy „sokat tanultam\", hanem hogy „itt léptem át valamit, és tudom, hogyan\".</p><p>Ezt a pillanatot írd le egy bekezdésben, a saját szavaiddal.</p>"
     },
     {
       "type": "code",
@@ -81,7 +81,7 @@
       "type": "quote",
       "eyebrow": "Az alaptétel",
       "quote": "Az ötlet labilis. A fájdalom nem cserélhető ki.",
-      "cite": "1. modul · A tudásod magja"
+      "cite": "1. modul · A tudásod alapja"
     },
     {
       "type": "lede",
@@ -108,7 +108,7 @@
       "type": "end",
       "eyebrow": "Modul vége",
       "title": "Eredmény: <em>1 mondat</em>, ami tied.",
-      "sub": "A tudásod magja papíron van. A pivot-pont megvan. A mondat áll. Innen tovább a vevőd kirajzolása következik.",
+      "sub": "A tudásod alapja papíron van. A pivot-pont megvan. A mondat áll. Innen tovább a vevőd kirajzolása következik.",
       "links": [
         { "label": "Modul · részletes szöveg", "url": "/modules/01-tudasod-magja" },
         { "label": "Letölthető anyagok", "url": "/downloads/01-tudasod-magja/SKILL.md" },

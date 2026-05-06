@@ -40,7 +40,7 @@
       "type": "lede",
       "eyebrow": "I. fázis · 1-3. hét",
       "title": "Mit adsz el és <em>kinek</em>?",
-      "lede": "A tudásod magja, a vevőd, az ajánlatod.",
+      "lede": "A tudásod alapja, a vevőd, az ajánlatod.",
       "body": "<p>Ez az alap. Ha ezek nincsenek tisztán, a többi 9 hét nem működik. Papír és toll, 4 fájdalom-kérdés, egy konkrét ember, 10 valódi beszélgetés, 5-elemes ajánlat, 3 csomag.</p>"
     },
     {
@@ -107,7 +107,7 @@
       "type": "end",
       "eyebrow": "Kezdjük",
       "title": "Indulás: <em>1. modul</em>.",
-      "sub": "A tudásod magja — pozicionálás, 4 fájdalom-kérdés, pivot-pont, 1 mondat. Papír és toll, nem AI.",
+      "sub": "A tudásod alapja — pozicionálás, 4 fájdalom-kérdés, pivot-pont, 1 mondat. Papír és toll, nem AI.",
       "links": [
         { "label": "Modul · részletes szöveg", "url": "/modules/00-intro" },
         { "label": "Letölthető anyagok", "url": "/downloads/00-intro/README.md" },

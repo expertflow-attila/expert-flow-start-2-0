@@ -40,7 +40,7 @@
       "eyebrow": "01. lecke",
       "title": "Lead magnet — <em>5-10 oldalas PDF</em>",
       "lede": "Konkrét, hasznos dokumentum, amit cserébe adsz az email-címért.",
-      "body": "<p>Nem „kapsz heti tippeket\" — hanem „letöltheted a 7 lépéses XYZ útmutatót\".</p><p>Az 1. modulban már megtapasztaltad, mi a tudásod magja — ebből születik a lead magnet. Markdown fájlban megírod (vagy a Claude Code-dal generálod), majd Pandoc-kal vagy headless Chrome-mal PDF-fé konvertálod.</p><p><strong>Nincs szükség Canvára, InDesignra</strong> — egy egyszerű, jól tördelt Markdown-PDF a kezdőknél jobban hat, mint egy túldesignolt fájl.</p>"
+      "body": "<p>Nem „kapsz heti tippeket\" — hanem „letöltheted a 7 lépéses XYZ útmutatót\".</p><p>Az 1. modulban már megtapasztaltad, mi a tudásod alapja — ebből születik a lead magnet. Markdown fájlban megírod (vagy a Claude Code-dal generálod), majd Pandoc-kal vagy headless Chrome-mal PDF-fé konvertálod.</p><p><strong>Nincs szükség Canvára, InDesignra</strong> — egy egyszerű, jól tördelt Markdown-PDF a kezdőknél jobban hat, mint egy túldesignolt fájl.</p>"
     },
     {
       "type": "code",

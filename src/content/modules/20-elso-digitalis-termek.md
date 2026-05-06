@@ -9,9 +9,9 @@
 
 Ez a bónusz-modul a 12 hét után jön — amikor már van weboldalad, lead magneted, ügyfeleid és működő hátterend. Amit megtanultam: a skálázódás első igazi lépése, hogy a saját tudásodat egyetlenegyszer felveszed, és sokszor el tudod adni: ez egy fizetős videókurzus. Ezen a héten azt mutatom meg, hogyan készítettem el én ezt a kurzust, amit éppen olvasol — és hogyan tudod ugyanezt a folyamatot a saját tudásodra alkalmazni. A kulcs az AI-vezérelt videovágás: nem prémium szerkesztő-szoftverre van szükséged, hanem egy működő pipeline-ra, amiben a Claude Code és a Whisper segít.
 
-## 01. Mit rögzíts? — curriculum a saját tudásod magjából
+## 01. Mit rögzíts? — curriculum a saját tudásod alapjából
 
-A 12 hét lezárása után tudod, mi a tudásod magja (1. modul) — ebből lesz az első videókurzus, kibontva 8-12 leckére. A struktúra a tréningek-stílust követheti (4 fázis × 3 lecke), vagy egyetlen ívben halad: probléma → módszer → lépések → eredmény. A felvétel technikai része egyszerű: OBS Studio (ingyenes) screen recording módban, USB mikrofon (Fifine vagy Samson, 15-20 ezer Ft), webkamera opcionális. Amit megtanultam: 1 leckét EGY menetben érdemes felvenni, ne 5 take-ben. Az imperfekció hitelesebb, mint a túl-csiszolt felvétel — és sokkal gyorsabban végzel. 8-12 lecke × 8-15 perc felvétel ≈ egy hét munka, ha napi 1-2 leckét rögzítesz.
+A 12 hét lezárása után tudod, mi a tudásod alapja (1. modul) — ebből lesz az első videókurzus, kibontva 8-12 leckére. A struktúra a tréningek-stílust követheti (4 fázis × 3 lecke), vagy egyetlen ívben halad: probléma → módszer → lépések → eredmény. A felvétel technikai része egyszerű: OBS Studio (ingyenes) screen recording módban, USB mikrofon (Fifine vagy Samson, 15-20 ezer Ft), webkamera opcionális. Amit megtanultam: 1 leckét EGY menetben érdemes felvenni, ne 5 take-ben. Az imperfekció hitelesebb, mint a túl-csiszolt felvétel — és sokkal gyorsabban végzel. 8-12 lecke × 8-15 perc felvétel ≈ egy hét munka, ha napi 1-2 leckét rögzítesz.
 
 ## 02. AI-vezérelt videovágás
 
@@ -23,7 +23,7 @@ A kész videókat tárolni kell valahol, ahonnan a vásárlók megnézhetik. Ké
 
 ## Heti feladat
 
-Készítsd el az első videókurzusod curriculum-vázlatát (8-12 lecke) a tudásod magjából, vedd fel az első leckét OBS-szel, és próbáld ki rajta a Whisper + Claude Code vágási pipeline-t.
+Készítsd el az első videókurzusod curriculum-vázlatát (8-12 lecke) a tudásod alapjából, vedd fel az első leckét OBS-szel, és próbáld ki rajta a Whisper + Claude Code vágási pipeline-t.
 
 ## Eredmény
 

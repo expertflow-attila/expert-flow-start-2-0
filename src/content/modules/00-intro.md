@@ -13,7 +13,7 @@ Egy fontos dolog elöljáróban: én magam is most építem ezt fel. Nincs egy h
 
 ## A 4 fázis
 
-**I. fázis · Mit adsz el és kinek? (1-3. hét)** — A tudásod magja, a vevőd, az ajánlatod. Ez az alap; ha ezek nincsenek tisztán, a többi 9 hét nem működik.
+**I. fázis · Mit adsz el és kinek? (1-3. hét)** — A tudásod alapja, a vevőd, az ajánlatod. Ez az alap; ha ezek nincsenek tisztán, a többi 9 hét nem működik.
 
 **II. fázis · Hogyan találjanak meg? (4-6. hét)** — Eszközök setup-ja (VS Code + Claude Code + Sybell + Google Workspace), weboldal Vercel-en, copy és landing.
 

@@ -1,7 +1,7 @@
 ---
 ---
 
-# 1. modul · A tudásod magja
+# 1. modul · A tudásod alapja
 
 > Abból indulunk ki, ami már létezik — nem a szenvedélyed, hanem amiben évek óta kerestél megoldást magadnak vagy a környezetednek.
 
@@ -15,7 +15,7 @@ A tapasztalatom szerint érdemes papírt és tollat előkészíteni — ne az AI
 
 ## 02. A pivot-pont
 
-Nálam ez jött be: nézd meg a saját utadat — hol volt az a pillanat, amikor valami működni kezdett? Egy felismerés, egy módszer, egy eszköz, ami a kezedbe került, és amit ma már másképp csinálsz, mint öt éve. Ez a pivot-pont — itt válik a fájdalmadból tudás. A tudásod magja nem az, hogy „sokat tanultam", hanem hogy „itt léptem át valamit, és tudom, hogyan". Ezt a pillanatot írd le egy bekezdésben, a saját szavaiddal.
+Nálam ez jött be: nézd meg a saját utadat — hol volt az a pillanat, amikor valami működni kezdett? Egy felismerés, egy módszer, egy eszköz, ami a kezedbe került, és amit ma már másképp csinálsz, mint öt éve. Ez a pivot-pont — itt válik a fájdalmadból tudás. A tudásod alapja nem az, hogy „sokat tanultam", hanem hogy „itt léptem át valamit, és tudom, hogyan". Ezt a pillanatot írd le egy bekezdésben, a saját szavaiddal.
 
 ## 03. A történet 1 mondatban
 
@@ -27,4 +27,4 @@ Egy idő után rájöttem, hogy a hét végére érdemes egy mondatba összerakn
 
 ## Eredmény
 
-A hét végére van egy mondatod, amit pontosan értesz, és tudod, hogy honnan jön — ez a tudásod magja, ez fog visszhangozni a következő 11 hét minden modulján.
+A hét végére van egy mondatod, amit pontosan értesz, és tudod, hogy honnan jön — ez a tudásod alapja, ez fog visszhangozni a következő 11 hét minden modulján.

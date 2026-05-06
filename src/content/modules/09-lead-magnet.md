@@ -11,7 +11,7 @@ Azt vettem észre, hogy az emberek 95%-a, aki a webhelyedre érkezik, nem fog az
 
 ## 01. Lead magnet — 5-10 oldalas PDF Markdown-ból
 
-Amit megtanultam: a lead magnet egy konkrét, hasznos dokumentum, amit cserébe adsz az email-címért — nem „kapsz heti tippeket", hanem „letöltheted a 7 lépéses XYZ útmutatót". Az 1. modulban már megtapasztaltad, mi a tudásod magja — ebből születik a lead magnet: 5-10 oldalas, gyakorlati, kicsit taktikus tartalom. A létrehozás módja egyszerű: Markdown fájlban megírod (vagy a Claude Code-dal generálod), majd Pandoc-kal vagy headless Chrome-mal PDF-fé konvertálod. Nálam ez jött be: nincs szükség Canvára, InDesignra, semmilyen designer eszközre — egy egyszerű, jól tördelt Markdown-PDF a kezdőknél jobban hat, mint egy túldesignolt fájl. Tedd a Drive-ra, és a Kit majd ezt küldi automatikusan.
+Amit megtanultam: a lead magnet egy konkrét, hasznos dokumentum, amit cserébe adsz az email-címért — nem „kapsz heti tippeket", hanem „letöltheted a 7 lépéses XYZ útmutatót". Az 1. modulban már megtapasztaltad, mi a tudásod alapja — ebből születik a lead magnet: 5-10 oldalas, gyakorlati, kicsit taktikus tartalom. A létrehozás módja egyszerű: Markdown fájlban megírod (vagy a Claude Code-dal generálod), majd Pandoc-kal vagy headless Chrome-mal PDF-fé konvertálod. Nálam ez jött be: nincs szükség Canvára, InDesignra, semmilyen designer eszközre — egy egyszerű, jól tördelt Markdown-PDF a kezdőknél jobban hat, mint egy túldesignolt fájl. Tedd a Drive-ra, és a Kit majd ezt küldi automatikusan.
 
 ## 02. Feliratkozó form — Kit (ConvertKit)
 
