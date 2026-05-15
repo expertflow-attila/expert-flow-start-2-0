@@ -68,11 +68,53 @@ const linksTitle = linksData?.title ?? "Hasznos linkek";
 const links = linksData?.links ?? [];
 
 const downloads = ((moduleDownloads as Record<string, { label: string; file: string }[]>)[meta.slug]) ?? [];
+
+const site = (Astro.site ?? new URL("https://expert-flow-start-2-0.vercel.app")).toString();
+const moduleUrl = `${site}modules/${meta.slug}`;
+
+const learningResource = {
+  "@context": "https://schema.org",
+  "@type": "LearningResource",
+  name: meta.title,
+  description: meta.summary,
+  url: moduleUrl,
+  inLanguage: "hu",
+  educationalLevel: "Beginner",
+  learningResourceType:
+    meta.kind === "ref"
+      ? "Reference library"
+      : meta.kind === "bonus"
+      ? "Bonus module"
+      : meta.kind === "intro"
+      ? "Course intro"
+      : "Online module",
+  timeRequired: meta.kind === "epito" ? "PT3H" : "PT1H",
+  isPartOf: {
+    "@type": "Course",
+    name: "Business Start",
+    url: site,
+  },
+  isAccessibleForFree: true,
+  inDefinedTermSet: meta.phaseLabel,
+};
+
+const breadcrumbs = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Főoldal", item: site },
+    { "@type": "ListItem", position: 2, name: meta.phaseLabel, item: `${site}#modulok` },
+    { "@type": "ListItem", position: 3, name: meta.title, item: moduleUrl },
+  ],
+};
+
+const moduleSchemas = [learningResource, breadcrumbs];
 ---
 
 <Layout
   title={`${meta.title} — Business Start`}
   description={meta.summary}
+  schema={moduleSchemas}
 >
 
   <header class="lesson-header">

@@ -142,7 +142,7 @@
   line-height: 1.4;
   font-style: italic;
   color: var(--text-muted);
-  max-width: 30ch;
+  max-width: clamp(30ch, 80%, 50ch);
   margin: 0 0 24px;
   border-left: 2px solid var(--accent);
   padding-left: 22px;

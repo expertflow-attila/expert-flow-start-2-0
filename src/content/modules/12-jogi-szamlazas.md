@@ -1,9 +1,12 @@
 ---
+lastReviewed: "2026-05-15"
 ---
 
 # 12. modul · Jogi és számlázási minimum
 
 > KATA, EV, Számlázz.hu, NAV, ÁSZF — a magyar jogi környezet kötelező alapja, ami nélkül az első fizető ügyfél nem szállítható.
+
+**Utoljára ellenőrizve: 2026-05-15.** A magyar adózási szabályok változnak (a KATA-küszöbtől az ÁFA-szabályokig). Ellenőrizd a NAV oldalán mindig — ez a modul tájékoztató, nem könyvelői tanácsadás.
 
 ## A hét témája
 
@@ -11,7 +14,45 @@ Ez a modul nem inspiráló, és nem is annak szánom — egyszerűen a jogi és 
 
 ## 01. KATA / EV / Kft. — melyik forma?
 
-Magyarországon kezdő egyéni vállalkozóknak három alap-forma jön szóba: (1) **Egyéni vállalkozó (EV) KATA-s adózással** — a leggyakoribb a kezdő szolgáltató szakértőknél: 50 000 Ft/hó tételes adó, 18 millió Ft/év éves árbevételi plafon. **Fontos:** a 2022 szeptemberi reform óta KATA-t csak akkor választhatsz, ha kifizető (cég) felé maximum 3 millió Ft-ot számlázol évente — e felett 40% különadó terheli a túlfolyót. Magánszemély vevőknél a 18 milliós határ a fő. Az ellenőrzött adatok a **NAV** oldalán: `https://nav.gov.hu` — a magyar adójogi szabályok évente változnak, mielőtt döntesz, nézd meg a friss verziót. (2) **Egyéni vállalkozó átalányadóval** — ha vállalati ügyfeleid is lesznek nagy számban, a KATA korlátos, helyette átalányadózást vagy tételes adózást választasz, (3) **Kft.** — ha nagyobb forgalomra terveznél, vagy ha két vagy több tulajdonos közösen indítja. A saját utamon ezt láttam: indulásnál a legtöbb embernek az EV + KATA a logikus választás (az első 18 millió-ig), de érdemes egy könyvelővel egyszer leülni 30 percre — a könyvelői költség (5-15.000 Ft/hó) sokszor megéri a fejtörés árán. **Nem vagyok könyvelő**, és a magyar adójogi szabályok évente változnak — a `resources.md`-ben benne lesznek a friss NAV-források, plusz egy ajánlott könyvelő-irány, ahol kérdezhetsz.
+Magyarországon kezdő szolgáltatóknak három alap-forma jön szóba. A **2022 szeptemberi KATA-reform** óta a választás logikája megváltozott: ma az számít, kinek számlázol (magánszemély vagy cég), nem csak az, hogy mennyit. **Nem vagyok könyvelő**, és a magyar adójogi szabályok évente változnak — a `resources.md`-ben benne lesznek a friss NAV-források, plusz egy ajánlott könyvelő-irány, ahol kérdezhetsz.
+
+### KATA (Kisadózó vállalkozók tételes adója)
+
+**Kinek érdemes**: kis- és középvállalkozó, aki **kizárólag magánszemélyeknek** számláz (pl. coach, masszőr, designer közvetlen ügyfeleknek). 2022 szeptember óta a KATA jelentősen szigorodott:
+
+- **Csak magánszemélyeknek számlázhatsz**. Ha egy cégtől, EV-től, más vállalkozótól származó bevétel érkezik (NAV nyelvén: „kifizetőtől származó bevétel"), a **KATA-alanyiságod megszűnik**.
+- Éves bevételi keret: **18 millió Ft**. E felett **40% különadó** terheli a túlfolyót.
+- **Havi adó**: 50 000 Ft tételes adó. Csak főfoglalkozású egyéni vállalkozó választhatja — mellékállás vagy heti 36 órás munkaviszony mellett ez a forma nem megfelelő.
+- Egyszerű, kevés adminisztráció.
+
+**NEM jó**: ha céges ügyfeleid is vannak (akár csak 1 céges szerződés is megszünteti a KATA-alanyiságot).
+
+**Konkrét lépések**:
+1. NAV ÁNYK / OBM-en jelentkezés be
+2. Havi befizetés: 50 000 Ft tételes adó (csak főfoglalkozású EV)
+3. Ha céges ügyfél is jön: válts át EV-re (átalányadó vagy VSZJA)
+
+**Mindig ellenőrizd a NAV oldalán**: https://nav.gov.hu/ado/katas-voltam/gyakran-ismetelt-kerdesek
+
+### Egyéni vállalkozó (EV) — átalányadó vagy tételes (VSZJA)
+
+**Kinek érdemes**: ha **vegyes az ügyfélkörod** (magánszemély + cég), vagy ha B2B szolgáltató vagy (ügynökség, tanácsadó, fejlesztő, akinek céges ügyfelei vannak). A KATA-reform óta a legtöbb online szolgáltató szakértőnek ez a logikus választás.
+
+- **Átalányadó**: a bevétel egy fix %-át veszi a NAV költségátalánynak (szolgáltatóknál általában 40%, így a bevétel 60%-a az adóalap), és erre fizetsz SZJA-t + járulékot. Egyszerűbb mint a tételes, de bevételi plafonja van (jelenleg a minimálbér tízszerese, évente változik — ellenőrizd).
+- **Tételes (VSZJA)**: tényleges költségekkel számolsz, bonyolultabb adminisztráció, de magasabb költséghányadnál előnyösebb.
+- Cégeknek és magánszemélyeknek is számlázhatsz, nincs „kifizetői" korlát.
+
+### Kft. (Korlátolt felelősségű társaság)
+
+**Kinek érdemes**: ha **nagyobb forgalomra** terveznél, ha **több tulajdonos** közösen indít, vagy ha a felelősséget el akarod választani a magánvagyontól. Magasabb adminisztrációs teher (kötelező könyvelő, mérleg, beszámoló), de profi imázs és skálázhatóság.
+
+### Mit válassz indulásnál?
+
+A saját utamon ezt láttam: ha **csak magánszemélyeknek** szolgáltatsz és nem terveznél céges ügyfelet → **KATA**. Ha **céges ügyfeleid (is) lesznek** → **EV átalányadóval**. Ha **több alapító + nagy forgalom** → **Kft.** Mielőtt döntesz, ülj le egy könyvelővel 30 percre — a könyvelői költség (5-15 000 Ft/hó) sokszor megéri a fejtörés árán, és a NAV-szabályok évente változnak.
+
+**Kötelező NAV-források a döntéshez**:
+- https://nav.gov.hu/ado/katas-voltam/gyakran-ismetelt-kerdesek
+- https://nav.gov.hu/ugyfeliranytu/valaszol-a-nav/uj-kata/az-adoalanyisag-megszunese
 
 ## 02. Számlázz.hu (vagy Billingo) + NAV bejelentkezés
 

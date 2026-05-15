@@ -25,6 +25,20 @@ Azt vettem észre, hogy a saját domain (pl. `tedneved.hu`) az online identitás
 
 A Google Workspace egy fizetős havidíjas csomag (~ 2000 Ft/hó induláskor a Business Starter csomagban), ami kínálja a hivatalos emailt, a Drive-ot (30 GB / felhasználó az alap-csomagban), a Naptárt, a Sheets-et és a Docs-ot. A setup részei: fiók-létrehozás, domain-igazolás (DNS-rekorddal), MX-rekordok beállítása a Sybell oldalán, és a felhasználó (te magad) létrehozása. A fontos lépés a domain-igazolás után az SPF, DKIM és DMARC rekordok beállítása — ezek nélkül a kimenő emailjeid spam-be kerülhetnek. Mindezek lépésről-lépésre a `prompts.md` és `reference.md` fájlokban — itt csak az érdekel, hogy a setup végére legyen egy működő `te@tedneved.hu` címed, amit később a Cal.com, Kit, Stripe és minden további szolgáltatáshoz kötsz.
 
+## Ha valami nem tetszik — alternatívák
+
+A modul a saját stackemet írja le, de a kurzus filozófiája egyik konkrét szolgáltatóra sem épít. Ha bármelyik eszköz nem ülteti meg jól a kezedhez vagy nem fér a pénztárcádhoz, ezek a működő alternatívák:
+
+- **VS Code helyett:** Cursor (saját AI-IDE), Zed (gyors, modern, ingyenes), JetBrains IDE-k (ha már megszoktad).
+- **Claude Code helyett:** Cursor saját AI, GitHub Copilot, Codeium (ingyenes). A kurzus parancsai akkor a legtisztábban a Claude Code-on jönnek vissza, de a logika átvihető.
+- **Vercel helyett:** Netlify (hasonló DX), Cloudflare Pages (ingyenes, gyors CDN), GitHub Pages (statikus oldalakhoz).
+- **Sybell helyett:** bármelyik magyar domain-szolgáltató (Domain.hu, Domainprofi), vagy nemzetközi: Porkbun, Cloudflare Registrar (utóbbi a legolcsóbb).
+- **Google Workspace helyett:** Microsoft 365 (Outlook + OneDrive), Proton Mail (privacy-first), Zoho Mail (legolcsóbb saját-domain email).
+- **Kit (volt ConvertKit) helyett:** MailerLite (ingyenes 1000 feliratkozóig), Substack (ha újságírói hangod van), Beehiiv (newsletter-fókuszú).
+- **GA4 helyett:** Plausible (privacy-friendly, GDPR-tiszta, ~€9/hó), Fathom (hasonló), Umami (önhosztolt, ingyenes).
+
+A 17-19. tár-anyagok és a 22. bónusz tár (Expert Flow stack) több alternatívát is bemutat. Ne ragadj le az eszközválasztáson — két óra mérlegelés, döntés, indulás.
+
 ## Heti feladat
 
 Telepítsd a VS Code-ot és a Claude Code-ot, gyakorold be a 6-8 alapparancsot egy üres mappában (legalább `/clear`, `/compact`, plan mode próba), regisztráld a domaint a Sybell-en, és állítsd be a Google Workspace-fiókodat a hivatalos email-címmel.

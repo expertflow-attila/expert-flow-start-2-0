@@ -4,12 +4,16 @@ import "../styles/global.css";
 interface Props {
   title: string;
   description: string;
+  schema?: Record<string, any> | Array<Record<string, any>>;
 }
 
-const { title, description } = Astro.props;
+const { title, description, schema } = Astro.props;
 const site = Astro.site ?? new URL("https://expert-flow-start-2-0.vercel.app");
 const canonical = new URL(Astro.url.pathname, site).toString();
 const ogImage = new URL("/og-image.svg", site).toString();
+const schemaJson = schema
+  ? JSON.stringify(Array.isArray(schema) ? schema : schema)
+  : null;
 ---
 
 <!doctype html>
@@ -23,16 +27,26 @@ const ogImage = new URL("/og-image.svg", site).toString();
     <link rel="canonical" href={canonical} />
 
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Business Start" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
     <meta property="og:locale" content="hu_HU" />
     <meta property="og:image" content={ogImage} />
+    <meta property="og:image:type" content="image/svg+xml" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Business Start — 12 hét, ahogy felépítem a vállalkozásomat" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image:alt" content="Business Start — Expert Flow" />
+
+    {schemaJson && (
+      <script type="application/ld+json" set:html={schemaJson} />
+    )}
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -49,9 +63,53 @@ const ogImage = new URL("/og-image.svg", site).toString();
     <a href="#main" class="skip-link">Ugrás a tartalomra</a>
 
     <div class="brand-bar">
-      <span class="dot" aria-hidden="true"></span>
-      Business Start
+      <a href="/" class="brand-bar__home">
+        <span class="dot" aria-hidden="true"></span>
+        Business Start
+      </a>
+      <nav class="brand-bar__nav" aria-label="Másodlagos navigáció">
+        <a href="/decks">Diasorok</a>
+        <a href="/glosszarium">Glosszárium</a>
+      </nav>
     </div>
+
+    <style>
+      .brand-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        flex-wrap: wrap;
+      }
+      .brand-bar__home {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        color: inherit;
+        text-decoration: none;
+      }
+      .brand-bar__nav {
+        display: inline-flex;
+        align-items: center;
+        gap: 18px;
+        font-size: 13px;
+      }
+      .brand-bar__nav a {
+        color: var(--text-dim);
+        text-decoration: none;
+        border-bottom: 1px solid transparent;
+        transition: color .15s, border-color .15s;
+      }
+      .brand-bar__nav a:hover,
+      .brand-bar__nav a:focus-visible {
+        color: var(--accent, #b9a7e0);
+        border-bottom-color: rgba(185,167,224,0.4);
+      }
+      @media (max-width: 360px) {
+        .brand-bar { gap: 8px; }
+        .brand-bar__nav { gap: 12px; font-size: 12px; }
+      }
+    </style>
 
     <main id="main" tabindex="-1">
       <slot />
@@ -66,6 +124,8 @@ const ogImage = new URL("/og-image.svg", site).toString();
 
     <script is:inline>
       (function () {
+        const isMobile = window.matchMedia('(max-width: 720px)').matches;
+        const FEEDBACK_MS = isMobile ? 2400 : 1800;
         document.querySelectorAll('[data-copy-target]').forEach((btn) => {
           btn.addEventListener('click', async (e) => {
             e.preventDefault();
@@ -96,7 +156,7 @@ const ogImage = new URL("/og-image.svg", site).toString();
               setTimeout(() => {
                 btn.dataset.copied = 'false';
                 btn.textContent = original;
-              }, 1800);
+              }, FEEDBACK_MS);
             } catch (err) {
               btn.textContent = 'Hiba — másold kézzel';
               setTimeout(() => { btn.textContent = original; }, 2400);

@@ -1,0 +1,22 @@
+{
+  "CTA": "felhívás-gomb — Call To Action; az a gomb vagy link, amire kattintani kell ahhoz, hogy a felhasználó tovább lépjen az értékesítési folyamatban",
+  "KPI": "mérőszám — Key Performance Indicator; az a szám, amit hetente nézel, és ami megmondja, hogy jó irányba mész-e",
+  "USP": "egyedi értékajánlat — Unique Selling Proposition; az az egy mondat, ami megkülönböztet a versenytársaktól",
+  "CRM": "ügyfélnyilvántartó — Customer Relationship Management; egy táblázat vagy szoftver, ahol az ügyfeleid adatait, állapotait és a velük folytatott beszélgetéseket tárolod",
+  "GA4": "Google Analytics 4 — a Google forgalom-mérő rendszere; ez méri, ki, honnan, mit csinált a weboldaladon",
+  "funnel": "tölcsér vagy értékesítési folyamat — az út, amit egy érdeklődő végigjár az első találkozástól a fizető ügyfélig",
+  "Apps Script": "egy kis JavaScript-program, amit a Google Sheets, Gmail vagy Drive belsejében futtathatsz — saját automatizációkat tudsz írni vele",
+  "webhook": "automatikus üzenet — amit egy szolgáltatás küld egy másiknak, amikor történt valami; pl. új feliratkozó esetén",
+  "MCP": "Model Context Protocol — a Claude Code-nak az a kiterjesztési rendszere, amivel külső szolgáltatásokat (Google Drive, Slack, Webflow) köthetsz a fejlesztőkörnyezetedhez",
+  "swipefile": "ihletfájl — másoktól összegyűjtött jó példák tára (landing oldalak, emailek, szövegek), amit referenciaként használsz, amikor sajátot építesz",
+  "Hormozi-copy": "Alex Hormozi sales-modellje — a USA-ban népszerű ajánlat-strukturáló keret, ami a hatalmas érték + alacsony árazás kombinációjára épít",
+  "anchor-logika": "horgony-logika — egy magas árazású csomag azért van, hogy a középső, valós ajánlatod olcsóbbnak tűnjön; az emberek a középsőt veszik",
+  "érték-stack": "egy fő ajánlat + bónuszok halmaza, amit egy árban adsz — a bónuszok látszólagos értéke jóval magasabb, mint a kért ár",
+  "lead magnet": "csali — egy ingyenes PDF, sablon vagy mini-tananyag, amiért valaki cserébe odaadja az email-címét",
+  "landing page": "céloldal — egy önálló weboldal, ami EGY konkrét célra koncentrál (pl. feliratkozás, foglalás, vásárlás); nincsenek menük, nincs zavar",
+  "deck": "diasor — egy slide-okból álló prezentáció, amit átkattintassz",
+  "konverzió": "amikor egy látogatóból lead lesz, vagy egy leadből fizető ügyfél — a marketing legfontosabb mérőszáma",
+  "lead": "érdeklődő — valaki, aki már megadta az elérhetőségét, de még nem vásárolt",
+  "DKIM/SPF/DMARC": "email-azonosító rekordok — DNS-bejegyzések, amik nélkül a hivatalos emailjeid spam-be kerülhetnek",
+  "DNS": "domain-irányítás — Domain Name System; a webhelyed címét (pl. tedneved.hu) ez fordítja le a szerver-IP-re"
+}

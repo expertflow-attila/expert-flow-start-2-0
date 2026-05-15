@@ -54,11 +54,45 @@ const { deck, prevSlug, nextSlug } = Astro.props as {
   prevSlug?: string | null;
   nextSlug?: string | null;
 };
+
+const site = (Astro.site ?? new URL("https://expert-flow-start-2-0.vercel.app")).toString();
+const deckUrl = `${site}decks/${deck.slug}`;
+const moduleUrl = `${site}modules/${deck.slug}`;
+
+const deckSchemas = [
+  {
+    "@context": "https://schema.org",
+    "@type": "LearningResource",
+    name: `${deck.title} — diasor`,
+    description: deck.subtitle ?? deck.title,
+    url: deckUrl,
+    inLanguage: "hu",
+    learningResourceType: "Presentation deck",
+    timeRequired: deck.duration ? `PT${deck.duration.replace(/[^0-9]/g, "") || "10"}M` : "PT10M",
+    isPartOf: {
+      "@type": "Course",
+      name: "Business Start",
+      url: site,
+    },
+    isAccessibleForFree: true,
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Főoldal", item: site },
+      { "@type": "ListItem", position: 2, name: "Diasorok", item: `${site}decks` },
+      { "@type": "ListItem", position: 3, name: deck.title, item: deckUrl },
+      { "@type": "ListItem", position: 4, name: "Modul-oldal", item: moduleUrl },
+    ],
+  },
+];
 ---
 
 <DeckLayout
   title={`${deck.title} · Diasor · Business Start`}
   description={deck.subtitle ?? deck.title}
+  schema={deckSchemas}
 >
 
   <div class="deck-progress" id="deck-progress" style="width: 0%"></div>

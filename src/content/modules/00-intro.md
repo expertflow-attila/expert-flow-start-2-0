@@ -27,6 +27,10 @@ Egy fontos dolog elöljáróban: én magam is most építem ezt fel. Nincs egy h
 
 **Nem:** általános AI-tanfolyam, ChatGPT/Claude API-kódolás, n8n/Zapier-automatizáció, e-kereskedelem indítása, ügynöki üzletág építése.
 
+## Reális várakozás — pénz és idő
+
+A 12 hét után 1-3 fizető ügyfeled lehet (saját hálózatból, ajánlásból — a 8. modul erről szól). Bevétel: első év 500-1500 ezer Ft, attól függően, hogy mennyi időt tudsz rászánni és milyen árazási sávon mozogsz. Költség: kb. 50-100 ezer Ft / év — VS Code ingyenes, Claude Code előfizetés (~$20/hó ≈ 7-8.000 Ft), Google Workspace (~2.000 Ft/hó), Sybell domain (~3-5.000 Ft/év), Vercel hoszting és Kit (1000 feliratkozóig) ingyenes. Ez nem gyors-meggazdagodás-kurzus; ez egy alap-rendszer, amire 2-3. évben tudsz építeni — ha a 12. hét után tovább dolgozol vele.
+
 ## Eszközök, amik a kurzushoz kellenek
 
 - **VS Code** (ingyenes) + **Claude Code előfizetés** (~$20/hó)

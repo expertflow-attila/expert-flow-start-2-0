@@ -1,10 +1,10 @@
 # Expert Flow Start 2.0 — Landing page
 
-> 12 hét, 12 modul, 12 másolható prompt. Magyar szolgáltató szakértőknek szóló építő program landing oldala — az [EV-AIOS](https://github.com/attilanagy23/EV-AIOS) repo-val mint élő AI Operációs Rendszer.
+> 21 modul (12 építő alapmodul + 4 referencia tár + 4 bónusz modul + intro + outro), 21 diasor. Magyar szolgáltató szakértőknek szóló építő program landing oldala — az [EV-AIOS](https://github.com/attilanagy23/EV-AIOS) repo-val mint élő AI Operációs Rendszer.
 
 ## Mi ez
 
-Az `expert-flow-start-kurzus.netlify.app` 2.0 verziója. Az új pozicionálás: **építő program**, nem tájékoztató kurzus. A 12 modul mindegyikéhez tartozik egy másolható Claude Code prompt, és a 38 nemzetközi esettanulmány elosztva jelenik meg modulonként.
+Az `expert-flow-start-kurzus.netlify.app` 2.0 verziója. Az új pozicionálás: **építő program**, nem tájékoztató kurzus. 21 modul (12 építő alapmodul + 4 referencia tár + 4 bónusz modul + intro + outro), és minden modulhoz tartozik egy diasor — a 12 alapmodulhoz egy másolható Claude Code prompt, a 38 nemzetközi esettanulmány pedig elosztva jelenik meg modulonként.
 
 ## Stack
 
@@ -50,6 +50,16 @@ A repo Vercelhez kötött (`vercel.json`). Push a `main`-re → automatikus depl
 ```bash
 vercel --prod
 ```
+
+### Build környezet
+
+- Node: **22.x** (lásd `.nvmrc` és `package.json` `engines`)
+- Install: `npm ci` (lockfile-alapú, reproducible — `vercel.json:installCommand`)
+
+### Biztonsági headerek (`vercel.json`)
+
+- **Clickjacking**: `X-Frame-Options: DENY` + CSP `frame-ancestors 'none'` — konzisztens, a site sehova nem ágyazható
+- **CSP `'unsafe-inline'`**: az Astro inline kritikus CSS-t és script-et generál (Layout `<style>` és hydration). Ennek eltávolításához nonce-alapú CSP-re kellene áttérni, ami Astro static buildnél jelenleg nem out-of-the-box megoldható. Ez tudatos kompromisszum: a többi CSP-direktíva (`default-src 'self'`, `frame-ancestors 'none'`, `base-uri 'self'`, `form-action 'self'`) erős védelmet ad XSS és clickjacking ellen.
 
 ## Forrás
 

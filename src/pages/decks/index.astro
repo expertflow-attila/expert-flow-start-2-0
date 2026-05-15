@@ -34,11 +34,23 @@ const buildingModules = items.filter((m) => m.kind === "epito");
 const refModules = items.filter((m) => m.kind === "ref");
 const bonusModules = items.filter((m) => m.kind === "bonus");
 const introOutro = items.filter((m) => m.kind === "intro");
+
+const site = (Astro.site ?? new URL("https://expert-flow-start-2-0.vercel.app")).toString();
+
+const decksIndexSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Főoldal", item: site },
+    { "@type": "ListItem", position: 2, name: "Diasorok", item: `${site}decks` },
+  ],
+};
 ---
 
 <DeckLayout
   title="Diasorok · Business Start"
   description="A Business Start kurzus 21 modul-diasora — Cloud Code Deck stílusban, felvétel-segédnek vagy önálló nézegetéshez."
+  schema={decksIndexSchema}
 >
 
   <header class="deck-topbar">

@@ -44,11 +44,73 @@ const phases = [
   { num: "III. fázis", title: "Hogyan szólítsd meg őket?", weeks: "7-9. hét", ids: ["07", "08", "09"] },
   { num: "IV. fázis", title: "Háttér és számok", weeks: "10-12. hét", ids: ["10", "11", "12"] },
 ];
+
+const site = (Astro.site ?? new URL("https://expert-flow-start-2-0.vercel.app")).toString();
+
+const allLearning = [
+  ...modules.map((m) => ({
+    "@type": "LearningResource",
+    name: m.title,
+    description: m.summary,
+    url: `${site}modules/${m.id}-${m.slug}`,
+    learningResourceType: "Online module",
+    inLanguage: "hu",
+  })),
+  ...extras.map((e) => ({
+    "@type": "LearningResource",
+    name: e.title,
+    description: e.summary,
+    url: `${site}modules/${e.slug}`,
+    learningResourceType:
+      e.id === "intro" || e.id === "outro"
+        ? "Course overview"
+        : e.tagKind === "bonus"
+          ? "Bonus module"
+          : "Reference library",
+    inLanguage: "hu",
+  })),
+];
+
+const courseSchema = {
+  "@context": "https://schema.org",
+  "@type": "Course",
+  name: "Business Start — 12 hét, ahogy én építem fel a vállalkozásomat",
+  description: "Magyar szolgáltató szakértőknek: 12 hét, 21 modul, 21 másolható deck. A 12. hét végére van weboldalad, lead magneted, konzultációs funneled, CRM-ed, és egy működő AI Operációs Rendszered.",
+  inLanguage: "hu",
+  url: site,
+  provider: {
+    "@type": "Organization",
+    name: "Expert Flow",
+    url: "https://expertflow.hu",
+    email: "hello@expertflow.hu",
+  },
+  educationalLevel: "Beginner",
+  audience: {
+    "@type": "EducationalAudience",
+    educationalRole: "self-employed service expert",
+  },
+  isAccessibleForFree: true,
+  offers: {
+    "@type": "Offer",
+    price: "0",
+    priceCurrency: "HUF",
+    availability: "https://schema.org/InStock",
+  },
+  hasCourseInstance: {
+    "@type": "CourseInstance",
+    courseMode: "online",
+    courseWorkload: "PT24H",
+    inLanguage: "hu",
+  },
+  numberOfCredits: 21,
+  hasPart: allLearning,
+};
 ---
 
 <Layout
   title="Business Start — 12 hét, ahogy én építem fel a vállalkozásomat"
-  description="Magyar szolgáltató szakértőknek: 12 hét, 12 modul, 12 másolható prompt + 4 bónusz tár. A 12. hét végére van weboldalad, lead magneted, konzultációs funneled, CRM-ed, és egy működő AI Operációs Rendszered."
+  description="Magyar szolgáltató szakértőknek: 12 hét, 21 modul (12 alap + 3 referencia + 4 bónusz + intro/outro), 21 diasor. A 12. hét végére van weboldalad, lead magneted, konzultációs funneled, CRM-ed, és egy működő AI Operációs Rendszered."
+  schema={courseSchema}
 >
 
   <header class="hero">
