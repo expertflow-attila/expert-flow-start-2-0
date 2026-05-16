@@ -6,21 +6,48 @@ lastReviewed: "2026-05-16"
 
 > Nem hirdetés, nem nyomulás. Tíz ember a környezetemből, személyes üzenettel — megosztom, mit próbálok, és mit tanulok belőle közben.
 
+> **TL;DR** — Saját ismerős-lista (10 név) + személyes üzenet (3-4 mondat) + ajánláskérés a sikeres első ügyfelektől.
+> - **Dokumentáló hang**, nem tanácsadó — még én is tanulom, néha rosszul sül el
+> - **Ne tömeges email** — minden embernek külön, 3-4 mondat, beszélgetésre hív (nem ajánlat)
+> - **Ajánláskérés sablon**: "Gondolkozz 2 emberen, aki ott áll, ahol te egy hónapja" (konkrét szám, konkrét időkeret)
+
 ## A hét témája
 
-Ezt a modult máshogy írom, mint az előzőeket. A többi modul technikai jellegű volt — ott pontosan lehet leírni, mit csinálj, mert egy Cal.com workflow vagy egy Vercel deploy mindenkinél ugyanúgy működik. Az ügyfél-szerzés nem ilyen. Itt nem azt mondom el, „hogyan kell", hanem azt, **mit próbálok meg én magam, és mit tanulok közben**. Még nincs sok fizető ügyfelem — ezért a hangom itt nem tanácsadó, hanem dokumentáló: „ezt teszem én, így gondolkodom, ez a hipotézisem, ez a kockázatom".
+Ezt a modult máshogy írom. A többi technikai volt — Cal.com workflow vagy Vercel deploy mindenkinél ugyanúgy működik. Az ügyfél-szerzés nem. Itt nem azt mondom el, „hogyan kell", hanem **mit próbálok meg és mit tanulok közben**. Nincs sok fizető ügyfelem — a hangom dokumentáló: „ezt teszem, így gondolkodom, ez a hipotézis, ez a kockázat".
 
 ## 01. Az ismerős-lista — tíz ember, akit már ismersz
 
-Az első tíz potenciális ügyfél nem Facebook-hirdetésből jön — hanem a saját környezetedből. Volt kollégák, üzleti ismerősök, családi kapcsolatok, akik most pont egy olyan helyzetben vannak, amire neked van válaszod. Kezdj egy listával: kik azok az emberek, akiket az elmúlt 5 évben szakmailag ismertél meg, és valamilyen szinten megbíznak benned? Ne fókuszálj arra, hogy „passzol-e az avatárhoz" — az most másodlagos. Az számít, hogy ismernek, és nem kell magadat bemutatni. Tíz név. Ha nincs tíz, akkor öt — de mindenképp konkrét emberek, nem „ismerőseim általában".
+Az első tíz ügyfél nem Facebook-hirdetésből jön — a saját környezetedből:
+
+- Volt kollégák
+- Üzleti ismerősök
+- Családi kapcsolatok
+
+Akik most pont olyan helyzetben vannak, amire van válaszod. Kik azok, akiket az elmúlt 5 évben szakmailag ismertél meg, és megbíznak benned? Ne fókuszálj az „avatárhoz passzolásra" — az másodlagos. Az számít, hogy ismernek, nem kell bemutatkozni. Tíz név (ha nincs tíz, öt) — konkrét emberek, nem „ismerőseim általában".
 
 ## 02. A személyes üzenet — beszélgetés, nem tömeges email
 
-Most következik a rész, amit a legtöbben rosszul csinálnak: tömeges email-t küldenek, ugyanazzal a szöveggel, mintha hirdetést dobnának ki. Ez nem személyes és nem működik. Amit én próbálok: minden egyes embernek külön üzenet, max 3-4 mondat, és nem azzal kezdődik, hogy „van egy új szolgáltatásom". Inkább: „Szia X, valami újat csinálok mostanában — gondoltam, megmutatnám, mert úgy érzem, neked is hasznos lehet. Ráérsz egy 20 perces beszélgetésre a héten?" Ez nem értékesítés — ez egy ajánlat egy beszélgetésre. A beszélgetés alatt nem prezentálsz, hanem kérdezel: „Mostanában milyen problémád van [a saját területeden]?" — és innen jön a folyamat. **Ezt én is most tanulom — minden hét új tanulság, és néha rosszul sül el. Ez nem hiba, hanem bemenet.**
+Amit a legtöbben rosszul csinálnak: tömeges email ugyanazzal a szöveggel. Nem személyes, nem működik.
+
+Amit én próbálok: minden embernek külön üzenet, max 3-4 mondat, nem „van egy új szolgáltatásom"-mal kezdődik. Inkább:
+
+> „Szia X, valami újat csinálok mostanában — gondoltam, megmutatnám, mert úgy érzem, neked is hasznos lehet. Ráérsz egy 20 perces beszélgetésre a héten?"
+
+Ez nem értékesítés — ajánlat egy beszélgetésre. A beszélgetés alatt ne prezentálj, kérdezz: „Mostanában milyen problémád van [a saját területeden]?" — innen jön a folyamat.
+
+**Ezt én is most tanulom — minden hét új tanulság, néha rosszul sül el. Nem hiba, hanem bemenet.**
 
 ## 03. Ajánláskérés — az első elégedett ügyfél után
 
-Ha sikerül leszerződni az első egy-két emberrel, és elégedettek a munkával, akkor jön a következő lépés: ajánláskérés. Nem érzelmi zsarolás („tudnál ajánlani valakit?"), hanem konkrét: „Gondolkozz két emberen, aki most pont ott áll, ahol te álltál egy hónapja. Ha eszedbe jut valaki, küldj nekem üzenetet, és én felveszem vele a kapcsolatot." A specifikus szám (kettő, nem „valaki") és a konkrét időkeret (most, nem „valamikor majd") teszi az ajánláskérést cselekvésre váltóvá. Ezt is dokumentálom magamnak: melyik ügyfél hányat ajánl, milyen szövegre reagál legjobban. Az ajánlás-rendszer szerintem ott válik értékessé, amikor az első 5 ügyfélnél kialakul egy ritmus — de hogy mennyire működik a gyakorlatban, azt majd látom és visszajelzek.
+Ha leszerződsz az első 1-2 emberrel és elégedettek, jön az ajánláskérés. Nem érzelmi zsarolás, hanem konkrét:
+
+> „Gondolkozz két emberen, aki most pont ott áll, ahol te álltál egy hónapja. Ha eszedbe jut valaki, küldj nekem üzenetet, és én felveszem vele a kapcsolatot."
+
+Kulcsok:
+- **Specifikus szám** (kettő, nem „valaki")
+- **Konkrét időkeret** (most, nem „valamikor majd")
+
+Ezt dokumentálom: melyik ügyfél hányat ajánl, milyen szövegre reagál legjobban. Az ajánlás-rendszer az első 5 ügyfélnél kialakuló ritmusnál válik értékessé — de hogy mennyire működik a gyakorlatban, azt majd látom és visszajelzek.
 
 ## Heti feladat
 

@@ -6,28 +6,25 @@ lastReviewed: "2026-05-16"
 
 > Magyar nyelvű részletes elemzések 38 nemzetközi kurzus-vállalkozó landing-, email- és sales-anyagairól. Az elmúlt évek alatt összegyűjtött tár, ahonnan minden új landing-építéshez lehet inspirálódni.
 
+> **TL;DR** — Referencia-katalógus 38 nemzetközi szakértő landing-, email- és sales-anyagairól, magyar elemzéssel.
+> - **NEM kötelező olvasmány** — landing/email/sales építéskor nyúlsz hozzá inspirációért
+> - **Kategóriák**: high-ticket coaching, webinár, kurzus-funnel, lead magnet, várólista, membership, tréning program
+> - **Mit nézz**: fókusz (mit kommunikál a hero), struktúra (hány szekció, milyen sorrendben), hosszúság, garancia/FAQ/vélemény blokkok
+> - **Belépőpont**: 6. James Smith (teljes funnel), 21. Amy Porterfield, 27. Justin Welsh
+
 ## Miről szól ez a bónusz tár?
 
-Ezt a katalógust az elmúlt 1-2 év során raktam össze és fordítottam le, mert a magyar piacon kevés a hozzáférhető landing- és funnel-elemzés. Amikor saját ajánlatot, weboldalt vagy email-sorozatot építettem, sokszor néztem át nemzetközi szakértők anyagait — és minden alkalommal frusztráló volt, hogy nem volt egy strukturált tár, ahova vissza tudtam volna nyúlni.
+Ezt a katalógust 1-2 év alatt raktam össze és fordítottam le — a magyar piacon kevés a hozzáférhető landing- és funnel-elemzés. Amikor saját ajánlatot, weboldalt vagy email-sorozatot építettem, frusztráló volt, hogy nincs strukturált tár. Most te is hozzáférsz.
 
-Ezért készítettem el a sajátomat. Most te is hozzáférsz.
+**NEM kötelező végigolvasandó modul.** Referencia-katalógus, amihez új landing/email/sales építésekor nyúlsz. A te szakmádra adaptálni kell — soha ne másolj egy az egyben.
 
-**Ez NEM egy kötelező végigolvasandó modul.** Ez egy referencia-katalógus, amihez akkor nyúlsz, amikor új landing-et, email-sorozatot vagy sales-szöveget építesz, és látni akarod, hogyan oldotta meg ezt egy bevált szakértő. A te szakmádra mindig adaptálni kell — soha ne másolj le semmit egy az egyben.
+**Kategóriák**: high-ticket coaching és mentorship, live workshop és webinár, kurzusvásárlás funnelek, lead magnet email-sorozatok, várólista / pre-launch, membership / közösségi termékek, tréning programok, certificate-rendszerek.
 
-A 38 esettanulmány különböző kategóriákat fed le:
-- high-ticket coaching és mentorship landing-ek,
-- live workshop és webinár sales-oldalak,
-- kurzusvásárlás funnelek,
-- lead magnet email-sorozatok,
-- várólista- és pre-launch oldalak,
-- membership és közösségi termékek,
-- tréning programok és certificate-rendszerek.
-
-A tapasztalatom szerint a legtöbb tanulság nem az, hogy „ennek a kreatív hero-szövegét lemásolom", hanem hogy:
-- látod, mire fókuszáltak (mi az, amit a hero-ban kommunikálnak, és mi az, amit elhalasztottak az aljára),
-- látod a struktúrát (hány szekció, milyen sorrendben, mi az utolsó CTA előtt),
-- látod a hosszúságot (egy 5-szekciós minimalista oldal vagy egy 20+ szekciós long-form),
-- látod, hogy a garancia / FAQ / vélemény blokkok hogyan vannak megírva.
+**Mit érdemes nézni** (a legtöbb tanulság nem a hero-szöveg lemásolása):
+- Mire fókuszáltak (mit kommunikálnak a hero-ban, mit halasztottak az aljára)
+- Struktúra (hány szekció, milyen sorrendben, mi az utolsó CTA előtt)
+- Hosszúság (5-szekciós minimalista vs 20+ szekciós long-form)
+- Garancia, FAQ, vélemény blokkok megfogalmazása
 
 ## Hogyan használd ezt a tárat
 

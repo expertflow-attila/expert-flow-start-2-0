@@ -6,21 +6,54 @@ lastReviewed: "2026-05-16"
 
 > Ahogy ez a kurzus is készült. Az első digitális termék, amit egyedül és AI-vezérelt segédlettel összerakhatsz — három héten belül, 50-100 ezer forint eszköz-költséggel.
 
+> **TL;DR** — Videókurzus AI-vezérelt vágással 3 hét alatt: OBS + Whisper + Claude Code + Mux/Vimeo + Stripe.
+> - **Felvétel**: OBS Studio (ingyen) + USB mikrofon (Fifine/Samson, 15-20 ezer Ft), 1 lecke = 1 take
+> - **Vágás**: Whisper transzkript → Claude Code javasol jump cut-okat → DaVinci Resolve vagy FFmpeg
+> - **Hosztolás + értékesítés**: Mux (10-30 ezer Ft/hó) vagy Vimeo Pro (~10 ezer Ft/hó) + Stripe Payment Link + Kit küldi a belépőt
+> - **Idő**: 1 hét felvétel + 1 hét vágás + 1 hét hosztolás-landing
+
 ## A hét témája
 
-Ez a bónusz-modul a 12 hét után jön — amikor már van weboldalad, lead magneted, ügyfeleid és működő hátterend. Amit megtanultam: a skálázódás első igazi lépése, hogy a saját tudásodat egyetlenegyszer felveszed, és sokszor el tudod adni: ez egy fizetős videókurzus. Ezen a héten azt mutatom meg, hogyan készítettem el én ezt a kurzust, amit éppen olvasol — és hogyan tudod ugyanezt a folyamatot a saját tudásodra alkalmazni. A kulcs az AI-vezérelt videovágás: nem prémium szerkesztő-szoftverre van szükséged, hanem egy működő pipeline-ra, amiben a Claude Code és a Whisper segít.
+A bónusz a 12 hét után jön — amikor már van weboldalad, lead magneted, ügyfeleid, működő hátterend. A skálázódás első lépése: a tudásodat egyszer felveszed, sokszor eladod = fizetős videókurzus.
+
+Itt mutatom meg, hogyan készítettem el ezt a kurzust, amit olvasol — és hogyan alkalmazod a saját tudásodra. Kulcs: AI-vezérelt videovágás. Nem prémium szerkesztő-szoftver, hanem működő pipeline (Claude Code + Whisper).
 
 ## 01. Mit rögzíts? — curriculum a saját tudásod alapjából
 
-A 12 hét lezárása után tudod, mi a tudásod alapja (1. modul) — ebből lesz az első videókurzus, kibontva 8-12 leckére. A struktúra a tréningek-stílust követheti (4 fázis × 3 lecke), vagy egyetlen ívben halad: probléma → módszer → lépések → eredmény. A felvétel technikai része egyszerű: OBS Studio (ingyenes) screen recording módban, USB mikrofon (Fifine vagy Samson, 15-20 ezer Ft), webkamera opcionális. Amit megtanultam: 1 leckét EGY menetben érdemes felvenni, ne 5 take-ben. Az imperfekció hitelesebb, mint a túl-csiszolt felvétel — és sokkal gyorsabban végzel. 8-12 lecke × 8-15 perc felvétel ≈ egy hét munka, ha napi 1-2 leckét rögzítesz.
+A 12 hét után tudod a tudásod alapját (1. modul) — ebből 8-12 leckés videókurzus.
+
+**Struktúra**: tréning-stílus (4 fázis × 3 lecke) vagy egy ív (probléma → módszer → lépések → eredmény).
+
+**Felvétel**:
+- **OBS Studio** (ingyenes) screen recording módban
+- **USB mikrofon** (Fifine vagy Samson, 15-20 ezer Ft)
+- Webkamera opcionális
+
+1 lecke = EGY take, ne 5. Az imperfekció hitelesebb, mint túl-csiszolt — és gyorsabb. 8-12 lecke × 8-15 perc ≈ egy hét munka napi 1-2 leckével.
 
 ## 02. AI-vezérelt videovágás
 
-Azt vettem észre, hogy a vágás az, amitől a kezdők megszaladnak — pedig a Claude Code és a Whisper együtt itt is dolgozik. A folyamat: a nyers felvételt Whisperrel transzkriptálod (lokálisan MacWhisperrel vagy az OpenAI Whisper API-jával), és időbélyeges szöveget kapsz. A transzkripciót a Claude Code-nak odaadod, és megkéred, hogy javasoljon jump cut-okat: hosszú csendek, ismétlések, „öhm"-ök, hibásan elindított mondatok. Az AI visszaad egy konkrét vágási listát időbélyegekkel — ezt vagy DaVinci Resolve-ban (ingyenes, vizuális) követed, vagy FFmpeg parancsokkal automatikusan végrehajtod (a Claude Code generálja a parancsot is). A felirat (caption) szintén a Whisper-transzkripcióból készül, opcionálisan szín-kiemeléssel a fontos szavakon. Egy 10 perces nyers felvétel vágása így 20-30 perc, nem 2 óra.
+A vágás az, amitől a kezdők megszaladnak — Claude Code + Whisper együtt megoldja.
+
+**Folyamat**:
+1. Nyers felvétel → Whisper transzkripció (lokálisan MacWhisper, vagy OpenAI Whisper API) → időbélyeges szöveg
+2. Transzkriptet Claude Code-nak adod, jump cut javaslat: hosszú csendek, ismétlések, „öhm"-ök, hibás mondatok
+3. Vágási lista időbélyegekkel → DaVinci Resolve (ingyen, vizuális) vagy FFmpeg parancsok (Claude Code generálja)
+4. Felirat (caption) szintén a Whisper-transzkripcióból, opcionális szín-kiemelés a fontos szavakon
+
+10 perces nyers felvétel → 20-30 perc vágás, nem 2 óra.
 
 ## 03. Hosztolás és értékesítés
 
-A kész videókat tárolni kell valahol, ahonnan a vásárlók megnézhetik. Két logikus opció: a **Mux** (fejlesztőbarát, használat-alapú árazás, kb. 10-30 ezer Ft/hó induláskor) vagy a **Vimeo Pro** (kezdőbarát, fix díj, ~10 ezer Ft/hó, a videók egyszerűen embed-elhetők). Az értékesítés a **Stripe Payment Link**-kel történik: létrehozol egy egyszeri vagy előfizetéses fizetési linket, és a vásárlás után a Kit (a 9. modul email-szolgáltatója) automatikusan elküldi a kurzus belépő-emailjét, benne a videók linkjével. A landing oldalt a 6. modul mintája szerint építed (a `landing.html`-t másolod, kicseréled a tartalmat). A teljes pipeline körülbelül 3 hét munka: 1 hét a felvétel, 1 hét a vágás és feliratozás, 1 hét a hosztolás és értékesítési oldal felállítása.
+**Videó-hoszting** (két opció):
+- **Mux** — fejlesztőbarát, használat-alapú, ~10-30 ezer Ft/hó induláskor
+- **Vimeo Pro** — kezdőbarát, fix díj ~10 ezer Ft/hó, egyszerű embed
+
+**Értékesítés**: **Stripe Payment Link** (egyszeri vagy előfizetés) → vásárlás után a **Kit** (9. modul) küldi a belépő-emailt a videók linkjével.
+
+**Landing**: 6. modul mintája szerint (`landing.html` másolva, tartalom cserélve).
+
+**Teljes pipeline 3 hét**: 1 hét felvétel + 1 hét vágás-feliratozás + 1 hét hosztolás-landing.
 
 ## Heti feladat
 

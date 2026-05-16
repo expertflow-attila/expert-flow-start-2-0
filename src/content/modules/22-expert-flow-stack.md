@@ -6,13 +6,21 @@ lastReviewed: "2026-05-16"
 
 > Egy referencia-tár arról, milyen szolgáltatásokat használok ma a Solo Business rendszerben. Nem azt mondja, hogy ezeket Neked is használnod kell — csak megmutatja, hova lehet eljutni, ha tovább építkezel a 12 modul után.
 
+> **TL;DR** — A Solo Business teljes stack-je: ~52 szolgáltatás 11 kategóriában. Inspiráció, nem to-do lista.
+> - **Alap (1-12. modulokból)**: Vercel, GitHub, Sybell, Google Workspace, Cal.com, Kit, Sheets, GA4, Stripe, Számlázz.hu — havi 1-3M Ft bevételig bőven elég
+> - **18 hónap alatt** építettem fel, nem 18 nap — egyszerre 1-2 új szolgáltatás, ahogy nősz
+> - **Növekedési sávok**: AI-routing (OpenRouter) → scraping (Apify, Exa) → tartalom (fal.ai, ElevenLabs) → DB (Supabase), PostHog, ClickUp, Webflow
+> - Ne kezdj most telepíteni — az alap-stack hoz vásárlókat
+
 ## Mire való ez a tár
 
-A 12 építő modul egy minimális, kezdőbarát stack-re épül: Vercel, Cal.com, Kit, Google Workspace, Sheets, GA4, Stripe Payment Link. Ez bőven elég az első 5-10 ügyfélig. **A Solo Business rendszer mögött ennél lényegesen több szolgáltatás dolgozik** — nem mert szükséges, hanem mert menet közben fokozatosan kiderült, hogy hol mire van szükség. Ez a tár arra való, hogy lásd a teljes lehetőség-térképet, és ha valamelyik kategória érdekel, tudj utána olvasni.
+A 12 építő modul minimális kezdőbarát stack-re épül: Vercel, Cal.com, Kit, Google Workspace, Sheets, GA4, Stripe Payment Link. Bőven elég az első 5-10 ügyfélig.
 
-**Fontos figyelmeztetés:** ne kezdj el most ezeket telepíteni. A 12 modulos alaprendszer hoz neked vásárlókat, ezek a szolgáltatások utána, fokozatosan jönnek be — egyszerre 1-2-t, ahogy a saját rendszered növekszik. A Solo Business stack-jét kb. 18 hónap alatt építettem fel — nem 18 nap alatt.
+**A Solo Business mögött ennél lényegesen több szolgáltatás dolgozik** — nem szükségből, hanem mert menet közben kiderült, hol mire van szükség. Ez a tár a teljes lehetőség-térkép.
 
-A csoportosítás 11 kategóriába rendezi a szolgáltatásokat, mindegyikhez 1-3 mondat magyarázattal.
+**Figyelmeztetés**: ne kezdj most telepíteni. A 12 modulos alap hoz vásárlókat. Ezek fokozatosan jönnek, egyszerre 1-2, ahogy a rendszered nő. Solo Business stack: ~18 hónap, nem 18 nap.
+
+11 kategória, mindegyikhez 1-3 mondat.
 
 ---
 

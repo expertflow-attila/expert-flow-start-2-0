@@ -6,11 +6,22 @@ lastReviewed: "2026-05-16"
 
 > KATA, EV, Számlázz.hu, NAV, ÁSZF — a magyar jogi környezet kötelező alapja, ami nélkül az első fizető ügyfél nem szállítható.
 
+> **TL;DR** — Vállalkozási forma + magyar számlázás + fizetés + ÁSZF/GDPR — az első fizető ügyfél előtti minimum.
+> - **Forma**: csak magánszemély ügyfél → KATA; vegyes (céges is) → EV átalányadó; több alapító + nagy forgalom → Kft.
+> - **Számlázás**: Számlázz.hu vagy Billingo + NAV Online Számla regisztráció (kötelező)
+> - **Fizetés**: belföld → Stripe HUF (~2% + 50 Ft), külföld → Wise Business multi-currency, számlázás külön
+> - **Kötelező jogi**: ÁSZF + Adatvédelmi nyilatkozat — NE AI-val generáld, jogi sablon (5-10 ezer Ft) vagy tanácsadó
+
 **Utoljára ellenőrizve: 2026-05-15.** A magyar adózási szabályok változnak (a KATA-küszöbtől az ÁFA-szabályokig). Ellenőrizd a NAV oldalán mindig — ez a modul tájékoztató, nem könyvelői tanácsadás.
 
 ## A hét témája
 
-Ez a modul nem inspiráló, és nem is annak szánom — egyszerűen a jogi és adózási minimum, ami nélkül vállalkozni nem lehet Magyarországon. Azt vettem észre, hogy sok kezdő vállalkozó ezt tolja maga előtt hónapokig („majd ha lesz pénz"), és aztán éppen az első ügyfél előtt kerül bajba. Ezen a héten szétszedjük a három alap-kérdést: milyen formában indítsd a vállalkozást (KATA, EV, Kft.), milyen számlázó-rendszert használj (Számlázz.hu vagy Billingo), és milyen kötelező jogi szövegek (ÁSZF, Adatvédelmi nyilatkozat) kerülnek a webhelyedre.
+Nem inspiráló modul — jogi és adózási minimum, ami nélkül vállalkozni nem lehet Magyarországon. Sok kezdő tolja maga előtt hónapokig („majd ha lesz pénz"), és az első ügyfél előtt kerül bajba.
+
+Három alap-kérdés:
+1. Vállalkozási forma (KATA, EV, Kft.)
+2. Számlázó-rendszer (Számlázz.hu vagy Billingo)
+3. Kötelező jogi szövegek (ÁSZF, Adatvédelmi nyilatkozat)
 
 ## 01. KATA / EV / Kft. — melyik forma?
 
@@ -56,7 +67,20 @@ A saját utamon ezt láttam: ha **csak magánszemélyeknek** szolgáltatsz és n
 
 ## 02. Számlázz.hu (vagy Billingo) + NAV bejelentkezés
 
-A magyar számlázás 2021 óta digitális — papír-számla már nem működik. Két nagy szolgáltató van: a **Számlázz.hu** (a legelterjedtebb, ingyenes alap-csomag, kb. 5000 Ft/év a fizetős verzió) és a **Billingo** (modernebb felület, hasonló árazás). Mindkettő automatikusan küldi az adatokat a NAV felé az Online Számla rendszerbe, ami kötelező. A setup lépései: regisztráció, vállalkozás-adatok megadása (adószám, székhely), számla-sablon beállítása (logo, fejléc), és a NAV Online Számla regisztráció (külön a `onlineszamla.nav.gov.hu`-n, kell hozzá egy „technikai felhasználó", amit a Számlázz.hu/Billingo automatikusan kezel). Amit megtanultam: az első számla előtt érdemes letesztelni a folyamatot egy sztornózott teszt-számlával — ne az első élő ügyfélnél derüljön ki, hogy valami nem stimmel.
+A magyar számlázás 2021 óta digitális — papír-számla már nem működik. Két nagy szolgáltató:
+
+- **Számlázz.hu** — a legelterjedtebb, ingyenes alap-csomag, kb. 5000 Ft/év a fizetős verzió
+- **Billingo** — modernebb felület, hasonló árazás
+
+Mindkettő automatikusan küldi az adatokat a NAV-nak (Online Számla rendszer, kötelező).
+
+**Setup-lépések**:
+1. Regisztráció
+2. Vállalkozás-adatok (adószám, székhely)
+3. Számla-sablon (logo, fejléc)
+4. NAV Online Számla regisztráció külön a `onlineszamla.nav.gov.hu`-n — kell egy „technikai felhasználó", amit a Számlázz.hu/Billingo automatikusan kezel
+
+Az első számla előtt teszteld egy sztornózott teszt-számlával — ne az első élő ügyfélnél derüljön ki, hogy valami nem stimmel.
 
 ## Fizetési megoldások (Stripe HUF / Wise)
 
@@ -94,7 +118,17 @@ Alternatívák magyar piacon (ha a Stripe nem fér be): **Barion** (magyar feldo
 
 ## 03. ÁSZF + Adatvédelmi nyilatkozat a webhelyre
 
-Két kötelező jogi szöveg kerül a webhely lábához: (1) **ÁSZF (Általános Szerződési Feltételek)** — ha online szolgáltatásokat értékesítesz, ez kötelező. Tartalmazza, hogy mit szolgáltatsz, milyen feltételekkel, milyen árakon, mi a panaszkezelés, mi a felmondási feltétel; (2) **Adatvédelmi nyilatkozat (GDPR)** — ha email-címet, nevet vagy bármilyen személyes adatot gyűjtesz (Kit feliratkozás, Cal.com foglalás), ez is kötelező. Tartalmazza, hogy milyen adatokat gyűjtesz, miért, mennyi ideig tárolod, kihez kerülhet, hogyan lehet kérni a törlést. **Ezeket NE generáld egyedül AI-val** — az ÁSZF és az Adatvédelmi nyilatkozat jogi dokumentumok, amiknél hibázni következményekkel jár. Magyarul két egyszerű opció van: (1) szabályos jogi sablon vásárlása (5-10.000 Ft, pl. a `jogiportal.hu`-n vagy hasonló), vagy (2) egy online jogi tanácsadó szolgáltatás, ami a saját webhelyedhez szabott szöveget ad. A két fájlt PDF-ként vagy HTML-szövegként a webhely láb-szekciójához linkeled.
+Két kötelező jogi szöveg a webhely lábához:
+
+- **ÁSZF (Általános Szerződési Feltételek)** — kötelező, ha online szolgáltatásokat értékesítesz. Tartalmazza: mit szolgáltatsz, milyen feltételekkel, milyen árakon, panaszkezelés, felmondási feltétel.
+- **Adatvédelmi nyilatkozat (GDPR)** — kötelező, ha email-címet, nevet vagy bármilyen személyes adatot gyűjtesz (Kit feliratkozás, Cal.com foglalás). Tartalmazza: milyen adatokat gyűjtesz, miért, mennyi ideig, kihez kerülhet, hogyan lehet kérni a törlést.
+
+**Ezeket NE generáld egyedül AI-val** — jogi dokumentumok, amiknél hibázni következményekkel jár. Két opció:
+
+1. Szabályos jogi sablon (5-10 ezer Ft, pl. `jogiportal.hu` vagy hasonló)
+2. Online jogi tanácsadó szolgáltatás, saját webhelyhez szabott szöveg
+
+A két fájlt PDF-ként vagy HTML-szövegként a webhely láb-szekciójához linkeled.
 
 ## Heti feladat
 

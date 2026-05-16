@@ -4,9 +4,15 @@ lastReviewed: "2026-05-16"
 
 # 5. modul — Funnel típusok
 
+> **TL;DR** — 14 funnel-típus rövid összefoglalása, magas szintű end-to-end leírással és sablonokkal.
+> - Funnel = 3-7 lépéses automatizált utazás landingtől fizetésig
+> - **Top 4 induláshoz**: konzultációs, lead magnet, webinar, discovery → fizetés
+> - **Kezdetnek 2-3 funnel elég** — ne építs 14-et; konzultációs + lead magnet a leggyakoribb kombináció
+> - Részletes 23 funnel: [Funnel Tananyag](https://funnel-tananyag.vercel.app)
+
 ## Modul áttekintés
 
-A 4. modul az egyes oldalakkal foglalkozott. Az 5. modul az oldalak ÖSSZEKAPCSOLÁSÁVAL — a teljes utazással, amit egy érdeklődő bejár a webhelyedtől a fizetős ügyfélig. 14 funnel-típust mutatok be magas szinten, mindegyikhez egy end-to-end leírás, email-sablonok, és Apps Script vagy automatizációs lépések. Ezek nem egymást kizáró opciók — egyszerre több funnel is futhat a webhelyeden, különböző forgalmakra.
+A 4. modul az egyes oldalakkal foglalkozott. Az 5. modul az oldalak ÖSSZEKAPCSOLÁSÁVAL — a teljes utazással, amit egy érdeklődő bejár a webhelytől a fizetős ügyfélig. 14 funnel-típus, end-to-end leírás, email-sablonok, Apps Script / automatizáció. Egyszerre több futhat különböző forgalmakra.
 
 > A részletes funnel-kombinációkat (B2B vs B2C, hideg vs meleg forgalom, magas árú vs alacsony árú) megtalálod a [Funnel Tananyag](https://funnel-tananyag.vercel.app) site-on — ott 23 funnel-típus szerepel, mindegyikhez wireframe + email-sablon + automatizációs javaslat.
 

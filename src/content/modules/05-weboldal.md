@@ -6,25 +6,61 @@ lastReviewed: "2026-05-16"
 
 > Beszélgetés az AI-jal, nem kódolás. HTML + Tailwind + Vercel — élesben, a saját domaineden, két óra alatt.
 
+> **TL;DR** — 8 szekciós oldal Claude Code-dal generálva, Vercel-re deployolva, saját domainen, 2 óra alatt.
+> - **8 szekció kötött sorrendben**: Hero, Problémák, Megoldás, Rólam, Outcome-ok, Garancia, FAQ, CTA+footer
+> - **HTML + Tailwind CDN** Claude Code-dal, finomítás 2-3 prompt körrel — 20-30 perc
+> - **Vercel deploy**: GitHub → Vercel → custom domain (Sybell A+CNAME), 1-2 óra propagáció, ingyen HTTPS
+> - **CTA mögött Stripe HUF Checkout** (~2% + 50 Ft, NAV-számlát Számlázz.hu-val párosítsd — 12. modul)
+
 ## A hét témája
 
-Azt vettem észre, hogy a legtöbb kezdő itt akad meg: a weboldal túlbonyolítva tűnik. Pedig egy lead-magnetes, egyoldalas weboldal felépítése ma annyi, hogy az AI-nak elmondod, mi legyen rajta — és ő megírja a HTML-t. Ezen a héten ezt csináljuk meg: egy nyolc szekciós oldal a saját domaineden, mobil-barát, HTTPS-es, és nem olyan, mint egy ingyenes sablon. A cél nem a látvány — hanem hogy létezzen, és az ajánlatod 30 másodperc alatt érthető legyen róla.
+A legtöbb kezdő itt akad meg: a weboldal túlbonyolítva tűnik. Pedig egyoldalas weboldal felépítése ma annyi, hogy az AI-nak elmondod, mi legyen rajta — és ő megírja a HTML-t. Egy nyolc szekciós oldal a saját domaineden, mobil-barát, HTTPS-es. Cél: létezzen, és az ajánlatod 30 mp alatt érthető legyen róla.
 
 ## 01. A nyolc szekció
 
-Nálam ez jött be: egy egyoldalas oldal nyolc szekcióból áll, kötött sorrendben: (1) Hero (egy mondatos ígéret + CTA gomb), (2) Problémák (3 fájdalom, amit a vevőd érez), (3) Megoldás (mit csinálsz), (4) Rólam (mini, 3-4 mondat), (5) Outcome-ok (mit kap a vevő ténylegesen), (6) Garancia, (7) FAQ (5-7 kérdés-válasz), (8) CTA + footer. Mindegyik szekciónak EGY dolga van — egy érzés, egy felismerés, egy kattintás. Egy idő után rájöttem, hogy ne töltsd tele mindent mindennel — ha egy szekció két dologról próbál szólni, már bonyolult. Az 1-3. modulban már van anyagod mindhez: az ajánlat 1 mondata a Hero-ba kerül, a 3 problémát a vevő hangjából emeled át, a 3 outcome a csomagból jön.
+Kötött sorrendben:
+
+1. **Hero** — egy mondatos ígéret + CTA gomb
+2. **Problémák** — 3 fájdalom, amit a vevőd érez
+3. **Megoldás** — mit csinálsz
+4. **Rólam** — mini, 3-4 mondat
+5. **Outcome-ok** — mit kap a vevő ténylegesen
+6. **Garancia**
+7. **FAQ** — 5-7 kérdés-válasz
+8. **CTA + footer**
+
+Mindegyik szekciónak EGY dolga van — egy érzés, egy felismerés, egy kattintás. Ne tölts mindent mindennel. Az 1-3. modulban már van anyagod: ajánlat 1 mondata → Hero, 3 probléma → vevő hangjából, 3 outcome → csomagból.
 
 ## 02. HTML és Tailwind generálás Claude Code-dal
 
-A 04. modul setup-ja után megnyitsz egy üres mappát a VS Code-ban, és a Claude Code-nak elmondod: „Készíts egy index.html-t Tailwind CDN-ről, ezekkel a szekciókkal: [lista]." A Tailwind egy utility-first CSS framework, ami CDN-ről egyetlen sorral betölthető — nem kell külön build-folyamat, ami a kezdőknek általában a leggyakoribb akadály. A prompt második körében finomítasz: „A hero legyen csendesebb, a garancia legyen kiemelve más háttérszínnel, a FAQ legyen accordion." Az AI generálja az új verziót — te ránézel a böngészőben (`open index.html`), ha valami nem stimmel, visszaszólsz. 20-30 perc, és kész a fájl.
+A 4. modul setup-ja után üres mappa VS Code-ban, és a Claude Code-nak elmondod: „Készíts egy index.html-t Tailwind CDN-ről, ezekkel a szekciókkal: [lista]." Tailwind CDN egyetlen sorral betölthető — nincs build-folyamat (a kezdők leggyakoribb akadálya).
+
+Második prompt-kör: „A hero legyen csendesebb, a garancia más háttérszínnel, a FAQ legyen accordion." Az AI újragenerálja, te ránézel a böngészőben (`open index.html`), visszaszólsz. 20-30 perc, kész.
 
 ## 03. GitHub és Vercel deploy + custom domain
 
-Az `index.html` a gépeden — még nem nyilvános. A Vercel egy ingyenes hoszting-szolgáltatás, ami GitHub-ról deployol egy kattintással. Lépéssor: GitHub-on új repo (a Claude Code segít a `git init`, `commit`, `push` parancsokkal), Vercel.com-on bejelentkezés GitHub-bal, „New Project", import a repo-t, „Deploy" — 30 másodperc, és van egy `tedneved.vercel.app` URL-ed. Aztán a saját domain rákötése: Vercel admin → Settings → Domains → `tedneved.hu` hozzáadása. Vercel ad két DNS-rekordot (egy A, egy CNAME), ezeket a Sybell DNS-be bemásolod (a 04. modul beállításán keresztül). 1-2 óra propagáció, és a saját domaineden van a webhely, automatikus HTTPS-szel. A Vercel **Hobby** csomag ingyenes (személyes/non-commercial), 100 GB bandwidth/hó — egy 5-10 oldalas landingre bőven elég, kereskedelmi forgalomra $20/hó-tól a **Pro** csomag.
+Az `index.html` még a gépeden. Vercel = ingyenes hoszting, GitHub-ról deployol egy kattintással.
+
+**Lépéssor**:
+1. GitHub új repo (Claude Code segít: `git init`, `commit`, `push`)
+2. Vercel.com → GitHub-login → „New Project" → import repo → „Deploy" (30 mp, `tedneved.vercel.app`)
+3. Custom domain: Vercel admin → Settings → Domains → `tedneved.hu`
+4. Vercel ad 2 DNS-rekordot (A + CNAME), bemásolod a Sybell DNS-be
+5. 1-2 óra propagáció, automatikus HTTPS
+
+A Vercel **Hobby** csomag ingyenes (személyes/non-commercial, 100 GB bandwidth/hó), kereskedelmi forgalomra $20/hó-tól a **Pro**.
 
 ## 04. Fizető-megoldás a CTA-gombra (Stripe HUF Checkout)
 
-Amikor az ajánlatod kész, és a weboldal él, a **Foglalj most** / **Vásárolj** gomb mögé legegyszerűbb a **Stripe HUF Checkout** (`stripe.com`) — egy URL-t generálsz a Stripe-fiókodban (Products → Payment link), kiteszed az `<a href="https://buy.stripe.com/...">` gombra, és a vevő közvetlenül a Stripe oldalán fizet bankkártyával vagy Apple/Google Pay-jel. ~2% + 50 Ft/tranzakció, magyar bankszámlára heti kifizetés. A Stripe **nem ad NAV-konform e-számlát** — ezt a Számlázz.hu-val párosítsd (manuálisan vagy webhook-on át, kb. egy óra Claude Code-dal). Részletes Stripe + Wise setup és NAV-számlázás-integráció: **12. modul** — itt csak annyit jegyezz meg, hogy a CTA-gombnak mindig kell egy mögötte lévő fizetési URL, és ezt a Stripe Checkout 10 perc alatt megadja.
+A **Foglalj most** / **Vásárolj** gomb mögé legegyszerűbb a **Stripe HUF Checkout** (`stripe.com`).
+
+- Stripe-fiók → Products → Payment link, URL-t generálsz
+- `<a href="https://buy.stripe.com/...">` gombra teszed
+- Vevő bankkártyával vagy Apple/Google Pay-jel fizet
+- ~2% + 50 Ft/tranzakció, magyar bankszámlára heti kifizetés
+- **Stripe nem ad NAV-konform e-számlát** — Számlázz.hu-val párosítsd (manuálisan vagy webhook-on, ~1 óra Claude Code-dal)
+
+Részletes Stripe + Wise setup és NAV-integráció: **12. modul**. Itt csak: a CTA-gomb mögé fizetési URL kell, Stripe Checkout 10 perc.
 
 ## Heti feladat
 

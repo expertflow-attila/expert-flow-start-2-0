@@ -6,21 +6,42 @@ lastReviewed: "2026-05-16"
 
 > Egy mondat, amit kristálytisztán értesz. Plusz három csomag-szint, ahol a középső a fő, a két szélső pedig az árazás peremvonala.
 
+> **TL;DR** — Egy mondat ajánlat + három csomag anchor-logikával, hogy az ismerős 30 mp alatt értse.
+> - 5 elem: vágyott eredmény, időkeret, garancia, érték-stack, egyetlen mondat
+> - 3 csomag: alsó belépő, középső fő (90% ezt veszi), felső drága anchor — mindegyiknél "kinek való" + "kinek NEM"
+> - Az első verzió rossz lesz — az első 5 fizető ügyfél után frissíted; indulj alacsony árral, később emelj
+
 ## A hét témája
 
-Amit megtanultam: az ajánlat nem szlogen — ajánlat akkor jó, ha az olvasó azt érzi, nem mondhat rá nemet anélkül, hogy hülyének nézné magát. Ezen a héten az 1-2. modul nyersanyagát (a tudásod alapja és a vevőd hangja) átfordítjuk konkrét ígéretté: egy mondatba az ajánlat, három szintbe a csomagok. A cél: a hét végére van valamid, amit az ismerősödnek el tudsz mondani 30 másodperc alatt, és mindenki érti.
+Az ajánlat nem szlogen. Akkor jó, ha az olvasó azt érzi, nem mondhat rá nemet anélkül, hogy hülyének nézné magát. Az 1-2. modul nyersanyagát (tudásod alapja + vevőd hangja) konkrét ígéretté fordítjuk: egy mondat ajánlat, három szint csomag. Cél: a hét végén el tudod mondani az ismerősödnek 30 másodperc alatt, és érti.
 
 ## 01. Az 5-elemes ajánlat-modell
 
-Egy jó ajánlat öt elemből áll össze: (1) a vágyott eredmény (mit fog érezni a vevő, ha megveszi), (2) az időkeret (mikorra), (3) a garancia (mit kockáztat, ha nem működik), (4) az érték-stack (mit kap a fő szolgáltatás mellé), (5) az egyetlen mondat (a fenti négy összehúzva). Először mind az ötöt papíron írd le külön — ne legyen szlogen-szagú. Aztán fűzd össze egyetlen mondattá: „Segítek [konkrét embereknek] elérni [konkrét eredményt] [konkrét időn belül], különben [konkrét garancia]." Ezt a mondatot fogod még átfogalmazni — most nem kell tökéletes, csak legyen egyértelmű.
+1. **Vágyott eredmény** — mit fog érezni a vevő, ha megveszi
+2. **Időkeret** — mikorra
+3. **Garancia** — mit kockáztat, ha nem működik
+4. **Érték-stack** — mit kap a fő szolgáltatás mellé
+5. **Egyetlen mondat** — a fenti négy összehúzva
+
+Mind az ötöt papíron írd le külön — ne legyen szlogen-szagú. Aztán: „Segítek [konkrét embereknek] elérni [konkrét eredményt] [konkrét időn belül], különben [konkrét garancia]." Még átfogalmazod — most csak legyen egyértelmű.
 
 ## 02. Három csomag, anchor-logikával
 
-A saját utamon ezt láttam: indulásnál ne két csomagot árazz, és ne ötöt — hármat. A középső a fő (90%-uk ezt veszi), a felső anchor (drága, hogy a fő olcsónak tűnjön), az alsó belépő (kevés, hogy ne legyen kockázatos). Mindegyikhez kell: név, ár, 5-8 bullet a tartalomról, egy mondat „kinek való", egy mondat „kinek NEM". A „kinek NEM" megmutatja, hogy nem mindenkinek akarsz eladni — ez paradox módon erősíti a hitelességet. A fő csomagra építsd rá az érték-stack-et: minden elemnek külön piaci értéke, az összeg legalább kétszerese az árnak. Ha nem éri el a kétszereset, vagy emelj értékben, vagy csökkents áron.
+Ne két csomag, ne öt — három.
+
+- **Középső (fő)** — 90%-uk ezt veszi
+- **Felső (anchor)** — drága, hogy a fő olcsónak tűnjön
+- **Alsó (belépő)** — kevés, hogy ne legyen kockázatos
+
+Mindegyikhez: név, ár, 5-8 bullet tartalom, egy mondat „kinek való", egy mondat „kinek NEM". A „kinek NEM" paradox módon erősíti a hitelességet.
+
+A fő csomagra építsd rá az érték-stacket: minden elemnek külön piaci értéke, az összeg legalább 2× az ár. Ha nem éri el, emelj értékben vagy csökkents áron.
 
 ## 03. Mikor frissítsd
 
-Egy idő után rájöttem, hogy az első verzió garantáltan rossz lesz — és ez nem baj. Az ajánlatot az első öt fizető ügyfél után frissíted, mert akkor látod először, hogy mit vesznek meg ténylegesen, mit hagynak ki, mit kérdeznek vissza. A változtatások nem cserélik le az alapot, csak finomítják a megfogalmazást, az érték-stacket, esetleg az árszintet. Nálam ez jött be: indulásnál érdemes lemenni az ársávon, ne fel — az első ügyfelek a hitelességed alapja, ők lesznek azok, akik majd ajánlanak. Az árat később könnyebb emelni, mint csökkenteni.
+Az első verzió garantáltan rossz lesz — és ez nem baj. Az első 5 fizető ügyfél után frissítesz: akkor látod először, mit vesznek meg ténylegesen, mit hagynak ki, mit kérdeznek vissza.
+
+Indulásnál lemenj az ársávon, ne fel — az első ügyfelek a hitelességed alapja, ők ajánlanak. Az árat később könnyebb emelni, mint csökkenteni.
 
 ## Heti feladat
 

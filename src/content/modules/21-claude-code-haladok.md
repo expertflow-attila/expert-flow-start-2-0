@@ -6,11 +6,17 @@ lastReviewed: "2026-05-16"
 
 > Húsz konkrét trükk három szinten — kezdő, köztes, haladó. A 4. modulban már megtanultad az alapokat; ez a referencia ott segít, amikor gyorsabb és olcsóbb akarsz lenni.
 
+> **TL;DR** — 20 Claude Code productivity-trükk három szinten (alap/köztes/haladó), 32-ből kiválogatva.
+> - **Alapok (8)**: `/init`, status line, kontextus-fegyelem, `/context`, `/compact` 60%-nál, plan mode, junior fejlesztő-mentalitás, önellenőrzés
+> - **Köztes (7)**: sub-agentek, custom skills, CLAUDE.md karbantartás, Esc + újrakérdezés, „scrap that", `/rewind`, screenshot self-check
+> - **Haladó (5)**: Chrome DevTools MCP, ultrathink, allow/deny lista, Context7 MCP, mobil távirányítás
+> - Heti 2-3 trükköt vezess be, ne mindent egyszerre
+
 ## Mire való ez a tár
 
-A 4. modul 02. leckéje végigvitt a Claude Code alapokon (parancsok, plan mode, sub-agentek, skills, MCP). Ezzel együtt a Claude Code közössége (angol nyelvterületen) az elmúlt évben felgyűjtött ennél lényegesen több productivity-fogást — a teljes lista 32 darabból áll. Itt ennek a 20 leghasznosabb darabját adom át magyarul, három szintre bontva. Ami túl haladó vagy túl niche volt (pl. BigQuery-integráció, Agent Teams, git worktrees), azt szándékosan kihagytam — a kurzus végén a „Mit hagytam ki" szekció listázza, ha tovább akarsz menni.
+A 4. modul 02. leckéje végigvitt a Claude Code alapokon. A közösség (angol nyelvterület) az elmúlt évben 32 productivity-fogást gyűjtött össze — itt a 20 leghasznosabbat adom át magyarul, három szintre bontva. Túl haladó vagy niche (BigQuery, Agent Teams, git worktrees) kimaradt — a „Mit hagytam ki" szekció listázza.
 
-A hangnem itt is átadó-tapasztalati: ezek a trükkök nálam dolgoznak, nem mindegyiket kell egyszerre bevezetned. Inkább 2-3-at hetente, és figyeld, melyik segít a saját ritmusodban.
+A hangnem átadó-tapasztalati: nem mindegyiket kell egyszerre bevezetned. Heti 2-3 trükk, és figyeld, melyik segít a saját ritmusodban.
 
 ## A. Alapok — 8 trükk, amit minden Claude Code-felhasználónak érdemes tudni
 

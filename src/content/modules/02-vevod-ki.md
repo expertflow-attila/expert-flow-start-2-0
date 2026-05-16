@@ -6,21 +6,40 @@ lastReviewed: "2026-05-16"
 
 > Egy konkrét ember, akiről tudod, mit csinál este 10-kor. Plusz tíz valódi beszélgetés, hogy ne képzelődj.
 
+> **TL;DR** — Egy konkrét ember, név + életkörülmény + esti gondolatok, plusz 10 valódi beszélgetés.
+> - "Célközönség" hazudik — egy konkrét Anna (név, kor, lakhely, esti rutin), nem "kisvállalkozók"
+> - A copy a 10 órás belső mondatokból indul, nem a foglalkozásból
+> - 10 db 20-30 perces beszélgetés telefonon — nyitott kérdések, ne adj el, csak jegyzetelj
+
 ## A hét témája
 
-Azt vettem észre, hogy a „célközönség" szó hazudik. Aki azt mondja, hogy „kisvállalkozók", az még nem mondott semmit. A vevőd egy konkrét ember, névvel, kor szerint, körülményekkel, esti rutinokkal. Ezen a héten ezt az embert kirajzoljuk, majd kilépünk a fejünkből és tíz valódi emberrel beszélünk, hogy lássuk, mennyire pontos a kép.
+A "célközönség" szó hazudik. "Kisvállalkozók" nem mond semmit. A vevőd egy konkrét ember — névvel, kor szerint, körülményekkel, esti rutinokkal. Ezen a héten kirajzoljuk, majd kilépünk a fejünkből és tíz valódi emberrel beszélünk.
 
 ## 01. Egy konkrét ember
 
-Amit megtanultam: érdemes egyetlen embert kiválasztani — ismerőst, ügyfelet, akit elképzelsz, vagy akit régebben láttál. Adj neki nevet, kort, foglalkozást, lakhelyet. Ne szegmenset rajzolj, hanem életet: hány gyereke van, mikor kel, milyen autóval jár, mit dolgozik 10-től 5-ig. A kérdés nem az, hogy „milyen a vevőm általában", hanem hogy „milyen Anna, aki Pesterzsébeten lakik, két gyerekes, és heti 50 órát dolgozik". Ha túl általános a kép, vissza a 01. lecke kérdéseihez, amíg a részletek nem szólnak hozzád.
+Egyetlen embert válassz — ismerőst, ügyfelet, akit elképzelsz. Adj neki nevet, kort, foglalkozást, lakhelyet. Ne szegmenset rajzolj, hanem életet:
+
+- Hány gyereke van?
+- Mikor kel, milyen autóval jár?
+- Mit dolgozik 10-től 5-ig?
+
+A kérdés nem "milyen a vevőm általában", hanem "milyen Anna, aki Pesterzsébeten lakik, két gyerekes, heti 50 órát dolgozik". Ha túl általános, vissza az 1. lecke kérdéseihez.
 
 ## 02. Mit gondol este 10-kor
 
-A magam munkájában is azt tapasztaltam, hogy itt válik ki a felszínes avatár-leírás a használhatótól. Mire gondol Anna, miközben a sötét konyhában áll fél tizenegykor? Min aggódik? Mi az, amit nem mer kimondani a férjének, az anyjának, magának? Milyen mondatok futnak végig a fejében — nem amit a marketing-anyagban olvasnál, hanem amit ténylegesen mond magának belül. Ezt a réteget csak akkor tudod jól, ha vagy átélted, vagy beszélgettél valakivel, aki átélte. A copy és az ajánlat innen indul majd — nem a foglalkozásból, hanem ezekből a 10 órás mondatokból.
+Itt válik ki a felszínes avatár a használhatótól. Mire gondol Anna fél tizenegykor a sötét konyhában? Min aggódik? Mit nem mer kimondani — a férjének, az anyjának, magának?
+
+Nem marketing-mondatok — amit ténylegesen mond magának belül. Ezt csak akkor tudod, ha átélted vagy beszélgettél valakivel, aki átélte. A copy és az ajánlat innen indul, nem a foglalkozásból.
 
 ## 03. Tíz valódi beszélgetés
 
-Az én tapasztalatom szerint a hét második fele a kilépés a fejedből: tíz embert, akik a vevődre hasonlítanak, megkeresel és beszélgetsz velük 20-30 percet. Nem kérdőív, nem online form — telefon, vagy személyes találkozó. A kérdéseid nyitottak: „Mit próbáltál már megoldani ezzel a problémával?", „Mit fizettél eddig érte?", „Mi volt a legrosszabb, amit kaptál?". Ne adj el — csak hallgass és jegyzetelj. A tíz beszélgetés végére az lesz a kezedben, ami a piac valóban érez — és ez mindig más lesz, mint amit te elképzeltél.
+A hét második fele: tíz emberrel 20-30 perc. Telefon vagy személyes — nem kérdőív, nem online form. Nyitott kérdések:
+
+- „Mit próbáltál már megoldani ezzel a problémával?"
+- „Mit fizettél eddig érte?"
+- „Mi volt a legrosszabb, amit kaptál?"
+
+Ne adj el — hallgass és jegyzetelj. A tíz végére az lesz a kezedben, amit a piac valóban érez — és ez mindig más, mint amit elképzeltél.
 
 ## Heti feladat
 

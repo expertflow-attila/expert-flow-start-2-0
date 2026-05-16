@@ -6,21 +6,50 @@ lastReviewed: "2026-05-16"
 
 > Öt alap esemény, egy egyszerű dashboard. A mérés ott kezdődik, ahol forgalom van — előbb beszerezzük, aztán nézzük.
 
+> **TL;DR** — GA4 telepítés + 5 alap esemény + heti 3-mutatós dashboard. Mérés a döntéseket informálja, nem önmagában cél.
+> - **gtag.js** snippet (8 sor JS) a webhely `<head>`-jébe (Claude Code 30 mp)
+> - **5 esemény**: page_view (auto), scroll_depth, cta_click, booking_click, email_signup
+> - **Heti riport**: hétfő reggel 5 perc, 3 mutató Sheets-be — látogatók, feliratkozók, CTA-kattintások
+
 ## A hét témája
 
-Amit megtanultam: a 11. modul azért van itt — és nem előbb —, mert mérni csak akkor van mit, ha van forgalom. A 9. modul után már működik a webhely, a lead magnet, az email lista; most jön az a réteg, hogy LÁSD, mi történik. A Google Analytics 4 (GA4) ingyenes, és pontosan azokat a kérdéseket tudja megválaszolni, amik egy kezdő vállalkozónak fontosak: hányan jönnek, mennyit maradnak, hová mennek tovább, ki kattint a CTA-ra. Ezen a héten elhelyezzük a mérőkódot, beállítunk öt mérendő eseményt (egy alapból megy, négy custom), és összerakunk egy heti riport-dashboardot.
+A 11. modul azért van itt — nem előbb —, mert mérni csak akkor van mit, ha van forgalom. A 9. modul után már működik a webhely, a lead magnet, az email lista. Most jön a LÁSD, mi történik réteg.
+
+GA4 ingyenes, és pontosan azokra a kérdésekre válaszol, amik egy kezdő vállalkozónak fontosak: hányan jönnek, mennyit maradnak, hová mennek tovább, ki kattint a CTA-ra.
 
 ## 01. gtag.js telepítés a webhelyre
 
-A GA4 setup egyszerű: regisztrálsz a `analytics.google.com`-on (a Google Workspace-fiókoddal), létrehozol egy új property-t a domainedhez, és kapsz egy „mérőkódot" (gtag.js snippet, kb. 8 sor JavaScript). Ezt a snippet-et a webhelyed `<head>` szekciójába illeszted be — a Claude Code 30 másodperc alatt megcsinálja, ha odaadod neki a snippet-et és megkéred, hogy „tedd ezt a `index.html` és `landing.html` head-jébe". A telepítés után 24 órát várj, hogy az adatok megjelenjenek a GA4 dashboardon. Innen tovább a GA4 automatikusan rögzíti az alap-adatokat: oldal-megjelenítések, munkamenet-időtartam, eszközök, lokáció.
+**Setup**:
+1. `analytics.google.com` regisztráció (Google Workspace-fiókkal)
+2. Új property a domainedhez
+3. Mérőkód (gtag.js snippet, ~8 sor JS) a webhely `<head>`-jébe — Claude Code 30 mp-ben odateszi az `index.html` és `landing.html` head-jébe
+4. 24 óra várakozás, hogy az adatok megjelenjenek
+
+Onnan a GA4 automatikusan rögzíti: oldal-megjelenítések, munkamenet-időtartam, eszközök, lokáció.
 
 ## 02. Öt alap esemény
 
-Az alap-méréseken túl be lehet állítani „custom event"-eket — ezek azok a konkrét akciók, amiket a webhelyen mérni akarsz. Az öt fontos: (1) **page_view** (alapból megy, nem kell beállítani), (2) **scroll_depth** — milyen mélyen görgetnek le az oldalon (50%, 75%, 90%), (3) **cta_click** — a fő CTA gombokra kattintás, (4) **booking_click** — a Cal.com gombra kattintás, (5) **email_signup** — a Kit feliratkozás után. Az utóbbi háromhoz a HTML-be kell egy kis JavaScript-et illeszteni (a Claude Code megírja), ami a kattintáskor küld egy eseményt a GA4-nek. Egy hét adat után már látod, melyik gomb működik, melyiken haladnak el.
+Az alapon túl „custom event"-ek — konkrét akciók:
+
+1. **page_view** — alapból megy
+2. **scroll_depth** — milyen mélyen görgetnek (50%, 75%, 90%)
+3. **cta_click** — fő CTA-gombok
+4. **booking_click** — Cal.com gomb
+5. **email_signup** — Kit feliratkozás után
+
+A 3-5-höz HTML-be kis JS (Claude Code megírja). Egy hét adat után látod, melyik gomb működik.
 
 ## 03. Dashboard és heti riport
 
-Azt vettem észre, hogy a GA4 alapból bonyolultnak tűnik — sok adat, sok grafikon, és nem világos, mit kell nézni. Nálam ez jött be: érdemes egy egyszerű custom dashboardot építeni a „Reports" szekcióban: egy oldal, három mutatóval — heti látogatók száma, lead magnet feliratkozások száma, CTA-kattintások száma. Ezt a dashboardot heti egyszer (pl. minden hétfő reggel) megnyitod 5 percre, leírod a számokat egy Sheets-be (a 10. modul CRM-je mellé egy „Analytics" lap), és nyomon követed a trendet. Nem napi szintű figyelés — heti egyszer ránézel, és az alapján döntesz, mit változtass a webhelyen, a copy-n, vagy a lead magnet-en. Egy idő után rájöttem, hogy a mérés nem önmagában cél — a döntéseket informálja.
+A GA4 bonyolultnak tűnik — sok adat, sok grafikon. Egy egyszerű custom dashboard a „Reports" szekcióban, **3 mutatóval**:
+
+- Heti látogatók
+- Lead magnet feliratkozások
+- CTA-kattintások
+
+**Heti rutin**: hétfő reggel 5 perc, számok egy Sheets-be (10. modul CRM mellé „Analytics" lap), trend követése. Nem napi figyelés — heti egyszer ránézel, ez alapján döntesz: mit változtass a webhelyen, copy-n, lead magneten.
+
+A mérés a döntéseket informálja, nem önmagában cél.
 
 ## Heti feladat
 

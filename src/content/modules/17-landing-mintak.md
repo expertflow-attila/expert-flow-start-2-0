@@ -4,9 +4,15 @@ lastReviewed: "2026-05-16"
 
 # 4. modul — Landing page minták
 
+> **TL;DR** — 6 letölthető Tailwind HTML landing minta referencia-tárként, mindegyik konkrét célra.
+> - **6 típus**: konzultációs, lead magnet, webinar, szolgáltatás (érték-stack), coming soon (waitlist), long-form sales (Hormozi)
+> - Minden mintához `boilerplate.html` + `SKILL.md` Claude Code-hoz, mobil + HTTPS + GDPR + Tailwind CDN
+> - Wireframe-szintű részletek a [Marketing Skiccfüzet](https://marketing-skiccfuzet.vercel.app) testvér-site-on
+> - Egy landing önmagában nem elég — funnel-be kötés a 18. modulban
+
 ## Modul áttekintés
 
-Ettől a modultól már nem építünk sorrendben — referencia-tár jön. 5 különböző landing page mintát mutatok meg, mindegyikhez teljes Tailwind HTML kód, telepítési útmutató, és technikai dokumentáció. Ezeket bármikor használhatod, amikor új szolgáltatást indítasz, vagy új kampányt csinálsz. Minden minta a 2. modul stílusában készült (sötét háttér, dokumentáló-hang), de fókuszáltabb céllal.
+Ettől a modultól már nem építünk sorrendben — referencia-tár. 6 landing page minta, mindegyikhez teljes Tailwind HTML kód, telepítési útmutató, technikai dokumentáció. Bármikor használhatók új szolgáltatás vagy kampány indításkor. Stílus a 2. modul (sötét háttér, dokumentáló-hang), fókuszáltabb céllal.
 
 > A 6 wireframe-magyarázat alul a [Marketing Skiccfüzet](https://marketing-skiccfuzet.vercel.app) testvér-anyagra mutat — ott megnézheted a teljes vázlatot egy A4-es nyomtatható lapon. A funnel-szintű összefüggésekért nézd a [Funnel Tananyagot](https://funnel-tananyag.vercel.app).
 

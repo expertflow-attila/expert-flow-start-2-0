@@ -6,25 +6,74 @@ lastReviewed: "2026-05-16"
 
 > VS Code + Claude Code (alapok és haladó parancsok) + Sybell domain + Google Workspace — egy modulban a teljes setup, ami a következő nyolc hét gerincét adja.
 
+> **TL;DR** — 4 alap-eszköz a helyére: IDE, Claude Code, domain, hivatalos email — 8 hét gerince.
+> - **VS Code + Claude Code** (`npm install -g @anthropic-ai/claude-code`, ~$20/hó) — AI a fejlesztőkörnyezetben
+> - **Claude Code alapok**: `/clear`, `/compact`, `/rewind`, plan mode (Shift+Tab+Tab), sub-agentek, skills, MCP
+> - **Sybell domain** (~3-5 ezer Ft/év) + **Google Workspace** (~2000 Ft/hó, SPF/DKIM/DMARC kötelező)
+> - Haladó Claude Code-trükkökért lásd a 21. modult
+
 ## A hét témája
 
-Az elmúlt időszakban tisztán látszott számomra: az AI nem külön szoftverben él, hanem a fejlesztőkörnyezetben — abban a pillanatban, ahogy ezt megérted, megváltozik a munkamódod. Ezen a héten négy alap-eszközt rakunk a helyére: az IDE-t (ahol az AI-jal dolgozol), a Claude Code-ot (a 02. lecke ezt mélyen átveszi — parancsok, plan mode, sub-agentek, skills, MCP), a Sybell domaint (ahol mások megtalálnak), és a Google Workspace-t (Gmail, Drive, Naptár, hivatalos email). A cél nem a tökéletes setup, hanem az, hogy a hét végére mindegyik eszközöd dolgozik, és tudod, melyikbe melyik feladat kerül. Ez a legtechnikaibb hét — egy kicsit hosszabb, mint a többi, mert itt jönnek a kulcs-eszközök, amikkel a többi modulban dolgozni fogsz.
+Az AI nem külön szoftverben él, hanem a fejlesztőkörnyezetben — ahogy ezt megérted, megváltozik a munkamódod. Négy alap-eszközt rakunk a helyére:
+
+- **IDE** — ahol az AI-jal dolgozol
+- **Claude Code** — 02. lecke mélyen veszi (parancsok, plan mode, sub-agentek, skills, MCP)
+- **Sybell domain** — ahol mások megtalálnak
+- **Google Workspace** — Gmail, Drive, Naptár, hivatalos email
+
+Ez a legtechnikaibb hét, kicsit hosszabb — itt jönnek a kulcs-eszközök.
 
 ## 01. VS Code és Claude Code telepítés
 
-A Visual Studio Code egy ingyenes szövegszerkesztő, amibe integrálható a Claude Code — egy AI-asszisztens, ami a fájljaidat látja, és a parancssorba beszél vissza. Ez nem chat-ablak: ez egy fejlesztőeszköz, ami pontosan azt csinálja, amit a vállalkozásod létrehozásához kell — kódot ír, fájlokat szerkeszt, hibákat javít. Telepítés: VS Code letöltése (`code.visualstudio.com`), aztán a Claude Code előfizetés (~$20/hó — a saját tapasztalatom szerint az első hónapban már bejön az ára). A Claude Code telepítése egyetlen `npm install -g @anthropic-ai/claude-code` parancs (a Node.js-t előtte telepíted). Amit megtanultam: a pair programmer-érzés azt jelenti, hogy nem te dolgozol egyedül — az AI kiegészít: te tudod, MIT akarsz, ő tudja, HOGYAN. A telepítés egyszer egy óra, utána végig erre épül a kurzus minden technikai része.
+VS Code = ingyenes szövegszerkesztő. Claude Code = AI-asszisztens, ami a fájljaidat látja, a parancssorba beszél vissza. Nem chat-ablak — fejlesztőeszköz, ami kódot ír, fájlokat szerkeszt, hibákat javít.
+
+- **Letöltés**: `code.visualstudio.com`
+- **Claude Code előfizetés**: ~$20/hó (az első hónapban már bejön az ára)
+- **Telepítés**: `npm install -g @anthropic-ai/claude-code` (Node.js előbb)
+
+Pair programmer: nem te dolgozol egyedül — te tudod MIT, ő tudja HOGYAN. Egyszer egy óra setup, utána mindenre erre épül.
 
 ## 02. Claude Code alapok — parancsok, plan mode, sub-agentek, skills, MCP
 
-A Claude Code-ot nem mint chat-ablakot használod — mint egy programot, aminek vannak parancsai. Az alapparancsok: `claude` (új session indítása a saját mappádban), `/clear` (a kontextus tisztítása, ha lassul), `/compact` (összesűríti a kontextust, ha tele), `/rewind` (visszalép, ha rossz irányba ment), `/help` (parancslista). A **plan mode** (Shift+Tab + Tab) az, amikor Claude előbb megtervez valamit, mielőtt cselekedne — komplex feladatoknál kötelező használni, mert így nem ír el rosszat. A **sub-agentek** (Task tool) az, amikor egy feladatot delegál egy „másik Claude-nak", aki saját kontextus-ablakot kap — ezért a fő ablakod nem telik meg. A **skills** (lásd `obra/superpowers` GitHub és a Claude Marketplaces, `claudemarketplaces.com`) a Claude Code képességbővítései — például egy „session-handoff", ami tisztán átadja a kontextust egy új session-nek. Az **MCP** (Model Context Protocol) szerverek külső eszközöket csatlakoztatnak: Google Drive, Slack, Webflow, Excalidraw — én is sokat használok ilyet. Amit megtanultam: a Claude Code valódi ereje akkor jön ki, ha 95%-os bizonyossággal kérsz kódot — ha nem érted pontosan, mit akarsz, az AI kitalál valamit, ami nem jó. Mielőtt parancsot adsz, beszélgess vele 2-3 üzenetben a mit-és-miértről. **Ha az alapokon túl is mélyebbre akarsz menni** (a teljes parancslista, sub-agentek finomhangolása, ultrathink, Chrome DevTools MCP, Context7 MCP, engedély-kezelés stb.), a `21-claude-code-haladok/` bónusz-tár 20 productivity-trükköt sorol fel három szinten.
+A Claude Code nem chat-ablak, hanem program parancsokkal.
+
+**Alapparancsok**:
+- `claude` — új session a saját mappádban
+- `/clear` — kontextus-tisztítás, ha lassul
+- `/compact` — összesűríti a kontextust, ha tele
+- `/rewind` — visszalép, ha rossz irányba ment
+- `/help` — parancslista
+
+**Kulcs-fogalmak**:
+- **Plan mode** (Shift+Tab + Tab) — Claude előbb tervez, csak utána cselekszik. Komplex feladatoknál kötelező.
+- **Sub-agentek** (Task tool) — feladatot delegálsz „másik Claude-nak" saját kontextus-ablakkal. A fő ablakod nem telik meg.
+- **Skills** — Claude Code képességbővítések (lásd `obra/superpowers` GitHub, `claudemarketplaces.com`). Pl. „session-handoff" tisztán átad kontextust.
+- **MCP** (Model Context Protocol) — külső eszközök csatlakoztatása: Google Drive, Slack, Webflow, Excalidraw.
+
+A valódi erő 95%-os bizonyossággal kért kódnál jön ki. Ha nem érted pontosan, mit akarsz, az AI kitalál valamit. Mielőtt parancsot adsz, beszélgess vele 2-3 üzenetben a mit-és-miértről.
+
+**Mélyebbre** (teljes parancslista, sub-agentek finomhangolása, ultrathink, Chrome DevTools MCP, Context7 MCP, engedély-kezelés): a `21-claude-code-haladok/` bónusz 20 trükköt sorol fel három szinten.
 
 ## 03. Sybell domain és hivatalos email
 
-Azt vettem észre, hogy a saját domain (pl. `tedneved.hu`) az online identitásod alapja — ezen lesz majd a weboldalad, ezen kapsz hivatalos emailt. A Sybell egy magyar domain-szolgáltató, megbízható, és a DNS-rekordokat egyszerűen lehet rajta állítani (ezekre később, az 5. modul Vercel-deploy lépésénél lesz szükség). A domain regisztrációja 5-10 percet vesz igénybe és pár ezer forintba kerül évente. A hivatalos email (`te@tedneved.hu`) sokkal komolyabb pozíciót ad, mint egy gmailes cím — ezt a Google Workspace-szel kötjük majd hozzá a domainhez a következő leckében.
+A saját domain (pl. `tedneved.hu`) az online identitásod alapja — itt lesz a weboldalad, innen kapsz hivatalos emailt.
+
+- **Sybell**: magyar domain-szolgáltató, megbízható, egyszerű DNS-kezelés (az 5. modul Vercel-deployhoz kell)
+- **Idő/költség**: 5-10 perc regisztráció, pár ezer Ft/év
+- **Hivatalos email** (`te@tedneved.hu`): komolyabb pozíció, mint gmailes — Google Workspace-szel kötjük rá (köv. lecke)
 
 ## 04. Google Workspace setup
 
-A Google Workspace egy fizetős havidíjas csomag (~ 2000 Ft/hó induláskor a Business Starter csomagban), ami kínálja a hivatalos emailt, a Drive-ot (30 GB / felhasználó az alap-csomagban), a Naptárt, a Sheets-et és a Docs-ot. A setup részei: fiók-létrehozás, domain-igazolás (DNS-rekorddal), MX-rekordok beállítása a Sybell oldalán, és a felhasználó (te magad) létrehozása. A fontos lépés a domain-igazolás után az SPF, DKIM és DMARC rekordok beállítása — ezek nélkül a kimenő emailjeid spam-be kerülhetnek. Mindezek lépésről-lépésre a `prompts.md` és `reference.md` fájlokban — itt csak az érdekel, hogy a setup végére legyen egy működő `te@tedneved.hu` címed, amit később a Cal.com, Kit, Stripe és minden további szolgáltatáshoz kötsz.
+Fizetős havidíj (~2000 Ft/hó, Business Starter): hivatalos email, Drive (30 GB/felhasználó), Naptár, Sheets, Docs.
+
+**Setup-lépések**:
+1. Fiók-létrehozás
+2. Domain-igazolás (DNS-rekorddal a Sybell oldalán)
+3. MX-rekordok beállítása
+4. Felhasználó (te) létrehozása
+5. **SPF, DKIM, DMARC** rekordok — nélkülük a kimenő emailjeid spam-be kerülhetnek
+
+Részletek a `prompts.md` és `reference.md` fájlokban. A setup végére legyen működő `te@tedneved.hu` címed — ezt köti minden további szolgáltatás (Cal.com, Kit, Stripe).
 
 ## Ha valami nem tetszik — alternatívák
 
