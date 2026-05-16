@@ -32,7 +32,8 @@ A modul a saját stackemet írja le, de a kurzus filozófiája egyik konkrét sz
 
 - **VS Code helyett:** Cursor (saját AI-IDE), Zed (gyors, modern, ingyenes), JetBrains IDE-k (ha már megszoktad).
 - **Claude Code helyett:** Cursor saját AI, GitHub Copilot, Codeium (ingyenes). A kurzus parancsai akkor a legtisztábban a Claude Code-on jönnek vissza, de a logika átvihető.
-- **Vercel helyett:** Netlify (hasonló DX), Cloudflare Pages (ingyenes, gyors CDN), GitHub Pages (statikus oldalakhoz).
+- **Vercel helyett:** Netlify (hasonló DX), Cloudflare Pages (ingyenes, gyors CDN), GitHub Pages (statikus oldalakhoz). A Vercel ingyenes csomag (Hobby plan) bőven elég egy 5-10 oldalas landingnek + custom domain rákötés és automatikus HTTPS jár hozzá.
+- **Stripe HUF helyett:** Barion (magyar bankkártya-feldolgozó, MNB-szabályozott), SimplePay (OTP Mobil), PayPal (régi, magasabb díj). A Stripe 2024 óta hivatalosan kezeli a HUF-ot — ~2% + 50 Ft/tranzakció, részletes setup és NAV-számlázáshoz párosítás a 12. modulban.
 - **Sybell helyett:** bármelyik magyar domain-szolgáltató (Domain.hu, Domainprofi), vagy nemzetközi: Porkbun, Cloudflare Registrar (utóbbi a legolcsóbb).
 - **Google Workspace helyett:** Microsoft 365 (Outlook + OneDrive), Proton Mail (privacy-first), Zoho Mail (legolcsóbb saját-domain email).
 - **Kit (volt ConvertKit) helyett:** MailerLite (ingyenes 1000 feliratkozóig), Substack (ha újságírói hangod van), Beehiiv (newsletter-fókuszú).

@@ -20,7 +20,11 @@ A 04. modul setup-ja után megnyitsz egy üres mappát a VS Code-ban, és a Clau
 
 ## 03. GitHub és Vercel deploy + custom domain
 
-Az `index.html` a gépeden — még nem nyilvános. A Vercel egy ingyenes hoszting-szolgáltatás, ami GitHub-ról deployol egy kattintással. Lépéssor: GitHub-on új repo (a Claude Code segít a `git init`, `commit`, `push` parancsokkal), Vercel.com-on bejelentkezés GitHub-bal, „New Project", import a repo-t, „Deploy" — 30 másodperc, és van egy `tedneved.vercel.app` URL-ed. Aztán a saját domain rákötése: Vercel admin → Settings → Domains → `tedneved.hu` hozzáadása. Vercel ad két DNS-rekordot (egy A, egy CNAME), ezeket a Sybell DNS-be bemásolod (a 04. modul beállításán keresztül). 1-2 óra propagáció, és a saját domaineden van a webhely, automatikus HTTPS-szel.
+Az `index.html` a gépeden — még nem nyilvános. A Vercel egy ingyenes hoszting-szolgáltatás, ami GitHub-ról deployol egy kattintással. Lépéssor: GitHub-on új repo (a Claude Code segít a `git init`, `commit`, `push` parancsokkal), Vercel.com-on bejelentkezés GitHub-bal, „New Project", import a repo-t, „Deploy" — 30 másodperc, és van egy `tedneved.vercel.app` URL-ed. Aztán a saját domain rákötése: Vercel admin → Settings → Domains → `tedneved.hu` hozzáadása. Vercel ad két DNS-rekordot (egy A, egy CNAME), ezeket a Sybell DNS-be bemásolod (a 04. modul beállításán keresztül). 1-2 óra propagáció, és a saját domaineden van a webhely, automatikus HTTPS-szel. A Vercel **Hobby** csomag ingyenes (személyes/non-commercial), 100 GB bandwidth/hó — egy 5-10 oldalas landingre bőven elég, kereskedelmi forgalomra $20/hó-tól a **Pro** csomag.
+
+## 04. Fizető-megoldás a CTA-gombra (Stripe HUF Checkout)
+
+Amikor az ajánlatod kész, és a weboldal él, a **Foglalj most** / **Vásárolj** gomb mögé legegyszerűbb a **Stripe HUF Checkout** (`stripe.com`) — egy URL-t generálsz a Stripe-fiókodban (Products → Payment link), kiteszed az `<a href="https://buy.stripe.com/...">` gombra, és a vevő közvetlenül a Stripe oldalán fizet bankkártyával vagy Apple/Google Pay-jel. ~2% + 50 Ft/tranzakció, magyar bankszámlára heti kifizetés. A Stripe **nem ad NAV-konform e-számlát** — ezt a Számlázz.hu-val párosítsd (manuálisan vagy webhook-on át, kb. egy óra Claude Code-dal). Részletes Stripe + Wise setup és NAV-számlázás-integráció: **12. modul** — itt csak annyit jegyezz meg, hogy a CTA-gombnak mindig kell egy mögötte lévő fizetési URL, és ezt a Stripe Checkout 10 perc alatt megadja.
 
 ## Heti feladat
 

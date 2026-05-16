@@ -58,6 +58,40 @@ A saját utamon ezt láttam: ha **csak magánszemélyeknek** szolgáltatsz és n
 
 A magyar számlázás 2021 óta digitális — papír-számla már nem működik. Két nagy szolgáltató van: a **Számlázz.hu** (a legelterjedtebb, ingyenes alap-csomag, kb. 5000 Ft/év a fizetős verzió) és a **Billingo** (modernebb felület, hasonló árazás). Mindkettő automatikusan küldi az adatokat a NAV felé az Online Számla rendszerbe, ami kötelező. A setup lépései: regisztráció, vállalkozás-adatok megadása (adószám, székhely), számla-sablon beállítása (logo, fejléc), és a NAV Online Számla regisztráció (külön a `onlineszamla.nav.gov.hu`-n, kell hozzá egy „technikai felhasználó", amit a Számlázz.hu/Billingo automatikusan kezel). Amit megtanultam: az első számla előtt érdemes letesztelni a folyamatot egy sztornózott teszt-számlával — ne az első élő ügyfélnél derüljön ki, hogy valami nem stimmel.
 
+## Fizetési megoldások (Stripe HUF / Wise)
+
+Amikor az első éles ügyfél fizet, két alap-kérdést kell letenned: **(1) belföldi HUF-fizetés**, ha magyar magánszemélyeknek vagy cégeknek számlázol, és **(2) nemzetközi fizetés**, ha külföldről jön a bevétel (EUR/USD/GBP). Mindkettőre van egy aktuális, 2026-ban használható, gyors-fiók-aktiválású opció.
+
+### Stripe HUF (belföldi bankkártya)
+
+A Stripe **2024 óta hivatalosan kezeli a magyar forintot** — magyar bankszámlára fizet ki HUF-ben, és a magyar vevő bankkártyával (Visa/Mastercard, Apple/Google Pay) fizet közvetlenül a webhelyeden. Amit tudnod kell:
+
+- **Díj**: ~2% + 50 Ft fix tranzakciónként (európai kártyákra), nem-EU kártyára +1%.
+- **Kifizetés**: heti (default) magyar IBAN-ra, vagy napi (kérésre).
+- **Setup**: `stripe.com` → fiók-aktiválás (vállalkozás-adatok, adószám, IBAN), KYC/AML (személyi igazolvány + cégadatok), 1-2 nap alatt élesedik.
+- **Két integráció-szint**:
+  - **Stripe Checkout** (no-code): egy URL-t generálsz a Stripe-fiókodban, kiteszed a weboldaladra („Foglalj most" gomb), a vevő a Stripe-on fizet, te a kész tranzakcióról emailt kapsz. Nincs kód, 10 perc setup.
+  - **Payment Intent API** (custom): saját landing-on a Stripe Elements form, teljes brand-kontroll, kb. egy óra Claude Code-dal.
+- **Magyar számlázás**: a Stripe **nem ad NAV-konform e-számlát** — ezt párosítsd a Számlázz.hu-val (vagy Billingo-val), és minden Stripe-fizetésre kézzel vagy webhook-on át állítsd ki a magyar számlát. A webhook-integrációhoz a Számlázz.hu API + Stripe webhook + egy 20-soros Vercel Function elég.
+
+### Wise (nemzetközi átutalás és multi-currency)
+
+A **Wise Business** (`wise.com/business`) a Stripe párja, ha **külföldi ügyfeled is van**, vagy ha EUR-ban (US-ban USD-ben) szeretnél árazni:
+
+- **Multi-currency számla**: digitális IBAN EUR, USD, GBP, AUD és további 9 devizában — saját nevedben kapod meg ezeket, vevő úgy fizet, mintha helyi átutalás lenne (európai IBAN EUR-ban, US ACH USD-ben).
+- **Valós árfolyam (mid-market)** + ~0.5-1% váltási díj — sokkal kedvezőbb, mint a magyar bank devizaszámla (ott 2-4% szokott lenni).
+- **Kifizetés**: az EUR/USD bevételt onnan átutalod a magyar HUF-számládra mid-market árfolyamon.
+- **Setup**: `wise.com` → Business fiók (vállalkozás-adatok, KYC, 1-3 nap), ingyenes az alap, csak a tényleges átutalási/váltási díjat fizeted.
+- **NAV-szempont**: a Wise-on érkező EUR/USD bevétel is **magyar bevétel** (a magyar adójogban), magyar e-számlát kell rá kiállítani (Számlázz.hu-n EUR-ban), és a HUF-ra átszámolt összeg után KATA/SZJA/ÁFA fizetendő.
+
+### Mit válassz?
+
+- **Csak magyar magánszemély ügyfél, KATA** → Stripe HUF + Számlázz.hu, Wise nem kell.
+- **Magyar + nemzetközi vegyes** → Stripe HUF (HUF) + Wise (EUR/USD) + Számlázz.hu.
+- **Csak nemzetközi (külföldi vevők)** → Stripe (EUR/USD) + Wise multi-currency + magyar EV/Kft.
+
+Alternatívák magyar piacon (ha a Stripe nem fér be): **Barion** (magyar feldolgozó, SimplePay, Apple/Google Pay), **SimplePay** (OTP Mobil), **PayPal** (régóta van, magasabb díj).
+
 ## 03. ÁSZF + Adatvédelmi nyilatkozat a webhelyre
 
 Két kötelező jogi szöveg kerül a webhely lábához: (1) **ÁSZF (Általános Szerződési Feltételek)** — ha online szolgáltatásokat értékesítesz, ez kötelező. Tartalmazza, hogy mit szolgáltatsz, milyen feltételekkel, milyen árakon, mi a panaszkezelés, mi a felmondási feltétel; (2) **Adatvédelmi nyilatkozat (GDPR)** — ha email-címet, nevet vagy bármilyen személyes adatot gyűjtesz (Kit feliratkozás, Cal.com foglalás), ez is kötelező. Tartalmazza, hogy milyen adatokat gyűjtesz, miért, mennyi ideig tárolod, kihez kerülhet, hogyan lehet kérni a törlést. **Ezeket NE generáld egyedül AI-val** — az ÁSZF és az Adatvédelmi nyilatkozat jogi dokumentumok, amiknél hibázni következményekkel jár. Magyarul két egyszerű opció van: (1) szabályos jogi sablon vásárlása (5-10.000 Ft, pl. a `jogiportal.hu`-n vagy hasonló), vagy (2) egy online jogi tanácsadó szolgáltatás, ami a saját webhelyedhez szabott szöveget ad. A két fájlt PDF-ként vagy HTML-szövegként a webhely láb-szekciójához linkeled.

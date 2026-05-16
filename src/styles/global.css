@@ -948,6 +948,17 @@ footer .links a {
 footer .links a:hover { color: var(--accent); border-color: rgba(185, 167, 224, 0.4); }
 
 /* Responsive */
+@media (max-width: 1024px) {
+  /* iPad landscape — minor container tightening */
+  .container { padding: 80px 22px 88px; }
+}
+
+@media (max-width: 768px) {
+  /* iPad portrait — tablet baseline */
+  header.hero { padding: 120px 22px 80px; }
+  .grid { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+}
+
 @media (max-width: 720px) {
   .brand-bar { top: 18px; left: 22px; }
   header.hero { padding: 110px 22px 72px; }
@@ -962,6 +973,93 @@ footer .links a:hover { color: var(--accent); border-color: rgba(185, 167, 224, 
   .cta-final { padding: 80px 22px 64px; }
   .card > summary { padding: 22px 22px 20px; }
   .card__body { padding: 20px 22px 24px; }
+}
+
+/* Round 3 — explicit small-mobile breakpoints (SHARED-MOBILE-FIXES A.) */
+@media (max-width: 480px) {
+  /* generic mobile — hero compact, lede smaller */
+  header.hero {
+    padding: 96px 18px 64px;
+  }
+  header.hero h1 {
+    font-size: clamp(36px, 6vw, 60px);
+    max-width: 18ch;
+  }
+  header.hero p.lede {
+    font-size: 15px;
+    line-height: 1.55;
+  }
+  header.hero .eyebrow { margin-bottom: 18px; }
+  .stats { margin-top: 32px; }
+  .lesson-header h1 { font-size: clamp(28px, 6vw, 44px); }
+  .lesson-body h2 { font-size: 22px; }
+  .lesson-body p, .lesson-body ul, .lesson-body ol { font-size: 15.5px; }
+  /* Code overflow mobile */
+  .lesson-body pre, .prompt pre {
+    padding-bottom: 12px;
+    scrollbar-width: thin;
+  }
+  .lesson-body pre::-webkit-scrollbar,
+  .prompt pre::-webkit-scrollbar {
+    height: 6px;
+  }
+}
+
+@media (max-width: 414px) {
+  /* iPhone Plus / 11 */
+  .container { padding: 56px 18px 64px; }
+  .pull { padding: 56px 18px; }
+  .outcome { padding: 56px 18px; }
+  .cta-final { padding: 72px 18px 56px; }
+}
+
+@media (max-width: 375px) {
+  /* iPhone SE 2.gen / 13 mini — card padding tighter */
+  .card { padding: 18px 18px 16px; min-height: 220px; }
+  .step { padding: 22px 18px 20px; }
+  .anti__col { padding: 22px 18px 20px; }
+  .bonus__feature { padding: 24px 20px; }
+  .bonus__item { padding: 14px 14px; }
+  header.hero h1 { font-size: clamp(30px, 8vw, 44px); }
+  .stat { padding: 12px 14px; }
+  .stat b { font-size: 24px; }
+}
+
+@media (max-width: 360px) {
+  /* compact Android */
+  header.hero { padding: 88px 16px 56px; }
+  .container { padding: 48px 16px 56px; }
+}
+
+@media (max-width: 320px) {
+  /* iPhone SE 1.gen / Galaxy Fold */
+  header.hero { padding: 80px 14px 48px; }
+  header.hero h1 { font-size: clamp(26px, 8vw, 36px); max-width: 100%; }
+  header.hero p.lede { font-size: 14px; }
+  .container { padding: 40px 14px 48px; }
+  .card { padding: 16px 14px 14px; }
+  .stat { padding: 10px 12px; min-width: 0; }
+  .stat b { font-size: 22px; }
+  .stat span { font-size: 10px; }
+}
+
+/* Round 3 — Touch target standard (WCAG 2.5.5) */
+@media (max-width: 768px) {
+  .top-nav a,
+  .hero-cta,
+  .prompt__copy,
+  .toolkit-card .btn,
+  .deck-topbar__back,
+  .faq__item summary {
+    min-height: 44px;
+  }
+  .top-nav a {
+    display: inline-flex;
+    align-items: center;
+  }
+  .hero-cta { padding: 14px 22px; }
+  .toolkit-card .btn { padding: 12px 18px; }
+  .prompt__copy { padding: 10px 14px; }
 }
 
 /* Reduce motion */

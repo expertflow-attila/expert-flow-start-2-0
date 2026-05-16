@@ -28,5 +28,13 @@
   "tax form": "adóbevallás — SZJA (személyi jövedelem), ÁFA (általános forgalmi), KATA-átalány vagy iparűzési; az EV/Kft. formától függően más a határidő",
   "conversion rate": "konverziós arány — látogató→ügyfél százalék; pl. ha 100 látogatóból 2 foglal hívást, akkor a CR 2%",
   "LTV": "ügyfél-élethossz érték — Lifetime Value; mennyit költ egy ügyfél a teljes kapcsolatotok alatt (havi 30 ezer × 24 hónap = 720 ezer Ft LTV)",
-  "MVP": "minimum viable product — legkisebb működő termék; az a verzió, amivel már lehet 1-3 ügyfelet kiszolgálni, de még nincs minden funkció kész"
+  "MVP": "minimum viable product — legkisebb működő termék; az a verzió, amivel már lehet 1-3 ügyfelet kiszolgálni, de még nincs minden funkció kész",
+  "Sybell": "magyar domain-szolgáltató (sybell.hu) — .hu domain regisztráció és DNS-kezelés egy helyen, ~3000-5000 Ft/év egy .hu domain, DNS-rekordok perceken belül módosíthatók",
+  "Számlázz.hu": "magyar e-számla rendszer — NAV Online Számla 3.0 kompatibilis, KATA/EV/Kft. számlázásra, ingyenes alap-csomag + ~5000-10000 Ft/év a fizetős verzió; a legelterjedtebb hazai megoldás",
+  "Billingo": "magyar e-számla alternatíva a Számlázz.hu mellé — modernebb felület, hasonló árazás, NAV Online Számla kompatibilis, REST API automatizáláshoz",
+  "Stripe HUF": "nemzetközi bankkártya-fizetési feldolgozó — 2024 óta HUF-ben is fogad (magyar bankszámlára kifizetés), díja ~2% + 50 Ft/tranzakció, Stripe Checkout no-code linkkel vagy Payment Intent custom integrációval, gyors fiók-aktiválás KYC-val",
+  "Wise": "nemzetközi átutalási és multi-currency számla — Wise Business EUR/USD/GBP-ben is fogad, valós árfolyam (mid-market) + ~0.5-1% díj, digitális IBAN kibocsátás, ideális ha külföldi ügyfeleknek számlázol",
+  "Cal.com": "ingyenes foglalási rendszer (cal.com) — Google Naptár integrációval, saját URL-en (cal.com/teneved), 1:1 vagy csoportos meetingek, ingyenes az alap-csomag, ~$12/hó Pro szint",
+  "Vercel": "ingyenes hoszting és deploy szolgáltatás (vercel.com) — GitHub repóból egy kattintással deploy, automatikus HTTPS, custom domain rákötés, statikus oldalakra és Next.js/Astro projektekre ingyenes, kereskedelmi használatra Pro $20/hó",
+  "Kit": "email marketing rendszer (kit.com, korábban ConvertKit) — landing page, broadcast, automation, ingyenes 1000 feliratkozóig, alapfunkciók (form, sequence, broadcast) korlátozás nélkül"
 }
