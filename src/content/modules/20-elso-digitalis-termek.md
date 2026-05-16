@@ -1,4 +1,5 @@
 ---
+lastReviewed: "2026-05-16"
 ---
 
 # Bónusz · Az első fizetős terméked — videókurzus AI-vágással

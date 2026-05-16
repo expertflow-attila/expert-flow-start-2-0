@@ -1,0 +1,54 @@
+---
+// Expert Flow ökoszisztéma — cross-link a többi 6 site-ra
+// (a saját Business Start 2.0 site-ot kihagyjuk a listából)
+
+const sites = [
+  {
+    href: "https://expert-flow-school.vercel.app",
+    title: "Expert Flow School",
+    note: "5 classroom, 125 lecke",
+  },
+  {
+    href: "https://learning-agents-landing.vercel.app",
+    title: "Learning Agents",
+    note: "4 AI karakter oktatáshoz",
+  },
+  {
+    href: "https://funnel-tananyag.vercel.app",
+    title: "Funnel Tananyag",
+    note: "23 funnel típus + wireframe",
+  },
+  {
+    href: "https://copywriting-ef.vercel.app",
+    title: "Copywriting",
+    note: "10 magyar copywriting lecke",
+  },
+  {
+    href: "https://marketing-skiccfuzet.vercel.app",
+    title: "Marketing Skiccfüzet",
+    note: "43 weboldal- és funnel-vázlat",
+  },
+  {
+    href: "https://esettanulmanyok-ef.vercel.app",
+    title: "Esettanulmányok",
+    note: "28 nemzetközi case study",
+  },
+];
+---
+
+<section class="ecosystem-footer" aria-labelledby="ecosystem-heading">
+  <div class="ecosystem-inner">
+    <p class="ecosystem-eyebrow">Expert Flow ökoszisztéma</p>
+    <h3 id="ecosystem-heading">Tanulj a többi <em>anyagból</em> is</h3>
+    <ul class="ecosystem-grid">
+      {sites.map((s) => (
+        <li>
+          <a href={s.href} rel="noopener">
+            <span class="ecosystem-card__title">{s.title}</span>
+            <span class="ecosystem-card__note">{s.note}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>

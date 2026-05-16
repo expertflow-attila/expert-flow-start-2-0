@@ -1,4 +1,5 @@
 ---
+lastReviewed: "2026-05-16"
 ---
 
 # 4. modul · Eszközök, Claude Code alapok és online jelenlét

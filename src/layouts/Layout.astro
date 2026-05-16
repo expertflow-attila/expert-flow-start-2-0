@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import EcosystemFooter from "../components/EcosystemFooter.astro";
 
 interface Props {
   title: string;
@@ -114,6 +115,8 @@ const schemaJson = schema
     <main id="main" tabindex="-1">
       <slot />
     </main>
+
+    <EcosystemFooter />
 
     <footer>
       <p><span class="signature">Expert Flow</span> · 2026 · hello@expertflow.hu</p>

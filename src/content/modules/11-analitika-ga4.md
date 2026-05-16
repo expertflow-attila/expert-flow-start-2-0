@@ -1,4 +1,5 @@
 ---
+lastReviewed: "2026-05-16"
 ---
 
 # 11. modul · Mérés (Google Analytics 4)

@@ -1,4 +1,5 @@
 ---
+lastReviewed: "2026-05-16"
 ---
 
 # 1. modul · A tudásod alapja

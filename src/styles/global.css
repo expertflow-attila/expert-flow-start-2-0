@@ -17,8 +17,8 @@
   --border-strong: #2a2a2e;
 
   --text: #fafafa;
-  --text-muted: #a1a1aa;
-  --text-dim: #8b8b94;
+  --text-muted: #c8c8d0;  /* AAA: ~12:1 #0a0a0c-en, korábban #a1a1aa (~6.2:1, csak AA) */
+  --text-dim: #9a9aa3;    /* AAA: ~7.2:1 #0a0a0c-en, korábban #8b8b94 */
 
   --accent: #b9a7e0;
   --accent-soft: rgba(185, 167, 224, 0.10);
@@ -1406,4 +1406,258 @@ footer .links a:hover { color: var(--accent); border-color: rgba(185, 167, 224, 
   .toolkit-grid { grid-template-columns: 1fr; }
   .toolkit-card { min-height: auto; }
   .lesson-header .breadcrumb-tag { display: block; margin-left: 0; margin-top: 8px; }
+}
+
+/* ─────────────────────────────────────────────────────────────
+   "Mi NEM ez?" — elhatárolás section (home hero alatt)
+   ───────────────────────────────────────────────────────────── */
+.anti {
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  padding: 72px 24px 80px;
+  position: relative;
+}
+.anti__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.anti .section-head h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(28px, 3.6vw, 44px);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  margin: 0;
+  color: var(--text);
+  line-height: 1.1;
+}
+.anti .section-head h2 em {
+  font-style: italic;
+  color: var(--accent);
+  font-weight: 400;
+}
+@media (max-width: 720px) {
+  .anti { padding: 56px 22px 64px; }
+}
+
+/* ─────────────────────────────────────────────────────────────
+   Ecosystem footer — cross-link a többi EF site-ra
+   ───────────────────────────────────────────────────────────── */
+.ecosystem-footer {
+  border-top: 1px solid var(--border);
+  background: var(--bg-elev);
+  padding: 64px 24px 56px;
+}
+.ecosystem-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.ecosystem-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 10px;
+  font-weight: 500;
+}
+.ecosystem-footer h3 {
+  font-family: var(--font-serif);
+  font-size: clamp(24px, 2.6vw, 32px);
+  font-weight: 400;
+  letter-spacing: -0.018em;
+  margin: 0 0 28px;
+  color: var(--text);
+  line-height: 1.18;
+}
+.ecosystem-footer h3 em {
+  font-style: italic;
+  color: var(--accent);
+  font-weight: 400;
+}
+.ecosystem-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+}
+.ecosystem-grid li { margin: 0; }
+.ecosystem-grid a {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 16px 18px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--card);
+  color: var(--text);
+  text-decoration: none;
+  transition: border-color 0.2s, background 0.2s, transform 0.2s;
+}
+.ecosystem-grid a:hover {
+  border-color: var(--accent);
+  background: var(--card-hover);
+  transform: translateY(-1px);
+}
+.ecosystem-card__title {
+  font-size: 14.5px;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  color: var(--text);
+}
+.ecosystem-card__note {
+  font-size: 12.5px;
+  color: var(--text-dim);
+  line-height: 1.45;
+}
+@media (max-width: 720px) {
+  .ecosystem-footer { padding: 48px 22px 40px; }
+  .ecosystem-grid { grid-template-columns: 1fr; }
+}
+
+/* ─────────────────────────────────────────────────────────────
+   Print stylesheet — fekete-fehér, ergonomikus, hide chrome
+   ───────────────────────────────────────────────────────────── */
+@media print {
+  :root {
+    color-scheme: light;
+  }
+  html, body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-family: Georgia, "Times New Roman", serif !important;
+    font-size: 11pt !important;
+    line-height: 1.5 !important;
+    letter-spacing: 0 !important;
+  }
+
+  /* Decorative / navigációs elemek elrejtése */
+  .brand-bar,
+  .top-nav,
+  .skip-link,
+  .ecosystem-footer,
+  footer,
+  .hero-ctas,
+  .video-block,
+  .pager,
+  header.hero::before,
+  .pull::before,
+  .outcome::before,
+  .cta-final::before,
+  .anti::before {
+    display: none !important;
+  }
+
+  /* Hero — kompakt */
+  header.hero {
+    padding: 0 0 24pt !important;
+    border-bottom: 1pt solid #000 !important;
+    background: #ffffff !important;
+    text-align: left !important;
+    page-break-after: avoid;
+  }
+  header.hero h1 {
+    color: #000 !important;
+    font-size: 24pt !important;
+    margin: 0 0 8pt !important;
+    max-width: none !important;
+  }
+  header.hero h1 em { color: #000 !important; font-style: italic; }
+  header.hero p.lede,
+  header.hero .eyebrow { color: #333 !important; }
+  .stats { display: none !important; }
+
+  /* Section-/lesson-headerek */
+  h1, h2, h3, h4 {
+    color: #000 !important;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+  }
+  h2 { font-size: 16pt !important; margin-top: 18pt !important; }
+  h3 { font-size: 13pt !important; margin-top: 12pt !important; }
+
+  /* Lesson body */
+  .lesson-body,
+  .lesson-header,
+  .container {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background: #ffffff !important;
+  }
+  .lesson-body p,
+  .lesson-body li,
+  .lesson-body ul,
+  .lesson-body ol {
+    color: #000 !important;
+    font-size: 11pt !important;
+    line-height: 1.5 !important;
+  }
+  .lesson-body a { color: #000 !important; text-decoration: underline; }
+  .lesson-body em { color: #000 !important; font-style: italic; }
+  .lesson-body strong { color: #000 !important; }
+  .lesson-body code,
+  .lesson-body pre,
+  .prompt,
+  .prompt pre {
+    background: #f4f4f4 !important;
+    border: 1pt solid #999 !important;
+    color: #000 !important;
+    font-size: 9.5pt !important;
+    page-break-inside: avoid;
+  }
+  .lesson-body blockquote {
+    border-left: 2pt solid #000 !important;
+    background: transparent !important;
+    color: #000 !important;
+    padding: 2pt 0 2pt 10pt !important;
+    page-break-inside: avoid;
+  }
+
+  /* Kártyák — egyszerű kerettel, ne szakadjon közbe */
+  .card, .step, .stat, .toolkit-card, .case-chip, .bonus__feature, .bonus__item, .anti__col {
+    background: #ffffff !important;
+    border: 1pt solid #999 !important;
+    color: #000 !important;
+    page-break-inside: avoid;
+    box-shadow: none !important;
+  }
+  .grid, .steps, .toolkit-grid, .cases-grid, .anti__grid {
+    display: block !important;
+  }
+  .grid > *, .steps > *, .anti__grid > * {
+    margin-bottom: 8pt !important;
+  }
+
+  /* Print-csak link-URL — kis font az anchor után */
+  a[href^="http"]::after,
+  a[href^="mailto:"]::after {
+    content: " (" attr(href) ")";
+    font-size: 9pt;
+    color: #555;
+  }
+  a[href^="#"]::after,
+  .lesson-body a::after { content: ""; }
+
+  /* Page-breaks és margins */
+  @page {
+    margin: 18mm 16mm 20mm 16mm;
+  }
+  .phase-section {
+    page-break-inside: avoid;
+    margin-top: 24pt !important;
+  }
+  .cta-final, .pull, .outcome {
+    page-break-inside: avoid;
+    padding: 12pt 0 !important;
+    background: #ffffff !important;
+  }
+
+  /* Accent színek semlegesítése nyomtatáshoz */
+  .eyebrow, .phase-num, .phase-title, .module-num,
+  .signature, .accent, .case-chip strong, .step__num,
+  .ecosystem-eyebrow {
+    color: #000 !important;
+  }
 }

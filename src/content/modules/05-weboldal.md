@@ -1,4 +1,5 @@
 ---
+lastReviewed: "2026-05-16"
 ---
 
 # 5. modul · Egyoldalas weboldal építése

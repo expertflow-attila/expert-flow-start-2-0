@@ -1,4 +1,5 @@
 ---
+lastReviewed: "2026-05-16"
 ---
 
 # 3. modul · Az ajánlatod és csomagok

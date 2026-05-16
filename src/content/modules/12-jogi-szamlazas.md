@@ -1,5 +1,5 @@
 ---
-lastReviewed: "2026-05-15"
+lastReviewed: "2026-05-16"
 ---
 
 # 12. modul · Jogi és számlázási minimum

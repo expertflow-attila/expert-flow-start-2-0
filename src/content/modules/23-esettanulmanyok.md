@@ -1,4 +1,5 @@
 ---
+lastReviewed: "2026-05-16"
 ---
 
 # Bónusz · Esettanulmányok — 38 nemzetközi szakértő landing-elemzései

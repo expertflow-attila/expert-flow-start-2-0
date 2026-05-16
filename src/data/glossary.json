@@ -18,5 +18,15 @@
   "konverzió": "amikor egy látogatóból lead lesz, vagy egy leadből fizető ügyfél — a marketing legfontosabb mérőszáma",
   "lead": "érdeklődő — valaki, aki már megadta az elérhetőségét, de még nem vásárolt",
   "DKIM/SPF/DMARC": "email-azonosító rekordok — DNS-bejegyzések, amik nélkül a hivatalos emailjeid spam-be kerülhetnek",
-  "DNS": "domain-irányítás — Domain Name System; a webhelyed címét (pl. tedneved.hu) ez fordítja le a szerver-IP-re"
+  "DNS": "domain-irányítás — Domain Name System; a webhelyed címét (pl. tedneved.hu) ez fordítja le a szerver-IP-re",
+  "readingTime": "olvasási idő — perc-becslés, ami megmondja, mennyi idő alatt fut át a látogató az adott oldalon vagy modulon",
+  "A/B testing": "A/B tesztelés — két verzió (pl. két hero-cím vagy CTA) kísérleti összehasonlítása, hogy lásd, melyik konvertál jobban",
+  "cohort": "kohorsz — közös időszakban (pl. ugyanabban a hónapban) szerzett vevőcsoport, amit együtt mérsz hosszú távon",
+  "drip campaign": "drip kampány — időzített email-sorozat, ami napokon át automatikusan megy ki egy új feliratkozónak",
+  "GDPR": "EU adatvédelmi szabályozás — General Data Protection Regulation; minden EU-s látogató személyes adatát csak opt-in alapon kezelheted",
+  "invoice": "számla — magyar e-számla NAV-kompatibilis formátumban (Számlázz.hu vagy Billingo); KATA, EV, Kft. esetén egyaránt kötelező",
+  "tax form": "adóbevallás — SZJA (személyi jövedelem), ÁFA (általános forgalmi), KATA-átalány vagy iparűzési; az EV/Kft. formától függően más a határidő",
+  "conversion rate": "konverziós arány — látogató→ügyfél százalék; pl. ha 100 látogatóból 2 foglal hívást, akkor a CR 2%",
+  "LTV": "ügyfél-élethossz érték — Lifetime Value; mennyit költ egy ügyfél a teljes kapcsolatotok alatt (havi 30 ezer × 24 hónap = 720 ezer Ft LTV)",
+  "MVP": "minimum viable product — legkisebb működő termék; az a verzió, amivel már lehet 1-3 ügyfelet kiszolgálni, de még nincs minden funkció kész"
 }

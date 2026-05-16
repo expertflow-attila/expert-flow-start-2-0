@@ -1,4 +1,5 @@
 ---
+lastReviewed: "2026-05-16"
 ---
 
 # 6. modul · Értékesítési szövegírás és szolgáltatás-landing
