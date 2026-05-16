@@ -11,7 +11,7 @@ interface Props {
 const { title, description, schema } = Astro.props;
 const site = Astro.site ?? new URL("https://expert-flow-start-2-0.vercel.app");
 const canonical = new URL(Astro.url.pathname, site).toString();
-const ogImage = new URL("/og-image.svg", site).toString();
+const ogImage = new URL("/og-image.jpg", site).toString();
 const schemaJson = schema ? JSON.stringify(schema) : null;
 ---
 
@@ -32,7 +32,7 @@ const schemaJson = schema ? JSON.stringify(schema) : null;
     <meta property="og:url" content={canonical} />
     <meta property="og:locale" content="hu_HU" />
     <meta property="og:image" content={ogImage} />
-    <meta property="og:image:type" content="image/svg+xml" />
+    <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="Business Start — diasor" />
