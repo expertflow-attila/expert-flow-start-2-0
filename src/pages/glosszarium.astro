@@ -82,35 +82,52 @@ const schema = [
     .glossary-list {
       display: grid;
       grid-template-columns: 1fr;
-      gap: 18px;
+      gap: 0;
       margin: 24px 0 0;
       padding: 0;
+      border-top: 1px solid var(--border-cell);
     }
 
     .glossary-entry {
+      position: relative;
       display: grid;
       grid-template-columns: minmax(140px, 200px) 1fr;
       gap: 20px;
-      padding: 18px 22px;
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 14px;
+      padding: 22px 24px;
+      background: transparent;
+      border-bottom: 1px solid var(--border-cell);
+      border-radius: 0;
       align-items: baseline;
+      transition: background var(--t-fast) var(--ease);
+      overflow: hidden;
     }
+    .glossary-entry::after {
+      content: "";
+      position: absolute;
+      inset: 4px;
+      background: var(--accent);
+      opacity: 0;
+      pointer-events: none;
+      clip-path: inset(0 100% 0 0);
+      transition: opacity var(--t-mid) var(--ease), clip-path var(--t-mid) var(--ease);
+    }
+    .glossary-entry:hover::after { opacity: 0.05; clip-path: inset(0 0 0 0); }
+    .glossary-entry > * { position: relative; z-index: 1; }
 
     .glossary-term {
       font-family: var(--font-mono, "JetBrains Mono", monospace);
-      font-size: 14px;
-      font-weight: 600;
+      font-size: 13px;
+      font-weight: 500;
       color: var(--accent-strong, var(--accent));
-      letter-spacing: 0.02em;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
       margin: 0;
     }
 
     .glossary-def {
       margin: 0;
       color: var(--text-muted, var(--text));
-      line-height: 1.55;
+      line-height: 1.6;
       font-size: 15px;
     }
 
@@ -118,7 +135,7 @@ const schema = [
       .glossary-entry {
         grid-template-columns: 1fr;
         gap: 6px;
-        padding: 16px 18px;
+        padding: 18px 20px;
       }
     }
   </style>
