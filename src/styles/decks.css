@@ -51,7 +51,7 @@
   width: 6px; height: 6px;
   border-radius: 50%;
   background: var(--accent);
-  box-shadow: 0 0 12px rgba(185, 167, 224, 0.6);
+  box-shadow: none;
 }
 .deck-topbar__brand a { color: var(--text-dim); transition: color 0.18s; }
 .deck-topbar__brand a:hover { color: var(--text); }
@@ -86,7 +86,7 @@
   top: 0; left: 0;
   height: 2px;
   background: var(--accent);
-  box-shadow: 0 0 10px rgba(185, 167, 224, 0.5);
+  box-shadow: 0 0 4px rgba(185, 167, 224, 0.2);
   z-index: 40;
   transition: width 0.4s cubic-bezier(0.22, 1, 0.36, 1);
   width: 0%;
@@ -315,7 +315,7 @@
   clip-path: inset(0 100% 0 0);
   transition: opacity var(--t-mid) var(--ease), clip-path var(--t-mid) var(--ease);
 }
-.slide--end .end-stack a:hover::after { opacity: 0.06; clip-path: inset(0 0 0 0); }
+.slide--end .end-stack a:hover::after { opacity: 0.025; clip-path: inset(0 0 0 0); }
 .slide--end .end-stack a > * { position: relative; z-index: 1; }
 .slide--end .end-stack a:hover { border-color: var(--accent); }
 .slide--end .end-stack span:first-child {
@@ -431,7 +431,7 @@
   clip-path: inset(0 100% 0 0);
   transition: opacity var(--t-mid) var(--ease), clip-path var(--t-mid) var(--ease);
 }
-.deck-link:hover::after { opacity: 0.06; clip-path: inset(0 0 0 0); }
+.deck-link:hover::after { opacity: 0.025; clip-path: inset(0 0 0 0); }
 .deck-link > * { position: relative; z-index: 1; }
 .deck-link:hover { border-color: var(--accent); }
 .deck-link .num { font-family: var(--font-serif); font-style: italic; font-size: 13px; color: var(--accent); letter-spacing: 0.04em; }

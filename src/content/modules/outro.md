@@ -16,7 +16,7 @@ A 12. hét végén — ha minden modulnál elvégezted a heti feladatot — a k�
 
 **2. út · Asszisztenst veszel fel.** Ha az ügyfél-számod 5-10 fő körüli, és észreveszed, hogy heti 5-10 órát tölt el a CRM, az emailek, a számlázás és az adminisztráció — ekkor egy virtuális asszisztens (havi 100-200 ezer Ft) átveheti a háttér-feladatokat. Te a szakmai munkára koncentrálsz, az asszisztens a rendszereket működteti.
 
-**3. út · Expert Flow Agentic Flow retainer.** Ha a vállalkozásod elérte a havi 1-2 millió Ft-os bevételt, és az asszisztens már nem elég — itt az AI-vezérelt operáció vehet át. A 6 AI ügynök (Scout, Manager, Operations, Optimizer, Finance, Orchestrator) az ügyfél-pipeline, marketing, számlázás és optimalizáció hátterét automatikusan kezeli, te a szakmai munkára koncentrálsz. Részleteket az `expertflow.hu`-n találsz.
+**3. út · Solo Business Agentic Flow retainer.** Ha a vállalkozásod elérte a havi 1-2 millió Ft-os bevételt, és az asszisztens már nem elég — itt az AI-vezérelt operáció vehet át. A 6 AI ügynök (Scout, Manager, Operations, Optimizer, Finance, Orchestrator) az ügyfél-pipeline, marketing, számlázás és optimalizáció hátterét automatikusan kezeli, te a szakmai munkára koncentrálsz. Részleteket az `expertflow.hu`-n találsz.
 
 ## Bónusz-tárak — ha tovább akarsz menni
 
@@ -24,7 +24,7 @@ A 12 modul után négy bónusz-tár vár Rád:
 
 - **20. bónusz · Az első fizetős terméked — videókurzus AI-vágással** (`20-elso-digitalis-termek/`) — hogyan készítettem el ezt a kurzust, amit éppen olvasol. OBS Studio + Whisper + Claude Code vágás + Mux/Vimeo + Stripe, ~3 hét munka.
 - **21. bónusz · Claude Code productivity-trükkök magyarul** (`21-claude-code-haladok/`) — 20 trükk három szinten (alap, köztes, haladó), a 4. modul kiterjesztése.
-- **22. bónusz · Az Expert Flow technológiai stack** (`22-expert-flow-stack/`) — a saját rendszerem 52 szolgáltatása 11 kategóriába rendezve, kulcsok nélkül. Inspirációként, hogy lásd, hova lehet eljutni.
+- **22. bónusz · A Solo Business technológiai stack** (`22-expert-flow-stack/`) — a saját rendszerem 52 szolgáltatása 11 kategóriába rendezve, kulcsok nélkül. Inspirációként, hogy lásd, hova lehet eljutni.
 - **23. bónusz · Esettanulmányok — 38 nemzetközi szakértő landing-elemzései** (`23-esettanulmanyok/`) — magyar nyelvű elemzések Marie Forleo, Amy Porterfield, Jenna Kutcher, Justin Welsh, Bonnie Christine és további 33 szakértő landing-, email- és sales-anyagairól. Ne másold le, hanem inspirálódj belőlük.
 
 Ne kezdd el mindezeket egyszerre — inkább 1-2-vel haladj havonta, ahogy a saját rendszered növekszik.

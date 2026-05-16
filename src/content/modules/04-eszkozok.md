@@ -39,7 +39,7 @@ A modul a saját stackemet írja le, de a kurzus filozófiája egyik konkrét sz
 - **Kit (volt ConvertKit) helyett:** MailerLite (ingyenes 1000 feliratkozóig), Substack (ha újságírói hangod van), Beehiiv (newsletter-fókuszú).
 - **GA4 helyett:** Plausible (privacy-friendly, GDPR-tiszta, ~€9/hó), Fathom (hasonló), Umami (önhosztolt, ingyenes).
 
-A 17-19. tár-anyagok és a 22. bónusz tár (Expert Flow stack) több alternatívát is bemutat. Ne ragadj le az eszközválasztáson — két óra mérlegelés, döntés, indulás.
+A 17-19. tár-anyagok és a 22. bónusz tár (Solo Business stack) több alternatívát is bemutat. Ne ragadj le az eszközválasztáson — két óra mérlegelés, döntés, indulás.
 
 ## Heti feladat
 

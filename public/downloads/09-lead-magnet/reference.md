@@ -216,7 +216,7 @@ Vagy ha most nem alkalmas, semmi baj — a heti emailek mennek tovább,
 
 ## Welcome-sorozat: konkrét sablon
 
-Ez a sorozat élesben fut az Expert Flow listán — minden landing page-ről érkező feliratkozó ezt kapja. A `prompts.md` 9.3 promptjának „kitöltött" verziója, magyar piacra hangolva. Másold a Kit Sequences-be, írd át a `{{first_name}}`, `{{lead_magnet_neve}}`, `{{download_link}}` és `{{survey_link}}` változókat a saját értékeidre.
+Ez a sorozat élesben fut a Solo Business listán — minden landing page-ről érkező feliratkozó ezt kapja. A `prompts.md` 9.3 promptjának „kitöltött" verziója, magyar piacra hangolva. Másold a Kit Sequences-be, írd át a `{{first_name}}`, `{{lead_magnet_neve}}`, `{{download_link}}` és `{{survey_link}}` változókat a saját értékeidre.
 
 **Tag:** `expert-flow-welcome`
 **Cél:** általános welcome, lead magnet kézbesítés, bizalomépítés
@@ -239,7 +239,7 @@ Nem húzom az időt — tessék, amit ígértem:
 
 De mielőtt megnyitnád, hadd mutatkozzak be 30 másodpercben:
 
-Nagy Attila vagyok, az Expert Flow alapítója. Olyan AI rendszereket
+Nagy Attila vagyok, a Solo Business alapítója. Olyan AI rendszereket
 építek, amik a vállalkozók helyett dolgoznak — miközben ők az
 ügyfelekre koncentrálhatnak.
 
@@ -413,7 +413,7 @@ Sok sikert a vállalkozásodhoz!
 Üdv,
 Attila
 
-Expert Flow — AI automatizáció vállalkozóknak
+Solo Business — AI automatizáció vállalkozóknak
 ```
 
 ## Kit (ConvertKit) setup-checklist
@@ -423,7 +423,7 @@ Ez az élő setup-folyamat, amit követtem, amikor a 4 sorozatot beállítottam 
 ### 1. Sequence létrehozás (minden sorozathoz)
 
 1. Kit dashboard → **Sequences** → **New Sequence**
-2. Adj nevet (pl. „Expert Flow Welcome — Üdvözlő sorozat")
+2. Adj nevet (pl. „Solo Business Welcome — Üdvözlő sorozat")
 3. Adj hozzá 5 emailt a megfelelő sablonból:
    - Email 1: Day 0 (azonnal)
    - Email 2: Day 2
@@ -456,7 +456,7 @@ A landing page form submit → tag hozzáadva → automation trigger → sequenc
 Minden landing page-nek saját embed form kell:
 
 1. Kit → **Forms** → **New Form** → **Embed**
-2. Adj nevet (pl. „Expert Flow Welcome Form")
+2. Adj nevet (pl. „Solo Business Welcome Form")
 3. A form action-ben állítsd be a tag-et
 4. Másold ki az embed kódot, illeszd be a landing page-be
 

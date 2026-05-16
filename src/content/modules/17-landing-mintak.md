@@ -73,7 +73,7 @@ Egyetlen kép, mottó, email-form. "Valami készül, írj fel a listára, ha ké
 
 - **Mikor használd:** új terméket / kurzust építesz 4-8 hetes ciklusban, és előzetes érdeklődést szeretnél mérni (és listát építeni)
 - **Mikor NE használd:** ha még a termék-ötlet sincs kalibrálva — akkor először 5 interjút csinálj a célközönséggel, ne weboldalt
-- Példa: az [Expert Flow School](https://expert-flow-school.vercel.app) launch coming-soon fázisa
+- Példa: a [Solo Business Library](https://expert-flow-school.vercel.app) launch coming-soon fázisa
 
 ### 4.6 Long-form sales landing — Hormozi-style ajánlat-oldal
 

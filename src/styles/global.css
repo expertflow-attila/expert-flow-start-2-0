@@ -1,5 +1,5 @@
 /* ─────────────────────────────────────────────────────────────
-   Expert Flow Start 2.0 — EV-Landings /aios ETALON design
+   Solo Business Start 2.0 — EV-Landings /aios ETALON design
    Cell-grid, sharp cards, serif italic, lavender accent, bg-fx
    ───────────────────────────────────────────────────────────── */
 
@@ -21,7 +21,7 @@
   --text-dim: #8b8b94;
 
   --accent: #b9a7e0;
-  --accent-soft: rgba(185, 167, 224, 0.10);
+  --accent-soft: rgba(185, 167, 224, 0.06);
   --accent-strong: #cdb9eb;
   --accent-glow: rgba(185, 167, 224, 0.32);
 
@@ -108,7 +108,7 @@ a { color: inherit; text-decoration: none; }
   position: fixed; inset: 0;
   pointer-events: none;
   background: radial-gradient(ellipse 800px 600px at 0% 0%, var(--accent-glow) 0%, rgba(0,0,0,0) 60%);
-  opacity: 0.22;
+  opacity: 0.13;
   mix-blend-mode: lighten;
   z-index: 3;
   transition: background var(--t-slow) var(--ease);
@@ -118,7 +118,7 @@ a { color: inherit; text-decoration: none; }
   position: fixed; inset: 0;
   pointer-events: none;
   background: radial-gradient(ellipse 700px 500px at 100% 100%, var(--accent-glow) 0%, rgba(0,0,0,0) 55%);
-  opacity: 0.18;
+  opacity: 0.10;
   mix-blend-mode: lighten;
   z-index: 3;
 }
@@ -177,7 +177,7 @@ a { color: inherit; text-decoration: none; }
   clip-path: inset(0 100% 0 0);
   transition: opacity var(--t-mid) var(--ease), clip-path var(--t-mid) var(--ease);
 }
-.gc-link:hover::after { opacity: 0.07; clip-path: inset(0 0 0 0); }
+.gc-link:hover::after { opacity: 0.025; clip-path: inset(0 0 0 0); }
 
 /* Labels */
 .label-sm {
@@ -504,7 +504,7 @@ header.hero p.lede {
   transition: opacity var(--t-mid) var(--ease), clip-path var(--t-mid) var(--ease);
   z-index: 0;
 }
-.card:hover::after { opacity: 0.06; clip-path: inset(0 0 0 0); }
+.card:hover::after { opacity: 0.025; clip-path: inset(0 0 0 0); }
 .card > * { position: relative; z-index: 1; }
 .card:focus-visible {
   outline: 2px solid var(--accent);
@@ -873,7 +873,7 @@ header.hero p.lede {
 }
 .bonus__feature .pin .dot {
   width: 5px; height: 5px; border-radius: 50%;
-  background: var(--accent); box-shadow: 0 0 10px var(--accent-soft);
+  background: var(--accent); box-shadow: none;
 }
 .bonus__list {
   display: flex;
@@ -1268,8 +1268,8 @@ footer.foot a.label-sm:hover { color: var(--accent-strong); }
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse 60% 55% at 50% 50%, rgba(185, 167, 224, 0.07), transparent 70%),
-    linear-gradient(180deg, rgba(185, 167, 224, 0.025), transparent 55%);
+    radial-gradient(ellipse 60% 55% at 50% 50%, rgba(185, 167, 224, 0.04), transparent 70%),
+    linear-gradient(180deg, rgba(185, 167, 224, 0.015), transparent 55%);
   pointer-events: none;
 }
 .video-cover:hover { border-color: var(--accent); }
@@ -1590,7 +1590,7 @@ footer.foot a.label-sm:hover { color: var(--accent-strong); }
   clip-path: inset(0 100% 0 0);
   transition: opacity var(--t-mid) var(--ease), clip-path var(--t-mid) var(--ease);
 }
-.pager a:hover::after { opacity: 0.06; clip-path: inset(0 0 0 0); }
+.pager a:hover::after { opacity: 0.025; clip-path: inset(0 0 0 0); }
 .pager a > * { position: relative; z-index: 1; }
 .pager .label {
   font-family: var(--font-mono);
@@ -1765,7 +1765,7 @@ footer.foot a.label-sm:hover { color: var(--accent-strong); }
   clip-path: inset(0 100% 0 0);
   transition: opacity var(--t-mid) var(--ease), clip-path var(--t-mid) var(--ease);
 }
-.ecosystem-grid a:hover::after { opacity: 0.07; clip-path: inset(0 0 0 0); }
+.ecosystem-grid a:hover::after { opacity: 0.025; clip-path: inset(0 0 0 0); }
 .ecosystem-grid a > * { position: relative; z-index: 1; }
 .ecosystem-card__title {
   font-family: var(--font-serif);

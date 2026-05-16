@@ -2,15 +2,15 @@
 lastReviewed: "2026-05-16"
 ---
 
-# Bónusz · Az Expert Flow technológiai stack — mit használtam én
+# Bónusz · A Solo Business technológiai stack — mit használtam én
 
-> Egy referencia-tár arról, milyen szolgáltatásokat használok ma az Expert Flow rendszerben. Nem azt mondja, hogy ezeket Neked is használnod kell — csak megmutatja, hova lehet eljutni, ha tovább építkezel a 12 modul után.
+> Egy referencia-tár arról, milyen szolgáltatásokat használok ma a Solo Business rendszerben. Nem azt mondja, hogy ezeket Neked is használnod kell — csak megmutatja, hova lehet eljutni, ha tovább építkezel a 12 modul után.
 
 ## Mire való ez a tár
 
-A 12 építő modul egy minimális, kezdőbarát stack-re épül: Vercel, Cal.com, Kit, Google Workspace, Sheets, GA4, Stripe Payment Link. Ez bőven elég az első 5-10 ügyfélig. **Az Expert Flow rendszer mögött ennél lényegesen több szolgáltatás dolgozik** — nem mert szükséges, hanem mert menet közben fokozatosan kiderült, hogy hol mire van szükség. Ez a tár arra való, hogy lásd a teljes lehetőség-térképet, és ha valamelyik kategória érdekel, tudj utána olvasni.
+A 12 építő modul egy minimális, kezdőbarát stack-re épül: Vercel, Cal.com, Kit, Google Workspace, Sheets, GA4, Stripe Payment Link. Ez bőven elég az első 5-10 ügyfélig. **A Solo Business rendszer mögött ennél lényegesen több szolgáltatás dolgozik** — nem mert szükséges, hanem mert menet közben fokozatosan kiderült, hogy hol mire van szükség. Ez a tár arra való, hogy lásd a teljes lehetőség-térképet, és ha valamelyik kategória érdekel, tudj utána olvasni.
 
-**Fontos figyelmeztetés:** ne kezdj el most ezeket telepíteni. A 12 modulos alaprendszer hoz neked vásárlókat, ezek a szolgáltatások utána, fokozatosan jönnek be — egyszerre 1-2-t, ahogy a saját rendszered növekszik. Az Expert Flow stack-jét kb. 18 hónap alatt építettem fel — nem 18 nap alatt.
+**Fontos figyelmeztetés:** ne kezdj el most ezeket telepíteni. A 12 modulos alaprendszer hoz neked vásárlókat, ezek a szolgáltatások utána, fokozatosan jönnek be — egyszerre 1-2-t, ahogy a saját rendszered növekszik. A Solo Business stack-jét kb. 18 hónap alatt építettem fel — nem 18 nap alatt.
 
 A csoportosítás 11 kategóriába rendezi a szolgáltatásokat, mindegyikhez 1-3 mondat magyarázattal.
 
@@ -42,7 +42,7 @@ A Claude egyetlen modell, de néha más modellt is érdemes meghívni — vagy m
 - **Anthropic Claude** — a fő modell, amivel a kurzus is készült (Sonnet, Opus, Haiku)
 - **OpenAI GPT** — másodlagos modell, néha jobb hosszú szövegekre, plusz a Whisper transzkripció (20. bónusz, videovágás)
 - **Google Gemini** — multimodális (kép + hang + szöveg), olcsó nagy mennyiségű adatra
-- **OpenRouter** — egyetlen API, amin keresztül **200+ modell hívható** (Claude, GPT, Gemini, Llama, Mistral). Az Expert Flow Orchestrator-a ezt használja a model-routingra (egyszerű feladat → Gemini Flash, közepes → Haiku, komplex → Sonnet/Opus)
+- **OpenRouter** — egyetlen API, amin keresztül **200+ modell hívható** (Claude, GPT, Gemini, Llama, Mistral). A Solo Business Orchestrator-a ezt használja a model-routingra (egyszerű feladat → Gemini Flash, közepes → Haiku, komplex → Sonnet/Opus)
 
 Amit megtanultam: az „egy modell mindenre" gondolkodás drága. A Haiku 10x olcsóbb az Opusnál, és sok feladatra elég.
 
@@ -89,7 +89,7 @@ A különbség: a Kit a folyamatos kapcsolatra (newsletter, welcome-sorozat), a 
 ## 6. Adat-tárolás — kétféle szint
 
 - **Google Sheets** — egyszerű CRM (10. modul). Az első 50-100 ügyfélig bőven elég.
-- **Supabase** — PostgreSQL adatbázis felhőben (Expert Flow agent-rendszerének fő adatbázisa). Akkor érdemes átállni, amikor sok automatizmus dolgozik egyszerre, vagy real-time adat-szinkron kell több ügynök között.
+- **Supabase** — PostgreSQL adatbázis felhőben (Solo Business agent-rendszerének fő adatbázisa). Akkor érdemes átállni, amikor sok automatizmus dolgozik egyszerre, vagy real-time adat-szinkron kell több ügynök között.
 
 A 12 modul csak Sheets-szel megy. Ha tovább építkezel skill-ekkel és AI-ügynökökkel, ott jön be a Supabase.
 
@@ -104,7 +104,7 @@ A 12 modul csak Sheets-szel megy. Ha tovább építkezel skill-ekkel és AI-ügy
 
 ## 8. CRM és projekt-menedzsment
 
-- **ClickUp** — projekt-menedzsment (Trello/Asana alternatíva). Az Expert Flow Manager-ügynöke a ClickUp-on tart számon minden ügyfél-projektet. Akkor releváns, ha 10+ aktív ügyfeled van egyszerre.
+- **ClickUp** — projekt-menedzsment (Trello/Asana alternatíva). A Solo Business Manager-ügynöke a ClickUp-on tart számon minden ügyfél-projektet. Akkor releváns, ha 10+ aktív ügyfeled van egyszerre.
 
 ---
 
@@ -117,13 +117,13 @@ A 12 modul csak Sheets-szel megy. Ha tovább építkezel skill-ekkel és AI-ügy
 ## 10. Analytics — két szint
 
 - **Google Analytics 4** — kezdő-szintű webhely-mérés (11. modul). Ingyenes, elég.
-- **PostHog** — termék-analitika (event-tracking, funnel-analízis, session-recording). Akkor jön be, ha saját webapp-od van, és az ügyfél-utat akarod látni a kattintás-szintig. Az Expert Flow tanácsadó ügyfeleinek dashboard-jain ez fut.
+- **PostHog** — termék-analitika (event-tracking, funnel-analízis, session-recording). Akkor jön be, ha saját webapp-od van, és az ügyfél-utat akarod látni a kattintás-szintig. A Solo Business tanácsadó ügyfeleinek dashboard-jain ez fut.
 
 ---
 
 ## 11. CMS és weboldal-eszközök
 
-- **Webflow** — no-code CMS-rendszer (vizuális szerkesztő). Akkor releváns, ha az ügyfeleknek építesz blog-ot, marketingoldalt, és nem akarsz mindent kódból írni. Az Expert Flow ezzel az MCP-vel automatizál.
+- **Webflow** — no-code CMS-rendszer (vizuális szerkesztő). Akkor releváns, ha az ügyfeleknek építesz blog-ot, marketingoldalt, és nem akarsz mindent kódból írni. A Solo Business ezzel az MCP-vel automatizál.
 - **Vercel** — fejlesztőbarát hoszting (5. modul) + saját webapp-deploy.
 - **Bitly** — link rövidítő, követéssel. Hasznos, ha social mediában osztasz meg sok linket, és tudni akarod, melyik kattintást hozta.
 
@@ -147,7 +147,7 @@ A `.env` fájlomban most kb. 52 szolgáltatás kulcsa fut. Ezek 11 kategóriába
 
 ## Mit NEM tartalmaz ez a tár
 
-A `.env`-ben pár olyan kulcs is szerepel, ami a Expert Flow saját ügynöki rendszerének belső azonosítója (pl. `CRON_SECRET`, `EXPERT_FLOW_BOT_TOKEN`). Ezek nem külső szolgáltatások, hanem az én belső authentikációm — a kurzus szempontjából nincs jelentőségük.
+A `.env`-ben pár olyan kulcs is szerepel, ami a Solo Business saját ügynöki rendszerének belső azonosítója (pl. `CRON_SECRET`, `EXPERT_FLOW_BOT_TOKEN`). Ezek nem külső szolgáltatások, hanem az én belső authentikációm — a kurzus szempontjából nincs jelentőségük.
 
 ## Resources
 
