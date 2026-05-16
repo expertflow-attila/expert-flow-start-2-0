@@ -81,7 +81,7 @@
       "type": "lede",
       "eyebrow": "03. lecke · custom domain",
       "title": "Saját domain és <em>HTTPS</em>",
-      "lede": "Vercel admin → Settings → Domains → tedneved.hu hozzáadása.",
+      "lede": "Vercel admin alatt Settings, majd Domains, és add hozzá: tedneved.hu.",
       "body": "<p>A Vercel ad két DNS-rekordot (egy A, egy CNAME), ezeket a Sybell DNS-be bemásolod (a 04. modul beállításán keresztül). 1-2 óra propagáció, és a saját domaineden van a webhely, automatikus HTTPS-szel.</p>"
     },
     {

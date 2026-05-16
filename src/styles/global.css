@@ -58,6 +58,7 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: -0.011em;
   line-height: 1.6;
+  overflow-x: hidden;
 }
 html { scroll-behavior: smooth; scroll-padding-top: 80px; }
 

@@ -32,9 +32,9 @@
       "bullets": [
         { "t": "6.1 Email-író", "s": "Értékesítési + ügyfél-kommunikációs sablonok magyarul." },
         { "t": "6.2 Landing page generátor", "s": "Tailwind boilerplate + Hormozi-stílusú copy a 17. modul alapján." },
-        { "t": "6.3 Lead magnet generátor", "s": "Markdown → PDF, pandoc-kal. PDF készen az inboxba küldhető." },
+        { "t": "6.3 Lead magnet generátor", "s": "Markdownból PDF, pandoc-kal. PDF készen az inboxba küldhető." },
         { "t": "6.4 CRM dashboard", "s": "Google Sheets formula-tervező — leadek, státuszok, mérőszámok." },
-        { "t": "6.5 Content pipeline", "s": "Videó → YouTube + Instagram + LinkedIn-poszt egy parancsra." },
+        { "t": "6.5 Content pipeline", "s": "Egy videóból YouTube + Instagram + LinkedIn-poszt egy parancsra." },
         { "t": "6.6 Avatár-építő", "s": "Az 1.2 modul (vevő-avatár) automatizálása újabb szegmensekhez." }
       ]
     },
@@ -55,7 +55,7 @@
     {
       "type": "lede",
       "eyebrow": "6.3 Lead magnet generátor",
-      "title": "Markdown → <em>PDF</em>, pandoc-kal",
+      "title": "Markdownból <em>PDF</em>, pandoc-kal",
       "lede": "A skill kiválaszt egy témát a tudásodból, megtervezi a 5-8 oldalas PDF struktúráját, és lefuttatja a pandoc-konverziót.",
       "body": "<p>A kimenet egy designos PDF (saját szín-paletta, betűtípus a `references/voice.md`-ből), amit közvetlenül feltöltöd a 4.2 landing-hez. A pandoc + LaTeX template mellékelve. Egy lead magnet 30 perc alatt kész, nem 3 nap.</p>"
     },
@@ -69,8 +69,8 @@
     {
       "type": "lede",
       "eyebrow": "6.5 Content pipeline",
-      "title": "Videó → <em>3 felület</em> egy parancsra",
-      "lede": "Egy videó-átirat → YouTube-leírás + Instagram-caption + LinkedIn-poszt.",
+      "title": "Egy videóból <em>3 felület</em> egy parancsra",
+      "lede": "Egy videó-átiratból YouTube-leírás, Instagram-caption és LinkedIn-poszt.",
       "body": "<p>A skill bekéri a videó transcript-jét (vagy az AI le is írja Whisper-rel), majd 3 különböző felületre formázza. A LinkedIn-poszt hosszabb, dokumentáló-hangban; az Instagram-caption rövid, 3-5 sor; a YouTube-leírás SEO-konform, fejezet-időbélyegekkel. A 23. modul építi rá az ütemezést.</p>"
     },
     {
@@ -94,7 +94,7 @@
       "bullets": [
         { "t": "Új kampány: 6.2 + 6.1", "s": "Landing-generálás, aztán email-szekvencia ugyanahhoz a kampányhoz." },
         { "t": "Új vevőszegmens: 6.6 + 6.3", "s": "Avatár felépítése, aztán személyre szabott lead magnet." },
-        { "t": "Heti tartalom: 6.5 + 6.1", "s": "Videó → 3 felület → email a feliratkozóknak." },
+        { "t": "Heti tartalom: 6.5 + 6.1", "s": "Egy videóból 3 felület, majd email a feliratkozóknak." },
         { "t": "Számok láthatóvá: 6.4 + GA4", "s": "CRM-dashboard a Sheets-ben, GA4 conversion-ek mellé." }
       ]
     },

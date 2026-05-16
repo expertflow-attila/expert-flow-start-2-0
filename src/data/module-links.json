@@ -102,7 +102,7 @@
     "title": "Hasznos linkek",
     "links": [
       { "label": "Kit (ConvertKit) · email lista", "url": "https://kit.com" },
-      { "label": "Pandoc · MD → PDF konverzió", "url": "https://pandoc.org" },
+      { "label": "Pandoc · MD-ből PDF konverzió", "url": "https://pandoc.org" },
       { "label": "Kit Sequences · útmutató", "url": "https://help.kit.com/en/articles/4076146-creating-a-sequence" },
       { "label": "NMHH · magyar email-marketing szabályok", "url": "https://nmhh.hu" },
       { "label": "Stripe Press · minimal PDF design", "url": "https://press.stripe.com" },

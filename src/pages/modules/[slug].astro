@@ -116,6 +116,10 @@ const moduleSchemas = [learningResource, breadcrumbs];
   description={meta.summary}
   schema={moduleSchemas}
 >
+  <Fragment slot="head">
+    <link rel="alternate" hreflang="hu" href={moduleUrl} />
+    <link rel="alternate" hreflang="x-default" href={moduleUrl} />
+  </Fragment>
 
   <header class="lesson-header">
     <div class="container">
@@ -229,7 +233,7 @@ const moduleSchemas = [learningResource, breadcrumbs];
         {links.length > 0 ? (
           <ul class="gh-list">
             {links.map((g) => (
-              <li><a href={g.url} target="_blank" rel="noopener"><span>{g.label}</span><span class="gh-arrow">↗</span></a></li>
+              <li><a href={g.url} target="_blank" rel="noopener noreferrer"><span>{g.label}</span><span class="gh-arrow">↗</span></a></li>
             ))}
           </ul>
         ) : (

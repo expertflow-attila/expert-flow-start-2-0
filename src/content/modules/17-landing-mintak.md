@@ -108,3 +108,12 @@ Hosszú görgetés, magas árú (300 ezer Ft+) szolgáltatáshoz. Hero + ígére
 - 🔗 [Marketing Skiccfüzet — 43 vázlat](https://marketing-skiccfuzet.vercel.app)
 - 🔗 [Funnel Tananyag — 23 funnel típus](https://funnel-tananyag.vercel.app)
 - 🔗 [Copywriting tananyag — 10 lecke](https://copywriting-ef.vercel.app)
+
+## Heti feladat
+
+Válassz ki a 6 mintából egyet, ami a következő ajánlatodhoz illik, és 45 perc alatt sajátítsd ki a kódjához tartozó wireframe-logikát — a cél nem az implementáció, hanem hogy lásd, miért működik.
+
+- Nyisd meg a [Marketing Skiccfüzet](https://marketing-skiccfuzet.vercel.app)-et, és válassz egy mintát, ami a következő szolgáltatásod / kampányod ajánlatához illik
+- Olvasd át a hozzá tartozó `boilerplate.html` szerkezetét felülről lefelé, és írj le 5 mondatban, mi a hero / érték-stack / CTA-logikája
+- Nyisd meg a saját jelenlegi landing-edet (vagy a 6. modul outputját), és jegyzeteld le 3 pontban, mit kell ehhez igazítanod
+

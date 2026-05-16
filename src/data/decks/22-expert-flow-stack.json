@@ -107,7 +107,7 @@
       "type": "lede",
       "eyebrow": "A kategóriák egymásra épülnek",
       "title": "Mikor melyik kategória <em>jön</em> be",
-      "lede": "1. (alap stack) → 12. hét végén kész. 2-4. → saját AI-rendszernél. 5-10. → 20-50 aktív ügyfél után. 11-12. → ügynökségi modell.",
+      "lede": "1. (alap stack) a 12. hét végén kész. 2-4. saját AI-rendszernél. 5-10. 20-50 aktív ügyfél után. 11-12. ügynökségi modellnél.",
       "body": "<p>Minden új szolgáltatás 5-15 perc setupot, havi költséget, integrációs munkát hoz. Inkább 18 hónapig dolgozz a 7 alapszolgáltatással, mint hogy 18 napon belül 25-öt összelegózz.</p>"
     },
     {

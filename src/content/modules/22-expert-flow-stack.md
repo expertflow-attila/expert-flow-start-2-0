@@ -9,7 +9,7 @@ lastReviewed: "2026-05-16"
 > **TL;DR** — A Solo Business teljes stack-je: ~52 szolgáltatás 11 kategóriában. Inspiráció, nem to-do lista.
 > - **Alap (1-12. modulokból)**: Vercel, GitHub, Sybell, Google Workspace, Cal.com, Kit, Sheets, GA4, Stripe, Számlázz.hu — havi 1-3M Ft bevételig bőven elég
 > - **18 hónap alatt** építettem fel, nem 18 nap — egyszerre 1-2 új szolgáltatás, ahogy nősz
-> - **Növekedési sávok**: AI-routing (OpenRouter) → scraping (Apify, Exa) → tartalom (fal.ai, ElevenLabs) → DB (Supabase), PostHog, ClickUp, Webflow
+> - **Növekedési sávok** sorrendben: AI-routing (OpenRouter), scraping (Apify, Exa), tartalom (fal.ai, ElevenLabs), DB (Supabase), PostHog, ClickUp, Webflow
 > - Ne kezdj most telepíteni — az alap-stack hoz vásárlókat
 
 ## Mire való ez a tár
@@ -50,7 +50,7 @@ A Claude egyetlen modell, de néha más modellt is érdemes meghívni — vagy m
 - **Anthropic Claude** — a fő modell, amivel a kurzus is készült (Sonnet, Opus, Haiku)
 - **OpenAI GPT** — másodlagos modell, néha jobb hosszú szövegekre, plusz a Whisper transzkripció (20. bónusz, videovágás)
 - **Google Gemini** — multimodális (kép + hang + szöveg), olcsó nagy mennyiségű adatra
-- **OpenRouter** — egyetlen API, amin keresztül **200+ modell hívható** (Claude, GPT, Gemini, Llama, Mistral). A Solo Business Orchestrator-a ezt használja a model-routingra (egyszerű feladat → Gemini Flash, közepes → Haiku, komplex → Sonnet/Opus)
+- **OpenRouter** — egyetlen API, amin keresztül **200+ modell hívható** (Claude, GPT, Gemini, Llama, Mistral). A Solo Business Orchestrator-a ezt használja a model-routingra (egyszerű feladatra Gemini Flash, közepesre Haiku, komplexre Sonnet vagy Opus)
 
 Amit megtanultam: az „egy modell mindenre" gondolkodás drága. A Haiku 10x olcsóbb az Opusnál, és sok feladatra elég.
 
@@ -146,10 +146,10 @@ A 12 modul csak Sheets-szel megy. Ha tovább építkezel skill-ekkel és AI-ügy
 ## A teljes kép
 
 A `.env` fájlomban most kb. 52 szolgáltatás kulcsa fut. Ezek 11 kategóriába esnek, és **a kategóriák egymásra épülnek**:
-- Az 1. kategória (alap stack) → a 12. hét végén már a kezedben van
-- A 2-4. kategóriák → akkor jönnek, amikor saját AI-rendszer építésébe kezdesz
-- Az 5-10. kategóriák → 20-50 aktív ügyfél után válnak relevánssá
-- A 11-12. → ha másoknak is építesz (ügynökségi modell)
+- Az 1. kategória (alap stack) a 12. hét végén már a kezedben van
+- A 2-4. kategóriák akkor jönnek, amikor saját AI-rendszer építésébe kezdesz
+- Az 5-10. kategóriák 20-50 aktív ügyfél után válnak relevánssá
+- A 11-12. kategória akkor jön, ha másoknak is építesz (ügynökségi modell)
 
 **Amit megtanultam:** a túl korai stack-növelés ELLENSÉG. Minden új szolgáltatás 5-15 perc setupot, havi költséget, integrációs munkát hoz. Inkább 18 hónapig dolgozz a 7 alapszolgáltatással, mint hogy 18 napon belül 25-öt összelegózz.
 
@@ -168,3 +168,12 @@ A `.env`-ben pár olyan kulcs is szerepel, ami a Solo Business saját ügynöki 
 - 10. modul · CRM és belső rendezés (Google Sheets alapok)
 - 20. bónusz · Videókurzus AI-vágással (Whisper, ElevenLabs, Stripe)
 - 21. bónusz · Claude Code productivity-trükkök (Context7, Chrome DevTools MCP)
+
+## Heti feladat
+
+Nézd át a 11 kategóriát, és 30 percben határozd meg, hol tartasz most, és melyik az EGY következő szolgáltatás, ami valódi szűk keresztmetszetet old fel — semmit ne telepíts még.
+
+- Pipáld ki az 1. kategória (alap stack) tételeit, amik már nálad futnak — ez a kiindulási képed
+- Húzd alá a 2-11. kategóriából azt az egyet, ami ma a legnagyobb manuális terhet venné le rólad (pl. ha 50+ leadet kell szegmentálni: Apify; ha email-tranzakció kell: Resend)
+- Írd be a `decisions/naplo.md`-be vagy egy üres jegyzetbe: „ez a következő, amikor X szám teljesül" (X = ügyfél-szám, bevétel, óra/hét) — így nem hamarabb indítod be
+

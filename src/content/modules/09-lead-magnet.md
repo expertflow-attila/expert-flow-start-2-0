@@ -7,7 +7,7 @@ lastReviewed: "2026-05-16"
 > Egy hasznos PDF, egy feliratkozó form, és öt email a feliratkozás utáni két hétben — ez az alap email-funnel, amit a Kit-tel rakunk össze.
 
 > **TL;DR** — Lead magnet PDF + Kit feliratkozó form + 5 emailes welcome a feliratkozás utáni 14 napra.
-> - **Lead magnet**: 5-10 oldalas konkrét PDF (Markdown → Pandoc/headless Chrome), nem Canva, nem InDesign
+> - **Lead magnet**: 5-10 oldalas konkrét PDF (Markdownból Pandoc vagy headless Chrome segítségével), nem Canva, nem InDesign
 > - **Kit (ConvertKit)** ingyenes 1000 feliratkozóig, form HTML beillesztve a webhelyre
 > - **5 email**: PDF (azonnal), pivot-történet (2. nap), tévhit (4.), bonus tipp (7.), CTA (10.)
 

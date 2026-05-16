@@ -31,7 +31,7 @@
       "title": "Mit rakunk a helyére ezen a héten",
       "bullets": [
         { "t": "Google Sheets CRM — 4 munkalap", "s": "Prospects, Consultations, Proposals, Clients. Egy fájl, négy lap, ránézésre érthető." },
-        { "t": "Apps Script automatizáció", "s": "Cal.com webhook → Sheets új sor. Proposals → Clients sor-másolás onEdit triggerrel." },
+        { "t": "Apps Script automatizáció", "s": "Cal.com webhookból Sheets új sor. Proposals lapról Clientsre sor-másolás onEdit triggerrel." },
         { "t": "Gmail label + Drive struktúra", "s": "5 alap-label, automatikus filterek, mappa-szerkezet ügyfelenként." }
       ]
     },
@@ -59,8 +59,8 @@
     {
       "type": "code",
       "eyebrow": "02. lecke · Apps Script",
-      "title": "onEdit trigger — Proposals → Clients",
-      "lede": "Ezt a script-et a Sheets Extensions → Apps Script szerkesztőjébe másold. A trigger automatikusan fut, amikor a Proposals lapon a status „won\"-ra változik.",
+      "title": "onEdit trigger — Proposalsról Clientsre",
+      "lede": "Ezt a script-et a Sheets Extensions alatti Apps Script szerkesztőjébe másold. A trigger automatikusan fut, amikor a Proposals lapon a status „won\"-ra változik.",
       "code": "function onEdit(e) {\n  try {\n    const sheet = e.range.getSheet();\n    if (sheet.getName() !== 'Proposals') return;\n    if (e.range.getColumn() !== 6) return; // status oszlop\n    if (e.value !== 'won') return;\n\n    const row = sheet.getRange(e.range.getRow(), 1, 1, 7).getValues()[0];\n    const clients = e.source.getSheetByName('Clients');\n    const today = new Date();\n\n    // start_date | name | email | package | price | payment_status | notes\n    clients.appendRow([today, row[1], row[2], row[3], row[4], 'pending', '']);\n    Logger.log('Új ügyfél áthelyezve: ' + row[1]);\n  } catch (err) {\n    Logger.log('Hiba: ' + err.message);\n  }\n}"
     },
     {
@@ -68,7 +68,7 @@
       "eyebrow": "03. lecke",
       "title": "Gmail <em>label-struktúra</em>",
       "lede": "5 alap-label, és minden bejövő email a megfelelő helyre kerül.",
-      "body": "<p><code>01-Prospects</code>, <code>02-Consultations</code>, <code>03-Proposals</code>, <code>04-Clients</code>, <code>05-Operations</code> (számla, NAV, könyvelő, banki dolgok).</p><p>Filter-szabályok: Cal.com email-ek → 02-Consultations. „[Számlázz.hu]\" prefix → 05-Operations. „NAV\" tárgy → 05-Operations.</p><p>30 másodperc, amikor megérkezik egy email — cserébe egy hónap múlva pontosan vissza tudod keresni.</p>"
+      "body": "<p><code>01-Prospects</code>, <code>02-Consultations</code>, <code>03-Proposals</code>, <code>04-Clients</code>, <code>05-Operations</code> (számla, NAV, könyvelő, banki dolgok).</p><p>Filter-szabályok: Cal.com email-ek a 02-Consultations alá. „[Számlázz.hu]\" prefix az 05-Operations alá. „NAV\" tárgy szintén az 05-Operations alá.</p><p>30 másodperc, amikor megérkezik egy email — cserébe egy hónap múlva pontosan vissza tudod keresni.</p>"
     },
     {
       "type": "bullets",

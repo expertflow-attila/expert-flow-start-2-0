@@ -8,7 +8,7 @@ lastReviewed: "2026-05-16"
 
 > **TL;DR** — Videókurzus AI-vezérelt vágással 3 hét alatt: OBS + Whisper + Claude Code + Mux/Vimeo + Stripe.
 > - **Felvétel**: OBS Studio (ingyen) + USB mikrofon (Fifine/Samson, 15-20 ezer Ft), 1 lecke = 1 take
-> - **Vágás**: Whisper transzkript → Claude Code javasol jump cut-okat → DaVinci Resolve vagy FFmpeg
+> - **Vágás**: Whisper transzkriptből Claude Code javasol jump cut-okat, te DaVinci Resolve-ban vagy FFmpeg-gel vágsz
 > - **Hosztolás + értékesítés**: Mux (10-30 ezer Ft/hó) vagy Vimeo Pro (~10 ezer Ft/hó) + Stripe Payment Link + Kit küldi a belépőt
 > - **Idő**: 1 hét felvétel + 1 hét vágás + 1 hét hosztolás-landing
 
@@ -22,7 +22,7 @@ Itt mutatom meg, hogyan készítettem el ezt a kurzust, amit olvasol — és hog
 
 A 12 hét után tudod a tudásod alapját (1. modul) — ebből 8-12 leckés videókurzus.
 
-**Struktúra**: tréning-stílus (4 fázis × 3 lecke) vagy egy ív (probléma → módszer → lépések → eredmény).
+**Struktúra**: tréning-stílus (4 fázis × 3 lecke) vagy egy ív, ami a problémától a módszeren és lépéseken át az eredményig vezet.
 
 **Felvétel**:
 - **OBS Studio** (ingyenes) screen recording módban
@@ -36,12 +36,12 @@ A 12 hét után tudod a tudásod alapját (1. modul) — ebből 8-12 leckés vid
 A vágás az, amitől a kezdők megszaladnak — Claude Code + Whisper együtt megoldja.
 
 **Folyamat**:
-1. Nyers felvétel → Whisper transzkripció (lokálisan MacWhisper, vagy OpenAI Whisper API) → időbélyeges szöveg
+1. Nyers felvételből Whisper transzkripció (lokálisan MacWhisper, vagy OpenAI Whisper API), eredmény: időbélyeges szöveg
 2. Transzkriptet Claude Code-nak adod, jump cut javaslat: hosszú csendek, ismétlések, „öhm"-ök, hibás mondatok
-3. Vágási lista időbélyegekkel → DaVinci Resolve (ingyen, vizuális) vagy FFmpeg parancsok (Claude Code generálja)
+3. Vágási lista időbélyegekkel — utána DaVinci Resolve (ingyen, vizuális) vagy FFmpeg parancsok (Claude Code generálja)
 4. Felirat (caption) szintén a Whisper-transzkripcióból, opcionális szín-kiemelés a fontos szavakon
 
-10 perces nyers felvétel → 20-30 perc vágás, nem 2 óra.
+10 perces nyers felvételből 20-30 perc vágás, nem 2 óra.
 
 ## 03. Hosztolás és értékesítés
 
@@ -49,7 +49,7 @@ A vágás az, amitől a kezdők megszaladnak — Claude Code + Whisper együtt m
 - **Mux** — fejlesztőbarát, használat-alapú, ~10-30 ezer Ft/hó induláskor
 - **Vimeo Pro** — kezdőbarát, fix díj ~10 ezer Ft/hó, egyszerű embed
 
-**Értékesítés**: **Stripe Payment Link** (egyszeri vagy előfizetés) → vásárlás után a **Kit** (9. modul) küldi a belépő-emailt a videók linkjével.
+**Értékesítés**: **Stripe Payment Link** (egyszeri vagy előfizetés), vásárlás után a **Kit** (9. modul) küldi a belépő-emailt a videók linkjével.
 
 **Landing**: 6. modul mintája szerint (`landing.html` másolva, tartalom cserélve).
 

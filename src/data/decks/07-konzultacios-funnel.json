@@ -85,7 +85,7 @@
       "type": "lede",
       "eyebrow": "Az integráció",
       "title": "Honnan hova <em>fut</em> az adat",
-      "lede": "Webhely CTA → Cal.com event → Google Calendar + Workflows email-ek → (10. modul) Sheets CRM.",
+      "lede": "Webhely CTA-tól Cal.com eventen, Google Calendaron és Workflows email-eken át a (10. modul) Sheets CRM-ig.",
       "body": "<p>A Cal.com middleware: a frontend (weboldal, landing) és a hátország (CRM, naptár, email) között dolgozik. A 10. modulban a Cal.com BOOKING_CREATED webhookkal a Google Sheets CRM-hez is be fog kötni.</p>"
     },
     {

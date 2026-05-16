@@ -41,7 +41,7 @@
       "eyebrow": "01. lecke",
       "title": "VS Code és Claude Code <em>telepítés</em>",
       "lede": "Az AI nem külön szoftverben él — a fejlesztőkörnyezetedben.",
-      "body": "<p>A Visual Studio Code egy ingyenes szövegszerkesztő. A Claude Code egy AI-asszisztens, ami a fájljaidat látja, és a parancssorba beszél vissza. Ez nem chat-ablak — ez egy fejlesztőeszköz.</p><p><strong>Telepítés:</strong> VS Code letöltés (<code>code.visualstudio.com</code>) → Node.js → <code>npm install -g @anthropic-ai/claude-code</code> → bejelentkezés.</p>"
+      "body": "<p>A Visual Studio Code egy ingyenes szövegszerkesztő. A Claude Code egy AI-asszisztens, ami a fájljaidat látja, és a parancssorba beszél vissza. Ez nem chat-ablak — ez egy fejlesztőeszköz.</p><p><strong>Telepítés:</strong> 1. VS Code letöltés (<code>code.visualstudio.com</code>), 2. Node.js telepítése, 3. <code>npm install -g @anthropic-ai/claude-code</code>, 4. bejelentkezés.</p>"
     },
     {
       "type": "code",
@@ -96,7 +96,7 @@
       "eyebrow": "04. lecke",
       "title": "Google Workspace <em>setup</em>",
       "lede": "Hivatalos email + Drive + Naptár + Sheets — havi 2000 Ft.",
-      "body": "<p>A setup részei: fiók-létrehozás → domain-igazolás (DNS-rekorddal) → MX-rekordok beállítása a Sybell oldalán → felhasználó létrehozása.</p><p>A <strong>SPF, DKIM és DMARC</strong> rekordok nélkül a kimenő emailjeid spam-be kerülhetnek — ezek beállítása kötelező lépés. A részletes lépések a <code>reference.md</code>-ben.</p>"
+      "body": "<p>A setup négy lépés: 1. fiók-létrehozás, 2. domain-igazolás (DNS-rekorddal), 3. MX-rekordok beállítása a Sybell oldalán, 4. felhasználó létrehozása.</p><p>A <strong>SPF, DKIM és DMARC</strong> rekordok nélkül a kimenő emailjeid spam-be kerülhetnek — ezek beállítása kötelező lépés. A részletes lépések a <code>reference.md</code>-ben.</p>"
     },
     {
       "type": "quote",

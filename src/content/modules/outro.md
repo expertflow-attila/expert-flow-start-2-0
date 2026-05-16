@@ -64,3 +64,12 @@ Köszönöm, hogy végigmentél ezen a 12 héten. Ingyenes kurzus — nem azért
 - 📄 [BONUSZ.md](../BONUSZ.md) — visszajelzési form + bónusz-feltételek
 - 🔗 expertflow.hu — Agentic Flow retainer részletei
 - 🔗 hello@expertflow.hu — visszajelzés ide
+
+## Heti feladat
+
+Csinálj 45 perces retrospektívet a 12 hét után — döntsd el, melyik a három út közül a tied a következő 3 hónapra, és írj egy konkrét lépést mindegyikre.
+
+- Olvasd át újra a 12 modul saját jegyzeteidet (vagy a hét végi pipált tételeket), és írj fel 3 dolgot, ami valóban működik, és 1-2 dolgot, amit elhalasztottál
+- Válassz a 3 út közül egyet (saját kezűleg / asszisztens / Agentic Flow), és írd le a következő 4 hét legfontosabb 1 céljának (új ügyfél / új termék / új rendszer)
+- Töltsd ki a `BONUSZ.md` 10 kérdését, és küldd el a `hello@expertflow.hu`-ra — 48 órán belül érkezik a bónusz-csomag
+

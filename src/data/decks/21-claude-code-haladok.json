@@ -48,7 +48,7 @@
       "title": "8 trükk · II.",
       "bullets": [
         { "t": "5. /compact 60%-nál, /clear témaváltáskor", "s": "Sűrítsd, ne ürítsd — csak teljesen új feladatnál clear." },
-        { "t": "6. Mindig plan mode-ban kezdj", "s": "Shift+Tab → előbb stratégia, utána végrehajtás. 30%-kal kevesebb újrakérés." },
+        { "t": "6. Mindig plan mode-ban kezdj", "s": "Shift+Tab után előbb stratégia, utána végrehajtás. 30%-kal kevesebb újrakérés." },
         { "t": "7. Bánj vele junior fejlesztőként", "s": "Adj problémát, ne csak parancsot. Hadd magyarázza a feltételezéseit." },
         { "t": "8. Önellenőrzés a teendő-listán", "s": "„Ne lépj a következőre, amíg nem 95%-ban biztos vagy az aktuálisban.\"" }
       ]
@@ -65,9 +65,9 @@
       "eyebrow": "B. szint · köztes (9-12)",
       "title": "7 trükk, amikor már gyorsabban akarsz dolgozni · I.",
       "bullets": [
-        { "t": "9. Sub-agentek párhuzamos munkára", "s": "Komplex feladat → 2-3 sub-agent saját kontextussal. A fő ablakod tiszta marad." },
+        { "t": "9. Sub-agentek párhuzamos munkára", "s": "Komplex feladatnál 2-3 sub-agent saját kontextussal. A fő ablakod tiszta marad." },
         { "t": "10. Custom skills a ~/.claude/skills/ mappában", "s": "Újrafelhasználható prompt-fájlok — kontextus-tisztító, kód-ellenőr, landing-generáló." },
-        { "t": "11. CLAUDE.md folyamatos frissítése", "s": "Új minta → vedd be. Vigyázz: 150-200 sor felett trim-eld." },
+        { "t": "11. CLAUDE.md folyamatos frissítése", "s": "Új mintát vedd be. Vigyázz: 150-200 sor felett trim-eld." },
         { "t": "12. Korai kilépés (Esc) és újrakérdezés", "s": "Ha rossz irányba megy — Esc, korrigálj, kérdezz újra. Ne várd meg, hogy befejezze." }
       ]
     },

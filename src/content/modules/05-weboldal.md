@@ -9,7 +9,7 @@ lastReviewed: "2026-05-16"
 > **TL;DR** — 8 szekciós oldal Claude Code-dal generálva, Vercel-re deployolva, saját domainen, 2 óra alatt.
 > - **8 szekció kötött sorrendben**: Hero, Problémák, Megoldás, Rólam, Outcome-ok, Garancia, FAQ, CTA+footer
 > - **HTML + Tailwind CDN** Claude Code-dal, finomítás 2-3 prompt körrel — 20-30 perc
-> - **Vercel deploy**: GitHub → Vercel → custom domain (Sybell A+CNAME), 1-2 óra propagáció, ingyen HTTPS
+> - **Vercel deploy**: GitHubból Vercelre, majd a saját domainre kötve (Sybell A+CNAME), 1-2 óra propagáció, ingyen HTTPS
 > - **CTA mögött Stripe HUF Checkout** (~2% + 50 Ft, NAV-számlát Számlázz.hu-val párosítsd — 12. modul)
 
 ## A hét témája
@@ -29,7 +29,7 @@ Kötött sorrendben:
 7. **FAQ** — 5-7 kérdés-válasz
 8. **CTA + footer**
 
-Mindegyik szekciónak EGY dolga van — egy érzés, egy felismerés, egy kattintás. Ne tölts mindent mindennel. Az 1-3. modulban már van anyagod: ajánlat 1 mondata → Hero, 3 probléma → vevő hangjából, 3 outcome → csomagból.
+Mindegyik szekciónak EGY dolga van — egy érzés, egy felismerés, egy kattintás. Ne tölts mindent mindennel. Az 1-3. modulban már van anyagod: ajánlat 1 mondata adja a Herót, 3 probléma a vevő hangjából, 3 outcome a csomagból.
 
 ## 02. HTML és Tailwind generálás Claude Code-dal
 
@@ -43,8 +43,8 @@ Az `index.html` még a gépeden. Vercel = ingyenes hoszting, GitHub-ról deployo
 
 **Lépéssor**:
 1. GitHub új repo (Claude Code segít: `git init`, `commit`, `push`)
-2. Vercel.com → GitHub-login → „New Project" → import repo → „Deploy" (30 mp, `tedneved.vercel.app`)
-3. Custom domain: Vercel admin → Settings → Domains → `tedneved.hu`
+2. Vercel.com, GitHub-login, „New Project", import repo, „Deploy" (30 mp, `tedneved.vercel.app`)
+3. Custom domain: Vercel admin alatt Settings, majd Domains, írd be: `tedneved.hu`
 4. Vercel ad 2 DNS-rekordot (A + CNAME), bemásolod a Sybell DNS-be
 5. 1-2 óra propagáció, automatikus HTTPS
 
@@ -54,7 +54,7 @@ A Vercel **Hobby** csomag ingyenes (személyes/non-commercial, 100 GB bandwidth/
 
 A **Foglalj most** / **Vásárolj** gomb mögé legegyszerűbb a **Stripe HUF Checkout** (`stripe.com`).
 
-- Stripe-fiók → Products → Payment link, URL-t generálsz
+- Stripe-fiók, Products fül, Payment link, URL-t generálsz
 - `<a href="https://buy.stripe.com/...">` gombra teszed
 - Vevő bankkártyával vagy Apple/Google Pay-jel fizet
 - ~2% + 50 Ft/tranzakció, magyar bankszámlára heti kifizetés

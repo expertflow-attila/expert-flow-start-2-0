@@ -8,7 +8,7 @@ lastReviewed: "2026-05-16"
 
 > **TL;DR** — Google Sheets CRM (4 munkalap) + Gmail labelek + Drive mappa-struktúra — egy logikai egység.
 > - **Sheets CRM**: Prospects, Consultations, Proposals, Clients — egy ránézésre minden státusz
-> - **Apps Script**: Cal.com webhook → új sor, „won" státusz → átkerül a Clients-be (Claude Code generálja)
+> - **Apps Script**: Cal.com webhookból új sor, „won" státusz után a sor átkerül a Clients-be (Claude Code generálja)
 > - **Gmail labelek**: `01-Prospects` … `05-Operations`, Drive mappák ugyanezzel a számozással + `[ügyfél-név]/`
 
 ## A hét témája
@@ -31,8 +31,8 @@ Egy ránézésre minden státusz látszik — nem kell több külön rendszer.
 Sheets erőssége: beépített Apps Script (JavaScript-szerű), amivel automatizálsz.
 
 **Példák**:
-- Cal.com új foglalás (webhook) → új sor a „Consultations" lapon
-- „Proposals" státusz „won" → sor átkerül a „Clients" lapra
+- Cal.com új foglalás (webhook) után új sor a „Consultations" lapon
+- „Proposals" státusz „won"-ra váltása után a sor átkerül a „Clients" lapra
 
 Nem kell programozó lenni — Claude Code-dal 10-15 perc/script. Kész script-ek a `reference.md`-ben, csak bemásolod a Sheets script-szerkesztőjébe.
 

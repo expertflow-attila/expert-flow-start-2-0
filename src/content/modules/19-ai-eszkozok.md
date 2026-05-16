@@ -72,7 +72,7 @@ Tailwind boilerplate + Hormozi-copy egy promptból. Bemenet: szolgáltatás neve
 
 ### 6.3 `/lead-magnet-generator` — Lead magnet PDF
 
-Markdown → PDF pipeline `pandoc`-kal. Bemenet: téma + 5-7 fejezet vázlata + célközönség. Kimenet: 8-15 oldalas PDF, fedlap + tartalomjegyzék + szakaszok + záró CTA. **Egy hetes munka 2 órára** csökken — érdemes 3-5 lead magnetet ezzel készíteni, és A/B tesztelni.
+Markdownból PDF-fé alakító pipeline `pandoc`-kal. Bemenet: téma + 5-7 fejezet vázlata + célközönség. Kimenet: 8-15 oldalas PDF, fedlap + tartalomjegyzék + szakaszok + záró CTA. **Egy hetes munka 2 órára** csökken — érdemes 3-5 lead magnetet ezzel készíteni, és A/B tesztelni.
 
 ### 6.4 `/crm-dashboard` — CRM dashboard generátor
 
@@ -109,3 +109,12 @@ Egy videóból 3 platformra (YouTube leírás + Instagram poszt + LinkedIn poszt
 - 📁 6-6-avatar-builder/
 - 🔗 [Claude Code skill dokumentáció](https://docs.claude.com/claude-code/skills)
 - 🔗 [Learning Agents — 4 AI karakter oktatáshoz](https://learning-agents-landing.vercel.app)
+
+## Heti feladat
+
+Válassz egy skillt a 6-ból, ami a leggyakoribb manuális feladatod automatizálná, és 45 percben importáld, teszteld, szabd a saját stílusodra — egy valódi outputtal a héten.
+
+- Válaszd ki: ha hetente írsz emailt, az `/email-iro`; ha új landinget építesz, a `/landing-generator`; ha tartalmat posztolsz, a `/content-pipeline`
+- Másold a skill mappáját a saját projektgyökeredbe (`.claude/skills/skill-name/`), nyisd meg Claude Code-ban, és futtasd egy valós feladatra
+- Szerkeszd a `SKILL.md`-t a saját hangodra (név, célközönség, példák) — és írd le 3 mondatban, mit változtatnál a következő futtatáskor
+

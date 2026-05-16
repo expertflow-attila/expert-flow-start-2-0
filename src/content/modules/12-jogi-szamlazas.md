@@ -7,9 +7,9 @@ lastReviewed: "2026-05-16"
 > KATA, EV, Számlázz.hu, NAV, ÁSZF — a magyar jogi környezet kötelező alapja, ami nélkül az első fizető ügyfél nem szállítható.
 
 > **TL;DR** — Vállalkozási forma + magyar számlázás + fizetés + ÁSZF/GDPR — az első fizető ügyfél előtti minimum.
-> - **Forma**: csak magánszemély ügyfél → KATA; vegyes (céges is) → EV átalányadó; több alapító + nagy forgalom → Kft.
+> - **Forma**: csak magánszemély ügyfélnél KATA; vegyes (céges is) ügyfélkörnél EV átalányadó; több alapító és nagy forgalom esetén Kft.
 > - **Számlázás**: Számlázz.hu vagy Billingo + NAV Online Számla regisztráció (kötelező)
-> - **Fizetés**: belföld → Stripe HUF (~2% + 50 Ft), külföld → Wise Business multi-currency, számlázás külön
+> - **Fizetés**: belföldön Stripe HUF (~2% + 50 Ft), külföldön Wise Business multi-currency, számlázás külön
 > - **Kötelező jogi**: ÁSZF + Adatvédelmi nyilatkozat — NE AI-val generáld, jogi sablon (5-10 ezer Ft) vagy tanácsadó
 
 **Utoljára ellenőrizve: 2026-05-15.** A magyar adózási szabályok változnak (a KATA-küszöbtől az ÁFA-szabályokig). Ellenőrizd a NAV oldalán mindig — ez a modul tájékoztató, nem könyvelői tanácsadás.
@@ -59,7 +59,7 @@ Magyarországon kezdő szolgáltatóknak három alap-forma jön szóba. A **2022
 
 ### Mit válassz indulásnál?
 
-A saját utamon ezt láttam: ha **csak magánszemélyeknek** szolgáltatsz és nem terveznél céges ügyfelet → **KATA**. Ha **céges ügyfeleid (is) lesznek** → **EV átalányadóval**. Ha **több alapító + nagy forgalom** → **Kft.** Mielőtt döntesz, ülj le egy könyvelővel 30 percre — a könyvelői költség (5-15 000 Ft/hó) sokszor megéri a fejtörés árán, és a NAV-szabályok évente változnak.
+A saját utamon ezt láttam: ha **csak magánszemélyeknek** szolgáltatsz és nem terveznél céges ügyfelet, akkor **KATA** a jó. Ha **céges ügyfeleid (is) lesznek**, akkor **EV átalányadóval** indulj. Ha **több alapító és nagy forgalom** jön, akkor **Kft.** Mielőtt döntesz, ülj le egy könyvelővel 30 percre — a könyvelői költség (5-15 000 Ft/hó) sokszor megéri a fejtörés árán, és a NAV-szabályok évente változnak.
 
 **Kötelező NAV-források a döntéshez**:
 - https://nav.gov.hu/ado/katas-voltam/gyakran-ismetelt-kerdesek
@@ -92,7 +92,7 @@ A Stripe **2024 óta hivatalosan kezeli a magyar forintot** — magyar bankszám
 
 - **Díj**: ~2% + 50 Ft fix tranzakciónként (európai kártyákra), nem-EU kártyára +1%.
 - **Kifizetés**: heti (default) magyar IBAN-ra, vagy napi (kérésre).
-- **Setup**: `stripe.com` → fiók-aktiválás (vállalkozás-adatok, adószám, IBAN), KYC/AML (személyi igazolvány + cégadatok), 1-2 nap alatt élesedik.
+- **Setup**: `stripe.com` oldalon fiók-aktiválás (vállalkozás-adatok, adószám, IBAN), KYC/AML (személyi igazolvány + cégadatok), 1-2 nap alatt élesedik.
 - **Két integráció-szint**:
   - **Stripe Checkout** (no-code): egy URL-t generálsz a Stripe-fiókodban, kiteszed a weboldaladra („Foglalj most" gomb), a vevő a Stripe-on fizet, te a kész tranzakcióról emailt kapsz. Nincs kód, 10 perc setup.
   - **Payment Intent API** (custom): saját landing-on a Stripe Elements form, teljes brand-kontroll, kb. egy óra Claude Code-dal.
@@ -105,14 +105,14 @@ A **Wise Business** (`wise.com/business`) a Stripe párja, ha **külföldi ügyf
 - **Multi-currency számla**: digitális IBAN EUR, USD, GBP, AUD és további 9 devizában — saját nevedben kapod meg ezeket, vevő úgy fizet, mintha helyi átutalás lenne (európai IBAN EUR-ban, US ACH USD-ben).
 - **Valós árfolyam (mid-market)** + ~0.5-1% váltási díj — sokkal kedvezőbb, mint a magyar bank devizaszámla (ott 2-4% szokott lenni).
 - **Kifizetés**: az EUR/USD bevételt onnan átutalod a magyar HUF-számládra mid-market árfolyamon.
-- **Setup**: `wise.com` → Business fiók (vállalkozás-adatok, KYC, 1-3 nap), ingyenes az alap, csak a tényleges átutalási/váltási díjat fizeted.
+- **Setup**: `wise.com` oldalon Business fiók (vállalkozás-adatok, KYC, 1-3 nap), ingyenes az alap, csak a tényleges átutalási/váltási díjat fizeted.
 - **NAV-szempont**: a Wise-on érkező EUR/USD bevétel is **magyar bevétel** (a magyar adójogban), magyar e-számlát kell rá kiállítani (Számlázz.hu-n EUR-ban), és a HUF-ra átszámolt összeg után KATA/SZJA/ÁFA fizetendő.
 
 ### Mit válassz?
 
-- **Csak magyar magánszemély ügyfél, KATA** → Stripe HUF + Számlázz.hu, Wise nem kell.
-- **Magyar + nemzetközi vegyes** → Stripe HUF (HUF) + Wise (EUR/USD) + Számlázz.hu.
-- **Csak nemzetközi (külföldi vevők)** → Stripe (EUR/USD) + Wise multi-currency + magyar EV/Kft.
+- **Csak magyar magánszemély ügyfél, KATA esetén** — Stripe HUF + Számlázz.hu, Wise nem kell.
+- **Magyar + nemzetközi vegyes ügyfélkörnél** — Stripe HUF (HUF) + Wise (EUR/USD) + Számlázz.hu.
+- **Csak nemzetközi (külföldi vevők) esetén** — Stripe (EUR/USD) + Wise multi-currency + magyar EV/Kft.
 
 Alternatívák magyar piacon (ha a Stripe nem fér be): **Barion** (magyar feldolgozó, SimplePay, Apple/Google Pay), **SimplePay** (OTP Mobil), **PayPal** (régóta van, magasabb díj).
 

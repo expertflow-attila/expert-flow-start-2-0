@@ -50,7 +50,7 @@ Ne csak parancsokat adj („írj egy függvényt, ami X-et csinál"). Ehelyett a
 
 ### 8. Önellenőrzés a teendő-listán
 
-Amikor a Claude teendő-listát készít a feladathoz, építsd be a verifikációs lépéseket is. Például: (1) Építsd meg a webhelyet → (2) Készíts screenshotot és ellenőrizd, hogy jól néz ki → (3) Nyisd meg a Chrome DevTools-ot, és győződj meg róla, hogy nincs hiba. Plusz egy szabály: „Ne lépj a következő pontra, amíg nem vagy 95%-os bizonyossággal biztos, hogy az aktuális rendben". 90%-os egy-shot sokkal jobb, mint 60%-os.
+Amikor a Claude teendő-listát készít a feladathoz, építsd be a verifikációs lépéseket is. Például: (1) Építsd meg a webhelyet, (2) készíts screenshotot és ellenőrizd, hogy jól néz ki, (3) nyisd meg a Chrome DevTools-ot, és győződj meg róla, hogy nincs hiba. Plusz egy szabály: „Ne lépj a következő pontra, amíg nem vagy 95%-os bizonyossággal biztos, hogy az aktuális rendben". 90%-os egy-shot sokkal jobb, mint 60%-os.
 
 ---
 
@@ -137,3 +137,12 @@ Ha valamelyik felkeltette az érdeklődésedet, érdemes a Claude Code dokument�
 - 4. modul, 02. lecke — Claude Code alapok (a kötelező rész, mielőtt ide mész)
 - 5. modul, 02-03. lecke — Chrome DevTools MCP a webhely-építéshez
 - 9. modul — itt használhatod a sub-agenteket az 5 emailes welcome-sorozat generálásához
+
+## Heti feladat
+
+Válassz a 20 trükkből 2-3-at (ne többet), és építsd be a következő heti Claude Code-rutinodba — egy ülésen tesztelj egyet, és figyeld, valóban gyorsít-e.
+
+- Heti minimum: futtasd a `/init`-et egy projektre, ha még nincs `CLAUDE.md`-d, és nézd meg `/context`-tel, hány tokent eszik a rendszerpromptod
+- Telepítsd a **Context7 MCP**-t (`https://github.com/upstash/context7`) — a saját stack-edhez használt 1 könyvtárat (Astro, Tailwind, Next.js) próbáld ki egy konkrét promptban
+- Írj egy mini-skillt a `.claude/skills/`-ben egy 3-szor megismételt feladatra (pl. `kontextus-tisztito.md` vagy `landing-headline.md`), és futtasd `/skill-name`-mel a héten 1-szer élesben
+

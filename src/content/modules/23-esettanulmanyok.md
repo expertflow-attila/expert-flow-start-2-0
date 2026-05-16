@@ -195,3 +195,12 @@ Ezek mind nemzetközi anyagok, magyar nyelvre átültetve. Az amerikai és angol
 Ha tanácstalan vagy, melyiket nézd először: **6. James Smith (teljes funnel)**, **21. Amy Porterfield**, és **27. Justin Welsh**. Ez a három a legjobb belépőpont — három különböző stílust mutatnak (komplett funnel-rendszer, women-coaching mainstream, solopreneur dokumentáló).
 
 Jó böngészést.
+
+## Heti feladat
+
+Válassz a 38 szakértőből 2-t, akik a saját kategóriádhoz illenek (B2B-tanácsadó: 8/27; női coaching: 12/21; creator: 9/17), és 45 percben bontsd szét őket struktúra-szinten — ne tartalom-szinten.
+
+- Nyisd meg a két landinget egymás mellett, és írj fel 3 hasonlóságot (hero-állítás, social proof helye, FAQ tartalma)
+- Jegyzeteld, mit hagytak el (mit NEM tettek a landingre) — gyakran ez tanulságosabb, mint mit tettek bele
+- A saját következő landing-edhez (vagy emailedhez) válassz 1 strukturális elemet, amit megpróbálsz adaptálni magyar piacra — NE szöveg-szinten másold
+
