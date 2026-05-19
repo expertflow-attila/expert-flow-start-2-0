@@ -73,6 +73,6 @@ A 4. modul az egyes oldalakkal foglalkozott. Az 5. modul az oldalak ÖSSZEKAPCSO
 Válassz a 14 funnel-típusból 1-et, ami a következő 3 hónapodhoz illik (kezdetnek a konzultációs vagy a lead magnet jellemzően a nyertes), és 30 percben papíron rajzold végig a lépéseket — még nem építjük meg, csak felismerjük, mi hiányzik most.
 
 - Keresd ki a [Funnel Tananyag](https://funnel-tananyag.vercel.app) site-ról a választott funnel részletes leírását, és olvasd el a teljes flow-t
-- Rajzold le egy A4-es lapra: belépés → 3-7 lépés → fizetés (vagy konzultáció), minden lépéshez 1 mondat
+- Rajzold le egy A4-es lapra a teljes utat: belépés, utána 3-7 lépés, a végén fizetés (vagy konzultáció), minden lépéshez 1 mondat
 - Karikázd be, melyik 2 lépést NEM tudod ma kiszolgálni (pl. hiányzik a landing, a Cal.com, az email-sorozat) — ezek a következő 2 héted teendői
 

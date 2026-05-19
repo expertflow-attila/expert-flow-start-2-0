@@ -58,7 +58,7 @@ Minden eszköz konkrét lépéssorral szerepel a megfelelő modulban — nem kel
 - A 12. hét után a 20. bónusz építő-modul jön — hogyan készítettem el ezt a kurzust (videókurzus AI-vágással).
 - A 12. hét végén töltsd ki a `BONUSZ.md` 10-kérdéses visszajelzést — cserébe bónusz-csomagot kapsz, nekem segítesz a következő verzió megírásában.
 
-## Resources
+## Források
 
 - 📄 [README.md](../README.md) — kurzus áttekintés
 - 📄 [BONUSZ.md](../BONUSZ.md) — visszajelzési form + bónusz-feltételek
