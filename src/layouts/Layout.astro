@@ -6,9 +6,10 @@ interface Props {
   title: string;
   description: string;
   schema?: Record<string, any> | Array<Record<string, any>>;
+  noindex?: boolean;
 }
 
-const { title, description, schema } = Astro.props;
+const { title, description, schema, noindex = false } = Astro.props;
 const site = Astro.site ?? new URL("https://expert-flow-start-2-0.vercel.app");
 const canonical = new URL(Astro.url.pathname, site).toString();
 const ogImage = new URL("/og-image.jpg", site).toString();
@@ -30,6 +31,9 @@ const isGloss = pathname.startsWith("/glosszarium");
     <meta name="description" content={description} />
     <meta name="theme-color" content="#0a0a0c" />
     <meta name="generator" content={Astro.generator} />
+    {noindex
+      ? <meta name="robots" content="noindex,follow" />
+      : <meta name="robots" content="index,follow,max-image-preview:large" />}
     <link rel="canonical" href={canonical} />
 
     <meta property="og:type" content="website" />
@@ -62,6 +66,7 @@ const isGloss = pathname.startsWith("/glosszarium");
     />
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="sitemap" type="application/xml" href="/sitemap-index.xml" />
 
     <slot name="head" />
 
@@ -117,7 +122,7 @@ const isGloss = pathname.startsWith("/glosszarium");
       <footer class="g g-foot foot">
         <div class="gc">
           <span class="label-sm">Business Start</span>
-          <span class="label-sm accent">v2.0</span>
+          <span class="label-sm accent">12 hét</span>
         </div>
         <div class="gc">
           <a href="mailto:hello@expertflow.hu" class="label-sm with-arrow">hello@expertflow.hu</a>

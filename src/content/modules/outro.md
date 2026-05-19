@@ -57,7 +57,7 @@ Visszajelzés: `hello@expertflow.hu`. 48 órán belül küldöm a Bónusz-csomag
 
 ## Köszönet
 
-Köszönöm, hogy végigmentél ezen a 12 héten. Ingyenes kurzus — nem azért írtam, hogy eladjak rá valamit, hanem mert ezt csinálom én is most. Ha leírom és továbbadom, kettőnknek jó: te megspórolsz pár hónap kísérletezést, én valós visszajelzést kapok. Ha sikerült valamit elérned, fotózd le a webhelyed URL-jét és küldd el — minden ilyen üzenetnek nagyon örülök.
+Köszönöm, hogy végigmentél ezen a 12 héten. Nyíltan építve adtam közre — nem azért írtam, hogy eladjak rá valamit, hanem mert ezt csinálom én is most. Ha leírom és továbbadom, kettőnknek jó: te megspórolsz pár hónap kísérletezést, én valós visszajelzést kapok. Ha sikerült valamit elérned, fotózd le a webhelyed URL-jét és küldd el — minden ilyen üzenetnek nagyon örülök.
 
 ## Resources
 

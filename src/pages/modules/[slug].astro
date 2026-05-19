@@ -109,11 +109,23 @@ const breadcrumbs = {
 };
 
 const moduleSchemas = [learningResource, breadcrumbs];
+
+// SEO title ≤60 karakter: a " — Business Start" utótagot csak akkor tesszük ki,
+// ha belefér; hosszú modul-címeknél a tiszta cím megy ki.
+const fullTitle = `${meta.title} — Business Start`;
+const seoTitle = fullTitle.length <= 60 ? fullTitle : meta.title;
+
+// Meta description ≤160 karakter — szóhatáron vágva, ha kell.
+const rawDesc = meta.summary ?? "";
+const metaDescription =
+  rawDesc.length <= 160
+    ? rawDesc
+    : rawDesc.slice(0, 157).replace(/\s+\S*$/, "") + "…";
 ---
 
 <Layout
-  title={`${meta.title} — Business Start`}
-  description={meta.summary}
+  title={seoTitle}
+  description={metaDescription}
   schema={moduleSchemas}
 >
   <Fragment slot="head">

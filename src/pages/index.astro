@@ -71,6 +71,25 @@ const allLearning = [
   })),
 ];
 
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Solo Business",
+  url: "https://expertflow.hu",
+  email: "hello@expertflow.hu",
+  logo: `${site}favicon.svg`,
+  description: "Egyéni vállalkozóknak szóló AI-asszisztált online tananyagok és kurzusok.",
+};
+
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Business Start",
+  url: site,
+  inLanguage: "hu",
+  publisher: { "@type": "Organization", name: "Solo Business", url: "https://expertflow.hu" },
+};
+
 const courseSchema = {
   "@context": "https://schema.org",
   "@type": "Course",
@@ -87,8 +106,15 @@ const courseSchema = {
   educationalLevel: "Beginner",
   audience: {
     "@type": "EducationalAudience",
-    educationalRole: "self-employed service expert",
+    educationalRole: "self-employed entrepreneur",
   },
+  teaches: [
+    "AI-asszisztált online vállalkozásépítés",
+    "Weboldal és landing oldal készítése",
+    "Lead magnet és email lista",
+    "Konzultációs funnel",
+    "CRM és háttérautomatizáció",
+  ],
   isAccessibleForFree: true,
   offers: {
     "@type": "Offer",
@@ -108,16 +134,16 @@ const courseSchema = {
 ---
 
 <Layout
-  title="Business Start — 12 hét, ahogy én építem fel a vállalkozásomat"
+  title="Business Start — 12 hét, ahogy felépítem a vállalkozásom"
   description="Egyéni vállalkozóknak — a kiindulóponttól egy működő, AI-asszisztált online vállalkozásig. A kurzus végére van weboldalad, lead magneted, konzultációs funneled, CRM-ed, és egy működő AI Operációs Rendszered."
-  schema={courseSchema}
+  schema={[courseSchema, websiteSchema, organizationSchema]}
 >
 
   <header class="hero">
-    <div class="eyebrow">Ingyenes online kurzus</div>
+    <div class="eyebrow">Online kurzus · 12 hét</div>
     <h1>Business <em>Start</em></h1>
     <p class="lede">
-      Szolgáltató szakértőknek — a kiindulóponttól egy működő,
+      Egyéni vállalkozóknak — a kiindulóponttól egy működő,
       AI-asszisztált online vállalkozásig. Saját kezűleg, dokumentáló hangon.
     </p>
   </header>
@@ -142,7 +168,7 @@ const courseSchema = {
         <div class="anti__col anti__col--yes">
           <h3>Hanem <em>ez</em></h3>
           <ul>
-            <li>Szolgáltató szakértőnek (coach, tanácsadó, ügyvéd, könyvelő)</li>
+            <li>Egyéni vállalkozónak (coach, tanácsadó, ügyvéd, könyvelő)</li>
             <li>Strukturált út a kezdettől az első ügyfélig</li>
             <li>Magyar piacra szabva (NAV, ÁFA, KATA, EV, Kft.)</li>
             <li>Dokumentáló hang, nem tanácsadó</li>
