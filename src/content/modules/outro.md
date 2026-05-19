@@ -55,15 +55,24 @@ Töltsd ki a `BONUSZ.md` 10-kérdéses visszajelzését. Két cél:
 
 Visszajelzés: `hello@expertflow.hu`. 48 órán belül küldöm a Bónusz-csomagot.
 
+## Hol tovább?
+
+A 12 hét megadta az alapot — egy működő, AI-asszisztált online vállalkozást. Innen a következő logikus lépés a mélyítés és a gyakorlás:
+
+- **Solo Business Library** — https://expert-flow-school.vercel.app — strukturált tananyag-könyvtár, ahol modulonként mélyebbre mész abban, amit itt felépítettél (copy, funnel, esettanulmányok, AI-eszközök).
+- **Kérdésed van?** — `hello@expertflow.hu` — írj bátran, ha valahol elakadtál vagy visszajelzést adnál.
+- Hamarosan közösség is indul, ahol a többi induló vállalkozóval megoszthatod, hol tartasz — erről a hírlevélben szólok.
+
 ## Köszönet
 
-Köszönöm, hogy végigmentél ezen a 12 héten. Ingyenes kurzus — nem azért írtam, hogy eladjak rá valamit, hanem mert ezt csinálom én is most. Ha leírom és továbbadom, kettőnknek jó: te megspórolsz pár hónap kísérletezést, én valós visszajelzést kapok. Ha sikerült valamit elérned, fotózd le a webhelyed URL-jét és küldd el — minden ilyen üzenetnek nagyon örülök.
+Köszönöm, hogy végigmentél ezen a 12 héten. Nem azért írtam, hogy eladjak rá valamit, hanem mert ezt csinálom én is most. Ha leírom és továbbadom, kettőnknek jó: te megspórolsz pár hónap kísérletezést, én valós visszajelzést kapok. Ha sikerült valamit elérned, fotózd le a webhelyed URL-jét és küldd el — minden ilyen üzenetnek nagyon örülök.
 
 ## Resources
 
 - 📄 [BONUSZ.md](../BONUSZ.md) — visszajelzési form + bónusz-feltételek
+- 🔗 https://expert-flow-school.vercel.app — Solo Business Library, a folytatás
 - 🔗 expertflow.hu — Agentic Flow retainer részletei
-- 🔗 hello@expertflow.hu — visszajelzés ide
+- 🔗 hello@expertflow.hu — visszajelzés és kérdések ide
 
 ## Heti feladat
 

@@ -1,10 +1,10 @@
 # Expert Flow Start 2.0 — Landing page
 
-> 21 modul (12 építő alapmodul + 4 referencia tár + 4 bónusz modul + intro + outro), 21 diasor. Magyar szolgáltató szakértőknek szóló építő program landing oldala — az [EV-AIOS](https://github.com/attilanagy23/EV-AIOS) repo-val mint élő AI Operációs Rendszer.
+> 21 modul (12 építő alapmodul + 4 referencia tár + 4 bónusz modul + intro + outro), 21 diasor. Egyéni vállalkozóknak szóló 12 hetes építő kurzus landing oldala — az [EV-AIOS](https://github.com/attilanagy23/EV-AIOS) repo-val mint élő AI Operációs Rendszer.
 
 ## Mi ez
 
-Az `expert-flow-start-kurzus.netlify.app` 2.0 verziója. Az új pozicionálás: **építő program**, nem tájékoztató kurzus. 21 modul (12 építő alapmodul + 4 referencia tár + 4 bónusz modul + intro + outro), és minden modulhoz tartozik egy diasor — a 12 alapmodulhoz egy másolható Claude Code prompt, a 38 nemzetközi esettanulmány pedig elosztva jelenik meg modulonként.
+Az `expert-flow-start-kurzus.netlify.app` 2.0 verziója. A pozicionálás outcome-alapú: a kurzus végére van weboldalad, lead magneted, konzultációs funneled, CRM-ed és működő AI Operációs Rendszered. 21 modul (12 építő alapmodul + 4 referencia tár + 4 bónusz modul + intro + outro), és minden modulhoz tartozik egy diasor — a 12 alapmodulhoz egy másolható Claude Code prompt, a 38 nemzetközi esettanulmány pedig elosztva jelenik meg modulonként.
 
 ## Stack
 
