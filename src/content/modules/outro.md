@@ -28,7 +28,7 @@ Ami ingyen elérhető hozzá:
 
 Nem tanfolyamot adok el — ezt csinálom én is most, csak nem egyedül. Ha leírom és továbbadom, kettőnknek jó: te megspórolsz pár hónap kísérletezést, én valós visszajelzést kapok.
 
-<a href="https://www.skool.com/" class="hero-cta" target="_blank" rel="noopener">Belépek a közösségbe <span class="arrow">→</span></a>
+<a href="https://www.skool.com/expert-flow-5173/about" class="hero-cta" target="_blank" rel="noopener">Belépek a közösségbe <span class="arrow">→</span></a>
 
 ## Mit értél el a 12 hét alatt
 
