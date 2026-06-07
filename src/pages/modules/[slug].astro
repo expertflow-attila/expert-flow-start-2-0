@@ -123,12 +123,7 @@ const moduleSchemas = [learningResource, breadcrumbs];
 
   <header class="lesson-header">
     <div class="container">
-      <div style="display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 16px; margin-bottom: 24px;">
-        <a href="/#modulok" class="back" style="margin-bottom: 0;"><span class="arr">←</span> Vissza a tartalomjegyzékhez</a>
-        <a href={`/decks/${meta.slug}`} class="hero-cta" style="padding: 10px 16px; font-size: 11px;">
-          Diasor megnyitása <span class="arrow">→</span>
-        </a>
-      </div>
+      <a href="/" class="back"><span class="arr">←</span> Főoldal</a>
       <span class="breadcrumb-tag" style="margin-left: 0;">{meta.breadcrumb}</span>
       <h1>{meta.title}</h1>
       <p class="summary">{meta.summary}</p>
@@ -244,36 +239,21 @@ const moduleSchemas = [learningResource, breadcrumbs];
     </div>
   </div>
 
-  {linkedCases.length > 0 && (
-    <section class="cases-section">
-      <div class="toolkit-header">
-        <span class="toolkit-eyebrow">Hogyan csinálták mások</span>
-        <h2>Kapcsolódó esettanulmányok</h2>
-      </div>
-      <div class="cases-grid">
-        {linkedCases.map((c) => (
-          <div class="case-chip">
-            <strong>{c.name}</strong>
-            <span>{c.category}</span>
-          </div>
-        ))}
-      </div>
-    </section>
-  )}
-
   <nav class="pager" aria-label="Modul navigáció">
-    {prev ? (
-      <a href={`/modules/${prev.slug}`} class="prev">
-        <span class="label">← Előző</span>
-        <span class="title">{prev.title}</span>
-      </a>
-    ) : <span class="pager-spacer"></span>}
-    {next ? (
-      <a href={`/modules/${next.slug}`} class="next">
-        <span class="label">Következő →</span>
-        <span class="title">{next.title}</span>
-      </a>
-    ) : <span class="pager-spacer"></span>}
+    <div class="pager-grid">
+      {prev ? (
+        <a href={`/modules/${prev.slug}`} class="prev">
+          <span class="label">← Előző</span>
+          <span class="title">{prev.title}</span>
+        </a>
+      ) : <span class="pager-spacer"></span>}
+      {next ? (
+        <a href={`/modules/${next.slug}`} class="next">
+          <span class="label">Következő →</span>
+          <span class="title">{next.title}</span>
+        </a>
+      ) : <span class="pager-spacer"></span>}
+    </div>
   </nav>
 
 </Layout>

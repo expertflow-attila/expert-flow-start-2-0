@@ -147,7 +147,7 @@ a { color: inherit; text-decoration: none; }
   border-top: 1px solid var(--border-cell);
   border-bottom: 1px solid var(--border-cell);
 }
-.g-header { grid-template-columns: 1.4fr 1fr 1fr 1fr; }
+.g-header { grid-template-columns: 1fr; }
 .g-tabs   { grid-template-columns: repeat(3, 1fr); }
 .g-feat   { grid-template-columns: repeat(3, 1fr); }
 .g-cards  { grid-template-columns: repeat(2, 1fr); }
@@ -479,6 +479,9 @@ header.hero p.lede {
   border-top: 1px solid var(--border-cell);
   border-left: 1px solid var(--border-cell);
 }
+/* Single-card sections (Bevezető / Lezárás): the lone card spans the full
+   width so it reads centered/stretched instead of stranded on the left. */
+.grid--full { grid-template-columns: 1fr; }
 .card {
   position: relative;
   background: transparent;
@@ -1557,18 +1560,22 @@ footer.foot a.label-sm:hover { color: var(--accent-strong); }
   overflow-y: auto;
 }
 
-/* Pager — sharp cells */
+/* Pager — sharp cells. Borders live on .pager-grid so the rectangle
+   closes exactly around the cells (the outer .pager only adds the page
+   gutter + bottom space, which must NOT carry the border). */
 .pager {
   max-width: 720px;
   margin: 0 auto;
   padding: 0 24px 96px;
+  position: relative;
+  z-index: 10;
+}
+.pager-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0;
   border-top: 1px solid var(--border-cell);
   border-left: 1px solid var(--border-cell);
-  position: relative;
-  z-index: 10;
 }
 .pager a {
   position: relative;
@@ -1650,7 +1657,8 @@ footer.foot a.label-sm:hover { color: var(--accent-strong); }
   .lesson-body { padding: 40px 22px 56px; }
   .lesson-body h2 { font-size: 26px; margin: 40px 0 14px; }
   .lesson-body p, .lesson-body ul, .lesson-body ol { font-size: 16px; }
-  .pager { grid-template-columns: 1fr; padding: 0 22px 72px; }
+  .pager { padding: 0 22px 72px; }
+  .pager-grid { grid-template-columns: 1fr; }
   .video-block { padding: 0 22px; }
   .video-cover .play-btn { width: 60px; height: 60px; margin: -30px 0 0 -30px; }
   .video-cover .play-btn svg { width: 18px; height: 18px; }

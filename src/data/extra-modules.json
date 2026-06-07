@@ -14,7 +14,7 @@
     "num": "17.",
     "title": "Landing page minták — referencia-tár",
     "summary": "Ettől a modultól már nem építünk sorrendben — referencia-tár jön. 5 különböző landing page mintát mutatok meg, mindegyikhez teljes Tailwind HTML kód, telepítési útmutató, technikai dokumentáció.",
-    "tag": "Építő modul",
+    "tag": "17",
     "tagKind": "epito",
     "phaseLabel": "Referencia-tár"
   },
@@ -24,7 +24,7 @@
     "num": "18.",
     "title": "Funnel típusok — referencia-tár",
     "summary": "A 4. modul az egyes oldalakkal foglalkozott. Az 5. modul az oldalak ÖSSZEKAPCSOLÁSÁVAL — a teljes utazással, amit egy érdeklődő bejár a webhelyedtől a fizetős ügyfélig.",
-    "tag": "Építő modul",
+    "tag": "18",
     "tagKind": "epito",
     "phaseLabel": "Referencia-tár"
   },
@@ -34,7 +34,7 @@
     "num": "19.",
     "title": "AI eszközök / Skill-ek — referencia-tár",
     "summary": "A 6. modul 6 darab Claude Code skill-t tartalmaz, amelyeket a saját projekt-mappádba telepíthetsz. Mindegyik skill egy konkrét vállalkozási feladatot automatizál.",
-    "tag": "Építő modul",
+    "tag": "19",
     "tagKind": "epito",
     "phaseLabel": "Referencia-tár"
   },
@@ -72,8 +72,8 @@
     "id": "23",
     "slug": "23-esettanulmanyok",
     "num": "23.",
-    "title": "Esettanulmányok — 38 nemzetközi szakértő landing-elemzései",
-    "summary": "Magyar nyelvű részletes elemzések 38 nemzetközi kurzus-vállalkozó landing-, email- és sales-anyagairól. Az elmúlt évek alatt összegyűjtött tár, ahonnan minden új landing-építéshez lehet inspirálódni.",
+    "title": "Esettanulmányok",
+    "summary": "Magyar nyelvű részletes elemzések nemzetközi kurzus-vállalkozók landing-, email- és sales-anyagairól. Egy tár, ahonnan minden új landing-építéshez lehet inspirálódni.",
     "tag": "Bónusz",
     "tagKind": "bonus",
     "phaseLabel": "Bónusz tár"
@@ -82,8 +82,8 @@
     "id": "outro",
     "slug": "outro",
     "title": "A következő lépés",
-    "summary": "Ha végigmentél a 12 héten, valódi rendszered van: weboldal, lead magnet, konzultációs funnel, CRM, mérés, jogi minimum. Innen már nem alapot építesz — innentől csinálod.",
-    "tag": "Bevezető",
+    "summary": "Az igazán nehéz rész nem az, hogy elkezdted — hanem hogy akkor is folytasd, amikor már nem tudod, mi a következő lépés. Ehhez van egy ingyenes közösség: lépj be, és ott folytatjuk együtt.",
+    "tag": "Lezárás",
     "tagKind": "intro",
     "phaseLabel": "Lezárás"
   }

@@ -1,84 +1,56 @@
 ---
-lastReviewed: "2026-05-16"
+lastReviewed: "2026-06-06"
 ---
 
 # Outro — A következő lépés
 
-> Ha végigmentél a 12 héten, valódi rendszered van: weboldal, lead magnet, konzultációs funnel, CRM, mérés, jogi minimum. Innen három út áll előtted — egyik sem rossz, csak más-más szakaszhoz illik.
+> Az igazán nehéz rész nem az, hogy elkezdted. Hanem hogy akkor is folytasd, amikor már nem tudod, mi a következő lépés. Ehhez van egy ingyenes közösség — lépj be, és ott folytatjuk együtt.
 
-> **TL;DR** — 12 hét után 3 út: saját kezűleg folytatod, asszisztens, vagy Solo Business Agentic Flow retainer.
-> - **1. út**: saját kezűleg — háttér heti 2-3 óra, idő nagy része ügyfélszerzés és konzultáció
-> - **2. út**: virtuális asszisztens (100-200 ezer Ft/hó), ha 5-10 ügyfélnél a háttér heti 5-10 órát eszik
-> - **3. út**: AI-ügynökök (Scout, Manager, Operations, Optimizer, Finance, Orchestrator) havi 1-2M Ft bevételtől
-> - 4 bónusz-tár (20-23), és 10-kérdéses visszajelzés cserébe bónusz-csomagért
+## A nehéz rész nem a kezdés
 
-## Mit értél el
+Elkezdeni mindenki tud. Egy hétvégén fel lehet pörögni, megnyitni a VS Code-ot, legyártani az első oldalt.
 
-A 12. hét végén — ha minden modulnál elvégezted a heti feladatot — a következőd van:
+A nehéz rész utána jön: amikor a harmadik héten elakadsz, amikor egy darabig nem jön ügyfél, amikor nem tudod, mi a logikus következő lépés. A legtöbben itt állnak meg — nem azért, mert nem elég okosak, hanem mert egyedül csinálják.
 
-- Egy mondat, amit pontosan értesz
+Én is így voltam vele. Ezért nem ér véget itt a dolog.
+
+## Ezért van egy ingyenes közösség
+
+Csináltam egy ingyenes közösséget azoknak, akik tényleg építik a sajátjukat — nem nézőknek, hanem csinálóknak. Itt megoszthatod, hol tartasz, kérdezhetsz, amikor elakadsz, és látod, hogy mások hol járnak.
+
+Ami ingyen elérhető hozzá:
+
+- **Solo Business Library** — strukturált tananyag-könyvtár, ahol modulonként mélyebbre mész abban, amit itt felépítettél (copy, funnel, AI-eszközök).
+- **Funnel tananyag** — funnel-típusok és kész wireframe-ek, amikor összekötöd az oldalaidat.
+- **Copywriting tananyag** — magyar nyelvű értékesítési szövegírás, lépésről lépésre.
+- **Marketing skiccfüzet** — weboldal- és funnel-vázlatok, amikből kiindulhatsz.
+- **Esettanulmányok** — nemzetközi szakértők landing-, email- és sales-anyagainak bontásai.
+
+Nem tanfolyamot adok el — ezt csinálom én is most, csak nem egyedül. Ha leírom és továbbadom, kettőnknek jó: te megspórolsz pár hónap kísérletezést, én valós visszajelzést kapok.
+
+<a href="https://www.skool.com/" class="hero-cta" target="_blank" rel="noopener">Belépek a közösségbe <span class="arrow">→</span></a>
+
+## Mit értél el a 12 hét alatt
+
+Ha minden modulnál elvégezted a heti feladatot, most ez a tied:
+
+- Egy mondat, amit pontosan értesz — kinek, mit, miért
 - Konkrét vevő-portré valódi beszélgetésekkel
 - Három csomag-szint
-- Éles weboldal a saját domaineden
-- Különálló landing oldal
-- Működő konzultációs funnel
-- Lead magnet + email lista
-- Google Sheets CRM
-- Google Analytics
-- Jogilag rendben
+- Éles weboldal a saját domaineden + különálló landing
+- Működő konzultációs funnel + lead magnet és email lista
+- Google Sheets CRM, Google Analytics, jogilag rendben
 
 Ez nem kis dolog. A legtöbben a 3-4. modulnál állnak meg — te végigmentél.
 
-## Három út a 12. hét után
+## Visszajelzés
 
-**1. út · Saját kezűleg folytatod** — a leggyakoribb. A rendszer megvan, az időd nagy része ügyfélszerzés és konzultáció, háttérrendszerek heti 2-3 óra. A 17-19. tár-anyagok (landing minták, funnel típusok, AI eszközök) ekkor válnak hasznossá — új termékhez/funnelhez konkrét sablon.
+Ha sikerült valamit elérned, fotózd le a webhelyed URL-jét és küldd el — minden ilyen üzenetnek nagyon örülök. És ha valahol nem voltam világos, írd meg: a következő verzió ebből lesz jobb.
 
-**2. út · Asszisztenst veszel fel** — 5-10 ügyfélnél, ha heti 5-10 órát eszik a CRM, email, számlázás, admin. Virtuális asszisztens (havi 100-200 ezer Ft) átveszi a háttér-feladatokat, te a szakmai munkára koncentrálsz.
-
-**3. út · Solo Business Agentic Flow retainer** — havi 1-2M Ft bevételtől, amikor az asszisztens már kevés. 6 AI ügynök (Scout, Manager, Operations, Optimizer, Finance, Orchestrator) kezeli az ügyfél-pipeline, marketing, számlázás, optimalizáció hátterét. Részletek: `expertflow.hu`.
-
-## Bónusz-tárak — ha tovább akarsz menni
-
-- **20. bónusz · Az első fizetős terméked — videókurzus AI-vágással** (`20-elso-digitalis-termek/`) — OBS Studio + Whisper + Claude Code + Mux/Vimeo + Stripe, ~3 hét
-- **21. bónusz · Claude Code productivity-trükkök magyarul** (`21-claude-code-haladok/`) — 20 trükk három szinten, a 4. modul kiterjesztése
-- **22. bónusz · A Solo Business technológiai stack** (`22-expert-flow-stack/`) — 52 szolgáltatás 11 kategóriában, inspiráció
-- **23. bónusz · Esettanulmányok — 38 nemzetközi szakértő landing-elemzései** (`23-esettanulmanyok/`) — Marie Forleo, Amy Porterfield, Jenna Kutcher, Justin Welsh, Bonnie Christine és 33 további
-
-Ne kezdd egyszerre — havonta 1-2, ahogy a rendszered nő.
-
-## Visszajelzés és Bónusz-csomag
-
-Töltsd ki a `BONUSZ.md` 10-kérdéses visszajelzését. Két cél:
-
-1. **Nekem**: a következő verzió megírásához — hol nem voltam világos, hol kellett volna több példa, mit hagyjak ki
-2. **Neked**: Bónusz-csomag (kibővített Claude Code skill-csomag + 1 órás email-konzultáció a saját rendszeredről)
-
-Visszajelzés: `hello@expertflow.hu`. 48 órán belül küldöm a Bónusz-csomagot.
-
-## Hol tovább?
-
-A 12 hét megadta az alapot — egy működő, AI-asszisztált online vállalkozást. Innen a következő logikus lépés a mélyítés és a gyakorlás:
-
-- **Solo Business Library** — https://expert-flow-school.vercel.app — strukturált tananyag-könyvtár, ahol modulonként mélyebbre mész abban, amit itt felépítettél (copy, funnel, esettanulmányok, AI-eszközök).
-- **Kérdésed van?** — `hello@expertflow.hu` — írj bátran, ha valahol elakadtál vagy visszajelzést adnál.
-- Hamarosan közösség is indul, ahol a többi induló vállalkozóval megoszthatod, hol tartasz — erről a hírlevélben szólok.
-
-## Köszönet
-
-Köszönöm, hogy végigmentél ezen a 12 héten. Nem azért írtam, hogy eladjak rá valamit, hanem mert ezt csinálom én is most. Ha leírom és továbbadom, kettőnknek jó: te megspórolsz pár hónap kísérletezést, én valós visszajelzést kapok. Ha sikerült valamit elérned, fotózd le a webhelyed URL-jét és küldd el — minden ilyen üzenetnek nagyon örülök.
-
-## Resources
-
-- 📄 [BONUSZ.md](../BONUSZ.md) — visszajelzési form + bónusz-feltételek
-- 🔗 https://expert-flow-school.vercel.app — Solo Business Library, a folytatás
-- 🔗 expertflow.hu — Agentic Flow retainer részletei
-- 🔗 hello@expertflow.hu — visszajelzés és kérdések ide
+Visszajelzés: `hello@expertflow.hu`
 
 ## Heti feladat
 
-Csinálj 45 perces retrospektívet a 12 hét után — döntsd el, melyik a három út közül a tied a következő 3 hónapra, és írj egy konkrét lépést mindegyikre.
-
-- Olvasd át újra a 12 modul saját jegyzeteidet (vagy a hét végi pipált tételeket), és írj fel 3 dolgot, ami valóban működik, és 1-2 dolgot, amit elhalasztottál
-- Válassz a 3 út közül egyet (saját kezűleg / asszisztens / Agentic Flow), és írd le a következő 4 hét legfontosabb 1 céljának (új ügyfél / új termék / új rendszer)
-- Töltsd ki a `BONUSZ.md` 10 kérdését, és küldd el a `hello@expertflow.hu`-ra — 48 órán belül érkezik a bónusz-csomag
-
+- Olvasd át újra a 12 modul saját jegyzeteidet, és írj fel 3 dolgot, ami valóban működik, és 1-2 dolgot, amit elhalasztottál
+- Írd le a következő 4 hét legfontosabb 1 célját (új ügyfél / új termék / új rendszer)
+- Lépj be az ingyenes közösségbe, és oszd meg, hol tartasz — innen már nem egyedül folytatod

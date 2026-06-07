@@ -8,19 +8,15 @@ interface Module {
 }
 const { module, kind = "epito" } = Astro.props as { module: Module; kind?: "epito" | "bonus" };
 
-const tagLabel = kind === "bonus" ? "Bónusz" : "Építő modul";
 const tagClass = kind === "bonus" ? "cat-tag bonus" : "cat-tag";
 const url = `/modules/${module.id}-${module.slug}`;
 ---
 
 <a class="card" href={url}>
-  <span class={tagClass}>{tagLabel}</span>
-  <h3>
-    <span class="module-num">{module.id}.</span>{module.title}
-  </h3>
+  <span class={tagClass}>{module.id}</span>
+  <h3>{module.title}</h3>
   <p>{module.summary}</p>
   <div class="meta">
-    <span>{tagLabel}</span>
     <span class="reveal"><span class="arr">→</span> Olvasás</span>
   </div>
 </a>

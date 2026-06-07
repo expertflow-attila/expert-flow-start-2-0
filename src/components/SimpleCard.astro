@@ -16,12 +16,9 @@ const url = `/modules/${slug}`;
 
 <a class="card" href={url}>
   <span class={tagClass}>{tag}</span>
-  <h3>
-    {num && <span class="module-num">{num}</span>}{title}
-  </h3>
+  <h3>{title}</h3>
   <p>{summary}</p>
   <div class="meta">
-    <span>{phaseLabel}</span>
     <span class="reveal"><span class="arr">→</span> Olvasás</span>
   </div>
 </a>
