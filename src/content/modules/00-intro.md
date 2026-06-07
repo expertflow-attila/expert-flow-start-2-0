@@ -4,7 +4,7 @@ lastReviewed: "2026-05-16"
 
 # Üdvözöllek a Business Start kurzuson
 
-> 12 hét, ahogy én építem fel a saját vállalkozásomat. 12 hetes építő kurzus egyéni vállalkozóknak, akik mellékállásban vagy újrakezdőként indítanak — nem tanítok, megosztom, mit csinálok.
+> 12 hét, ahogy én építem fel a saját vállalkozásomat. Tájékoztató kurzus egyéni vállalkozóknak, akik mellékállásban vagy újrakezdőként indítanak — nem tanítok, megosztom, mit csinálok.
 
 > **TL;DR** — 12 hét, 4 fázis, 12 modul: a 12. hét végén éles webhely, lead magnet, funnel, CRM, jogi minimum.
 > - Heti 1 modul + 1 feladat (heti 3-5 óra összesen), kb. 10-12 óra videó-anyag

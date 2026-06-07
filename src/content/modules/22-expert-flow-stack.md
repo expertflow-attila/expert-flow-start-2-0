@@ -39,7 +39,7 @@ Ezeket az első 12 hét alatt mind beépítetted a saját rendszeredbe:
 - **Stripe Payment Link** — egyszerű fizetés (20. bónusz, videókurzus értékesítés)
 - **Számlázz.hu** — magyar számlázás (12. modul)
 
-Ez egy kezdő szolgáltató szakértőnek **bőven elég havi 1-3 millió Ft bevételig**. A többi kategória csak azoknak releváns, akik ezt túlhaladták.
+Ez egy kezdő egyéni vállalkozónak **bőven elég havi 1-3 millió Ft bevételig**. A többi kategória csak azoknak releváns, akik ezt túlhaladták.
 
 ---
 

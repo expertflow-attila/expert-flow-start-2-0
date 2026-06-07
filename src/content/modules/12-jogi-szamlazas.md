@@ -47,7 +47,7 @@ Magyarországon kezdő szolgáltatóknak három alap-forma jön szóba. A **2022
 
 ### Egyéni vállalkozó (EV) — átalányadó vagy tételes (VSZJA)
 
-**Kinek érdemes**: ha **vegyes az ügyfélkörod** (magánszemély + cég), vagy ha B2B szolgáltató vagy (ügynökség, tanácsadó, fejlesztő, akinek céges ügyfelei vannak). A KATA-reform óta a legtöbb online szolgáltató szakértőnek ez a logikus választás.
+**Kinek érdemes**: ha **vegyes az ügyfélkörod** (magánszemély + cég), vagy ha B2B szolgáltató vagy (ügynökség, tanácsadó, fejlesztő, akinek céges ügyfelei vannak). A KATA-reform óta a legtöbb online egyéni vállalkozónak ez a logikus választás.
 
 - **Átalányadó**: a bevétel egy fix %-át veszi a NAV költségátalánynak (szolgáltatóknál általában 40%, így a bevétel 60%-a az adóalap), és erre fizetsz SZJA-t + járulékot. Egyszerűbb mint a tételes, de bevételi plafonja van (jelenleg a minimálbér tízszerese, évente változik — ellenőrizd).
 - **Tételes (VSZJA)**: tényleges költségekkel számolsz, bonyolultabb adminisztráció, de magasabb költséghányadnál előnyösebb.

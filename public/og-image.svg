@@ -8,11 +8,11 @@
   <rect width="1200" height="630" fill="#0a0a0c"/>
   <rect width="1200" height="630" fill="url(#glow)"/>
   <rect x="0" y="628" width="1200" height="2" fill="#1f1f23"/>
-  <text x="80" y="120" font-family="ui-monospace,monospace" font-size="14" letter-spacing="3.5" fill="#b9a7e0">BUSINESS START · 12 HETES KURZUS · EXPERT FLOW</text>
+  <text x="80" y="120" font-family="ui-monospace,monospace" font-size="14" letter-spacing="3.5" fill="#b9a7e0">BUSINESS START · 12 HETES KURZUS · SOLO BUSINESS</text>
   <circle cx="60" cy="115" r="4" fill="#b9a7e0"/>
   <text x="80" y="280" font-family="Georgia,serif" font-weight="400" font-size="92" fill="#fafafa">Business</text>
   <text x="80" y="380" font-family="Georgia,serif" font-weight="400" font-size="92" font-style="italic" fill="#b9a7e0">Start</text>
   <text x="80" y="470" font-family="-apple-system,sans-serif" font-size="22" fill="#a1a1aa">12 hét. 12 modul. 12 másolható prompt.</text>
-  <text x="80" y="500" font-family="-apple-system,sans-serif" font-size="22" fill="#a1a1aa">Magyar szolgáltató szakértőknek · IDE-alapú online vállalkozás · élő AI Operációs Rendszer</text>
+  <text x="80" y="500" font-family="-apple-system,sans-serif" font-size="22" fill="#a1a1aa">Egyéni vállalkozóknak · IDE-alapú online vállalkozás · élő AI Operációs Rendszer</text>
   <text x="80" y="585" font-family="ui-monospace,monospace" font-size="12" letter-spacing="3" fill="#8b8b94">EXPERTFLOW.HU</text>
 </svg>

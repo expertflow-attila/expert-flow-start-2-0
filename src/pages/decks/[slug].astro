@@ -59,6 +59,15 @@ const site = (Astro.site ?? new URL("https://expert-flow-start-2-0.vercel.app"))
 const deckUrl = `${site}decks/${deck.slug}`;
 const moduleUrl = `${site}modules/${deck.slug}`;
 
+// SEO title ≤60 karakter: a leghosszabb még beleférő utótagot választjuk.
+const deckSeoTitle = (() => {
+  const full = `${deck.title} · Diasor · Business Start`;
+  if (full.length <= 60) return full;
+  const mid = `${deck.title} · Diasor`;
+  if (mid.length <= 60) return mid;
+  return deck.title.length <= 60 ? deck.title : deck.title.slice(0, 59).replace(/\s+\S*$/, "");
+})();
+
 const deckSchemas = [
   {
     "@context": "https://schema.org",
@@ -90,12 +99,12 @@ const deckSchemas = [
 ---
 
 <DeckLayout
-  title={`${deck.title} · Diasor · Business Start`}
-  description={deck.subtitle ?? deck.title}
+  title={deckSeoTitle}
+  description={(deck.subtitle ?? deck.title).slice(0, 160)}
   schema={deckSchemas}
 >
 
-  <div class="deck-progress" id="deck-progress" style="width: 0%"></div>
+  <div class="deck-progress" id="deck-progress" style="width: 0%" aria-hidden="true"></div>
 
   <div class="deck-shell">
 
