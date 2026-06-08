@@ -76,16 +76,34 @@ const schemaJson = schema
     <main id="main" class="shell" tabindex="-1">
 
       <header class="site-header">
-        <div class="g g-header">
-          <a href="/" class="gc gc-link" aria-label="Business Start — főoldal">
-            <span class="brand-logo"><b>Business Start</b></span>
-          </a>
-        </div>
+        <div class="nav-bar">
+          <a href="https://expertflow-v3-dark.vercel.app/" class="nav-logo" aria-label="Expert Flow — főoldal">Expert Flow</a>
 
-        <div class="mobile-bar">
-          <a href="/" class="mobile-bar-brand" aria-label="Főoldal">
-            <span class="brand-logo brand-logo--sm"><b>Business Start</b></span>
-          </a>
+          <nav class="nav-main" aria-label="Fő navigáció">
+            <a class="nav-link" href="https://expertflow-v3-dark.vercel.app/szolgaltatas">Szolgáltatás</a>
+            <a class="nav-link" href="https://expertflow-v3-dark.vercel.app/rolam">Rólam</a>
+            <a class="nav-link" href="https://expertflow-v3-dark.vercel.app/araink">Áraink</a>
+
+            <div class="nav-drop">
+              <button type="button" class="nav-link nav-drop-btn" aria-haspopup="true" aria-expanded="false">Tudástár<span class="nav-caret">▾</span></button>
+              <div class="nav-menu" role="menu">
+                <a role="menuitem" href="https://expertflow-v3-dark.vercel.app/">Funnel térkép</a>
+                <a role="menuitem" href="https://expertflow-v3-dark.vercel.app/">Értékesítési szövegek</a>
+                <a role="menuitem" href="https://expertflow-v3-dark.vercel.app/">Online jelenlét</a>
+              </div>
+            </div>
+
+            <div class="nav-drop">
+              <button type="button" class="nav-link nav-drop-btn" aria-haspopup="true" aria-expanded="false">AI Lab<span class="nav-caret">▾</span></button>
+              <div class="nav-menu" role="menu">
+                <a role="menuitem" href="https://expertflow-v3-dark.vercel.app/">AI tanulási csapat</a>
+                <a role="menuitem" href="https://expertflow-v3-dark.vercel.app/">Vállalkozó identitás</a>
+                <a role="menuitem" href="https://expertflow-v3-dark.vercel.app/">AI operációs rendszer</a>
+              </div>
+            </div>
+          </nav>
+
+          <div class="nav-end" aria-hidden="true"></div>
         </div>
       </header>
 
