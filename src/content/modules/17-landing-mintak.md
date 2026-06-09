@@ -117,9 +117,9 @@ Hosszú görgetés, magas árú (300 ezer Ft+) szolgáltatáshoz. Hero + ígére
 - `szolgaltatas-landing.html` — Szolgáltatás landing sablon (érték-stack)
 - `coming-soon-landing.html` — Coming soon (waitlist) landing sablon
 - `longform-sales-landing.html` — Long-form sales landing sablon
-- 🔗 [Marketing Skiccfüzet — 43 vázlat](https://marketing-skiccfuzet.vercel.app)
-- 🔗 [Funnel Tananyag — 23 funnel típus](https://funnel-tananyag.vercel.app)
-- 🔗 [Copywriting tananyag — 10 lecke](https://copywriting-ef.vercel.app)
+- [Marketing Skiccfüzet — 43 vázlat](https://marketing-skiccfuzet.vercel.app)
+- [Funnel Tananyag — 23 funnel típus](https://funnel-tananyag.vercel.app)
+- [Copywriting tananyag — 10 lecke](https://copywriting-ef.vercel.app)
 
 ## Heti feladat
 

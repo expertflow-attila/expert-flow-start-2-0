@@ -161,8 +161,8 @@ Mind a 6 skill letölthető a modul letöltései közül, skillenként két fáj
 - `crm-dashboard.SKILL.md` + `crm-dashboard.reference.md`
 - `content-pipeline.SKILL.md` + `content-pipeline.reference.md`
 - `avatar-builder.SKILL.md` + `avatar-builder.reference.md`
-- 🔗 [Claude Code skill dokumentáció](https://docs.claude.com/claude-code/skills)
-- 🔗 [Learning Agents — 4 AI karakter oktatáshoz](https://learning-agents-landing.vercel.app)
+- [Claude Code skill dokumentáció](https://docs.claude.com/claude-code/skills)
+- [Learning Agents — 4 AI karakter oktatáshoz](https://learning-agents-landing.vercel.app)
 
 ## Heti feladat
 

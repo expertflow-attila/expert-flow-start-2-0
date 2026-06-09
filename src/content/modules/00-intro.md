@@ -44,17 +44,17 @@ A 4 fázis mérföldkő-nevet kapott: nem azt mondja, mit csinálsz, hanem mit f
 
 **I. mérföldkő · "Tudod, mit adsz el és kinek" (1-3. hét)** — A tudásod alapja, a vevőd, az ajánlatod. Ez az alap; ha nincs tisztán, a többi 9 hét nem működik. A végén egy mondatban elmondod, kinek mit adsz el, és 3 csomagod van papíron.
 
-> ✓ **Checkpoint 1 (3. hét vége)**: 1 mondatod van + 3 valódi beszélgetésen túl vagy + 3 csomagod papíron.
+> **Checkpoint 1 (3. hét vége)**: 1 mondatod van + 3 valódi beszélgetésen túl vagy + 3 csomagod papíron.
 
 **II. mérföldkő · "Megtalálható vagy" (4-6. hét)** — Eszközök (VS Code + Claude Code + Sybell + Google Workspace), weboldal Vercel-en, copy és landing. A végén saját domainen élő weboldalad van, amit te építettél és te tudsz módosítani.
 
 **III. mérföldkő · "Beszélgetéseid vannak" (7-9. hét)** — Konzultációs funnel (Cal.com), ügyfél-szerzés ismerős-listáról, lead magnet + email lista. A végén tudod, hogyan jut el egy érdeklődő a lefoglalt beszélgetésig nálad.
 
-> ✓ **Checkpoint 2 (7. hét vége)**: él az oldalad a saját domaineden + foglalható vagy.
+> **Checkpoint 2 (7. hét vége)**: él az oldalad a saját domaineden + foglalható vagy.
 
 **IV. mérföldkő · "Rendszered van, és látod a számokat" (10-12. hét)** — Google Sheets CRM + Gmail/Drive struktúra, GA4 mérés, jogi és számlázási minimum. A végén tudod, hány beszélgetésed volt, honnan jöttek, és mennyibe kerül a működésed.
 
-> ✓ **Checkpoint 3 (10. hét vége)**: minden beszélgetésed nyilván van tartva.
+> **Checkpoint 3 (10. hét vége)**: minden beszélgetésed nyilván van tartva.
 
 **Zárás · 13. modul: Iteráció (a program utáni első 90 nap)** — Ár, szegmens, csatorna. A végén tudod, hogyan döntesz a következő lépésről a saját számaid alapján.
 
