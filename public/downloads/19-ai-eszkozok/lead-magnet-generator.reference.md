@@ -48,8 +48,9 @@ Ez a javasolt téma — nem azért, mert jó ötlet, hanem mert adat.
 
 ## PDF-konverzió
 
-pandoc lead-magnet.md -o lead-magnet.pdf --pdf-engine=...
-[a 9. modul pipeline-ja szerint, fedlappal]
+pandoc lead-magnet.md -o lead-magnet.pdf --pdf-engine=xelatex
+[a 9. modul pipeline-ja szerint, fedlappal — a xelatex kell
+a magyar ékezetekhez]
 ```
 
 ## Mire figyelj az eredménynél

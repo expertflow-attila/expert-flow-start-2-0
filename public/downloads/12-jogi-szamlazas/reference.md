@@ -81,7 +81,7 @@ Mielőtt élesben kiállítasz egy számlát ügyfélnek:
 
 Ha mindkét lépés rendben — a setup működik.
 
-### Hiányzó opciók
+### Speciális esetek — ezeket a könyvelővel beszéld meg
 
 - Külföldi ügyfél (EU): külön „közösségi adószám" igénylése (NAV)
 - Külföldi ügyfél (EU-n kívül): ÁFA-mentes számlázás megfelelő jogcímmel

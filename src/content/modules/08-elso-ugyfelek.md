@@ -30,6 +30,8 @@ Az első tíz ügyfél nem Facebook-hirdetésből jön — a saját környezeted
 
 Kik azok, akiket az elmúlt 5 évben szakmailag ismertél meg, és megbíznak benned? Ne fókuszálj az „avatárhoz passzolásra" — az másodlagos. Az számít, hogy ismernek, nem kell bemutatkozni. Tíz név (ha nincs tíz, öt) — konkrét emberek, nem „ismerőseim általában". A 8.1-es prompt (letöltések) segít, ha üres lappal ülsz neki.
 
+Ha már a lista írásánál azt érzed, „kínos lesz megkeresni őket" — ez szinte mindenkinél így van, nálam is. Segít a keret: nem eladni fogsz, hanem véleményt kérni. Azt ismerőstől kérni nem tolakodás — a legtöbben örülnek, hogy számít a szavuk.
+
 Minden név mellé írd oda a kapcsolat típusát is — a következő két szakaszban erre építünk.
 
 ## 02. Csatorna-választás — minél melegebb a kapcsolat, annál közvetlenebb csatorna
@@ -44,6 +46,8 @@ A legtöbben itt rontják el: a legmelegebb kapcsolatnak is írott üzenetet kü
 | **Írott üzenet** | ajánlott idegen, online csoporttárs, rég nem beszéltetek | itt kezdődik a kapcsolat — az írott a belépő, nem a plafon |
 
 Ökölszabály: válaszd a legközvetlenebb csatornát, amit az adott kapcsolatnál még nem érzel tolakodónak. Egy szintet lejjebb léphetsz, ha nagyon szorongsz tőle — kettőt ne.
+
+Bence, a fotós (1. modul) így osztotta el: a volt ügynökségi kollégáját felhívta, a fotós-képzéstársának hangüzenetet küldött, a Facebook-csoportos ismerősnek írt. A kapcsolat melegsége döntött, nem az, hogy melyik a kényelmesebb.
 
 ## 03. A személyes üzenet — sablonból, de személyre szabva
 
@@ -82,7 +86,7 @@ Build-in-public hangon: nem fog mindenki válaszolni, és ez nem kudarc, hanem a
 
 - **10 üzenet → 4-6 válasz** (a meleg kapcsolatok többsége reagál, a hidegebbek fele nem)
 - **4-6 válasz → 2-3 érdemi beszélgetés**
-- **2-3 beszélgetés → 0-1 felmérő hívás**
+- **2-3 beszélgetés → 0-1 felmérő hívás** (a 7. modulban beállított Cal.com-beszélgetés, ahol kiderül, tudsz-e segíteni)
 
 Igen: az első 10 üzenetből jó eséllyel NULLA vagy EGY hívás lesz. Ezért kell két kör — a második 10-es lista az ajánlásokból és a maradék nevekből áll össze. Aki az első kör után feladja, az a folyamat felénél áll meg.
 

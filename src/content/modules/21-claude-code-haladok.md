@@ -1,5 +1,5 @@
 ---
-lastReviewed: "2026-05-16"
+lastReviewed: "2026-06-09"
 ---
 
 # Bónusz · Claude Code productivity-trükkök magyarul
@@ -24,17 +24,23 @@ A hangnem átadó-tapasztalati: nem mindegyiket kell egyszerre bevezetned. Heti 
 
 Egy új mappában az első parancsod legyen a `/init`. A Claude végigolvassa a fájlokat, és generál egy `CLAUDE.md` fájlt, amit minden további session betölt mint rendszerprompt. Ez azt jelenti, hogy a projekt konvencióit, szabályait, kulcs-fájljait nem kell minden alkalommal újra elmondanod. Ha új projektet indítasz, a Claude segíthet megírni — csak mondd el neki a projekt célját, a tech-stacket, a fő mappákat.
 
+**Mikor éri meg:** minden projektnél, amin 2-3 session-nél többet fogsz dolgozni — egyszeri 2 perc, minden későbbi indulásnál visszahozza.
+
 ### 2. Status line a terminálban
 
 A `/statusline` paranccsal beállíthatsz egy mini-dashboardot a terminál aljára: aktuális modell, kontextus százalék, költség. Egy kis script lesz, ami minden parancs után frissül. Hasznossága: látod, mikor kezd telve lenni a kontextus, így nem érnek meglepetések — időben tudsz `/compact`-ot vagy `/clear`-t nyomni.
+
+**Mikor éri meg:** ha napi szinten dolgozol Claude Code-dal — alkalmi használatnál elég a 4. trükk (`/context`) kézzel.
 
 ### 3. Tartsd kicsiben a kontextust
 
 Ne öntsd be az egész projekt-fájlt egy beszélgetésbe. Adj a Claude-nak csak annyi kontextust, amennyi az adott feladathoz szükséges. Bontsd a nagy problémát kis, fókuszált lépésekre. Minél kevesebb zaj a kontextus-ablakban, annál jobban dolgozik az AI — egyszerű, mégis a legtöbben figyelmen kívül hagyják.
 
+**Mikor éri meg:** mindig — ez nem opció, hanem alapszokás; a hatása nagy, sokfájlos projekteknél a leglátványosabb.
+
 ### 4. `/context` — a token-fogyasztás röntgene
 
-Ha lassul vagy bizonytalannak érzed magad, hogy mi eszi a tokenjeidet, a `/context` parancs pontosan megmutatja: mennyit foglal a rendszerprompt, a fájlok, az MCP-szerverek, a beszélgetés. Ezekből százalékos bontásban látod, hol van a baj — onnan tudod, mit kell visszafogni.
+Ha lassul vagy bizonytalannak érzed magad, hogy mi eszi a tokenjeidet (token = a szöveg apró egysége, ebben méri az AI a kontextust és a költséget), a `/context` parancs pontosan megmutatja: mennyit foglal a rendszerprompt, a fájlok, az MCP-szerverek, a beszélgetés. Ezekből százalékos bontásban látod, hol van a baj — onnan tudod, mit kell visszafogni.
 
 ### 5. `/compact` 60%-nál, `/clear` témaváltáskor
 
@@ -44,13 +50,19 @@ Amikor a kontextus 60% körül jár, futtass `/compact`-ot — a Claude összes�
 
 A Shift+Tab-bal ciklusként végigléptetheted a módokat, vagy manuálisan választhatsz plan mode-ot. Ebben a Claude olvas, kutat, kérdez vissza — de NEM ír egyetlen sort sem, amíg jóvá nem hagyod a tervet. Először a stratégia tisztázódik, utána mész végrehajtásra. Nálam ez jött be: 30%-kal kevesebbszer kell visszaszólni, hogy „nem így gondoltam".
 
+**Mikor éri meg:** minden olyan feladatnál, ami 2-3 fájlnál többet érint — egy apró szövegcseréhez felesleges.
+
 ### 7. Bánj Claude-dal junior fejlesztőként
 
 Ne csak parancsokat adj („írj egy függvényt, ami X-et csinál"). Ehelyett adj problémát: „Hogyan kezeljük a növekedés-mérést?", és hagyd, hogy átgondolja a megközelítést. Ha a saját feltételezéseit elmagyarázza, többször is jobb lesz a végeredmény. Ez a plan mode mélyebb változata — a Claude megszünteti a nyilvánvaló rossz megoldásokat, mielőtt írni kezdene.
 
+**Mikor éri meg:** nyitott végű problémáknál, ahol még a megközelítés sem világos — jól definiált, konkrét feladathoz elég a direkt utasítás.
+
 ### 8. Önellenőrzés a teendő-listán
 
-Amikor a Claude teendő-listát készít a feladathoz, építsd be a verifikációs lépéseket is. Például: (1) Építsd meg a webhelyet, (2) készíts screenshotot és ellenőrizd, hogy jól néz ki, (3) nyisd meg a Chrome DevTools-ot, és győződj meg róla, hogy nincs hiba. Plusz egy szabály: „Ne lépj a következő pontra, amíg nem vagy 95%-os bizonyossággal biztos, hogy az aktuális rendben". 90%-os egy-shot sokkal jobb, mint 60%-os.
+Amikor a Claude teendő-listát készít a feladathoz, építsd be a verifikációs lépéseket is. Például: (1) Építsd meg a webhelyet, (2) készíts screenshotot és ellenőrizd, hogy jól néz ki, (3) nyisd meg a Chrome DevTools-ot, és győződj meg róla, hogy nincs hiba. Plusz egy szabály: „Ne lépj a következő pontra, amíg nem vagy 95%-os bizonyossággal biztos, hogy az aktuális rendben". Egy 90%-ban jó első nekifutás sokkal többet ér, mint egy 60%-os.
+
+**Mikor éri meg:** minden többlépéses feladatnál, ahol egy korai hiba a teljes további munkát elrontaná.
 
 ---
 
@@ -58,11 +70,13 @@ Amikor a Claude teendő-listát készít a feladathoz, építsd be a verifikáci
 
 ### 9. Sub-agentek párhuzamos munkára
 
-A fő prompt-ban kérheted a Claude-tól, hogy komplex feladatra bontsa szét sub-agentekre. Mindegyik kap saját kontextus-ablakot, és (ha akarod) saját modellt is. Egyikük kutat, másik teszteket ír, harmadik más megközelítést próbál — utána mind visszajelez a fő agentnek. Ez kulcsfontosságú nagy projekteknél, mert a fő kontextusod tiszta marad.
+A fő prompt-ban kérheted a Claude-tól, hogy komplex feladatot bontson szét sub-agentekre (sub-agent = a fő beszélgetésből indított külön segéd-Claude). Mindegyik kap saját kontextus-ablakot, és (ha akarod) saját modellt is. Egyikük kutat, másik teszteket ír, harmadik más megközelítést próbál — utána mind visszajelez a fő agentnek. Ez kulcsfontosságú nagy projekteknél, mert a fő kontextusod tiszta marad.
 
 ### 10. Custom skills a `~/.claude/skills/` mappában
 
-Készíts újra-felhasználható prompt-fájlokat a `.claude/skills/` mappában, mindegyikben egy `SKILL.md` frontmatter-rel. Példák, amiket én használok: `kontextus-tisztito.md`, `kod-ellenor.md`, `landing-generalo.md`. Ezeket aztán természetes nyelven vagy `/skill-nev` paranccsal hívod elő — minden alkalommal ugyanaz a workflow fut. A csapatodnak GitHub-ra commitolod, és mindenki ugyanazokat az SOP-kat használja.
+Készíts újra-felhasználható prompt-fájlokat a `.claude/skills/` mappában, mindegyikben egy `SKILL.md` frontmatter-rel (frontmatter = a fájl tetején lévő pár soros adatblokk). Példák, amiket én használok: `kontextus-tisztito.md`, `kod-ellenor.md`, `landing-generalo.md`. Ezeket aztán természetes nyelven vagy `/skill-nev` paranccsal hívod elő — minden alkalommal ugyanaz a workflow fut. A csapatodnak GitHub-ra commitolod, és mindenki ugyanazokat a bevált munkafolyamatokat használja.
+
+**Mikor éri meg:** amikor egy feladatot harmadszor csinálsz ugyanúgy — az már skill-be való.
 
 ### 11. CLAUDE.md folyamatos frissítése — de óvatosan
 
@@ -90,7 +104,7 @@ A Claude lát képeket — ez egy nagy feloldás. Adj neki hibaüzenetet, inspir
 
 ### 16. Chrome DevTools MCP
 
-A `https://github.com/ChromeDevTools/chrome-devtools-mcp` MCP szerver telepítésével a Claude Code közvetlenül vezérli a Chrome böngészőt: console-log olvasás, performance audit, screenshot, DOM-inspect, form-kitöltés. Az 5. modul weboldal-tesztelésénél kötelező. Mondat-példa: „Nyisd meg a `localhost:3000`-et, kattints a foglalás-gombra, és nézd meg, kapunk-e hibát a console-ban." Ezt egy prompttal megcsinálja.
+Az MCP (Model Context Protocol) egy szabvány, amivel a Claude Code külső eszközökhöz kap hozzáférést. A `https://github.com/ChromeDevTools/chrome-devtools-mcp` MCP szerver telepítésével a Claude Code közvetlenül vezérli a Chrome böngészőt: console-log olvasás, performance audit, screenshot, DOM-inspect, form-kitöltés. Az 5. modul weboldal-tesztelésénél kötelező. Mondat-példa: „Nyisd meg a `localhost:3000`-et, kattints a foglalás-gombra, és nézd meg, kapunk-e hibát a console-ban." Ezt egy prompttal megcsinálja.
 
 ### 17. ultrathink — maximális gondolkodási büdzsé
 
@@ -100,9 +114,13 @@ Amikor a Claude-nak nehéz problémán kell átgondolkodnia (architektúra-dönt
 
 Sokan a `--dangerously-skip-permissions` flag-et használják, hogy a Claude minden engedélyt megkapjon — gyors, de nevét nem véletlenül kapta. Az okosabb út: a `~/.claude/settings.json`-ban explicit engedélyezed a biztonságos parancsokat (pl. `git status`, `npm install`, `ls`), és explicit megtiltod a destruktívokat (pl. `rm -rf`, `DROP TABLE`). A deny-lista mindig elsőbbséget élvez. Eredmény: ugyanaz a sebesség, sokkal kisebb kockázat.
 
+**Mikor éri meg:** amint rendszeresen dolgozol Claude Code-dal — az első héten állítsd be, utána nem kell hozzányúlni.
+
 ### 19. Context7 MCP — friss könyvtár-dokumentáció
 
 A `https://github.com/upstash/context7` MCP szerver megoldja, hogy a Claude tudása régi. Mivel a modell training-cutoff-fal van, néha kitalál nem létező API-kat (átnevezett, deprecated funkciókat). A Context7 lekéri a friss, verzió-specifikus docs-ot a legtöbb népszerű könyvtárhoz (Tailwind, React, Next.js, MongoDB stb.), és beinjektálja a beszélgetésbe, mielőtt a Claude kódolna. Egy parancs telepítés, és minden további coding session jobb minőséggel megy.
+
+**Mikor éri meg:** ha friss vagy gyorsan változó könyvtárral dolgozol (pl. Tailwind v4, Next.js) — régi, stabil stack-nél ritkábban hiányzik.
 
 ### 20. Mobil távirányítás
 
@@ -127,10 +145,6 @@ Az eredeti 32 hack listából 12 kimaradt. Ha haladsz tovább, ezek vannak még:
 - **Agent Teams** — drága, lassú; sub-agentek többnyire elégek
 
 Ha valamelyik felkeltette az érdeklődésedet, érdemes a Claude Code dokumentációt és a `claudemarketplaces.com`-ot átnézned — a teljes mélység ott van.
-
-## A modul saját anyagai
-
-- 📄 [resources.md](./resources.md) — linkek és további olvasmányok
 
 ## Kapcsolódó modulok
 

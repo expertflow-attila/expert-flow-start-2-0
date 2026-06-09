@@ -15,11 +15,11 @@ lastReviewed: "2026-06-09"
 
 ## Hol tartasz
 
-A 6. modulból él a landinged, rajta a „Foglalj konzultációt" CTA. A 3. modulból tudod, mit adsz el a beszélgetésen. Ezen a héten a gomb mögé rendszert építesz.
+A 6. modulból él a landinged, rajta a „Foglalj konzultációt" CTA (call to action — a cselekvésre hívó gomb). A 3. modulból tudod, mit adsz el a beszélgetésen. Ezen a héten a gomb mögé rendszert építesz.
 
 ## Mit építesz meg ezen a héten
 
-Ha valaki kattint a „Foglalj konzultációt" gombra, onnan tíz dolog történhet — és kilenc olyan, amit nem akarsz manuálisan kezelni. A konzultációs funnel az a 4-5 automatikus lépés foglalás és beszélgetés között:
+Ha valaki kattint a „Foglalj konzultációt" gombra, sok apró lépés következik: időpont-egyeztetés, visszaigazolás, emlékeztetők. Ezeket nem akarod kézzel intézni — elfelejted, és pont a fontos pillanatban. A konzultációs funnel az a 4-5 automatikus lépés foglalás és beszélgetés között:
 
 - visszaigazoló email
 - 24 órás emlékeztető
@@ -30,19 +30,19 @@ A Cal.com-ot beállítod, az emaileket bemásolod és személyre szabod, aztán 
 
 ## 01. Cal.com setup
 
-Cal.com = ingyenes konzultáció-foglaló (Calendly-alternatíva), rugalmasabb, mert az emailekbe (Workflows) is belenyúlsz.
+Ez az alap: amíg nincs foglalható naptárad, a landinged gombja zsákutca. Cal.com = ingyenes konzultáció-foglaló (Calendly-alternatíva), rugalmasabb, mert az emailekbe (Workflows) is belenyúlsz.
 
 **Lépéssor**:
 1. Regisztráció Google Workspace-fiókkal (naptár-szinkronizáció)
-2. Event type létrehozása (pl. „30 perces ingyenes konzultáció")
+2. Event type — vagyis foglalható alkalom-típus — létrehozása (pl. „30 perces ingyenes konzultáció")
 3. Időkeret beállítás (ne nyomd túl szorosan, kell felkészülési idő)
 4. 2-3 szűrő-kérdés a foglalási űrlapra — ez a következő lecke
 
-A teljes konfiguráció (buffer, minimum notice, helyszín) mezőről mezőre a `reference.md`-ben van.
+A teljes konfiguráció mezőről mezőre a `reference.md`-ben van — benne a buffer (védőidő két foglalás között) és a minimum notice (mennyivel előre lehet foglalni) is.
 
 ## 02. A szűrő-kérdések — ezért csökken a no-show
 
-A szűrő-kérdés nem adminisztráció, hanem elköteleződés. Aki foglalás előtt kitölt 3 kérdést, az már időt fektetett a beszélgetésbe — sokkal valószínűbb, hogy el is jön. Aki a kérdéseknél kilép, az nagy eséllyel úgysem jött volna el. A kérdés tehát nem akadály: kiszűri a komolytalan foglalást, mielőtt a naptáradba kerülne.
+No-show = lefoglalta az időpontot, de nem jelent meg. Ez ellen a legjobb védelem nem az emlékeztető, hanem a szűrő-kérdés. A szűrő-kérdés ugyanis nem adminisztráció, hanem elköteleződés. Aki foglalás előtt kitölt 3 kérdést, az már időt fektetett a beszélgetésbe — sokkal valószínűbb, hogy el is jön. Aki a kérdéseknél kilép, az nagy eséllyel úgysem jött volna el. A kérdés tehát nem akadály: kiszűri a komolytalan foglalást, mielőtt a naptáradba kerülne.
 
 Három jó szűrő-kérdés (mindhárom hosszú szöveges, kötelező):
 
@@ -50,11 +50,11 @@ Három jó szűrő-kérdés (mindhárom hosszú szöveges, kötelező):
 2. **„Milyen szolgáltatást vagy eszközt használtál eddig erre?"** — placeholder: „Pl. próbáltam Wix-szel, de feladtam…"
 3. **„Mire szeretnél kijönni a beszélgetésből?"** — placeholder: „Pl. egy konkrét következő lépésre, amit ezen a héten meg tudok tenni…"
 
-A válaszokból a beszélgetés előtt látod, kit kapsz — és onnan indulhat a beszélgetés, nem nulláról. Felső határ: 2-3 kérdés. Öt vagy több kérdés már elriaszt, az ellenkező hatást éri el.
+A válaszokból a beszélgetés előtt látod, kit kapsz — és onnan indulhat a beszélgetés, nem nulláról. Kata, a könyvelő (1. modul) az első kérdést így szabta magára: „Melyik adózási forma körül bizonytalankodsz most?" — a sablon-kérdést mindig a saját területedre fordítsd. Felső határ: 2-3 kérdés. Öt vagy több kérdés már elriaszt, az ellenkező hatást éri el.
 
 ## 03. A négy automatikus email — teljes szövegek
 
-Cal.com Workflows, 4 email-szabály. Mindegyik így épül fel: trigger (mikor küldjön) + Send email + címzett a foglaló + saját tárgy és szöveg. Az alábbi blokkok másolhatók — a `{{...}}` változókat a Cal.com tölti ki, a `[SZEMÉLYRE SZABD: …]` részeket te írod át.
+A foglalás és a beszélgetés között napok telhetnek el — ennyi idő alatt az emberek felejtenek. Ezt a négy email hidalja át. Cal.com Workflows, 4 email-szabály. Mindegyik így épül fel: trigger (mikor küldjön) + Send email + címzett a foglaló + saját tárgy és szöveg. Az alábbi blokkok másolhatók — a `{{...}}` változókat a Cal.com tölti ki, a `[SZEMÉLYRE SZABD: …]` részeket te írod át.
 
 ### 1) Visszaigazolás — azonnal a foglalás után
 

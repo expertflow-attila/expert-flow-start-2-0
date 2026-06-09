@@ -24,7 +24,7 @@ A „vágyott eredmény" SOSEM lehet általános („több szabadság",
 „sikeresebb vállalkozás") — mindig konkrét szám.
 ```
 
-## 3.2 — Prompt a 02. leckéhez (Három csomag, anchor-logikával)
+## 3.2 — Prompt a 05. leckéhez (Három csomag, anchor-logikával)
 
 A 3 csomag-szint felépítése. Akkor futtasd, amikor a 3.1-ből már van egy 1 mondatos ajánlatod. A prompt egyszerre tervezi a 3 csomagot az anchor-logika szerint.
 
@@ -58,14 +58,15 @@ Ha gyengébb mint 2x — javasolj plusz elemet, ami nem növeli
 számottevően a munkaterhet.
 ```
 
-## 3.3 — Prompt a 03. leckéhez (Mikor és hogyan frissítsd)
+## 3.3 — Prompt a 04. és 07. leckéhez (Alapító ár és frissítés)
 
-Az indulási stratégia és iteráció. Akkor futtasd, amikor már van 3 csomagod, és el kell mondanod az első ügyfél-jelölteknek.
+Az indulási stratégia és az iteráció. Akkor futtasd, amikor már van 3 csomagod és kiszámolt alapító árad, és el kell mondanod az első ügyfél-jelölteknek.
 
 ```
 A fő csomag listaára: [Ft]
+Az alapító ár (listaár mínusz 20-30%): [Ft]
 
-Indulási stratégia: az első 5 ügyfél féláron — cserébe:
+Indulási stratégia: az első 3-5 ügyfél alapító áron — cserébe:
 - Esettanulmány a saját webhelyemre
 - 1-2 mondatos visszajelzés
 - 30 napos elérhetőség kérdésekre
@@ -73,8 +74,9 @@ Indulási stratégia: az első 5 ügyfél féláron — cserébe:
 Tedd a következőt:
 1. Írj egy 3-4 mondatos szöveget, amivel ezt elmondom egy
    első ügyfél-jelöltnek. NEM sales hang. Egyenes, dokumentáló:
-   „új szolgáltatást indítok, keresem az első 5 ügyfelet,
-   akivel féláron dolgozom — cserébe esettanulmányt írhatok."
+   „új szolgáltatást indítok, az első öt ügyfelemmel
+   kedvezményes áron dolgozom — cserébe esettanulmányt írhatok."
+   A keret: nem olcsó vagyok, hanem korai.
 
 2. Adj 5 trigger-pontot, ami jelzi, mikor érdemes árat emelni
    (pl. „5 esettanulmány készen", „ajánláskérés sikeres",

@@ -35,7 +35,8 @@ A felvétel előtt egyszer beállítod, és minden lecke ezzel a profillal megy.
 bash ./models/download-ggml-model.sh large-v3
 
 # Transzkripció — a lecke.mp4-ből WebVTT és SRT outputot is kérünk
-./main \
+# (régebbi whisper.cpp verziókban a binárist ./main-nek hívják)
+./build/bin/whisper-cli \
   -m models/ggml-large-v3.bin \
   -f lecke-01.mp4 \
   -l hu \
@@ -138,10 +139,11 @@ Manuális UI-folyamat a `dashboard.stripe.com → Payment Links → Új link` me
    - Success URL: `https://[a-saját-domained]/koszonjuk?session_id={CHECKOUT_SESSION_ID}` — a `{CHECKOUT_SESSION_ID}` egy Stripe placeholder, futáskor cserélődik
    - Custom fields (opcionális): „Cégnév" és „Adószám" — ha céges vásárlókat is akarsz
 
-4. **Webhook** (a Kit-be küldéshez):
+4. **Webhook** (a Kit-be küldéshez) — ehhez már kell egy saját API-végpont, tehát NEM kötelező az induláshoz:
    - Endpoint: `https://[saját domain]/api/stripe/webhook`
    - Events: `checkout.session.completed`
    - A webhook a Kit API-jának küldi tovább a vásárló email-címét, ami beindítja a sequence-et (lásd lent)
+   - **Induláskor egyszerűbb kézzel:** a Stripe minden vásárlásról emailt küld — a vásárló email-címét manuálisan veszed fel a Kit sequence-be. Napi 1-2 vásárlásnál ez 2 perc; a webhook-automatizálás akkor éri meg, amikor ez már napi teher.
 
 A Payment Link előnye, hogy NEM kell saját szerver az induláshoz — a Stripe hostolja a checkout oldalt, csak egy URL-t kapsz, amit a landing oldalad CTA gombjába teszel.
 

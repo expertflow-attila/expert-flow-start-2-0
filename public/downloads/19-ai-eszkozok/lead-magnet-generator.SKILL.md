@@ -39,6 +39,6 @@ Egy markdown vázlat-fájl: cím (3 variáció) + fedlap-szöveg + fejezetenkén
 - A téma-választást nem bírálja felül: ha az adat mást mond, mint az ötleted, megmutatja mindkettőt és indokol
 - Nem ígér eredményt a címben, amit a tartalom nem vált be
 
-## Resources
+## Kapcsolódó fájl
 
 - `reference.md` — egy kidolgozott példa-futtatás a téma-választástól a vázlatig

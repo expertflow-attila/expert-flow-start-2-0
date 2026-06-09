@@ -47,6 +47,8 @@ Bármelyik út 2-3 jelöltet ad. Onnan ugyanúgy mész tovább, mint a 4 kérdé
 
 ## 03. A pivot-pont
 
+A fájdalom önmagában még nem eladható — attól lesz tudás, hogy te már átjutottál rajta. Ezt a pontot keressük most meg.
+
 Nézd meg a saját utadat — hol volt az a pillanat, amikor valami működni kezdett? Egy felismerés, egy módszer, egy eszköz, amit ma másképp csinálsz, mint öt éve. Itt válik a fájdalom tudássá.
 
 A tudásod alapja nem az, hogy "sokat tanultam", hanem hogy "itt léptem át valamit, és tudom, hogyan". Egy bekezdés, saját szavakkal.
@@ -123,3 +125,9 @@ Utána mondd el az egy mondatodat egy ismerősödnek — telefonon vagy személy
 - **"Mind a három jelölt egyformán erős."** A mátrix dönt, nem az érzés. Ha pontra is holtverseny, a "bírod 2 évig" oszlop magasabb értéke nyer.
 - **"Nincs pivot-pontom, csak sokat tanultam."** Keress kisebbet: egy eszköz, egy rutin, egy hiba, amit ma már másképp csinálsz. A pivot-pont nem dráma, hanem felismerés.
 - **"Az ismerősöm visszakérdezett."** Jó hír: pontosan tudod, melyik szó nem ment át. Cseréld konkrétabbra azt az egy részt, és teszteld újra másvalakin.
+
+## Letölthetők
+
+- `fajdalom-terkep.md` — egy oldalas, nyomtatható munkalap: 4 kérdés, pivot-pont, 3 jelölt, mátrix, egy mondat
+- `prompts.md` — 3 prompt a jelölt-választáshoz, a pivot-pont teszteléséhez és az egy mondat csiszolásához
+- `SKILL.md` — Claude Code skill a modulhoz

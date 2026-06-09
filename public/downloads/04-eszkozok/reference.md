@@ -160,6 +160,8 @@ A Claude Code újraindítás után tölti be az `.mcp.json`-t — utána a Claud
 
 ## Sybell DNS — Google Workspace MX rekordok
 
+Mielőtt másolsz, a négy rekord szerepe egyszerű nyelven: az MX mondja meg, hova érkezzenek a leveleid; az SPF és a DKIM bizonyítja a fogadó rendszernek, hogy tényleg te küldted; a DMARC szabályt ad arra, mi történjen a nevedben hamisított levelekkel.
+
 A Google Workspace ezt az 5 MX-rekordot kéri (2026 óta a hagyományos struktúra; az új Google rendszerek egyetlen `smtp.google.com` MX-et is elfogadnak — a Google admin pontosan megmondja, melyik kell):
 
 ```
@@ -206,13 +208,15 @@ A `p=none` figyelő mód — később, miután 2-4 hétig stabil a kimenő email
 
 ## Propagációs idő
 
+Propagáció = amíg az új DNS-bejegyzés a világ összes névszerverére szétterjed. Addig a rekord beírva már jó lehet, csak még nem mindenki látja.
+
 - MX rekordok: 1-24 óra (Sybell általában 30-60 perc)
 - SPF / DMARC: 5-30 perc
 - DKIM: 1-12 óra (a Google ellenőrzi az aktiválás előtt)
 
 Tipp: használj https://mxtoolbox.com-t a státusz ellenőrzésére. Az „MX Lookup" megmutatja, hogy a rekordok publikusak-e már.
 
-## Domain név dönthető szempontok
+## Domain név — döntési szempontok
 
 | Szempont | Súly | Példa |
 |----------|------|-------|
@@ -263,7 +267,7 @@ Tipp: használj https://mxtoolbox.com-t a státusz ellenőrzésére. Az „MX Lo
 
 ## Tipikus hibák — domain és DNS
 
-- **Apostroph vagy különleges karakter a domain-ben** — soha
+- **Aposztróf vagy különleges karakter a domain-ben** — soha
 - **Nehezen leírható domain** — ha telefonon kell mondani, baj
 - **Hosszú (15+ betű) domain** — memorizálhatatlan
 - **Trendi szavak** („crypto", „web3", „meta") — gyorsan elavul

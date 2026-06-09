@@ -8,7 +8,7 @@
 2. Hetente egy oldalt töltesz ki — a hét elején elolvasod a kimenetet, a hét végén kipipálod a kész-definíciót.
 3. A jegyzet-helyre hét közben írj: kérdéseket, elakadásokat, mondatokat a beszélgetésekből.
 4. A 3., 7. és 10. hét után egy checkpoint-oldal vár — ott megállsz, és ellenőrzöd, hogy minden áll-e.
-5. A 13. oldal után ez a dokumentum maga a vállalkozásod építési naplója. Tedd el — 90 nap múlva újraolvasod.
+5. A 13. hét oldala után ez a dokumentum maga a vállalkozásod építési naplója. Tedd el — 90 nap múlva újraolvasod.
 
 Ne szépítsd a bejegyzéseket. Az őszinte „nem ment" sor többet ér, mint öt kipipált hazugság.
 
@@ -38,7 +38,7 @@ Ne szépítsd a bejegyzéseket. Az őszinte „nem ment" sor többet ér, mint �
 
 **Kész-definíció:**
 - [ ] Avatár-portré kész: név, kor, körülmények, esti rutin
-- [ ] Legalább 3 beszélgetés lefolytatva, szó szerinti idézetekkel jegyzetelve
+- [ ] Legalább 3 beszélgetés lefolytatva — a jegyzet-táblában mindegyik sorban 3 szó szerinti idézet
 
 **Jegyzetek a hétről** (ide a legjobb idézetek — a 6. héten ezekből írsz copy-t):
 
@@ -50,14 +50,14 @@ Ne szépítsd a bejegyzéseket. Az őszinte „nem ment" sor többet ér, mint �
 
 ---
 
-## 3. hét — Ajánlat és árazás
+## 3. hét — Az ajánlatod és csomagok
 
 **A hét kimenete:** egy mondat ajánlat + három csomag papíron, anchor-logikával.
 
 **Kész-definíció:**
 - [ ] Mindhárom csomagnál: név, ár, bullet-lista, „kinek való", „kinek NEM"
 - [ ] A fő csomag érték-stackje legalább 2× az ár
-- [ ] Az egy oldalas dokumentumot egy ismerős magyarázat nélkül értette
+- [ ] Az egy oldalas dokumentumot egy ismerős magyarázat nélkül értette, és megmondta, melyik csomagot venné
 
 **Jegyzetek a hétről:**
 
@@ -80,13 +80,14 @@ Nyisd meg a kurzusban a Checkpoint 1 oldalt, és menj végig a listán.
 
 ---
 
-## 4. hét — Eszközök és Claude Code alapok
+## 4. hét — Eszközök, Claude Code alapok és online jelenlét
 
 **A hét kimenete:** működő setup — VS Code + Claude Code, saját domain, hivatalos email-cím.
 
 **Kész-definíció:**
 - [ ] Claude Code telepítve, alapparancsok begyakorolva (`/clear`, `/compact`, plan mode)
 - [ ] Domain regisztrálva a Sybell-en, Google Workspace beállítva
+- [ ] A `te@tedneved.hu` címről küldött teszt-email 9/10-et hozott a mail-tester.com-on
 
 **Jegyzetek a hétről** (telepítési hibák és megoldásaik — később aranyat érnek):
 
@@ -98,7 +99,7 @@ Nyisd meg a kurzusban a Checkpoint 1 oldalt, és menj végig a listán.
 
 ---
 
-## 5. hét — Egyoldalas weboldal
+## 5. hét — Egyoldalas weboldal építése
 
 **A hét kimenete:** 8 szekciós weboldal élesben, a saját domaineden, HTTPS-sel.
 
@@ -116,7 +117,7 @@ Nyisd meg a kurzusban a Checkpoint 1 oldalt, és menj végig a listán.
 
 ---
 
-## 6. hét — Értékesítési szöveg
+## 6. hét — Értékesítési szövegírás és szolgáltatás-landing
 
 **A hét kimenete:** erős copy a weboldalon (hero + garancia + FAQ + érték-stack), plusz egy különálló landing oldal.
 
@@ -140,9 +141,9 @@ Nyisd meg a kurzusban a Checkpoint 1 oldalt, és menj végig a listán.
 **A hét kimenete:** működő foglaló-rendszer — Cal.com + 4 automatikus email a foglalás és a beszélgetés között.
 
 **Kész-definíció:**
-- [ ] Event type él, 2-3 szűrő-kérdéssel
-- [ ] Mind a 4 email beállítva a Workflows-ban
-- [ ] Teszt-foglalás végigment, a visszaigazoló email megérkezett
+- [ ] Event type él, a 3 szűrő-kérdéssel
+- [ ] Mind a 4 email beállítva és aktív a Workflows-ban
+- [ ] Teszt-foglalás egy másik email-címről végigment, a visszaigazoló a reschedule-linkkel megérkezett
 
 **Jegyzetek a hétről:**
 
@@ -165,14 +166,14 @@ Nyisd meg a kurzusban a Checkpoint 2 oldalt, és menj végig a listán.
 
 ---
 
-## 8. hét — Az első ügyfeleid
+## 8. hét — Hogyan próbálok ügyfeleket találni
 
-**A hét kimenete:** tíz-fős ismerős-lista + legalább 3 kiküldött személyes üzenet, jegyzetekkel.
+**A hét kimenete:** tíz-fős ismerős-lista + legalább 5 kiküldött személyes üzenet, tracking-táblával.
 
 **Kész-definíció:**
 - [ ] A 10 név megvan, mindegyikhez tudom, milyen csatornán keresem
-- [ ] Legalább 3 egyedi üzenet kiment (3-4 mondat, beszélgetésre hív, nem elad)
-- [ ] Minden üzenetről bejegyzés: kinek, mikor, mi lett
+- [ ] Legalább 5 egyedi üzenet kiment (3-4 mondat, beszélgetésre hív, nem elad)
+- [ ] Mind a 10 név a tracking-táblában — a kiküldötteknél dátum és következő lépés
 
 **Jegyzetek a hétről** (válaszok, hangnemek, meglepetések):
 
@@ -190,8 +191,8 @@ Nyisd meg a kurzusban a Checkpoint 2 oldalt, és menj végig a listán.
 
 **Kész-definíció:**
 - [ ] A PDF kész, a témája a 2. heti interjúk leggyakoribb kérdéséből jött
-- [ ] A form él, magam feliratkoztam, az 1. levél megérkezett a tesztcímemre
-- [ ] Mind az 5 levél megírva és időzítve
+- [ ] A form él, magam feliratkoztam, az 1. levél megérkezett a tesztcímemre — benne a működő PDF-linkkel
+- [ ] Mind az 5 levél megírva és időzítve az Automation-ben
 
 **Jegyzetek a hétről:**
 
@@ -203,14 +204,14 @@ Nyisd meg a kurzusban a Checkpoint 2 oldalt, és menj végig a listán.
 
 ---
 
-## 10. hét — CRM és belső rend
+## 10. hét — CRM és belső rendezés
 
 **A hét kimenete:** Google Sheets CRM + Gmail labelek + Drive mappa-struktúra — egy helyen minden ügyfél-adat.
 
 **Kész-definíció:**
 - [ ] A CRM él (4 munkalap, vagy az első 10 jelöltig az 1 lapos minimál verzió)
-- [ ] Gmail labelek és Drive mappák beállítva
-- [ ] Minden eddigi beszélgetés rögzítve
+- [ ] Gmail labelek és Drive mappák beállítva, minden eddigi beszélgetés rögzítve
+- [ ] Bármelyik névről 30 másodperc alatt megmondom az utolsó kontaktot és a következő lépést
 
 **Jegyzetek a hétről:**
 
@@ -233,13 +234,13 @@ Nyisd meg a kurzusban a Checkpoint 3 oldalt, és menj végig a listán.
 
 ---
 
-## 11. hét — Mérés (GA4)
+## 11. hét — Mérés (Google Analytics 4)
 
-**A hét kimenete:** GA4 telepítve, 5 esemény mérve, heti 3 mutatós riport-rutin elindítva.
+**A hét kimenete:** GA4 telepítve, a custom események mérve, heti 3 mutatós riport-rutin elindítva.
 
 **Kész-definíció:**
-- [ ] A gtag-snippet él, az események beérkeznek
-- [ ] Az első heti riport kitöltve: látogatók, feliratkozók, CTA-kattintások
+- [ ] A GA4 Realtime nézetben látom a saját látogatásomat
+- [ ] Az első heti riport-sor kitöltve: a 3 mutató + a jövő heti EGY változtatás
 
 **Jegyzetek a hétről** (az első számaid — írd be ide is, jó lesz visszanézni):
 
@@ -256,9 +257,9 @@ Nyisd meg a kurzusban a Checkpoint 3 oldalt, és menj végig a listán.
 **A hét kimenete:** vállalkozási forma eldöntve, számlázás beállítva, ÁSZF és adatvédelmi nyilatkozat kint az oldalon.
 
 **Kész-definíció:**
-- [ ] Döntés a formáról (KATA / EV átalány / Kft.), könyvelővel egyeztetve
-- [ ] Számlázz.hu vagy Billingo regisztráció + NAV Online Számla bejelentés kész
-- [ ] ÁSZF + Adatvédelmi nyilatkozat él a webhelyen
+- [ ] Döntés a formáról (KATA / EV átalány / Kft.), könyvelővel egyeztetve — egy mondatban le tudom írni, miért ez
+- [ ] Számlázz.hu vagy Billingo + NAV Online Számla bekötve, a sztornózott teszt-számla megjelent a NAV rendszerében
+- [ ] ÁSZF + Adatvédelmi nyilatkozat linkje él a webhely láblécében
 
 **Jegyzetek a hétről:**
 
@@ -272,12 +273,13 @@ Nyisd meg a kurzusban a Checkpoint 3 oldalt, és menj végig a listán.
 
 ## 13. hét — Iteráció: az első 90 nap terve
 
-**A hét kimenete:** írott 90 napos iterációs terv — mikor emelsz árat, mikor nézed felül a szegmenst, mi a következő csatorna.
+**A hét kimenete:** írott 90 napos iterációs terv egyetlen oldalon — ár, szegmens, csatorna, interjúk.
 
 **Kész-definíció:**
-- [ ] Beírtam a naptárba a 90 napos felülvizsgálat dátumát
-- [ ] Leírtam az ár-emelési szabályomat (az 5. fizető ügyfél után)
-- [ ] Kiválasztottam EGY következő csatornát, és leírtam, miért azt
+- [ ] Leírtam az ár-emelési küszöböm: hányadik fizető ügyfélnél és mennyivel emelek
+- [ ] A szegmens-tábla kitöltve — vagy bedátumozva, mikor nézem újra
+- [ ] Kiválasztottam EGY második csatornát, és leírtam egy mondatban, miért azt
+- [ ] Negyedéves interjú-dátum a naptárban, az első 2 ügyféllel kiválasztva
 
 **Jegyzetek a hétről:**
 

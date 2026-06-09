@@ -1,6 +1,8 @@
 # 8. modul — Üzenet-sablonok (10 szituáció)
 
 > Mind a tíz sablon ugyanarra a vázra épül: **mit csinálok most + miért pont rá gondoltam + alacsony tétű kérés** (20 perc, vélemény — NEM eladás). A sablon csak váz: az első mondatot, a valódi közös pontot mindig te írod. Én is ezeket használom most — ahol rosszul sül el, ott átírom.
+>
+> Az első üzenet kiküldése előtt mindenki feszeng — én is. Segít tudni: véleményt kérsz, nem eladsz, és ezt a címzett is érezni fogja a szövegen.
 
 **Csatorna-emlékeztető:** telefon > személyes találkozó > hangüzenet > írott üzenet. Minél melegebb a kapcsolat, annál közvetlenebb csatornát válassz. A telefonos szituációknál a sablon a hívás vázlata — ne olvasd fel, csak tudd, mi a három elem.
 
@@ -16,7 +18,7 @@
 
 **Ajánlott csatorna:** telefon vagy hangüzenet.
 
-> „Szia [név], te már láttad, hogy [a területeden] dolgozom — most léptem egyet: [mi változott, 1 mondat, pl. saját szolgáltatást indítottam ebből]. Azért kereslek, mert [miért ő — pl. anno te kérdezted erről a legtöbbet]. Megmutatnám 20 percben, és őszinte véleményt kérnék. Mikor érsz rá a héten?"
+> „Szia [név], te már láttad, hogy [a területeden] dolgozom — most léptem egyet: [mi változott, 1 mondat, pl. saját szolgáltatást indítottam ebből]. Azért kereslek, mert [miért ő — pl. anno te kérdezted erről a legtöbbet]. Megmutatnám 20 percben, és jólesne egy őszinte vélemény. Ráérsz valamikor a héten?"
 
 ## 3. Ismerős, aki nem tudja, mit csinálsz
 
@@ -28,7 +30,7 @@
 
 **Ajánlott csatorna:** telefon.
 
-> „Szia [név], [mikor és min] dolgoztunk együtt — sokszor eszembe jut [konkrét közös eredmény]. Azóta a saját lábamra álltam: [amit most csinálsz, 1 mondat]. Te ismersz munka közben, ezért a te véleményed különösen sokat érne. Belefér egy 20 perces hívás a héten?"
+> „Szia [név], [mikor és min] dolgoztunk együtt — sokszor eszembe jut [konkrét közös eredmény]. Azóta a saját lábamra álltam: [amit most csinálsz, 1 mondat]. Te láttál munka közben, ezért a te véleményed különösen sokat ér nekem. Belefér egy 20 perces hívás a héten?"
 
 ## 5. Ajánlott idegen
 
@@ -40,13 +42,13 @@
 
 **Ajánlott csatorna:** írott üzenet (a csoport platformján, privátban).
 
-> „Szia [név], a [csoport neve]-ből ismerjük egymást — [közös pont, pl. a hozzászólásaid alapján hasonló dolgokon dolgozunk]. Mostanában ezen dolgozom: [1 mondat]. Mivel te belülről látod ezt a területet, sokat adna a véleményed. Beszélnénk róla 20 percet valamikor a héten?"
+> „Szia [név], a [csoport neve]-ből ismerjük egymást — [közös pont, pl. a hozzászólásaid alapján hasonló dolgokon dolgozunk]. Mostanában ezen dolgozom: [1 mondat]. Mivel te belülről látod ezt a területet, sokat adna a véleményed. Ráérnél valamikor a héten egy 20 perces beszélgetésre?"
 
 ## 7. Volt főnök
 
 **Ajánlott csatorna:** telefon vagy személyes találkozó.
 
-> „Szia [név], remélem, jól vagy — [közös emlék, pl. sokat tanultam tőled a [projekt] alatt]. Azóta elindítottam a sajátomat: [1 mondat]. Te láttad, hogyan dolgozom, és jól ismered a piacot is — ezért a te szemed kellene. Meghívhatlak egy kávéra, vagy beszélünk 20 percet telefonon?"
+> „Szia [név], remélem, jól vagy — [közös emlék, pl. sokat tanultam tőled a [projekt] alatt]. Azóta elindítottam a sajátomat: [1 mondat]. Te láttad, hogyan dolgozom, és jól ismered a piacot is — ezért pont a te véleményedre lenne szükségem. Meghívhatlak egy kávéra, vagy ha úgy egyszerűbb, beszéljünk 20 percet telefonon?"
 
 ## 8. Képzéstárs
 
@@ -58,7 +60,7 @@
 
 **Ajánlott csatorna:** a megszokott csatornátok (ahol amúgy is kommunikáltok).
 
-> „Szia [név], [mióta/miben] dolgozol nekem, úgyhogy elég jól ismersz. Most elindítottam valamit: [1 mondat]. Te sok hozzám hasonló ügyféllel dolgozol, ezért kíváncsi vagyok, szerinted kinek lehet ez hasznos. Belefér egy 20 perces beszélgetés a következő alkalom mellé?"
+> „Szia [név], [mióta/miben] dolgozol nekem, úgyhogy elég jól ismersz. Most elindítottam valamit: [1 mondat]. Te sok hozzám hasonló ügyféllel dolgozol, ezért kíváncsi vagyok, szerinted kinek lehet ez hasznos. Mit szólnál, ha a következő alkalom után rászánnánk erre 20 percet?"
 
 ## 10. Baráti kapcsolat
 

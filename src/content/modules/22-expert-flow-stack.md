@@ -1,12 +1,12 @@
 ---
-lastReviewed: "2026-05-16"
+lastReviewed: "2026-06-09"
 ---
 
-# Bónusz · A Solo Business technológiai stack — mit használtam én
+# Bónusz · Az Expert Flow technológiai stack — mit használtam én
 
-> Egy referencia-tár arról, milyen szolgáltatásokat használok ma a Solo Business rendszerben. Nem azt mondja, hogy ezeket Neked is használnod kell — csak megmutatja, hova lehet eljutni, ha tovább építkezel a 12 modul után.
+> Egy referencia-tár arról, milyen szolgáltatásokat használok ma az Expert Flow rendszerben. Nem azt mondja, hogy ezeket Neked is használnod kell — csak megmutatja, hova lehet eljutni, ha tovább építkezel a 12 modul után.
 
-> **TL;DR** — A Solo Business teljes stack-je: ~52 szolgáltatás 11 kategóriában. Inspiráció, nem to-do lista.
+> **TL;DR** — Az Expert Flow teljes stack-je: ~52 szolgáltatás 12 kategóriában. Inspiráció, nem to-do lista.
 > - **Alap (1-12. modulokból)**: Vercel, GitHub, Sybell, Google Workspace, Cal.com, Kit, Sheets, GA4, Stripe, Számlázz.hu — havi 1-3M Ft bevételig bőven elég
 > - **18 hónap alatt** építettem fel, nem 18 nap — egyszerre 1-2 új szolgáltatás, ahogy nősz
 > - **Növekedési sávok** sorrendben: AI-routing (OpenRouter), scraping (Apify, Exa), tartalom (fal.ai, ElevenLabs), DB (Supabase), PostHog, ClickUp, Webflow
@@ -16,11 +16,11 @@ lastReviewed: "2026-05-16"
 
 A 12 építő modul minimális kezdőbarát stack-re épül: Vercel, Cal.com, Kit, Google Workspace, Sheets, GA4, Stripe Payment Link. Bőven elég az első 5-10 ügyfélig.
 
-**A Solo Business mögött ennél lényegesen több szolgáltatás dolgozik** — nem szükségből, hanem mert menet közben kiderült, hol mire van szükség. Ez a tár a teljes lehetőség-térkép.
+**Az Expert Flow mögött ennél lényegesen több szolgáltatás dolgozik** — nem szükségből, hanem mert menet közben kiderült, hol mire van szükség. Ez a tár a teljes lehetőség-térkép.
 
-**Figyelmeztetés**: ne kezdj most telepíteni. A 12 modulos alap hoz vásárlókat. Ezek fokozatosan jönnek, egyszerre 1-2, ahogy a rendszered nő. Solo Business stack: ~18 hónap, nem 18 nap.
+**Figyelmeztetés**: ne kezdj most telepíteni. A 12 modulos alap hoz vásárlókat. Ezek fokozatosan jönnek, egyszerre 1-2, ahogy a rendszered nő. Expert Flow stack: ~18 hónap, nem 18 nap.
 
-11 kategória, mindegyikhez 1-3 mondat.
+12 kategória, mindegyikhez 1-3 mondat.
 
 ---
 
@@ -50,7 +50,7 @@ A Claude egyetlen modell, de néha más modellt is érdemes meghívni — vagy m
 - **Anthropic Claude** — a fő modell, amivel a kurzus is készült (Sonnet, Opus, Haiku)
 - **OpenAI GPT** — másodlagos modell, néha jobb hosszú szövegekre, plusz a Whisper transzkripció (20. bónusz, videovágás)
 - **Google Gemini** — multimodális (kép + hang + szöveg), olcsó nagy mennyiségű adatra
-- **OpenRouter** — egyetlen API, amin keresztül **200+ modell hívható** (Claude, GPT, Gemini, Llama, Mistral). A Solo Business Orchestrator-a ezt használja a model-routingra (egyszerű feladatra Gemini Flash, közepesre Haiku, komplexre Sonnet vagy Opus)
+- **OpenRouter** — egyetlen API, amin keresztül **200+ modell hívható** (Claude, GPT, Gemini, Llama, Mistral). Az Expert Flow Orchestrator-a ezt használja a model-routingra (egyszerű feladatra Gemini Flash, közepesre Haiku, komplexre Sonnet vagy Opus)
 
 Amit megtanultam: az „egy modell mindenre" gondolkodás drága. A Haiku 10x olcsóbb az Opusnál, és sok feladatra elég.
 
@@ -58,12 +58,12 @@ Amit megtanultam: az „egy modell mindenre" gondolkodás drága. A Haiku 10x ol
 
 ## 3. Lead-kutatás és web scraping
 
-A Scout-ügynök ezekkel a szolgáltatásokkal keres új potenciális ügyfeleket:
+A scraping weboldalak adatainak automatikus, gépi kigyűjtését jelenti. A Scout-ügynök ezekkel a szolgáltatásokkal keres új potenciális ügyfeleket:
 
 - **Apify** — multi-platform scraper (Google Maps, LinkedIn, Instagram, Facebook). Egy feladatot indítasz, megkapod 500-1000 lead adatát.
 - **Exa** — AI-vezérelt webes keresés (Google CSE alternatíva, jobb minőségű találatok)
 - **Google CSE (Custom Search Engine)** — domain-szűrt Google-keresés API-ból
-- **Browser Use** — AI vezérel egy headless böngészőt (űrlap-kitöltés, login mögötti adat-leszedés)
+- **Browser Use** — AI vezérel egy headless (felület nélküli, háttérben futó) böngészőt — űrlap-kitöltés, login mögötti adat-leszedés
 - **Playwright** — szintén headless böngésző-vezérlés (deterministic, lassabb, de stabilabb)
 
 Erre az 1-3 ügyfélnél még nincs szükség — a 8. modul ismerős-listája hozza az első néhányat. A Scout-rendszer a havi 5-10+ konzultációnál kezd értéket adni.
@@ -77,11 +77,11 @@ Amikor saját marketinghez vagy YouTube-csatornához kezdesz, ezek belépnek:
 - **fal.ai** — gyors AI képgenerálás. Konkrét eszköz: **Nano Banana 2 face-swap** YouTube-thumbnail-ekhez (~$0.08/kép)
 - **kie.ai** — Excalidraw-stílusú vizuális generálás (~$0.02-0.09/kép, jó vizuálisan oktató ábrákhoz)
 - **ElevenLabs** — text-to-speech voice agent (használatban a kurzus weboldalán mint hang-asszisztens)
-- **21st.dev (Magic MCP)** — AI-generált React/Tailwind UI komponensek
+- **21st.dev (Magic MCP)** — AI-generált React/Tailwind UI komponensek. Az MCP (Model Context Protocol) a 21. bónuszban kerül elő részletesen.
 - **ViewCreator** — videó-feldolgozó pipeline (transzkripció + automatizmus)
 - **Gemini 3.1 Flash Live** — real-time hang-agent (a kurzus oldalon)
 
-A 20. bónuszban (videókurzus AI-vágással) az ElevenLabs és a Whisper a fő eszközök.
+A 20. bónuszban (videókurzus AI-vágással) a Whisper és a Claude Code a fő eszközök.
 
 ---
 
@@ -97,7 +97,7 @@ A különbség: a Kit a folyamatos kapcsolatra (newsletter, welcome-sorozat), a 
 ## 6. Adat-tárolás — kétféle szint
 
 - **Google Sheets** — egyszerű CRM (10. modul). Az első 50-100 ügyfélig bőven elég.
-- **Supabase** — PostgreSQL adatbázis felhőben (Solo Business agent-rendszerének fő adatbázisa). Akkor érdemes átállni, amikor sok automatizmus dolgozik egyszerre, vagy real-time adat-szinkron kell több ügynök között.
+- **Supabase** — PostgreSQL adatbázis felhőben (Expert Flow agent-rendszerének fő adatbázisa). Akkor érdemes átállni, amikor sok automatizmus dolgozik egyszerre, vagy real-time adat-szinkron kell több ügynök között.
 
 A 12 modul csak Sheets-szel megy. Ha tovább építkezel skill-ekkel és AI-ügynökökkel, ott jön be a Supabase.
 
@@ -112,11 +112,13 @@ A 12 modul csak Sheets-szel megy. Ha tovább építkezel skill-ekkel és AI-ügy
 
 ## 8. CRM és projekt-menedzsment
 
-- **ClickUp** — projekt-menedzsment (Trello/Asana alternatíva). A Solo Business Manager-ügynöke a ClickUp-on tart számon minden ügyfél-projektet. Akkor releváns, ha 10+ aktív ügyfeled van egyszerre.
+- **ClickUp** — projekt-menedzsment (Trello/Asana alternatíva). Az Expert Flow Manager-ügynöke a ClickUp-on tart számon minden ügyfél-projektet. Akkor releváns, ha 10+ aktív ügyfeled van egyszerre.
 
 ---
 
 ## 9. Form-szűrés és webhookok
+
+A webhook automatikus értesítés: egy szolgáltatás meghívja a rendszered, amikor történik valami (pl. beérkezett egy űrlap-kitöltés).
 
 - **Typeform** — szépen tervezett szűrőkérdés-űrlapok a konzultáció előtt. A Cal.com kérdéseinek alternatívája, ha a tanuló sokat akar tudni az ügyfélről, mielőtt időpontot adna.
 
@@ -125,13 +127,13 @@ A 12 modul csak Sheets-szel megy. Ha tovább építkezel skill-ekkel és AI-ügy
 ## 10. Analytics — két szint
 
 - **Google Analytics 4** — kezdő-szintű webhely-mérés (11. modul). Ingyenes, elég.
-- **PostHog** — termék-analitika (event-tracking, funnel-analízis, session-recording). Akkor jön be, ha saját webapp-od van, és az ügyfél-utat akarod látni a kattintás-szintig. A Solo Business tanácsadó ügyfeleinek dashboard-jain ez fut.
+- **PostHog** — termék-analitika (event-tracking, funnel-analízis, session-recording). Akkor jön be, ha saját webapp-od van, és az ügyfél-utat akarod látni a kattintás-szintig. Az Expert Flow tanácsadó ügyfeleinek dashboard-jain ez fut.
 
 ---
 
 ## 11. CMS és weboldal-eszközök
 
-- **Webflow** — no-code CMS-rendszer (vizuális szerkesztő). Akkor releváns, ha az ügyfeleknek építesz blog-ot, marketingoldalt, és nem akarsz mindent kódból írni. A Solo Business ezzel az MCP-vel automatizál.
+- **Webflow** — no-code CMS-rendszer (vizuális szerkesztő). Akkor releváns, ha az ügyfeleknek építesz blog-ot, marketingoldalt, és nem akarsz mindent kódból írni. Az Expert Flow ezzel az MCP-vel automatizál.
 - **Vercel** — fejlesztőbarát hoszting (5. modul) + saját webapp-deploy.
 - **Bitly** — link rövidítő, követéssel. Hasznos, ha social mediában osztasz meg sok linket, és tudni akarod, melyik kattintást hozta.
 
@@ -145,35 +147,31 @@ A 12 modul csak Sheets-szel megy. Ha tovább építkezel skill-ekkel és AI-ügy
 
 ## A teljes kép
 
-A `.env` fájlomban most kb. 52 szolgáltatás kulcsa fut. Ezek 11 kategóriába esnek, és **a kategóriák egymásra épülnek**:
+A `.env` fájlomban most kb. 52 szolgáltatás kulcsa fut. Ezek 12 kategóriába esnek, és **a kategóriák egymásra épülnek**:
 - Az 1. kategória (alap stack) a 12. hét végén már a kezedben van
 - A 2-4. kategóriák akkor jönnek, amikor saját AI-rendszer építésébe kezdesz
 - Az 5-10. kategóriák 20-50 aktív ügyfél után válnak relevánssá
-- A 11-12. kategória akkor jön, ha másoknak is építesz (ügynökségi modell)
+- A 11. kategória akkor jön, ha másoknak is építesz (ügynökségi modell); a 12. akkor, ha saját YouTube-csatornát indítasz
 
 **Amit megtanultam:** a túl korai stack-növelés ELLENSÉG. Minden új szolgáltatás 5-15 perc setupot, havi költséget, integrációs munkát hoz. Inkább 18 hónapig dolgozz a 7 alapszolgáltatással, mint hogy 18 napon belül 25-öt összelegózz.
 
 ## Mit NEM tartalmaz ez a tár
 
-A `.env`-ben pár olyan kulcs is szerepel, ami a Solo Business saját ügynöki rendszerének belső azonosítója (pl. `CRON_SECRET`, `EXPERT_FLOW_BOT_TOKEN`). Ezek nem külső szolgáltatások, hanem az én belső authentikációm — a kurzus szempontjából nincs jelentőségük.
-
-## Resources
-
-- 📄 [resources.md](./resources.md) — minden szolgáltatás közvetlen linkje és árazási gyors-referencia
+A `.env`-ben pár olyan kulcs is szerepel, ami az Expert Flow saját ügynöki rendszerének belső azonosítója (pl. `CRON_SECRET`, `EXPERT_FLOW_BOT_TOKEN`). Ezek nem külső szolgáltatások, hanem az én belső authentikációm — a kurzus szempontjából nincs jelentőségük.
 
 ## Kapcsolódó modulok
 
 - 4. modul · Eszközök, Claude Code alapok és online jelenlét
 - 9. modul · Lead magnet és email lista (Kit alapok)
 - 10. modul · CRM és belső rendezés (Google Sheets alapok)
-- 20. bónusz · Videókurzus AI-vágással (Whisper, ElevenLabs, Stripe)
+- 20. bónusz · Videókurzus AI-vágással (Whisper, FFmpeg, Stripe)
 - 21. bónusz · Claude Code productivity-trükkök (Context7, Chrome DevTools MCP)
 
 ## Heti feladat
 
-Nézd át a 11 kategóriát, és 30 percben határozd meg, hol tartasz most, és melyik az EGY következő szolgáltatás, ami valódi szűk keresztmetszetet old fel — semmit ne telepíts még.
+Nézd át a 12 kategóriát, és 30 percben határozd meg, hol tartasz most, és melyik az EGY következő szolgáltatás, ami valódi szűk keresztmetszetet old fel — semmit ne telepíts még.
 
 - Pipáld ki az 1. kategória (alap stack) tételeit, amik már nálad futnak — ez a kiindulási képed
-- Húzd alá a 2-11. kategóriából azt az egyet, ami ma a legnagyobb manuális terhet venné le rólad (pl. ha 50+ leadet kell szegmentálni: Apify; ha email-tranzakció kell: Resend)
+- Húzd alá a 2-12. kategóriából azt az egyet, ami ma a legnagyobb manuális terhet venné le rólad (pl. ha 50+ leadet kell szegmentálni: Apify; ha email-tranzakció kell: Resend)
 - Írd be a `decisions/naplo.md`-be vagy egy üres jegyzetbe: „ez a következő, amikor X szám teljesül" (X = ügyfél-szám, bevétel, óra/hét) — így nem hamarabb indítod be
 

@@ -8,7 +8,7 @@ lastReviewed: "2026-06-09"
 
 > **TL;DR** — Egy konkrét ember, név + életkörülmény + esti gondolatok, plusz 10 valódi beszélgetés.
 > - "Célközönség" hazudik — egy konkrét Anna (név, kor, lakhely, esti rutin), nem "kisvállalkozók"
-> - A copy a 10 órás belső mondatokból indul, nem a foglalkozásból
+> - Az értékesítési szöveg az este 10 órai belső mondatokból indul, nem a foglalkozásból
 > - 10 db 20-30 perces beszélgetés telefonon — szó szerinti forgatókönyvvel, jegyzet-táblával
 > - A szó szerinti idézeteket gyűjtsd — a 6. modul értékesítési szövege ezekből épül majd
 
@@ -28,7 +28,7 @@ Egyetlen embert válassz — ismerőst, ügyfelet, akit elképzelsz. Adj neki ne
 - Mikor kel, milyen autóval jár?
 - Mit dolgozik 10-től 5-ig?
 
-A kérdés nem "milyen a vevőm általában", hanem "milyen Anna, aki Pesterzsébeten lakik, két gyerekes, heti 50 órát dolgozik". Ha túl általános, vissza az 1. lecke kérdéseihez.
+A kérdés nem "milyen a vevőm általában", hanem "milyen Anna, aki Pesterzsébeten lakik, két gyerekes, heti 50 órát dolgozik". Ha a portré túl általános lett, kezdd újra a fenti három kérdéssel.
 
 Így néz ki ez Katánál, a könyvelőnél az 1. modulból. Az ő egy mondata: "Egyéni vállalkozóknak segítek, hogy ne a NAV-tól rettegve zárják a hónapot." Az avatár-portréja:
 
@@ -40,7 +40,11 @@ Ez a portré nem statisztika. Egy ember, akinek Kata a fejében hallja a hangjá
 
 Itt válik ki a felszínes avatár a használhatótól. Mire gondol Anna fél tizenegykor a sötét konyhában? Min aggódik? Mit nem mer kimondani — a férjének, az anyjának, magának?
 
-Nem marketing-mondatok — amit ténylegesen mond magának belül. Ezt csak akkor tudod, ha átélted vagy beszélgettél valakivel, aki átélte. A copy és az ajánlat innen indul, nem a foglalkozásból.
+Nem marketing-mondatok — amit ténylegesen mond magának belül. Ezt csak akkor tudod, ha átélted vagy beszélgettél valakivel, aki átélte. A copy — vagyis a weboldalad és a leveleid értékesítési szövege — és az ajánlat innen indul, nem a foglalkozásból.
+
+Dóránál, Kata avatárjánál ez így hangzik: "Megint itt egy számla, amit nem tudok hova tenni. Ha jön egy NAV-levél, azt se tudom majd, mit rontottam el. És erre ma megint nem jutott időm."
+
+Írd le most az avatárod három ilyen mondatát. Ha csak marketing-mondat jut eszedbe ("hatékonyabb szeretne lenni"), az jelzés: beszélgetned kell — erről szól a hét második fele.
 
 ## 03. Tíz valódi beszélgetés
 
@@ -92,7 +96,7 @@ Tízből két-három ember válaszol. Ez normális — ezért írj tizenötnek-h
 
 ## 07. Mini jegyzet-tábla
 
-Már most állíts fel egy egyszerű táblát a beszélgetéseidnek — ez lesz a 10. modul CRM-jének előfutára. Egy munkalap, három oszlop: **név, dátum, 3 legfontosabb idézet**. Semmi több.
+Már most állíts fel egy egyszerű táblát a beszélgetéseidnek — ez lesz a 10. modul ügyfél-nyilvántartásának (CRM-jének) előfutára. Egy munkalap, három oszlop: **név, dátum, 3 legfontosabb idézet**. Semmi több.
 
 Minden beszélgetés után azonnal töltsd ki. A hét végén ez a tábla lesz a bizonyíték, hogy nem képzelődtél — és a 6. modulban innen másolod majd ki a copy nyersanyagát. A pontos szerkezetet és egy kitöltött példasort a letölthető interjú-jegyzet sablonban találod.
 
@@ -114,3 +118,9 @@ Ebben a blokkban a saját, dokumentált tapasztalatom áll — nem tankönyvi p�
 - **"Az avatárom túl általános lett."** Cseréld le valódi emberre: válassz egy létező ismerőst, és róla írd a portrét, ne egy típusról.
 - **"Beszélgetés közben átcsúsztam eladásba."** Nem baj, jegyezd fel, és a következőnél tedd magad elé a forgatókönyvet — csak a leírt kérdéseket mondd.
 - **"Mindenki mást mond, nincs közös minta."** Három beszélgetés után ez normális; minta többnyire az ötödik-hatodik után rajzolódik ki.
+
+## Letölthetők
+
+- `interju-jegyzet-sablon.md` — a teljes interjú-forgatókönyv + a jegyzet-tábla, Dóra kitöltött példasorával
+- `prompts.md` — 4 prompt az avatár-portréhoz, az esti monológhoz, a beszélgetésekhez és az összegzéshez
+- `SKILL.md` — Claude Code skill a modulhoz

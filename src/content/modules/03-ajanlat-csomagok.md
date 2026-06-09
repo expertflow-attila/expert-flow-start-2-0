@@ -23,13 +23,17 @@ Egy oldalas ajánlat-dokumentum: egy mondat ajánlat + három beárazott csomag,
 
 ## 01. Az 5-elemes ajánlat-modell
 
+Az ajánlat nem a szolgáltatásod leírása, hanem egy ígéret: mit kap a vevő, mikorra, és mi van, ha nem jön össze. Öt elemből áll:
+
 1. **Vágyott eredmény** — mit fog érezni a vevő, ha megveszi
 2. **Időkeret** — mikorra
 3. **Garancia** — mit kockáztat, ha nem működik
-4. **Érték-stack** — mit kap a fő szolgáltatás mellé
+4. **Érték-stack** — a fő szolgáltatás mellé adott extrák listája, külön-külön beárazva
 5. **Egyetlen mondat** — a fenti négy összehúzva
 
 Mind az ötöt papíron írd le külön — ne legyen szlogen-szagú. Aztán: „Segítek [konkrét embereknek] elérni [konkrét eredményt] [konkrét időn belül], különben [konkrét garancia]." Még átfogalmazod — most csak legyen egyértelmű.
+
+Bence, a fotós (az 1. modulból) így írta meg: „Segítek magyar szolgáltató vállalkozóknak vállalható profilképhez jutni egyetlen délelőtt alatt — ha nem mered kirakni, újrafotózom ingyen."
 
 ## 02. Mennyit kérj? Magyar árazási sávok
 
@@ -48,7 +52,7 @@ A sáv csak a plafont és a padlót mutatja. A te áradat a saját kapacitásodb
 
 ## 03. Az ár-kalkulátor — végigszámolva Kata példáján
 
-A logika: **cél havi bevétel ÷ reális havi kapacitás = minimum effektív óradíj**. Ez alá nem mehetsz, különben a cél matematikailag elérhetetlen.
+A logika: **cél havi bevétel ÷ reális havi kapacitás = minimum effektív óradíj**. Effektív óradíj: amit egy ténylegesen számlázott órádnak legalább hoznia kell. Ez alá nem mehetsz, különben a cél matematikailag elérhetetlen.
 
 Kata, a könyvelő (az 1. modulból) így számol:
 
@@ -71,6 +75,8 @@ Az első 3-5 ügyfeled kedvezményt kap, jellemzően 20-30%-ot. Nem azért, mert
 A keret: nem olcsó vagy, hanem korai. A listaár már most a végleges ár — a kedvezmény időhöz és darabszámhoz kötött, és ezt ki is mondod. Így az áremelés később nem magyarázkodás, hanem a bejelentett terv betartása.
 
 ## 05. Három csomag, anchor-logikával
+
+Az anchor horgonyt jelent: egy szándékosan drága viszonyítási pont, amitől a fő csomag ára észszerű döntésnek tűnik. Erre épül a hármas szerkezet.
 
 Ne két csomag, ne öt — három.
 

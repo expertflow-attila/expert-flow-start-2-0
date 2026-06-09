@@ -1,8 +1,8 @@
 # 1. modul — Promptok
 
-## 1.1 — Prompt a 01. leckéhez (A 4 fájdalom-kérdés)
+## 1.1 — Prompt a 05. leckéhez (Jelölt-választás, a mátrix mellé)
 
-Ezt a promptot AKKOR használd, amikor a 4 kérdést már papíron végigírtad, és három jelölt-problémát is kiválasztottál. A cél nem az, hogy az AI döntsön — hanem hogy gondolkodtató kérdésekkel segítsen tisztábban látni, melyik a legmélyebb a saját élményedből.
+Ezt a promptot AKKOR használd, amikor a 4 kérdést már papíron végigírtad, és három jelölt-problémát is kiválasztottál. A cél nem az, hogy az AI döntsön — hanem hogy gondolkodtató kérdésekkel segítsen tisztábban pontozni a választási mátrixot.
 
 ```
 Most végeztem a 4 fájdalom-kérdéssel papíron. A három
@@ -23,7 +23,7 @@ melyik az, amiben a legmélyebb személyes érintettségem van,
 NE válassz helyettem. NE adj tanácsot. Csak kérdezz.
 ```
 
-## 1.2 — Prompt a 02. leckéhez (A pivot-pont)
+## 1.2 — Prompt a 03. leckéhez (A pivot-pont)
 
 A pivot-pont megfogalmazásához. Akkor futtasd, amikor már leírtál egy bekezdést a saját szavaiddal a felismerés-pillanatról, és szeretnéd látni, hogy „saját" hangú-e, vagy idegen szavakkal kerettezted-e.
 
@@ -42,7 +42,7 @@ Mondd meg, mely mondatokat írjam újra,
 és kérdezz vissza, ha valami nem konkrét.
 ```
 
-## 1.3 — Prompt a 03. leckéhez (A történet 1 mondatban)
+## 1.3 — Prompt a 06. leckéhez (A történet 1 mondatban)
 
 Az 1 mondat összerakásához és validálásához. Akkor futtasd, amikor már van egy nyers verziód, és szeretnéd látni, hogy érthető-e laikus számára.
 

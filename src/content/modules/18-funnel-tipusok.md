@@ -2,7 +2,7 @@
 lastReviewed: "2026-06-09"
 ---
 
-# 5. modul — Funnel típusok
+# Referencia-tár · Funnel típusok
 
 > **TL;DR** — 14 funnel-típus, ebből 5 fő típus részletesen, 9 röviden.
 > - Funnel = 3-7 lépéses automatizált utazás landingtől fizetésig
@@ -12,9 +12,23 @@ lastReviewed: "2026-06-09"
 
 ## Modul áttekintés
 
-A 4. modul az egyes oldalakkal foglalkozott. Az 5. modul az oldalak ÖSSZEKAPCSOLÁSÁVAL — a teljes utazással, amit egy érdeklődő bejár a webhelytől a fizetős ügyfélig. Ez referencia-tár: 5 fő típust kapsz részletesen, 9 továbbit röviden. Egyszerre több funnel futhat különböző forgalmakra.
+Az előző referencia-modul (Landing page minták) az egyes oldalakkal foglalkozott. Ez a modul az oldalak ÖSSZEKAPCSOLÁSÁVAL — a teljes utazással, amit egy érdeklődő bejár a webhelytől a fizetős ügyfélig. Ez referencia-tár: 5 fő típust kapsz részletesen, 9 továbbit röviden. Egyszerre több funnel futhat különböző forgalmakra.
 
 > A részletes funnel-kombinációkat (B2B vs B2C, hideg vs meleg forgalom, magas árú vs alacsony árú) megtalálod a [Funnel Tananyag](https://funnel-tananyag.vercel.app) site-on — ott 23 funnel-típus szerepel, mindegyikhez wireframe + email-sablon + automatizációs javaslat.
+
+## Melyik funnel kell most neked?
+
+Egy perc döntés: keresd meg a helyzetedet, és olvasd el a hozzá tartozó részt lent.
+
+| Ha ez a helyzeted | Ezt a funnelt nézd |
+|---|---|
+| Most kezded, az első ügyfeled és beszélgetéseid kellenek | Konzultációs funnel (1.) |
+| A látogatóid még nem vásárolnának, de a témád érdekli őket | Lead magnet funnel (2.) |
+| Van listád, és az első fizetést akarod kiváltani a feliratkozókból | Tripwire funnel (3.) |
+| Többféle vevő-helyzetet szolgálsz ki, szegmentálnál | Kvíz funnel (4.) |
+| Magas árú programod van, és szűrnöd kell a jelentkezőket | Application funnel (5.) |
+
+Ha bizonytalan vagy: konzultációs + lead magnet. Ez a leggyakoribb kezdő kombináció, és a 7. és 9. modul pontosan ezeket építi meg veled.
 
 ## Videó
 
@@ -23,11 +37,11 @@ A 4. modul az egyes oldalakkal foglalkozott. Az 5. modul az oldalak ÖSSZEKAPCSO
 ## Fejezetek
 
 - 0:00 — Bevezető: mit jelent egy funnel, és miért a konzultációs az első
-- 1:00 — 5.1 Konzultációs funnel
-- 2:00 — 5.2 Lead magnet funnel
-- 3:00 — 5.3 Tripwire funnel
-- 4:00 — 5.4 Kvíz funnel
-- 5:00 — 5.5 Application funnel
+- 1:00 — 1. Konzultációs funnel
+- 2:00 — 2. Lead magnet funnel
+- 3:00 — 3. Tripwire funnel
+- 4:00 — 4. Kvíz funnel
+- 5:00 — 5. Application funnel
 - 6:00 — A további 9 típus röviden
 
 ## Miért a konzultációs funnel az első?
@@ -36,7 +50,7 @@ Magas bizalom-igényű szolgáltatásnál a hívás a legrövidebb út az első 
 
 ## Az 5 fő funnel-típus részletesen
 
-### 5.1 Konzultációs funnel
+### 1. Konzultációs funnel
 
 **Mikor jó:** szolgáltatást adsz el, ahol a vevőnek beszélnie kell veled a döntés előtt. A legtöbbet hozza kezdetben — alacsony konverziós küszöb (csak időt foglal), magas érték.
 
@@ -51,7 +65,7 @@ Magas bizalom-igényű szolgáltatásnál a hívás a legrövidebb út az első 
 
 **Mit mérj:** landing-látogató → foglalás arány, megjelenési arány (no-show), konzultáció → ügyfél arány.
 
-### 5.2 Lead magnet funnel
+### 2. Lead magnet funnel
 
 **Mikor jó:** a látogatóid többsége ma még nem vásárol, de a témád érdekli. Ez a hosszú távú email-lista építője — később ezekre küldesz szolgáltatás-ajánlatot.
 
@@ -65,7 +79,7 @@ Magas bizalom-igényű szolgáltatásnál a hívás a legrövidebb út az első 
 
 **Mit mérj:** látogató → feliratkozó arány, email-megnyitási arány, feliratkozó → foglalás arány.
 
-### 5.3 Tripwire funnel
+### 3. Tripwire funnel
 
 **Mikor jó:** hideg forgalomból akarsz vásárlókat, nem csak feliratkozókat. Egy alacsony áras (1-3 ezer Ft) belépő-termék átlépeti az első fizetési küszöböt — aki egyszer fizetett, könnyebben fizet újra.
 
@@ -79,7 +93,7 @@ Magas bizalom-igényű szolgáltatásnál a hívás a legrövidebb út az első 
 
 **Mit mérj:** feliratkozó → tripwire-vásárló arány, tripwire-vásárló → fő-ajánlat arány, vásárlásonkénti bevétel.
 
-### 5.4 Kvíz funnel
+### 4. Kvíz funnel
 
 **Mikor jó:** a célközönséged többféle helyzetben van, és szegmentálni akarsz. Az interaktív kvíz magasabb kitöltési arányt hoz, mint egy sima form, és az eredmény személyre szabott belépőt ad.
 
@@ -94,7 +108,7 @@ Magas bizalom-igényű szolgáltatásnál a hívás a legrövidebb út az első 
 
 **Mit mérj:** kvíz-indítás → befejezés arány, befejezés → email-megadás arány, szegmensenkénti konverzió.
 
-### 5.5 Application funnel
+### 5. Application funnel
 
 **Mikor jó:** magas árú programot vagy szolgáltatást adsz el, és szelektálnod kell. A hosszú jelentkezési form szándékosan szűr — csak az jut hívásig, aki tényleg elköteleződött. Csak akkor használd, ha tényleg válogatni akarsz.
 

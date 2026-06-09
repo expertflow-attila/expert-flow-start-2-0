@@ -1,5 +1,7 @@
 # 4. modul — Promptok
 
+**Hogyan használd:** a kódblokkban lévő szöveget másold be a Claude Code-ba (vagy a CLAUDE.md sablonnál egy új fájlba), és a `[szögletes zárójeles]` részeket cseréld ki a saját adataidra, mielőtt elküldöd.
+
 ## 4.1 — Prompt a 01. leckéhez (VS Code + Claude Code telepítés)
 
 A CLAUDE.md sablon, amit a projekt gyökerébe másolsz az első Claude Code session előtt. Ez a „cégbemutató" a virtuális munkatársadnak — itt tudja meg, ki vagy, mit csinálsz, milyen hangon beszéljen veled. Akkor futtasd, miután a `npm install -g @anthropic-ai/claude-code` lefutott, és bejelentkeztél Anthropic-fiókkal.
@@ -36,7 +38,7 @@ Mindig magyarul kommunikálj velem. A kód- és technikai nevek lehetnek angolul
 A bemutatkozó beszélgetés az első Claude Code session-ben:
 
 ```
-Szia Claude. Most kezdek egy vállalkozást építeni az
+Szia Claude. Most kezdek egy vállalkozást építeni a
 Business Start kurzus alapján. Én [név] vagyok, [kor],
 [foglalkozás].
 

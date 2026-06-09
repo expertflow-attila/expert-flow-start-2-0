@@ -24,7 +24,7 @@ A skill bekéri:
 Három fájl egyetlen futásból:
 1. `lead-magnet.md` — 5-10 oldalas Markdown-vázlat, Pandoc-kal PDF-fé konvertálható
 2. `embed-snippet.html` — a MailerLite form beágyazó kódja a webhelybe illesztve, a copy-val együtt
-3. `welcome-sequence.md` — az 5 email szövege, mindegyiknél tárgysor + törzs + időzítés
+3. `welcome-sequence.md` — az 5 email szövege, mindegyiknél tárgysor + törzs + időzítés (0., 2., 4., 7., 10. nap)
 
 ## Magatartási szabályok
 

@@ -15,7 +15,8 @@ A célcsoport (2. modulból):
 [avatár leírás 2-3 mondatban]
 
 A lead magnet címe:
-„[A 7 lépéses XYZ útmutató]" — vagy konkrét, ígéretes cím javaslat 3 verzióban.
+„[a cím — pl. A 7 lépéses XYZ útmutató]"
+(Ha még nincs címem, írd ide: „javasolj 3 konkrét, ígéretes címet, és én választok.")
 
 Struktúra (Markdown-ban):
 # Cím

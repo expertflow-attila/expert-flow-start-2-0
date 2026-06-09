@@ -39,6 +39,6 @@ Egy markdown fájl: a mag-állítás + a vázlat + platformonként egy kész pos
 - Nem fordítja tanácsadó-hangra a dokumentáló hangot — ha az ötleted "tippek" formájú, visszakérdez, mi a saját tapasztalatod mögötte
 - Egy futtatás = egy ötlet; ha három témád van, futtasd háromszor
 
-## Resources
+## Kapcsolódó fájl
 
 - `reference.md` — egy kidolgozott példa-futtatás két platformra

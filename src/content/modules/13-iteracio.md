@@ -24,6 +24,8 @@ Egy 90 napos iterációs tervet: ár-emelési küszöb, szegmens-önértékelő 
 
 Az indulási árad szándékosan alacsony volt — a 3. modulban ezt így döntöttük el. A szabály: **az 5. fizető ügyfél után emelsz 20-30%-ot.** Öt ügyfél elég bizonyíték arra, hogy az ajánlat működik, és van mire hivatkoznod.
 
+Márk, a fejlesztő 180 000 Ft-os csomaggal indult. Az 5. ügyfél után 230 000-re emelt — a két régi ügyfele 6 hónapig a régi árat fizette, és egyikük sem ment el. Az új érdeklődők az új árat hallották, és nem kérdeztek rá a régire.
+
 Két külön kommunikáció kell:
 
 - **A régi ügyfeleknek** védett árat adsz 6 hónapra. Ez hűséget épít, és nem bünteti azokat, akik elsőként bíztak benned. Mondat-sablon: „Az áraim [DÁTUM]-tól emelkednek, de neked a jelenlegi árat tartom [DÁTUM + 6 hónap]-ig — köszönöm, hogy az elsők között dolgoztál velem."
@@ -33,15 +35,17 @@ Az emelés nem udvariassági kérdés, hanem matek: ha minden időd tele van, az
 
 ## 02. Szegmens-felülvizsgálat — kire fókuszálj
 
-90 nap után nézz vissza a CRM-edre (10. modul), és értékeld az ügyfeleidet három szempont szerint. Mindhárom oszlopba írd be a legjobb 1-2 ügyféltípust:
+90 nap után nézz vissza a CRM-edre (a 10. modul ügyfél-nyilvántartására), és értékeld az ügyfeleidet három szempont szerint. Mindhárom oszlopba a legjobb 1-2 ügyféltípust írd — típust, nem nevet (pl. „esküvői pár", „kis webshop", „ügynökség"):
 
 | (a) Legjövedelmezőbb | (b) Legkönnyebb | (c) Legélvezetesebb |
 |---|---|---|
-| Kinél volt a legjobb az óradíj-arányod? | Kivel ment simán a munka, kevés körrel? | Kivel dolgoznál akkor is, ha kevesebbet fizetne? |
+| Kinél volt a legjobb az óradíjad (bevétel osztva ráfordított órával)? | Kivel ment simán a munka, kevés körrel? | Kivel dolgoznál akkor is, ha kevesebbet fizetne? |
+
+Így néz ki kitöltve — Bence, a fotós táblája: (a) esküvői pár, (b) céges portré-sorozat, (c) esküvői pár. A metszet az esküvő — a céges munka simán megy, de se nem fizet kiugróan, se nem élvezi.
 
 **A metszet az új fókuszod.** Aki mindhárom oszlopban szerepel, abból az ügyféltípusból kell több — az üzeneted, a lead magneted és a sablonjaid mostantól rá célozzanak. Ha nincs metszet, az (a) és (b) közös halmaza a második legjobb választás: jövedelmező és fenntartható.
 
-Ez nem végleges döntés. Negyedévente újranézed — a tábla 15 perc, a rossz fókusz 3 hónap.
+A kitöltés első megérzésre menjen — 5 perc, nem elemzés. Ha egy oszlopon 2 percnél többet gondolkodsz, írd be az első nevet, ami eszedbe jutott: az is adat. És ez nem végleges döntés — negyedévente újranézed. A tábla 5 perc, a rossz fókusz 3 hónap.
 
 ## 03. A második csatorna kiválasztása
 
@@ -52,7 +56,9 @@ Eddig egy csatornád volt: a direkt megkeresés (8. modul). A második csatorná
 - **Ha van kezdőtőkéd** → hirdetés. Csak akkor, ha a funneled már bizonyítottan konvertál — pénzzel nem javítasz rossz funnelt.
 - **Partnerség mindig olcsó** — egy kiegészítő szolgáltató (a könyvelőnek a webfejlesztő, a fotósnak a grafikus) ajánlásai bármelyik mellé beférnek.
 
-A szabály szigorú: **egyszerre EGY új csatorna, és 90 napig nem váltasz.** A csatornák 2-3 hónap alatt kezdenek mérhetőt hozni — aki havonta vált, sosem tudja meg, melyik működött volna.
+A szabály szigorú: **egyszerre EGY új csatorna, és 90 napig nem váltasz.** A csatornák 2-3 hónap alatt kezdenek mérhetőt hozni — aki havonta vált, sosem tudja meg, melyik működött volna. Kata, a könyvelő a hírlevelet választotta: havi két levél a 9. modulos listájára, határidő-emlékeztetőkkel. A harmadik hónapban jött az első ügyfél, aki a leveleire hivatkozott.
+
+**Próbáld ki most:** húzd ki a négy opcióból azt a kettőt, amit biztosan nem vinnél 90 napig. A maradék kettő közül már könnyebb dönteni.
 
 ## 04. Negyedéves ügyfél-interjú rutin
 
@@ -62,7 +68,9 @@ A 2. modul interjú-forgatókönyvét nem dobod ki — negyedévente újra előv
 2. „Mi hiányzott — mit vártál, amit nem kaptál meg?"
 3. „Kinek ajánlanád ezt — és kinek nem?"
 
-Az első kérdés a marketingedet írja (az ügyfél szavaival), a második a szolgáltatást javítja, a harmadik ajánlást és célzást ad egyszerre. Negyedévente 2-3 ilyen beszélgetés elég. Írd be most a naptáradba a következő dátumot.
+Az első kérdés a marketingedet írja (az ügyfél szavaival), a második a szolgáltatást javítja, a harmadik ajánlást és célzást ad egyszerre. Negyedévente 2-3 ilyen beszélgetés elég.
+
+**Próbáld ki most:** nyisd meg a naptárad, és írd be a következő negyedéves interjú-dátumot — mielőtt továbbolvasol. A bedátumozott interjú megtörténik, a „majd egyszer" nem.
 
 ## 05. Az ismétlődő bevétel csírája
 
@@ -99,3 +107,8 @@ De a fogódzók önmagukban nem elegek, ha egyedül csinálod. A 90 nap legtöbb
 - **A szegmens-táblában nincs metszet** → az (a) + (b) közös halmaza a fókusz; az élvezet-szempontot a következő negyedévben nézd újra.
 - **Nem tudsz dönteni a csatornáról** → válaszd azt, amit 90 napig heti 2-3 órában tényleg csinálnál — a kitartás többet számít, mint a csatorna.
 - **A havidíjas átvezetést elutasítják** → kisebb csomaggal próbáld újra: csak riport, csak rendelkezésre állás — a karbantartást később adod hozzá.
+
+## Letölthetők
+
+- `prompts.md` — promptok a szegmens-elemzéshez, az ár-emelési levélhez, a csatorna-döntéshez és a negyedéves interjúhoz
+- `SKILL.md` — Claude Code skill a modulhoz

@@ -10,14 +10,14 @@ lastReviewed: "2026-06-09"
 
 Mindegyik pontot a böngészőből vagy a telefonodról ellenőrizd, ne emlékezetből.
 
-- [ ] A VS Code és a Claude Code telepítve van, és az alapparancsok (`/clear`, `/compact`, plan mode) mennek
-- [ ] Van saját domained és hivatalos email-címed, a Google Workspace-fiók be van állítva
+- [ ] A VS Code és a Claude Code telepítve van — egy üres mappában lefuttattál egy `/clear`-t, `/compact`-ot és egy plan mode próbát
+- [ ] Van saját domained és hivatalos email-címed — a `te@tedneved.hu` címről küldött teszt-email 9/10-et hoz a mail-tester.com-on
 - [ ] A weboldalad él a saját domaineden, HTTPS-sel — telefonon is megnézted
 - [ ] Az egy mondatod (1. modul) ott van a hero-ban
 - [ ] 5 embernek megmutattad az oldalt 10 másodpercre, és legalább 3 meg tudta mondani, mit kínálsz és kinek
 - [ ] A garancia- és FAQ-szekció él, és van egy külön landing oldalad egy konkrét szolgáltatásra
-- [ ] A Cal.com foglalód él: event type, 2-3 szűrő-kérdés, 4 automatikus email a Workflows-ban
-- [ ] Csináltál egy teszt-foglalást a saját címedre, és megjött a visszaigazoló email
+- [ ] A Cal.com foglalód él: event type, 3 szűrő-kérdés, 4 aktív email-automatika a Workflows-ban
+- [ ] Csináltál egy teszt-foglalást egy másik email-címedről, és megjött a visszaigazoló a reschedule-linkkel
 
 ## 5 perces önaudit
 
@@ -28,9 +28,9 @@ Mindegyik pontot a böngészőből vagy a telefonodról ellenőrizd, ne emlékez
 
 ## Ha valami hiányzik
 
-- Claude Code, domain vagy email nem áll → [4. modul · Eszközök és Claude Code alapok](/modules/04-eszkozok)
+- Claude Code, domain vagy email nem áll → [4. modul · Eszközök, Claude Code alapok és online jelenlét](/modules/04-eszkozok)
 - Nincs élő oldal a saját domaineden → [5. modul · Egyoldalas weboldal építése](/modules/05-weboldal)
-- A copy nem ment át a 10 másodperces teszten, vagy nincs landing → [6. modul · Értékesítési szövegírás](/modules/06-copy-landing)
+- A copy nem ment át a 10 másodperces teszten, vagy nincs landing → [6. modul · Értékesítési szövegírás és szolgáltatás-landing](/modules/06-copy-landing)
 - A foglaló vagy az email-lánc nem fut → [7. modul · Konzultációs funnel](/modules/07-konzultacios-funnel)
 
 A DNS-propagáció és a Workspace-verifikáció napokat csúszhat — ez normális, nem a te hibád.

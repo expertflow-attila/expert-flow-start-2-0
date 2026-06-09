@@ -14,7 +14,7 @@ lastReviewed: "2026-06-09"
 
 ## A hét témája
 
-A bónusz a 12 hét után jön — amikor már van weboldalad, lead magneted, ügyfeleid, működő hátterend. A skálázódás első lépése: a tudásodat egyszer felveszed, sokszor eladod = fizetős videókurzus.
+A bónusz a 12 hét után jön — amikor már van weboldalad, lead magneted, ügyfeleid, működő háttered. A skálázódás első lépése: a tudásodat egyszer felveszed, sokszor eladod = fizetős videókurzus.
 
 Itt mutatom meg, hogyan készítettem el ezt a kurzust, amit olvasol — és hogyan alkalmazod a saját tudásodra. Kulcs: AI-vezérelt videovágás. Nem prémium szerkesztő-szoftver, hanem működő pipeline (Claude Code + Whisper).
 
@@ -49,7 +49,7 @@ A vágás az, amitől a kezdők megszaladnak — Claude Code + Whisper együtt m
 
 **Folyamat**:
 1. Nyers felvételből Whisper transzkripció (lokálisan MacWhisper, vagy OpenAI Whisper API), eredmény: időbélyeges szöveg
-2. Transzkriptet Claude Code-nak adod, jump cut javaslat: hosszú csendek, ismétlések, „öhm"-ök, hibás mondatok
+2. Transzkriptet Claude Code-nak adod, jump cut (ugró vágás: a felesleges részek kivágása) javaslat: hosszú csendek, ismétlések, „öhm"-ök, hibás mondatok
 3. Vágási lista időbélyegekkel — utána DaVinci Resolve (ingyen, vizuális) vagy FFmpeg parancsok (Claude Code generálja)
 4. Felirat (caption) szintén a Whisper-transzkripcióból, opcionális szín-kiemelés a fontos szavakon
 

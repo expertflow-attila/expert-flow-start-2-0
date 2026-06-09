@@ -5,6 +5,10 @@ description: Végigvezet a VS Code + Claude Code telepítésen, a Claude Code al
 
 # Eszközök — Skill
 
+## Telepítés
+
+Mentsd ezt a fájlt ide: `~/.claude/skills/eszkoz-setup/SKILL.md` (a mappát hozd létre, ha nincs). A Claude Code a következő indításkor automatikusan látja — aktiváláshoz írd a kérésedbe: „használd az eszkoz-setup skillt".
+
 ## Mire való?
 
 A felhasználó most kezdi az IDE-t, a Claude Code-ot és a saját domain-jét beállítani. A skill 4 lecke szerint segít:

@@ -34,7 +34,7 @@ Három fájl:
 - TILOS Google Tag Manager — a kezdő egyéni vállalkozónak felesleges réteg, közvetlen gtag.js elég
 - A trackerekben TILOS PII (személyes adat) küldése — email-cím, név NE menjen GA4-be
 - Az IP anonimizálás alapból be (GA4-ben már default), de említsd meg a GDPR-megfelelőséget
-- A heti rutin: hétfő reggel, 5 perc. NE napi szintű figyelést javasolj
+- A heti rutin: hétfő reggel, 15 perc (3 szám + 3 kérdés + EGY változtatás). NE napi szintű figyelést javasolj
 
 ## Resources
 

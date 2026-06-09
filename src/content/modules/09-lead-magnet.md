@@ -28,13 +28,15 @@ A lead magnet témáját nem kitalálod, hanem visszakeresed. Nyisd ki a 2. modu
 
 Így nem azt írod meg, amit te tartasz érdekesnek, hanem amire bizonyítottan kíváncsiak. A cím is onnan jön: a kérdés átfogalmazva ígéretté („Hogyan árazzam be magam?" → „Árazási útmutató 7 lépésben").
 
+Bence, a fotós (1. modul) három interjújából kettőben ugyanaz jött elő: „mit vegyek fel a fotózásra?" Az ő PDF-e ezért lett: „Mit vegyél fel a profilkép-fotózásra — 7 pontos lista".
+
 ## 02. Lead magnet — 5-10 oldalas PDF Markdown-ból
 
-Konkrét, hasznos dokumentum cserébe az email-címért — nem „kapsz heti tippeket", hanem „letöltheted a 7 lépéses XYZ útmutatót". Az 1. modul tudás-alapjából 5-10 oldal, gyakorlati, kicsit taktikus.
+Konkrét, hasznos dokumentum cserébe az email-címért — nem „kapsz heti tippeket", hanem „letöltheted a 7 lépéses XYZ útmutatót". Az 1. modul tudás-alapjából 5-10 oldal, gyakorlati, lépésekre bontott.
 
 **Létrehozás**:
 - Markdown fájl (vagy Claude Code generálja — prompt a letölthetőkben)
-- PDF-re: Pandoc vagy headless Chrome
+- PDF-re: Pandoc (ingyenes konvertáló program) vagy headless Chrome (a böngésző láthatatlan, parancsból vezérelt módja) — kész parancsok a `reference.md`-ben
 - Drive-ra teszed, az 1. welcome-email linkeli
 
 Nincs Canva, InDesign, designer eszköz. Egyszerű, jól tördelt Markdown-PDF kezdőknél jobban hat, mint túldesignolt fájl.
@@ -55,12 +57,12 @@ A feliratkozó a form kitöltése után belép a csoportba. Ez a csoportba lép�
 
 ## 04. Öt emailes welcome sorozat — Automation
 
-14 napban 5 email, mindegyik konkrét cél:
+Egyetlen PDF-ből nem lesz bizalom — aki ma feliratkozott, két hét múlva már nem emlékszik rád. Ezt hidalja át a welcome sorozat: 14 napban 5 email, mindegyik konkrét céllal:
 
 | # | Mikor | Tartalom |
 |--|--|--|
 | 1 | azonnal | „Itt a PDF-ed + 1 mondat rólam" |
-| 2 | 2 nap múlva | A saját pivot-pontod (1. modul 02. lecke) — személyes történet |
+| 2 | 2 nap múlva | A saját pivot-pontod (1. modul: a felismerés, amitől ma másképp dolgozol) — személyes történet |
 | 3 | 4 nap múlva | Leggyakoribb tévhit a területeden + mit gondolsz |
 | 4 | 7 nap múlva | Konkrét tipp, amit a PDF-ben nem írtál le |
 | 5 | 10 nap múlva | Meghívó ingyenes konzultációra vagy konkrét ajánlat |

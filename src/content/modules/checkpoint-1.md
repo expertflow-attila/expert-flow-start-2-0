@@ -14,9 +14,10 @@ Pipáld ki, ami igaz. Ne magadnak kedvezz — mindegyik kívülről ellenőrizhe
 - [ ] Megvan az egy mondatod: „Én a [probléma]-ban segítek a [konkrét emberek]-nek, mert [pivot-pont]"
 - [ ] Egy ismerősöd a saját szavaival vissza tudta mondani a mondatodat, visszakérdezés nélkül
 - [ ] Van egy oldalas avatár-portréd egy konkrét emberről — névvel, korral, esti rutinnal
-- [ ] Legalább 3 valódi beszélgetésen túl vagy, és szó szerinti idézeteket jegyzeteltél
+- [ ] Legalább 3 valódi beszélgetésen túl vagy, és mindegyikből van legalább 3 szó szerinti idézet a jegyzet-tábládban
 - [ ] Papíron van a 3 csomagod: név, ár, bullet-lista, „kinek való" és „kinek NEM" mindegyiknél
 - [ ] A fő csomag érték-stackje legalább 2× az ár
+- [ ] Az egy oldalas csomag-dokumentumot egy ismerős magyarázat nélkül értette, és megmondta, melyiket venné
 
 ## 5 perces önaudit
 

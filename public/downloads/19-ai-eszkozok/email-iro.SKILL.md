@@ -24,7 +24,7 @@ A skill ezt kéri be tőled:
 
 ## Lépések
 
-1. A hangmintádból kiszedi a jellemzőidet: mondathossz, megszólítás, hogyan zársz
+1. Ha adtál hangmintát, kiszedi belőle a jellemzőidet: mondathossz, megszólítás, zárás. Ha nem, a dokumentáló alaphangon dolgozik
 2. Megírja az email-vázlatot: tárgy (2 variáció), törzs, zárás
 3. Ellenőrzi: max 25 szavas mondatok, egy email = egy cél, nincs marketing-jargon magyarázat nélkül
 4. Megmutatja, és megkérdezi, mit írna át a saját szavaiddal — a végső szöveg a tiéd
@@ -40,6 +40,6 @@ Egy kész email-vázlat: 2 tárgy-variáció + törzs + zárás. Másolható Gma
 - Egy futtatás = egy email; sorozathoz futtasd többször, témánként
 - A hangod utánzása annyira jó, amennyire a hangminta — adj valódi korábbi szövegeket
 
-## Resources
+## Kapcsolódó fájl
 
 - `reference.md` — két kidolgozott példa-futtatás (heti lista-email + ajánlat utáni follow-up)

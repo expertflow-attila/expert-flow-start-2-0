@@ -224,7 +224,7 @@ A 10. modul CRM Sheets-en belül egy új lap, „Analytics":
 | 17 | 2026-04-22 | 142 | 8 | 23 | 5 | Új CTA copy a hero-n |
 | 18 | 2026-04-29 | 167 | 11 | 31 | 7 | — |
 
-A heti rutin: hétfő 9:00, 5 perc. Megnyitod a GA4 „Heti összefoglaló" report-ját, last 7 days range, leírod a 4 számot, és ha történt változás (új CTA, új ár, új blogposzt), oda a megjegyzés oszlopba.
+A heti rutin: hétfő 9:00, 15 perc. Megnyitod a GA4 „Heti összefoglaló" report-ját, last 7 days range, leírod a 4 számot, válaszolsz a 3 kérdésre (nőtt vagy csökkent? miért? mit változtatok EGYET?), és a változtatást a megjegyzés oszlopba írod.
 
 ## Tipikus hibák
 

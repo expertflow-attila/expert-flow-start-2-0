@@ -10,25 +10,25 @@ lastReviewed: "2026-06-09"
 
 Ezt a checkpointot a CRM-ed és a postafiókod előtt ülve töltsd ki — minden pont onnan ellenőrizhető.
 
-- [ ] Kész a tíz-fős ismerős-listád, és legalább 3 személyes üzenet kiment (mindegyik egyedi, 3-4 mondat)
-- [ ] Minden kiküldött üzenetről van bejegyzés: kinek, mikor, mit, mi lett a válasz
+- [ ] Kész a tíz-fős ismerős-listád, és legalább 5 személyes üzenet kiment (mindegyik egyedi, 3-4 mondat, beszélgetésre hív)
+- [ ] A tracking-tábládban mind a 10 név fent van — a kiküldötteknél dátum, válasz és következő lépés
 - [ ] Érkezett valamilyen visszajelzés — válasz, kérdés vagy akár nem; a csend is adat, ha rögzítetted
 - [ ] A lead magnet PDF kész, és a feliratkozó form él az oldaladon
-- [ ] Te magad feliratkoztál, és a tesztcímedre megérkezett az első welcome-levél
+- [ ] Te magad feliratkoztál, és a tesztcímedre megérkezett az első welcome-levél, benne a működő PDF-linkkel
 - [ ] Mind az 5 welcome-levél megírva és időzítve van
 - [ ] A Google Sheets CRM él — a teljes 4 munkalapos, vagy az első 10 jelöltig elég 1 lapos minimál verzió
-- [ ] A Gmail labelek és a Drive mappa-struktúra beállítva, és minden eddigi beszélgetés rögzítve a CRM-ben
+- [ ] A Gmail labelek és a Drive mappa-struktúra beállítva — bármelyik névről 30 másodperc alatt megmondod, mi volt az utolsó kontakt
 
 ## 5 perces önaudit
 
 1. Fejből vagy a CRM-ből tudod, kivel hol tartasz? Ha fejből — mi történik, ha két hétre kiesel?
-2. A 3+ üzenetből hány válasz jött? Ha nulla, az üzeneteid kértek valamit, vagy beszélgetésre hívtak?
+2. Az 5+ üzenetből hány válasz jött? Ha nulla, az üzeneteid kértek valamit, vagy beszélgetésre hívtak?
 3. A lead magnet témája a 2. modul interjúiból jött, vagy abból, amiről te szeretsz írni?
 4. Mit tennél most másképp az első üzenet-körhöz képest? Írd le egy mondatban — a következő körben használod.
 
 ## Ha valami hiányzik
 
-- Nincs lista, nem mentek ki üzenetek, vagy nincs visszajelzés-jegyzet → [8. modul · Az első ügyfeleid](/modules/08-elso-ugyfelek)
+- Nincs lista, nem ment ki 5 üzenet, vagy hiányos a tracking-tábla → [8. modul · Hogyan próbálok ügyfeleket találni](/modules/08-elso-ugyfelek)
 - Nincs PDF, nem él a form, vagy hiányos a welcome-sorozat → [9. modul · Lead magnet és email lista](/modules/09-lead-magnet)
 - Nincs CRM, vagy a beszélgetések nincsenek rögzítve → [10. modul · CRM és belső rendezés](/modules/10-crm-gmail-drive)
 

@@ -40,6 +40,6 @@ Szekciónkénti copy markdown-ban: minden szekció külön blokkban, beilleszthe
 - Nem ígér számokat, amiket nem adtál meg — kitalált eredmény nem kerül a copy-ba
 - Konzultációs landingnél NEM tolja rá a 7-elemes szerkezetet — ott a foglalás a cél, nem a vásárlás
 
-## Resources
+## Kapcsolódó fájl
 
 - `reference.md` — egy kidolgozott példa-futtatás szolgáltatás-landinghez

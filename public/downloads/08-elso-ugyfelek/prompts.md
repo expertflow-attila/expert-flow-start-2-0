@@ -21,7 +21,9 @@ Tegyél fel nekem 6-8 kérdést, ami segít fokozatosan eszembe juttatni a nevek
 - Családi vagy baráti körből, akik vállalkozók
 - Online (LinkedIn, közösségi csoportok) megismert emberek
 
-A kérdéseket egyenként tedd fel, ne egyszerre — várd meg a válaszomat, és csak akkor folytasd. A célom: a végére legyen 10 név, mindegyikhez egy 1 mondatos megjegyzés (kicsoda, miért ő, mire emlékszem közös pontunkról) ÉS a kapcsolat típusa a 10 szituáció egyikéből (volt kolléga / ismerős, aki tudja, mit csinálok / ismerős, aki nem tudja / régi ügyfél-kapcsolat / ajánlott idegen / szakmai csoporttárs / volt főnök / képzéstárs / szolgáltatóm, aki ismer / baráti kapcsolat). A típusból választom majd a csatornát és a sablont.
+A kérdéseket egyenként tedd fel, ne egyszerre — várd meg a válaszomat, és csak akkor folytasd.
+
+A célom: a végére legyen 10 név. Mindegyikhez kérek egy 1 mondatos megjegyzést (kicsoda, miért ő, mire emlékszem közös pontunkról). Plusz a kapcsolat típusát a 10 szituáció egyikéből: volt kolléga / ismerős, aki tudja, mit csinálok / ismerős, aki nem tudja / régi ügyfél-kapcsolat / ajánlott idegen / szakmai csoporttárs / volt főnök / képzéstárs / szolgáltatóm, aki ismer / baráti kapcsolat. A típusból választom majd a csatornát és a sablont.
 
 Hangulat: ne sürgess, ne motiválj — csak segíts emlékezni.
 ```

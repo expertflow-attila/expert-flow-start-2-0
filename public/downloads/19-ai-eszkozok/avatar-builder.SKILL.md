@@ -39,6 +39,6 @@ Két blokk egy markdown fájlban: a frissített avatár-portré (1 oldal) + a co
 - Nem talál ki életrajzi részletet: ami a portréban áll, az vagy a jegyzeteidből jön, vagy [FELTÉTELEZÉS] jelölést kap
 - Egy avatár = egy portré; ha két külön vevő-típust látsz a jegyzetekben, azt jelzi, és külön futtatást javasol
 
-## Resources
+## Kapcsolódó fájl
 
 - `reference.md` — egy kidolgozott példa-futtatás portré-frissítéssel

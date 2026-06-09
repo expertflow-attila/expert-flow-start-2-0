@@ -1,5 +1,7 @@
 # 11. modul — Promptok
 
+> Használat: a szögletes zárójeles részeket írd át a saját adataidra, majd másold be a teljes promptot Claude Code-ba (vagy bármelyik AI-asszisztensbe).
+
 ## 11.1 — Prompt a 01. leckéhez (gtag.js telepítés a webhelyre)
 
 A GA4 mérőkódot a webhelyed head szekciójába illesztjük. A prompt segít a Claude Code-nak, hogy a meglévő HTML-t ne törje el.
@@ -92,8 +94,9 @@ Plusz: készíts egy Google Sheets sablont „Analytics" néven
 het_szama, datum, latogatok, feliratkozasok, cta_kattintasok,
 booking_clicks, megjegyzes (mit változtattam).
 
-A heti rutin: hétfő 9:00, 5 perc. Megnyitom a GA4 dashboardot,
-átírom a 3-4 számot a Sheets-be, és ha történt változás
-(új blogposzt, új CTA, új ár), oda írom a megjegyzés oszlopba.
+A heti rutin: hétfő 9:00, 15 perc. Megnyitom a GA4 dashboardot,
+átírom a 3-4 számot a Sheets-be, felteszem a 3 kérdést
+(nőtt vagy csökkent? miért? mit változtatok EGYET?), és a
+változtatást a megjegyzés oszlopba írom.
 Ne jegyezzek minden napot — csak hetente egyszer.
 ```

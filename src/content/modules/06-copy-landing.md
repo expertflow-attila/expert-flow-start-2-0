@@ -20,7 +20,7 @@ Az 5. modulból él a weboldalad a saját domaineden, a hero-ban az egy-mondatod
 
 ## Mit építesz meg ezen a héten
 
-A weboldal magában nem ad el — a SZÖVEG ad el. Átlagos design erős copy-val több ügyfelet hoz, mint gyönyörű design üres szöveggel. A meglévő weboldalt (5. modul) erősebb szöveggel töltöd fel, plusz építesz egy különálló landing oldalt — konkrét akció kérésére.
+A weboldal magában nem ad el — a SZÖVEG ad el. Ezt hívják **copy**-nak: értékesítési céllal írt szöveg, aminek egy dolga van — hogy az olvasó megtegye a következő lépést. Átlagos design erős copy-val több ügyfelet hoz, mint gyönyörű design üres szöveggel. A meglévő weboldalt (5. modul) erősebb szöveggel töltöd fel, plusz építesz egy különálló landing oldalt — konkrét akció kérésére.
 
 A copy-szabályokat nem találtam ki — bevált modellek (copyhackers.com, swipefile, klasszikus direct response).
 
@@ -34,7 +34,9 @@ Mit keresel bennük:
 - **Vágy-mondatok** — mit szeretne, a saját szavaival, nem a te szakzsargonoddal
 - **Kifogás-mondatok** — „de mi van, ha…" — ezek mennek majd a FAQ-ba
 
-Húzd ki a 3-5 legerősebbet egy külön listába. Ez a nyersanyagod a hét minden leckéjéhez. A vevő szavai mindig erősebbek, mint a te megfogalmazásod — ő a saját nyelvén ismeri fel magát.
+Húzd ki a 3-5 legerősebbet egy külön listába. Ez a nyersanyagod a hét minden leckéjéhez. A vevő szavai mindig erősebbek, mint a te megfogalmazásod — ő a saját nyelvén ismeri fel magát. Ha ezt a lépést kihagyod, és fejből írod a hero-t, szinte biztosan a saját szakzsargonod jön ki — amit a vevő nem mond, és nem is keres.
+
+**Próbáld ki most:** nyisd ki az interjú-jegyzeteidet, és húzd ki az első 3 mondatot, amiben idézőjelbe tehető vevő-megfogalmazás van.
 
 ## 02. Hero-headline tíz variációban
 
@@ -43,7 +45,9 @@ A hero-headline (első mondat) egyedül dönti el, marad-e az olvasó. Szabály:
 - Rossz: „Webfejlesztő vagyok 10 év tapasztalattal"
 - Jó: „Két hét alatt élesben lesz a webhelyed, vagy ingyen visszacsinálom"
 
-Claude Code-dal 10 variációt írsz, különböző érzelmekből (félelem, vágy, kíváncsiság, sürgősség, biztonság). A promptba másold be az 01. leckében kihúzott vevő-mondatokat — abból dolgozzon, ne a levegőből. Teszteld magadon — melyiket érted azonnal, magyarázat nélkül. A nyertes a webhelyre megy, a 9 többi swipefile-ba (email-tárgy, hirdetés, közösségi poszt).
+Claude Code-dal 10 variációt írsz, különböző érzelmekből (félelem, vágy, kíváncsiság, sürgősség, biztonság). A promptba másold be az 01. leckében kihúzott vevő-mondatokat — abból dolgozzon, ne a levegőből. Teszteld magadon — melyiket érted azonnal, magyarázat nélkül. A nyertes a webhelyre megy, a 9 többi a **swipefile**-odba — egy sima jegyzetfájl, ahova a jó mondatokat gyűjtöd későbbi email-tárgyhoz, hirdetéshez, poszthoz.
+
+**Próbáld ki most:** futtasd le a `prompts.md` 6.1 promptját a kihúzott vevő-mondataiddal, és jelöld be a 3 jelöltedet.
 
 ## 03. Három példa-hero — Kata, Bence és Márk
 
@@ -81,9 +85,11 @@ A copy nem csak Hero — a többi szekció is dolgozik.
 
 - **Garancia** — kockázatfordítás: „Ha a hét végéig nincs az ígért output, visszafizetem." Nem a visszafizetés a lényeg — látják, hogy te BÍZOL a szolgáltatásodban.
 - **FAQ** — nem véletlen kérdéslista, hanem ellenérvek lefogása: 5-7 leggyakoribb „de mi van ha…" + rövid őszinte válasz. Az interjú-jegyzetek kifogás-mondatai (01. lecke) ide kerülnek.
-- **Érték-stack** (3. modulból) — minden mellék-tartalom külön bullet, külön piaci értékkel.
+- **Érték-stack** (3. modulból) — minden mellék-tartalom külön bullet, külön piaci értékkel. Így a vevő látja: a csomagár kevesebb, mint a részek összértéke.
 
-A három együtt tartja ott az olvasót.
+A három együtt tartja ott az olvasót. Ha a Hero után üres a folytatás, az olvasó az első kétségénél bezárja az oldalt — a FAQ pont ezeket a kétségeket fogja le, mielőtt kérdezne.
+
+**Próbáld ki most:** írd meg a garancia-mondatodat egyetlen mondatban, és olvasd fel hangosan — ha magadnak sem mernéd kimondani egy vevőnek, túl nagy az ígéret.
 
 ## 05. Szolgáltatás-specifikus landing page
 
@@ -93,7 +99,9 @@ A három együtt tartja ott az olvasót.
 | Forgalom | ismeretlenek tévednek be | célzott |
 | Menü, rólam, blog | van | nincs |
 
-Egy szolgáltatás = egy landing. Egyik csomagodhoz építesz egy `/szolgaltatas-neve` URL-t (Vercel-en `landing.html` második fájlként). A copy-logika ugyanaz, mint a Hero-nál — csak szigorúbb: minden szó a CTA-kattintásra hajt.
+Egy szolgáltatás = egy landing. Egyik csomagodhoz építesz egy `/szolgaltatas-neve` URL-t (Vercel-en `landing.html` második fájlként). A copy-logika ugyanaz, mint a Hero-nál — csak szigorúbb: minden szó a CTA-kattintásra hajt. Ha célzott forgalmat — például egy posztból érkezőket — a fő weboldalra küldesz landing helyett, a látogató a menüben elkalandozik, és a konkrét akció elmarad.
+
+Példa: Márk, a fejlesztő a `/automatizalas-audit` landingre tereli a LinkedIn-posztjai olvasóit — egy gomb, egy Cal.com-foglalás, semmi más.
 
 ## 06. A 7-elemes sales-szerkezet — amikor erősebbre veszed
 

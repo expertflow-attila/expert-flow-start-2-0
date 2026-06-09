@@ -46,7 +46,7 @@ Négy automatikus emailre van szükségem a Cal.com Workflows-ban.
 
 Az én vállalkozásom: [1 mondat]
 Az ügyfél (avatár, 2. modul): [1 mondat]
-Az event type: 30 perces stratégiai konzultáció
+Az event type neve és hossza: [pl. „30 perces ingyenes konzultáció"]
 A Zoom / Google Meet link a Cal.com-ból automatikusan generálódik
 
 Írd meg a négy email szövegét. Mindegyik:
@@ -54,7 +54,7 @@ A Zoom / Google Meet link a Cal.com-ból automatikusan generálódik
 - Személyes, mintha ismerősnek írnád
 - Zero coach-szag, zero hyped szöveg
 - Maximum 6-8 mondat
-- Aláírva: {{vállalkozás_neve}} / {{te_neved}}
+- Aláírva: [a neved] és [a vállalkozásod neve]
 
 1) CONFIRMATION (azonnal a foglalás után)
 - Megerősítés: dátum, idő, link
@@ -97,7 +97,7 @@ Trigger: a foglalt időpont után 24 órával, ha az event státusza „no-show"
 - Magyar nyelvű, max 5-6 mondat
 - Hang: őszinte, de NEM hibáztató („sajnálom, hogy elcsúszott", NEM „elmaradtál")
 - Új foglalási link (ugyanaz a Cal.com event link)
-- Maximum 2 alkalom: a 2. no-show után már nem küldök új linket
+- Egy újrafoglaló email megy ki — ha a második foglalást is kihagyja, nem küldök új linket
 - Aláírva, személyes hang
 - Zero passzív-agresszív tónus
 

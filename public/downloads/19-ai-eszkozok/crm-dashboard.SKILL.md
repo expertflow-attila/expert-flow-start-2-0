@@ -38,6 +38,6 @@ Egy heti összefoglaló markdown-ban: számok munkalaponként + elakadás-lista 
 - A számai csak annyira pontosak, amennyire a CRM-ed naprakész — ha a dátumok hiányoznak, jelzi, nem becsül
 - Follow-up szöveget nem ír — arra az `email-iro` skill való, kombináld a kettőt
 
-## Resources
+## Kapcsolódó fájl
 
 - `reference.md` — egy kidolgozott példa-futtatás minta-sorokkal

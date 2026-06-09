@@ -14,7 +14,7 @@ lastReviewed: "2026-06-09"
 
 ## Hol tartasz
 
-A 8. modulban kiküldted az első megkereséseket, a 9.-ben elindult a lead magnet és az email lista. A IV. fázis a háttér-rész — az 1-9. modulban elöl álltál és cselekedtél, most a hátadat fedezed. A CRM nem „extra eszköz" — az a hely, ahol nyilvántartod, kivel mikor beszéltél, mit ígértél, mit várnak tőled. Sokan ezt a fejükben tartják, és pár hét után elveszítik a fonalat.
+A 8. modulban kiküldted az első megkereséseket, a 9.-ben elindult a lead magnet és az email lista. A IV. fázis a háttér-rész — az 1-9. modulban elöl álltál és cselekedtél, most a hátadat fedezed. A CRM (Customer Relationship Management — magyarul ügyfélkapcsolat-nyilvántartás) nem „extra eszköz". Az a hely, ahol nyilvántartod, kivel mikor beszéltél, mit ígértél, mit várnak tőled. Sokan ezt a fejükben tartják, és pár hét után elveszítik a fonalat. Az ára konkrét: egy érdeklődő, akinek elfelejtettél válaszolni, nem szól — egyszerűen mástól rendel.
 
 ## Mit építesz meg ezen a héten
 
@@ -28,6 +28,8 @@ A 4 munkalapos rendszer akkor kell, amikor a tábla zsúfolt lesz. A jelek: 10-n
 
 A heti feladatod is e szerint ágazik el: a minimál-ágat a feladatnál külön kiírom.
 
+**Próbáld ki most:** számold meg a neveidet a tracking-táblában. 10 alatt vagy? Akkor ebből a leckéből ennyi elég — ugorj a 04. szakaszra.
+
 ## 02. Google Sheets CRM — négy munkalap
 
 Nem kell drága szoftver — egy Sheets dokumentum tökéletes. „CRM — [év]" fájl, 4 munkalap:
@@ -39,20 +41,24 @@ Nem kell drága szoftver — egy Sheets dokumentum tökéletes. „CRM — [év]
 
 Egy ránézésre minden státusz látszik — nem kell több külön rendszer.
 
+Az értéke a megjegyzés-oszlopban van. Kata, a könyvelő a Prospects lapon a „miért érdekes" mezőbe ezt írja: „volt kolléga, most váltott céget — bérszámfejtésben kért már segítséget". Három hét múlva ebből az egy sorból tudja, mivel nyissa a következő emailt.
+
 Nem kell kézzel felépítened — másold le a kész sablont, és írd át a saját szakmádra:
 
 > **[ATTILA TÖLTI KI: a másolható Google Sheets sablon linkje — Fájl → Másolat készítése]**
 
 Az oszlop-fejlécek listája a `reference.md`-ben is megvan, ha mégis nulláról építenéd.
 
+**Próbáld ki most:** másold le a sablont, és vidd át az első három nevedet a Prospects lapra — a „miért érdekes" oszloppal együtt.
+
 ## 03. Apps Script automatizáció — opcionális
 
 **Ez a szakasz opcionális.** A CRM enélkül is teljes értékű — kézzel frissíteni napi 2 perc. Csak akkor nyúlj hozzá, ha a kézi munka már ténylegesen zavar.
 
-Sheets erőssége: beépített Apps Script (JavaScript-szerű), amivel automatizálsz.
+A Sheets erőssége az Apps Script — a Google táblázatokba épített programnyelv, amivel a tábla magától csinál dolgokat.
 
 **Példák**:
-- Cal.com új foglalás (webhook) után új sor a „Consultations" lapon
+- Cal.com új foglalás után új sor a „Consultations" lapon — webhookkal (a webhook automatikus üzenet, amit a Cal.com küld a tábládnak minden foglaláskor)
 - „Proposals" státusz „won"-ra váltása után a sor átkerül a „Clients" lapra
 
 Nem kell programozó lenni — Claude Code-dal 10-15 perc/script. Kész script-ek a `reference.md`-ben, csak bemásolod a Sheets script-szerkesztőjébe.
@@ -60,6 +66,8 @@ Nem kell programozó lenni — Claude Code-dal 10-15 perc/script. Kész script-e
 **Ha elrontottad**: a Google Sheets minden változtatást ment. Fájl → Verzióelőzmények → Verzióelőzmények megtekintése — itt visszaállítod a script futtatása előtti állapotot egy kattintással. Az adataid tehát nem vesznek el. Legrosszabb esetben töröld a scriptet a szerkesztőből, és a tábla kézi módban működik tovább.
 
 ## 04. Gmail label-struktúra és Drive rendszerezés
+
+A Gmail label (címke) mappaként működik, csak rugalmasabb: egy levél több címkét is kaphat, és nem tűnik el az inboxból.
 
 **Gmail labelek**:
 - `01-Prospects`
@@ -79,7 +87,11 @@ Bejövő email a megfelelő label-be (automatikusan vagy 30 mp manuálisan). Egy
 04-Clients/[ügyfél-név]/
 ```
 
-Az ügyfél-mappákban: szerződések, számlák, delivery-fájlok, `notes.md` (mi történt). Ezek nem kreatív megoldások — ismétlődő minták, amik nélkül 3 hónap után nem találsz semmit.
+Az ügyfél-mappákban: szerződések, számlák, leszállított anyagok, `notes.md` (mi történt). Ezek nem kreatív megoldások — ismétlődő minták, amik nélkül 3 hónap után nem találsz semmit.
+
+Bence, a fotós a `04-Clients/horvath-eskuvo/` mappában tartja a szerződést, a számlát és a válogatott képek linkjét. Fél év múlva a pár kér még egy képet — 30 másodperc, és megvan. A másik fotós fél órát túr a Letöltések mappában.
+
+**Próbáld ki most:** hozd létre az öt Gmail label-t — Beállítások → Címkék → Új címke, 2 perc az egész.
 
 ## Én így csináltam
 

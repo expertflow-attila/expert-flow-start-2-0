@@ -10,26 +10,26 @@
 <body class="bg-white text-neutral-900 antialiased">
 
 <!-- ============================================================
-  LEAD MAGNET LANDING — sablon
+  HOGYAN HASZNÁLD:
+  1. Mentsd le a fájlt egy új mappába, és nevezd át index.html-re.
+  2. Nyisd meg a mappát Claude Code-dal: cd mappa-neve, majd claude.
+  3. Add neki ezt a promptot: "Töltsd ki az index.html [KITÖLTENDŐ] részeit.
+     A kommentek vezetnek. A lead magnetem címe és tartalomjegyzéke: ..."
+  4. Nézd meg böngészőben, majd deploy az 5. modul lépéssorával.
+
+  MIRE VALÓ — LEAD MAGNET LANDING:
   Cél: email-cím cseréje értékért. Rövid oldal, EGY céllal.
   A form csak emailt kér (max még nevet) — minden plusz mező
   csökkenti a kitöltési arányt.
+  A form action-jébe a hírlevél-szolgáltatód (9. modul) form-URL-je kerül.
   A szövegeket a 6. modul módszerével írd meg.
-
-  HOGYAN HASZNÁLD:
-  1. Nevezd át a fájlt index.html-re.
-  2. Nyisd meg böngészőben (dupla kattintás), és nézd végig a szerkezetét.
-  3. Claude Code-dal töltsd ki a [KITÖLTENDŐ] részeket a saját adataiddal —
-     add oda neki a lead magneted címét és tartalomjegyzékét, a többit a kommentek vezetik.
-  4. A form action-jébe a hírlevél-szolgáltatód (9. modul) form-URL-je kerül.
-  5. Deploy az 5. modul lépéssorával: GitHub repo, Vercel, saját domain.
 ============================================================ -->
 
 <!-- HERO + FORM
   Mit írj: a lead magnet címe és 1 mondat, hogy mit old meg. A form azonnal látszódjon,
   görgetés nélkül is.
   Mit NE: ne magyarázd a teljes szolgáltatásodat — itt csak a letöltés a cél. -->
-<header class="max-w-5xl mx-auto px-6 pt-20 pb-16">
+<header id="letoltes" class="max-w-5xl mx-auto px-6 pt-20 pb-16">
   <div class="grid md:grid-cols-2 gap-12 items-center">
     <div>
       <p class="text-sm uppercase tracking-widest text-neutral-500 mb-4">Ingyenes [KITÖLTENDŐ: formátum — pl. PDF / checklist / sablon]</p>
@@ -133,7 +133,7 @@
 <section class="bg-neutral-50 py-16">
   <div class="max-w-xl mx-auto px-6 text-center">
     <h2 class="text-2xl font-bold mb-6">[KITÖLTENDŐ: záró mondat — pl. "Kérd az anyagot, és kezdd el még ma"]</h2>
-    <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;"
+    <a href="#letoltes"
        class="inline-block bg-neutral-900 text-white px-8 py-4 rounded-md font-semibold hover:bg-neutral-700">
       Kérem az anyagot
     </a>

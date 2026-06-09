@@ -1,31 +1,8 @@
 # 13. modul — Promptok
 
-## 13.1 — Prompt a 02. leckéhez (Szegmens-elemzés a CRM-adatokból)
+> Használat: a szögletes zárójeles részeket írd át a saját adataidra, majd másold be a teljes promptot Claude Code-ba (vagy bármelyik AI-asszisztensbe).
 
-Akkor futtasd, amikor a 90 nap végén kitöltenéd a 3 oszlopos szegmens-táblát. Másold be a CRM-ed (10. modul) ügyfél-sorait — a prompt strukturálja az adatot, de a döntést TE hozod.
-
-```
-Itt vannak az elmúlt 90 nap ügyfeleim a CRM-emből
-(név nélkül is jó — típus, projekt, ár, ráfordított óra, megjegyzés):
-
-[CRM-SOROK BEMÁSOLVA]
-
-Elemezd három szempont szerint, ügyféltípusonként csoportosítva:
-
-1. JÖVEDELMEZŐSÉG — számold ki a tényleges óradíjat
-   (bevétel / ráfordított óra), rangsorold
-2. KÖNNYŰSÉG — a megjegyzéseim alapján: hol volt sok kör,
-   késés, vita? Rangsorold a legsimábbtól a legnehezebbig
-3. METSZET — mely ügyféltípus szerepel mindkét lista tetején?
-
-Az „élvezet" szempontot NE te döntsd el — tegyél fel nekem
-3 kérdést, ami segít magamnak megválaszolni.
-
-A végén: 1 mondatos javaslat az új fókusz-szegmensre,
-és 2-3 kérdés, amit még tisztáznom kell, mielőtt döntök.
-```
-
-## 13.2 — Prompt a 01. leckéhez (Ár-emelés levél-vázlat)
+## 13.1 — Prompt a 01. leckéhez (Ár-emelés levél-vázlat)
 
 Akkor futtasd, amikor megvan az 5. fizető ügyfeled, és megírnád az ár-emelési kommunikációt. Két külön szöveg készül: egy a régi ügyfeleknek, egy az új érdeklődőknek.
 
@@ -48,6 +25,31 @@ Szolgáltatásom 1 mondatban (a 3. modulból): [1 mondat]
 
 Mindkettőnél jelöld [SZEMÉLYRE SZABD] taggel, ahol nekem
 kell kitöltenem. Kerüld a marketing-fordulatokat.
+```
+
+## 13.2 — Prompt a 02. leckéhez (Szegmens-elemzés a CRM-adatokból)
+
+Akkor futtasd, amikor a 90 nap végén kitöltenéd a 3 oszlopos szegmens-táblát. Másold be a CRM-ed (10. modul) ügyfél-sorait — a prompt strukturálja az adatot, de a döntést TE hozod.
+
+```
+Itt vannak az elmúlt 90 nap ügyfeleim a CRM-emből
+(név nélkül is jó — típus, projekt, ár, ráfordított óra, megjegyzés):
+
+[CRM-SOROK BEMÁSOLVA]
+
+Elemezd három szempont szerint, ügyféltípusonként csoportosítva:
+
+1. JÖVEDELMEZŐSÉG — számold ki a tényleges óradíjat
+   (bevétel / ráfordított óra), rangsorold
+2. KÖNNYŰSÉG — a megjegyzéseim alapján: hol volt sok kör,
+   késés, vita? Rangsorold a legsimábbtól a legnehezebbig
+3. METSZET — mely ügyféltípus szerepel mindkét lista tetején?
+
+Az „élvezet" szempontot NE te döntsd el — tegyél fel nekem
+3 kérdést, ami segít magamnak megválaszolni.
+
+A végén: 1 mondatos javaslat az új fókusz-szegmensre,
+és 2-3 kérdés, amit még tisztáznom kell, mielőtt döntök.
 ```
 
 ## 13.3 — Prompt a 03. leckéhez (Csatorna-döntési kérdéssor)

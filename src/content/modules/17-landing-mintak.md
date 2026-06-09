@@ -2,19 +2,34 @@
 lastReviewed: "2026-06-09"
 ---
 
-# 4. modul — Landing page minták
+# Referencia-tár · Landing page minták
 
 > **TL;DR** — 6 letölthető Tailwind HTML landing sablon referencia-tárként, mindegyik konkrét célra.
 > - **6 típus**: konzultációs, lead magnet, webinar, szolgáltatás (érték-stack), coming soon (waitlist), long-form sales (Hormozi)
 > - Minden sablon önálló HTML fájl: Tailwind CDN, mobil-barát, magyar `[KITÖLTENDŐ]` placeholderekkel és szekciónkénti kommentekkel
 > - Wireframe-szintű részletek a [Marketing Skiccfüzet](https://marketing-skiccfuzet.vercel.app) testvér-site-on
-> - Egy landing önmagában nem elég — funnel-be kötés a 18. modulban
+> - Egy landing önmagában nem elég — funnel-be kötés a Funnel típusok referencia-modulban
 
 ## Modul áttekintés
 
 Ettől a modultól már nem építünk sorrendben — referencia-tár. 6 landing sablon, mindegyik egyetlen letölthető HTML fájl, teljes Tailwind kóddal. Bármikor használhatók új szolgáltatás vagy kampány indításkor. Stílusuk szándékosan tiszta és minimalista: szürke kép-placeholderek, semleges színek, magyar `[KITÖLTENDŐ]` jelölések — Claude Code-dal szabod a saját adataidra, az 5. modul módszerével.
 
 > A 6 wireframe-magyarázat alul a [Marketing Skiccfüzet](https://marketing-skiccfuzet.vercel.app) testvér-anyagra mutat — ott megnézheted a teljes vázlatot egy A4-es nyomtatható lapon. A funnel-szintű összefüggésekért nézd a [Funnel Tananyagot](https://funnel-tananyag.vercel.app).
+
+## Melyik sablon kell neked?
+
+Egy perc döntés: keresd meg a helyzetedet, töltsd le a hozzá tartozó fájlt.
+
+| Ha ez a helyzeted | Ezt töltsd le |
+|---|---|
+| Hívással adod el a szolgáltatásod (új vagy magas árú ajánlat) | `konzultacios-landing.html` |
+| Email-listát építesz ingyenes PDF-ért vagy sablonért cserébe | `lead-magnet-landing.html` |
+| Élő online előadást hirdetsz, konkrét dátummal | `webinar-landing.html` |
+| Bevált, referenciás szolgáltatásod van, projektet adsz el | `szolgaltatas-landing.html` |
+| A terméked még készül, előzetes érdeklődést mérnél | `coming-soon-landing.html` |
+| Validált, 300 ezer Ft+ ajánlatod van, hívás nélkül adnád el | `longform-sales-landing.html` |
+
+Ha bizonytalan vagy, kezdd a konzultációs landinggel — kezdőként szinte mindig az visz az első ügyfélig.
 
 ## Videó
 
@@ -23,12 +38,12 @@ Ettől a modultól már nem építünk sorrendben — referencia-tár. 6 landing
 ## Fejezetek
 
 - 0:00 — Bevezető: a 6 landing-típus mikor kell
-- 1:00 — 4.1 Konzultációs landing (legtöbbet használt)
-- 2:30 — 4.2 Lead magnet landing
-- 4:00 — 4.3 Online előadás landing (webinar)
-- 5:30 — 4.4 Szolgáltatás landing (érték-stack vizuálisan)
-- 7:00 — 4.5 Coming soon landing (waitlist)
-- 8:30 — 4.6 Long-form sales landing (Hormozi-stack)
+- 1:00 — 1. Konzultációs landing (legtöbbet használt)
+- 2:30 — 2. Lead magnet landing
+- 4:00 — 3. Online előadás landing (webinar)
+- 5:30 — 4. Szolgáltatás landing (érték-stack vizuálisan)
+- 7:00 — 5. Coming soon landing (waitlist)
+- 8:30 — 6. Long-form sales landing (Hormozi-stack)
 
 ## Almodulok
 
@@ -41,7 +56,7 @@ Ettől a modultól már nem építünk sorrendben — referencia-tár. 6 landing
 
 ## A 6 wireframe részletesen
 
-### 4.1 Konzultációs landing — Lead Generation funnel
+### 1. Konzultációs landing — Lead Generation funnel
 
 A leggyakrabban használt landing. Egy hosszú görgetés: hero + USP, mit kapsz a hívásban, kinek nem való, social proof, FAQ, beágyazott Cal.com widget. **Egyetlen CTA-gomb** ismétlődik 3-4 helyen ("Foglalj 25 perces hívást"). Konverziós cél: a látogató kalibrálja, hogy valóban illik-e hozzá a szolgáltatás, mielőtt időt foglal.
 
@@ -51,7 +66,7 @@ A leggyakrabban használt landing. Egy hosszú görgetés: hero + USP, mit kapsz
 - A sablon kommentjei megmondják, melyik szekcióba mit írj — a szövegeket a 6. modul módszerével írd meg.
 - Részletes minta + wireframe: [Marketing Skiccfüzet — Konzultációs landing](https://marketing-skiccfuzet.vercel.app)
 
-### 4.2 Lead magnet landing — Webinar / PDF registration
+### 2. Lead magnet landing — Webinar / PDF registration
 
 Rövid landing, egy célra: email-cím cseréje értékért. Hero + 3 bullet (mit kapsz a PDF-ben), beágyazott form, az "után" oldal pedig a fájl és egy első köszönő email. **Egy mező** kérdezz csak (email), max kettő (név is). Konverziós cél: email-lista építés, későbbi drip kampányhoz.
 
@@ -61,7 +76,7 @@ Rövid landing, egy célra: email-cím cseréje értékért. Hero + 3 bullet (mi
 - A sablon kommentjei megmondják, melyik szekcióba mit írj — a szövegeket a 6. modul módszerével írd meg.
 - Wireframe: [Marketing Skiccfüzet — Lead magnet](https://marketing-skiccfuzet.vercel.app) · funnel-folytatás: [Funnel Tananyag — Lead magnet drip](https://funnel-tananyag.vercel.app)
 
-### 4.3 Online előadás landing — Webinar registration
+### 3. Online előadás landing — Webinar registration
 
 Élő eseményre regisztráló oldal. Hero + dátum/idő nagyban, 3 pont amit megtanulsz, "Ezt akkor nézd meg ha…", regisztrációs form. Időzítő ha 7 napon belüli az esemény. Konverziós cél: élő részvétel előkészítése, ahol pitch is lesz.
 
@@ -71,7 +86,7 @@ Rövid landing, egy célra: email-cím cseréje értékért. Hero + 3 bullet (mi
 - A sablon kommentjei megmondják, melyik szekcióba mit írj — a szövegeket a 6. modul módszerével írd meg.
 - Webinar funnel teljes lépéssor: [Funnel Tananyag — Webinar funnel](https://funnel-tananyag.vercel.app)
 
-### 4.4 Szolgáltatás landing — Service landing (érték-stack)
+### 4. Szolgáltatás landing — Service landing (érték-stack)
 
 Egy konkrét szolgáltatáshoz: hero + outcome ("mi lesz utána"), 3 pillér (hogyan dolgozol), bemutatkozás (ki vagy), referenciák, érték-stack (anchor-logika), FAQ, CTA. **Hosszabb, mint a konzultációs** — itt nem 25 perces hívást kell eladni, hanem egy 3-6 hónapos projektet.
 
@@ -81,7 +96,7 @@ Egy konkrét szolgáltatáshoz: hero + outcome ("mi lesz utána"), 3 pillér (ho
 - A sablon kommentjei megmondják, melyik szekcióba mit írj — a szövegeket a 6. modul módszerével írd meg.
 - Wireframe-tár: [Marketing Skiccfüzet — Szolgáltatás landing](https://marketing-skiccfuzet.vercel.app)
 
-### 4.5 Coming soon landing — Waitlist
+### 5. Coming soon landing — Waitlist
 
 Egyetlen kép, mottó, email-form. "Valami készül, írj fel a listára, ha készen van értesítelek." Konverziós cél: kíváncsiság-építés egy launch előtt, és minőségi lista, akik kifejezetten ezt várják.
 
@@ -91,7 +106,7 @@ Egyetlen kép, mottó, email-form. "Valami készül, írj fel a listára, ha ké
 - A sablon kommentjei megmondják, melyik szekcióba mit írj — a szövegeket a 6. modul módszerével írd meg.
 - Példa: a [Solo Business Library](https://expert-flow-school.vercel.app) launch coming-soon fázisa
 
-### 4.6 Long-form sales landing — Hormozi-style ajánlat-oldal
+### 6. Long-form sales landing — Hormozi-style ajánlat-oldal
 
 Hosszú görgetés, magas árú (300 ezer Ft+) szolgáltatáshoz. Hero + ígéret, probléma-elhatárolás (kinek nem való), megoldás, érték-stack 8-12 elemmel, **3 árazási csomag** anchor-logikával, garancia, FAQ, CTA × 4-5 (Stripe vagy Cal.com). Konverziós cél: a látogató önállóan eljusson a vásárlásig, hívás nélkül — vagy minőségi hívás-előminősítéssel.
 
@@ -107,7 +122,7 @@ Hosszú görgetés, magas árú (300 ezer Ft+) szolgáltatáshoz. Hero + ígére
 - Mindegyik **mobilra optimalizálva**, **Tailwind CDN-ről** húzva — nincs build-folyamat, az 5. modul deploy-lépéssora változatlanul működik rá.
 - A form-os sablonokban (lead magnet, webinar, coming soon) **kötelező hozzájárulás-checkbox** van — ne vedd ki, a GDPR miatt kell.
 - Minden szekció elején **HTML komment** mondja meg, mi a szekció célja, mit írj bele, és mit ne — a kitöltendő helyeket `[KITÖLTENDŐ: ...]` jelöli.
-- Egy landing önmagában nem elég — a 18. modul mutatja, hogyan kötöd be funnelbe.
+- Egy landing önmagában nem elég — a Funnel típusok referencia-modul mutatja, hogyan kötöd be funnelbe.
 
 ## Források
 
@@ -123,7 +138,7 @@ Hosszú görgetés, magas árú (300 ezer Ft+) szolgáltatáshoz. Hero + ígére
 
 ## Heti feladat
 
-Válassz ki a 6 mintából egyet, ami a következő ajánlatodhoz illik, és 45 perc alatt sajátítsd ki a kódjához tartozó wireframe-logikát — a cél nem az implementáció, hanem hogy lásd, miért működik.
+Válassz ki a 6 mintából egyet, ami a következő ajánlatodhoz illik, és 45 perc alatt értsd meg a hozzá tartozó wireframe-logikát. A cél nem az implementáció — hanem hogy lásd, miért működik.
 
 - Nyisd meg a [Marketing Skiccfüzet](https://marketing-skiccfuzet.vercel.app)-et, és válassz egy mintát, ami a következő szolgáltatásod / kampányod ajánlatához illik
 - Töltsd le a hozzá tartozó HTML sablont, olvasd át a szerkezetét felülről lefelé, és írj le 5 mondatban, mi a hero / érték-stack / CTA-logikája
