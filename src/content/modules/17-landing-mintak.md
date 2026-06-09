@@ -1,18 +1,18 @@
 ---
-lastReviewed: "2026-05-16"
+lastReviewed: "2026-06-09"
 ---
 
 # 4. modul — Landing page minták
 
-> **TL;DR** — 6 letölthető Tailwind HTML landing minta referencia-tárként, mindegyik konkrét célra.
+> **TL;DR** — 6 letölthető Tailwind HTML landing sablon referencia-tárként, mindegyik konkrét célra.
 > - **6 típus**: konzultációs, lead magnet, webinar, szolgáltatás (érték-stack), coming soon (waitlist), long-form sales (Hormozi)
-> - Minden mintához `boilerplate.html` + `SKILL.md` Claude Code-hoz, mobil + HTTPS + GDPR + Tailwind CDN
+> - Minden sablon önálló HTML fájl: Tailwind CDN, mobil-barát, magyar `[KITÖLTENDŐ]` placeholderekkel és szekciónkénti kommentekkel
 > - Wireframe-szintű részletek a [Marketing Skiccfüzet](https://marketing-skiccfuzet.vercel.app) testvér-site-on
 > - Egy landing önmagában nem elég — funnel-be kötés a 18. modulban
 
 ## Modul áttekintés
 
-Ettől a modultól már nem építünk sorrendben — referencia-tár. 6 landing page minta, mindegyikhez teljes Tailwind HTML kód, telepítési útmutató, technikai dokumentáció. Bármikor használhatók új szolgáltatás vagy kampány indításkor. Stílus a 2. modul (sötét háttér, dokumentáló-hang), fókuszáltabb céllal.
+Ettől a modultól már nem építünk sorrendben — referencia-tár. 6 landing sablon, mindegyik egyetlen letölthető HTML fájl, teljes Tailwind kóddal. Bármikor használhatók új szolgáltatás vagy kampány indításkor. Stílusuk szándékosan tiszta és minimalista: szürke kép-placeholderek, semleges színek, magyar `[KITÖLTENDŐ]` jelölések — Claude Code-dal szabod a saját adataidra, az 5. modul módszerével.
 
 > A 6 wireframe-magyarázat alul a [Marketing Skiccfüzet](https://marketing-skiccfuzet.vercel.app) testvér-anyagra mutat — ott megnézheted a teljes vázlatot egy A4-es nyomtatható lapon. A funnel-szintű összefüggésekért nézd a [Funnel Tananyagot](https://funnel-tananyag.vercel.app).
 
@@ -47,6 +47,8 @@ A leggyakrabban használt landing. Egy hosszú görgetés: hero + USP, mit kapsz
 
 - **Mikor használd:** új szolgáltatást indítasz, vagy magas árú (>200 ezer Ft) ajánlatot kínálsz, ami discovery-call típusú értékesítést igényel
 - **Mikor NE használd:** ha alacsony árú (<50 ezer Ft) terméket árulsz, ahol a hívás idő-pazarlás — ott közvetlenül Stripe payment link a CTA
+- **Letölthető sablon:** `konzultacios-landing.html` — a modul oldalán, a letöltések között
+- A sablon kommentjei megmondják, melyik szekcióba mit írj — a szövegeket a 6. modul módszerével írd meg.
 - Részletes minta + wireframe: [Marketing Skiccfüzet — Konzultációs landing](https://marketing-skiccfuzet.vercel.app)
 
 ### 4.2 Lead magnet landing — Webinar / PDF registration
@@ -55,6 +57,8 @@ Rövid landing, egy célra: email-cím cseréje értékért. Hero + 3 bullet (mi
 
 - **Mikor használd:** lista-építéskor, social mediából érkező hideg-forgalomra, vagy "Top 10 hiba" típusú edukáló tartalomhoz
 - **Mikor NE használd:** ha a PDF nem old meg konkrét problémát — egy érdektelen lead magnetet nem javít fel a landing
+- **Letölthető sablon:** `lead-magnet-landing.html` — a modul oldalán, a letöltések között
+- A sablon kommentjei megmondják, melyik szekcióba mit írj — a szövegeket a 6. modul módszerével írd meg.
 - Wireframe: [Marketing Skiccfüzet — Lead magnet](https://marketing-skiccfuzet.vercel.app) · funnel-folytatás: [Funnel Tananyag — Lead magnet drip](https://funnel-tananyag.vercel.app)
 
 ### 4.3 Online előadás landing — Webinar registration
@@ -63,6 +67,8 @@ Rövid landing, egy célra: email-cím cseréje értékért. Hero + 3 bullet (mi
 
 - **Mikor használd:** havonta 1-2 alkalommal csinálsz élő tanítást, vagy launch előtt egy szolgáltatást készítesz elő
 - **Mikor NE használd:** ha még nem építettél listát, és senki sem fog megjelenni — előbb egy lead magnet kell
+- **Letölthető sablon:** `webinar-landing.html` — a modul oldalán, a letöltések között
+- A sablon kommentjei megmondják, melyik szekcióba mit írj — a szövegeket a 6. modul módszerével írd meg.
 - Webinar funnel teljes lépéssor: [Funnel Tananyag — Webinar funnel](https://funnel-tananyag.vercel.app)
 
 ### 4.4 Szolgáltatás landing — Service landing (érték-stack)
@@ -71,6 +77,8 @@ Egy konkrét szolgáltatáshoz: hero + outcome ("mi lesz utána"), 3 pillér (ho
 
 - **Mikor használd:** van 1-2 bevált esettanulmányod, és a fő szolgáltatásod köré rendezed a marketing-anyagot
 - **Mikor NE használd:** új vagy a piacon, nincsenek referenciák — ekkor először konzultációs landinget építs, és ott szerezz visszajelzést
+- **Letölthető sablon:** `szolgaltatas-landing.html` — a modul oldalán, a letöltések között
+- A sablon kommentjei megmondják, melyik szekcióba mit írj — a szövegeket a 6. modul módszerével írd meg.
 - Wireframe-tár: [Marketing Skiccfüzet — Szolgáltatás landing](https://marketing-skiccfuzet.vercel.app)
 
 ### 4.5 Coming soon landing — Waitlist
@@ -79,6 +87,8 @@ Egyetlen kép, mottó, email-form. "Valami készül, írj fel a listára, ha ké
 
 - **Mikor használd:** új terméket / kurzust építesz 4-8 hetes ciklusban, és előzetes érdeklődést szeretnél mérni (és listát építeni)
 - **Mikor NE használd:** ha még a termék-ötlet sincs kalibrálva — akkor először 5 interjút csinálj a célközönséggel, ne weboldalt
+- **Letölthető sablon:** `coming-soon-landing.html` — a modul oldalán, a letöltések között
+- A sablon kommentjei megmondják, melyik szekcióba mit írj — a szövegeket a 6. modul módszerével írd meg.
 - Példa: a [Solo Business Library](https://expert-flow-school.vercel.app) launch coming-soon fázisa
 
 ### 4.6 Long-form sales landing — Hormozi-style ajánlat-oldal
@@ -87,24 +97,26 @@ Hosszú görgetés, magas árú (300 ezer Ft+) szolgáltatáshoz. Hero + ígére
 
 - **Mikor használd:** validált termék, 5+ referencia, és skálázni szeretnéd hívás-mentes értékesítéssel
 - **Mikor NE használd:** ha új vagy a piacon, vagy a copy-d még nem kalibrált — előbb konzultációs landinggel teszteld a hookot
+- **Letölthető sablon:** `longform-sales-landing.html` — a modul oldalán, a letöltések között
+- A sablon kommentjei megmondják, melyik szekcióba mit írj — a szövegeket a 6. modul módszerével írd meg.
 - Copy-keret + példák: [Copywriting tananyag — 10 lecke](https://copywriting-ef.vercel.app)
 
 ## Fő pontok
 
-- Mindegyik mintához van **letölthető HTML fájl** (`boilerplate.html`) — egyetlen szöveges fájl, amit `index.html`-nek nevezel át és módosítasz.
-- Mindegyik **mobilra optimalizálva**, **HTTPS-kompatibilis**, **Tailwind CDN-ről** húzva.
-- Mindegyik **GDPR-konform** alapon (GA4 IP-anonimizálással, opt-in form-mal).
-- A SKILL.md fájl megmutatja, hogyan installálod Claude Code-ba, hogy az AI a saját adataidra szabja a sablont.
+- Mindegyik típushoz van **letölthető HTML fájl** — egyetlen szöveges fájl, amit `index.html`-nek nevezel át és módosítasz.
+- Mindegyik **mobilra optimalizálva**, **Tailwind CDN-ről** húzva — nincs build-folyamat, az 5. modul deploy-lépéssora változatlanul működik rá.
+- A form-os sablonokban (lead magnet, webinar, coming soon) **kötelező hozzájárulás-checkbox** van — ne vedd ki, a GDPR miatt kell.
+- Minden szekció elején **HTML komment** mondja meg, mi a szekció célja, mit írj bele, és mit ne — a kitöltendő helyeket `[KITÖLTENDŐ: ...]` jelöli.
 - Egy landing önmagában nem elég — a 18. modul mutatja, hogyan kötöd be funnelbe.
 
 ## Források
 
-- 📁 4-1-konzultacios-landing/ — Konzultációs landing minta
-- 📁 4-2-lead-magnet-landing/ — Lead magnet landing minta
-- 📁 4-3-online-eloadas-landing/ — Webinar landing minta
-- 📁 4-4-szolgaltatas-landing/ — Szolgáltatás landing minta
-- 📁 4-5-coming-soon-landing/ — Coming soon landing minta
-- 📁 4-6-long-form-sales-landing/ — Long-form sales landing minta
+- `konzultacios-landing.html` — Konzultációs landing sablon
+- `lead-magnet-landing.html` — Lead magnet landing sablon
+- `webinar-landing.html` — Online előadás (webinar) landing sablon
+- `szolgaltatas-landing.html` — Szolgáltatás landing sablon (érték-stack)
+- `coming-soon-landing.html` — Coming soon (waitlist) landing sablon
+- `longform-sales-landing.html` — Long-form sales landing sablon
 - 🔗 [Marketing Skiccfüzet — 43 vázlat](https://marketing-skiccfuzet.vercel.app)
 - 🔗 [Funnel Tananyag — 23 funnel típus](https://funnel-tananyag.vercel.app)
 - 🔗 [Copywriting tananyag — 10 lecke](https://copywriting-ef.vercel.app)
@@ -114,6 +126,6 @@ Hosszú görgetés, magas árú (300 ezer Ft+) szolgáltatáshoz. Hero + ígére
 Válassz ki a 6 mintából egyet, ami a következő ajánlatodhoz illik, és 45 perc alatt sajátítsd ki a kódjához tartozó wireframe-logikát — a cél nem az implementáció, hanem hogy lásd, miért működik.
 
 - Nyisd meg a [Marketing Skiccfüzet](https://marketing-skiccfuzet.vercel.app)-et, és válassz egy mintát, ami a következő szolgáltatásod / kampányod ajánlatához illik
-- Olvasd át a hozzá tartozó `boilerplate.html` szerkezetét felülről lefelé, és írj le 5 mondatban, mi a hero / érték-stack / CTA-logikája
+- Töltsd le a hozzá tartozó HTML sablont, olvasd át a szerkezetét felülről lefelé, és írj le 5 mondatban, mi a hero / érték-stack / CTA-logikája
 - Nyisd meg a saját jelenlegi landing-edet (vagy a 6. modul outputját), és jegyzeteld le 3 pontban, mit kell ehhez igazítanod
 

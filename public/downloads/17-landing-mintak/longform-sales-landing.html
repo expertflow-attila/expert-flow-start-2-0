@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>[KITÖLTENDŐ: az ajánlat neve] — [KITÖLTENDŐ: neved / márkád]</title>
+  <meta name="description" content="[KITÖLTENDŐ: 1 mondat — az ajánlat fő ígérete]">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-neutral-900 antialiased">
+
+<!-- ============================================================
+  LONG-FORM SALES LANDING — sablon
+  Cél: magas árú szolgáltatás eladása hívás nélkül (vagy erős
+  hívás-előminősítéssel). Hosszú görgetés, a CTA 4-5 helyen ismétlődik.
+  A CTA-gombok mögé Stripe payment link VAGY Cal.com link kerül — egy út, ne kettő.
+  A szövegeket a 6. modul módszerével írd meg.
+
+  HOGYAN HASZNÁLD:
+  1. Nevezd át a fájlt index.html-re.
+  2. Nyisd meg böngészőben (dupla kattintás), és nézd végig a szerkezetét.
+  3. Claude Code-dal töltsd ki a [KITÖLTENDŐ] részeket — add oda neki a 3 csomagod
+     tartalmát és árait (3. modul), a többit a kommentek vezetik.
+  4. A csomag-gombok mögé Stripe payment link (12. modul) vagy Cal.com link kerül.
+  5. Deploy az 5. modul lépéssorával: GitHub repo, Vercel, saját domain.
+============================================================ -->
+
+<!-- HERO + ÍGÉRET
+  Mit írj: a fő ígéret — milyen eredményt, mennyi idő alatt, és mi a feltétele.
+  Mit NE: ne ígérj számszerű eredményt, amit nem tudsz alátámasztani. -->
+<header class="max-w-3xl mx-auto px-6 pt-24 pb-20 text-center">
+  <p class="text-sm uppercase tracking-widest text-neutral-500 mb-6">[KITÖLTENDŐ: kinek szól — pl. "szolgáltató vállalkozóknak"]</p>
+  <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
+    [KITÖLTENDŐ: a fő ígéret egy mondatban]
+  </h1>
+  <p class="text-lg text-neutral-600 mb-10 max-w-xl mx-auto">
+    [KITÖLTENDŐ: 2 mondat — hogyan, mennyi idő alatt, és mitől más, mint amit eddig próbált]
+  </p>
+  <a href="#csomagok" class="inline-block bg-neutral-900 text-white px-8 py-4 rounded-md font-semibold hover:bg-neutral-700">
+    [KITÖLTENDŐ: CTA — pl. "Megnézem a csomagokat"]
+  </a>
+</header>
+
+<!-- PROBLÉMA + ELHATÁROLÁS
+  Mit írj: a vevő jelenlegi helyzete az ő szavaival (3 fájdalom), majd őszintén:
+  kinek NEM való ez az ajánlat. A kizárás itt bizalomépítő ÉS előminősítő.
+  Mit NE: ne dramatizálj ("az életed romokban") — írd le pontosan, tényszerűen. -->
+<section class="bg-neutral-50 py-20">
+  <div class="max-w-2xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-8">Ismerős ez a helyzet?</h2>
+    <ul class="space-y-4 text-neutral-700 mb-12">
+      <li class="border-l-2 border-neutral-300 pl-4">[KITÖLTENDŐ: 1. fájdalom — a vevőd saját szavaival, ahogy az interjúkban mondta]</li>
+      <li class="border-l-2 border-neutral-300 pl-4">[KITÖLTENDŐ: 2. fájdalom]</li>
+      <li class="border-l-2 border-neutral-300 pl-4">[KITÖLTENDŐ: 3. fájdalom]</li>
+    </ul>
+    <h3 class="text-xl font-bold mb-4">Kinek nem való</h3>
+    <ul class="space-y-3 text-neutral-600">
+      <li>— [KITÖLTENDŐ: 1. kizáró feltétel — pl. ha még nincs meg X alapfeltétel]</li>
+      <li>— [KITÖLTENDŐ: 2. kizáró feltétel]</li>
+      <li>— [KITÖLTENDŐ: 3. kizáró feltétel]</li>
+    </ul>
+  </div>
+</section>
+
+<!-- MEGOLDÁS
+  Mit írj: hogyan oldod meg a fenti problémát — a folyamatod 3-4 lépésben, eredmény-fókusszal.
+  Mit NE: ne a módszertan nevét add el ("az ABC-keretrendszer") — a változást add el. -->
+<section class="py-20">
+  <div class="max-w-3xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-12 text-center">Hogyan jutunk el a megoldásig</h2>
+    <div class="space-y-6 max-w-2xl mx-auto">
+      <div class="flex gap-5">
+        <span class="font-bold text-2xl text-neutral-300 shrink-0">1</span>
+        <div>
+          <p class="font-semibold mb-1">[KITÖLTENDŐ: 1. lépés neve]</p>
+          <p class="text-neutral-600">[KITÖLTENDŐ: 1-2 mondat — mi történik, mi a kimenete]</p>
+        </div>
+      </div>
+      <div class="flex gap-5">
+        <span class="font-bold text-2xl text-neutral-300 shrink-0">2</span>
+        <div>
+          <p class="font-semibold mb-1">[KITÖLTENDŐ: 2. lépés neve]</p>
+          <p class="text-neutral-600">[KITÖLTENDŐ: 1-2 mondat]</p>
+        </div>
+      </div>
+      <div class="flex gap-5">
+        <span class="font-bold text-2xl text-neutral-300 shrink-0">3</span>
+        <div>
+          <p class="font-semibold mb-1">[KITÖLTENDŐ: 3. lépés neve]</p>
+          <p class="text-neutral-600">[KITÖLTENDŐ: 1-2 mondat]</p>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-12">
+      <a href="#csomagok" class="inline-block bg-neutral-900 text-white px-8 py-4 rounded-md font-semibold hover:bg-neutral-700">
+        [KITÖLTENDŐ: CTA — ugyanaz, mint fent]
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ÉRTÉK-STACK
+  Mit írj: 8-12 tétel, amit a vevő összesen kap. Mindenhez 1 sor: mi ez, mire jó.
+  Mit NE: ne tölts fel a listát töltelékkel ("hozzáférés a tudásomhoz") — minden tétel
+  legyen kézzelfogható (dokumentum, alkalom, sablon, hozzáférés). -->
+<section class="bg-neutral-50 py-20">
+  <div class="max-w-2xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-10 text-center">Minden, amit kapsz</h2>
+    <ul class="space-y-3 text-neutral-700">
+      <li class="bg-white border border-neutral-200 rounded-md p-4">[KITÖLTENDŐ: 1. tétel — pl. "8 × 60 perces közös munkamenet"]</li>
+      <li class="bg-white border border-neutral-200 rounded-md p-4">[KITÖLTENDŐ: 2. tétel]</li>
+      <li class="bg-white border border-neutral-200 rounded-md p-4">[KITÖLTENDŐ: 3. tétel]</li>
+      <li class="bg-white border border-neutral-200 rounded-md p-4">[KITÖLTENDŐ: 4. tétel]</li>
+      <li class="bg-white border border-neutral-200 rounded-md p-4">[KITÖLTENDŐ: 5. tétel]</li>
+      <li class="bg-white border border-neutral-200 rounded-md p-4">[KITÖLTENDŐ: 6. tétel]</li>
+      <li class="bg-white border border-neutral-200 rounded-md p-4">[KITÖLTENDŐ: 7. tétel]</li>
+      <li class="bg-white border border-neutral-200 rounded-md p-4">[KITÖLTENDŐ: 8. tétel]</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ÁRAZÁS — 3 CSOMAG (anchor-logika)
+  Mit írj: 3 csomag. A KÖZÉPSŐ az, amit a legtöbb vevőnek szánsz — azt emeld ki.
+  Az alsó a középső lebutított, a felső a kibővített változata (lásd 3. modul).
+  Mit NE: ne találj ki 3 külön terméket, és ne tegyél kamu áthúzott árakat. -->
+<section id="csomagok" class="py-20">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-12 text-center">Válaszd ki a hozzád illő csomagot</h2>
+    <div class="grid md:grid-cols-3 gap-8 items-start">
+
+      <div class="border border-neutral-200 rounded-lg p-8">
+        <p class="font-bold text-lg mb-1">[KITÖLTENDŐ: alap csomag neve]</p>
+        <p class="text-3xl font-bold mb-6">[KITÖLTENDŐ: ár Ft]</p>
+        <ul class="space-y-2 text-sm text-neutral-600 mb-8">
+          <li>+ [KITÖLTENDŐ: tartalom 1]</li>
+          <li>+ [KITÖLTENDŐ: tartalom 2]</li>
+          <li>+ [KITÖLTENDŐ: tartalom 3]</li>
+        </ul>
+        <a href="[KITÖLTENDŐ: Stripe payment link vagy Cal.com link]"
+           class="block text-center border border-neutral-900 px-6 py-3 rounded-md font-semibold hover:bg-neutral-100">
+          Ezt választom
+        </a>
+      </div>
+
+      <div class="border-2 border-neutral-900 rounded-lg p-8 relative">
+        <p class="absolute -top-3 left-1/2 -translate-x-1/2 bg-neutral-900 text-white text-xs px-3 py-1 rounded-full">Legtöbben ezt választják</p>
+        <p class="font-bold text-lg mb-1">[KITÖLTENDŐ: középső csomag neve]</p>
+        <p class="text-3xl font-bold mb-6">[KITÖLTENDŐ: ár Ft]</p>
+        <ul class="space-y-2 text-sm text-neutral-600 mb-8">
+          <li>+ Minden az alap csomagból</li>
+          <li>+ [KITÖLTENDŐ: plusz tartalom 1]</li>
+          <li>+ [KITÖLTENDŐ: plusz tartalom 2]</li>
+          <li>+ [KITÖLTENDŐ: plusz tartalom 3]</li>
+        </ul>
+        <a href="[KITÖLTENDŐ: Stripe payment link vagy Cal.com link]"
+           class="block text-center bg-neutral-900 text-white px-6 py-3 rounded-md font-semibold hover:bg-neutral-700">
+          Ezt választom
+        </a>
+      </div>
+
+      <div class="border border-neutral-200 rounded-lg p-8">
+        <p class="font-bold text-lg mb-1">[KITÖLTENDŐ: prémium csomag neve]</p>
+        <p class="text-3xl font-bold mb-6">[KITÖLTENDŐ: ár Ft]</p>
+        <ul class="space-y-2 text-sm text-neutral-600 mb-8">
+          <li>+ Minden a középső csomagból</li>
+          <li>+ [KITÖLTENDŐ: plusz tartalom 1]</li>
+          <li>+ [KITÖLTENDŐ: plusz tartalom 2]</li>
+        </ul>
+        <a href="[KITÖLTENDŐ: Stripe payment link vagy Cal.com link]"
+           class="block text-center border border-neutral-900 px-6 py-3 rounded-md font-semibold hover:bg-neutral-100">
+          Ezt választom
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- GARANCIA
+  Mit írj: pontosan mit vállalsz, milyen feltétellel, meddig. Csak olyat, amit tartani tudsz.
+  Mit NE: ne írj feltétel nélküli "100% pénzvisszafizetést", ha valójában feltételhez kötöd. -->
+<section class="bg-neutral-50 py-20">
+  <div class="max-w-2xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold mb-6">Garancia</h2>
+    <div class="border-2 border-neutral-900 rounded-lg p-8 text-left">
+      <p class="text-neutral-700">
+        [KITÖLTENDŐ: a garanciád pontos szövege — mit vállalsz, milyen feltétellel, milyen határidővel.
+        Pl. "Ha az első alkalom után úgy érzed, nem neked való, a teljes díjat visszaadom."]
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- REFERENCIÁK
+  Mit írj: 2-3 valódi eredmény, névvel. Magas árú ajánlatnál ez nem opció, hanem feltétel —
+  ha még nincs, ne ezt a landinget használd (lásd a modul "mikor NE" részét).
+  Mit NE: kitalált vagy névtelen vélemény tilos. -->
+<section class="py-20">
+  <div class="max-w-3xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-12 text-center">Akik már végigcsinálták</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      <figure class="border border-neutral-200 rounded-lg p-6">
+        <blockquote class="text-neutral-700 mb-4">"[KITÖLTENDŐ: 1. idézet — konkrét előtte-utána]"</blockquote>
+        <figcaption class="text-sm font-semibold">[KITÖLTENDŐ: név, foglalkozás]</figcaption>
+      </figure>
+      <figure class="border border-neutral-200 rounded-lg p-6">
+        <blockquote class="text-neutral-700 mb-4">"[KITÖLTENDŐ: 2. idézet]"</blockquote>
+        <figcaption class="text-sm font-semibold">[KITÖLTENDŐ: név, foglalkozás]</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ
+  Mit írj: 6-8 kérdés. Magas árnál ide tartozik: részletfizetés, számlázás, időigény,
+  mi van, ha elakad, mikor indul.
+  Mit NE: ne hagyd ki az ár-kifogást — válaszold meg írásban, mielőtt feltennék. -->
+<section class="bg-neutral-50 py-20">
+  <div class="max-w-2xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-10">Gyakori kérdések</h2>
+    <div class="space-y-3">
+      <details class="bg-white border border-neutral-200 rounded-md p-4">
+        <summary class="font-semibold cursor-pointer">[KITÖLTENDŐ: 1. kérdés — pl. van részletfizetés?]</summary>
+        <p class="text-neutral-600 mt-3">[KITÖLTENDŐ: válasz]</p>
+      </details>
+      <details class="bg-white border border-neutral-200 rounded-md p-4">
+        <summary class="font-semibold cursor-pointer">[KITÖLTENDŐ: 2. kérdés]</summary>
+        <p class="text-neutral-600 mt-3">[KITÖLTENDŐ: válasz]</p>
+      </details>
+      <details class="bg-white border border-neutral-200 rounded-md p-4">
+        <summary class="font-semibold cursor-pointer">[KITÖLTENDŐ: 3. kérdés]</summary>
+        <p class="text-neutral-600 mt-3">[KITÖLTENDŐ: válasz]</p>
+      </details>
+      <details class="bg-white border border-neutral-200 rounded-md p-4">
+        <summary class="font-semibold cursor-pointer">[KITÖLTENDŐ: 4. kérdés]</summary>
+        <p class="text-neutral-600 mt-3">[KITÖLTENDŐ: válasz]</p>
+      </details>
+      <details class="bg-white border border-neutral-200 rounded-md p-4">
+        <summary class="font-semibold cursor-pointer">[KITÖLTENDŐ: 5. kérdés]</summary>
+        <p class="text-neutral-600 mt-3">[KITÖLTENDŐ: válasz]</p>
+      </details>
+      <details class="bg-white border border-neutral-200 rounded-md p-4">
+        <summary class="font-semibold cursor-pointer">[KITÖLTENDŐ: 6. kérdés]</summary>
+        <p class="text-neutral-600 mt-3">[KITÖLTENDŐ: válasz]</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ZÁRÓ CTA
+  Mit írj: rövid összefoglaló mondat + a fő CTA még egyszer.
+  Mit NE: ne nyiss itt új gondolatot — csak zárd le, amit fent felépítettél. -->
+<section class="py-20">
+  <div class="max-w-xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold mb-4">[KITÖLTENDŐ: záró mondat — az ígéret megismétlése röviden]</h2>
+    <p class="text-neutral-600 mb-8">[KITÖLTENDŐ: 1 mondat — mi az első lépés a kattintás után]</p>
+    <a href="#csomagok" class="inline-block bg-neutral-900 text-white px-8 py-4 rounded-md font-semibold hover:bg-neutral-700">
+      [KITÖLTENDŐ: CTA — ugyanaz, mint fent]
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="py-12 border-t border-neutral-200">
+  <div class="max-w-3xl mx-auto px-6 text-center text-sm text-neutral-500 space-y-2">
+    <p>[KITÖLTENDŐ: neved / vállalkozásod neve] · [KITÖLTENDŐ: email-címed]</p>
+    <p><a href="[KITÖLTENDŐ: adatkezelési tájékoztató URL]" class="underline">Adatkezelési tájékoztató</a> · <a href="[KITÖLTENDŐ: ÁSZF URL]" class="underline">ÁSZF</a></p>
+  </div>
+</footer>
+
+</body>
+</html>

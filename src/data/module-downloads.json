@@ -25,7 +25,8 @@
   "05-weboldal": [
     {"label": "Promptok (3 db)", "file": "prompts.md"},
     {"label": "Claude Code skill", "file": "SKILL.md"},
-    {"label": "Parancs-referencia", "file": "reference.md"}
+    {"label": "Parancs-referencia", "file": "reference.md"},
+    {"label": "Kitölthető weboldal-sablon (8 szekció, HTML)", "file": "boilerplate.html"}
   ],
   "06-copy-landing": [
     {"label": "Promptok (4 db)", "file": "prompts.md"},
@@ -64,9 +65,29 @@
     {"label": "Claude Code skill", "file": "SKILL.md"},
     {"label": "Parancs-referencia", "file": "reference.md"}
   ],
-  "17-landing-mintak": [],
+  "17-landing-mintak": [
+    {"label": "Konzultációs landing sablon (HTML)", "file": "konzultacios-landing.html"},
+    {"label": "Lead magnet landing sablon (HTML)", "file": "lead-magnet-landing.html"},
+    {"label": "Online előadás landing sablon (HTML)", "file": "webinar-landing.html"},
+    {"label": "Szolgáltatás landing sablon (HTML)", "file": "szolgaltatas-landing.html"},
+    {"label": "Coming soon landing sablon (HTML)", "file": "coming-soon-landing.html"},
+    {"label": "Long-form sales landing sablon (HTML)", "file": "longform-sales-landing.html"}
+  ],
   "18-funnel-tipusok": [],
-  "19-ai-eszkozok": [],
+  "19-ai-eszkozok": [
+    {"label": "Email-író skill", "file": "email-iro.SKILL.md"},
+    {"label": "Email-író példák", "file": "email-iro.reference.md"},
+    {"label": "Landing-generátor skill", "file": "landing-generator.SKILL.md"},
+    {"label": "Landing-generátor példa", "file": "landing-generator.reference.md"},
+    {"label": "Lead-magnet-generátor skill", "file": "lead-magnet-generator.SKILL.md"},
+    {"label": "Lead-magnet példa", "file": "lead-magnet-generator.reference.md"},
+    {"label": "CRM-dashboard skill", "file": "crm-dashboard.SKILL.md"},
+    {"label": "CRM-dashboard példa", "file": "crm-dashboard.reference.md"},
+    {"label": "Content-pipeline skill", "file": "content-pipeline.SKILL.md"},
+    {"label": "Content-pipeline példa", "file": "content-pipeline.reference.md"},
+    {"label": "Avatár-építő skill", "file": "avatar-builder.SKILL.md"},
+    {"label": "Avatár-építő példa", "file": "avatar-builder.reference.md"}
+  ],
   "20-elso-digitalis-termek": [
     {"label": "Promptok (3 db)", "file": "prompts.md"},
     {"label": "Claude Code skill", "file": "SKILL.md"},

@@ -1,20 +1,27 @@
 ---
-lastReviewed: "2026-05-16"
+lastReviewed: "2026-06-09"
 ---
 
 # 5. modul · Egyoldalas weboldal építése
 
-> Beszélgetés az AI-jal, nem kódolás. HTML + Tailwind + Vercel — élesben, a saját domaineden, két óra alatt.
+> Beszélgetés az AI-jal, nem kódolás. HTML + Tailwind + Vercel — élesben, a saját domaineden, egy délután alatt.
 
-> **TL;DR** — 8 szekciós oldal Claude Code-dal generálva, Vercel-re deployolva, saját domainen, 2 óra alatt.
+> **TL;DR** — 8 szekciós oldal Claude Code-dal generálva, Vercel-re deployolva, saját domainen, egy délután alatt.
 > - **8 szekció kötött sorrendben**: Hero, Problémák, Megoldás, Rólam, Outcome-ok, Garancia, FAQ, CTA+footer
+> - **Indulhatsz a kész `boilerplate.html`-ből** — kitöltöd a placeholder-szövegeket, nem kell nulláról generálni
 > - **HTML + Tailwind CDN** Claude Code-dal, finomítás 2-3 prompt körrel — 20-30 perc
-> - **Vercel deploy**: GitHubból Vercelre, majd a saját domainre kötve (Sybell A+CNAME), 1-2 óra propagáció, ingyen HTTPS
+> - **Vercel deploy**: GitHubból Vercelre, majd a saját domainre kötve (Sybell A+CNAME) — a DNS-propagáció 1-24 óra, ne aznap estére időzítsd
 > - **CTA mögött Stripe HUF Checkout** (~2% + 50 Ft, NAV-számlát Számlázz.hu-val párosítsd — 12. modul)
 
-## A hét témája
+## Hol tartasz
 
-A legtöbb kezdő itt akad meg: a weboldal túlbonyolítva tűnik. Pedig egyoldalas weboldal felépítése ma annyi, hogy az AI-nak elmondod, mi legyen rajta — és ő megírja a HTML-t. Egy nyolc szekciós oldal a saját domaineden, mobil-barát, HTTPS-es. Cél: létezzen, és az ajánlatod 30 mp alatt érthető legyen róla.
+A 4. modulból fut a géped: Claude Code, saját domain, hivatalos email. Az 1-3. modulból megvan a nyersanyag: az egy mondatod, a vevőd fájdalmai, a csomagjaid. Ezen a héten ebből lesz publikus weboldal.
+
+## Mit építesz meg ezen a héten
+
+Egy élő, nyolc szekciós oldal a saját domaineden — mobil-barát, HTTPS-es. Cél: létezzen, és az ajánlatod 30 másodperc alatt érthető legyen róla. A legtöbb kezdő itt akad meg, mert a weboldal túlbonyolítva tűnik — pedig ma annyi, hogy az AI-nak elmondod, mi legyen rajta.
+
+Tervezz vele egy délutánt — és számolj azzal, hogy a domain-rákötés után a DNS-propagáció 1-24 óra. Ne aznap estére időzítsd a „megmutatom mindenkinek" pillanatot.
 
 ## 01. A nyolc szekció
 
@@ -31,11 +38,17 @@ Kötött sorrendben:
 
 Mindegyik szekciónak EGY dolga van — egy érzés, egy felismerés, egy kattintás. Ne tölts mindent mindennel. Az 1-3. modulban már van anyagod: ajánlat 1 mondata adja a Herót, 3 probléma a vevő hangjából, 3 outcome a csomagból.
 
+Mielőtt építesz, nézz meg 2 mintát — [17. modul · Landing page minták](/modules/17-landing-mintak). Ott látod, hogyan néz ki ugyanez a szerkezet kész, működő oldalakon.
+
 ## 02. HTML és Tailwind generálás Claude Code-dal
 
-A 4. modul setup-ja után üres mappa VS Code-ban, és a Claude Code-nak elmondod: „Készíts egy index.html-t Tailwind CDN-ről, ezekkel a szekciókkal: [lista]." Tailwind CDN egyetlen sorral betölthető — nincs build-folyamat (a kezdők leggyakoribb akadálya).
+Két út van, és mindkettő jó.
 
-Második prompt-kör: „A hero legyen csendesebb, a garancia más háttérszínnel, a FAQ legyen accordion." Az AI újragenerálja, te ránézel a böngészőben (`open index.html`), visszaszólsz. 20-30 perc, kész.
+**A gyors út: a kész boilerplate.** A letölthetők között megtalálod a `boilerplate.html`-t — a teljes 8 szekciós oldal működő Tailwind-kóddal, magyar `[KITÖLTENDŐ: …]` placeholder-szövegekkel és kommentekkel szekciónként. Megnyitod VS Code-ban, kicseréled a placeholdereket a saját szövegeidre, és kész az első verzió. Böngészőben azonnal nézheted (`open index.html`).
+
+**A generálós út.** A 4. modul setup-ja után üres mappa VS Code-ban, és a Claude Code-nak elmondod: „Készíts egy index.html-t Tailwind CDN-ről, ezekkel a szekciókkal: [lista]." Tailwind CDN egyetlen sorral betölthető — nincs build-folyamat (a kezdők leggyakoribb akadálya).
+
+Második prompt-kör mindkét útnál: „A hero legyen csendesebb, a garancia más háttérszínnel, a FAQ legyen accordion." Az AI újragenerálja vagy átírja, te ránézel a böngészőben, visszaszólsz. 20-30 perc, kész.
 
 ## 03. GitHub és Vercel deploy + custom domain
 
@@ -46,7 +59,9 @@ Az `index.html` még a gépeden. Vercel = ingyenes hoszting, GitHub-ról deployo
 2. Vercel.com, GitHub-login, „New Project", import repo, „Deploy" (30 mp, `tedneved.vercel.app`)
 3. Custom domain: Vercel admin alatt Settings, majd Domains, írd be: `tedneved.hu`
 4. Vercel ad 2 DNS-rekordot (A + CNAME), bemásolod a Sybell DNS-be
-5. 1-2 óra propagáció, automatikus HTTPS
+5. DNS-propagáció: jellemzően 1-2 óra, de akár 24 óra is lehet — utána automatikus HTTPS
+
+A propagáció alatt a `tedneved.vercel.app` címen már él az oldal — a saját domain csak idő kérdése. Ezért ne estére időzítsd a domain-rákötést: csináld meg délután, és másnap reggel ellenőrizd.
 
 A Vercel **Hobby** csomag ingyenes (személyes/non-commercial, 100 GB bandwidth/hó), kereskedelmi forgalomra $20/hó-tól a **Pro**.
 
@@ -62,10 +77,26 @@ A **Foglalj most** / **Vásárolj** gomb mögé legegyszerűbb a **Stripe HUF Ch
 
 Részletes Stripe + Wise setup és NAV-integráció: **12. modul**. Itt csak: a CTA-gomb mögé fizetési URL kell, Stripe Checkout 10 perc.
 
+## Én így csináltam
+
+> **[ATTILA TÖLTI KI: az első éles oldalad — mennyi idő volt ténylegesen, hány prompt-kör kellett, és mi tartott a legtovább a deploy + domain folyamatban]**
+
 ## Heti feladat
 
-Generáld le az `index.html`-t Claude Code-dal, push-old GitHub-ra, deployold Vercel-re, és kösd rá a saját domaint.
+Töltsd ki a `boilerplate.html`-t a saját szövegeiddel, vagy generáld le az `index.html`-t Claude Code-dal. Utána push-old GitHub-ra, deployold Vercel-re, és kösd rá a saját domaint — a DNS-propagációt számold bele az idődbe.
 
-## Eredmény
+**Akkor vagy kész, ha** az oldal él a saját domaineden, telefonon is megnézted, és az egy-mondatod (1. modul) ott áll a hero-ban.
 
-A hét végére van egy éles weboldalad a saját domaineden — fotózd le a böngésző URL-jét, ez fontos pillanat, mert ettől a perctől nyilvánosan létezel.
+## Ha elakadtál
+
+- **„Nem tudom, milyen szöveg menjen a szekciókba."** Nem írsz újat: az 1. modul adja a Herót, a 2. modul jegyzetei a Problémákat, a 3. modul csomagjai az Outcome-okat.
+- **„A saját domainen még nem él az oldal."** DNS-propagáció: 1-24 óra normális — addig a `tedneved.vercel.app` címen ellenőrizd, hogy maga az oldal jó-e.
+- **„Telefonon szétesik a layout."** Mondd el a Claude Code-nak pontosan, mi csúszik el — a Tailwind reszponzív osztályokkal (`md:`, `lg:`) javítja.
+- **„Csúnyának érzem."** Az első verziónak nem szépnek kell lennie, hanem érthetőnek — a 17. modul mintáiból lopj szerkezetet, ne díszítést.
+
+## Letölthetők
+
+- `boilerplate.html` — a teljes 8 szekciós oldal működő Tailwind-kóddal, kitöltendő placeholder-szövegekkel
+- `prompts.md` — promptok a generáláshoz, finomításhoz és a deployhoz
+- `reference.md` — lépéssor-referencia a GitHub + Vercel + domain folyamathoz
+- `SKILL.md` — Claude Code skill a modulhoz
