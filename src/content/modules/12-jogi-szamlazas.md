@@ -1,5 +1,5 @@
 ---
-lastReviewed: "2026-05-16"
+lastReviewed: "2026-06-09"
 ---
 
 # 12. modul · Jogi és számlázási minimum
@@ -10,18 +10,23 @@ lastReviewed: "2026-05-16"
 > - **Forma**: csak magánszemély ügyfélnél KATA; vegyes (céges is) ügyfélkörnél EV átalányadó; több alapító és nagy forgalom esetén Kft.
 > - **Számlázás**: Számlázz.hu vagy Billingo + NAV Online Számla regisztráció (kötelező)
 > - **Fizetés**: belföldön Stripe HUF (~2% + 50 Ft), külföldön Wise Business multi-currency, számlázás külön
+> - **Könyvelő**: 6 kérdéses választó-lista + induló költség-összesítő az első 3 hónapra
 > - **Kötelező jogi**: ÁSZF + Adatvédelmi nyilatkozat — NE AI-val generáld, jogi sablon (5-10 ezer Ft) vagy tanácsadó
 
 **Utoljára ellenőrizve: 2026-05-15.** A magyar adózási szabályok változnak (a KATA-küszöbtől az ÁFA-szabályokig). Ellenőrizd a NAV oldalán mindig — ez a modul tájékoztató, nem könyvelői tanácsadás.
 
-## A hét témája
+## Hol tartasz
 
-Nem inspiráló modul — jogi és adózási minimum, ami nélkül vállalkozni nem lehet Magyarországon. Sok kezdő tolja maga előtt hónapokig („majd ha lesz pénz"), és az első ügyfél előtt kerül bajba.
+A 10. modulban rendet raktál a háttérben, a 11.-ben mérsz — ez az utolsó építőelem a 12 hétből. Nem inspiráló modul — jogi és adózási minimum, ami nélkül vállalkozni nem lehet Magyarországon. Sok kezdő tolja maga előtt hónapokig („majd ha lesz pénz"), és az első ügyfél előtt kerül bajba.
 
 Három alap-kérdés:
 1. Vállalkozási forma (KATA, EV, Kft.)
 2. Számlázó-rendszer (Számlázz.hu vagy Billingo)
 3. Kötelező jogi szövegek (ÁSZF, Adatvédelmi nyilatkozat)
+
+## Mit építesz meg ezen a héten
+
+A vállalkozásod jogi minimuma: kiválasztott forma, működő számlázó NAV-bekötéssel, fizetési megoldás, ÁSZF és adatvédelmi nyilatkozat a webhelyen — és egy könyvelő, akivel beszéltél.
 
 ## 01. KATA / EV / Kft. — melyik forma?
 
@@ -65,7 +70,20 @@ A saját utamon ezt láttam: ha **csak magánszemélyeknek** szolgáltatsz és n
 - https://nav.gov.hu/ado/katas-voltam/gyakran-ismetelt-kerdesek
 - https://nav.gov.hu/ugyfeliranytu/valaszol-a-nav/uj-kata/az-adoalanyisag-megszunese
 
-## 02. Számlázz.hu (vagy Billingo) + NAV bejelentkezés
+## 02. Hogyan válassz könyvelőt — 6 kérdés
+
+Ez nem könyvelő-ajánlás — kérdéslista, amivel te magad szűrsz. Az első beszélgetésen (a legtöbb könyvelő ad 20-30 perces bemutatkozó hívást) ezt a hatot tedd fel:
+
+1. **Hány egyéni vállalkozó ügyfele van most?** Ha főleg Kft.-kkel dolgozik, a te ügyed mellékes lesz.
+2. **Dolgozik-e online szolgáltatás-értékesítőkkel** — tanácsadó, kurzus, digitális termék? Az online számlázási helyzeteket nem minden könyvelő ismeri.
+3. **Van-e tapasztalata Stripe-os vagy külföldi (EUR/USD) bevétellel?** Ha Wise-t és Stripe-ot terveznél, ez nem lehet neki újdonság.
+4. **Mennyi a tipikus válaszideje** egy emailes kérdésre? Egy konkrét szám kell, nem „hamar".
+5. **Mi a havi díjsávja** egy induló, egyszerű egyéni vállalkozásnál? Így összehasonlíthatóvá válik a piac.
+6. **Intézi-e a NAV-ügyeket** — bevallások beadása, ügyfélkapus levelezés —, vagy csak könyvel, és a NAV-kontakt rajtad marad?
+
+Két-három könyvelővel beszélj, mielőtt döntesz. Nem a legolcsóbbat keresed — azt, akinek a te ügyfél-profilod ismerős terep.
+
+## 03. Számlázz.hu (vagy Billingo) + NAV bejelentkezés
 
 A magyar számlázás 2021 óta digitális — papír-számla már nem működik. Két nagy szolgáltató:
 
@@ -82,7 +100,7 @@ Mindkettő automatikusan küldi az adatokat a NAV-nak (Online Számla rendszer, 
 
 Az első számla előtt teszteld egy sztornózott teszt-számlával — ne az első élő ügyfélnél derüljön ki, hogy valami nem stimmel.
 
-## Fizetési megoldások (Stripe HUF / Wise)
+## 04. Fizetési megoldások (Stripe HUF / Wise)
 
 Amikor az első éles ügyfél fizet, két alap-kérdést kell letenned: **(1) belföldi HUF-fizetés**, ha magyar magánszemélyeknek vagy cégeknek számlázol, és **(2) nemzetközi fizetés**, ha külföldről jön a bevétel (EUR/USD/GBP). Mindkettőre van egy aktuális, 2026-ban használható, gyors-fiók-aktiválású opció.
 
@@ -116,7 +134,7 @@ A **Wise Business** (`wise.com/business`) a Stripe párja, ha **külföldi ügyf
 
 Alternatívák magyar piacon (ha a Stripe nem fér be): **Barion** (magyar feldolgozó, SimplePay, Apple/Google Pay), **SimplePay** (OTP Mobil), **PayPal** (régóta van, magasabb díj).
 
-## 03. ÁSZF + Adatvédelmi nyilatkozat a webhelyre
+## 05. ÁSZF + Adatvédelmi nyilatkozat a webhelyre
 
 Két kötelező jogi szöveg a webhely lábához:
 
@@ -130,10 +148,44 @@ Két kötelező jogi szöveg a webhely lábához:
 
 A két fájlt PDF-ként vagy HTML-szövegként a webhely láb-szekciójához linkeled.
 
+## 06. Mennyibe kerül az indulás — az első 3 hónap
+
+Összerakva az eddigieket: ennyi pénz kell ahhoz, hogy jogilag rendben elindulj. **Tájékozódó összegek, nem árajánlat. Utoljára ellenőrizve: 2026-06-09.**
+
+| Tétel | Első 3 hónap | Megjegyzés |
+|---|---|---|
+| EV indítás (Webes Ügysegéd) | 0 Ft | online bejelentés, Ügyfélkapu kell hozzá |
+| Kamarai hozzájárulás | 0 Ft | a korábbi évi 5 000 Ft-os kötelező hozzájárulást 2025-től eltörölték — ellenőrizd a területi kamaránál |
+| Könyvelő (3 hónap) | 15 000 – 45 000 Ft | 5-15 ezer Ft/hó induló egyéni vállalkozásnál |
+| Eszközök (a 0. modul stackje) | 15 000 – 30 000 Ft | éves szinten 50-100 ezer Ft; a domain és a számlázó éves díja előre esedékes |
+| Jogi sablonok (ÁSZF + GDPR) | 5 000 – 10 000 Ft | egyszeri kiadás |
+| **Összesen** | **kb. 35 000 – 85 000 Ft** | **adó és járulék nélkül** |
+
+Az adó és a járulék azért nincs a táblában, mert formafüggő. KATA-nál fix 50 000 Ft/hó tételes adó — három hónapra 150 000 Ft, bevételtől függetlenül. Főállású EV-nél átalányadóban akkor is van havi járulékminimum, ha még nincs bevételed — mellékállás mellett nincs ilyen minimum. Pontos összeget a könyvelőddel számolj, mielőtt bejelentkezel: ez az egyik fő ok, amiért a 02. szakasz beszélgetése előzi meg a regisztrációt.
+
+## Én így csináltam
+
+> **[ATTILA TÖLTI KI: a saját vállalkozási formád, mennyibe került ténylegesen az indulásod (könyvelő, sablonok, eszközök), és mit csinálnál ma máshogy]**
+
 ## Heti feladat
 
-Dönts a vállalkozási formáról (KATA-EV vagy más), regisztrálj a Számlázz.hu-n vagy Billingo-n a NAV-bejelentéssel együtt, és tedd ki az ÁSZF-et és az Adatvédelmi nyilatkozatot a webhelyedre.
+1. Beszélj legalább egy könyvelővel a 02. szakasz 6 kérdésével, és dönts a vállalkozási formáról (KATA, EV vagy más).
+2. Regisztrálj a Számlázz.hu-n vagy Billingo-n a NAV Online Számla bekötéssel együtt, és állíts ki egy sztornózott teszt-számlát.
+3. Tedd ki az ÁSZF-et és az Adatvédelmi nyilatkozatot a webhelyed láblécébe.
 
-## Eredmény
+**Akkor vagy kész, ha** a teszt-számla megjelent a NAV Online Számla rendszerben, a két jogi dokumentum linkje él a láblécben, és le tudod írni egy mondatban, melyik formával és miért indulsz.
 
-A 12 hét végén állsz egy működő vállalkozással: van mondatod, vevőd, ajánlatod, weboldalad, lead magneted, CRM-ed, méréseid, és jogilag is rendben vagy. Innentől már nem építesz tovább alapot — innentől csinálod.
+A 12 hét végén állsz egy működő vállalkozással: van mondatod, vevőd, ajánlatod, weboldalad, lead magneted, CRM-ed, méréseid, és jogilag is rendben vagy. Innentől már nem építesz tovább alapot — innentől csinálod. Hogy pontosan hogyan, arról a 13. modul szól: az első 90 nap a program után.
+
+## Ha elakadtál
+
+- **„Nem tudom eldönteni a formát."** Az első szűrő egyetlen kérdés: kinek számlázol — csak magánszemélynek, vagy cégnek is? Utána a könyvelős 30 perc dönt. Ez a 30 perc a program egyik legjobban megtérülő ideje.
+- **„Még nincs bevételem, minek már most könyvelő?"** Mert a forma-választást utólag javítani drágább, mint előre megkérdezni. És főállású EV-ként a járulék akkor is megy, ha bevétel még nincs — ezt előre kell tudnod.
+- **„Sokallom az ÁSZF-sablon árát."** Az 5-10 ezer Ft egyszeri kiadás — a hibás vagy AI-generált jogi szöveg kockázata ennél nagyobb. A költség-táblában benne van: ne ezen a tételen spórolj.
+- **„Félek, hogy elrontok valamit a NAV felé."** Pont ezért van a teszt-számla: a számlázód automatikusan jelent a NAV-nak, és a sztornózott próbán látod, hogy a bekötés működik. A bevallásokat pedig a könyvelőd viszi — a 02. szakasz 6. kérdése pont erről szól.
+
+## Letölthetők
+
+- `prompts.md` — orientációs promptok a forma-döntéshez és a setup-lépésekhez (könyvelőt nem helyettesít)
+- `reference.md` — KATA/EV/Kft. összehasonlító tábla + NAV-linkek + setup-referencia
+- `SKILL.md` — Claude Code skill a modulhoz
