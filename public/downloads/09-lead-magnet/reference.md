@@ -51,9 +51,9 @@ linkcolor: blue
 ---
 ```
 
-## Kit Form HTML-jének integrálása
+## Feliratkozó form integrálása a webhelyre
 
-A Kit „Embed" fülén kapsz egy HTML-t, ami valahogy így néz ki:
+A fő útvonal a MailerLite: a beágyazható form kódját másold a lenti webhely-váz form-helyére. Ha a Kit alternatívát választottad, a Kit „Embed" fülén ilyesmi HTML-t kapsz:
 
 ```html
 <form action="https://app.kit.com/forms/XXXXXXX/subscriptions"
@@ -87,7 +87,7 @@ A webhelyen (Tailwind-es példa):
       5 perc olvasás, 7 konkrét lépés. Add meg az email-címedet, és perceken belül a postaládádban.
     </p>
 
-    <!-- IDE jön a Kit form HTML-je -->
+    <!-- IDE jön a MailerLite (vagy Kit) form beágyazó kódja -->
 
     <p class="text-xs text-gray-500 mt-4">
       Heti 1 email maximum, bármikor leiratkozhatsz.
@@ -98,7 +98,7 @@ A webhelyen (Tailwind-es példa):
 
 ## Az 5 emailes welcome sorozat — szövegsablon
 
-A `prompts.md` 9.3 promptja generálja a saját verziódat. Az alábbi a vázsablon, amit a Kit Sequences-ben használhatsz.
+A `prompts.md` 9.3 promptja generálja a saját verziódat. Az alábbi a vázsablon, amit a MailerLite Automation-ben (vagy Kit-ben a Sequences alatt) használhatsz.
 
 ### Email 1 — azonnal (feliratkozás után)
 
@@ -211,14 +211,14 @@ Vagy ha most nem alkalmas, semmi baj — a heti emailek mennek tovább,
 - A PDF túl design-os: Canva-szerű képek, sok színes elem — egyszerű, jól tördelt szöveg jobban hat
 - A welcome-emailek HTML-template-tel mennek (gomb, kép, aláírás-blokk) — egyszerű plain-text email magasabb megnyitási rátát ad kezdő listáknál
 - A vég-CTA túl nyomulós („foglalj MOST", „limitált helyek") — kérdés-jellegű meghívás működik jobban
-- A Kit form gomb-szövege „feliratkozom" — pontosabb az „Kérem a PDF-et", mert konkrét cserét ír le
+- A form gomb-szövege „feliratkozom" — pontosabb az „Kérem a PDF-et", mert konkrét cserét ír le
 - A PDF Drive-link nem „bárki, akinek a linkje van" jogosultsággal megy — a feliratkozó nem éri el, és visszapattan
 
 ## Welcome-sorozat: konkrét sablon
 
-Ez a sorozat élesben fut a Solo Business listán — minden landing page-ről érkező feliratkozó ezt kapja. A `prompts.md` 9.3 promptjának „kitöltött" verziója, magyar piacra hangolva. Másold a Kit Sequences-be, írd át a `{{first_name}}`, `{{lead_magnet_neve}}`, `{{download_link}}` és `{{survey_link}}` változókat a saját értékeidre.
+Ez a sorozat élesben fut a saját listámon — minden landing page-ről érkező feliratkozó ezt kapja. A `prompts.md` 9.3 promptjának „kitöltött" verziója, magyar piacra hangolva. Másold a MailerLite Automation leveleibe (vagy Kit-nél a Sequences-be), és írd át a `{{first_name}}`, `{{lead_magnet_neve}}`, `{{download_link}}` és `{{survey_link}}` változókat a saját értékeidre.
 
-**Tag:** `expert-flow-welcome`
+**Csoport/tag:** `expert-flow-welcome`
 **Cél:** általános welcome, lead magnet kézbesítés, bizalomépítés
 **Trigger:** bármely landing page-ről érkező feliratkozás
 **Küldési ütemezés:** 0., 2., 4., 6., 8. nap
@@ -416,9 +416,9 @@ Attila
 Solo Business — AI automatizáció vállalkozóknak
 ```
 
-## Kit (ConvertKit) setup-checklist
+## Kit (ConvertKit) setup-checklist — alternatíva
 
-Ez az élő setup-folyamat, amit követtem, amikor a 4 sorozatot beállítottam Kit-ben. Akkor használd, amikor a sablonjaidat tényleg fel akarod tölteni.
+A fő útvonal a MailerLite (lépések a 9. modul 03. leckéjében: csoport → form → beágyazás → Automation csoport-triggerrel). Az alábbi checklist akkor kell, ha a Kit alternatívát választottad. Ez az élő setup-folyamat, amit követtem, amikor a 4 sorozatot beállítottam Kit-ben.
 
 ### 1. Sequence létrehozás (minden sorozathoz)
 

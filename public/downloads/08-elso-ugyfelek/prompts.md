@@ -21,30 +21,33 @@ Tegyél fel nekem 6-8 kérdést, ami segít fokozatosan eszembe juttatni a nevek
 - Családi vagy baráti körből, akik vállalkozók
 - Online (LinkedIn, közösségi csoportok) megismert emberek
 
-A kérdéseket egyenként tedd fel, ne egyszerre — várd meg a válaszomat, és csak akkor folytasd. A célom: a végére legyen 10 név, mindegyikhez egy 1 mondatos megjegyzés (kicsoda, miért ő, mire emlékszem közös pontunkról).
+A kérdéseket egyenként tedd fel, ne egyszerre — várd meg a válaszomat, és csak akkor folytasd. A célom: a végére legyen 10 név, mindegyikhez egy 1 mondatos megjegyzés (kicsoda, miért ő, mire emlékszem közös pontunkról) ÉS a kapcsolat típusa a 10 szituáció egyikéből (volt kolléga / ismerős, aki tudja, mit csinálok / ismerős, aki nem tudja / régi ügyfél-kapcsolat / ajánlott idegen / szakmai csoporttárs / volt főnök / képzéstárs / szolgáltatóm, aki ismer / baráti kapcsolat). A típusból választom majd a csatornát és a sablont.
 
 Hangulat: ne sürgess, ne motiválj — csak segíts emlékezni.
 ```
 
 ## 8.2 — Prompt a 02. leckéhez (A személyes üzenet)
 
-Ez a prompt segít megfogalmazni a személyes üzenetet — NEM tömeges sablon, hanem KONKRÉT az adott emberhez. Én magam is így írom most, és minden levél kicsit más lesz.
+Ez a prompt segít személyre szabni az üzenetet — a 10 szituációs sablon (üzenet-sablonok letölthető) egyikéből indul, NEM nulláról. Én magam is így írom most, és minden levél kicsit más lesz.
 
 ```
-Egy konkrét embernek küldök személyes üzenetet a 10-fős ismerős-listámról.
+Egy konkrét embernek küldök személyes üzenetet a 10-fős ismerős-listámról. Sablonból indulok, és személyre szabom.
 
 Az illető: [név, hogyan ismerem, közös pontunk]
+A kapcsolat típusa: [a 10 szituáció egyike, pl. volt kolléga / képzéstárs / ajánlott idegen]
+A választott csatorna: [telefon / személyes / hangüzenet / írott — minél melegebb a kapcsolat, annál közvetlenebb]
+A kiinduló sablon (másold be az üzenet-sablonok fájlból): [SABLON]
 Mit tudok róla most: [szakmája, helyzete, mire reagálhat ez az ajánlat]
 Az én vállalkozásom 1 mondatban: [INPUT]
 
-Írj nekem 1 ÜZENETET, ami:
+Szabd személyre a sablont úgy, hogy:
 
-- Maximum 3-4 mondat
+- Maximum 3-4 mondat marad
+- Mindhárom elem benne van: mit csinálok most + miért pont rá gondoltam + alacsony tétű kérés (20 perc, vélemény)
 - NEM kezdődik azzal, hogy „van egy új szolgáltatásom"
-- Inkább: „valami újat csinálok mostanában — gondoltam, megmutatnám, mert úgy érzem, neked is hasznos lehet"
-- Konkrét utalás közös pontunkra (1 mondat — emlékezz arra, AMI tényleg volt köztünk)
+- Konkrét utalás közös pontunkra (1 mondat — emlékezz arra, AMI tényleg volt köztünk; ezt a mondatot ÉN adom, te csak simítod)
 - A vége: ajánlat egy beszélgetésre, NEM egy szolgáltatás eladására
-- „Ráérsz egy 20 perces beszélgetésre a héten?"
+- Ha a csatorna telefon: ne kész szöveget írj, hanem 3 pontos hívás-vázlatot
 
 Magyar nyelvű, magyaros hang (nem coach-szöveg, nem hyped, nem „a magasabb verziód").
 
