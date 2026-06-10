@@ -132,7 +132,7 @@ Plusz egy szabály: egy változat 2 hétig él. Cserélni akkor cserélsz, ha a 
 
 ## Én így csináltam
 
-> **[ATTILA TÖLTI KI: a saját hero-headline-od története — hány verzió volt, melyik mondat jött valódi beszélgetésből vagy visszajelzésből, és min cseréltél azóta]**
+> *Build-in-public: ide a saját, valós számaim kerülnek — ezt a részt élesben, folyamatosan töltöm fel.*
 
 ## Heti feladat
 

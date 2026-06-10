@@ -75,7 +75,7 @@ Hangnem: beszélgetős, nem marketing-szöveg — mintha ismerősödnek írnál.
 
 A saját email-listám MailerLite-on fut: beágyazott form, csoport-trigger, automatikus sorozat — ezért ezt tanítom, nem mást. A welcome-sorozat kitöltött, magyar piacra hangolt sablonja a letölthető `reference.md`-ben van.
 
-> **[ATTILA TÖLTI KI: a saját lead magneted címe + linkje, boncolható példaként]**
+> *Build-in-public: ide a saját, valós számaim kerülnek — ezt a részt élesben, folyamatosan töltöm fel.*
 
 Ha letöltöd, ne másold — boncold: nézd meg a címet, a fejezet-tagolást és az utolsó oldal halk CTA-ját.
 

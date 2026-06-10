@@ -107,9 +107,7 @@ Ez a mondat lesz minden későbbi modul alapja — az ajánlatnak, a weboldalnak
 
 Az Expert Flow-t én is így kezdtem: papírral és áthúzott verziókkal, nem kész ötlettel. Nyilvánosan építem, szóval a saját kitöltött térképem is része a tananyagnak.
 
-> **[ATTILA TÖLTI KI: a saját 4 fájdalom-kérdés válaszaid — mi volt az első, sablonos válasz, és mi lett belőle a második körben]**
-
-> **[ATTILA TÖLTI KI: a pivot-pontod egy bekezdésben + az aktuális egy mondatod, és hogy hányadik átírásnál tartasz]**
+> *Build-in-public: ide a saját, valós számaim kerülnek — ezt a részt élesben, folyamatosan töltöm fel.*
 
 ## Heti feladat
 

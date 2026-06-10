@@ -90,7 +90,7 @@ De a fogódzók önmagukban nem elegek, ha egyedül csinálod. A 90 nap legtöbb
 
 ## Én így csináltam
 
-> **[ATTILA TÖLTI KI: a saját első ár-emelésed — mikor, hányadik ügyfél után, hány %-kal, és mit válaszoltak a régi ügyfelek. Ha még nem tartasz itt, írd le őszintén, hol tartasz a saját 90 napodban és melyik csatornát választottad másodiknak.]**
+> *Build-in-public: ide a saját, valós számaim kerülnek — ezt a részt élesben, folyamatosan töltöm fel.*
 
 ## Heti feladat
 

@@ -91,7 +91,7 @@ Részletes Stripe + Wise setup és NAV-integráció: **12. modul**. Itt csak: a 
 
 ## Én így csináltam
 
-> **[ATTILA TÖLTI KI: az első éles oldalad — mennyi idő volt ténylegesen, hány prompt-kör kellett, és mi tartott a legtovább a deploy + domain folyamatban]**
+> *Build-in-public: ide a saját, valós számaim kerülnek — ezt a részt élesben, folyamatosan töltöm fel.*
 
 ## Heti feladat
 

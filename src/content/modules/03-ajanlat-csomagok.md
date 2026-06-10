@@ -133,7 +133,7 @@ Indulásnál lemenj az ársávon, ne fel — az első ügyfelek a hitelességed 
 
 ## Én így csináltam
 
-> **[ATTILA TÖLTI KI: a saját Expert Flow csomagjaid és áraid — hogyan számoltad ki az első verziót, mit változtattál azóta, és mit vesznek ténylegesen]**
+> *Build-in-public: ide a saját, valós számaim kerülnek — ezt a részt élesben, folyamatosan töltöm fel.*
 
 ## Heti feladat
 

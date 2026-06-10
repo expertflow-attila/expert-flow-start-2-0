@@ -175,7 +175,7 @@ Az adó és a járulék azért nincs a táblában, mert formafüggő. KATA-nál 
 
 ## Én így csináltam
 
-> **[ATTILA TÖLTI KI: a saját vállalkozási formád, mennyibe került ténylegesen az indulásod (könyvelő, sablonok, eszközök), és mit csinálnál ma máshogy]**
+> *Build-in-public: ide a saját, valós számaim kerülnek — ezt a részt élesben, folyamatosan töltöm fel.*
 
 ## Heti feladat
 

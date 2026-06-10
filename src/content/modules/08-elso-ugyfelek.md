@@ -124,11 +124,7 @@ A kitöltött minta és a Google Sheets-be vitel lépései a letöltések közö
 
 Ezt a modult máshogy írom, mint a technikaiakat. A Cal.com mindenkinél ugyanúgy működik — az ügyfél-szerzés nem. Itt a saját kísérletemet dokumentálom, a valós számaimmal:
 
-> **[ATTILA TÖLTI KI: hány üzenetet küldtél ki és milyen csatorna-megoszlásban, pl. 10 üzenet — 2 telefon, 3 hangüzenet, 5 írott]**
-
-> **[ATTILA TÖLTI KI: hány válasz, hány beszélgetés, hány felmérő hívás lett belőle + dátum, pl. „2026 júniusában: X válasz, Y beszélgetés, Z hívás"]**
-
-> **[ATTILA TÖLTI KI: a legnagyobb tanulság — melyik sablon/csatorna működött, mi sült el rosszul]**
+> *Build-in-public: ide a saját, valós számaim kerülnek — ezt a részt élesben, folyamatosan töltöm fel.*
 
 Ahogy frissülnek a számaim, frissítem ezt a blokkot. A lényeg, amit látni fogsz: az enyém sem egyenes vonal.
 

@@ -79,7 +79,7 @@ Az „egyet" a kulcs: ha egyszerre három dolgot változtatsz, sosem tudod meg, 
 
 ## Én így csináltam
 
-> **[ATTILA TÖLTI KI: a saját aktuális számaid + dátum — heti látogatók, feliratkozási arány, hívás-foglalási arány, és mit változtattál legutóbb ezek alapján]**
+> *Build-in-public: ide a saját, valós számaim kerülnek — ezt a részt élesben, folyamatosan töltöm fel.*
 
 ## Heti feladat
 

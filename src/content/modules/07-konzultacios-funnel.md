@@ -173,7 +173,7 @@ A másik négy típus (Capture, Educate, Sell, Grow) és a helyes építési sor
 
 ## Én így csináltam
 
-> **[ATTILA TÖLTI KI: a saját Cal.com beállításod — hány foglalás jött eddig, mekkora a no-show rátád, és mit írtál át az emaileken az első verzió óta]**
+> *Build-in-public: ide a saját, valós számaim kerülnek — ezt a részt élesben, folyamatosan töltöm fel.*
 
 ## Heti feladat
 

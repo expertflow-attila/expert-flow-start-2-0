@@ -43,11 +43,9 @@ Egy ránézésre minden státusz látszik — nem kell több külön rendszer.
 
 Az értéke a megjegyzés-oszlopban van. Kata, a könyvelő a Prospects lapon a „miért érdekes" mezőbe ezt írja: „volt kolléga, most váltott céget — bérszámfejtésben kért már segítséget". Három hét múlva ebből az egy sorból tudja, mivel nyissa a következő emailt.
 
-Nem kell kézzel felépítened — másold le a kész sablont, és írd át a saját szakmádra:
+Nem kell kézzel felépítened — az oszlop-fejlécek listája a `reference.md`-ben megvan, abból két perc alatt összerakod a saját szakmádra szabva.
 
-> **[ATTILA TÖLTI KI: a másolható Google Sheets sablon linkje — Fájl → Másolat készítése]**
-
-Az oszlop-fejlécek listája a `reference.md`-ben is megvan, ha mégis nulláról építenéd.
+> *Build-in-public: hamarosan ide kerül egy egy-kattintásos, másolható Google Sheets sablon is.*
 
 **Próbáld ki most:** másold le a sablont, és vidd át az első három nevedet a Prospects lapra — a „miért érdekes" oszloppal együtt.
 
@@ -95,7 +93,7 @@ Bence, a fotós a `04-Clients/horvath-eskuvo/` mappában tartja a szerződést, 
 
 ## Én így csináltam
 
-> **[ATTILA TÖLTI KI: a saját nyilvántartásod jelenlegi állapota — hány név van benne, mikor léptél (vagy lépsz) 1 munkalapról a 4 lapos rendszerre, és mit automatizáltál ténylegesen]**
+> *Build-in-public: ide a saját, valós számaim kerülnek — ezt a részt élesben, folyamatosan töltöm fel.*
 
 ## Heti feladat
 

@@ -131,7 +131,7 @@ A 17-19. tár-anyagok és a 22. bónusz tár (Solo Business stack) több alterna
 
 ## Én így csináltam
 
-> **[ATTILA TÖLTI KI: a saját setup-od — mennyi idő volt a VS Code + Claude Code telepítés, melyik DNS-rekordnál akadtál el, és mennyit dobott a mail-tester pontszámodon a DKIM]**
+> *Build-in-public: ide a saját, valós számaim kerülnek — ezt a részt élesben, folyamatosan töltöm fel.*
 
 ## Heti feladat
 

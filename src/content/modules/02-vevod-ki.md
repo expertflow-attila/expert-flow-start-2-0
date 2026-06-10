@@ -104,7 +104,7 @@ Minden beszélgetés után azonnal töltsd ki. A hét végén ez a tábla lesz a
 
 Ebben a blokkban a saját, dokumentált tapasztalatom áll — nem tankönyvi példa.
 
-> **[ATTILA TÖLTI KI: hány vevő-beszélgetést folytattál eddig az Expert Flow építése során, kikkel, és melyik szó szerinti idézet változtatott az irányodon — dátummal és valós számokkal.]**
+> *Build-in-public: ide a saját, valós számaim kerülnek — ezt a részt élesben, folyamatosan töltöm fel.*
 
 ## Heti feladat
 
