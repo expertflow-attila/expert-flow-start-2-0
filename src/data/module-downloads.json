@@ -1,72 +1,107 @@
 {
-  "00-intro": [],
+  "00-intro": [
+    {"label": "Munkafüzet — a 13 hét építési naplója", "file": "munkafuzet.md"}
+  ],
   "01-tudasod-magja": [
-    { "label": "Promptok (3 db)", "file": "prompts.md" },
-    { "label": "Claude Code skill", "file": "SKILL.md" }
+    {"label": "Promptok (3 db)", "file": "prompts.md"},
+    {"label": "Claude Code skill", "file": "SKILL.md"},
+    {"label": "Fájdalom-térkép munkalap", "file": "fajdalom-terkep.md"}
   ],
   "02-vevod-ki": [
-    { "label": "Promptok (4 db)", "file": "prompts.md" },
-    { "label": "Claude Code skill", "file": "SKILL.md" }
+    {"label": "Promptok (4 db)", "file": "prompts.md"},
+    {"label": "Claude Code skill", "file": "SKILL.md"},
+    {"label": "Interjú-jegyzet sablon", "file": "interju-jegyzet-sablon.md"}
   ],
   "03-ajanlat-csomagok": [
-    { "label": "Promptok (3 db)", "file": "prompts.md" },
-    { "label": "Claude Code skill", "file": "SKILL.md" }
+    {"label": "Promptok (3 db)", "file": "prompts.md"},
+    {"label": "Claude Code skill", "file": "SKILL.md"},
+    {"label": "Ár-kalkulátor munkalap", "file": "ar-kalkulator.md"}
   ],
   "04-eszkozok": [
-    { "label": "Promptok (4 db)", "file": "prompts.md" },
-    { "label": "Claude Code skill", "file": "SKILL.md" },
-    { "label": "Parancs-referencia", "file": "reference.md" }
+    {"label": "Promptok (4 db)", "file": "prompts.md"},
+    {"label": "Claude Code skill", "file": "SKILL.md"},
+    {"label": "Parancs-referencia", "file": "reference.md"}
   ],
   "05-weboldal": [
-    { "label": "Promptok (3 db)", "file": "prompts.md" },
-    { "label": "Claude Code skill", "file": "SKILL.md" },
-    { "label": "Parancs-referencia", "file": "reference.md" }
+    {"label": "Promptok (3 db)", "file": "prompts.md"},
+    {"label": "Claude Code skill", "file": "SKILL.md"},
+    {"label": "Parancs-referencia", "file": "reference.md"},
+    {"label": "Kitölthető weboldal-sablon (8 szekció, HTML)", "file": "boilerplate.html"}
   ],
   "06-copy-landing": [
-    { "label": "Promptok (4 db)", "file": "prompts.md" },
-    { "label": "Claude Code skill", "file": "SKILL.md" },
-    { "label": "Parancs-referencia", "file": "reference.md" }
+    {"label": "Promptok (4 db)", "file": "prompts.md"},
+    {"label": "Claude Code skill", "file": "SKILL.md"},
+    {"label": "Parancs-referencia", "file": "reference.md"}
   ],
   "07-konzultacios-funnel": [
-    { "label": "Promptok (3 db)", "file": "prompts.md" },
-    { "label": "Claude Code skill", "file": "SKILL.md" },
-    { "label": "Parancs-referencia", "file": "reference.md" }
+    {"label": "Promptok (3 db)", "file": "prompts.md"},
+    {"label": "Claude Code skill", "file": "SKILL.md"},
+    {"label": "Parancs-referencia", "file": "reference.md"}
   ],
   "08-elso-ugyfelek": [
-    { "label": "Promptok (3 db)", "file": "prompts.md" },
-    { "label": "Claude Code skill", "file": "SKILL.md" },
-    { "label": "Parancs-referencia", "file": "reference.md" }
+    {"label": "Promptok (3 db)", "file": "prompts.md"},
+    {"label": "Claude Code skill", "file": "SKILL.md"},
+    {"label": "Parancs-referencia", "file": "reference.md"},
+    {"label": "Üzenet-sablonok (10 szituáció)", "file": "uzenet-sablonok.md"},
+    {"label": "Tracking-tábla", "file": "tracking-tabla.md"}
   ],
   "09-lead-magnet": [
-    { "label": "Promptok (3 db)", "file": "prompts.md" },
-    { "label": "Claude Code skill", "file": "SKILL.md" },
-    { "label": "Parancs-referencia", "file": "reference.md" }
+    {"label": "Promptok (3 db)", "file": "prompts.md"},
+    {"label": "Claude Code skill", "file": "SKILL.md"},
+    {"label": "Parancs-referencia", "file": "reference.md"}
   ],
   "10-crm-gmail-drive": [
-    { "label": "Promptok (3 db)", "file": "prompts.md" },
-    { "label": "Claude Code skill", "file": "SKILL.md" },
-    { "label": "Parancs-referencia", "file": "reference.md" }
+    {"label": "Promptok (3 db)", "file": "prompts.md"},
+    {"label": "Claude Code skill", "file": "SKILL.md"},
+    {"label": "Parancs-referencia", "file": "reference.md"}
   ],
   "11-analitika-ga4": [
-    { "label": "Promptok (3 db)", "file": "prompts.md" },
-    { "label": "Claude Code skill", "file": "SKILL.md" },
-    { "label": "Parancs-referencia", "file": "reference.md" }
+    {"label": "Promptok (3 db)", "file": "prompts.md"},
+    {"label": "Claude Code skill", "file": "SKILL.md"},
+    {"label": "Parancs-referencia", "file": "reference.md"}
   ],
   "12-jogi-szamlazas": [
-    { "label": "Promptok (3 db)", "file": "prompts.md" },
-    { "label": "Claude Code skill", "file": "SKILL.md" },
-    { "label": "Parancs-referencia", "file": "reference.md" }
+    {"label": "Promptok (3 db)", "file": "prompts.md"},
+    {"label": "Claude Code skill", "file": "SKILL.md"},
+    {"label": "Parancs-referencia", "file": "reference.md"}
   ],
-  "17-landing-mintak": [],
+  "17-landing-mintak": [
+    {"label": "Konzultációs landing sablon (HTML)", "file": "konzultacios-landing.html"},
+    {"label": "Lead magnet landing sablon (HTML)", "file": "lead-magnet-landing.html"},
+    {"label": "Online előadás landing sablon (HTML)", "file": "webinar-landing.html"},
+    {"label": "Szolgáltatás landing sablon (HTML)", "file": "szolgaltatas-landing.html"},
+    {"label": "Coming soon landing sablon (HTML)", "file": "coming-soon-landing.html"},
+    {"label": "Long-form sales landing sablon (HTML)", "file": "longform-sales-landing.html"}
+  ],
   "18-funnel-tipusok": [],
-  "19-ai-eszkozok": [],
+  "19-ai-eszkozok": [
+    {"label": "Email-író skill", "file": "email-iro.SKILL.md"},
+    {"label": "Email-író példák", "file": "email-iro.reference.md"},
+    {"label": "Landing-generátor skill", "file": "landing-generator.SKILL.md"},
+    {"label": "Landing-generátor példa", "file": "landing-generator.reference.md"},
+    {"label": "Lead-magnet-generátor skill", "file": "lead-magnet-generator.SKILL.md"},
+    {"label": "Lead-magnet példa", "file": "lead-magnet-generator.reference.md"},
+    {"label": "CRM-dashboard skill", "file": "crm-dashboard.SKILL.md"},
+    {"label": "CRM-dashboard példa", "file": "crm-dashboard.reference.md"},
+    {"label": "Content-pipeline skill", "file": "content-pipeline.SKILL.md"},
+    {"label": "Content-pipeline példa", "file": "content-pipeline.reference.md"},
+    {"label": "Avatár-építő skill", "file": "avatar-builder.SKILL.md"},
+    {"label": "Avatár-építő példa", "file": "avatar-builder.reference.md"}
+  ],
   "20-elso-digitalis-termek": [
-    { "label": "Promptok (3 db)", "file": "prompts.md" },
-    { "label": "Claude Code skill", "file": "SKILL.md" },
-    { "label": "Parancs-referencia", "file": "reference.md" }
+    {"label": "Promptok (3 db)", "file": "prompts.md"},
+    {"label": "Claude Code skill", "file": "SKILL.md"},
+    {"label": "Parancs-referencia", "file": "reference.md"}
   ],
   "21-claude-code-haladok": [],
   "22-expert-flow-stack": [],
   "23-esettanulmanyok": [],
-  "outro": []
+  "outro": [],
+  "13-iteracio": [
+    {"label": "Iterációs promptok (4 db)", "file": "prompts.md"},
+    {"label": "Claude Code skill", "file": "SKILL.md"}
+  ],
+  "checkpoint-1": [],
+  "checkpoint-2": [],
+  "checkpoint-3": []
 }

@@ -1,13 +1,13 @@
 ---
-lastReviewed: "2026-05-16"
+lastReviewed: "2026-06-09"
 ---
 
-# 6. modul — AI eszközök / Skill-ek
+# Referencia-tár · AI eszközök / Skill-ek
 
 > **TL;DR** — 6 Claude Code skill konkrét vállalkozási feladatokra: email, landing, lead magnet, CRM, content, avatár.
 > - Skill = `.claude/skills/skill-name/` mappa, benne `SKILL.md` + `reference.md`
 > - `/skill-name` paranccsal aktiválod, magyar nyelven dolgozik
-> - Importálás: másold a mappát a projektgyökeredbe, teszteld, szabd testre
+> - Telepítés: a letöltött két fájlt a `.claude/skills/skill-neve/` mappába rendezed, teszteled, testre szabod
 > - Saját skill 30 perc alatt — ha egy feladatot 3+×-szor csináltál ugyanúgy, érdemes skill-be foglalni
 
 ## Modul áttekintés
@@ -15,13 +15,28 @@ lastReviewed: "2026-05-16"
 6 Claude Code skill, mindegyik egy konkrét vállalkozási feladatot automatizál:
 
 - email-írás
-- landing page generálás
-- lead magnet PDF
-- CRM dashboard generálás
+- landing copy generálás
+- lead magnet PDF-vázlat
+- CRM heti összefoglaló
 - content-pipeline
 - avatár-építés
 
 Mindegyikhez letölthető `SKILL.md` + `reference.md` telepítési útmutatóval. Bármikor visszanyúlhatsz hozzá.
+
+## Melyik skillt töltsd le először?
+
+Egy perc döntés: keresd meg a leggyakoribb heti feladatodat.
+
+| Ha ez a leggyakoribb feladatod | Ezt töltsd le |
+|---|---|
+| Hetente írsz emailt a listádra vagy egy érdeklődőnek | `email-iro` |
+| Landing oldalt építesz, vagy a copy-dat erősítenéd | `landing-generator` |
+| Email-listát kezdesz építeni, kell egy letölthető PDF | `lead-magnet-generator` |
+| Sok a párhuzamos érdeklődő, és elveszted a fonalat | `crm-dashboard` |
+| Rendszeresen posztolsz, egy ötletből többet hoznál ki | `content-pipeline` |
+| Új beszélgetések után frissítenéd, kinek dolgozol | `avatar-builder` |
+
+Egy skillt válassz elsőnek — azt, amelyik a legtöbb heti idődet viszi. A többi marad referencia.
 
 ## Videó
 
@@ -31,12 +46,12 @@ Mindegyikhez letölthető `SKILL.md` + `reference.md` telepítési útmutatóval
 
 - 0:00 — Bevezető: skill-ek mint újra-felhasználható kódrészletek
 - 1:00 — A `.claude/skills/` mappa szerkezete
-- 2:00 — 6.1 Email-író skill
-- 3:00 — 6.2 Landing page generátor skill
-- 4:00 — 6.3 Lead magnet generátor skill
-- 5:00 — 6.4 CRM dashboard generátor skill
-- 6:00 — 6.5 Content pipeline skill
-- 7:00 — 6.6 Avatár-építő skill
+- 2:00 — 1. Email-író skill
+- 3:00 — 2. Landing copy generátor skill
+- 4:00 — 3. Lead magnet generátor skill
+- 5:00 — 4. CRM heti összefoglaló skill
+- 6:00 — 5. Content pipeline skill
+- 7:00 — 6. Avatár-építő skill
 - 8:00 — Hogyan importálj egy meglévő skillt saját projektre
 - 9:00 — Hogyan írj saját skillt 30 perc alatt
 
@@ -56,39 +71,95 @@ Egy skill = egy mappa a projektgyökeredben, `.claude/skills/skill-name/` útvon
         └── examples/         ← (opcionális) példa-outputok
 ```
 
-- A `SKILL.md` **kötelező** — egy frontmatter (`name`, `description`, `triggers`) + a fő prompt-leírás.
+- A `SKILL.md` **kötelező** — egy frontmatter (`name`, `description`) + a fő prompt-leírás.
 - A `reference.md` opcionális — részletes példák, hogy a modell a saját kontextusába tudja húzni a stílust.
 - A skill **automatikusan** aktiválódik, ha a prompted illeszkedik a `description`-höz, vagy expliciten `/skill-name` paranccsal hívható.
 
-## A top 5 skill röviden
+## A 6 skill röviden
 
-### 6.1 `/email-iro` — Email-író skill
+### 1. `/email-iro` — Email-író skill
 
-Magyar nyelvű értékesítési és ügyfél-kommunikációs email-sablonok generálása. Bemenet: ki vagy + kinek írsz + milyen célhoz (welcome, follow-up, ajánlat, visszajelzés-kérés). Kimenet: tárgy + 3 verzió (rövid, közepes, hosszú). Dokumentáló-hang, magyar Á-N. **Heti 2-3 órát spórol meg**, ha rendszeresen írsz emailt új érdeklődőknek.
+Emailt ír a saját hangodon — a listádra vagy egy konkrét embernek. Bemenet: téma + címzett-kontextus + cél + 1-2 korábbi emailed hangmintának. Kimenet: 2 tárgy-variáció + törzs + zárás, másolható Gmail-be vagy a hírlevél-eszközödbe. **Heti 2-3 órát spórol meg**, ha rendszeresen írsz emailt.
 
-### 6.2 `/landing-generator` — Landing page generátor
+### 2. `/landing-generator` — Landing copy generátor
 
-Tailwind boilerplate + Hormozi-copy egy promptból. Bemenet: szolgáltatás neve, USP, célközönség, ár. Kimenet: teljes `index.html` (Tailwind CDN), hero + 3 pillér + érték-stack + CTA. **Alternatíva:** ha már van weboldalad Astro-ban (5. modul), generálj komponenseket helyette.
+Landing-szekciók szövegét írja a 6. modul módszerével: 10 hero-headline variáció, garancia, FAQ, érték-stack. Bemenet: az ajánlatod egy mondata (3. modul) + legalább 3 interjú-idézet (2. modul) + a landing célja. Kimenet: szekciónkénti copy markdownban — beillesztheted a landing sablonokba vagy az Astro-oldaladba. Idézetek nélkül nem fut: a copy a piac nyelvéből épül, nem a te fejedből.
 
-### 6.3 `/lead-magnet-generator` — Lead magnet PDF
+### 3. `/lead-magnet-generator` — Lead magnet vázlat + PDF-pipeline
 
-Markdownból PDF-fé alakító pipeline `pandoc`-kal. Bemenet: téma + 5-7 fejezet vázlata + célközönség. Kimenet: 8-15 oldalas PDF, fedlap + tartalomjegyzék + szakaszok + záró CTA. **Egy hetes munka 2 órára** csökken — érdemes 3-5 lead magnetet ezzel készíteni, és A/B tesztelni.
+PDF-vázlatot ír a 9. modul szabályával: a témát az interjúkban leggyakrabban elhangzott kérdés adja. Kimenet: cím-variációk + fedlap + fejezetenkénti bulletek + halk CTA + a `pandoc` PDF-konverziós parancs. A fejezetek kidolgozása a te dolgod — a skill vázat ad, a szakmai tartalom a te tudásod.
 
-### 6.4 `/crm-dashboard` — CRM dashboard generátor
+### 4. `/crm-dashboard` — Heti CRM-összefoglaló
 
-Google Sheets formula-tervező. Bemenet: hány státuszt szeretnél, milyen mezőkkel. Kimenet: kész Sheets fájl + Apps Script kód (automatikus follow-up reminder, lead-státusz változások loggolása). A 10. modulban manuálisan építjük; ez az automatizált verzió.
+A 10. modul Google Sheets CRM-jéből készít heti áttekintést. Bemenet: a négy munkalap beillesztett sorai + a heti kapacitásod. Kimenet: számok munkalaponként + elakadás-lista + 3-7 priorizált következő lépés. Nem nyúl a Sheets-edbe — csak azt olvassa, amit beillesztesz.
 
-### 6.5 `/content-pipeline` — Tartalmi pipeline
+### 5. `/content-pipeline` — Tartalmi pipeline
 
-Egy videóból 3 platformra (YouTube leírás + Instagram poszt + LinkedIn poszt). Bemenet: videó-szöveg vagy transkript. Kimenet: 3 platform-specifikus tartalom, mindegyik a megfelelő hosszúsággal és tónussal. **Kritikus, ha hetente posztolsz** — ezzel egyetlen videóból 4-5 db tartalmat csinálsz.
+Heti egy tartalom-ötletből készít platformonként egy posztváltozatot. Bemenet: 3-10 mondatos nyers jegyzet + a platformok, ahová ténylegesen posztolsz. Kimenet: mag-állítás + vázlat + platformonkénti változat, dokumentáló hangon. **Heti 1 jó tartalom több formában** — nem napi 5 üres poszt.
 
-## Hogyan importálj egy meglévő skillt saját projektre
+### 6. `/avatar-builder` — Avatár-építő
 
-1. **Másold** a teljes `.claude/skills/skill-name/` mappát a saját projektgyökeredbe.
-2. **Nyisd meg** Claude Code-ban a projektet (`cd /path/to/project && claude`).
-3. **Teszteld** a skillt: gépeld be `/skill-name` és add meg a paramétereket.
-4. **Szabd testre** — szerkeszd a `SKILL.md` promptot a saját stílusodra (név, célközönség, példák).
-5. (Opcionális) **Commit-old** Git-be — így csapattagok is használhatják.
+A 2. modul interjú-jegyzeteiből frissíti az avatár-portrédat. Bemenet: a jelenlegi portré + minimum 3 beszélgetés jegyzete. Kimenet: frissített 1 oldalas portré + copy-nyersanyag lista a legerősebb szó szerinti idézetekkel. Új landing vagy lead magnet előtt futtasd — friss avatárból erősebb a copy.
+
+## Hogyan telepítsd a letöltött skill-eket
+
+A letöltések listájában minden skill két lapos fájlként szerepel: `skill-neve.SKILL.md` + `skill-neve.reference.md` (a lista fájlonként működik, ezért nincsenek mappák). Telepítéskor te rendezed őket a `.claude/skills/` szerkezetbe:
+
+1. **Töltsd le** a két fájlt — pl. `email-iro.SKILL.md` és `email-iro.reference.md`.
+2. **Hozd létre a mappát** a projektgyökeredben: `mkdir -p .claude/skills/email-iro`
+3. **Másold be és nevezd át** — a fájlnévből a skill-név előtag lekerül:
+   - `email-iro.SKILL.md` → `.claude/skills/email-iro/SKILL.md`
+   - `email-iro.reference.md` → `.claude/skills/email-iro/reference.md`
+4. **Nyisd meg** Claude Code-ban a projektet (`cd /path/to/project && claude`), és teszteld: `/email-iro` + add meg a bemeneteket.
+5. **Szabd testre** — szerkeszd a `SKILL.md`-t a saját stílusodra (név, célközönség, példák).
+6. (Opcionális) **Commit-old** Git-be — így minden gépeden ugyanaz a skill-készlet vár.
+
+Ugyanez a hat lépés mind a 6 skillre: `email-iro`, `landing-generator`, `lead-magnet-generator`, `crm-dashboard`, `content-pipeline`, `avatar-builder`.
+
+## Saját skill 30 perc alatt — teljes walkthrough
+
+Ha egy feladatot 3+ alkalommal csináltál ugyanúgy, érdemes skill-be foglalni. Itt egy teljes példa nulláról: az `ajanlat-iro` skill, ami a 3. modul ajánlat-szerkezetéből ír testreszabott ajánlat-emailt egy konkrét érdeklődőnek.
+
+**1. lépés — mappa létrehozása (2 perc).** A projektgyökeredben:
+
+```
+mkdir -p .claude/skills/ajanlat-iro
+```
+
+**2. lépés — a SKILL.md megírása (15 perc).** Hozd létre a `.claude/skills/ajanlat-iro/SKILL.md` fájlt:
+
+```markdown
+---
+name: ajanlat-iro
+description: Ajánlat-emailt ír egy konkrét érdeklődőnek a 3
+  csomag-szintemből, a konzultáción elhangzottak alapján. Akkor
+  használd, amikor konzultáció után 24 órán belül ajánlatot küldesz.
+---
+
+# Ajánlat-író
+
+## Bemenet
+1. Az érdeklődő neve + mit mondott a konzultáción (jegyzeteid)
+2. Melyik csomagot ajánlod és miért
+
+## Lépések
+1. A konzultációs jegyzetből kiemeli a kimondott problémát
+2. Megírja az emailt: probléma visszaidézve az ő szavaival +
+   a csomag tartalma + ár + következő lépés
+3. Ellenőrzi: egy email, egy csomag, egy kérdés a végén
+
+## Korlátok
+- Nem talál ki árat — a 3. modul csomag-dokumentumából dolgozik
+- Nem küld emailt, csak vázlatot ír
+```
+
+A `description` a legfontosabb mező: a Claude Code ebből dönti el, mikor aktiválja a skillt automatikusan. Ezért NE azt írd bele, hogy „ajánlatokat ír" — írd bele, MIKOR kell használni („konzultáció után 24 órán belül") és MIBŐL dolgozik („a 3 csomag-szintemből"). Minél konkrétabb a helyzet-leírás, annál pontosabban talál be.
+
+**3. lépés — első teszt-futtatás (8 perc).** Nyisd meg a projektet Claude Code-ban, és futtasd egy VALÓDI esetre: `/ajanlat-iro`, majd illeszd be egy tényleges konzultáció jegyzetét. Ne teszt-adattal próbáld — éles bemeneten látszik, hol gyenge a prompt.
+
+**4. lépés — finomítás (5 perc).** Nézd meg az outputot, és minden hibát szabályként írj vissza a `SKILL.md`-be. Túl hosszú az email? Írd be: „max 150 szó". Angol szavakat kevert? Írd be: „magyarul végig". Kitalált határidőt írt? Írd be a Korlátok alá: „határidőt csak tőlem kérdezve ír". A skill ettől lesz a tiéd: minden futtatás után egy-két sorral pontosabb.
+
+Ennyi — körülbelül 30 perc, és a következő ajánlatnál már nem nulláról írsz. A Claude Code haladó bónusz-modul innen visz tovább: sablon-fájlok, több-lépéses skill-ek, skill-ek kombinálása.
 
 ## Fő pontok
 
@@ -97,24 +168,26 @@ Egy videóból 3 platformra (YouTube leírás + Instagram poszt + LinkedIn poszt
 - Mindegyik skill **magyarul** dolgozik végig, és illeszkedik a Business Start kurzus hangneméhez.
 - A skill-ek **kombinálhatók**: pl. `/landing-generator` után `/email-iro` ugyanahhoz a kampányhoz.
 - Te magad is csinálhatsz új skill-eket — ha egy feladatot 3+ szor csináltál ugyanúgy, érdemes skill-be foglalni.
-- A 21. modul (Claude Code haladó) megmutatja a teljes skill-írási folyamatot.
+- A Claude Code haladó bónusz-modul megmutatja a teljes skill-írási folyamatot.
 
 ## Források
 
-- 📁 6-1-email-iro/
-- 📁 6-2-landing-generator/
-- 📁 6-3-lead-magnet-generator/
-- 📁 6-4-crm-dashboard/
-- 📁 6-5-content-pipeline/
-- 📁 6-6-avatar-builder/
-- 🔗 [Claude Code skill dokumentáció](https://docs.claude.com/claude-code/skills)
-- 🔗 [Learning Agents — 4 AI karakter oktatáshoz](https://learning-agents-landing.vercel.app)
+Mind a 6 skill letölthető a modul letöltései közül, skillenként két fájl:
+
+- `email-iro.SKILL.md` + `email-iro.reference.md`
+- `landing-generator.SKILL.md` + `landing-generator.reference.md`
+- `lead-magnet-generator.SKILL.md` + `lead-magnet-generator.reference.md`
+- `crm-dashboard.SKILL.md` + `crm-dashboard.reference.md`
+- `content-pipeline.SKILL.md` + `content-pipeline.reference.md`
+- `avatar-builder.SKILL.md` + `avatar-builder.reference.md`
+- [Claude Code skill dokumentáció](https://code.claude.com/docs/en/skills)
+- [Learning Agents — 4 AI karakter oktatáshoz](https://learning-agents-landing.vercel.app)
 
 ## Heti feladat
 
 Válassz egy skillt a 6-ból, ami a leggyakoribb manuális feladatod automatizálná, és 45 percben importáld, teszteld, szabd a saját stílusodra — egy valódi outputtal a héten.
 
 - Válaszd ki: ha hetente írsz emailt, az `/email-iro`; ha új landinget építesz, a `/landing-generator`; ha tartalmat posztolsz, a `/content-pipeline`
-- Másold a skill mappáját a saját projektgyökeredbe (`.claude/skills/skill-name/`), nyisd meg Claude Code-ban, és futtasd egy valós feladatra
+- Töltsd le a két fájlt, rendezd a `.claude/skills/skill-neve/` mappába (lásd a telepítési lépéseket fent), és futtasd egy valós feladatra
 - Szerkeszd a `SKILL.md`-t a saját hangodra (név, célközönség, példák) — és írd le 3 mondatban, mit változtatnál a következő futtatáskor
 

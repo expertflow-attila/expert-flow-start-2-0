@@ -1,12 +1,12 @@
 ---
-lastReviewed: "2026-05-16"
+lastReviewed: "2026-06-09"
 ---
 
 # Üdvözöllek a Business Start kurzuson
 
-> 12 hét, ahogy én építem fel a saját vállalkozásomat. Tájékoztató kurzus egyéni vállalkozóknak, akik mellékállásban vagy újrakezdőként indítanak — nem tanítok, megosztom, mit csinálok.
+> 12 hét alatt felépíted a vállalkozásod online alapját: élő weboldal, foglalható naptár, első megkeresések. Mellékállás mellett, heti 3-5 órából. Én ugyanezt az utat járom — nem tanítok, megmutatom, mit csinálok és mi jön ki belőle.
 
-> **TL;DR** — 12 hét, 4 fázis, 12 modul: a 12. hét végén éles webhely, lead magnet, funnel, CRM, jogi minimum.
+> **TL;DR** — 12 hét, 4 mérföldkő, 13 core modul + 3 checkpoint: a 12. hét végén éles webhely, lead magnet, funnel, CRM, jogi minimum.
 > - Heti 1 modul + 1 feladat (heti 3-5 óra összesen), kb. 10-12 óra videó-anyag
 > - Eszközköltség 50-100 ezer Ft/év (VS Code ingyen, Claude Code ~$20/hó, Sybell + Workspace + Számlázz.hu)
 > - Reális kimenet: 1-3 ügyfél a saját hálózatból, első év 500-1500 ezer Ft bevétel
@@ -14,25 +14,80 @@ lastReviewed: "2026-05-16"
 
 ## Mire számíts
 
-- **Hossz**: 12 hét, 4 fázis, 3 modul/fázis. Heti 1 fő modul, 3 lecke, heti feladat + heti "eredmény".
+- **Hossz**: 12 hét, 4 mérföldkő, 13 core modul + 3 checkpoint. Heti 1 fő modul, 3 lecke, heti feladat + heti "eredmény".
 - **Idő**: ~10-12 óra anyag (heti ~1 óra), plusz 2-4 óra feladat.
 - **Hang**: dokumentáló, nem tanácsadói — én is most építem. Technikai részeknél konkrét utat adok, üzleti részeknél (8. modul) megosztom, mit próbálok.
+- **Videók**: a videók hetente készülnek — a készülésüket is látod, ez a program build-in-public természete.
 
-## A 4 fázis
+## Hogyan használd a programot
 
-**I. fázis · Mit adsz el és kinek? (1-3. hét)** — A tudásod alapja, a vevőd, az ajánlatod. Ez az alap; ha nincs tisztán, a többi 9 hét nem működik.
+A heti ritmus, amit én is követek:
 
-**II. fázis · Hogyan találjanak meg? (4-6. hét)** — Eszközök (VS Code + Claude Code + Sybell + Google Workspace), weboldal Vercel-en, copy és landing.
+- **Hétfő**: olvasd el a heti modult (kb. 1 óra). Még ne építs — előbb lásd az egész hetet.
+- **Hét közben**: építés. A heti feladat 2-4 óra; oszd el 2-3 alkalomra.
+- **Péntek**: nyisd ki a munkafüzetet, és pipáld ki a kész-definíciót. Ha valami hiányzik, a hétvége még a tiéd.
 
-**III. fázis · Hogyan szólítsd meg őket? (7-9. hét)** — Konzultációs funnel (Cal.com), ügyfél-szerzés ismerős-listáról, lead magnet + email lista.
+**A munkafüzet** a bevezetőnél letölthető. Hetente 1 oldal: heti kimenet, kész-definíció checkbox, jegyzet-hely, "mit tanultam" sor. A 12. hét végén ez maga a vállalkozásod dokumentációja.
 
-**IV. fázis · Háttér és számok (10-12. hét)** — Google Sheets CRM + Gmail/Drive struktúra, GA4 mérés, jogi és számlázási minimum.
+**A Skool közösség** a heti ritmust tartja: hétfőn "mit építesz a héten" thread, pénteken "mutasd meg" thread. Nem kötelező, de aki hetente posztol, az nehezebben morzsolódik le.
 
-## Mire jó, és mire NEM
+További szabályok:
 
-**Igen:** egyéni vállalkozók (tanácsadók, fotósok, tréningvezetők, könyvelők, coachok, szabadúszó szakemberek), akik VS Code + Claude Code előfizetéssel saját kezűleg építik az online jelenlétüket.
+- Hetente 1 modult — ne ugorj előre. Az 1-3. modul a legfontosabb; ha ezekkel sietsz, a 4-12. fele értelmét veszti.
+- A 17-19. tár-anyagok (landing minták, funnel típusok, AI eszközök) referenciaként bármikor használhatók, nem kötelező sorrendben.
+- A 13. modul (Iteráció) után bónusz modulok jönnek (20-23.) — köztük az, hogyan készült ez a kurzus videókurzusként, AI-vágással.
+- A 12. hét végén töltsd ki a `BONUSZ.md` 10-kérdéses visszajelzést — cserébe bónusz-csomagot kapsz, nekem segítesz a következő verzió megírásában.
 
-**Nem:** általános AI-tanfolyam, ChatGPT/Claude API-kódolás, n8n/Zapier-automatizáció, e-kereskedelem, ügynöki üzletág.
+## A mérföldkő-térkép
+
+Ez a program gerince — olvasd végig lassan, és képzeld magad elé a saját 13 hetedet. A 4 fázis mérföldkő-nevet kapott: nem azt mondja, mit csinálsz, hanem mit fogsz tudni a végén. 3 checkpoint-nál megállsz, és ellenőrzöd, hogy minden áll-e, mielőtt továbbmész.
+
+**I. mérföldkő · "Tudod, mit adsz el és kinek" (1-3. hét)**
+
+- **1. hét** — a tudásod alapja: egy mondat arról, kinek miben segítesz, és miért pont te.
+- **2. hét** — a vevőd: avatár-portré egy konkrét emberről + az első 3 valódi beszélgetés.
+- **3. hét** — az ajánlatod: 3 csomag papíron, névvel, árral, „kinek való / kinek nem" sorral.
+
+Ez az alap; ha nincs tisztán, a többi 9 hét nem működik.
+
+> **Checkpoint 1 (3. hét vége)**: 1 mondatod van + 3 valódi beszélgetésen túl vagy + 3 csomagod papíron.
+
+**II. mérföldkő · "Megtalálható vagy" (4-6. hét)**
+
+- **4. hét** — eszközök: VS Code + Claude Code, saját domain a Sybell-en, hivatalos email-cím.
+- **5. hét** — weboldal: 8 szekciós oldal élesben, a saját domaineden, Vercel-en.
+- **6. hét** — copy és landing: a vevőid szavaiból írt hero, garancia, FAQ + külön landing.
+
+A végén saját domainen élő weboldalad van, amit te építettél és te tudsz módosítani.
+
+**III. mérföldkő · "Beszélgetéseid vannak" (7-9. hét)**
+
+- **7. hét** — konzultációs funnel: Cal.com foglaló, szűrő-kérdések, 4 automatikus email.
+- **8. hét** — első megkeresések: 10 fős ismerős-lista, legalább 5 személyes üzenet kiküldve.
+- **9. hét** — lead magnet és email lista: PDF + feliratkozó form + 5 leveles welcome-sorozat.
+
+> **Checkpoint 2 (7. hét vége)**: él az oldalad a saját domaineden + foglalható vagy.
+
+**IV. mérföldkő · "Rendszered van, és látod a számokat" (10-12. hét)**
+
+- **10. hét** — CRM és belső rend: Google Sheets CRM, Gmail labelek, Drive mappa-struktúra.
+- **11. hét** — mérés: GA4 telepítve, heti 15 perces riport-rutin három mutatóval.
+- **12. hét** — jogi és számlázási minimum: vállalkozási forma, számlázó, ÁSZF + adatvédelem.
+
+> **Checkpoint 3 (10. hét vége)**: minden beszélgetésed nyilván van tartva.
+
+**Zárás · 13. hét — Iteráció (a program utáni első 90 nap)** — Ár, szegmens, csatorna. A végén írott 90 napos terved van, és tudod, hogyan döntesz a saját számaid alapján.
+
+## Kinek való — és kinek nem
+
+**Neked való, ha** egyéni vállalkozó vagy (tanácsadó, fotós, tréningvezető, könyvelő, coach, szabadúszó szakember), van heti 3-5 órád, és saját kezűleg akarod megépíteni az online jelenléted.
+
+**Nem neked való, ha:**
+
+- gyors bevételt vársz — 12 hét alatt alapot építesz, nem bevétel-robbanást;
+- nincs meg a heti 3-5 órád — akkor inkább halaszd el, mint hogy a 4. héten morzsolódj le;
+- kész megoldást vennél építés helyett — itt mindent te csinálsz, én csak az utat mutatom;
+- mást keresel: ez nem általános AI-tanfolyam, nem API-kódolás, nem e-kereskedelem, nem ügynöki üzletág.
 
 ## Reális várakozás — pénz és idő
 
@@ -51,19 +106,12 @@ lastReviewed: "2026-05-16"
 
 Minden eszköz konkrét lépéssorral szerepel a megfelelő modulban — nem kell előre ismerned őket.
 
-## Hogyan használd
-
-- Hetente 1 modult — ne ugorj előre. Az 1-3. modul a legfontosabb; ha ezekkel sietsz, a 4-12. fele értelmét veszti.
-- A 17-19. tár-anyagok (landing minták, funnel típusok, AI eszközök) referenciaként bármikor használhatók, nem kötelező sorrendben.
-- A 12. hét után a 20. bónusz építő-modul jön — hogyan készítettem el ezt a kurzust (videókurzus AI-vágással).
-- A 12. hét végén töltsd ki a `BONUSZ.md` 10-kérdéses visszajelzést — cserébe bónusz-csomagot kapsz, nekem segítesz a következő verzió megírásában.
-
 ## Források
 
-- 📄 [README.md](../README.md) — kurzus áttekintés
-- 📄 [BONUSZ.md](../BONUSZ.md) — visszajelzési form + bónusz-feltételek
-- 🔗 https://code.visualstudio.com — VS Code letöltés
-- 🔗 https://www.anthropic.com/claude-code — Claude Code előfizetés
-- 🔗 https://sybell.hu — domain regisztráció (javasolt szolgáltató)
-- 🔗 https://workspace.google.com — Google Workspace
-- 🔗 https://vercel.com — webhely-hoszting
+- [README.md](../README.md) — kurzus áttekintés
+- [BONUSZ.md](../BONUSZ.md) — visszajelzési form + bónusz-feltételek
+- https://code.visualstudio.com — VS Code letöltés
+- https://www.anthropic.com/claude-code — Claude Code előfizetés
+- https://sybell.hu — domain regisztráció (javasolt szolgáltató)
+- https://workspace.google.com — Google Workspace
+- https://vercel.com — webhely-hoszting

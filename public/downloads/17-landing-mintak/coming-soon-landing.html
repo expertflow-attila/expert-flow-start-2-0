@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>[KITÖLTENDŐ: a készülő termék / márka neve] — hamarosan</title>
+  <meta name="description" content="[KITÖLTENDŐ: 1 mondat — mi készül, és kinek lesz hasznos]">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-neutral-900 antialiased">
+
+<!-- ============================================================
+  HOGYAN HASZNÁLD:
+  1. Mentsd le a fájlt egy új mappába, és nevezd át index.html-re.
+  2. Nyisd meg a mappát Claude Code-dal: cd mappa-neve, majd claude.
+  3. Add neki ezt a promptot: "Töltsd ki az index.html [KITÖLTENDŐ] részeit.
+     A kommentek vezetnek. Ami készül, és akinek készül: ..."
+  4. Nézd meg böngészőben, majd deploy az 5. modul lépéssorával.
+
+  MIRE VALÓ — COMING SOON LANDING (waitlist):
+  Cél: email-lista építés egy launch ELŐTT. Egyetlen cél: feliratkozás.
+  A hero önmagában teljes oldal — az alatta lévő két szekció opcionális,
+  törölhető. A szövegeket a 6. modul módszerével írd meg.
+============================================================ -->
+
+<!-- TELJES KÉPERNYŐS HERO + FORM
+  Mit írj: a készülő dolog neve, 1 mondatos mottó (mit fog megoldani), és mikorra várható.
+  Mit NE: ne írd le a teljes terméket — a kíváncsiság itt az eszközöd. És ne ígérj
+  pontos dátumot, ha nem biztos — "hamarosan" vagy hónap-pontosság elég. -->
+<main class="min-h-screen flex items-center justify-center px-6">
+  <div class="max-w-xl w-full text-center py-20">
+
+    <p class="text-sm uppercase tracking-widest text-neutral-500 mb-8">Hamarosan</p>
+
+    <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
+      [KITÖLTENDŐ: a készülő termék / kurzus / szolgáltatás neve]
+    </h1>
+
+    <p class="text-lg text-neutral-600 mb-4">
+      [KITÖLTENDŐ: mottó — 1 mondat arról, mit fog megoldani és kinek]
+    </p>
+
+    <p class="text-neutral-500 mb-12">
+      [KITÖLTENDŐ: várható indulás — pl. "Indulás: ősszel" — csak ha tartani tudod]
+    </p>
+
+    <!-- KÉP HELYE (opcionális)
+      Mit csinálj: ha van egy beszédes előnézeti képed (pl. a termék részlete),
+      ide teheted. Ha nincs, töröld a div-et — üresen jobb, mint stock-fotóval. -->
+    <div class="bg-neutral-200 rounded-lg h-56 mb-12 flex items-center justify-center text-neutral-500">
+      [KITÖLTENDŐ: előnézeti kép — vagy töröld ezt a blokkot]
+    </div>
+
+    <!-- FELIRATKOZÓ FORM
+      Mit csinálj: az action-be a hírlevél-szolgáltatód (pl. MailerLite, Brevo)
+      form-URL-jét tedd. A feliratkozókat külön "waitlist" csoportba gyűjtsd.
+      A hozzájárulás-checkbox kötelező (GDPR) — ne vedd ki.
+      Mit NE: ne kérj semmit az emailen kívül.
+      TIPP: a feliratkozás után küldj egy rövid köszönő emailt, amiben elmondod,
+      mire számíthat és nagyjából mikor — egy néma waitlist gyorsan kihűl.
+      Launch előtt 1-2 "kulisszák mögötti" email melegen tartja a listát. -->
+    <form action="[KITÖLTENDŐ: form action URL a hírlevél-szolgáltatódtól]" method="post" class="space-y-4 max-w-md mx-auto">
+      <div class="flex flex-col sm:flex-row gap-3">
+        <input type="email" name="email" required placeholder="Email-címed"
+               class="flex-1 border border-neutral-300 rounded-md px-4 py-3 focus:outline-none focus:border-neutral-900">
+        <button type="submit" class="bg-neutral-900 text-white px-6 py-3 rounded-md font-semibold hover:bg-neutral-700">
+          Értesítsetek
+        </button>
+      </div>
+      <label class="flex items-start gap-2 text-sm text-neutral-600 text-left">
+        <input type="checkbox" required class="mt-1">
+        <span>Hozzájárulok, hogy [KITÖLTENDŐ: neved / vállalkozásod] emailt küldjön az indulásról.
+        Az <a href="[KITÖLTENDŐ: adatkezelési tájékoztató URL]" class="underline">adatkezelési tájékoztatót</a> elolvastam.</span>
+      </label>
+    </form>
+
+    <p class="text-sm text-neutral-500 mt-6">
+      Egy emailt kapsz, amikor elindul. Spam nincs, leiratkozás bármikor.
+    </p>
+
+  </div>
+</main>
+
+<!-- ELŐZETES — MIT VÁRHATSZ (opcionális)
+  Mit írj: 3 rövid pont arról, mit kap majd, aki most feliratkozik — annyit árulj el,
+  amennyi kíváncsivá tesz, de ne add ki a teljes tartalmat.
+  Mit NE: ne sorolj fel árakat vagy csomagokat — az a launch dolga, nem ezé az oldalé.
+  Ha nem akarod használni, töröld az egész section-t — az oldal nélküle is teljes. -->
+<section class="bg-neutral-50 py-16">
+  <div class="max-w-xl mx-auto px-6">
+    <h2 class="text-2xl font-bold mb-8 text-center">Mit várhatsz, ha feliratkozol</h2>
+    <ul class="space-y-4">
+      <li class="flex gap-3">
+        <span class="font-bold text-neutral-400">01</span>
+        <span class="text-neutral-700">[KITÖLTENDŐ: 1. pont — pl. elsőként értesülsz az indulásról]</span>
+      </li>
+      <li class="flex gap-3">
+        <span class="font-bold text-neutral-400">02</span>
+        <span class="text-neutral-700">[KITÖLTENDŐ: 2. pont — pl. mit kapnak csak a lista tagjai]</span>
+      </li>
+      <li class="flex gap-3">
+        <span class="font-bold text-neutral-400">03</span>
+        <span class="text-neutral-700">[KITÖLTENDŐ: 3. pont]</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- KI ÉPÍTI (opcionális)
+  Mit írj: 2 mondat magadról — a névtelen "hamarosan" oldalnál hitelesebb, ha látszik,
+  ki áll mögötte. Ha build-in-public dolgozol, ide linkelheted, hol követhető az építés.
+  Mit NE: ne írj hosszú bemutatkozást — az a kész oldal dolga lesz. -->
+<section class="py-16">
+  <div class="max-w-xl mx-auto px-6">
+    <div class="flex flex-col sm:flex-row gap-6 items-center">
+      <div class="bg-neutral-200 rounded-full w-24 h-24 shrink-0 flex items-center justify-center text-neutral-500 text-xs text-center px-2">
+        [KITÖLTENDŐ: portréfotó]
+      </div>
+      <div class="text-center sm:text-left">
+        <p class="font-bold mb-2">[KITÖLTENDŐ: neved]</p>
+        <p class="text-neutral-600 text-sm">
+          [KITÖLTENDŐ: 2 mondat — ki vagy, és miért építed ezt]
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER
+  Mit írj: csak a kötelező minimum. Ne tegyél ide linkeket más oldalakra —
+  aki itt van, az iratkozzon fel, ne kattintson el.
+  TIPP: amikor a termék elkészül, ezt az oldalt cseréld le a valódi landingre
+  (pl. a szolgáltatás- vagy long-form sales sablonra) ugyanazon a domainen —
+  a waitlist-nek pedig küldd ki az indulás-emailt. -->
+<footer class="py-8 border-t border-neutral-200">
+  <div class="max-w-xl mx-auto px-6 text-center text-sm text-neutral-500 space-y-2">
+    <p>[KITÖLTENDŐ: neved / vállalkozásod neve] · [KITÖLTENDŐ: email-címed]</p>
+    <p><a href="[KITÖLTENDŐ: adatkezelési tájékoztató URL]" class="underline">Adatkezelési tájékoztató</a></p>
+  </div>
+</footer>
+
+</body>
+</html>

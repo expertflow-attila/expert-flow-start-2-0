@@ -81,7 +81,7 @@ Cím: [pl. "Adminmentes vállalkozás 30 nap alatt"]
 Ár: [pl. 49 000 Ft egyszeri / 14 900 Ft/hó 3 hónapig]
 Célközönség (1-2 mondat): [...]
 A kurzus-magot mondó 1 mondat (1. modulból): [...]
-Lecke-szám és összes videó-percperc: [pl. 10 lecke, ~110 perc]
+Lecke-szám és összes videó-perc: [pl. 10 lecke, ~110 perc]
 Hosztolás: [Mux / Vimeo Pro] — a videók már fent vannak,
 és van egy "course-access" privát URL-em.
 

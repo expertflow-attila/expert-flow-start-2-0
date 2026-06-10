@@ -217,7 +217,7 @@ Az `onEdit` egy „simple trigger" — automatikusan fut, ha a fájlban valaki s
 - From contains: `nav.gov.hu`
 - Apply the label: `05-Operations`
 
-### Kit feliratkozó visszaigazolások → 02-Consultations (ha a Kit-ből Cal.com-ra ment valaki)
+### Kit feliratkozó visszaigazolások → 01-Prospects
 
 - Subject contains: `[Kit]` OR `[ConvertKit]`
 - Apply the label: `01-Prospects`

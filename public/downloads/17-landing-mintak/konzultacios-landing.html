@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>[KITÖLTENDŐ: Szolgáltatásod neve] — Foglalj 25 perces hívást</title>
+  <meta name="description" content="[KITÖLTENDŐ: 1 mondatos leírás a keresőknek — mit kap, aki hívást foglal]">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-neutral-900 antialiased">
+
+<!-- ============================================================
+  HOGYAN HASZNÁLD:
+  1. Mentsd le a fájlt egy új mappába, és nevezd át index.html-re.
+  2. Nyisd meg a mappát Claude Code-dal: cd mappa-neve, majd claude.
+  3. Add neki ezt a promptot: "Töltsd ki az index.html [KITÖLTENDŐ] részeit.
+     A kommentek vezetnek. Az ajánlatom egy mondatban: ..." (a 3. modulból).
+  4. Nézd meg böngészőben, majd deploy az 5. modul lépéssorával.
+
+  MIRE VALÓ — KONZULTÁCIÓS LANDING:
+  Cél: a látogató eldöntse, illik-e hozzá a szolgáltatásod,
+  és lefoglaljon egy 25 perces hívást.
+  EGYETLEN CTA van, az ismétlődik 3-4 helyen: "Foglalj 25 perces hívást".
+  Minden gomb a #idopont szekcióra ugrik, ahol a Cal.com widget van —
+  a beágyazó kódot a 7. modul szerint illeszd be.
+  A szövegeket a 6. modul módszerével írd meg.
+============================================================ -->
+
+<!-- HERO + USP
+  Mit írj: 1 mondatos ígéret (mit old meg a hívás), alá 1-2 mondat pontosítás.
+  Mit NE: ne sorold fel az összes szolgáltatásod — itt csak a hívás a cél. -->
+<header class="max-w-3xl mx-auto px-6 pt-24 pb-20 text-center">
+  <p class="text-sm uppercase tracking-widest text-neutral-500 mb-6">[KITÖLTENDŐ: neved vagy márkád]</p>
+  <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
+    [KITÖLTENDŐ: az ígéreted egy mondatban — pl. mit fog tudni a hívás után, amit most nem tud]
+  </h1>
+  <p class="text-lg text-neutral-600 mb-10 max-w-xl mx-auto">
+    [KITÖLTENDŐ: 1-2 mondat — kinek szól, és miért érdemes 25 percet rászánnia]
+  </p>
+  <a href="#idopont" class="inline-block bg-neutral-900 text-white px-8 py-4 rounded-md font-semibold hover:bg-neutral-700">
+    Foglalj 25 perces hívást
+  </a>
+  <p class="text-sm text-neutral-500 mt-4">Ingyenes, kötelezettség nélkül.</p>
+</header>
+
+<!-- MIT KAPSZ A HÍVÁSBAN
+  Mit írj: 3 konkrét dolog, amivel a hívás végén távozik — kimenet, nem folyamat.
+  Mit NE: ne ígérj olyat, ami csak a fizetős szolgáltatásban van. -->
+<section class="bg-neutral-50 py-20">
+  <div class="max-w-3xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-12 text-center">Mit kapsz a 25 percben</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white border border-neutral-200 rounded-lg p-6">
+        <p class="font-semibold mb-2">[KITÖLTENDŐ: 1. kimenet]</p>
+        <p class="text-neutral-600 text-sm">[KITÖLTENDŐ: 1-2 mondat — mit jelent ez a gyakorlatban]</p>
+      </div>
+      <div class="bg-white border border-neutral-200 rounded-lg p-6">
+        <p class="font-semibold mb-2">[KITÖLTENDŐ: 2. kimenet]</p>
+        <p class="text-neutral-600 text-sm">[KITÖLTENDŐ: 1-2 mondat]</p>
+      </div>
+      <div class="bg-white border border-neutral-200 rounded-lg p-6">
+        <p class="font-semibold mb-2">[KITÖLTENDŐ: 3. kimenet]</p>
+        <p class="text-neutral-600 text-sm">[KITÖLTENDŐ: 1-2 mondat]</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KINEK NEM VALÓ
+  Mit írj: 3 őszinte kizáró pont — ez kalibrálja a látogatót, és időt spórol neked.
+  Mit NE: ne legyen ál-kizárás ("nem való, ha nem akarsz sikeres lenni") — az hiteltelen. -->
+<section class="py-20">
+  <div class="max-w-2xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-8">Kinek nem való ez a hívás</h2>
+    <ul class="space-y-4 text-neutral-700">
+      <li class="border-l-2 border-neutral-300 pl-4">[KITÖLTENDŐ: 1. kizáró helyzet — pl. ha még nincs meg X feltétel]</li>
+      <li class="border-l-2 border-neutral-300 pl-4">[KITÖLTENDŐ: 2. kizáró helyzet]</li>
+      <li class="border-l-2 border-neutral-300 pl-4">[KITÖLTENDŐ: 3. kizáró helyzet]</li>
+    </ul>
+    <div class="mt-10 text-center">
+      <a href="#idopont" class="inline-block bg-neutral-900 text-white px-8 py-4 rounded-md font-semibold hover:bg-neutral-700">
+        Foglalj 25 perces hívást
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- SOCIAL PROOF
+  Mit írj: 2-3 valódi visszajelzés, névvel. Ha még nincs, TÖRÖLD az egész szekciót —
+  kitalált vélemény tilos, és átlátszó.
+  Mit NE: ne írj vezetéknév nélküli, általános dicséretet ("Szuper volt! — K. Anna"). -->
+<section class="bg-neutral-50 py-20">
+  <div class="max-w-3xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-12 text-center">Ezt mondják, akikkel már beszéltem</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      <figure class="bg-white border border-neutral-200 rounded-lg p-6">
+        <blockquote class="text-neutral-700 mb-4">"[KITÖLTENDŐ: 1. idézet — konkrét eredménnyel vagy felismeréssel]"</blockquote>
+        <figcaption class="text-sm font-semibold">[KITÖLTENDŐ: név, foglalkozás]</figcaption>
+      </figure>
+      <figure class="bg-white border border-neutral-200 rounded-lg p-6">
+        <blockquote class="text-neutral-700 mb-4">"[KITÖLTENDŐ: 2. idézet]"</blockquote>
+        <figcaption class="text-sm font-semibold">[KITÖLTENDŐ: név, foglalkozás]</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ
+  Mit írj: 5-7 kérdés, amit a hívás előtt tényleg megkérdeznének (idő, ár, mi történik utána).
+  Mit NE: ne dugj ide értékesítési szöveget — a FAQ bizalomépítésre van. -->
+<section class="py-20">
+  <div class="max-w-2xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-10">Gyakori kérdések</h2>
+    <div class="space-y-3">
+      <details class="border border-neutral-200 rounded-md p-4">
+        <summary class="font-semibold cursor-pointer">Tényleg ingyenes a hívás?</summary>
+        <p class="text-neutral-600 mt-3">[KITÖLTENDŐ: válasz — mondd ki őszintén, hogy a hívás végén mi történik: ajánlat, vagy csak tanács]</p>
+      </details>
+      <details class="border border-neutral-200 rounded-md p-4">
+        <summary class="font-semibold cursor-pointer">[KITÖLTENDŐ: 2. kérdés — pl. mire készüljek a hívásra?]</summary>
+        <p class="text-neutral-600 mt-3">[KITÖLTENDŐ: válasz]</p>
+      </details>
+      <details class="border border-neutral-200 rounded-md p-4">
+        <summary class="font-semibold cursor-pointer">[KITÖLTENDŐ: 3. kérdés]</summary>
+        <p class="text-neutral-600 mt-3">[KITÖLTENDŐ: válasz]</p>
+      </details>
+      <details class="border border-neutral-200 rounded-md p-4">
+        <summary class="font-semibold cursor-pointer">[KITÖLTENDŐ: 4. kérdés]</summary>
+        <p class="text-neutral-600 mt-3">[KITÖLTENDŐ: válasz]</p>
+      </details>
+      <details class="border border-neutral-200 rounded-md p-4">
+        <summary class="font-semibold cursor-pointer">[KITÖLTENDŐ: 5. kérdés]</summary>
+        <p class="text-neutral-600 mt-3">[KITÖLTENDŐ: válasz]</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- IDŐPONTFOGLALÁS (Cal.com widget)
+  Mit csinálj: a Cal.com fiókodban (Event Type > Embed) másold ki a beágyazó kódot,
+  és cseréld le vele az alábbi szürke placeholder div-et.
+  Mit NE: ne tegyél ide második, másik célú gombot — egy oldal, egy cél. -->
+<section id="idopont" class="bg-neutral-50 py-20">
+  <div class="max-w-3xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold mb-4">Válassz időpontot</h2>
+    <p class="text-neutral-600 mb-10">25 perc, online. Válaszd ki, mikor érsz rá.</p>
+    <div class="bg-neutral-200 rounded-lg h-96 flex items-center justify-center text-neutral-500">
+      [KITÖLTENDŐ: ide jön a Cal.com beágyazó kód — Cal.com &gt; Event Type &gt; Embed &gt; Inline]
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER
+  Mit írj: név, email, adatkezelési tájékoztató linkje. Ennyi elég.
+  Mit NE: ne tegyél ide menüt vagy social-link gyűjteményt — elviszi a figyelmet a célról. -->
+<footer class="py-12 border-t border-neutral-200">
+  <div class="max-w-3xl mx-auto px-6 text-center text-sm text-neutral-500 space-y-2">
+    <p>[KITÖLTENDŐ: neved / vállalkozásod neve] · [KITÖLTENDŐ: email-címed]</p>
+    <p><a href="[KITÖLTENDŐ: adatkezelési tájékoztató URL]" class="underline">Adatkezelési tájékoztató</a></p>
+  </div>
+</footer>
+
+</body>
+</html>

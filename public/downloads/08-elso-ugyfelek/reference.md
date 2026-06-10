@@ -58,17 +58,17 @@ Csinálok valami újat — [vállalkozás 1 mondatban]. Ha eszedbe jut bárki, a
 [Aláírás]
 ```
 
-**Megjegyzés:** A 3. verzió burkolt ajánláskérés is — ne erre építs, de ha működik, kibaszott jó mellék-effekt.
+**Megjegyzés:** A 3. verzió burkolt ajánláskérés is — ne erre építs, de ha bejön, nagyon jó ráadás.
 
 ## Beszélgetés-forgatókönyv az ismerős-listával
 
 Ha valaki válaszol és lefoglal egy 20 perces beszélgetést, a Cal.com előzetes kérdéseiből látsz, kit kapsz. A beszélgetés alatt ezt a 4-lépéses forgatókönyvet próbálom magam is:
 
 ### 1) NYITÁS (2-3 perc)
-Ne kezdd a szolgáltatáspresentációval. Egy mondatos megerősítés, hogy köszi a 20 percet. Aztán: „Mielőtt bármiről beszélnék, mesélj egy kicsit, mostanában mivel foglalkozol, milyen kihívásaid vannak [a saját területeden]?"
+Ne kezdd a szolgáltatásod bemutatásával. Egy mondatos megerősítés, hogy köszi a 20 percet. Aztán: „Mielőtt bármiről beszélnék, mesélj egy kicsit, mostanában mivel foglalkozol, milyen kihívásaid vannak [a saját területeden]?"
 
 ### 2) KÉRDEZÉS (10-12 perc)
-Ezt a részt a „The Mom Test" módszertanával csinálom. NEM kérdezem meg: „mit gondolsz a szolgáltatásomról?" — mert kedves választ fogok kapni, nem igazságot. Inkább:
+Ezt a részt a „The Mom Test" módszertanával csinálom (Rob Fitzpatrick könyve: úgy kérdezz, hogy igazat halljál, ne udvariaskodást). NEM kérdezem meg: „mit gondolsz a szolgáltatásomról?" — mert kedves választ fogok kapni, nem igazságot. Inkább:
 - „Mostanában milyen problémád van [konkrét területen]?"
 - „Mit próbáltál eddig erre?"
 - „Mi az, ami a legfrusztrálóbb?"
@@ -81,7 +81,7 @@ Ha a kérdezésből kiderül, hogy a szolgáltatásom valóban segíthetne, akko
 Ha nem releváns: „Számomra most nem tűnik úgy, hogy ez a szolgáltatás pont neked való — de ha eszedbe jut valaki, akinek igen, küldd át a linket." (Igen, ekkor LEMONDOK az értékesítésről — de nyerek hitelességet, ami hosszú távon többet ér.)
 
 ### 4) LEZÁRÁS (1-2 perc)
-„Köszi az időt, jól esett beszélgetni." Ha leszerződünk: „akkor küldök egy szerződést és számlát Számlázz.hu-ból." Ha nem: „bármikor, ha eszedbe jut valami, írj — én is keresni foglak ajánlással, ha hasznos."
+„Köszi az időt, jólesett beszélgetni." Ha leszerződünk: „akkor küldök egy szerződést és számlát Számlázz.hu-ból." Ha nem: „bármikor, ha eszedbe jut valami, írj — én is keresni foglak ajánlással, ha hasznos."
 
 ## Ajánláskérés-sablon (első elégedett ügyfél után)
 
@@ -122,12 +122,12 @@ A Google Sheets-ben egy második tab — „Mit tanulok":
 
 Ezt hetente egyszer nézem át — NEM napi szinten. Az adatok 8-10 üzenet után kezdenek értelmezhetők lenni — addig hipotézisek alapján működök, és tudatosan megengedem magamnak, hogy néhány próba rosszul süljön el.
 
-## A no-response kezelése
+## Ha nem válaszolnak
 
 A 10 üzenetből reálisan 4-6 fog válaszolni. Ez NEM személyes — sokféle oka lehet (elfoglalt, a téma nem releváns most, az időzítés rossz, vagy egyszerűen nem nézte meg az emailt).
 
 Mit teszek én magam:
-- **Egy emlékeztető 7 nap múlva, max 2 mondatban:** „szia, csak nyomtam egy lágy emlékeztetőt — ha nem érdekes, ne válaszolj, az is OK."
+- **Egy emlékeztető 5-7 nap múlva, max 2 mondatban:** „Szia, csak felhozom még egyszer — ráérsz valamikor a héten? Ha nem aktuális, hagyd, semmi gond."
 - **Utána semmi.** Nem küldök 3. emailt.
 - **Ne építs egész stratégiát erre az egy körre** — a 10 ismerős nem a teljes vállalkozás. Néhány rosszul időzített üzenet nem zárja ki, hogy 6 hónap múlva, más kontextusban újra felvedd a kapcsolatot.
 

@@ -29,6 +29,34 @@ Egy `mag.md` fájl: 1 oldalas dokumentum, ami tartalmazza a választott mag-prob
 - Az 1 mondatos állítás KÖTELEZŐ formátuma: konkrét probléma + konkrét ember + konkrét saját kapcsolódás
 - Ha az állítás szlogen-szagú lesz, a skill javasol konkrétabb átfogalmazást
 
-## Resources
+## Az 5 segítő kérdés (a jelölt-választáshoz, egyesével feltéve)
 
-- `reference.md` — technikai referencia (5 segítő kérdés, „saját" vs „másolt" detektálás, output sablon)
+1. Melyik problémát élted át a leghosszabb ideig a saját bőrödön?
+2. Melyikre költenek az érintettek már most pénzt vagy időt?
+3. Melyiknél tudsz holnap 5 konkrét embert felsorolni, akit érint?
+4. Melyikről tudnál 2 év múlva is untatás nélkül beszélni?
+5. Melyiknél van olyan saját eredményed, amit el tudsz mesélni?
+
+## „Saját" vs „másolt" detektálás (a pivot-pont bekezdéséhez)
+
+- **Saját:** hétköznapi szavak, konkrét helyzet, idő és szereplő („2023 tavaszán, amikor a harmadik ügyfél is…")
+- **Másolt:** coach-szagú kifejezések — „transzformáció", „mindset", „kibontakozás", „shortcut", „forradalmi", „életmódváltás"
+
+## Output sablon (`mag.md`)
+
+```
+# A tudásom magja
+
+## A választott probléma
+[1-2 mondat]
+
+## Miért én — a pivot-pont
+[1 bekezdés, saját szavakkal]
+
+## Az 1 mondatos állítás
+„Én a [konkrét probléma] megoldásában tudok segíteni
+a [konkrét embereknek], mert [a saját pivot-pontom]."
+
+## A két elvetett jelölt és az ok
+[2 × 1 mondat]
+```

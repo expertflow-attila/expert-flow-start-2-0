@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>[KITÖLTENDŐ: a lead magnet címe] — ingyenes letöltés</title>
+  <meta name="description" content="[KITÖLTENDŐ: 1 mondat — mit tartalmaz az anyag, és kinek szól]">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-neutral-900 antialiased">
+
+<!-- ============================================================
+  HOGYAN HASZNÁLD:
+  1. Mentsd le a fájlt egy új mappába, és nevezd át index.html-re.
+  2. Nyisd meg a mappát Claude Code-dal: cd mappa-neve, majd claude.
+  3. Add neki ezt a promptot: "Töltsd ki az index.html [KITÖLTENDŐ] részeit.
+     A kommentek vezetnek. A lead magnetem címe és tartalomjegyzéke: ..."
+  4. Nézd meg böngészőben, majd deploy az 5. modul lépéssorával.
+
+  MIRE VALÓ — LEAD MAGNET LANDING:
+  Cél: email-cím cseréje értékért. Rövid oldal, EGY céllal.
+  A form csak emailt kér (max még nevet) — minden plusz mező
+  csökkenti a kitöltési arányt.
+  A form action-jébe a hírlevél-szolgáltatód (9. modul) form-URL-je kerül.
+  A szövegeket a 6. modul módszerével írd meg.
+============================================================ -->
+
+<!-- HERO + FORM
+  Mit írj: a lead magnet címe és 1 mondat, hogy mit old meg. A form azonnal látszódjon,
+  görgetés nélkül is.
+  Mit NE: ne magyarázd a teljes szolgáltatásodat — itt csak a letöltés a cél. -->
+<header id="letoltes" class="max-w-5xl mx-auto px-6 pt-20 pb-16">
+  <div class="grid md:grid-cols-2 gap-12 items-center">
+    <div>
+      <p class="text-sm uppercase tracking-widest text-neutral-500 mb-4">Ingyenes [KITÖLTENDŐ: formátum — pl. PDF / checklist / sablon]</p>
+      <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">
+        [KITÖLTENDŐ: a lead magnet címe — konkrét ígérettel, pl. "A 10 leggyakoribb hiba, amit ..."]
+      </h1>
+      <p class="text-lg text-neutral-600 mb-8">
+        [KITÖLTENDŐ: 1-2 mondat — milyen problémát old meg, és mennyi idő alatt hasznosítható]
+      </p>
+
+      <!-- FORM
+        Mit csinálj: az action-be a hírlevél-szolgáltatód (pl. MailerLite, Brevo)
+        beágyazott formjának URL-jét tedd, vagy cseréld le az egészet az ő embed kódjukra.
+        A hozzájárulás-checkbox kötelező (GDPR) — ne vedd ki. -->
+      <form action="[KITÖLTENDŐ: form action URL a hírlevél-szolgáltatódtól]" method="post" class="space-y-4">
+        <input type="email" name="email" required placeholder="Email-címed"
+               class="w-full border border-neutral-300 rounded-md px-4 py-3 focus:outline-none focus:border-neutral-900">
+        <label class="flex items-start gap-2 text-sm text-neutral-600">
+          <input type="checkbox" required class="mt-1">
+          <span>Hozzájárulok, hogy [KITÖLTENDŐ: neved / vállalkozásod] emailt küldjön nekem.
+          Az <a href="[KITÖLTENDŐ: adatkezelési tájékoztató URL]" class="underline">adatkezelési tájékoztatót</a> elolvastam.</span>
+        </label>
+        <button type="submit" class="w-full bg-neutral-900 text-white px-8 py-4 rounded-md font-semibold hover:bg-neutral-700">
+          Kérem az anyagot
+        </button>
+      </form>
+      <p class="text-sm text-neutral-500 mt-3">Bármikor leiratkozhatsz, egy kattintással.</p>
+    </div>
+
+    <!-- KÉP HELYE
+      Mit csinálj: ide jöhet a lead magnet borítójának képe (pl. a PDF első oldala).
+      Amíg nincs, marad a szürke placeholder. Stock-fotót NE használj. -->
+    <div class="bg-neutral-200 rounded-lg h-80 flex items-center justify-center text-neutral-500">
+      [KITÖLTENDŐ: a lead magnet borítóképe — pl. a PDF első oldalának képernyőképe]
+    </div>
+  </div>
+</header>
+
+<!-- MIT TARTALMAZ
+  Mit írj: 3 bullet — mit tud meg az olvasó az anyagból. Konkrét, kimenet-fókuszú.
+  Mit NE: ne írj 6-8 bulletet — a három legerősebb elég, a többi hígít. -->
+<section class="bg-neutral-50 py-16">
+  <div class="max-w-3xl mx-auto px-6">
+    <h2 class="text-2xl font-bold mb-8 text-center">Mit találsz benne</h2>
+    <ul class="space-y-4 max-w-xl mx-auto">
+      <li class="flex gap-3">
+        <span class="font-bold text-neutral-400">01</span>
+        <span class="text-neutral-700">[KITÖLTENDŐ: 1. pont — mit tud meg, mit tud utána megcsinálni]</span>
+      </li>
+      <li class="flex gap-3">
+        <span class="font-bold text-neutral-400">02</span>
+        <span class="text-neutral-700">[KITÖLTENDŐ: 2. pont]</span>
+      </li>
+      <li class="flex gap-3">
+        <span class="font-bold text-neutral-400">03</span>
+        <span class="text-neutral-700">[KITÖLTENDŐ: 3. pont]</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- KI ÍRTA
+  Mit írj: 2-3 mondat magadról — miért pont tőled érdemes ezt elolvasni. Tényszerűen.
+  Mit NE: ne írj életrajzot, és ne túlozz ("piacvezető szakértő") — a konkrétum hitelesebb. -->
+<section class="py-16">
+  <div class="max-w-2xl mx-auto px-6">
+    <div class="flex flex-col md:flex-row gap-8 items-center">
+      <div class="bg-neutral-200 rounded-full w-28 h-28 shrink-0 flex items-center justify-center text-neutral-500 text-xs text-center px-2">
+        [KITÖLTENDŐ: portréfotó]
+      </div>
+      <div>
+        <h2 class="text-xl font-bold mb-3">[KITÖLTENDŐ: neved]</h2>
+        <p class="text-neutral-600">
+          [KITÖLTENDŐ: 2-3 mondat — mivel foglalkozol, és milyen tapasztalatból írtad az anyagot]
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VÉLEMÉNY (opcionális)
+  Mit írj: 1 valódi visszajelzés valakitől, aki már olvasta az anyagot. Ha még nincs,
+  TÖRÖLD a szekciót — kitalált vélemény tilos.
+  Mit NE: ne tegyél ide több véleményt — egy erős idézet elég egy ingyenes anyaghoz. -->
+<section class="py-16">
+  <div class="max-w-xl mx-auto px-6">
+    <figure class="border-l-4 border-neutral-900 pl-6">
+      <blockquote class="text-lg text-neutral-700 mb-4">
+        "[KITÖLTENDŐ: idézet valakitől, aki már használta az anyagot — konkrét haszonnal]"
+      </blockquote>
+      <figcaption class="text-sm font-semibold">[KITÖLTENDŐ: név, foglalkozás]</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ZÁRÓ CTA
+  Mit írj: ugyanaz a felszólítás, mint fent. Aki idáig görgetett, annak ne kelljen visszamenni.
+  Mit NE: ne vezess be itt új ajánlatot vagy második célt.
+  TIPP: a form beküldése után a hírlevél-szolgáltatód köszönő-oldalára érdemes irányítani —
+  ott add át a letöltési linket (double opt-in esetén a megerősítő email után). -->
+<section class="bg-neutral-50 py-16">
+  <div class="max-w-xl mx-auto px-6 text-center">
+    <h2 class="text-2xl font-bold mb-6">[KITÖLTENDŐ: záró mondat — pl. "Kérd az anyagot, és kezdd el még ma"]</h2>
+    <a href="#letoltes"
+       class="inline-block bg-neutral-900 text-white px-8 py-4 rounded-md font-semibold hover:bg-neutral-700">
+      Kérem az anyagot
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="py-12 border-t border-neutral-200">
+  <div class="max-w-3xl mx-auto px-6 text-center text-sm text-neutral-500 space-y-2">
+    <p>[KITÖLTENDŐ: neved / vállalkozásod neve] · [KITÖLTENDŐ: email-címed]</p>
+    <p><a href="[KITÖLTENDŐ: adatkezelési tájékoztató URL]" class="underline">Adatkezelési tájékoztató</a></p>
+  </div>
+</footer>
+
+</body>
+</html>

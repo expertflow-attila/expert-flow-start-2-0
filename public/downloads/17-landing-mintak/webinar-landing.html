@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>[KITÖLTENDŐ: az előadás címe] — élő online előadás</title>
+  <meta name="description" content="[KITÖLTENDŐ: 1 mondat — mit tanul meg a résztvevő az élő előadáson]">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-neutral-900 antialiased">
+
+<!-- ============================================================
+  HOGYAN HASZNÁLD:
+  1. Mentsd le a fájlt egy új mappába, és nevezd át index.html-re.
+  2. Nyisd meg a mappát Claude Code-dal: cd mappa-neve, majd claude.
+  3. Add neki ezt a promptot: "Töltsd ki az index.html [KITÖLTENDŐ] részeit.
+     A kommentek vezetnek. Az előadás címe, dátuma és 3 fő tanulsága: ..."
+  4. Nézd meg böngészőben, majd deploy az 5. modul lépéssorával.
+
+  MIRE VALÓ — ONLINE ELŐADÁS (WEBINAR) LANDING:
+  Cél: regisztráció egy élő, időponthoz kötött eseményre.
+  A dátum/időpont nagyban, jól láthatóan szerepel — ez különbözteti
+  meg a lead magnet oldaltól.
+  A form action-jébe a hírlevél-szolgáltatód form-URL-je kerül — a regisztráltakat
+  külön csoportba gyűjtsd, hogy emlékeztető emailt tudj küldeni nekik.
+  Az esemény UTÁN ne hagyd élve lejárt dátummal — cseréld a következő
+  alkalomra, vagy irányítsd át a felvétel oldalára.
+  A szövegeket a 6. modul módszerével írd meg.
+============================================================ -->
+
+<!-- HERO + DÁTUM
+  Mit írj: az előadás címe (konkrét ígérettel) + dátum, időpont, hossz nagyban.
+  Mit NE: ne rejtsd el az időpontot a lap aljára — a látogató először azt nézi, ráér-e.
+  TIPP: ha az esemény 7 napon belül van, kérhetsz Claude Code-tól egy egyszerű
+  visszaszámlálót a dátum-doboz alá — de a sablon enélkül is teljes. -->
+<header class="max-w-3xl mx-auto px-6 pt-24 pb-16 text-center">
+  <p class="text-sm uppercase tracking-widest text-neutral-500 mb-6">Élő online előadás</p>
+  <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-8">
+    [KITÖLTENDŐ: az előadás címe — mit fog tudni a néző a végére]
+  </h1>
+  <div class="inline-block border-2 border-neutral-900 rounded-lg px-8 py-5 mb-8">
+    <p class="text-2xl font-bold">[KITÖLTENDŐ: dátum — pl. június 24., kedd]</p>
+    <p class="text-neutral-600">[KITÖLTENDŐ: időpont és hossz — pl. 18:00, kb. 60 perc] · online, élőben</p>
+  </div>
+  <p class="text-lg text-neutral-600 mb-10 max-w-xl mx-auto">
+    [KITÖLTENDŐ: 1-2 mondat — kinek szól, és miért élőben érdemes ott lenni]
+  </p>
+  <a href="#regisztracio" class="inline-block bg-neutral-900 text-white px-8 py-4 rounded-md font-semibold hover:bg-neutral-700">
+    Regisztrálok az előadásra
+  </a>
+  <p class="text-sm text-neutral-500 mt-4">Ingyenes, a helyek száma korlátozott a [KITÖLTENDŐ: platform — pl. Zoom] miatt.</p>
+</header>
+
+<!-- MIT TANULSZ MEG
+  Mit írj: 3 pont — konkrét, hazavihető tudás. "Hogyan..." kezdetű mondatok jól működnek.
+  Mit NE: ne ígérd meg a teljes fizetős anyagodat — az előadás kedvcsináló, nem helyettesítő. -->
+<section class="bg-neutral-50 py-20">
+  <div class="max-w-3xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-12 text-center">Ezt a 3 dolgot tanulod meg</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white border border-neutral-200 rounded-lg p-6">
+        <p class="font-bold text-neutral-400 mb-2">01</p>
+        <p class="font-semibold mb-2">[KITÖLTENDŐ: 1. tanulság címe]</p>
+        <p class="text-neutral-600 text-sm">[KITÖLTENDŐ: 1 mondat magyarázat]</p>
+      </div>
+      <div class="bg-white border border-neutral-200 rounded-lg p-6">
+        <p class="font-bold text-neutral-400 mb-2">02</p>
+        <p class="font-semibold mb-2">[KITÖLTENDŐ: 2. tanulság címe]</p>
+        <p class="text-neutral-600 text-sm">[KITÖLTENDŐ: 1 mondat]</p>
+      </div>
+      <div class="bg-white border border-neutral-200 rounded-lg p-6">
+        <p class="font-bold text-neutral-400 mb-2">03</p>
+        <p class="font-semibold mb-2">[KITÖLTENDŐ: 3. tanulság címe]</p>
+        <p class="text-neutral-600 text-sm">[KITÖLTENDŐ: 1 mondat]</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EZT AKKOR NÉZD MEG, HA...
+  Mit írj: 3-4 helyzet, amiben a célközönséged most van. A látogató magára ismer.
+  Mit NE: ne fogalmazz általánosan ("ha fejlődni szeretnél") — a konkrét helyzet vonz. -->
+<section class="py-20">
+  <div class="max-w-2xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-8">Ezt akkor nézd meg, ha...</h2>
+    <ul class="space-y-4 text-neutral-700">
+      <li class="border-l-2 border-neutral-900 pl-4">[KITÖLTENDŐ: 1. helyzet — pl. "már próbáltad X-et, de ..."]</li>
+      <li class="border-l-2 border-neutral-900 pl-4">[KITÖLTENDŐ: 2. helyzet]</li>
+      <li class="border-l-2 border-neutral-900 pl-4">[KITÖLTENDŐ: 3. helyzet]</li>
+    </ul>
+  </div>
+</section>
+
+<!-- KI TARTJA
+  Mit írj: 2-3 mondat magadról — miért hiteles tőled ez a téma. Tényekkel.
+  Mit NE: ne sorolj fel címeket és certifikációkat — 1 konkrét tapasztalat többet ér. -->
+<section class="bg-neutral-50 py-20">
+  <div class="max-w-2xl mx-auto px-6">
+    <div class="flex flex-col md:flex-row gap-8 items-center">
+      <div class="bg-neutral-200 rounded-full w-28 h-28 shrink-0 flex items-center justify-center text-neutral-500 text-xs text-center px-2">
+        [KITÖLTENDŐ: portréfotó]
+      </div>
+      <div>
+        <h2 class="text-xl font-bold mb-3">Az előadó: [KITÖLTENDŐ: neved]</h2>
+        <p class="text-neutral-600">
+          [KITÖLTENDŐ: 2-3 mondat — mivel foglalkozol, milyen tapasztalatból beszélsz a témáról]
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REGISZTRÁCIÓS FORM
+  Mit csinálj: az action-be a hírlevél-szolgáltatód form-URL-jét tedd (a regisztráltakat
+  külön listára/csoportba gyűjtsd, hogy emlékeztetőt tudj küldeni).
+  A hozzájárulás-checkbox kötelező (GDPR) — ne vedd ki.
+  Mit NE: ne kérj telefonszámot vagy céges adatokat — email + név elég. -->
+<section id="regisztracio" class="py-20">
+  <div class="max-w-md mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-4 text-center">Regisztrálj az előadásra</h2>
+    <p class="text-neutral-600 text-center mb-8">A linket és az emlékeztetőt emailben küldöm.</p>
+    <form action="[KITÖLTENDŐ: form action URL a hírlevél-szolgáltatódtól]" method="post" class="space-y-4">
+      <input type="text" name="name" required placeholder="Keresztneved"
+             class="w-full border border-neutral-300 rounded-md px-4 py-3 focus:outline-none focus:border-neutral-900">
+      <input type="email" name="email" required placeholder="Email-címed"
+             class="w-full border border-neutral-300 rounded-md px-4 py-3 focus:outline-none focus:border-neutral-900">
+      <label class="flex items-start gap-2 text-sm text-neutral-600">
+        <input type="checkbox" required class="mt-1">
+        <span>Hozzájárulok, hogy [KITÖLTENDŐ: neved / vállalkozásod] emailt küldjön nekem az előadásról.
+        Az <a href="[KITÖLTENDŐ: adatkezelési tájékoztató URL]" class="underline">adatkezelési tájékoztatót</a> elolvastam.</span>
+      </label>
+      <button type="submit" class="w-full bg-neutral-900 text-white px-8 py-4 rounded-md font-semibold hover:bg-neutral-700">
+        Kérem a helyem
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER
+  Mit írj: név, email, adatkezelési tájékoztató. Ennyi elég.
+  Mit NE: ne tegyél ide menüt — egy oldal, egy cél. -->
+<footer class="py-12 border-t border-neutral-200">
+  <div class="max-w-3xl mx-auto px-6 text-center text-sm text-neutral-500 space-y-2">
+    <p>[KITÖLTENDŐ: neved / vállalkozásod neve] · [KITÖLTENDŐ: email-címed]</p>
+    <p><a href="[KITÖLTENDŐ: adatkezelési tájékoztató URL]" class="underline">Adatkezelési tájékoztató</a></p>
+  </div>
+</footer>
+
+</body>
+</html>

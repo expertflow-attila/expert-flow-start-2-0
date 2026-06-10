@@ -5,6 +5,10 @@ description: Copy-erősítés (hero, garancia, FAQ, érték-stack) a meglévő w
 
 # Copy + Landing Builder — Skill
 
+## Telepítés
+
+Mentsd ezt a fájlt ide: `~/.claude/skills/copy-landing-builder/SKILL.md` (a mappát hozd létre, ha nincs). A Claude Code a következő indításkor automatikusan látja — aktiváláshoz írd a kérésedbe: „használd a copy-landing-builder skillt".
+
 ## Mire való?
 
 A felhasználónak már van egy weboldala (5. modul) — most a SZÖVEG erősítése következik bevált copy-modellek alapján. Plusz egy különálló `landing.html` egy konkrét szolgáltatásra, ami EGY akcióra fókuszál.

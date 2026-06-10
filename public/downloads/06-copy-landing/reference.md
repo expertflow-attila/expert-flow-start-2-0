@@ -206,7 +206,7 @@ Push után 30 másodperc, és élesben van. Nem kell külön config.
 
 ## Saját landing-példák — workshop-stílus
 
-Ez a két landing-vázlat a saját toll-am — ezeket workshop-formátumra építettem (egyórás online esemény, 100 USD részvételi díj, konkrét sablonnal mint bónusz). Azért teszem ide őket, mert konkrétan láthatod, hogyan néz ki egy magyar nyelvű workshop-landing struktúrája, és ez hitelesebb, mintha „Amy Porterfield-fordítást" mutatnék. A tapasztalatom szerint a négy szekció (workshop előnyei → átalakulás → kifogások → CTA + részletek) magyarul jobban működik, mint a 8-szekciós klasszikus felépítés, mert egy 1 órás eseményre az olvasó nem akar 4 képernyőnyit görgetni a döntés előtt.
+Ez a két landing-vázlat a saját tollamból való — workshop-formátumra építettem őket (egyórás online esemény, ~35 000 Ft részvételi díj, konkrét sablonnal mint bónusz). Azért teszem ide őket, mert konkrétan láthatod, hogyan néz ki egy magyar nyelvű workshop-landing struktúrája, és ez hitelesebb, mintha „Amy Porterfield-fordítást" mutatnék. A tapasztalatom szerint a négy szekció (workshop előnyei → átalakulás → kifogások → CTA + részletek) magyarul jobban működik, mint a 8-szekciós klasszikus felépítés, mert egy 1 órás eseményre az olvasó nem akar 4 képernyőnyit görgetni a döntés előtt.
 
 ### Példa 1 — Weboldalkészítés workshop
 
@@ -239,7 +239,7 @@ Készen állsz arra, hogy:
 **CTA + gyakorlati részletek**
 
 - Időpont: február 1., csütörtök, 19:00 (Zoom)
-- Részvételi díj: 100 USD
+- Részvételi díj: 35 000 Ft
 - Bónusz: azonnal használható weboldalsablon
 
 > „Ez volt az első workshop, ami tényleg segített végre elkészíteni a weboldalam. Profi és egyszerű volt." — Anikó, Budapest
@@ -277,7 +277,7 @@ Készen állsz arra, hogy:
 **CTA + gyakorlati részletek**
 
 - Időpont: február 1., csütörtök, 19:00 (Zoom)
-- Részvételi díj: 100 USD
+- Részvételi díj: 35 000 Ft
 - Bónusz: ügyfélszerző automatizált rendszer-sablon
 
 > „Hihetetlenül egyszerű volt felépíteni a rendszert. Másnaptól jöttek az új érdeklődők!" — Zoltán, Győr
@@ -288,7 +288,7 @@ CTA: **Biztosítom a helyem a workshopra!**
 
 A 4-blokkos workshop-landing akkor működik, ha:
 - Az ajánlat egyetlen 60-90 perces esemény, NEM egy nagy kurzus
-- Az ár alacsony (50-200 USD között, „nem túl olcsó, de nem is komoly elköteleződés")
+- Az ár alacsony (15-70 ezer Ft között, „nem túl olcsó, de nem is komoly elköteleződés")
 - A bónusz konkrét, letölthető tárgy (sablon, munkafüzet, checklist) — NEM „még egy videó"
 - A vélemény egyetlen mondat + név + város — magyaros, hihető, NEM 5 csillagos amerikai stílus
 - A CTA-szöveg cselekvő, első személyű („Biztosítom a helyem"), NEM utasító („Jelentkezz most")

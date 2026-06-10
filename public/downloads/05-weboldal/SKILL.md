@@ -5,6 +5,10 @@ description: Egyoldalas weboldal generálása HTML + Tailwind CDN-ről, 8 szekci
 
 # Weboldal-generátor — Skill
 
+## Telepítés
+
+Mentsd ezt a fájlt ide: `~/.claude/skills/weboldal-generator/SKILL.md` (a mappát hozd létre, ha nincs). A Claude Code a következő indításkor automatikusan látja — aktiváláshoz írd a kérésedbe: „használd a weboldal-generator skillt".
+
 ## Mire való?
 
 A felhasználónál már megvan: tudás-mag (1. modul), avatár (2. modul), ajánlat és csomagok (3. modul). A skill ezeket egyetlen éles, mobil-barát weboldallá fűzi össze a saját domainen, Vercel deploy-jal.

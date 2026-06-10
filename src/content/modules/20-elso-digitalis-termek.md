@@ -1,5 +1,5 @@
 ---
-lastReviewed: "2026-05-16"
+lastReviewed: "2026-06-09"
 ---
 
 # Bónusz · Az első fizetős terméked — videókurzus AI-vágással
@@ -14,7 +14,7 @@ lastReviewed: "2026-05-16"
 
 ## A hét témája
 
-A bónusz a 12 hét után jön — amikor már van weboldalad, lead magneted, ügyfeleid, működő hátterend. A skálázódás első lépése: a tudásodat egyszer felveszed, sokszor eladod = fizetős videókurzus.
+A bónusz a 12 hét után jön — amikor már van weboldalad, lead magneted, ügyfeleid, működő háttered. A skálázódás első lépése: a tudásodat egyszer felveszed, sokszor eladod = fizetős videókurzus.
 
 Itt mutatom meg, hogyan készítettem el ezt a kurzust, amit olvasol — és hogyan alkalmazod a saját tudásodra. Kulcs: AI-vezérelt videovágás. Nem prémium szerkesztő-szoftver, hanem működő pipeline (Claude Code + Whisper).
 
@@ -31,13 +31,25 @@ A 12 hét után tudod a tudásod alapját (1. modul) — ebből 8-12 leckés vid
 
 1 lecke = EGY take, ne 5. Az imperfekció hitelesebb, mint túl-csiszolt — és gyorsabb. 8-12 lecke × 8-15 perc ≈ egy hét munka napi 1-2 leckével.
 
+## Hogyan szervezz 8-12 leckét — curriculum-vázlat módszer
+
+Ne a leckéknél kezdd, hanem a kimenetnél. Bontsd visszafelé, három lépésben:
+
+1. **Mit tudjon a résztvevő a kurzus végén?** Egy mondat, konkrét képesség. Nem "értse meg", hanem "csinálja meg egyedül".
+2. **Milyen mérföldkövek vezetnek oda?** 3-4 köztes állapot, amin át kell mennie. Mindegyik egy ellenőrizhető eredmény.
+3. **Milyen leckék kellenek mérföldkövenként?** 2-3 lecke per mérföldkő — így jön ki a 8-12.
+
+Példa Katával, a könyvelővel (1. modul). Kimenet: a kezdő egyéni vállalkozó egyedül, bírság nélkül kezeli az adózási határidőit. Mérföldkövek: érti a rá vonatkozó adónemeket → felépíti a saját határidő-táblázatát → beállítja az emlékeztetőit → végigvisz egy próbahónapot. Mérföldkövenként 2-3 lecke = 8-12 leckés curriculum, ahol minden lecke a kimenetet szolgálja.
+
+Ami nem visz mérföldkő felé, az kimarad. Így nem lesz töltelék-lecke.
+
 ## 02. AI-vezérelt videovágás
 
 A vágás az, amitől a kezdők megszaladnak — Claude Code + Whisper együtt megoldja.
 
 **Folyamat**:
 1. Nyers felvételből Whisper transzkripció (lokálisan MacWhisper, vagy OpenAI Whisper API), eredmény: időbélyeges szöveg
-2. Transzkriptet Claude Code-nak adod, jump cut javaslat: hosszú csendek, ismétlések, „öhm"-ök, hibás mondatok
+2. Transzkriptet Claude Code-nak adod, jump cut (ugró vágás: a felesleges részek kivágása) javaslat: hosszú csendek, ismétlések, „öhm"-ök, hibás mondatok
 3. Vágási lista időbélyegekkel — utána DaVinci Resolve (ingyen, vizuális) vagy FFmpeg parancsok (Claude Code generálja)
 4. Felirat (caption) szintén a Whisper-transzkripcióból, opcionális szín-kiemelés a fontos szavakon
 

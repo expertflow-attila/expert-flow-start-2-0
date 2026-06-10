@@ -1,5 +1,7 @@
 # 10. modul — Promptok
 
+> Használat: a szögletes zárójeles részeket írd át a saját adataidra, majd másold be a teljes promptot Claude Code-ba (vagy bármelyik AI-asszisztensbe).
+
 ## 10.1 — Prompt a 01. leckéhez (Google Sheets CRM — négy munkalap)
 
 A Claude Code-dal egy konkrét munkalap-struktúrát tervezünk meg — oszlop-fejlécekkel, példa-sorokkal, és a saját szakmádra szabott mezőkkel.
@@ -71,7 +73,7 @@ A Gmail filter-szabályokat és a Drive mappa-struktúrát egyszerre generáljuk
 ```
 Tervezzünk egy Gmail label + Drive mappa rendszert egyéni vállalkozónak.
 
-A 5 alap Gmail label:
+Az 5 alap Gmail label:
 - 01-Prospects
 - 02-Consultations
 - 03-Proposals

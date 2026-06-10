@@ -50,39 +50,40 @@ Hangsúlyozd:
 Csak a saját szavaival írj — semmi marketing-szöveg.
 ```
 
-## 2.3 — Prompt a 03. leckéhez (Tíz valódi beszélgetés)
+## 2.3 — Prompt a 04. leckéhez (Interjú-forgatókönyv testreszabása)
 
-A 10 beszélgetés-forgatókönyv felépítéséhez. Akkor futtasd, mielőtt felhívod az első embert — hogy legyen egy struktúrád, ami nem manipulatív, és NEM eladás.
+A modul kész, szó szerinti forgatókönyvet ad — ez a prompt azt szabja a te témádra. Akkor futtasd, mielőtt felhívod az első embert. Az eredmény: egy kinyomtatható lap, amit a beszélgetés alatt magad elé teszel.
 
 ```
 Mag-problémám: [1 mondat]
 Avatár-profilom: [1 mondat összegzés]
 
-Írj egy 15-20 perces beszélgetés-forgatókönyvet,
-amit 10 emberrel folytatok le.
+A kurzus 5 nyitott kérdése, amit szó szerint felolvasok:
+1. "Mesélj az utolsó alkalomról, amikor [a probléma]
+   gondot okozott. Mi történt pontosan?"
+2. "Mit próbáltál már, hogy megoldd? És az hogyan vált be?"
+3. "Mennyi időd vagy pénzed ment el eddig erre?"
+4. "Mi volt a legrosszabb élményed ezzel kapcsolatban?"
+5. "Ha holnap reggelre megoldódna, mi változna a napodban?"
 
-A forgatókönyv tartalmazza:
-- Nyitó mondat (NEM manipulatív, NEM sales-szagú,
-  őszinte: „valami újat csinálok, és tanulni szeretnék")
-- 5 nyitott kérdés a problémáról
-  (pl. „Mit próbáltál már megoldani ezzel?",
-       „Mi volt a legrosszabb, amit kaptál?")
-- 3 kérdés a pénz-elköltési múltról
-  (mire költött az utóbbi 12 hónapban,
-  mennyit volt hajlandó kiadni, mit tartott megéri-nek)
-- 2 kérdés az ideális elvárásról
-- Záró mondat, ami nyitva hagyja a kontaktust
-  (NEM ad el, csak jelzi: ha valaha hasznos lehet,
-  jelezhetek)
+Tedd a következőt:
+1. Helyettesítsd be a [probléma] helyére a mag-problémámat,
+   és simítsd a kérdéseket élőbeszéd-szerűre —
+   a tartalmuk NEM változhat.
+2. Írj egy nyitó mondatot (NEM sales-szagú, őszinte:
+   „valami újat csinálok, és tanulni szeretnék").
+3. Adj 2 extra kérdést a pénz-elköltési múltról
+   (mire költött eddig a téma körül, mit tartott megérinek).
+4. Írj egy záró mondatot, ami nyitva hagyja a kontaktust —
+   NEM ad el, csak jelzi: ha hasznos lehetek, jelentkezem.
 
+Formázd egyetlen, kinyomtatható oldalra.
 A cél: megérteni a piacot, NEM meggyőzni.
-A 3 legfontosabb kérdés: pénz-elköltési múlt,
-irracionális ragaszkodás, kétkedés.
 ```
 
-## 2.4 — Prompt a 03. lecke utáni összegzéshez
+## 2.4 — Prompt a beszélgetések utáni összegzéshez
 
-A 10 beszélgetés után. Akkor futtasd, amikor a 10 ember mind végigment, és a jegyzeteid előtted vannak.
+A 10 beszélgetés után. Akkor futtasd, amikor a 10 ember mind végigment, és a jegyzet-táblád előtted van.
 
 ```
 Lefolytattam 10 beszélgetést.

@@ -34,8 +34,10 @@ pandoc lead-magnet.md \
 # Markdown → HTML
 pandoc lead-magnet.md -o lead-magnet.html --standalone --css=style.css
 
-# HTML → PDF Chrome-mal
-google-chrome --headless --disable-gpu --print-to-pdf=lead-magnet.pdf lead-magnet.html
+# HTML → PDF Chrome-mal (macOS-en a Chrome teljes elérési útjával)
+"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
+  --headless --disable-gpu \
+  --print-to-pdf=lead-magnet.pdf lead-magnet.html
 ```
 
 ### Tipikus YAML metaadat-blokk a Markdown elejére
@@ -44,16 +46,16 @@ google-chrome --headless --disable-gpu --print-to-pdf=lead-magnet.pdf lead-magne
 ---
 title: "A 7 lépéses XYZ útmutató"
 author: "[Saját név]"
-date: "2026-04"
+date: "2026-06"
 geometry: margin=2.5cm
 mainfont: Inter
 linkcolor: blue
 ---
 ```
 
-## Kit Form HTML-jének integrálása
+## Feliratkozó form integrálása a webhelyre
 
-A Kit „Embed" fülén kapsz egy HTML-t, ami valahogy így néz ki:
+A fő útvonal a MailerLite: a beágyazható form kódját másold a lenti webhely-váz form-helyére. Ha a Kit alternatívát választottad, a Kit „Embed" fülén ilyesmi HTML-t kapsz:
 
 ```html
 <form action="https://app.kit.com/forms/XXXXXXX/subscriptions"
@@ -87,7 +89,7 @@ A webhelyen (Tailwind-es példa):
       5 perc olvasás, 7 konkrét lépés. Add meg az email-címedet, és perceken belül a postaládádban.
     </p>
 
-    <!-- IDE jön a Kit form HTML-je -->
+    <!-- IDE jön a MailerLite (vagy Kit) form beágyazó kódja -->
 
     <p class="text-xs text-gray-500 mt-4">
       Heti 1 email maximum, bármikor leiratkozhatsz.
@@ -98,7 +100,7 @@ A webhelyen (Tailwind-es példa):
 
 ## Az 5 emailes welcome sorozat — szövegsablon
 
-A `prompts.md` 9.3 promptja generálja a saját verziódat. Az alábbi a vázsablon, amit a Kit Sequences-ben használhatsz.
+A `prompts.md` 9.3 promptja generálja a saját verziódat. Az alábbi a vázsablon, amit a MailerLite Automation-ben (vagy Kit-ben a Sequences alatt) használhatsz.
 
 ### Email 1 — azonnal (feliratkozás után)
 
@@ -157,7 +159,7 @@ Ezt látom napi szinten — [konkrét helyzet, amikor találkozol vele].
 Ami a valóság: [a saját álláspontod, 2-3 mondat]. Ez nem mindenkinek
 kellemes hír — de aki elfogadja, [konkrét eredmény].
 
-Holnapután küldök egy konkrét tippet, amit a PDF-be NEM tettem bele.
+Pár nap múlva küldök egy konkrét tippet, amit a PDF-be NEM tettem bele.
 
 Üdv,
 [Név]
@@ -211,289 +213,180 @@ Vagy ha most nem alkalmas, semmi baj — a heti emailek mennek tovább,
 - A PDF túl design-os: Canva-szerű képek, sok színes elem — egyszerű, jól tördelt szöveg jobban hat
 - A welcome-emailek HTML-template-tel mennek (gomb, kép, aláírás-blokk) — egyszerű plain-text email magasabb megnyitási rátát ad kezdő listáknál
 - A vég-CTA túl nyomulós („foglalj MOST", „limitált helyek") — kérdés-jellegű meghívás működik jobban
-- A Kit form gomb-szövege „feliratkozom" — pontosabb az „Kérem a PDF-et", mert konkrét cserét ír le
+- A form gomb-szövege „feliratkozom" — pontosabb az „Kérem a PDF-et", mert konkrét cserét ír le
 - A PDF Drive-link nem „bárki, akinek a linkje van" jogosultsággal megy — a feliratkozó nem éri el, és visszapattan
 
-## Welcome-sorozat: konkrét sablon
+## Welcome-sorozat: kitöltött példa (az én listám)
 
-Ez a sorozat élesben fut a Solo Business listán — minden landing page-ről érkező feliratkozó ezt kapja. A `prompts.md` 9.3 promptjának „kitöltött" verziója, magyar piacra hangolva. Másold a Kit Sequences-be, írd át a `{{first_name}}`, `{{lead_magnet_neve}}`, `{{download_link}}` és `{{survey_link}}` változókat a saját értékeidre.
+A `prompts.md` 9.3 promptjának kitöltött verziója — a saját feliratkozóim ezt a szerkezetet kapják. Ne másold szó szerint: a te pivot-pontod és a te tévhited kell bele. Arra való, hogy lásd, milyen hosszú és milyen hangú egy kész levél. A `{{first_name}}` változót a MailerLite tölti ki, a többit te írod át.
 
-**Tag:** `expert-flow-welcome`
-**Cél:** általános welcome, lead magnet kézbesítés, bizalomépítés
-**Trigger:** bármely landing page-ről érkező feliratkozás
-**Küldési ütemezés:** 0., 2., 4., 6., 8. nap
+**Csoport:** a lead magnet formhoz kötött csoport
+**Trigger:** a feliratkozó belép a csoportba
+**Küldési ütemezés:** 0., 2., 4., 7., 10. nap (a modul táblázata szerint)
 
-### Email 1 — Day 0 (azonnal)
+### Email 1 — Day 0 (azonnal): a PDF + 1 mondat rólam
 
-**Tárgy:** Tessék, itt a {{lead_magnet_neve}} + egy meglepetés
-**Preview:** Köszönöm, hogy csatlakoztál — indulhat a közös munka!
+**Tárgy:** Itt az ígért PDF
 
 ```
-Szia {{first_name}}!
+Szia {{first_name}},
 
-Nagyon örülök, hogy itt vagy.
+köszi, hogy feliratkoztál — itt a PDF, amit ígértem:
+[letöltési link]
 
-Nem húzom az időt — tessék, amit ígértem:
+Rövid olvasmány, konkrét lépésekkel. Ha végigviszed, a hét végére
+[konkrét eredmény, amit a PDF ígér].
 
-[{{lead_magnet_neve}} letöltése]({{download_link}})
+Egy mondat rólam: Nagy Attila vagyok, AI-rendszereket építek magyar
+egyéni vállalkozóknak — és közben nyilvánosan dokumentálom, mit tanulok.
 
-De mielőtt megnyitnád, hadd mutatkozzak be 30 másodpercben:
-
-Nagy Attila vagyok, a Solo Business alapítója. Olyan AI rendszereket
-építek, amik a vállalkozók helyett dolgoznak — miközben ők az
-ügyfelekre koncentrálhatnak.
-
-Nem vagyok AI guru és nem ígérek csodát. Amit csinálok:
-- Ügyfélszerzés autopilot módban — a rendszer keres, szűr, kapcsolatot teremt
-- Ügyfélkezelés — automatikus follow-up, emlékeztetők, számlázás
-- Háttérműveletek — riportok, adminisztráció, elemzés — emberi beavatkozás nélkül
-
-A következő napokban küldök neked pár praktikus tippet, amit azonnal
-használni tudsz a vállalkozásodban. Semmi elmélet — csak ami működik.
-
-Ha bármi kérdésed van, válaszolj erre az emailre. Tényleg olvasom.
-
-Üdv,
-Attila
-
-P.S. — Ha a {{lead_magnet_neve}} hasznos volt, a következő emailben
-mutatok valamit, amivel még több időt spórolhatsz.
-```
-
-### Email 2 — Day 2
-
-**Tárgy:** 3 AI trükk amivel ma 2 órát spórolsz
-**Preview:** Ezeket bárki beállíthatja 15 perc alatt — mutatom hogyan.
-
-```
-Szia {{first_name}}!
-
-Tegnap elkezdtél ismerkedni az AI automatizációval. Ma mutatok
-3 dolgot, amit azonnal kipróbálhatsz — és mindegyik működik:
-
-1. Automatikus emailválasz-vázlat (2 perc beállítás)
-Ha kapsz egy ügyfél emailt, az AI feldolgozza és javasol egy
-választ. Te csak jóváhagyod.
-Eszköz: ChatGPT + Gmail, vagy egy egyszerű Make.com automatizáció
-
-2. Meeting összefoglaló percek alatt (5 perc beállítás)
-Rögzíted a hívást, az AI kivonatol: ki mondott mit, mik a teendők,
-mikor a következő lépés.
-Eszköz: Otter.ai vagy Fireflies (ingyenes verzió is van)
-
-3. Social media poszt ötletek a piaci trendekből (10 perc beállítás)
-Az AI figyeli az iparágadat és javasol posztokat, amik rezonálnak
-a célközönségeddel.
-Eszköz: Perplexity + Canva AI
-
-Ezek egyenként apróságok — de együtt heti 8-10 órát spórolnak.
-
-A következő emailben megmutatom, hogyan kapcsoltam össze ezeket
-egy rendszerré a saját vállalkozásomban. Az eredmény meglepő volt.
+A következő két hétben még négy levelet küldök, mindegyikben egy
+konkrét dolog. Ha sok lenne, egy kattintással leiratkozhatsz.
 
 Üdv,
 Attila
 ```
 
-### Email 3 — Day 4
+### Email 2 — Day 2: a pivot-pontom
 
-**Tárgy:** Hogyan csinálom: a teljes AI rendszerem belülről
-**Preview:** Átlátható, nem bonyolult — és te is felépítheted.
+**Tárgy:** Amikor rájöttem, hogy fordítva csinálom
 
 ```
-Szia {{first_name}}!
+Szia {{first_name}},
 
-Megígértem, hogy megmutatom a saját rendszeremet. Tessék:
+egy rövid történet. Amikor elkezdtem AI-eszközökkel dolgozni, azt
+hittem, a technika lesz a nehéz rész. Hónapokig eszközöket
+építettem és próbálgattam — és közben egyetlen ügyfelem sem lett.
 
-Reggel 8:00 — Ügyfélszerzés (emberi beavatkozás nélkül)
-Amíg alszom, a rendszerem:
-- Átnézi a LinkedIn-t és a Google-t a célközönségemben
-- Kiválogatja azokat, akik passzolnak a szolgáltatásaimhoz
-- Személyre szabott üzenetet készít elő mindegyiknek
+A fordulat az volt, amikor megfordítottam a sorrendet: előbb
+beszélgetések valódi emberekkel, és csak utána rendszer. Azóta
+minden, amit építek, egy konkrét beszélgetésből indul.
 
-Délelőtt — Ügyfélkezelés (automatikus)
-- Az új érdeklődők automatikusan kapnak egy üdvözlő emailt
-- A meglévő ügyfelek emlékeztetőt a következő lépésekről
-- A CRM frissül: ki hol tart, kivel kell foglalkozni
+Ezt azért írom le, mert ha most ott tartasz, hogy eszközöket
+gyűjtesz ügyfelek helyett — ismerős terep. Nem veled van baj,
+csak fordítva van összerakva a sorrend.
 
-Este — Háttérműveletek (riportok és elemzés)
-- Napi összegzés: hány lead jött, hány ajánlat ment ki, mennyi bevétel
-- Pénzügyi áttekintés: számlák, előfizetések, kintlévőségek
-- Javaslatok: mit kellene holnap másképp csinálni
-
-Ez nem science fiction. Ez 6 AI ügynök, akik együtt dolgoznak.
-
-Nem azt mondom, hogy neked is pontosan ezt kell csinálnod. De
-a gondolkodásmód — hogy a rendszer dolgozik helyetted — az
-bármelyik vállalkozásra alkalmazható.
-
-A következő emailben szeretnék valamit kérni tőled. Cserébe
-adok valamit, ami szerintem nagyon hasznos lesz.
+A következő levélben egy tévhitről írok, amivel hetente találkozom.
 
 Üdv,
 Attila
 ```
 
-### Email 4 — Day 6
+### Email 3 — Day 4: a leggyakoribb tévhit
 
-**Tárgy:** Segíts 2 percben — cserébe küldök valamit értékeset
-**Preview:** 3 kérdés + egy meglepetés, ami megéri
+**Tárgy:** „Ehhez fejlesztőnek kell lenni" — nem
 
 ```
-Szia {{first_name}}!
+Szia {{first_name}},
 
-Van egy kérésem — 2 percet vesz igénybe, cserébe küldök neked
-valamit, amit nem osztok meg nyilvánosan:
+a leggyakoribb mondat, amit vállalkozóktól hallok az AI-ról:
+„ez nekem túl technikai, ehhez fejlesztőnek kell lenni."
 
-[Töltsd ki ezt a 3 kérdéses felmérést]({{survey_link}})
+Értem, honnan jön — a legtöbb AI-tartalom tényleg úgy néz ki,
+mintha programozóknak írták volna.
 
-Miért? Mert szeretném pontosan tudni, mivel küzdesz — hogy a
-tartalmaimat, szolgáltatásaimat neked szabhassam.
+Amit én látok a gyakorlatban: a munka nagyobb része nem technika,
+hanem döntés. Mit automatizálj, mit ne, és hol maradjon ember a
+folyamatban. Ezekre a kérdésekre egy könyvelő vagy egy fotós
+pontosabban tud válaszolni a saját területén, mint egy fejlesztő.
 
-Cserébe küldök:
-„AI Automatizációs Roadmap" — egy személyre szabott útmutató,
-ami megmutatja, milyen sorrendben érdemes automatizálni a
-vállalkozásod területeit. Nem általános — a te válaszaid alapján
-készül.
-
-A 3 kérdés:
-1. Mi a legnagyobb időrabló a vállalkozásodban?
-2. Melyik területen szeretnél először automatizálni?
-   (ügyfélszerzés / ügyfélkezelés / háttérműveletek)
-3. Mi a legnagyobb félelmed az AI-val kapcsolatban?
-
-{{survey_link}}
-
-A válaszaid bizalmasak és kizárólag arra használom, hogy jobb
-tartalmat készítsek neked.
-
-Holnapután jön az utolsó emailem ebben a sorozatban — és szeretném
-megköszönni, hogy itt voltál.
+A következő levélben küldök egy konkrét lépést, amit egy este
+alatt ki tudsz próbálni — kód nélkül.
 
 Üdv,
 Attila
 ```
 
-### Email 5 — Day 8
+### Email 4 — Day 7: egy tipp, ami a PDF-ből kimaradt
 
-**Tárgy:** Köszönöm — és egy meghívás
-**Preview:** Ha eddig hasznos volt, ami jön, az még jobb lesz.
+**Tárgy:** Egy lépés, amit ma este meg tudsz csinálni
 
 ```
-Szia {{first_name}}!
+Szia {{first_name}},
 
-Köszönöm, hogy végigolvastad ezt az 5 emailt. Remélem, hasznos
-volt — és talán egy-két dolgot már kipróbáltál.
+egy konkrét tipp, ami a PDF-be nem fért bele:
 
-Rövid összefoglaló, amit tanultál:
-- 3 AI trükk amivel azonnal időt spórolhatsz
-- Hogyan épül fel egy teljes AI automatizációs rendszer
-- A gondolkodásmód: a rendszer dolgozik — te stratégiát alkotsz
+mielőtt bármit automatizálnál, írd le egy listába, mire ment el
+a múlt heted. Nem becslés — nézd végig a naptárad és a postaládád.
 
-Mi a következő lépés?
+Hogyan csináld: nyiss egy üres dokumentumot, és írj össze minden
+ismétlődő feladatot, ami 15 percnél többet vitt el. Email-típusok,
+egyeztetések, adminisztráció. A lista vége felé általában ott a
+2-3 tétel, amivel érdemes kezdeni.
 
-Ha úgy érzed, hogy a vállalkozásodban is lenne helye az
-automatizációnak — beszélgessünk róla.
+Ha ma este 20 percet rászánsz, holnap reggel pontosan látod,
+hol csúszik el az időd.
 
-Nem sales pitch — egy 15 perces ingyenes konzultáció, ahol:
-- Megnézzük, hol áll most a vállalkozásod
-- Azonosítjuk, hol lehetne automatizálni
-- Készítünk egy tervet a következő 30 napra
+A következő levelemben — pár nap múlva — egy kérdéssel jövök.
 
-Foglalj egy időpontot itt:
+Üdv,
+Attila
+```
+
+### Email 5 — Day 10: meghívó beszélgetésre
+
+**Tárgy:** Beszélgessünk 20 percet?
+
+```
+Szia {{first_name}},
+
+az elmúlt két hétben küldtem neked egy PDF-et, egy történetet,
+egy tévhitet és egy tippet. Ha bármelyik megszólított, érdekelne,
+hol tartasz most.
+
+Foglalj egy 20 perces beszélgetést itt:
 https://cal.com/attila-nagy-8uefco/ingyenes-ismerkedo
 
-Ha most nem aktuális, semmi gond. Maradunk kapcsolatban — időnként
-küldök hasznos tippeket és frissítéseket.
+Nincs előadás és nincs nyomás — kérdezek, hallgatok, és ha tudok
+segíteni, megmondom, hogyan. Ha nem tudok, azt is megmondom.
 
-Bármikor írhatsz erre az emailre, ha kérdésed van.
-
-Sok sikert a vállalkozásodhoz!
+Ha most nem alkalmas, semmi gond — időnként írok majd, és
+bármikor válaszolhatsz erre a levélre.
 
 Üdv,
 Attila
-
-Solo Business — AI automatizáció vállalkozóknak
 ```
 
-## Kit (ConvertKit) setup-checklist
+## Kit (ConvertKit) setup-checklist — alternatíva
 
-Ez az élő setup-folyamat, amit követtem, amikor a 4 sorozatot beállítottam Kit-ben. Akkor használd, amikor a sablonjaidat tényleg fel akarod tölteni.
+A fő útvonal a MailerLite (lépések a 9. modul 03. leckéjében: csoport → form → beágyazás → Automation csoport-triggerrel). Az alábbi checklist akkor kell, ha a Kit alternatívát választottad. A logika ugyanaz, csak a nevek mások: a csoportot itt tag-nek, az Automation-t Sequence + Automation párosnak hívják.
 
-### 1. Sequence létrehozás (minden sorozathoz)
+### 1. Sequence létrehozás
 
 1. Kit dashboard → **Sequences** → **New Sequence**
-2. Adj nevet (pl. „Solo Business Welcome — Üdvözlő sorozat")
-3. Adj hozzá 5 emailt a megfelelő sablonból:
+2. Adj nevet (pl. „Welcome — [a lead magneted neve]")
+3. Adj hozzá 5 emailt a fenti sablonból, a modul időzítésével:
    - Email 1: Day 0 (azonnal)
    - Email 2: Day 2
    - Email 3: Day 4
-   - Email 4: Day 6
-   - Email 5: Day 8
+   - Email 4: Day 7
+   - Email 5: Day 10
 
-### 2. Tag-ek (sorozatonként egy)
+### 2. Tag létrehozás
 
-A 4 sorozathoz 4 külön tag, hogy a landing page form melyik sequence-be küldje a feliratkozót:
+Egy tag elég (pl. `welcome-pdf`) — ez köti össze a formot a sorozattal.
 
-- `expert-flow-welcome`
-- `ai-kihivas-5nap`
-- `ugyfelszerzes-autopilot`
-- `vallalkozas-indito`
-
-### 3. Automation szabályok (minden sorozathoz)
+### 3. Automation szabály
 
 Kit → **Automations** → **New Automation**
 
 ```
-TRIGGER: Tag hozzáadva → [sorozat tag neve]
-ACTION: Add to Sequence → [sorozat neve]
+TRIGGER: Tag hozzáadva → welcome-pdf
+ACTION: Add to Sequence → Welcome — [a lead magneted neve]
 ```
 
-### 4. Landing page → Tag → Sequence összekapcsolás
+### 4. Form → Tag → Sequence összekapcsolás
 
-A landing page form submit → tag hozzáadva → automation trigger → sequence elindul.
-
-Minden landing page-nek saját embed form kell:
+A lánc: form kitöltése → tag hozzáadva → automation elindítja a sequence-t.
 
 1. Kit → **Forms** → **New Form** → **Embed**
-2. Adj nevet (pl. „Solo Business Welcome Form")
-3. A form action-ben állítsd be a tag-et
-4. Másold ki az embed kódot, illeszd be a landing page-be
+2. Adj nevet (pl. „Lead magnet form")
+3. A form beállításainál add hozzá a tag-et
+4. Másold ki az embed kódot, és illeszd a webhelyed lead magnet szekciójába (9.2 prompt)
 
-### 5. Kérdőív integrálás
+### 5. Ellenőrzés élesítés előtt
 
-A 4. emailben lévő kérdőívekhez 3 opció:
-
-- **Opció A:** Google Forms → válaszok Google Sheets-be → Apps Script script
-- **Opció B:** Typeform → webhook → saját endpoint
-- **Opció C:** Saját form a landing page-en → Sheets vagy egyedi tárolás
-
-A `{{survey_link}}` változót cseréld ki a valódi kérdőív URL-re.
-
-### 6. Lead magnet fájlok
-
-Minden sorozathoz egy letölthető PDF (a 9. modul promptjaival generálva):
-
-- [ ] Welcome: általános bemutatkozó PDF
-- [ ] AI Kihívás: AI Automatizációs Starter Kit (prompt gyűjtemény + checklist)
-- [ ] Ügyfélszerzés: Ügyfélszerzési Checklist (15 lépés)
-- [ ] Vállalkozás Indító: Blueprint PDF (10 lépés)
-
-A `{{download_link}}` változót cseréld ki a valódi URL-re (Google Drive megosztott link, vagy saját hosting). Ellenőrizd, hogy a Drive-link „bárki, akinek a linkje van" jogosultsággal van megosztva.
-
-### 7. Cal.com integráció
-
-Az utolsó email Cal.com linkjét cseréld a sajátodra:
-
-- Welcome és Vállalkozás Indító sorozat: ingyenes ismerkedő (15 perc)
-- Ügyfélszerzés sorozat: hosszabb konzultáció (30 perc)
-
-### 8. Lista-takarítás (ha már van Kit fiókod)
-
-Ha régebbi Kit fiókod van, érdemes először rendet tenni:
-
-- **Megtartani:** üdvözlő email, evergeen hírlevél, kurzus-érdeklődő sequence-ek
-- **Archiválni:** minden „Copy of Example..." sablonból maradt sequence
-- **Törölni:** teszt sequence-ek
-
-A tageknél is csak a fenti 4 + egy „prospect" tag szükséges induláshoz.
+- [ ] A PDF Drive-linkje „bárki, akinek a linkje van" jogosultságú
+- [ ] Az 1. email letöltési linkje a valódi URL-re cserélve
+- [ ] Az 5. email Cal.com linkje a sajátodra cserélve
+- [ ] Tesztcímmel feliratkoztál, és megjött az 1. levél

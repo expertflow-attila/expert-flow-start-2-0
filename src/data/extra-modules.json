@@ -62,8 +62,8 @@
     "id": "22",
     "slug": "22-expert-flow-stack",
     "num": "22.",
-    "title": "A Solo Business technológiai stack",
-    "summary": "Egy referencia-tár arról, milyen szolgáltatásokat használok ma a Solo Business rendszerben. 52 szolgáltatás 11 kategóriában. Nem azt mondja, hogy ezeket Neked is használnod kell — csak megmutatja.",
+    "title": "Az Expert Flow technológiai stack",
+    "summary": "Egy referencia-tár arról, milyen szolgáltatásokat használok ma az Expert Flow rendszerben. 52 szolgáltatás 11 kategóriában. Nem azt mondja, hogy ezeket Neked is használnod kell — csak megmutatja.",
     "tag": "Bónusz",
     "tagKind": "bonus",
     "phaseLabel": "Bónusz tár"
@@ -86,5 +86,32 @@
     "tag": "Lezárás",
     "tagKind": "intro",
     "phaseLabel": "Lezárás"
+  },
+  {
+    "id": "cp1",
+    "slug": "checkpoint-1",
+    "title": "Checkpoint · 3. hét",
+    "summary": "Tudod, mit adsz el és kinek — hét pont, aminek most működnie kell. Öt perc önaudit, mielőtt építeni kezdesz.",
+    "tag": "Checkpoint",
+    "tagKind": "epito",
+    "phaseLabel": "I. fázis · 3. hét"
+  },
+  {
+    "id": "cp2",
+    "slug": "checkpoint-2",
+    "title": "Checkpoint · 7. hét",
+    "summary": "Megtalálható és foglalható vagy — élő oldal, működő foglalás, automatikus emailek. Öt perc önaudit.",
+    "tag": "Checkpoint",
+    "tagKind": "epito",
+    "phaseLabel": "III. fázis · 7. hét"
+  },
+  {
+    "id": "cp3",
+    "slug": "checkpoint-3",
+    "title": "Checkpoint · 10. hét",
+    "summary": "Beszélgetéseid és rendszered van — kiküldött üzenetek, élő lead magnet, rendben tartott CRM. Öt perc önaudit.",
+    "tag": "Checkpoint",
+    "tagKind": "epito",
+    "phaseLabel": "IV. fázis · 10. hét"
   }
 ]

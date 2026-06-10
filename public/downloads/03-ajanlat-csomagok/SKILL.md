@@ -11,7 +11,7 @@ A felhasználó már ismeri a piacot (2. modul végén 10 beszélgetést is lefo
 
 1. **5-elemes ajánlat** — vágyott eredmény, időkeret, garancia, érték-stack, 1 mondat
 2. **3 csomag-szint** — belépő, fő, prémium — anchor-logikával + „kinek NEM" mondatokkal
-3. **Indulási stratégia** — féláras bevezető az első 5 ügyfélnek + ár-emelési trigger-pontok
+3. **Indulási stratégia** — alapító ár (20-30% kedvezmény) az első 3-5 ügyfélnek + ár-emelési trigger-pontok
 
 ## Kérdések
 
@@ -20,7 +20,7 @@ A skill bekéri:
 2. Az avatár 1 mondatos összegzését + havi költési kapacitását
 3. Az 5 elem alternatíváiból a választott verziókat (a felhasználó dönt, NEM az AI)
 4. A FŐ csomag bullet-jeit, hogy az érték-stack számítható legyen
-5. Indulási árazási preferenciát (féláras bevezető vs alapár)
+5. Indulási árazási preferenciát (alapító ár 20-30% kedvezménnyel vs listaár az elejétől)
 
 ## Output
 
@@ -36,8 +36,12 @@ Egy `ajanlat.md` fájl: 1 oldalas dokumentum, ami tartalmazza az 5-elemes ajánl
 - Az érték-stack minden eleme valódi piaci értékkel — ha kitalált, jelez
 - A 3 csomag elnevezése MAGYAR és beszédes (NEM „Basic / Pro / Enterprise")
 - A „kinek NEM való" mondat KÖTELEZŐ minden csomagnál
-- Az indulási árazás 50%-os bevezető — kifejezetten „beta program", NEM „akció"
+- Az indulási árazás 20-30% alapító kedvezmény az első 3-5 ügyfélnek — a keret „nem olcsó, hanem korai", NEM „akció"
+- Csomag-arányok: felső 2-3× a középső, alsó 0,4-0,5× — ettől eltérésnél a skill jelez
 
-## Resources
+## Ár-emelési trigger-pontok (az indulási stratégiához)
 
-- `reference.md` — 5 elem mélyebben, csomag-pszichológia, érték-stack komponensek, ár-emelési triggerek
+- 3-5 esettanulmány elkészült és kint van
+- Az első ügyfelek ajánlás nélkül is jönnek
+- Az ügyfelenkénti munkaóra stabilizálódott
+- A jelöltek gondolkodás nélkül mondanak igent (= túl olcsó)

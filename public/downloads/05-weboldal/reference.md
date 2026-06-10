@@ -126,11 +126,13 @@ git push -u origin main
 
 ### 4. Ellenőrzés
 
+A `dig` egy terminál-parancs, ami megmutatja, mit lát a világ a DNS-rekordjaidból (Mac/Linux alapból tudja; Windowson használd helyette a https://dnschecker.org oldalt):
+
 ```bash
 # Terminálból:
 dig tedneved.hu +short          # ki kell írja: 76.76.21.21
 dig www.tedneved.hu +short      # ki kell írja: cname.vercel-dns.com
-curl -I https://tedneved.hu     # HTTP/2 200 OK
+curl -I https://tedneved.hu     # letölti az oldal fejlécét — HTTP/2 200 = él
 ```
 
 Vagy egyszerűen: nyisd meg böngészőben — ha él, kész.

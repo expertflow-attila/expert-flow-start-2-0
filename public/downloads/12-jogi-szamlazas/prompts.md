@@ -1,5 +1,7 @@
 # 12. modul — Promptok
 
+> Használat: a szögletes zárójeles részeket írd át a saját adataidra, majd másold be a teljes promptot Claude Code-ba (vagy bármelyik AI-asszisztensbe).
+
 > **Fontos figyelmeztetés a teljes modulra:** Az alábbi promptok ORIENTÁCIÓS jellegűek — segítenek strukturálni a gondolkodást. A jogi és adózási döntéseid előtt KÖTELEZŐ könyvelővel és/vagy ügyvéddel egyeztetni. Az AI nem helyettesíti a szakmai tanácsadást. Konkrét számok és szabályok évente változhatnak — mindig ellenőrizd a NAV.hu-n.
 
 ## 12.1 — Prompt a 01. leckéhez (KATA / EV / Kft. — melyik forma?)
@@ -17,7 +19,7 @@ A helyzetem:
 - Várható éves árbevétel az első évben: [konkrét összeg vagy intervallum]
 - Ügyfél-típus: [magánszemélyek / kkv-k / nagyvállalatok / vegyes]
 - Foglalkoztatok-e másokat: [igen/nem; ha igen, hányat]
-- Van-e másik bevételem (alkalmazotti viszony, más vállalkozás): [igen/nem]
+- Van-e másik bevételem (alkalmazotti viszony — heti hány órában —, más vállalkozás): [igen/nem, ha igen: mi]
 - A szakmám: [konkrét szakma]
 
 Kérlek:

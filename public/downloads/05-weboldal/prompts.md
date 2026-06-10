@@ -1,5 +1,7 @@
 # 5. modul — Promptok
 
+**Hogyan használd:** a kódblokkban lévő szöveget másold be a Claude Code-ba, és a `[szögletes zárójeles]` részeket cseréld ki a saját adataidra, mielőtt elküldöd. A három prompt egymásra épül — sorrendben menj.
+
 ## 5.1 — Prompt a 01. leckéhez (A nyolc szekció)
 
 Ez a prompt megtervezi a weboldalad nyolc szekciójának tartalmát az 1-3. modul outputjaira építve. Mielőtt HTML-t generálnál, először a STRUKTÚRA legyen meg — mit írsz hova, milyen érzelemmel.

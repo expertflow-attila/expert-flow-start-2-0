@@ -1,13 +1,13 @@
 ---
 name: lead-magnet-funnel
-description: Végigvezet a lead magnet PDF-vázlatán, a Kit form integrációján és az 5 emailes welcome sorozaton. Használd a 9. modul végén.
+description: Végigvezet a lead magnet PDF-vázlatán, a MailerLite form integrációján és az 5 emailes welcome sorozaton. Használd a 9. modul végén.
 ---
 
 # Lead magnet funnel — Skill
 
 ## Mire való?
 
-A felhasználó már megírta a vállalkozás-magját (1. modul) és felépítette a webhelyét (5. modul). Most a Kit-tel egy alap email-funnelt rakunk össze: PDF-vázlat, form-integráció, és 5 emailes welcome sorozat — egyetlen folyamatban, hogy a részek illeszkedjenek egymáshoz.
+A felhasználó már megírta a vállalkozás-magját (1. modul) és felépítette a webhelyét (5. modul). Most a MailerLite-tal egy alap email-funnelt rakunk össze: PDF-vázlat, form-integráció, és 5 emailes welcome sorozat (Automation) — egyetlen folyamatban, hogy a részek illeszkedjenek egymáshoz.
 
 ## Kérdések
 
@@ -23,8 +23,8 @@ A skill bekéri:
 
 Három fájl egyetlen futásból:
 1. `lead-magnet.md` — 5-10 oldalas Markdown-vázlat, Pandoc-kal PDF-fé konvertálható
-2. `embed-snippet.html` — a Kit form HTML-je a webhelybe illesztve, a copy-val együtt
-3. `welcome-sequence.md` — az 5 email szövege, mindegyiknél tárgysor + törzs + időzítés
+2. `embed-snippet.html` — a MailerLite form beágyazó kódja a webhelybe illesztve, a copy-val együtt
+3. `welcome-sequence.md` — az 5 email szövege, mindegyiknél tárgysor + törzs + időzítés (0., 2., 4., 7., 10. nap)
 
 ## Magatartási szabályok
 
@@ -38,4 +38,4 @@ Három fájl egyetlen futásból:
 
 ## Resources
 
-- `reference.md` — Pandoc parancsok, Kit form HTML kódminta, 5 email teljes sablon
+- `reference.md` — Pandoc parancsok, form-integrációs kódminta, 5 email teljes sablon, Kit setup-checklist (alternatíva)

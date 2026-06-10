@@ -15,7 +15,8 @@ A célcsoport (2. modulból):
 [avatár leírás 2-3 mondatban]
 
 A lead magnet címe:
-„[A 7 lépéses XYZ útmutató]" — vagy konkrét, ígéretes cím javaslat 3 verzióban.
+„[a cím — pl. A 7 lépéses XYZ útmutató]"
+(Ha még nincs címem, írd ide: „javasolj 3 konkrét, ígéretes címet, és én választok.")
 
 Struktúra (Markdown-ban):
 # Cím
@@ -31,19 +32,19 @@ beszélgetést: [Cal.com link]."
 Adj egy 5-10 oldalas Markdown-vázlatot, amit Pandoc-kal PDF-fé tudok konvertálni.
 ```
 
-## 9.2 — Prompt a 02. leckéhez (Feliratkozó form — Kit)
+## 9.2 — Prompt a 02. leckéhez (Feliratkozó form — MailerLite)
 
-A Kit form HTML-jét a webhely lead magnet szekciójába illesztjük. A prompt segít megírni a form körüli copy-t és integrálni a meglévő HTML-be.
+A MailerLite form beágyazó kódját a webhely lead magnet szekciójába illesztjük. A prompt segít megírni a form körüli copy-t és integrálni a meglévő HTML-be.
 
 ```
-A Kit-ben létrehoztam egy formot — itt a HTML kód, amit a Kit ad:
-[a Kit form HTML-je, amit a Kit „Embed" fülén kapsz]
+A MailerLite-ban létrehoztam egy beágyazható formot — itt a kód, amit a MailerLite ad:
+[a MailerLite form beágyazó kódja]
 
 A webhelyem (Vercel-en hostolva, a `index.html` head-jében és body-jában):
 [a webhely jelenlegi lead-magnet szekciójának HTML-je]
 
 Kérlek:
-1. Illeszd be a Kit form HTML-jét a meglévő lead-magnet szekcióba úgy,
+1. Illeszd be a MailerLite form kódját a meglévő lead-magnet szekcióba úgy,
    hogy ne törje el a stílust (Tailwind / saját CSS).
 2. Írj a form FÖLÉ egy 2-3 mondatos copy-t, ami konkrétan ígéri a PDF-et
    („Töltsd le a [konkrét cím] útmutatót — 5 perc olvasás, 7 lépés.").
@@ -58,7 +59,7 @@ Ne használj gradient-et, ne adj hozzá animációt, tartsd minimalistán.
 Az 5 email teljes szövegét generáljuk, a saját pivot-pontod és a célcsoport alapján. Az AI vázol — te beszéddé alakítod.
 
 ```
-Írj egy 5 emailes welcome-sorozatot a Kit Sequences-be.
+Írj egy 5 emailes welcome-sorozatot a MailerLite Automation-be.
 
 Vállalkozás-mag (1. modulból): „[1 mondatos állítás]"
 Pivot-pontom (1. modulból): „[1 bekezdés a saját történetemből]"

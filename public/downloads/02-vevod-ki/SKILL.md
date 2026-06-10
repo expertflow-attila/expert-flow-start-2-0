@@ -34,6 +34,21 @@ Két fájl:
 - A 10 beszélgetés forgatókönyve NEM lehet sales-szagú — a cél megértés, NEM meggyőzés
 - A skill jelez, ha az avatár profilja gyenge (általános frusztrációk, kitalált költési szokások)
 
-## Resources
+## A 12 strukturált kérdés témái (egyesével feltéve)
 
-- `reference.md` — 12 strukturált kérdés, napi rutin sablon, realista/aspiratív kategorizáció, 10 beszélgetés-forgatókönyv váza
+1-4. Hétköznapok: napirend, munkaterhelés, család, ami a legtöbb idejét viszi
+5-7. Frusztrációk: mi bosszantja a témában, mit próbált már, mi nem működött
+8-10. Pénz: mire költött az elmúlt 12 hónapban a téma körül, mennyit, mit tartott megérinek
+11-12. Döntés: ki szól bele a döntéseibe, mi kell ahhoz, hogy igent mondjon valamire
+
+## Realista vs aspiratív avatár
+
+- **Realista:** most is költ a problémára, elérhető, holnap fel tudnád hívni — ezzel dolgozz
+- **Aspiratív:** „majd ha nagyobb leszek, ilyen ügyfeleim lesznek" — jelezd, hogy ez 1-2 év múlva lesz vevő, nem most
+
+## A beszélgetés-forgatókönyv váza
+
+1. Nyitó mondat: őszinte, nem sales („valami újat csinálok, és tanulni szeretnék")
+2. A modul 5 nyitott kérdése a [probléma] behelyettesítésével
+3. 2-3 kérdés a pénz-elköltési múltról
+4. Záró kérdés: „Ismersz valakit, akit szintén érint ez?"

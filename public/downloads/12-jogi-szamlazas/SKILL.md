@@ -7,7 +7,7 @@ description: Strukturálja a vállalkozási forma választást (KATA/EV/Kft.), a
 
 ## Mire való?
 
-A felhasználó kezdő egyéni vállalkozó, aki tájékozódni szeretne a magyar jogi és adózási környezetben. A skill háromban segít: (1) strukturálja a KATA/EV/Kft. választást — kérdéseket ad, amiket a könyvelővel meg kell beszélni; (2) végigvezet a számlázó-rendszer setupon (Számlázz.hu vagy Billingo) + NAV bejelentkezésen; (3) az ÁSZF és Adatvédelmi nyilatkozat strukturális vázlatát adja, és segít eldönteni, hogy sablon-vásárlás vagy ügyvéd-konzultáció a logikus első lépés.
+A felhasználó kezdő egyéni vállalkozó, aki tájékozódni szeretne a magyar jogi és adózási környezetben. A skill három dologban segít: (1) strukturálja a KATA/EV/Kft. választást — kérdéseket ad, amiket a könyvelővel meg kell beszélni; (2) végigvezet a számlázó-rendszer setupon (Számlázz.hu vagy Billingo) + NAV bejelentkezésen; (3) az ÁSZF és Adatvédelmi nyilatkozat strukturális vázlatát adja, és segít eldönteni, hogy sablon-vásárlás vagy ügyvéd-konzultáció a logikus első lépés.
 
 ## Kérdések
 
@@ -24,7 +24,7 @@ A skill bekéri:
 Három fájl:
 1. `forma-valasztas.md` — összehasonlító tábla (EV+KATA / EV+átalány / Kft.) + 5-pontos kérdés-lista a könyvelői konzultációra
 2. `szamlazo-setup.md` — Számlázz.hu vs Billingo összevetés + lépésről-lépésre setup-checklist + NAV Online Számla integráció + teszt-számla folyamat
-3. `aszf-adatvedelem-strukutra.md` — fejezet-vázlat MINDKÉT dokumentumhoz (NEM kész szöveg!) + sablon-vásárlás vs ügyvéd-konzultáció összevetés + linkelés a webhelyen
+3. `aszf-adatvedelem-struktura.md` — fejezet-vázlat MINDKÉT dokumentumhoz (NEM kész szöveg!) + sablon-vásárlás vs ügyvéd-konzultáció összevetés + linkelés a webhelyen
 
 ## Magatartási szabályok
 

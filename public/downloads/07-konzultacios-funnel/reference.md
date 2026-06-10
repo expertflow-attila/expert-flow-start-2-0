@@ -12,7 +12,7 @@
 ### Időkeret (Availability)
 - **Heti óra:** 4-6 óra (NE többet — kell idő felkészülésre, pihenésre)
 - **Napok:** Hétfő-csütörtök (péntek hagyva más munkára)
-- **Napszak:** 10:00-12:00 ÉS 14:00-16:00 (delelőtt és kora délután)
+- **Napszak:** 10:00-12:00 ÉS 14:00-16:00 (délelőtt és kora délután)
 - **Időzóna:** Europe/Budapest
 - **Buffer before:** 15 perc
 - **Buffer after:** 15 perc
@@ -134,7 +134,7 @@ Ha kérdésed van menet közben, írj egyet ide: {{REPLY_EMAIL}}
 {{TE_NEVED}}
 ```
 
-**Megjegyzés:** Ezt az emailt vagy 100%-ban automatikusan küldöd egy generikus szöveggel, vagy a Workflow helyett manuálisan írod meg a beszélgetés után. Én az utóbbit ajánlom — a personalizáció többet ér ennél a kontaktnál.
+**Megjegyzés:** Ezt az emailt vagy 100%-ban automatikusan küldöd egy generikus szöveggel, vagy a Workflow helyett manuálisan írod meg a beszélgetés után. Én az utóbbit ajánlom — a személyre szabás többet ér ennél a kontaktnál.
 
 ### 5) NO-SHOW FOLLOW-UP (24 órával a no-show után)
 

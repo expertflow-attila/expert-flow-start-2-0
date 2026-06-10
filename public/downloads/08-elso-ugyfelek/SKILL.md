@@ -7,7 +7,7 @@ description: A 10-fős ismerős-lista összeírása, személyes üzenetek megfog
 
 ## Mire való?
 
-A 8. modul „hitelesség-keret" modulja a kurzusnak — ez a skill ezt tükrözi. NEM tanácsad „hogyan szerezz ügyfeleket", hanem segít a felhasználónak DOKUMENTÁLNI a saját első próbálkozásait: 10 ismerős listája, személyes üzenetek megfogalmazása, és (ha sikerül leszerződni) ajánláskérés.
+A 8. modul „hitelesség-keret" modulja a kurzusnak — ez a skill ezt tükrözi. NEM azt tanítja, „hogyan szerezz ügyfeleket", hanem segít a felhasználónak DOKUMENTÁLNI a saját első próbálkozásait: 10 ismerős listája, személyes üzenetek megfogalmazása, és (ha sikerül leszerződni) ajánláskérés.
 
 A skill hangneme végig: „ezt teszem én, így gondolkodom, ez a hipotézisem, ez a kockázatom" — soha nem „így kell csinálni".
 

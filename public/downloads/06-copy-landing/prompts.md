@@ -1,5 +1,7 @@
 # 6. modul — Promptok
 
+**Hogyan használd:** a kódblokkban lévő szöveget másold be a Claude Code-ba, és az `[INPUT]` részekhez írd be a saját modul-outputjaidat, mielőtt elküldöd.
+
 ## 6.1 — Prompt a 01. leckéhez (Hero-headline tíz variációban)
 
 Ez a prompt tíz hero-headline variációt generál, különböző érzelmi keretekben. Tedd be az 1-3. modul outputjait a megjelölt helyekre. A nyertest a webhelyre, a maradékot a swipefile-odba (későbbi email-tárgyba, hirdetésbe).

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<!-- ==================================================================
+     HOGYAN HASZNÁLD EZT A FÁJLT (5. modul, 02. lecke)
+
+     1. Mentsd el index.html néven a projekt-mappádba.
+     2. Nyisd meg VS Code-ban, és cserélj ki MINDEN [KITÖLTENDŐ: ...]
+        részt a saját szövegedre — a szögletes zárójelek is menjenek.
+     3. Mentés (Ctrl+S / Mac: Cmd+S), majd dupla kattintás a fájlra:
+        megnyílik a böngészőben. Minden mentés után frissítsd az oldalt.
+     4. Az ilyen keretes szövegek kommentek: neked szólnak,
+        a látogató nem látja őket. Nyugodtan bent maradhatnak.
+     ================================================================== -->
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[KITÖLTENDŐ: a neved vagy a szolgáltatásod neve]</title>
+  <meta name="description" content="[KITÖLTENDŐ: az egy mondatod — 1. modul]">
+  <!-- Ez az egy sor tölti be a Tailwind stílus-könyvtárat az internetről — ne töröld -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Rendszer-fontok — nincs külső betűtípus-betöltés */
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  </style>
+</head>
+<body class="bg-white text-neutral-900 antialiased">
+
+  <!-- ============================================================
+       1. HERO — egy mondatos ígéret + CTA gomb
+       Az 1. modul egy-mondatát írd ide. EGY dolga van: 30 mp alatt
+       értse a látogató, mit kínálsz és kinek.
+       ============================================================ -->
+  <section class="px-6 py-24 md:py-32">
+    <div class="mx-auto max-w-3xl text-center">
+      <p class="mb-4 text-sm font-medium uppercase tracking-widest text-neutral-500">
+        [KITÖLTENDŐ: a szakmád, 2-4 szó — pl. „Könyvelés egyéni vállalkozóknak"]
+      </p>
+      <h1 class="text-4xl font-bold leading-tight md:text-5xl">
+        [KITÖLTENDŐ: az egy mondatod — „Segítek X-eknek elérni Y-t Z időn belül"]
+      </h1>
+      <p class="mx-auto mt-6 max-w-xl text-lg text-neutral-600">
+        [KITÖLTENDŐ: 1-2 mondat kiegészítés — kinek szól és mi lesz az eredmény]
+      </p>
+      <a href="#cta" class="mt-10 inline-block rounded-md bg-neutral-900 px-8 py-4 font-semibold text-white hover:bg-neutral-700">
+        [KITÖLTENDŐ: CTA-gomb szövege — pl. „Foglalj ingyenes konzultációt"]
+      </a>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       2. PROBLÉMÁK — 3 fájdalom, amit a vevőd érez
+       A 2. modul interjú-jegyzeteiből dolgozz: a vevő saját szavait
+       használd, ne a tiédet.
+       ============================================================ -->
+  <section class="bg-neutral-50 px-6 py-20">
+    <div class="mx-auto max-w-4xl">
+      <h2 class="text-center text-3xl font-bold">
+        [KITÖLTENDŐ: szekció-cím — pl. „Ismerős ez az érzés?"]
+      </h2>
+      <div class="mt-12 grid gap-8 md:grid-cols-3">
+        <div class="rounded-lg border border-neutral-200 bg-white p-6">
+          <h3 class="font-semibold">[KITÖLTENDŐ: 1. fájdalom címe]</h3>
+          <p class="mt-2 text-neutral-600">[KITÖLTENDŐ: 1-2 mondat a vevő szavaival]</p>
+        </div>
+        <div class="rounded-lg border border-neutral-200 bg-white p-6">
+          <h3 class="font-semibold">[KITÖLTENDŐ: 2. fájdalom címe]</h3>
+          <p class="mt-2 text-neutral-600">[KITÖLTENDŐ: 1-2 mondat a vevő szavaival]</p>
+        </div>
+        <div class="rounded-lg border border-neutral-200 bg-white p-6">
+          <h3 class="font-semibold">[KITÖLTENDŐ: 3. fájdalom címe]</h3>
+          <p class="mt-2 text-neutral-600">[KITÖLTENDŐ: 1-2 mondat a vevő szavaival]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       3. MEGOLDÁS — mit csinálsz
+       Röviden és konkrétan: hogyan oldod meg a fenti 3 problémát.
+       Ne folyamatot magyarázz — eredményt ígérj.
+       ============================================================ -->
+  <section class="px-6 py-20">
+    <div class="mx-auto max-w-3xl text-center">
+      <h2 class="text-3xl font-bold">
+        [KITÖLTENDŐ: a megoldásod egy mondatban]
+      </h2>
+      <p class="mt-6 text-lg text-neutral-600">
+        [KITÖLTENDŐ: 2-3 mondat — mit csinálsz, hogyan dolgozol, mi a folyamat lényege]
+      </p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       4. RÓLAM — mini, 3-4 mondat
+       Nem önéletrajz. Miért pont te, és miért hihet neked a vevő.
+       A fotódat másold ebbe a mappába (pl. profil.jpg), és írd be
+       a fájlnevét lent az src-be. Ha még nincs fotód, töröld ki
+       a teljes <img ...> sort — fotó nélkül is működik az oldal.
+       ============================================================ -->
+  <section class="bg-neutral-50 px-6 py-20">
+    <div class="mx-auto flex max-w-3xl flex-col items-center gap-8 md:flex-row">
+      <img src="[KITÖLTENDŐ: a fotód fájlneve — pl. profil.jpg]" alt="[KITÖLTENDŐ: a neved]"
+           class="h-40 w-40 rounded-full bg-neutral-200 object-cover">
+      <div>
+        <h2 class="text-3xl font-bold">[KITÖLTENDŐ: a neved]</h2>
+        <p class="mt-4 text-neutral-600">
+          [KITÖLTENDŐ: 3-4 mondat — ki vagy, mióta csinálod, miért ezt, és mi a hozzáállásod]
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       5. OUTCOME-OK — mit kap a vevő ténylegesen
+       A 3. modul csomagjából emeld ki a 3 legfontosabb eredményt.
+       Konkrét, mérhető, a vevő életében látható dolgokat írj.
+       ============================================================ -->
+  <section class="px-6 py-20">
+    <div class="mx-auto max-w-4xl">
+      <h2 class="text-center text-3xl font-bold">
+        [KITÖLTENDŐ: szekció-cím — pl. „Ezt kapod"]
+      </h2>
+      <ul class="mx-auto mt-12 max-w-2xl space-y-6">
+        <li class="flex gap-4">
+          <span class="mt-1 h-2 w-2 shrink-0 rounded-full bg-neutral-900"></span>
+          <p><strong>[KITÖLTENDŐ: 1. outcome]</strong> — [KITÖLTENDŐ: 1 mondat, mit jelent ez a gyakorlatban]</p>
+        </li>
+        <li class="flex gap-4">
+          <span class="mt-1 h-2 w-2 shrink-0 rounded-full bg-neutral-900"></span>
+          <p><strong>[KITÖLTENDŐ: 2. outcome]</strong> — [KITÖLTENDŐ: 1 mondat, mit jelent ez a gyakorlatban]</p>
+        </li>
+        <li class="flex gap-4">
+          <span class="mt-1 h-2 w-2 shrink-0 rounded-full bg-neutral-900"></span>
+          <p><strong>[KITÖLTENDŐ: 3. outcome]</strong> — [KITÖLTENDŐ: 1 mondat, mit jelent ez a gyakorlatban]</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       6. GARANCIA — mit kockáztat a vevő, ha nem működik
+       A 3. modul 5-elemes ajánlatából. Egy erős mondat elég.
+       ============================================================ -->
+  <section class="bg-neutral-900 px-6 py-20 text-white">
+    <div class="mx-auto max-w-3xl text-center">
+      <h2 class="text-3xl font-bold">
+        [KITÖLTENDŐ: garancia-cím — pl. „A kockázat az enyém"]
+      </h2>
+      <p class="mt-6 text-lg text-neutral-300">
+        [KITÖLTENDŐ: a garanciád 1-2 mondatban — mi történik, ha a vevő nem elégedett]
+      </p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       7. FAQ — 5-7 kérdés-válasz
+       A 2. modul beszélgetéseiben elhangzott valódi kérdéseket írd
+       ide. A details/summary natív accordion — JavaScript nélkül.
+       Másold a blokkot, ha több kérdés kell.
+       ============================================================ -->
+  <section class="px-6 py-20">
+    <div class="mx-auto max-w-3xl">
+      <h2 class="text-center text-3xl font-bold">Gyakori kérdések</h2>
+      <div class="mt-12 space-y-4">
+        <details class="rounded-lg border border-neutral-200 p-6">
+          <summary class="cursor-pointer font-semibold">[KITÖLTENDŐ: 1. kérdés]</summary>
+          <p class="mt-3 text-neutral-600">[KITÖLTENDŐ: válasz 2-3 mondatban]</p>
+        </details>
+        <details class="rounded-lg border border-neutral-200 p-6">
+          <summary class="cursor-pointer font-semibold">[KITÖLTENDŐ: 2. kérdés]</summary>
+          <p class="mt-3 text-neutral-600">[KITÖLTENDŐ: válasz 2-3 mondatban]</p>
+        </details>
+        <details class="rounded-lg border border-neutral-200 p-6">
+          <summary class="cursor-pointer font-semibold">[KITÖLTENDŐ: 3. kérdés]</summary>
+          <p class="mt-3 text-neutral-600">[KITÖLTENDŐ: válasz 2-3 mondatban]</p>
+        </details>
+        <details class="rounded-lg border border-neutral-200 p-6">
+          <summary class="cursor-pointer font-semibold">[KITÖLTENDŐ: 4. kérdés]</summary>
+          <p class="mt-3 text-neutral-600">[KITÖLTENDŐ: válasz 2-3 mondatban]</p>
+        </details>
+        <details class="rounded-lg border border-neutral-200 p-6">
+          <summary class="cursor-pointer font-semibold">[KITÖLTENDŐ: 5. kérdés]</summary>
+          <p class="mt-3 text-neutral-600">[KITÖLTENDŐ: válasz 2-3 mondatban]</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       8. CTA + FOOTER — a záró kattintás
+       A href-be Stripe Payment Link vagy Cal.com foglaló-URL kerül
+       (5. modul 04. lecke, illetve 7. modul).
+       ============================================================ -->
+  <section id="cta" class="bg-neutral-50 px-6 py-24">
+    <div class="mx-auto max-w-3xl text-center">
+      <h2 class="text-3xl font-bold md:text-4xl">
+        [KITÖLTENDŐ: záró felhívás — pl. „Kezdjük el még ezen a héten"]
+      </h2>
+      <p class="mx-auto mt-4 max-w-xl text-neutral-600">
+        [KITÖLTENDŐ: 1 mondat — mi a következő lépés és mennyi időt vesz igénybe]
+      </p>
+      <a href="[KITÖLTENDŐ: Stripe Payment Link vagy Cal.com URL]"
+         class="mt-8 inline-block rounded-md bg-neutral-900 px-8 py-4 font-semibold text-white hover:bg-neutral-700">
+        [KITÖLTENDŐ: CTA-gomb szövege — ugyanaz, mint a Hero-ban]
+      </a>
+    </div>
+  </section>
+
+  <footer class="border-t border-neutral-200 px-6 py-10">
+    <div class="mx-auto flex max-w-4xl flex-col items-center justify-between gap-4 text-sm text-neutral-500 md:flex-row">
+      <p>© 2026 [KITÖLTENDŐ: a neved vagy a vállalkozásod neve]. Minden jog fenntartva.</p>
+      <p>
+        <a href="mailto:[KITÖLTENDŐ: te@tedneved.hu]" class="hover:text-neutral-900">[KITÖLTENDŐ: te@tedneved.hu]</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
