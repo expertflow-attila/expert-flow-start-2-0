@@ -6,11 +6,11 @@ lastReviewed: "2026-06-09"
 
 > Abból indulunk ki, ami már létezik — nem a szenvedélyed, hanem amiben évek óta kerestél megoldást magadnak vagy a környezetednek.
 
-> **TL;DR** — A fájdalmadból (nem az "ötletből") egy mondat, ami a következő 11 hét alapja.
-> - 4 fájdalom-kérdés papíron (nem AI-val) — az első válasz mindig sablonos, kérdezz mélyebbre
-> - Pivot-pont: az a pillanat, amikor valami működni kezdett — itt vált a fájdalom tudássá
-> - Választási mátrix: 3 jelölt-probléma, 3 szempont, 1-5 pont — a legmagasabb megy tovább
-> - Egy mondat: "Én a [probléma]-ban segítek a [konkrét emberek]-nek, mert [pivot-pont]"
+> **TL;DR** — Ebben a modulban megkeresed, miben tudsz valóban segíteni másoknak, és ezt egyetlen érthető mondatba foglalod. Ez lesz minden következő modul alapja. Amit csinálsz:
+> - Négy kérdésre válaszolsz papíron, hogy kiderüljön, milyen problémán gondolkodsz évek óta.
+> - Megtalálod a pivot-pontodat: azt a pillanatot, amikor egy témában te magad átléptél valamin.
+> - Egy egyszerű pontozó táblázattal kiválasztod a három jelölted közül a legjobbat.
+> - Megírod az egy mondatodat: kinek, miben és miért tudsz segíteni.
 
 ## Hol tartasz
 

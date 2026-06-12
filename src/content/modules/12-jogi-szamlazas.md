@@ -6,12 +6,11 @@ lastReviewed: "2026-06-09"
 
 > KATA, EV, Számlázz.hu, NAV, ÁSZF — a magyar jogi környezet kötelező alapja, ami nélkül az első fizető ügyfél nem szállítható.
 
-> **TL;DR** — Vállalkozási forma + magyar számlázás + fizetés + ÁSZF/GDPR — az első fizető ügyfél előtti minimum.
-> - **Forma**: csak magánszemély ügyfélnél KATA; vegyes (céges is) ügyfélkörnél EV átalányadó; több alapító és nagy forgalom esetén Kft.
-> - **Számlázás**: Számlázz.hu vagy Billingo + NAV Online Számla regisztráció (kötelező)
-> - **Fizetés**: belföldön Stripe HUF (~2% + 50 Ft), külföldön Wise Business multi-currency, számlázás külön
-> - **Könyvelő**: 6 kérdéses választó-lista + induló költség-összesítő az első 3 hónapra
-> - **Kötelező jogi**: ÁSZF + Adatvédelmi nyilatkozat — NE AI-val generáld, jogi sablon (5-10 ezer Ft) vagy tanácsadó
+> **TL;DR** — Ebben a modulban összerakod azt a jogi és számlázási minimumot, ami nélkül az első fizető ügyfeledet nem tudod kiszolgálni. Konkrétan:
+> - Kiválasztod a vállalkozási formádat: kinek számlázol és fő- vagy mellékállásban indulsz alapján KATA, EV vagy Kft.
+> - Beállítasz egy számlázót (Számlázz.hu vagy Billingo) és bekötöd a NAV rendszerébe.
+> - Eldöntöd, hogyan fogadsz pénzt: belföldi fizetésre Stripe, külföldire Wise.
+> - Kiteszed a kötelező jogi szövegeket (ÁSZF és adatvédelmi nyilatkozat), és beszélsz egy könyvelővel.
 
 **Utoljára ellenőrizve: 2026-05-15.** A magyar adózási szabályok változnak (a KATA-küszöbtől az ÁFA-szabályokig). Ellenőrizd a NAV oldalán mindig — ez a modul tájékoztató, nem könyvelői tanácsadás.
 

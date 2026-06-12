@@ -4,11 +4,11 @@ lastReviewed: "2026-06-09"
 
 # Referencia-tár · Funnel típusok
 
-> **TL;DR** — 14 funnel-típus, ebből 5 fő típus részletesen, 9 röviden.
-> - Funnel = 3-7 lépéses automatizált utazás landingtől fizetésig
-> - **Az 5 fő típus**: konzultációs, lead magnet, tripwire, kvíz, application
-> - **Kezdetnek 2-3 funnel elég** — a konzultációs + lead magnet a leggyakoribb kombináció
-> - Részletes 23 funnel: [Funnel Tananyag](https://funnel-tananyag.vercel.app)
+> **TL;DR** — Ez a modul végigveszi a funnel-típusokat, hogy ki tudd választani, melyik illik a helyzetedhez.
+> - Megérted, mi az a funnel: a látogató útja a weboldaltól a fizetésig, 3-7 lépésben
+> - Megismered az 5 fő típust részletesen: konzultációs, lead magnet, tripwire, kvíz, application
+> - Kapsz egy táblázatot, amiből egy perc alatt kiderül, melyik funnel kell most neked
+> - Megtanulod, hogy kezdetben 2-3 funnel elég — nem kell mind a 14-et megépíteni
 
 ## Modul áttekintés
 

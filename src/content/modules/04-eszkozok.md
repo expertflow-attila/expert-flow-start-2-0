@@ -6,13 +6,11 @@ lastReviewed: "2026-06-09"
 
 > VS Code + Claude Code + Sybell domain + Google Workspace — egy modulban a teljes setup, ami a következő nyolc hét gerincét adja.
 
-> **TL;DR** — 4 alap-eszköz a helyére: IDE, Claude Code, domain, hivatalos email — 8 hét gerince.
-> - A hét kettéosztva: **4a (hétfő–szerda)** VS Code + Claude Code, **4b (csütörtök–péntek)** domain + Google Workspace
-> - **VS Code + Claude Code** (`npm install -g @anthropic-ai/claude-code`, ~$20/hó) — AI a fejlesztőkörnyezetben
-> - **Claude Code alapok**: `/clear`, `/compact`, `/rewind`, plan mode (Shift+Tab+Tab), sub-agentek, skills, MCP
-> - **Sybell domain** (~3-5 ezer Ft/év) + **Google Workspace** (~2000 Ft/hó)
-> - **Email-hitelesítés kötelező**: MX, SPF, DKIM, DMARC a Sybell DNS-ben + mail-tester.com önellenőrzés, cél 9/10
-> - Haladó Claude Code-trükkökért lásd a 21. modult
+> **TL;DR** — Ebben a modulban beállítod a teljes munkakörnyezetet, ami a következő nyolc hét alapja lesz. A hetet kettéosztjuk: hétfő–szerda a fejlesztés, csütörtök–péntek az online jelenlét.
+> - Telepíted a VS Code szövegszerkesztőt és a Claude Code AI-asszisztenst, és megérted, hogyan dolgozol velük együtt
+> - Megtanulod a Claude Code alapparancsait és kulcs-fogalmait (plan mode, sub-agentek, skills, MCP)
+> - Regisztrálsz egy saját domaint a Sybellen, és beállítasz egy hivatalos email-címet Google Workspace-szel
+> - Hitelesíted az emailedet (MX, SPF, DKIM, DMARC), hogy a leveleid ne ragadjanak spambe
 
 ## Hol tartasz
 

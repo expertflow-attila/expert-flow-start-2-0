@@ -8,7 +8,7 @@ lastReviewed: "2026-06-09"
 
 > **TL;DR** — Az első 90 nap nem új építkezés, hanem finomhangolás négy ponton.
 > - Ár: az 5. fizető ügyfél után emelsz 20-30%-ot — a régieknek 6 hónapig védett ár
-> - Fókusz: 90 nap után megnézed, melyik ügyféltípus volt jövedelmező, könnyű ÉS élvezetes — a metszet az új irány
+> - Fókusz: 90 nap után megnézed, melyik ügyféltípus volt egyszerre jövedelmező, könnyű és élvezetes — abból kell több
 > - Csatorna: egyszerre EGY új csatornát indítasz, és 90 napig kitartasz mellette
 > - Bevétel: a projekt-ügyfélből havidíjas ügyfelet csinálsz — ez a kiszámíthatóság alapja
 

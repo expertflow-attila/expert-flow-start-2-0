@@ -4,7 +4,12 @@ lastReviewed: "2026-06-09"
 
 # Outro — A következő lépés
 
-> Az igazán nehéz rész nem az, hogy elkezdted. Hanem hogy akkor is folytasd, amikor már nem tudod, mi a következő lépés. Ehhez van egy ingyenes közösség — lépj be, és ott folytatjuk együtt.
+> **TL;DR** — A program zárása. Itt nem új anyag jön, hanem lezárás és a következő lépés.
+>
+> - Miért a folytatás a nehéz rész, nem a kezdés
+> - Mit építettél fel a 13 hét alatt, egy listában
+> - Hogyan lépj be az ingyenes közösségbe, ahol nem egyedül folytatod
+> - Az utolsó három teendőd a program után
 
 ## A nehéz rész nem a kezdés
 

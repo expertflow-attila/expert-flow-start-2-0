@@ -6,11 +6,11 @@ lastReviewed: "2026-06-09"
 
 > Egy hasznos PDF, egy feliratkozó form, és öt email a feliratkozás utáni két hétben — ez az alap email-funnel, amit a MailerLite-tal rakunk össze.
 
-> **TL;DR** — Lead magnet PDF + MailerLite feliratkozó form + 5 emailes welcome a feliratkozás utáni 14 napra.
-> - **Téma**: a 2. modul interjúiban leggyakrabban elhangzott kérdés — nem tipp, hanem adat
-> - **Lead magnet**: 5-10 oldalas konkrét PDF (Markdownból Pandoc vagy headless Chrome segítségével), nem Canva, nem InDesign
-> - **MailerLite** ingyenes 1000 feliratkozóig, form beágyazva a webhelyre, Automation küldi a leveleket
-> - **5 email**: PDF (azonnal), pivot-történet (2. nap), tévhit (4.), bonus tipp (7.), CTA (10.)
+> **TL;DR** — Ebben a modulban összerakod az első email-funneledet: egy ingyenes letölthető anyagot, egy feliratkozó űrlapot és öt automatikus levelet, amik bizalmat építenek a látogatóknál, akik még nem vásárolnak.
+> - Kiválasztod a letölthető anyag témáját a 2. modul interjúiból — abból, amire bizonyítottan kíváncsiak az ügyfeleid.
+> - Megírsz egy rövid, gyakorlati PDF-et, és felteszed a webhelyre cserébe az email-címért.
+> - Beállítasz egy feliratkozó űrlapot a MailerLite-ban (1000 feliratkozóig ingyenes).
+> - Időzítesz öt automatikus levelet a feliratkozás utáni két hétre.
 
 ## Hol tartasz
 

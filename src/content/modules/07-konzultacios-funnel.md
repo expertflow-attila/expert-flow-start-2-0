@@ -6,12 +6,11 @@ lastReviewed: "2026-06-09"
 
 > Cal.com + négy automatikus email. A rendszer dolgozik, te beszélgetsz — ezért fontos, hogy a háttér nélküled is működjön.
 
-> **TL;DR** — Cal.com + 4 automatikus email a foglalás és a beszélgetés között — te csak a beszélgetésen vagy jelen.
-> - **Cal.com setup**: Google Workspace-fiókkal, event type, időkeret, buffer
-> - **Szűrő-kérdések**: aki 3 kérdést kitölt, elköteleződött — ezért csökken a no-show
-> - **4 email teljes szövege másolhatóan**: visszaigazolás, 24 órás, 1 órás emlékeztető, follow-up
-> - **No-show playbook**: emlékeztető-lánc + „lemaradtál" újrafoglaló email — 1 kör, utána engedd el
-> - **A nagyobb kép**: a konzultációs funnel egy az 5 fő típusból — a többi a 18. modulban
+> **TL;DR** — Ebben a modulban rendszert építesz a „Foglalj konzultációt" gomb mögé, hogy a foglalástól a beszélgetésig minden magától menjen.
+> - Beállítod a Cal.com foglalót, és 2-3 szűrő-kérdést teszel a foglalási űrlapra.
+> - Bemásolod a négy automatikus emailt: visszaigazolás, két emlékeztető és egy követő levél.
+> - Felkészülsz a no-show-ra (amikor lefoglalt, de nem jött el): emlékeztetők és egy újrafoglaló email.
+> - Megérted, hová illik ez a funnel a teljes képben — a többi típus a 18. modulban jön.
 
 ## Hol tartasz
 

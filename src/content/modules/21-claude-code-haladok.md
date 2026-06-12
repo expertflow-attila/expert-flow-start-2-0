@@ -6,11 +6,11 @@ lastReviewed: "2026-06-09"
 
 > Húsz konkrét trükk három szinten — kezdő, köztes, haladó. A 4. modulban már megtanultad az alapokat; ez a referencia ott segít, amikor gyorsabb és olcsóbb akarsz lenni.
 
-> **TL;DR** — 20 Claude Code productivity-trükk három szinten (alap/köztes/haladó), 32-ből kiválogatva.
-> - **Alapok (8)**: `/init`, status line, kontextus-fegyelem, `/context`, `/compact` 60%-nál, plan mode, junior fejlesztő-mentalitás, önellenőrzés
-> - **Köztes (7)**: sub-agentek, custom skills, CLAUDE.md karbantartás, Esc + újrakérdezés, „scrap that", `/rewind`, screenshot self-check
-> - **Haladó (5)**: Chrome DevTools MCP, ultrathink, allow/deny lista, Context7 MCP, mobil távirányítás
-> - Heti 2-3 trükköt vezess be, ne mindent egyszerre
+> **TL;DR** — Ez a bónusz modul egy trükkös tár: 20 gyakorlati fogás, amivel gyorsabban és olcsóbban dolgozol a Claude Code-dal. Ebben a modulban:
+> - Megtanulsz nyolc alapszokást, ami minden Claude Code-felhasználónak jól jön (pl. projekt-indítás, kontextus-kezelés, tervezés végrehajtás előtt)
+> - Hét köztes fogást kapsz arra, hogyan dolgozz gyorsabban (pl. párhuzamos segéd-Claude-ok, saját workflow-k, gyors visszalépés hibánál)
+> - Öt haladó trükköt is megnézünk a komolyabb különbségekhez (pl. böngésző-vezérlés, friss dokumentáció behúzása, engedély-beállítások)
+> - Megérted, hogyan vezesd be ezeket okosan: heti 2-3 trükköt, nem mindent egyszerre
 
 ## Mire való ez a tár
 

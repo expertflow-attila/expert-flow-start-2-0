@@ -6,11 +6,11 @@ lastReviewed: "2026-06-09"
 
 > Öt alap esemény, egy egyszerű dashboard. A mérés ott kezdődik, ahol forgalom van — előbb beszerezzük, aztán nézzük.
 
-> **TL;DR** — GA4 telepítés + 5 alap esemény + heti 15 perces riport-rutin. Mérés a döntéseket informálja, nem önmagában cél.
-> - **gtag.js** snippet (8 sor JS) a webhely `<head>`-jébe (Claude Code 30 mp)
-> - **5 esemény**: page_view (auto), scroll_depth, cta_click, booking_click, email_signup
-> - **Benchmark tájékozódásra**: látogató→feliratkozó 2-5% jó kezdés, feliratkozó→hívás-foglalás 1-3% — sávok, nem ígéret
-> - **Heti riport**: hétfő reggel 15 perc, 3 mutató Sheets-be, 3 kérdés, EGY változtatás a következő hétre
+> **TL;DR** — Ebben a modulban beállítod a látogatottság-mérést, és megtanulsz heti pár perc alatt döntést hozni belőle. A mérés a döntéseidet segíti, nem önmagában cél.
+> - Felteszed a Google Analytics 4 mérőkódját a webhelyedre.
+> - Beállítasz 5 alap eseményt: oldalmegtekintés, görgetés-mélység, gombkattintás, időpontfoglalás, feliratkozás.
+> - Megérted, milyen arányok számítanak jó kezdésnek (látogatóból feliratkozó, feliratkozóból foglalás) — és miért nem érdemes kis számokból következtetni.
+> - Bevezetsz egy heti riport-rutint: minden hétfőn ránézel 3 számra, és eldöntöd, mit változtatsz a következő héten.
 
 ## Hol tartasz
 

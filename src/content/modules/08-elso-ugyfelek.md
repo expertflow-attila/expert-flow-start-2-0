@@ -6,11 +6,11 @@ lastReviewed: "2026-06-09"
 
 > Nem hirdetés, nem nyomulás. Tíz ember a környezetemből, jól megválasztott csatornán, személyes üzenettel — és egy rendszer arra, mi történjen a válaszok után.
 
-> **TL;DR** — Ismerős-lista (10 név) + csatorna-választás a kapcsolat melegsége szerint + személyes üzenet sablonból + döntési fa minden válasz-típusra + heti tracking-tábla.
-> - **Dokumentáló hang** — ezt én is most tanulom, a saját számaimat is megosztom
-> - **Csatorna-sorrend:** telefon > személyes találkozó > hangüzenet > írott üzenet
-> - **Reális várakozás:** 10 üzenet → 4-6 válasz → 2-3 beszélgetés → 0-1 felmérő hívás
-> - **Minden „nem" is adat** — a sok nem vagy az ajánlatodról szól, vagy a célzásodról
+> **TL;DR** — Ebben a modulban megkeresed az első ügyfeleidet a saját környezetedből, és felépítesz egy rendszert arra, mi történjen a válaszok után. Amit csinálsz és megértesz:
+> - Összeírsz 10 embert, akit már ismersz, és mindegyikhez kiválasztod a megfelelő csatornát: minél melegebb a kapcsolat, annál közvetlenebb (telefon, találkozó, hangüzenet, írott üzenet).
+> - Személyes, rövid üzenetet küldesz sablonból, ahol nem eladni akarsz, csak véleményt kérni.
+> - Minden válasz-típusra van egy lépésed: érdeklődik, kérdez, hallgat vagy nemet mond.
+> - Megérted a reális számokat: 10 üzenetből 4-6 válasz, 2-3 beszélgetés, 0-1 hívás lesz — és minden „nem" is hasznos adat.
 
 ## Hol tartasz
 

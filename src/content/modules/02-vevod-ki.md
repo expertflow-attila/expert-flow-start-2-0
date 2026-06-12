@@ -6,11 +6,11 @@ lastReviewed: "2026-06-09"
 
 > Egy konkrét ember, akiről tudod, mit csinál este 10-kor. Plusz tíz valódi beszélgetés, hogy ne képzelődj.
 
-> **TL;DR** — Egy konkrét ember, név + életkörülmény + esti gondolatok, plusz 10 valódi beszélgetés.
-> - "Célközönség" hazudik — egy konkrét Anna (név, kor, lakhely, esti rutin), nem "kisvállalkozók"
-> - Az értékesítési szöveg az este 10 órai belső mondatokból indul, nem a foglalkozásból
-> - 10 db 20-30 perces beszélgetés telefonon — szó szerinti forgatókönyvvel, jegyzet-táblával
-> - A szó szerinti idézeteket gyűjtsd — a 6. modul értékesítési szövege ezekből épül majd
+> **TL;DR** — Ebben a modulban kiderítjük, ki a vevőd: nem egy homályos célcsoport, hanem egy konkrét ember.
+> - Megrajzolsz egy valódi embert: név, kor, lakhely, hétköznapok
+> - Megfogalmazod, mire gondol este 10-kor — a fájdalmait, nem marketing-mondatokat
+> - Lefolytatsz tíz 20-30 perces beszélgetést egy kész forgatókönyvvel
+> - Gyűjtöd a szó szerinti idézeteket, mert a 6. modul értékesítési szövege ezekből épül
 
 ## Hol tartasz
 

@@ -6,11 +6,11 @@ lastReviewed: "2026-06-09"
 
 > 12 hét alatt felépíted a vállalkozásod online alapját: élő weboldal, foglalható naptár, első megkeresések. Mellékállás mellett, heti 3-5 órából. Én ugyanezt az utat járom — nem tanítok, megmutatom, mit csinálok és mi jön ki belőle.
 
-> **TL;DR** — 12 hét, 4 mérföldkő, 13 core modul + 3 checkpoint: a 12. hét végén éles webhely, lead magnet, funnel, CRM, jogi minimum.
-> - Heti 1 modul + 1 feladat (heti 3-5 óra összesen), kb. 10-12 óra videó-anyag
-> - Eszközköltség 50-100 ezer Ft/év (VS Code ingyen, Claude Code ~$20/hó, Sybell + Workspace + Számlázz.hu)
-> - Reális kimenet: 1-3 ügyfél a saját hálózatból, első év 500-1500 ezer Ft bevétel
-> - Dokumentáló hang, nem tanácsadói — én is most építem, megosztom, mit próbálok
+> **TL;DR** — Ez a bevezető modul. Itt nem építünk semmit, csak átlátod, mi vár rád a 12 hétben, és hogy hogyan érdemes haladni.
+> - 12 hét, 4 nagy szakasz: a végén élő weboldal, foglalható naptár és az első megkeresések
+> - Heti 1 modul + 1 feladat, összesen heti 3-5 óra a saját tempódban
+> - Az eszközök kb. 50-100 ezer Ft-ba kerülnek egy évre
+> - Dokumentáló hang: én is most járom ezt az utat, és megosztom, mi jön ki belőle
 
 ## Mire számíts
 

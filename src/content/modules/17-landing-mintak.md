@@ -4,11 +4,11 @@ lastReviewed: "2026-06-09"
 
 # Referencia-tár · Landing page minták
 
-> **TL;DR** — 6 letölthető Tailwind HTML landing sablon referencia-tárként, mindegyik konkrét célra.
-> - **6 típus**: konzultációs, lead magnet, webinar, szolgáltatás (érték-stack), coming soon (waitlist), long-form sales (Hormozi)
-> - Minden sablon önálló HTML fájl: Tailwind CDN, mobil-barát, magyar `[KITÖLTENDŐ]` placeholderekkel és szekciónkénti kommentekkel
-> - Wireframe-szintű részletek a [Marketing Skiccfüzet](https://marketing-skiccfuzet.vercel.app) testvér-site-on
-> - Egy landing önmagában nem elég — funnel-be kötés a Funnel típusok referencia-modulban
+> **TL;DR** — Ez a modul egy referencia-tár: 6 kész landing oldal sablon, mindegyik más helyzetre. Nem sorban kell végigmenni rajta, akkor nyúlsz hozzá, amikor új ajánlatot vagy kampányt indítasz.
+> - Megnézed, melyik a 6 típus, és melyik helyzethez melyik kell
+> - Letöltöd a hozzá tartozó kész HTML fájlt, és a saját adataidra szabod
+> - Minden sablon mobilra is jól néz ki, és magyar útmutató-kommentek vannak benne, hogy mit írj hova
+> - Megérted, mikor melyik landinget érdemes használni, és mikor NE
 
 ## Modul áttekintés
 

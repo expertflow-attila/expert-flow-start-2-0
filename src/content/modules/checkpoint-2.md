@@ -4,7 +4,7 @@ lastReviewed: "2026-06-09"
 
 # Checkpoint · 7. hét — Megtalálható és foglalható vagy
 
-> A 4-7. modul technikai rétege itt áll össze rendszerré — ettől a ponttól nyilvánosan létezel, ezért mindent élesben ellenőrzünk.
+> A 4-7. modul itt áll össze egy működő rendszerré. Ettől a ponttól nyilvánosan is megtalálható vagy, ezért most mindent élesben, a böngészőből és a telefonodról ellenőrzünk.
 
 ## Ennek most működnie kell
 

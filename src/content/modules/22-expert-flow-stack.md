@@ -6,11 +6,11 @@ lastReviewed: "2026-06-09"
 
 > Egy referencia-tár arról, milyen szolgáltatásokat használok ma az Expert Flow rendszerben. Nem azt mondja, hogy ezeket Neked is használnod kell — csak megmutatja, hova lehet eljutni, ha tovább építkezel a 12 modul után.
 
-> **TL;DR** — Az Expert Flow teljes stack-je: ~52 szolgáltatás 12 kategóriában. Inspiráció, nem to-do lista.
-> - **Alap (1-12. modulokból)**: Vercel, GitHub, Sybell, Google Workspace, Cal.com, Kit, Sheets, GA4, Stripe, Számlázz.hu — havi 1-3M Ft bevételig bőven elég
-> - **18 hónap alatt** építettem fel, nem 18 nap — egyszerre 1-2 új szolgáltatás, ahogy nősz
-> - **Növekedési sávok** sorrendben: AI-routing (OpenRouter), scraping (Apify, Exa), tartalom (fal.ai, ElevenLabs), DB (Supabase), PostHog, ClickUp, Webflow
-> - Ne kezdj most telepíteni — az alap-stack hoz vásárlókat
+> **TL;DR** — Ez egy bónusz tár: megmutatja, milyen szolgáltatásokat használok ma az Expert Flow rendszerben, és milyen sorrendben érdemes bővíteni. Inspiráció, nem teendő-lista.
+> - Megnézed, mi a kezdő alap-stack (amit a 12 modulban már megtanultál), és hogy ez havi 1-3 millió Ft bevételig bőven elég
+> - Végigveszed a 12 szolgáltatás-kategóriát, és látod, melyik mikor válik fontossá, ahogy nősz
+> - Megérted, miért építettem ezt 18 hónap alatt, nem 18 nap alatt — egyszerre 1-2 új eszközzel
+> - A lényeg: most ne kezdj el telepíteni semmit, mert vásárlót az alap-stack hoz, nem a sok eszköz
 
 ## Mire való ez a tár
 
@@ -19,8 +19,6 @@ A 12 építő modul minimális kezdőbarát stack-re épül: Vercel, Cal.com, Ki
 **Az Expert Flow mögött ennél lényegesen több szolgáltatás dolgozik** — nem szükségből, hanem mert menet közben kiderült, hol mire van szükség. Ez a tár a teljes lehetőség-térkép.
 
 **Figyelmeztetés**: ne kezdj most telepíteni. A 12 modulos alap hoz vásárlókat. Ezek fokozatosan jönnek, egyszerre 1-2, ahogy a rendszered nő. Expert Flow stack: ~18 hónap, nem 18 nap.
-
-12 kategória, mindegyikhez 1-3 mondat.
 
 ---
 

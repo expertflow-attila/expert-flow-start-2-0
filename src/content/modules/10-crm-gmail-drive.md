@@ -6,11 +6,11 @@ lastReviewed: "2026-06-09"
 
 > Google Sheets a CRM, Gmail label-struktúra a kommunikációra, Drive struktúra a dokumentumokra — egyetlen logikai egység, ami nélkül a 8. modul ügyfél-szerzése káoszba fullad.
 
-> **TL;DR** — Google Sheets CRM (4 munkalap) + Gmail labelek + Drive mappa-struktúra — egy logikai egység.
-> - **Minimál-verzió**: az első 10 ügyfél-jelöltig elég a 8. modul tracking-táblája — ne építs CRM-katedrálist 3 névre
-> - **Sheets CRM**: Prospects, Consultations, Proposals, Clients — egy ránézésre minden státusz; másolható sablonból indulsz
-> - **Apps Script** (opcionális): Cal.com webhookból új sor, „won" státusz után a sor átkerül a Clients-be (Claude Code generálja)
-> - **Gmail labelek**: `01-Prospects` … `05-Operations`, Drive mappák ugyanezzel a számozással + `[ügyfél-név]/`
+> **TL;DR** — Ebben a modulban rendet raksz az ügyfél-ügyeid körül, hogy semmi ne vesszen el.
+> - Megérted, mikor elég egy egyszerű lista, és mikor érdemes nagyobb rendszert építeni — kevés névhez ne túlbonyolíts
+> - Felépítesz egy ingyenes Google Sheets nyilvántartást, ahol egy ránézésre látod minden ügyfél státuszát
+> - Megnézzük, hogyan lehet a táblát részben automatizálni — de ez opcionális, kézzel is működik
+> - Rendet teszel a Gmailben és a Google Drive-on, hogy bármit pár másodperc alatt megtalálj
 
 ## Hol tartasz
 

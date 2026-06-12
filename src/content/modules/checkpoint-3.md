@@ -4,7 +4,12 @@ lastReviewed: "2026-06-09"
 
 # Checkpoint · 10. hét — Beszélgetéseid és rendszered van
 
-> A 8-10. modul után már nem építesz, hanem működtetsz — itt nézzük meg, hogy a megkeresések és a nyilvántartás tényleg futnak-e.
+> **TL;DR** — A 8-10. modul után már nem építesz, hanem működtetsz. Ez a checkpoint azt ellenőrzi, hogy a rendszered tényleg fut-e:
+>
+> - Kiment-e legalább 5 személyes megkeresés, és nyomon követed-e a 10 nevet egy táblában
+> - Él-e a lead magnet PDF, a feliratkozó form és az 5 welcome-levél
+> - Működik-e a Google Sheets CRM, a Gmail labelek és a Drive mappák
+> - Egy rövid önaudittal megnézed, mit csinálnál másképp a következő körben
 
 ## Ennek most működnie kell
 

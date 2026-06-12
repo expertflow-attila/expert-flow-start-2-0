@@ -4,7 +4,10 @@ lastReviewed: "2026-06-09"
 
 # Checkpoint · 3. hét — Tudod, mit adsz el és kinek
 
-> Itt zárul az alapozás — minden további hét erre a három modulra épül, ezért most ellenőrizzük, hogy tényleg áll-e.
+> **TL;DR** — Itt zárul az alapozó három modul. Ez egy ellenőrző mérföldkő, nem új tananyag:
+> - Egy pipalistán végigmész, hogy tényleg megvan-e az egy mondatod, az avatár-portréd és a 3 csomagod
+> - Egy 5 perces önaudit-kérdéssorral leteszteled, mennyire állnak ezek a saját szavaiddal
+> - Ha valami hiányzik, visszamutatunk a megfelelő modulra — egy hét csúszás itt olcsóbb, mint később
 
 ## Ennek most működnie kell
 

@@ -4,11 +4,11 @@ lastReviewed: "2026-06-09"
 
 # Referencia-tár · AI eszközök / Skill-ek
 
-> **TL;DR** — 6 Claude Code skill konkrét vállalkozási feladatokra: email, landing, lead magnet, CRM, content, avatár.
-> - Skill = `.claude/skills/skill-name/` mappa, benne `SKILL.md` + `reference.md`
-> - `/skill-name` paranccsal aktiválod, magyar nyelven dolgozik
-> - Telepítés: a letöltött két fájlt a `.claude/skills/skill-neve/` mappába rendezed, teszteled, testre szabod
-> - Saját skill 30 perc alatt — ha egy feladatot 3+×-szor csináltál ugyanúgy, érdemes skill-be foglalni
+> **TL;DR** — Ez a modul 6 kész Claude Code skillt ad konkrét vállalkozási feladatokra, és megmutatja, hogyan használd őket.
+> - Megismered a 6 skillt: email-írás, landing copy, lead magnet, CRM-összefoglaló, content, avatár
+> - Megérted, mi az a skill, és hogyan aktiválod (egy mappa a projektedben, `/skill-név` paranccsal hívod)
+> - Letöltöd és telepíted a kész skilleket, majd a saját stílusodra szabod
+> - Megtanulod, hogyan írj saját skillt nulláról, kb. 30 perc alatt
 
 ## Modul áttekintés
 

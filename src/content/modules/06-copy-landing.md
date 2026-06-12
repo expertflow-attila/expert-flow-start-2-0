@@ -6,13 +6,11 @@ lastReviewed: "2026-06-09"
 
 > Copy-modellek, amiket olvastam — nem tanácsadás, hanem közvetítés. Plusz egy különálló landing oldal egy konkrét szolgáltatásra.
 
-> **TL;DR** — Erős copy (Hero + garancia + FAQ + érték-stack) a meglévő weboldalra, plusz egy fókuszált landing.
-> - **A hero-d legjobb mondata nem a tiéd** — a vevőd mondta a 2. modul interjúiban; onnan indulsz
-> - **Hero-headline 10 variációban**: mit kap ő (nem mit csinálsz), különböző érzelmekből, swipefile-ba a maradék
-> - **Garancia + FAQ + érték-stack** — ezek tartják ott az olvasót a Hero után
-> - **Landing ≠ weboldal**: egy szolgáltatás = egy `/szolgaltatas-neve` (`landing.html`), nincs menü, csak CTA
-> - **7-elemes sales-szerkezet** magas árú csomagra: headline, vizuális, benefit, mechanizmus, történet, GYIK, garancia
-> - **„Működik-e" teszt A/B helyett**: 5 ember, 10 másodperc — 3/5 alatt újraírás; egy változat 2 hétig él
+> **TL;DR** — Ezen a héten megírod azt a szöveget, ami valójában eladja a szolgáltatásodat, és építesz egy külön oldalt egy konkrét ajánlatra.
+> - Megtanulod, miért a vevő saját mondataiból indul a legjobb főcím, és hogyan szeded ki ezeket a 2. modul jegyzeteiből
+> - Megírod a weboldalad eladó szekcióit: a nyitó főcímet, a garanciát, a gyakori kérdéseket és az árad mögötti érték felsorolását
+> - Építesz egy külön oldalt (landing) egyetlen szolgáltatásra, ahol nincs menü, csak egy gomb a következő lépésre
+> - Egy egyszerű teszttel ellenőrzöd, hogy a szöveg érthető-e: 5 embernek megmutatod 10 másodpercre, és visszakérdezed, mit értettek
 
 ## Hol tartasz
 

@@ -6,11 +6,11 @@ lastReviewed: "2026-06-09"
 
 > Ahogy ez a kurzus is készült. Az első digitális termék, amit egyedül és AI-vezérelt segédlettel összerakhatsz — három héten belül, 50-100 ezer forint eszköz-költséggel.
 
-> **TL;DR** — Videókurzus AI-vezérelt vágással 3 hét alatt: OBS + Whisper + Claude Code + Mux/Vimeo + Stripe.
-> - **Felvétel**: OBS Studio (ingyen) + USB mikrofon (Fifine/Samson, 15-20 ezer Ft), 1 lecke = 1 take
-> - **Vágás**: Whisper transzkriptből Claude Code javasol jump cut-okat, te DaVinci Resolve-ban vagy FFmpeg-gel vágsz
-> - **Hosztolás + értékesítés**: Mux (10-30 ezer Ft/hó) vagy Vimeo Pro (~10 ezer Ft/hó) + Stripe Payment Link + Kit küldi a belépőt
-> - **Idő**: 1 hét felvétel + 1 hét vágás + 1 hét hosztolás-landing
+> **TL;DR** — Ez a bónusz megmutatja, hogyan rakod össze az első fizetős videókurzusodat egyedül, AI segítségével, körülbelül három hét alatt. Ebben a modulban:
+> - Összerakod a kurzus vázlatát: visszafelé tervezel a végeredménytől a leckékig.
+> - Felveszed a leckéket OBS-szel és egy olcsó USB mikrofonnal.
+> - Megvágod az anyagot AI-val: a leiratból kapsz vágási javaslatokat, te csak végrehajtod.
+> - Kiteszed a videókat egy hosztolóra, és Stripe-linkkel eladhatóvá teszed.
 
 ## A hét témája
 

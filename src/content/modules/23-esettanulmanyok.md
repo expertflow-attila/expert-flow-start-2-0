@@ -6,11 +6,11 @@ lastReviewed: "2026-06-09"
 
 > Magyar nyelvű részletes elemzések 38 nemzetközi kurzus-vállalkozó landing-, email- és sales-anyagairól. Az elmúlt évek alatt összegyűjtött tár, ahonnan minden új landing-építéshez lehet inspirálódni.
 
-> **TL;DR** — Referencia-katalógus 38 nemzetközi szakértő landing-, email- és sales-anyagairól, magyar elemzéssel.
-> - **NEM kötelező olvasmány** — landing/email/sales építéskor nyúlsz hozzá inspirációért
-> - **Kategóriák**: high-ticket coaching, webinár, kurzus-funnel, lead magnet, várólista, membership, tréning program
-> - **Mit nézz**: fókusz (mit kommunikál a hero), struktúra (hány szekció, milyen sorrendben), hosszúság, garancia/FAQ/vélemény blokkok
-> - **Belépőpont**: 6. James Smith (teljes funnel), 21. Amy Porterfield, 27. Justin Welsh
+> **TL;DR** — Ebben a bónusz modulban egy referencia-tárat kapsz: 38 nemzetközi kurzus-vállalkozó landing-, email- és sales-anyagának magyar elemzését.
+> - Nem kötelező végigolvasni — akkor nyúlsz hozzá, amikor saját landinget, emailt vagy sales-oldalt építesz
+> - Több kategóriát lefed: drága coaching, webinár, kurzus-eladás, lead magnet, várólista, tagsági programok, tréningek
+> - Megtanulod, mit érdemes nézni egy idegen landingen: mire fókuszáltak, hány szekcióból áll, milyen hosszú, hogyan írták a garanciát és a FAQ-t
+> - Ha nem tudod, hol kezdd, három belépőpontot ajánlunk: James Smith, Amy Porterfield és Justin Welsh anyaga
 
 ## Miről szól ez a bónusz tár?
 

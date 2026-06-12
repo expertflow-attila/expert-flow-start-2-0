@@ -6,12 +6,11 @@ lastReviewed: "2026-06-09"
 
 > Beszélgetés az AI-jal, nem kódolás. HTML + Tailwind + Vercel — élesben, a saját domaineden, egy délután alatt.
 
-> **TL;DR** — 8 szekciós oldal Claude Code-dal generálva, Vercel-re deployolva, saját domainen, egy délután alatt.
-> - **8 szekció kötött sorrendben**: Hero, Problémák, Megoldás, Rólam, Outcome-ok, Garancia, FAQ, CTA+footer
-> - **Indulhatsz a kész `boilerplate.html`-ből** — kitöltöd a placeholder-szövegeket, nem kell nulláról generálni
-> - **HTML + Tailwind CDN** Claude Code-dal, finomítás 2-3 prompt körrel — 20-30 perc
-> - **Vercel deploy**: GitHubból Vercelre, majd a saját domainre kötve (Sybell A+CNAME) — a DNS-propagáció 1-24 óra, ne aznap estére időzítsd
-> - **CTA mögött Stripe HUF Checkout** (~2% + 50 Ft, NAV-számlát Számlázz.hu-val párosítsd — 12. modul)
+> **TL;DR** — Ezen a héten egy élő, nyolc szekciós weboldalt építesz a saját domaineden, egy délután alatt. Ebben a modulban:
+> - Megérted a nyolc szekciót és a kötött sorrendjüket: Hero, Problémák, Megoldás, Rólam, Outcome-ok, Garancia, FAQ, CTA + footer.
+> - Megépíted az oldalt: vagy a kész `boilerplate.html`-t töltöd ki a saját szövegeiddel, vagy a Claude Code-dal generálod le.
+> - Élesíted: feltöltöd GitHubra, kiteszed a Vercelre, és rákötöd a saját domained.
+> - Fizetést teszel a CTA-gomb mögé Stripe-pal, hogy a vevő rögtön tudjon vásárolni.
 
 ## Hol tartasz
 

@@ -6,12 +6,12 @@ lastReviewed: "2026-06-09"
 
 > Egy mondat, amit kristálytisztán értesz. Plusz három csomag-szint, ahol a középső a fő, a két szélső pedig az árazás peremvonala.
 
-> **TL;DR** — Egy mondat ajánlat + ár, ami a kapacitásodból van visszaszámolva + három csomag anchor-logikával.
-> - 5 elem: vágyott eredmény, időkeret, garancia, érték-stack, egyetlen mondat
-> - Ár-kalkulátor: cél havi bevétel ÷ reális kapacitás = minimum óradíj → ebből a csomagár
-> - Alapító ár: az első 3-5 ügyfél kedvezményt kap referenciáért — "nem olcsó vagyok, hanem korai"
-> - 3 csomag: alsó belépő, középső fő, felső drága anchor — mindegyiknél "kinek való" + "kinek NEM"
-> - Az első verzió garantáltan rossz lesz — az első 5 fizető ügyfél után frissíted
+> **TL;DR** — Ebben a modulban a vevődből és az ígéretedből konkrét, beárazott ajánlatot csinálsz. Megtanulod:
+> - hogyan írj le egy ajánlatot úgy, hogy ígéret legyen, ne szolgáltatás-leírás (öt elemből)
+> - hogyan számold ki az áradat a saját kapacitásodból, ne érzésre
+> - miért adsz az első néhány ügyfelednek kedvezményt, és hogyan mondod ezt ki
+> - hogyan állíts össze három csomagot úgy, hogy a középsőt vegyék a legtöbben
+> - mikor és miért frissítsd az egészet az első fizető ügyfelek után
 
 ## Hol tartasz
 
