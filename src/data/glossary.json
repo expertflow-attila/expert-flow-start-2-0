@@ -37,7 +37,7 @@
   "Cal.com": "ingyenes foglalási rendszer (cal.com) — Google Naptár integrációval, saját URL-en (cal.com/teneved), 1:1 vagy csoportos meetingek, ingyenes az alap-csomag, ~$12/hó Pro szint",
   "Vercel": "ingyenes hoszting és deploy szolgáltatás (vercel.com) — GitHub repóból egy kattintással deploy, automatikus HTTPS, custom domain rákötés, statikus oldalakra és Next.js/Astro projektekre ingyenes, kereskedelmi használatra Pro $20/hó",
   "Kit": "email marketing rendszer (kit.com, korábban ConvertKit) — landing page, broadcast, automation, ingyenes 1000 feliratkozóig, alapfunkciók (form, sequence, broadcast) korlátozás nélkül",
-  "NAV Online Számla 3.0": "A Magyar Nemzeti Adó- és Vámhivatal kötelező e-számla továbbító rendszere. Minden vállalkozónak 2023 óta minden számla adatai 5 percen belül érkeznie kell a NAV szerverére. Számlázz.hu, Billingo, és más NAV-igazolt rendszer automatikusan teljesíti.",
+  "NAV Online Számla 3.0": "A Magyar Nemzeti Adó- és Vámhivatal kötelező e-számla továbbító rendszere. Minden vállalkozónak 2023 óta minden számla adatának 5 percen belül meg kell érkeznie a NAV szerverére. Számlázz.hu, Billingo, és más NAV-igazolt rendszer automatikusan teljesíti.",
   "Barion": "Magyar fizetési feldolgozó (Barion Payment Zrt., MNB-szabályozott). Bankkártya, SimplePay, Apple Pay, Google Pay, banki utalás támogatás. ~1.5-3% díj/tranzakció, fix HUF összeggel. Stripe HUF alternatíva, főleg ha alacsony tranzakciónkénti díj fontos.",
   "SimplePay (OTP)": "OTP Mobil Kft. fizetési gateway-e. Magyar bankkártyák (OTP, Erste, K&H, Raiffeisen) közvetlen feldolgozása, plusz Apple/Google Pay. Az OTP-s ügyfeleknek ismert márka, magasabb conversion rate-et eredményezhet. Díj: ~1.5-2.5%."
 }

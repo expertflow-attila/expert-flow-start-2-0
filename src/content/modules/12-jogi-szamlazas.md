@@ -12,7 +12,7 @@ lastReviewed: "2026-06-09"
 > - Eldöntöd, hogyan fogadsz pénzt: belföldi fizetésre Stripe, külföldire Wise.
 > - Kiteszed a kötelező jogi szövegeket (ÁSZF és adatvédelmi nyilatkozat), és beszélsz egy könyvelővel.
 
-**Utoljára ellenőrizve: 2026-05-15.** A magyar adózási szabályok változnak (a KATA-küszöbtől az ÁFA-szabályokig). Ellenőrizd a NAV oldalán mindig — ez a modul tájékoztató, nem könyvelői tanácsadás.
+**Utoljára ellenőrizve: 2026-06-09.** A magyar adózási szabályok változnak (a KATA-küszöbtől az ÁFA-szabályokig). Ellenőrizd a NAV oldalán mindig — ez a modul tájékoztató, nem könyvelői tanácsadás.
 
 ## Hol tartasz
 
@@ -65,7 +65,7 @@ Magyarországon kezdő szolgáltatóknak három alap-forma jön szóba. A **2022
 
 A saját utamon ezt láttam: ha **csak magánszemélyeknek** szolgáltatsz, főfoglalkozásban, és nem terveznél céges ügyfelet, akkor **KATA** a jó. Ha **céges ügyfeleid (is) lesznek**, vagy mellékállásban indulsz, akkor **EV átalányadóval** indulj. Ha **több alapító és nagy forgalom** jön, akkor **Kft.**
 
-A két példa-szereplőnkön ugyanez a logika: Bence, a fotós magánszemély pároknak számláz — a KATA elvben passzolna, de mellékállásban fotóz, így nála is EV átalányadó marad. Márk, a fejlesztő ügyfelei cégek — nála a KATA szóba sem jöhet, EV átalányadóval indul.
+A két példa-szereplőnkön ugyanez a logika: Bence, a fotós magánszemély pároknak számláz — a KATA elvben passzolna, de mellékállásban fotóz, így nála is EV átalányadó marad. Márk, az automatizálási tanácsadó ügyfelei egyéni vállalkozók és kis csapatok — nála a KATA szóba sem jöhet (kifizetőtől származó bevétel), EV átalányadóval indul.
 
 Mielőtt döntesz, ülj le egy könyvelővel 30 percre — a könyvelői díj (5-15 000 Ft/hó) sokszor megéri a fejtörés árán, és a NAV-szabályok évente változnak.
 

@@ -28,9 +28,9 @@ Egyetlen embert válassz — ismerőst, ügyfelet, akit elképzelsz. Adj neki ne
 - Mikor kel, milyen autóval jár?
 - Mit dolgozik 10-től 5-ig?
 
-A kérdés nem "milyen a vevőm általában", hanem "milyen Anna, aki Pesterzsébeten lakik, két gyerekes, heti 50 órát dolgozik". Ha a portré túl általános lett, kezdd újra a fenti három kérdéssel.
+A kérdés nem "milyen a vevőm általában", hanem "milyen Dóra, aki Kispesten él, kétgyerekes, és esténként a konyhaasztalon számláz". Ha a portré túl általános lett, kezdd újra a fenti három kérdéssel.
 
-Így néz ki ez Katánál, a könyvelőnél az 1. modulból. Az ő egy mondata: "Egyéni vállalkozóknak segítek, hogy ne a NAV-tól rettegve zárják a hónapot." Az avatár-portréja:
+Így néz ki ez Katánál, a könyvelőnél az 1. modulból. Az ő egy mondata: "Én az adózási határidő-káosz megoldásában tudok segíteni a kezdő egyéni vállalkozóknak, mert a saját rendszeremmel évek óta bírság nélkül viszem az ügyfeleimet." Az avatár-portréja:
 
 > Dóra, 38, Kispesten él, kétgyerekes, webshopot visz kézműves ékszerekkel. A számlázást esténként csinálja, Excelben, a konyhaasztalon. Negyedévente jön az áfa-bevallás, és olyankor két éjszakát nem alszik. Tavaly 80 ezer forint bírságot fizetett egy elcsúszott határidő miatt. Nem könyvelőt akar — azt akarja, hogy valaki levegye róla ezt az egészet.
 
@@ -38,11 +38,11 @@ Ez a portré nem statisztika. Egy ember, akinek Kata a fejében hallja a hangjá
 
 ## 02. Mit gondol este 10-kor
 
-Itt válik ki a felszínes avatár a használhatótól. Mire gondol Anna fél tizenegykor a sötét konyhában? Min aggódik? Mit nem mer kimondani — a férjének, az anyjának, magának?
+Itt válik ki a felszínes avatár a használhatótól. Mire gondol Dóra fél tizenegykor a sötét konyhában? Min aggódik? Mit nem mer kimondani — a férjének, az anyjának, magának?
 
 Nem marketing-mondatok — amit ténylegesen mond magának belül. Ezt csak akkor tudod, ha átélted vagy beszélgettél valakivel, aki átélte. A copy — vagyis a weboldalad és a leveleid értékesítési szövege — és az ajánlat innen indul, nem a foglalkozásból.
 
-Dóránál, Kata avatárjánál ez így hangzik: "Megint itt egy számla, amit nem tudok hova tenni. Ha jön egy NAV-levél, azt se tudom majd, mit rontottam el. És erre ma megint nem jutott időm."
+Dóránál, Kata avatárjánál ez így hangzik: "Megint itt ülök a számlákkal, és fogalmam sincs, jól csinálom-e. Ha jön egy NAV-levél, azt se tudom majd, mit rontottam el. És erre ma megint este maradt időm."
 
 Írd le most az avatárod három ilyen mondatát. Ha csak marketing-mondat jut eszedbe ("hatékonyabb szeretne lenni"), az jelzés: beszélgetned kell — erről szól a hét második fele.
 

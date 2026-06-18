@@ -1,6 +1,6 @@
 {
   "slug": "22-expert-flow-stack",
-  "title": "A Solo Business technológiai stack",
+  "title": "Az Expert Flow technológiai stack",
   "subtitle": "52 szolgáltatás · 11 kategória · 18 hónap alatt épült",
   "moduleNum": "Bónusz · 22",
   "phase": "Bónusz · tár",
@@ -10,7 +10,7 @@
     {
       "type": "cover",
       "eyebrow": "Bónusz · 22 · tár",
-      "title": "A Solo Business <em>stack</em>",
+      "title": "Az Expert Flow <em>stack</em>",
       "sub": "52 szolgáltatás 11 kategóriában — mit használok ma, és melyik mikor lép be. Referencia-tár, nem telepítési lista.",
       "meta": [
         { "k": "Hossz", "v": "12-16 perc" },
@@ -23,12 +23,12 @@
       "eyebrow": "Mire való ez a tár",
       "title": "A teljes <em>lehetőség</em>-térkép.",
       "lede": "A 12 építő modul minimális, kezdőbarát stack-re épül — bőven elég az első 5-10 ügyfélig. Ez a tár megmutatja, hova lehet eljutni, ha tovább építkezel.",
-      "body": "<p>A Solo Business rendszer mögött lényegesen több szolgáltatás dolgozik — nem mert szükséges, hanem mert menet közben fokozatosan kiderült, hol mire van szükség.</p>"
+      "body": "<p>Az Expert Flow rendszer mögött lényegesen több szolgáltatás dolgozik — nem mert szükséges, hanem mert menet közben fokozatosan kiderült, hol mire van szükség.</p>"
     },
     {
       "type": "quote",
       "eyebrow": "A legfontosabb intelem",
-      "quote": "Ne kezdj el most ezeket telepíteni. A Solo Business stack-jét 18 hónap alatt építettem fel — nem 18 nap alatt. A túl korai stack-növelés ellenség.",
+      "quote": "Ne kezdj el most ezeket telepíteni. Az Expert Flow stack-jét 18 hónap alatt építettem fel — nem 18 nap alatt. A túl korai stack-növelés ellenség.",
       "cite": "EV-AIOS · 22. bónusz keret"
     },
     {
@@ -98,7 +98,7 @@
       "eyebrow": "11-12. kategória",
       "title": "CMS, weboldal-eszközök, külső integrációk",
       "bullets": [
-        { "t": "Webflow", "s": "No-code CMS, vizuális szerkesztő — ügyfél-blogokhoz, marketingoldalakhoz. Solo Business MCP-vel automatizál." },
+        { "t": "Webflow", "s": "No-code CMS, vizuális szerkesztő — ügyfél-blogokhoz, marketingoldalakhoz. Expert Flow MCP-vel automatizál." },
         { "t": "Vercel · Bitly", "s": "Fejlesztőbarát hoszting + saját webapp; link rövidítő követéssel." },
         { "t": "YouTube Data API", "s": "Videó-feltöltés és statisztika automatizálás — saját YouTube-csatornához (20. bónusz)." }
       ]

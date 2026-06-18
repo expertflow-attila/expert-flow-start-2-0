@@ -23,7 +23,7 @@
     "slug": "18-funnel-tipusok",
     "num": "18.",
     "title": "Funnel típusok — referencia-tár",
-    "summary": "A 4. modul az egyes oldalakkal foglalkozott. Az 5. modul az oldalak ÖSSZEKAPCSOLÁSÁVAL — a teljes utazással, amit egy érdeklődő bejár a webhelyedtől a fizetős ügyfélig.",
+    "summary": "A korábbi modulokban külön-külön megépítetted az oldalakat. Ez a tár azt mutatja meg, hogyan állnak össze egy érdeklődő útjává — a weboldaltól a fizető ügyfélig.",
     "tag": "18",
     "tagKind": "epito",
     "phaseLabel": "Referencia-tár"
@@ -33,7 +33,7 @@
     "slug": "19-ai-eszkozok",
     "num": "19.",
     "title": "AI eszközök / Skill-ek — referencia-tár",
-    "summary": "A 6. modul 6 darab Claude Code skill-t tartalmaz, amelyeket a saját projekt-mappádba telepíthetsz. Mindegyik skill egy konkrét vállalkozási feladatot automatizál.",
+    "summary": "6 telepíthető Claude Code skill — mindegyik egy konkrét vállalkozói feladatot automatizál a saját projekt-mappádban.",
     "tag": "19",
     "tagKind": "epito",
     "phaseLabel": "Referencia-tár"
@@ -53,7 +53,7 @@
     "slug": "21-claude-code-haladok",
     "num": "21.",
     "title": "Claude Code productivity-trükkök magyarul",
-    "summary": "Húsz konkrét trükk három szinten — kezdő, köztes, haladó. A 4. modulban már megtanultad az alapokat; ez a referencia ott segít, amikor mélyebbre mennél (sub-agentek, plan mode, ultrathink, Chrome DevTools MCP, Context7).",
+    "summary": "Húsz konkrét trükk három szinten — kezdő, köztes, haladó. A 4. modulban már megtanultad az alapokat; ez a referencia ott segít, amikor mélyebbre mennél (sub-agentek, plan mode, ultrathink, Playwright MCP, Context7).",
     "tag": "Bónusz",
     "tagKind": "bonus",
     "phaseLabel": "Bónusz tár"

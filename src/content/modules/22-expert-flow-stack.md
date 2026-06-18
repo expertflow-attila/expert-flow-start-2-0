@@ -163,7 +163,7 @@ A `.env`-ben pár olyan kulcs is szerepel, ami az Expert Flow saját ügynöki r
 - 9. modul · Lead magnet és email lista (Kit alapok)
 - 10. modul · CRM és belső rendezés (Google Sheets alapok)
 - 20. bónusz · Videókurzus AI-vágással (Whisper, FFmpeg, Stripe)
-- 21. bónusz · Claude Code productivity-trükkök (Context7, Chrome DevTools MCP)
+- 21. bónusz · Claude Code productivity-trükkök (Context7, Playwright MCP)
 
 ## Heti feladat
 

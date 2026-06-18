@@ -7,7 +7,7 @@ lastReviewed: "2026-06-09"
 > Beszélgetés az AI-jal, nem kódolás. HTML + Tailwind + Vercel — élesben, a saját domaineden, egy délután alatt.
 
 > **TL;DR** — Ezen a héten egy élő, nyolc szekciós weboldalt építesz a saját domaineden, egy délután alatt. Ebben a modulban:
-> - Megérted a nyolc szekciót és a kötött sorrendjüket: Hero, Problémák, Megoldás, Rólam, Outcome-ok, Garancia, FAQ, CTA + footer.
+> - Megérted a nyolc szekciót és a kötött sorrendjüket: Hero, Problémák, Megoldás, Rólam, Eredmények, Garancia, FAQ, CTA + footer.
 > - Megépíted az oldalt: vagy a kész `boilerplate.html`-t töltöd ki a saját szövegeiddel, vagy a Claude Code-dal generálod le.
 > - Élesíted: feltöltöd GitHubra, kiteszed a Vercelre, és rákötöd a saját domained.
 > - Fizetést teszel a CTA-gomb mögé Stripe-pal, hogy a vevő rögtön tudjon vásárolni.
@@ -32,12 +32,12 @@ Kötött sorrendben:
 2. **Problémák** — 3 fájdalom, amit a vevőd érez
 3. **Megoldás** — mit csinálsz
 4. **Rólam** — mini, 3-4 mondat
-5. **Outcome-ok** — mit kap a vevő ténylegesen
+5. **Eredmények** — mit kap a vevő ténylegesen
 6. **Garancia**
 7. **FAQ** — 5-7 kérdés-válasz
 8. **CTA + footer**
 
-Mindegyik szekciónak EGY dolga van — egy érzés, egy felismerés, egy kattintás. Ne tölts mindent mindennel. Az 1-3. modulban már van anyagod: ajánlat 1 mondata adja a Herót, 3 probléma a vevő hangjából, 3 outcome a csomagból. Ha a Rólam-mal indítasz, a látogató rólad olvas, mielőtt tudná, mit nyer vele — itt veszíted el.
+Mindegyik szekciónak EGY dolga van — egy érzés, egy felismerés, egy kattintás. Ne tölts mindent mindennel. Az 1-3. modulban már van anyagod: ajánlat 1 mondata adja a Herót, 3 probléma a vevő hangjából, 3 eredmény a csomagból. Ha a Rólam-mal indítasz, a látogató rólad olvas, mielőtt tudná, mit nyer vele — itt veszíted el.
 
 Mielőtt építesz, nézz meg 2 mintát — [17. modul · Landing page minták](/modules/17-landing-mintak). Ott látod, hogyan néz ki ugyanez a szerkezet kész, működő oldalakon.
 
@@ -100,7 +100,7 @@ Töltsd ki a `boilerplate.html`-t a saját szövegeiddel, vagy generáld le az `
 
 ## Ha elakadtál
 
-- **„Nem tudom, milyen szöveg menjen a szekciókba."** Nem írsz újat: az 1. modul adja a Herót, a 2. modul jegyzetei a Problémákat, a 3. modul csomagjai az Outcome-okat.
+- **„Nem tudom, milyen szöveg menjen a szekciókba."** Nem írsz újat: az 1. modul adja a Herót, a 2. modul jegyzetei a Problémákat, a 3. modul csomagjai az Eredményeket.
 - **„A saját domainen még nem él az oldal."** DNS-propagáció: 1-24 óra normális — addig a `tedneved.vercel.app` címen ellenőrizd, hogy maga az oldal jó-e.
 - **„Telefonon szétesik a layout."** Mondd el a Claude Code-nak pontosan, mi csúszik el — a Tailwind reszponzív osztályokkal (`md:`, `lg:`) javítja.
 - **„Csúnyának érzem."** Az első verziónak nem szépnek kell lennie, hanem érthetőnek — a 17. modul mintáiból lopj szerkezetet, ne díszítést.

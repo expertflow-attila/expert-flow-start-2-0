@@ -77,7 +77,7 @@ const allLearning = [
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "Solo Business",
+  name: "Expert Flow",
   url: "https://expertflow.hu",
   email: "hello@expertflow.hu",
   logo: `${site}favicon.svg`,
@@ -90,19 +90,19 @@ const websiteSchema = {
   name: "Business Start",
   url: site,
   inLanguage: "hu",
-  publisher: { "@type": "Organization", name: "Solo Business", url: "https://expertflow.hu" },
+  publisher: { "@type": "Organization", name: "Expert Flow", url: "https://expertflow.hu" },
 };
 
 const courseSchema = {
   "@context": "https://schema.org",
   "@type": "Course",
   name: "Business Start — 12 hét, ahogy én építem fel a vállalkozásomat",
-  description: "Egyéni vállalkozóknak — a kiindulóponttól egy működő, AI-asszisztált online vállalkozásig — minden modulhoz másolható diasorral. A kurzus végére van weboldalad, lead magneted, konzultációs funneled, CRM-ed, és egy működő AI Operációs Rendszered.",
+  description: "Egyéni vállalkozóknak — a kiindulóponttól egy működő, AI-asszisztált online vállalkozásig — minden modulhoz másolható diasorral. A kurzus végére van weboldalad, lead magneted, konzultációs funneled, CRM-ed — egy működő online alap, amire építhetsz.",
   inLanguage: "hu",
   url: site,
   provider: {
     "@type": "Organization",
-    name: "Solo Business",
+    name: "Expert Flow",
     url: "https://expertflow.hu",
     email: "hello@expertflow.hu",
   },
@@ -138,7 +138,7 @@ const courseSchema = {
 
 <Layout
   title="Business Start — 12 hét, ahogy felépítem a vállalkozásom"
-  description="Egyéni vállalkozóknak — a kiindulóponttól egy működő, AI-asszisztált online vállalkozásig. A kurzus végére van weboldalad, lead magneted, konzultációs funneled, CRM-ed, és egy működő AI Operációs Rendszered."
+  description="Egyéni vállalkozóknak — a kiindulóponttól egy működő, AI-asszisztált online vállalkozásig. A kurzus végére van weboldalad, lead magneted, konzultációs funneled, CRM-ed — egy működő online alap, amire építhetsz."
   schema={[courseSchema, websiteSchema, organizationSchema]}
 >
 

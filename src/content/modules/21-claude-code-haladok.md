@@ -60,7 +60,7 @@ Ne csak parancsokat adj („írj egy függvényt, ami X-et csinál"). Ehelyett a
 
 ### 8. Önellenőrzés a teendő-listán
 
-Amikor a Claude teendő-listát készít a feladathoz, építsd be a verifikációs lépéseket is. Például: (1) Építsd meg a webhelyet, (2) készíts screenshotot és ellenőrizd, hogy jól néz ki, (3) nyisd meg a Chrome DevTools-ot, és győződj meg róla, hogy nincs hiba. Plusz egy szabály: „Ne lépj a következő pontra, amíg nem vagy 95%-os bizonyossággal biztos, hogy az aktuális rendben". Egy 90%-ban jó első nekifutás sokkal többet ér, mint egy 60%-os.
+Amikor a Claude teendő-listát készít a feladathoz, építsd be a verifikációs lépéseket is. Például: (1) Építsd meg a webhelyet, (2) készíts screenshotot és ellenőrizd, hogy jól néz ki, (3) futtass egy headless böngésző-tesztet (Playwright), és győződj meg róla, hogy nincs console-hiba. Plusz egy szabály: „Ne lépj a következő pontra, amíg nem vagy 95%-os bizonyossággal biztos, hogy az aktuális rendben". Egy 90%-ban jó első nekifutás sokkal többet ér, mint egy 60%-os.
 
 **Mikor éri meg:** minden többlépéses feladatnál, ahol egy korai hiba a teljes további munkát elrontaná.
 
@@ -102,9 +102,9 @@ A Claude lát képeket — ez egy nagy feloldás. Adj neki hibaüzenetet, inspir
 
 ## C. Haladó — 5 trükk, ami komoly különbséget hoz
 
-### 16. Chrome DevTools MCP
+### 16. Playwright MCP
 
-Az MCP (Model Context Protocol) egy szabvány, amivel a Claude Code külső eszközökhöz kap hozzáférést. A `https://github.com/ChromeDevTools/chrome-devtools-mcp` MCP szerver telepítésével a Claude Code közvetlenül vezérli a Chrome böngészőt: console-log olvasás, performance audit, screenshot, DOM-inspect, form-kitöltés. Az 5. modul weboldal-tesztelésénél kötelező. Mondat-példa: „Nyisd meg a `localhost:3000`-et, kattints a foglalás-gombra, és nézd meg, kapunk-e hibát a console-ban." Ezt egy prompttal megcsinálja.
+Az MCP (Model Context Protocol) egy szabvány, amivel a Claude Code külső eszközökhöz kap hozzáférést. A `https://github.com/microsoft/playwright-mcp` MCP szerver telepítésével a Claude Code egy headless (felület nélküli, háttérben futó) böngészőben futtat teszteket — látható ablak nyitása nélkül: oldal-betöltés, kattintás-szimuláció, screenshot, console-log olvasás, form-kitöltés. Az 5. modul weboldal-tesztelésénél hasznos. Mondat-példa: „Töltsd be a `localhost:3000`-et, szimuláld a foglalás-gombra kattintást, és nézd meg, kapunk-e hibát a console-ban." Ezt egy prompttal megcsinálja, és nem nyit zavaró böngészőablakot a gépeden.
 
 ### 17. ultrathink — maximális gondolkodási büdzsé
 
@@ -149,7 +149,7 @@ Ha valamelyik felkeltette az érdeklődésedet, érdemes a Claude Code dokument�
 ## Kapcsolódó modulok
 
 - 4. modul, 02. lecke — Claude Code alapok (a kötelező rész, mielőtt ide mész)
-- 5. modul, 02-03. lecke — Chrome DevTools MCP a webhely-építéshez
+- 5. modul, 02-03. lecke — Playwright MCP a webhely-teszteléshez
 - 9. modul — itt használhatod a sub-agenteket az 5 emailes welcome-sorozat generálásához
 
 ## Heti feladat

@@ -166,9 +166,9 @@ Ezt a 8. modulnál fogod élesben alkalmazni, ahol az első konkrét beszélget�
 
 ## 05. A nagyobb kép — az 5 funnel-típus
 
-A konzultációs funnel (más néven Call Funnel) egy az 5 fő funnel-típusból — és nem véletlenül ezzel kezdesz. Élő beszélgetésekben validálod az ajánlatod, mielőtt bármit automatizálnál: hallod a kifogásokat, a szóhasználatot, az árreakciót.
+A konzultációs funnel egy az 5 fő funnel-típusból — és nem véletlenül ezzel kezdesz. Élő beszélgetésekben validálod az ajánlatod, mielőtt bármit automatizálnál: hallod a kifogásokat, a szóhasználatot, az árreakciót.
 
-A másik négy típus (Capture, Educate, Sell, Grow) és a helyes építési sorrend a [18. modulban](/modules/18-funnel-tipusok) van. Ha a heti rendszered él, nézd meg ott, mi jön ezután — de csak utána.
+A másik négy típus (lead magnet, tripwire, kvíz és application funnel) és a helyes építési sorrend a [18. modulban](/modules/18-funnel-tipusok) van. Ha a heti rendszered él, nézd meg ott, mi jön ezután — de csak utána.
 
 ## Én így csináltam
 
@@ -176,7 +176,7 @@ A másik négy típus (Capture, Educate, Sell, Grow) és a helyes építési sor
 
 ## Heti feladat
 
-Állítsd be a Cal.com event type-ot a 3 szűrő-kérdéssel. Másold be a 4 emailt a Workflows-ba, és szabd személyre a `[SZEMÉLYRE SZABD]` részeket. Utána tesztelj idegenként: foglalj próbaidőpontot egy másik email-címről, és nézd végig a teljes láncot.
+Állítsd be a Cal.com event type-ot a 2-3 szűrő-kérdéssel. Másold be a 4 emailt a Workflows-ba, és szabd személyre a `[SZEMÉLYRE SZABD]` részeket. Utána tesztelj idegenként: foglalj próbaidőpontot egy másik email-címről, és nézd végig a teljes láncot.
 
 **Akkor vagy kész, ha** a próbafoglalás után megérkezett a visszaigazoló email a reschedule-linkkel, és mind a négy Workflow aktív.
 

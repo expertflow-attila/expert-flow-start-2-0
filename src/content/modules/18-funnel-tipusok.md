@@ -12,7 +12,7 @@ lastReviewed: "2026-06-09"
 
 ## Modul áttekintés
 
-Az előző referencia-modul (Landing page minták) az egyes oldalakkal foglalkozott. Ez a modul az oldalak ÖSSZEKAPCSOLÁSÁVAL — a teljes utazással, amit egy érdeklődő bejár a webhelytől a fizetős ügyfélig. Ez referencia-tár: 5 fő típust kapsz részletesen, 9 továbbit röviden. Egyszerre több funnel futhat különböző forgalmakra.
+Az előző referencia-modul (Landing page minták) az egyes oldalakkal foglalkozott. Ez a modul az oldalak ÖSSZEKAPCSOLÁSÁVAL — a teljes úttal, amit egy érdeklődő bejár a webhelytől a fizetős ügyfélig. Ez referencia-tár: 5 fő típust kapsz részletesen, 9 továbbit röviden. (A testvér-anyagban 23 funnel-variáció van; itt a 14 leggyakoribbat emeljük ki.) Egyszerre több funnel futhat különböző forgalmakra.
 
 > A részletes funnel-kombinációkat (B2B vs B2C, hideg vs meleg forgalom, magas árú vs alacsony árú) megtalálod a [Funnel Tananyag](https://funnel-tananyag.vercel.app) site-on — ott 23 funnel-típus szerepel, mindegyikhez wireframe + email-sablon + automatizációs javaslat.
 
@@ -89,7 +89,7 @@ Magas bizalom-igényű szolgáltatásnál a hívás a legrövidebb út az első 
 3. Stripe Payment Link, azonnali kézbesítés
 4. Upsell: a fő szolgáltatásod ajánlata a vásárlás után emailben
 
-**Példa:** Márk, a fejlesztő (1. modul) a riport-automatizáló script-sablonját adja el pár ezer forintért. A vásárlók utána emailt kapnak a teljes automatizációs szolgáltatásáról.
+**Példa:** Márk, az automatizálási tanácsadó (1. modul) a riport-automatizáló script-sablonját adja el pár ezer forintért. A vásárlók utána emailt kapnak a teljes automatizációs szolgáltatásáról.
 
 **Mit mérj:** feliratkozó → tripwire-vásárló arány, tripwire-vásárló → fő-ajánlat arány, vásárlásonkénti bevétel.
 
@@ -119,7 +119,7 @@ Magas bizalom-igényű szolgáltatásnál a hívás a legrövidebb út az első 
 4. Hívás-meghívó a kiválasztottaknak, elutasító email a többieknek
 5. Hívás után ajánlat és szerződés
 
-**Példa:** Márk nagyobb automatizációs projekteket csak jelentkezési formon át vállal. A form a cég méretére és a manuális folyamatokra kérdez rá — így a hívásra már csak releváns cégek jutnak.
+**Példa:** Márk nagyobb automatizációs projekteket csak jelentkezési formon át vállal. A form a vállalkozás méretére és a manuális folyamatokra kérdez rá — így a hívásra már csak releváns érdeklődők jutnak.
 
 **Mit mérj:** landing → jelentkezés arány, jelentkezés → minősített arány, hívás → szerződés arány.
 
@@ -139,7 +139,7 @@ Magas bizalom-igényű szolgáltatásnál a hívás a legrövidebb út az első 
 
 ## Fő pontok
 
-- A funnel nem mágia — 3-7 lépésből álló, automatizált utazás. Minden lépés egy konkrét cselekvés a látogató részéről.
+- A funnel nem mágia — 3-7 lépésből álló, automatizált út. Minden lépés egy konkrét cselekvés a látogató részéről.
 - A **konzultációs funnel** az első: a hívás a legrövidebb út az első ügyfélig, és a legtöbbet tanulsz belőle.
 - A **lead magnet funnel** a hosszú távú email-lista építője.
 - A **tripwire** vásárlókat csinál a feliratkozókból, a **kvíz** szegmentál, az **application** szűr.

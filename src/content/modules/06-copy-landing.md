@@ -67,11 +67,11 @@ Az 1. modul három szereplője így fordítja a saját egy-mondatát hero-szekci
 >
 > [Időpontot foglalok]
 
-**Márk, fejlesztő:**
+**Márk, automatizálási tanácsadó:**
 
 > **Heti egy munkanap megy el kézi másolgatásra?**
 >
-> Automatizálom az ismétlődő adminisztrációt kis magyar cégeknél. A riport magától összeáll, a csapatod a tényleges munkával foglalkozik.
+> Automatizálom az ismétlődő adminisztrációt egyéni vállalkozóknak és kis csapatoknak. A számla, a riport, az ügyfél-email magától összeáll, te a tényleges munkáddal foglalkozol.
 >
 > [Megnézzük, mit lehet automatizálni]
 
@@ -99,7 +99,7 @@ A három együtt tartja ott az olvasót. Ha a Hero után üres a folytatás, az 
 
 Egy szolgáltatás = egy landing. Egyik csomagodhoz építesz egy `/szolgaltatas-neve` URL-t (Vercel-en `landing.html` második fájlként). A copy-logika ugyanaz, mint a Hero-nál — csak szigorúbb: minden szó a CTA-kattintásra hajt. Ha célzott forgalmat — például egy posztból érkezőket — a fő weboldalra küldesz landing helyett, a látogató a menüben elkalandozik, és a konkrét akció elmarad.
 
-Példa: Márk, a fejlesztő a `/automatizalas-audit` landingre tereli a LinkedIn-posztjai olvasóit — egy gomb, egy Cal.com-foglalás, semmi más.
+Példa: Márk, az automatizálási tanácsadó a `/automatizalas-audit` landingre tereli a LinkedIn-posztjai olvasóit — egy gomb, egy Cal.com-foglalás, semmi más.
 
 ## 06. A 7-elemes sales-szerkezet — amikor erősebbre veszed
 

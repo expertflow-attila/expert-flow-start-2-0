@@ -44,7 +44,7 @@ Egy skillt válassz elsőnek — azt, amelyik a legtöbb heti idődet viszi. A t
 
 ## Fejezetek
 
-- 0:00 — Bevezető: skill-ek mint újra-felhasználható kódrészletek
+- 0:00 — Bevezető: skill-ek mint újra-felhasználható munkafolyamatok
 - 1:00 — A `.claude/skills/` mappa szerkezete
 - 2:00 — 1. Email-író skill
 - 3:00 — 2. Landing copy generátor skill

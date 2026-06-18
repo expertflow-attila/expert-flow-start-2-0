@@ -30,7 +30,7 @@
       "eyebrow": "A 3 lecke",
       "title": "Mit rakunk a helyére ezen a héten",
       "bullets": [
-        { "t": "A nyolc szekció", "s": "Hero, Problémák, Megoldás, Rólam, Outcome-ok, Garancia, FAQ, CTA. Mindegyiknek egy dolga van." },
+        { "t": "A nyolc szekció", "s": "Hero, Problémák, Megoldás, Rólam, Eredmények, Garancia, FAQ, CTA. Mindegyiknek egy dolga van." },
         { "t": "HTML és Tailwind generálás", "s": "Tailwind CDN-ről egyetlen sorral, nincs build-folyamat. Két körben finomítasz." },
         { "t": "GitHub és Vercel deploy", "s": "Push GitHub-ra, deploy Vercel-re, custom domain rákötés a Sybell DNS-en." }
       ]
@@ -40,7 +40,7 @@
       "eyebrow": "01. lecke",
       "title": "A nyolc <em>szekció</em>",
       "lede": "Egy egyoldalas oldal nyolc szekcióból áll, kötött sorrendben.",
-      "body": "<p>(1) Hero — egy mondatos ígéret + CTA. (2) Problémák — 3 fájdalom a vevőd hangján. (3) Megoldás — mit csinálsz. (4) Rólam — 3-4 mondat. (5) Outcome-ok — mit kap a vevő ténylegesen. (6) Garancia. (7) FAQ — 5-7 kérdés-válasz. (8) CTA + footer.</p><p><strong>Mindegyik szekciónak EGY dolga van.</strong> Ha kettőről próbál szólni, már bonyolult.</p>"
+      "body": "<p>(1) Hero — egy mondatos ígéret + CTA. (2) Problémák — 3 fájdalom a vevőd hangján. (3) Megoldás — mit csinálsz. (4) Rólam — 3-4 mondat. (5) Eredmények — mit kap a vevő ténylegesen. (6) Garancia. (7) FAQ — 5-7 kérdés-válasz. (8) CTA + footer.</p><p><strong>Mindegyik szekciónak EGY dolga van.</strong> Ha kettőről próbál szólni, már bonyolult.</p>"
     },
     {
       "type": "lede",

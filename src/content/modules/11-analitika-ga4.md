@@ -29,7 +29,7 @@ Egy működő mérőrendszer: GA4 a webhelyen, 5 esemény, egy 3 mutatós dashbo
 **Setup**:
 1. `analytics.google.com` regisztráció (Google Workspace-fiókkal)
 2. Új property a domainedhez — a property a webhelyed saját mérő-fiókja a GA4-en belül
-3. Mérőkód (a gtag.js snippet — egy ~8 soros JavaScript-darab) a webhely `<head>`-jébe; Claude Code 30 mp-ben odateszi az `index.html` és `landing.html` fejlécébe
+3. Mérőkód (a gtag.js snippet — egy ~8 soros JavaScript-darab) a webhely `<head>`-jébe; Claude Code 30 mp-ben odateszi az `index.html` (és ha van külön szolgáltatás-landinged, a `landing.html`) fejlécébe
 4. 24 óra várakozás, hogy az adatok megjelenjenek
 
 Onnan a GA4 automatikusan rögzíti: oldal-megjelenítések, az oldalon töltött idő, eszközök, földrajzi hely.
@@ -44,7 +44,7 @@ Az alapon túl „custom event"-ek jönnek — saját események, ahol te dönt�
 2. **scroll_depth** — milyen mélyen görgetnek (50%, 75%, 90%)
 3. **cta_click** — fő CTA-gombok
 4. **booking_click** — Cal.com gomb
-5. **email_signup** — Kit feliratkozás után
+5. **email_signup** — MailerLite feliratkozás után (vagy Kit, ha azt választottad a 9. modulban)
 
 A scroll-sávok nem véletlenek: az 50% azt jelzi, hogy a látogató elolvasta a probléma-szekciót, a 90% azt, hogy látta a CTA-t. A 3-5-höz HTML-be kis JS kell (Claude Code megírja). Egy hét adat után látod, melyik gomb működik.
 
@@ -83,7 +83,7 @@ Az „egyet" a kulcs: ha egyszerre három dolgot változtatsz, sosem tudod meg, 
 
 ## Heti feladat
 
-Telepítsd a GA4 mérőkódot a webhelyre, állítsd be a négy custom eseményt, hozz létre egy riport-dashboardot a fenti három mutatóval, és futtasd le először a 15 perces rutint — akkor is, ha a számok még kicsik.
+Telepítsd a GA4 mérőkódot a webhelyre, állítsd be a négy custom eseményt (a page_view automatikus, ezért marad négy), hozz létre egy riport-dashboardot a fenti három mutatóval, és futtasd le először a 15 perces rutint — akkor is, ha a számok még kicsik.
 
 **Akkor vagy kész, ha** a GA4 Realtime nézetében (az élő nézet, ami az éppen ott lévő látogatókat mutatja) látod a saját látogatásodat, és az „Analytics" lapodon ott az első kitöltött sor a három számmal és a jövő heti EGY változtatással.
 

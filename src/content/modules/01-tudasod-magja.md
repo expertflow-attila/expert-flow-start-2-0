@@ -69,11 +69,11 @@ Kata, Bence és Márk kitalált szereplők, de a helyzetük tipikus. A kurzus v�
 - **Pivot-pont:** rájött, hogy nem a kamera dönt, hanem a fotózás előtti 30 perces beszélgetés. Amióta kérdéssorral készül, az ügyfelei felismerik magukat a képeken.
 - **Egy mondat:** "Én a vállalható profilkép problémájában tudok segíteni a magyar szolgáltató vállalkozóknak, mert kidolgoztam egy előkészítő beszélgetést, amitől nem feszengenek a kamera előtt."
 
-### Márk, fejlesztő
+### Márk, automatizálási tanácsadó
 
-- **Fájdalom-kérdés (3. + előző munkahely):** az előző cégénél a kollégák heti egy napot töltöttek riportok kézi másolgatásával — és ezt mindenki normálisnak tartotta.
-- **Pivot-pont:** írt egy scriptet, ami a riportokat automatikusan állította össze. A csapata heti négy órát nyert vele.
-- **Egy mondat:** "Én az ismétlődő kézi adminisztráció automatizálásában tudok segíteni a kis magyar cégeknek, mert az előző munkahelyemen heti egy munkanapot spóroltam meg vele."
+- **Fájdalom-kérdés (3. + előző munkahely):** látta, hogy az egyéni vállalkozó ismerősei heti egy napot töltenek számlák, riportok, ügyféllevelek kézi másolgatásával — és ezt mindenki normálisnak tartja.
+- **Pivot-pont:** összerakott magának egy automatizálást, ami a visszatérő adminisztrációt elvégzi helyette. Azóta heti egy munkanapot szabadít fel — és ugyanezt építi az ügyfeleinek.
+- **Egy mondat:** "Én az ismétlődő kézi adminisztráció automatizálásában tudok segíteni az egyéni vállalkozóknak és kis csapatoknak, mert magamnak is összeraktam egy rendszert, ami heti egy munkanapomat szabadította fel."
 
 Figyeld meg: mindhárom mondatban konkrét probléma, konkrét ember, saját élmény. Egyik sem szlogen.
 

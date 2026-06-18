@@ -64,7 +64,7 @@ Ha a plan mode-ot kihagyod egy összetett feladatnál, a Claude azonnal nekiáll
 
 Ha a parancsok mennek, nézd meg a kész skilleket — [19. modul · AI eszközök / Skill-ek](/modules/19-ai-eszkozok). Hat előre megírt skill vár konkrét vállalkozási feladatokra.
 
-**Mélyebbre** (teljes parancslista, sub-agentek finomhangolása, ultrathink, Chrome DevTools MCP, Context7 MCP, engedély-kezelés): a `21-claude-code-haladok/` bónusz 20 trükköt sorol fel három szinten.
+**Mélyebbre** (teljes parancslista, sub-agentek finomhangolása, ultrathink, Playwright MCP, Context7 MCP, engedély-kezelés): a `21-claude-code-haladok/` bónusz 20 trükköt sorol fel három szinten.
 
 ## 4b · Csütörtök–péntek: domain + Google Workspace
 
@@ -125,7 +125,7 @@ A modul a saját stackemet írja le, de a kurzus filozófiája egyik konkrét sz
 - **Kit (volt ConvertKit) helyett:** MailerLite (ingyenes 1000 feliratkozóig), Substack (ha újságírói hangod van), Beehiiv (newsletter-fókuszú).
 - **GA4 helyett:** Plausible (privacy-friendly, GDPR-tiszta, ~€9/hó), Fathom (hasonló), Umami (önhosztolt, ingyenes).
 
-A 17-19. tár-anyagok és a 22. bónusz tár (Solo Business stack) több alternatívát is bemutat. Ne ragadj le az eszközválasztáson — két óra mérlegelés, döntés, indulás.
+A 17-19. tár-anyagok és a 22. bónusz tár (Expert Flow stack) több alternatívát is bemutat. Ne ragadj le az eszközválasztáson — két óra mérlegelés, döntés, indulás.
 
 ## Én így csináltam
 

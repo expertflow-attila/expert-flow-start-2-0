@@ -24,7 +24,7 @@ Sorrend kötött:
 2. Problémák (3 fájdalom az avatár hangján)
 3. Megoldás (mit csinálsz)
 4. Rólam mini (3-4 mondat)
-5. Outcome-ok (mit kap a vevő)
+5. Eredmények (mit kap a vevő)
 6. Garancia
 7. FAQ (5-7 kérdés-válasz)
 8. CTA + footer

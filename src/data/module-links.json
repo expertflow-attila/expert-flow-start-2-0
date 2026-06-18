@@ -221,7 +221,7 @@
   "outro": {
     "title": "Hova tovább",
     "links": [
-      { "label": "Solo Business · hello@expertflow.hu", "url": "mailto:hello@expertflow.hu" },
+      { "label": "Expert Flow · hello@expertflow.hu", "url": "mailto:hello@expertflow.hu" },
       { "label": "expertflow.hu", "url": "https://expertflow.hu" },
       { "label": "EV-AIOS · GitHub repo", "url": "https://github.com/attilanagy23/EV-AIOS" },
       { "label": "Claude Marketplaces", "url": "https://claudemarketplaces.com" },

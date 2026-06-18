@@ -24,7 +24,7 @@ Egy 90 napos iterációs tervet: ár-emelési küszöb, szegmens-önértékelő 
 
 Az indulási árad szándékosan alacsony volt — a 3. modulban ezt így döntöttük el. A szabály: **az 5. fizető ügyfél után emelsz 20-30%-ot.** Öt ügyfél elég bizonyíték arra, hogy az ajánlat működik, és van mire hivatkoznod.
 
-Márk, a fejlesztő 180 000 Ft-os csomaggal indult. Az 5. ügyfél után 230 000-re emelt — a két régi ügyfele 6 hónapig a régi árat fizette, és egyikük sem ment el. Az új érdeklődők az új árat hallották, és nem kérdeztek rá a régire.
+Márk, az automatizálási tanácsadó 180 000 Ft-os csomaggal indult. Az 5. ügyfél után 230 000-re emelt — a két régi ügyfele 6 hónapig a régi árat fizette, és egyikük sem ment el. Az új érdeklődők az új árat hallották, és nem kérdeztek rá a régire.
 
 Két külön kommunikáció kell:
 

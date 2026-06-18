@@ -104,7 +104,7 @@ Egyetlen kép, mottó, email-form. "Valami készül, írj fel a listára, ha ké
 - **Mikor NE használd:** ha még a termék-ötlet sincs kalibrálva — akkor először 5 interjút csinálj a célközönséggel, ne weboldalt
 - **Letölthető sablon:** `coming-soon-landing.html` — a modul oldalán, a letöltések között
 - A sablon kommentjei megmondják, melyik szekcióba mit írj — a szövegeket a 6. modul módszerével írd meg.
-- Példa: a [Solo Business Library](https://expert-flow-school.vercel.app) launch coming-soon fázisa
+- Példa: az [Expert Flow Library](https://expert-flow-school.vercel.app) launch coming-soon fázisa
 
 ### 6. Long-form sales landing — Hormozi-style ajánlat-oldal
 

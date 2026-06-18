@@ -86,7 +86,7 @@
       "eyebrow": "C. szint · haladó (16-18)",
       "title": "5 trükk, ami komoly különbséget hoz · I.",
       "bullets": [
-        { "t": "16. Chrome DevTools MCP", "s": "Console-log, performance audit, screenshot, DOM-inspect, form-kitöltés. Az 5. modulnál kötelező." },
+        { "t": "16. Playwright MCP", "s": "Automatizált böngésző-teszt headless módban: oldal-betöltés, kattintás, screenshot, console-log — látható ablak nyitása nélkül. Az 5. modulnál hasznos." },
         { "t": "17. ultrathink — max gondolkodási büdzsé", "s": "~32 000 tokenes thinking. Architektúra-döntésnél, komplex debug-nál — nem hibajavításra." },
         { "t": "18. Engedélyek finomhangolása", "s": "settings.json: explicit allow biztonságos parancsoknak, deny destruktívokra. Ne --dangerously-skip-permissions." }
       ]
