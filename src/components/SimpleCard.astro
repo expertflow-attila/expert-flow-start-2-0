@@ -7,10 +7,13 @@ interface Props {
   tag: string;
   tagKind: "intro" | "epito" | "bonus";
   phaseLabel: string;
+  /** Force the blue "support track" tag (checkpoints, reference library). */
+  accent2?: boolean;
 }
-const { slug, num, title, summary, tag, tagKind, phaseLabel } = Astro.props;
+const { slug, num, title, summary, tag, tagKind, phaseLabel, accent2 = false } = Astro.props;
 
-const tagClass = tagKind === "bonus" ? "cat-tag bonus" : "cat-tag";
+const tagClass =
+  tagKind === "bonus" ? "cat-tag bonus" : accent2 ? "cat-tag cat-tag--blue" : "cat-tag";
 const url = `/modules/${slug}`;
 ---
 

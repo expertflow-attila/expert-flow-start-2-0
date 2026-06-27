@@ -143,11 +143,21 @@ const courseSchema = {
 >
 
   <header class="hero">
+    <span class="hero-eyebrow">Ingyenes kurzus · 12 hét</span>
     <h1>Business <em>Start</em></h1>
     <p class="lede">
       Egyéni vállalkozóknak — a kiindulóponttól egy működő,
       AI-asszisztált online vállalkozásig. Saját kezűleg, dokumentáló hangon.
     </p>
+    <div class="hero-ctas">
+      <a class="hero-cta" href="#modulok"><span>Nézd meg a modulokat</span><span class="arrow">→</span></a>
+    </div>
+    <div class="stats" aria-label="A kurzus számokban">
+      <div class="stat"><b>12</b><span>hét, lépésről lépésre</span></div>
+      <div class="stat"><b>13</b><span>fő építő-modul</span></div>
+      <div class="stat"><b>10</b><span>tár + bónusz</span></div>
+      <div class="stat"><b>0 Ft</b><span>ingyenes</span></div>
+    </div>
   </header>
 
   <div class="container" id="modulok">
@@ -187,6 +197,7 @@ const courseSchema = {
                     tag={checkpointById(phase.cpId)!.tag}
                     tagKind={checkpointById(phase.cpId)!.tagKind}
                     phaseLabel={checkpointById(phase.cpId)!.phaseLabel}
+                    accent2
                   />
                 )}
               </>
@@ -210,6 +221,7 @@ const courseSchema = {
             tag={r.tag}
             tagKind={r.tagKind}
             phaseLabel={r.phaseLabel}
+            accent2
           />
         ))}
       </div>

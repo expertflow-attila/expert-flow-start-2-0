@@ -38,7 +38,7 @@
   text-transform: uppercase;
   color: var(--text-dim);
   font-weight: 500;
-  background: linear-gradient(180deg, rgba(10, 10, 12, 0.95), rgba(10, 10, 12, 0));
+  background: linear-gradient(180deg, rgba(245, 244, 241, 0.96), rgba(245, 244, 241, 0));
   pointer-events: none;
 }
 .deck-topbar a, .deck-topbar button { pointer-events: auto; }
@@ -64,8 +64,8 @@
   background: transparent;
   border: 1px solid var(--border-cell, var(--border));
   color: var(--text-muted);
-  padding: 11px 14px;
-  border-radius: 2px;
+  padding: 11px 18px;
+  border-radius: var(--radius-pill);
   font-family: var(--font-mono);
   font-size: 11px;
   letter-spacing: 0.16em;
@@ -86,7 +86,7 @@
   top: 0; left: 0;
   height: 2px;
   background: var(--accent);
-  box-shadow: 0 0 4px rgba(185, 167, 224, 0.2);
+  box-shadow: 0 0 6px rgba(121, 180, 230, 0.45);
   z-index: 40;
   transition: width 0.4s cubic-bezier(0.22, 1, 0.36, 1);
   width: 0%;
@@ -224,7 +224,7 @@
 .slide__code {
   background: var(--bg-elev-2);
   border: 1px solid var(--border-cell, var(--border));
-  border-radius: 0;
+  border-radius: var(--radius);
   padding: 24px 28px;
   font-family: var(--font-mono);
   font-size: clamp(13px, 1vw, 16px);
@@ -343,7 +343,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 18px 28px;
-  background: linear-gradient(0deg, rgba(10, 10, 12, 0.92), rgba(10, 10, 12, 0));
+  background: linear-gradient(0deg, rgba(245, 244, 241, 0.94), rgba(245, 244, 241, 0));
   pointer-events: none;
 }
 .deck-controls__hint {
@@ -408,9 +408,10 @@
 .decks-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; }
 .deck-link {
   position: relative;
-  background: transparent;
-  border: 1px solid var(--border-cell, var(--border));
-  border-radius: 0;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
   padding: 22px 22px;
   text-decoration: none;
   color: var(--text);

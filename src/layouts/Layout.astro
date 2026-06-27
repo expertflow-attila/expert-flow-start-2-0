@@ -23,7 +23,7 @@ const schemaJson = schema
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="description" content={description} />
-    <meta name="theme-color" content="#0a0a0c" />
+    <meta name="theme-color" content="#f5f4f1" />
     <meta name="generator" content={Astro.generator} />
     {noindex
       ? <meta name="robots" content="noindex,follow" />
@@ -56,7 +56,7 @@ const schemaJson = schema
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
     />
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -109,17 +109,18 @@ const schemaJson = schema
 
       <slot />
 
-      <footer class="g g-foot foot">
-        <div class="gc">
-          <span class="label-sm">Business Start</span>
-          <span class="label-sm accent">12 hét</span>
-        </div>
-        <div class="gc">
-          <a href="mailto:hello@expertflow.hu" class="label-sm with-arrow">hello@expertflow.hu</a>
-        </div>
-        <div class="gc">
-          <span class="label-sm dim">© 2026 · Expert Flow</span>
-          <span class="label-sm dim">Az Expert Flow Nagy Attila munkája.</span>
+      <footer class="site-footer">
+        <div class="site-footer__inner">
+          <div class="site-footer__top">
+            <span class="site-footer__wordmark">Business Start</span>
+            <a href="mailto:hello@expertflow.hu" class="hero-cta site-footer__cta">
+              <span>Írj nekem</span><span class="arrow">→</span>
+            </a>
+          </div>
+          <div class="site-footer__meta">
+            <span class="label-sm">12 hét — ahogy felépítem a vállalkozásom</span>
+            <span class="label-sm">© 2026 · Expert Flow — Nagy Attila</span>
+          </div>
         </div>
       </footer>
 
